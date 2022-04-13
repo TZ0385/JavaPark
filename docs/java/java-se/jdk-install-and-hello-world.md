@@ -1,5 +1,6 @@
 ---
 title: Java 开发环境搭建及入门 Hello World 程序
+copyright: true
 description: Java 菜鸟入门系列教程第一篇，主要针对初学者应该如何搭建自己的 Java 开发环境，然后编写最经典的 Hello World 入门程序！
 tags:
   - Java
@@ -8,7 +9,7 @@ categories:
   - Java 菜鸟入门
 abbrlink: 9a989e71
 date: 2022-01-11 10:42:38
-
+stick:
 ---
 
 
@@ -204,6 +205,6 @@ public class Main{
 
 然后编写了我们的第一个 `Hello World` 程序，并利用安装好的的 JDK 对其进行编译和运行。最后，则是对我们的 `Hello World` 程序中的相关知识进行了介绍。
 
-<center><b><font color="red">关注公众号，获取最新文章更新</font></b></center>
+**关注公众号，获取最新文章更新**
 
-<center><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" /></center>
+<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

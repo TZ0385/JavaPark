@@ -1,9 +1,9 @@
 import { defineSidebarConfig } from "vuepress-theme-hope";
 
 export default defineSidebarConfig([
-  // "",
+  "",
   // "home",
-  // "slide",
+  "slide",
   {
     text: "Java",
     icon: "java",
@@ -12,116 +12,82 @@ export default defineSidebarConfig([
     children: [
       {
         text: "Java SE",
+        prefix: "java-se/",
         icon: "basic",
         collapsable: true,
-        prefix: "java-se/",
         children: [
-          "1",
-          "2"
+          "jdk-install-and-hello-world",
+          "learn-java-with-idea",
+          "variable-and-datatype",
+          "operator",
+          "control-process",
+          "how-to-operate-array",
+          "oop-1",
+          "oop-2",
+          "all-kinds-of-variable",
+          "in-out-stream",
+          "reflection",
+          "annotations",
+          "jdbc-introduction",
+          "test-with-junit",
+          "lombok-install-and-usage",
         ],
       },
       {
-        text: "Java SE",
+        text: "Spring Boot",
+        prefix: "spring-boot/",
         icon: "basic",
         collapsable: true,
-        prefix: "java-se/",
         children: [
-          "1",
-          "2"
-        ],
-      }
-    ],
-  },
-  {
-    text: "计算机基础",
-    icon: "computer",
-    prefix: "cs-basics/",
-    collapsable: true,
-    children: [
-      {
-        text: "网络",
-        prefix: "network/",
-        icon: "network",
-        collapsable: true,
-        children: [
-        ],
-      },
-      {
-        text: "操作系统",
-        prefix: "operating-system/",
-        icon: "caozuoxitong",
-        collapsable: true,
-        children: [
-        ],
-      },
-      {
-        text: "数据结构",
-        prefix: "data-structure/",
-        icon: "people-network-full",
-        collapsable: true,
-        children: [
-        ],
-      },
-      {
-        text: "算法",
-        prefix: "algorithms/",
-        icon: "suanfaku",
-        collapsable: true,
-        children: [
+          "introduction",
+          "the-methods-to-create-springboot-project",
+          "configuration",
+          "integrated-swagger2",
+          "integrated-swagger3",
+          "integrated-freemarker",
+          "integrated-thymeleaf",
         ],
       },
     ],
   },
-  {
-    text: "数据库",
-    icon: "database",
-    prefix: "database/",
-    collapsable: true,
-    children: [
-      "basis",
-      "character-set",
-      {
-        text: "MySQL",
-        prefix: "mysql/",
-        icon: "mysql",
-        collapsable: true,
-        children: [
-          "mysql-questions-01",
-          "a-thousand-lines-of-mysql-study-notes",
-          "mysql-high-performance-optimization-specification-recommendations",
-        ],
-      },
-      {
-        text: "Redis",
-        prefix: "redis/",
-        icon: "redis",
-        collapsable: true,
-        children: [
-          "redis-questions-01",
-          {
-            text: "重要知识点",
-            icon: "important",
-            collapsable: true,
-            children: [
-              "3-commonly-used-cache-read-and-write-strategies",
-              "redis-memory-fragmentation",
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    text: "开发工具",
-    icon: "Tools",
-    prefix: "tools/",
-    collapsable: true,
-    children: [
-      {
-        text: "IDEA",
-        icon: "intellijidea",
-        children: ["docker-intro", "docker-in-action"],
-      },
-    ],
-  },
+
+  // {
+  //   text: "如何使用",
+  //   icon: "creative",
+  //   prefix: "guide/",
+  //   link: "guide/",
+  //   children: "structure",
+  // },
+  // {
+  //   text: "文章",
+  //   icon: "note",
+  //   prefix: "posts/",
+  //   children: [
+  //     {
+  //       text: "文章 1-4",
+  //       icon: "note",
+  //       collapsable: true,
+  //       prefix: "article/",
+  //       children: ["article1", "article2", "article3", "article4"],
+  //     },
+  //     {
+  //       text: "文章 5-12",
+  //       icon: "note",
+  //       children: [
+  //         {
+  //           text: "文章 5-8",
+  //           icon: "note",
+  //           collapsable: true,
+  //           prefix: "article/",
+  //           children: ["article5", "article6", "article7", "article8"],
+  //         },
+  //         {
+  //           text: "文章 9-12",
+  //           icon: "note",
+  //           children: ["article9", "article10", "article11", "article12"],
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 ]);

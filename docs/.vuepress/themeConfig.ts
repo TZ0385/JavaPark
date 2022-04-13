@@ -3,13 +3,13 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default defineThemeConfig({
-  hostname: "https://cunyu1943.github.io",
+  hostname: "https://cunyu1943.github.io/JavaPark",
+  triggerWords: 30,
 
   author: {
     name: "村雨遥",
-    url: "https://cunyu1943.github.io",
+    url: "https://cunyu1943.github.io/JavaPark",
   },
-  darkmode: "auto-switch",
 
   iconPrefix: "iconfont icon-",
 
@@ -17,7 +17,7 @@ export default defineThemeConfig({
 
   repo: "cunyu1943/JavaPark",
 
-  docsDir: "demo/src",
+  docsDir: "docs/",
 
   // navbar
   navbar: navbar,
@@ -25,55 +25,75 @@ export default defineThemeConfig({
   // sidebar
   sidebar: sidebar,
 
-  footer: "公众号：村雨遥",
+  footer: "更多精彩内容，敬请关注公众号：「村雨遥」",
 
   displayFooter: true,
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","Word"],
 
+  // 博客信息
   blog: {
-    description: "一个前端开发者",
-    intro: "/intro.html",
+    description: "CSDN 博客专家、阿里云专家博主、华为云云享专家",
+    // intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "https://example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "https://example.com",
-      Instagram: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
+      // Baidu: "https://example.com",
+      // Bitbucket: "https://example.com",
+      // Dingding: "https://example.com",
+      // Discord: "https://example.com",
+      // Dribbble: "https://example.com",
+      Email: "mailto:747731461@qq.com",
+      // Evernote: "https://example.com",
+      // Facebook: "https://example.com",
+      // Flipboard: "https://example.com",
+      Gitee: "https://gitee.com/cunyu1943",
+      GitHub: "https://github.com/cunyu1943",
+      // Gitlab: "https://example.com",
+      // Gmail: "https://example.com",
+      // Instagram: "https://example.com",
+      // Lines: "https://example.com",
+      // Linkedin: "https://example.com",
+      // Pinterest: "https://example.com",
+      // Pocket: "https://example.com",
+      // QQ: "https://example.com",
+      // Qzone: "https://example.com",
+      // Reddit: "https://example.com",
+      // Rss: "https://example.com",
+      // Steam: "https://example.com",
+      // Twitter: "https://example.com",
+      Wechat: "cunyu1943",
+      // Weibo: "https://example.com",
+      // Whatsapp: "https://example.com",
+      // Youtube: "https://example.com",
+      Zhihu: "https://www.zhihu.com/people/cunyu1943",
     },
   },
 
-  encrypt: {
-    config: {
-      "/guide/encrypt.html": ["1234"],
-    },
-  },
+  // 加密
+  // encrypt: {
+  //   config: {
+  //     "/java/": ["1234"],
+  //   },
+  // },
 
   plugins: {
+
+    // Feed 支持
+    feed: {
+      atom: true,
+      json: true,
+      rss: true,
+    },
+
+    // 版权信息
+    copyright: true,
+    search: {
+      locales: {
+        "/zh/": {
+          placeholder: "搜索",
+        },
+      },
+    },
+
     blog: {
       autoExcerpt: true,
     },
@@ -85,11 +105,11 @@ export default defineThemeConfig({
       /**
        * Using giscus
        */
-      type: "giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      // type: "giscus",
+      // repo: "vuepress-theme-hope/giscus-discussions",
+      // repoId: "R_kgDOG_Pt2A",
+      // category: "Announcements",
+      // categoryId: "DIC_kwDOG_Pt2M4COD69",
 
       /**
        * Using twikoo
@@ -100,8 +120,8 @@ export default defineThemeConfig({
       /**
        * Using Waline
        */
-      // type: "waline",
-      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      type: "waline",
+      serverURL: "https://waline-bz1ai9zkr-cunyu1943.vercel.app/",
     },
 
     mdEnhance: {

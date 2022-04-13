@@ -181,6 +181,6 @@ Hello World!
 
 这里如果您想了解 IDEA 的更多使用技巧，可以关注一下，后边我会抽空写一个完整的教程系列，敬请期待吧，您要是等不及了，那就加我微信来催我更文吧！
 
-<center><b><font color="red">关注公众号，获取最新文章更新</font></b></center>
+**关注公众号，获取最新文章更新**
 
-<center><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" /></center>
+<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

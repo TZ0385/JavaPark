@@ -4,17 +4,16 @@ import themeConfig from "./themeConfig";
 export default defineHopeConfig({
   lang: "zh-CN",
   title: "JavaPark",
-  description: "Java 自学之路！",
+  description: "Java 自学编程之路",
 
-  base: "/",
+  base: "/JavaPark/",
 
   head: [
     [
       "link",
       {
         rel: "stylesheet",
-        // href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
-        href: "//at.alicdn.com/t/font_2922463_99aa80ii7cf.css",
+        href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
       },
     ],
   ],
