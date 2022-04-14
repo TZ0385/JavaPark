@@ -1,16 +1,12 @@
 ---
 title: Spring Boot 集成 Swagger2，构建强大的 API 文档
-copyright: true
-description: 主要对 Swagger 进行了简单介绍，并用 Spring Boot 集成 Swagger，同时还进行简单的测试，构建我们自己的 API 接口文档。
-tags:
+isOriginal: true
+tag:
   - Swagger
   - Spring Boot
-categories:
+category:
   - Spring Boot 基础教程
-abbrlink: 3bab67e7
 date: 2022-01-06 09:01:56
-stick:
-
 ---
 
 

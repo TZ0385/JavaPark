@@ -1,16 +1,12 @@
 ---
 title: Spring Boot 使用 Swagger3 生成 API 接口文档
-copyright: true
-description: >-
-  主要介绍如何使用 Spring Boot 集成 Swagger3，构建我们自己的 API 接口文档，并对比了 Swagger2 和 Swagger3 的区别，让我们从 Swagger2 向 Swagger3 过渡更加顺滑。
-tags:
+isOriginal: true
+tag:
   - Swagger
   - Spring Boot
-categories:
+category:
   - Spring Boot 基础教程
-abbrlink: b7a128a8
 date: 2022-01-08 21:01:40
-stick:
 ---
 
 ## 前言

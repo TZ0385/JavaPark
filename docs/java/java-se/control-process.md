@@ -1,15 +1,11 @@
 ---
 title: Java 控制流程
-copyright: true
-description: >-
-  在实际的代码中，经常需要做条件判断、循环等操作。因此，需要有多种流程控制语句，来实现程序的跳转和循环工作。那么今天，我们就来学习 Java 中控制流程相关知识。
-tags:
+isOriginal: true
+tag:
   - Java
-categories:
+category:
   - Java 菜鸟入门
-abbrlink: 3001f153
 date: 2022-01-15 11:14:50
-stick:
 ---
 
 ## 往期推荐

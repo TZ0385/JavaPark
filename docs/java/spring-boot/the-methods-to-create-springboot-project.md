@@ -1,14 +1,11 @@
 ---
 title: 创建 SpringBoot 项目的 3 种方式
-copyright: true
-description: 上一篇中我们讲了 Spring Boot 的一些特点及优缺点，这一篇我们就来看看，如何创建一个最简单的 Spring Boot 项目！
-tags:
+isOriginal: true
+tag:
   - Spring Boot
-categories:
+category:
   - Spring Boot 基础教程
-abbrlink: 75014e8a
 date: 2022-01-09 15:51:15
-stick:
 ---
 
 ## 前言

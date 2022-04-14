@@ -1,13 +1,10 @@
 ---
 title: 成员变量、实例变量、静态变量、局部变量？
-copyright: true
-abbrlink: 8d7903a0
+isOriginal: true
 date: 2022-01-15 22:07:48
-stick:
-description: 刚开始学习的你，是不是被这几个概念弄得晕头转向。如果你也对它们感到很疑惑，那就进来瞅一眼吧。
-tags:
+tag:
     - Java
-categories:
+category:
     - Java 菜鸟入门
 ---
 

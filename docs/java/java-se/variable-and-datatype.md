@@ -1,14 +1,11 @@
 ---
 title: Java 中的变量与数据类型
-copyright: true
-description: 继前两篇文章之后，本文集中介绍了 Java 中的变量、数据类型、变量作用域以及常量等主要知识点。
-tags:
+isOriginal: true
+tag:
   - Java
-categories:
+category:
   - Java 菜鸟入门
-abbrlink: c6412b1
 date: 2022-01-11 22:28:36
-stick:
 ---
 
 

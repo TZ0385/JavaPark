@@ -1,14 +1,11 @@
 ---
 title: Java 操作符
-copyright: true
-description: 学习了 Java 中的变量和数据类型的相关知识，今天就继续来看看，Java 中的操作符都有哪些。
-tags:
+isOriginal: true
+tag:
   - Java
-categories:
+category:
   - Java 菜鸟入门
-abbrlink: 867c013b
 date: 2022-01-15 11:05:04
-stick:
 ---
 
 ## 前言

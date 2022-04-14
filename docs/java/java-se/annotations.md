@@ -1,16 +1,12 @@
 ---
 title: 深入浅出 Java 注解
-published: true
-copyright: true
-description: 所谓注解，就是一种能被添加到 Java 中的元数据。可以用它来修饰类、方法、变量等，但却对于修饰的代码造成直接影响，你知道这是为什么么？
-tags:
+isOriginal: true
+tag:
   - Java
   - 注解
-categories:
+category:
   - Java 菜鸟入门
-abbrlink: 999a8f74
 date: 2022-02-27 09:16:21
-stick:
 ---
 
 ## 注解简介

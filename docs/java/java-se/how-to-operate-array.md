@@ -1,13 +1,10 @@
 ---
 title: 数组操作的奇技淫巧
-copyright: true
-categories:
+isOriginal: true
+category:
   - Java 菜鸟入门
-abbrlink: 5ccf02f0
 date: 2022-01-15 11:28:39
-stick:
-description: 之前在变量和数据类型章节，我们了解了 Java 中的 8 大基本数据类型，同时也介绍了引用类型，今天就来看看引用类型中的数组相关的使用技巧。
-tags:
+tag:
     - Java
 ---
 

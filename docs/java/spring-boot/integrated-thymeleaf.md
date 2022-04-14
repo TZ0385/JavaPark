@@ -1,17 +1,12 @@
 ---
 title: SpringBoot 整合 Thymeleaf 实例
-copyright: true
-description: >-
-  本文以实例出发，从添加依赖，编写实体类和 Controller，创建 Thymeleaf 模板以及测试等步骤一步步讲述了如何利用 Spring Boot
-  整合 Thymeleaf，开启我们的 Web 开发之旅~
-tags:
+isOriginal: true
+tag:
   - SpringBoot
   - Thymeleaf
-categories:
+category:
   - Spring Boot 基础教程
-abbrlink: 66ebc5f2
 date: 2022-01-09 16:17:16
-stick:
 ---
 
 ## 什么是 Thymeleaf

@@ -1,14 +1,11 @@
 ---
 title: 是时候拥抱 Junit 单元测试了！
-copyright: true
-abbrlink: e6dc1618
 date: 2022-01-16 09:21:33
-stick:
-description: 前后端分离时代，你是否还在为你的后端单元测试而发愁？如果你还在等着前端程序来测试，那建议了解一下 Junit，自己先测试一遍再交给别人测试。
-tags:
+isOriginal: true
+tag:
     - Java
     - Junit
-categories:
+category:
     - Java 菜鸟入门
 ---
 

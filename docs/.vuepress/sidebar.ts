@@ -13,7 +13,7 @@ export default defineSidebarConfig([
       {
         text: "Java SE",
         prefix: "java-se/",
-        icon: "basic",
+        icon: "java",
         collapsable: true,
         children: [
           "jdk-install-and-hello-world",
@@ -36,7 +36,7 @@ export default defineSidebarConfig([
       {
         text: "Spring Boot",
         prefix: "spring-boot/",
-        icon: "basic",
+        icon: "leaf",
         collapsable: true,
         children: [
           "introduction",
@@ -46,6 +46,26 @@ export default defineSidebarConfig([
           "integrated-swagger3",
           "integrated-freemarker",
           "integrated-thymeleaf",
+        ],
+      },
+    ],
+  },
+  {
+    text: "效率工具",
+    icon: "tool",
+    prefix: "efficiency/",
+    collapsable: true,
+    children: [
+      {
+        text: "博客搭建",
+        prefix: "blog/",
+        icon: "blog",
+        collapsable: true,
+        children: [
+          "hexo",
+          "halo",
+          "vuepress-github-action",
+          "docsify",
         ],
       },
     ],

@@ -1,14 +1,11 @@
 ---
 title: Java 中的面向对象（上）
-copyright: true
-tags:
+tag:
   - Java
-categories:
+category:
   - Java 菜鸟入门
-abbrlink: ad2c67c7
 date: 2022-01-15 11:31:47
-stick:
-description: 如果你之前有学习 C 语言等编程语言的基础，经过上面章节的学习之后，你会发现其实大多和 C 语言中的知识点类型，可能就是细微的区别，而今天，我们就要来看看，Java 对比 C 语言的最大不同，也即面向对象思想的引入。
+isOriginal: true
 ---
 
 ## 前言

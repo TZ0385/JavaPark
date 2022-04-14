@@ -1,16 +1,11 @@
 ---
 title: Spring Boot 入门简介
-copyright: true
-description: >-
-  作为 Spring Boot 基础教程的开篇，本文主要介绍了 Spring Boot 的定义、特点以及它的优缺点，并探讨了我们为何要使用 Spring
-  Boot 这一利器，使用它又能给我们带来什么好处。
-tags:
+isOriginal: true
+tag:
   - Spring Boot
-categories:
+category:
   - Spring Boot 基础教程
-abbrlink: 3e4a8bb6
 date: 2022-01-09 15:51:53
-stick:
 ---
 
 ## 前言

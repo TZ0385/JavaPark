@@ -1,15 +1,13 @@
 ---
 title: Spring Boot 整合 FreeMarker 实例
-copyright: true
-description: 本文以一个小 demo 来作示例，来看看如何整合 Spring Boot 和 FreeMarker.
-tags:
+isOriginal: true
+tag:
   - SpringBoot
   - FreeMarker
-categories:
+category:
   - Spring Boot 基础教程
-abbrlink: '46861e73'
 date: 2021-12-29 22:05:44
-stick:
+
 ---
 
 ## 前言

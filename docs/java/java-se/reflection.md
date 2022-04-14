@@ -1,14 +1,11 @@
 ---
 title: Java 反射机制详解：入门、使用、实例
-copyright: true
-abbrlink: fe48302
 date: 2022-01-15 21:52:26
-stick:
-description: 现在 Java 开发中有着许许多多的各类框架，但如果你扒开这些框架的底层代码一款，发现它们都离不开反射机制。那我们就来看看，用途如此之广的反射到底是个什么东西。
-tags:
+isOriginal: true
+tag:
     - Java
     - 反射
-categories:
+category:
     - Java 菜鸟入门
 ---
 

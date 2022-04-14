@@ -1,16 +1,11 @@
 ---
 title: SpringBoot 配置详解
-copyright: true
-description: >-
-  本文主要对 Spring Boot 项目中的配置文件进行了简单的介绍，并学习如何自定义属性并配置多环境项目，最后则是对比了当前主流的两种方式不同格式配置文件
-  yml 和 properties 的异同。
-tags:
+isOriginal: true
+tag:
   - Spring Boot
-categories:
+category:
   - Spring Boot 基础教程
-abbrlink: cced94b3
 date: 2022-01-09 16:15:47
-stick:
 ---
 
 ##  前言

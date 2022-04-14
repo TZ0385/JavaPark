@@ -1,17 +1,12 @@
 ---
 title: IDEA，你的 Java 开发首选 IDE
-copyright: true
-description: >-
-  本文主要对比了 IDEA 旗舰版与社区版的相关区别，并对 IDEA 在不同系统中的安装及卸载工作做了一个详细的介绍，最后则是利用安装好后的 IDEA
-  创建一个 Hello World 项目，实现上一篇博客中同样的效果。
-tags:
+isOriginal: true
+tag:
   - Java
   - IDEA
-categories:
+category:
   - Java 菜鸟入门
-abbrlink: cbeb6fba
 date: 2022-01-11 21:43:01
-stick:
 ---
 
 ## 前言

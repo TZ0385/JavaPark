@@ -1,14 +1,10 @@
 ---
 title: Java 中的面向对象（下）
-top: false
-published: true
-copyright: true
-description: Java 中的包、注释以及如何创建 jar 包
-tags:
+isOriginal: true
+tag:
   - Java
-categories:
+category:
   - Java 菜鸟入门
-abbrlink: 159000a2
 date: 2022-04-03 16:20:59
 ---
 

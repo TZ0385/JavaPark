@@ -1,14 +1,11 @@
 ---
 title: Lombok 安装及使用指南
-copyright: true
-abbrlink: f7032e71
 date: 2022-01-16 20:51:19
-stick:
-description: 是否厌烦了重复去写各种 Getter、Setter、toString 等各种方法，那就了解下 Lombok 这个神器吧，只需要一个简单的注解，就能省去重复编写的时间，还能让代码更加清爽。
-tags:
+isOriginal: true
+tag:
     - Java
     - Lombok
-categories:
+category:
     - Java 菜鸟入门
 ---
 

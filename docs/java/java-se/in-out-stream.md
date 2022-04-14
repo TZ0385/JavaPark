@@ -1,13 +1,11 @@
 ---
 title: Java 输入输出流
-copyright: true
-abbrlink: e0368c55
+isOriginal: true
 date: 2022-01-15 21:41:48
 stick:
-description: 今天我们将学习 Java 中的 IO 流及其类型，以及如何利用 IO 流来进行文件的读写操作。
-tags:
+tag:
     - Java
-categories:
+category:
     - Java 菜鸟入门
 ---
 ## 前言

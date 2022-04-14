@@ -1,14 +1,11 @@
 ---
 title: JDBC 入门指南
-copyright: true
-abbrlink: 659e409b
+isOriginal: true
 date: 2022-01-15 21:59:14
-stick:
-description: 受够了只是基于控制台黑窗口的程序，是时候该试试如何与数据库进行交互了。今天就来看看，如何写程序跟数据库打交道。
-tags:
+tag:
     - Java
     - JDBC
-categories:	
+category:	
     - Java 菜鸟入门
 ---
 
