@@ -4,7 +4,7 @@ icon: home
 title: 主页
 heroImage: /logo.png
 heroText: JavaPark
-tagline: Java 开源项目之「自学编程之路」，保姆级教程：数据结构、学习指南、Java 学习实战、程序人生、资源分享。
+tagline: 「Java 自学指南」保姆级教程、数据结构、学习指南、实战实践、资源分享、程序人生。
 actions:
   - text: 开始阅读 💡
     link: /java/java-se/jdk-install-and-hello-world
