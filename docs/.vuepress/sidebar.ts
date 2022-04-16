@@ -34,6 +34,27 @@ export default defineSidebarConfig([
         ],
       },
       {
+        text: "Java Web",
+        prefix: "java-web/",
+        icon: "html",
+        collapsable: true,
+        children:[
+          "create-deploy-javaweb-with-idea",
+        ],
+      },
+      {
+        text: "Maven",
+        prefix: "maven/",
+        icon: "Apache",
+        collapsable: true,
+        children:[
+          "maven-intro-install",
+          "maven-command-skeleton",
+          "maven-warehouse-dependency",
+          "maven-project-with-idea",
+        ],
+      },
+      {
         text: "Spring Boot",
         prefix: "spring-boot/",
         icon: "leaf",
