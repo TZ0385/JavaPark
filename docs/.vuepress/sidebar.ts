@@ -70,23 +70,29 @@ export default defineSidebarConfig([
       },
     ],
   },
-  // 效率工具
+  // 数据库
   {
-    text: "效率工具",
-    icon: "tool",
-    prefix: "efficiency/",
+    text: "数据库",
+    icon: "stack",
+    prefix: "database/",
     collapsable: true,
     children: [
       {
-        text: "博客搭建",
-        prefix: "blog/",
-        icon: "blog",
+        text: "SQL 必知必会 50 题",
+        prefix: "sql-in-10min/",
+        icon: "mysql",
         collapsable: true,
         children: [
-          "hexo",
-          "halo",
-          "vuepress-github-action",
-          "docsify",
+          "1-5",
+          "6-10",
+          "11-15",
+          "16-20",
+          "21-25",
+          "26-30",
+          "31-35",
+          "36-40",
+          "41-45",
+          "46-50",
         ],
       },
     ],
@@ -119,6 +125,27 @@ export default defineSidebarConfig([
           "61-65",
           "66-70",
           "71-75",
+        ],
+      },
+    ],
+  },
+  // 效率工具
+  {
+    text: "效率工具",
+    icon: "tool",
+    prefix: "efficiency/",
+    collapsable: true,
+    children: [
+      {
+        text: "博客搭建",
+        prefix: "blog/",
+        icon: "blog",
+        collapsable: true,
+        children: [
+          "hexo",
+          "halo",
+          "vuepress-github-action",
+          "docsify",
         ],
       },
     ],
