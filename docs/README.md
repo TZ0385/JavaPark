@@ -20,7 +20,7 @@ features:
     link: /java/java-se/jdk-install-and-hello-world
 
   - title: Spring Boot
-    icon: java
+    icon: leaf
     details: Spring Boot 基础教程
     link: /java/spring-boot/introduction
 ---

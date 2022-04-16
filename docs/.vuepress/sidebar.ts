@@ -54,6 +54,46 @@ export default defineSidebarConfig([
         ],
       },
       {
+        text: "Spring",
+        prefix: "spring/",
+        icon: "leaf",
+        collapsable: true,
+        children:[
+          "spring-intro",
+          "the-methods-to-create-spring-project",
+        ],
+      },
+      {
+        text: "Spring MVC",
+        prefix: "spring-mvc/",
+        icon: "leaf",
+        collapsable: true,
+        children:[
+          "intro-and-quick-start",
+        ],
+      },
+      {
+        text: "MyBatis",
+        prefix: "mybatis/",
+        icon: "box",
+        collapsable: true,
+        children:[
+          "introduction",
+          "quick-start",
+          "mybatis-generator",
+        ],
+      },
+      {
+        text: "MyBatis Plus",
+        prefix: "mybatis-plus/",
+        icon: "cache",
+        collapsable: true,
+        children:[
+          "intro-and-quick-start",
+          "log-and-common-crud",
+        ],
+      },
+      {
         text: "Spring Boot",
         prefix: "spring-boot/",
         icon: "leaf",
