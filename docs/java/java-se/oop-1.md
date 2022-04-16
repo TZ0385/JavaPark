@@ -1,5 +1,6 @@
 ---
 title: Java 中的面向对象（上）
+icon: java
 tag:
   - Java
 category:

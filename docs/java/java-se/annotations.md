@@ -1,4 +1,5 @@
 ---
+icon: java
 title: 深入浅出 Java 注解
 isOriginal: true
 tag:

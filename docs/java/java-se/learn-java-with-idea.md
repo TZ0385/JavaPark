@@ -1,5 +1,6 @@
 ---
 title: IDEA，你的 Java 开发首选 IDE
+icon: java
 isOriginal: true
 tag:
   - Java

@@ -1,6 +1,7 @@
 ---
 title: 超详细 Hexo + Github Pages 博客搭建教程
 isOriginal: true
+icon: blog
 tag:
   - Hexo
   - Github

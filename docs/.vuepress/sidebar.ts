@@ -39,6 +39,7 @@ export default defineSidebarConfig([
         collapsable: true,
         children:[
           "create-deploy-javaweb-with-idea",
+          "js/introduction",
         ],
       },
       {
@@ -113,7 +114,7 @@ export default defineSidebarConfig([
   // 数据库
   {
     text: "数据库",
-    icon: "stack",
+    icon: "storage",
     prefix: "database/",
     collapsable: true,
     children: [
@@ -165,6 +166,31 @@ export default defineSidebarConfig([
           "61-65",
           "66-70",
           "71-75",
+        ],
+      },
+    ],
+  },
+  // 开发工具
+  {
+    text: "开发工具",
+    icon: "code",
+    prefix: "dev-tools/",
+    collapsable: true,
+    children: [
+      {
+        text: "IntelliJ IDEA",
+        prefix: "idea/",
+        icon: "software",
+        collapsable: true,
+        children: [
+          "idea-pro-with-student-email",
+          "idea-guide",
+          "idea-with-github",
+          "idea-integrate-with-git",
+          "idea-tips",
+          "java-quick-start-with-idea",
+          "connect-mysql-fail",
+          "tomcat-console-error-code",
         ],
       },
     ],

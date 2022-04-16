@@ -1,5 +1,6 @@
 ---
 title: Java 操作符
+icon: java
 isOriginal: true
 tag:
   - Java

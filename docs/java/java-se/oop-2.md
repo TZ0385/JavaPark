@@ -1,5 +1,6 @@
 ---
 title: Java 中的面向对象（下）
+icon: java
 isOriginal: true
 tag:
   - Java

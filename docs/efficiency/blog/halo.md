@@ -1,6 +1,7 @@
 ---
 title: 从 0 到 1 搭建 Halo 博客
 isOriginal: true
+icon: blog
 tag:
   - Ubuntu
 category:

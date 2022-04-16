@@ -1,5 +1,6 @@
 ---
 title: Java 中的变量与数据类型
+icon: java
 isOriginal: true
 tag:
   - Java

@@ -1,6 +1,6 @@
 ---
 title: JavaPark(Java 自学指南)
-icon: 
+icon: java
 isOriginal: true
 date: 2022-04-14
 tag: 

@@ -1,5 +1,7 @@
 ---
 title: Java 开发环境搭建及入门 Hello World 程序
+isOriginal: true
+icon: java
 tag:
   - Java
   - JDK

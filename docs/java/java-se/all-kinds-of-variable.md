@@ -1,6 +1,7 @@
 ---
 title: 成员变量、实例变量、静态变量、局部变量？
 isOriginal: true
+icon: java
 date: 2022-01-15 22:07:48
 tag:
     - Java

@@ -1,6 +1,7 @@
 ---
 title: Vuepress + GitHub Actions 实现博客自动部署
 isOriginal: true
+icon: blog
 tag:
   - Github
   - Vuepress

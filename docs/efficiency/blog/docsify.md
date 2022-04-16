@@ -1,6 +1,7 @@
 ---
 title: 利用 docsify 免费搭建高颜值文档网站
 isOriginal: true
+icon: blog
 tag:
   - Github
   - docsify

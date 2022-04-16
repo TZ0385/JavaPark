@@ -1,6 +1,7 @@
 ---
 title: Maven 常用命令及项目骨架生成
 isOriginal: true
+
 tag:
   - Maven
 category:
@@ -94,8 +95,8 @@ HelloWorld/
 | ----- ||     |  | java/ |
 | --- ||     | resources/ |
 | --- | ---------- || test/ |
-| ----- |  || java/ |
-| ----- ||  |resources/
+| ----- ||     | java/ |
+| --- ||  |resources/
     |----pom.xml
 ```
 
