@@ -25,7 +25,7 @@ export default defineThemeConfig({
   // sidebar
   sidebar: sidebar,
 
-  footer: "更多精彩内容，敬请关注公众号：「村雨遥」",
+  footer: "更多精彩内容，尽在公众号：<b>「村雨遥」</b></br></br><img src=\"https://github.com/cunyu1943/cunyu1943/blob/main/imgs/wepublic.gif?raw=true\" width=\"100\" alt=\"公众号\" />",
 
   displayFooter: true,
 

@@ -2,8 +2,7 @@ import { defineSidebarConfig } from "vuepress-theme-hope";
 
 export default defineSidebarConfig([
   "",
-  // "home",
-  // "slide",
+  // Java
   {
     text: "Java",
     icon: "java",
@@ -71,6 +70,7 @@ export default defineSidebarConfig([
       },
     ],
   },
+  // 效率工具
   {
     text: "效率工具",
     icon: "tool",
@@ -91,44 +91,36 @@ export default defineSidebarConfig([
       },
     ],
   },
-
-  // {
-  //   text: "如何使用",
-  //   icon: "creative",
-  //   prefix: "guide/",
-  //   link: "guide/",
-  //   children: "structure",
-  // },
-  // {
-  //   text: "文章",
-  //   icon: "note",
-  //   prefix: "posts/",
-  //   children: [
-  //     {
-  //       text: "文章 1-4",
-  //       icon: "note",
-  //       collapsable: true,
-  //       prefix: "article/",
-  //       children: ["article1", "article2", "article3", "article4"],
-  //     },
-  //     {
-  //       text: "文章 5-12",
-  //       icon: "note",
-  //       children: [
-  //         {
-  //           text: "文章 5-8",
-  //           icon: "note",
-  //           collapsable: true,
-  //           prefix: "article/",
-  //           children: ["article5", "article6", "article7", "article8"],
-  //         },
-  //         {
-  //           text: "文章 9-12",
-  //           icon: "note",
-  //           children: ["article9", "article10", "article11", "article12"],
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+  // 实战训练
+  {
+    text: "实战训练",
+    icon: "app",
+    prefix: "practical-training-camp/",
+    collapsable: true,
+    children: [
+      {
+        text: "Java 编程实例",
+        prefix: "java-instance/",
+        icon: "java",
+        collapsable: true,
+        children: [
+          "1-5",
+          "6-10",
+          "11-15",
+          "16-20",
+          "21-25",
+          "26-30",
+          "31-35",
+          "36-40",
+          "41-45",
+          "46-50",
+          "51-55",
+          "56-60",
+          "61-65",
+          "66-70",
+          "71-75",
+        ],
+      },
+    ],
+  },
 ]);

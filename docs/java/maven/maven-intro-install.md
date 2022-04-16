@@ -130,6 +130,3 @@ mvn -v
 ## 总结
 
 好了，以上就是关于我们日常项目开发中经常使用的 Maven 的相关知识点了。文章介绍了 Maven 是干什么的，以及我们应该如何安装 Maven 和安装后常见的一些设置，最后则是对 Maven 的目录结构进行详解。而在下一篇博客中，我将讲述 Maven 中最常见的命令，看看大家都是用什么命令来进行工作的吧！
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

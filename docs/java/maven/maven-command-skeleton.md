@@ -91,11 +91,11 @@ mvn archetype:generate
 HelloWorld/
     | ----src/ |
     | -------- || main/ |
-| ----- |  |  || java/ |
-| ----- |  |  |resources/
-    | ---- | ----test/ |
-    | ---- | --------- || java/ |
-| ----- |  |  |resources/
+| ----- ||     |  | java/ |
+| --- ||     | resources/ |
+| --- | ---------- || test/ |
+| ----- |  || java/ |
+| ----- ||  |resources/
     |----pom.xml
 ```
 
@@ -114,6 +114,3 @@ HelloWorld/
 ## 总结
 
 好了，以上就是 Maven 中的一些常用命令和如何利用 Archetype 来生成项目骨架，以及利用 Maven 所生成的项目的总体结构了。如果你觉得对你有所帮助，还请点赞关注一波哦。今天就到此为止了，下一期我们继续来看如何利用 Maven 进行依赖管理，敬请期待吧！
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

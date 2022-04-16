@@ -100,7 +100,3 @@ Maven 项目中，通常都会定义血多 `dependency`，每个 `dependency` �
 ## 总结
 
 今天关于 Maven 的仓库和坐标的相关知识，以及 Maven 中依赖产生冲突的原因和如何解决冲突的内容就到此结束了。个人水平有限可能有些遗漏的方面，如果你有更多关于以上方面的知识，欢迎评论交流。既然差不多讲完了 Maven 中的核心知识点，那么下一次我们就来看看怎么使用 Maven 来进行实战吧。
-
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />
