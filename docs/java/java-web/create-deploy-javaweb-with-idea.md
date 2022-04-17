@@ -1,7 +1,7 @@
 ---
 title: 如何在 IDEA 中创建并部署 JavaWeb 程序
 isOriginal: true
-icon: html
+icon: java
 tag:
   - Java
   - JavaWeb

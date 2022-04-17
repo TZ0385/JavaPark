@@ -35,7 +35,7 @@ export default defineSidebarConfig([
       {
         text: "Java Web",
         prefix: "java-web/",
-        icon: "html",
+        icon: "java",
         collapsable: true,
         children:[
           "create-deploy-javaweb-with-idea",

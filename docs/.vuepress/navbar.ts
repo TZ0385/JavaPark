@@ -2,8 +2,9 @@ import { defineNavbarConfig } from "vuepress-theme-hope";
 
 export default defineNavbarConfig([
   "/",
+
   // "/home",
-  // { text: "使用指南", icon: "creative", link: "/guide/" },
+  { text: "优质书籍", icon: "book", link: "https://github.com/cunyu1943/ebooks" },
   // {
   //   text: "博文",
   //   icon: "edit",
