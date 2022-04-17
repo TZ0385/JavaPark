@@ -167,6 +167,3 @@ D:\个人文件\代码\IDEA\JAVAWEB-IDEA-DEMO
 ## 总结
 
 OK，今天的学习就到这里了！如果您在学习实践过程中遇到任何困难，欢迎加入我的[技术交流群](https://raw.githubusercontent.com/cunyu1943/ebooks/main/img/%E5%BE%AE%E4%BF%A1%E7%BE%A4.png)，和大家一起交流讨论，更好的学习与进步！更多精彩内容可以[点击直达](https://cunyu1943.github.io)，您的收藏、转发与点赞就是对我最大的支持！
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

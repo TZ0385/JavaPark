@@ -387,18 +387,3 @@ public class HelloController {
 
 以上就是 Spring MVC 的相关简介以及如何利用 IDEA 来创建一个 Spring MVC 实例的所有内容了。原创不易，如果你觉得我的文章对你有所帮助，那就帮忙点赞关注一波吧！
 
-<center><b><font color="red">关注公众号，获取最新文章更新</font></b></center>
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />
-
-<script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
-<script>
-    const btw = new BTWPlugin();
-    btw.init({
-        id: 'article-container',
-        blogId: '15556-1641043359442-147',
-        name: '村雨遥',
-        qrcode: 'https://gitee.com/cunyu1943/images/raw/master/blogpic/wepublic.png',
-        keyword: '村雨',
-    });
-</script>
