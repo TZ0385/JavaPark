@@ -1,5 +1,5 @@
 ---
-title: IDEA + Github，你的多设备开发神器
+title: IDEA 教程：IDEA + Github 多设备同步开发
 isOriginal: true
 tag:
   - IDEA

@@ -1,5 +1,5 @@
 ---
-title: IntelliJ IDEA 中集成并使用 Git 图文教程
+title: IDEA 教程：集成并使用 Git 图文教程
 isOriginal: true
 tag:
   - Git

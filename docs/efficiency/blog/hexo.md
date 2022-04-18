@@ -1,5 +1,5 @@
 ---
-title: 超详细 Hexo + Github Pages 博客搭建教程
+title: 博客搭建：超详细 Hexo + Github Pages 搭建教程
 isOriginal: true
 icon: blog
 tag:

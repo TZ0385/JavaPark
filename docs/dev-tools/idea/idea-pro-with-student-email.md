@@ -1,5 +1,5 @@
 ---
-title: 白嫖 IntelliJ IDEA 专业版使用权
+title: IDEA 教程：白嫖 IntelliJ IDEA 专业版使用权
 isOriginal: true
 tag:
   - IDEA

@@ -77,6 +77,40 @@
 - [SQL 必知必会 50 题（36 - 40）](docs/database/sql-in-10min/36-40.md)
 - [SQL 必知必会 50 题（40 - 45）](docs/database/sql-in-10min/41-45.md)
 - [SQL 必知必会 50 题（46 - 50）](docs/database/sql-in-10min/46-50.md)
+
+### 实战训练
+#### Java 编程实例
+- [Java 编程实例（1-5）](docs/practical-training-camp/java-instance/1-5.md)
+- [Java 编程实例（6-10）](docs/practical-training-camp/java-instance/6-10.md)
+- [Java 编程实例（11-15）](docs/practical-training-camp/java-instance/11-15.md)
+- [Java 编程实例（16-20）](docs/practical-training-camp/java-instance/16-20.md)
+- [Java 编程实例（21-25）](docs/practical-training-camp/java-instance/21-25.md)
+- [Java 编程实例（26-30）](docs/practical-training-camp/java-instance/26-30.md)
+- [Java 编程实例（31-35）](docs/practical-training-camp/java-instance/31-35.md)
+- [Java 编程实例（36-40）](docs/practical-training-camp/java-instance/36-40.md)
+- [Java 编程实例（41-45）](docs/practical-training-camp/java-instance/41-45.md)
+- [Java 编程实例（46-50）](docs/practical-training-camp/java-instance/46-50.md)
+- [Java 编程实例（51-55）](docs/practical-training-camp/java-instance/51-55.md)
+- [Java 编程实例（56-60）](docs/practical-training-camp/java-instance/56-60.md)
+- [Java 编程实例（61-65）](docs/practical-training-camp/java-instance/61-65.md)
+- [Java 编程实例（66-70）](docs/practical-training-camp/java-instance/66-70.md)
+- [Java 编程实例（71-75）](docs/practical-training-camp/java-instance/71-75.md)
+### 开发工具
+#### IntelliJ IDEA
+- [IDEA 教程：白嫖 IntelliJ IDEA 专业版使用权](docs/dev-tools/idea/idea-pro-with-student-email.md)
+- [IDEA 教程：最新版 IDEA 简单使用手册](docs/dev-tools/idea/idea-guide.md)
+- [IDEA 教程：IDEA + Github 多设备同步开发](docs/dev-tools/idea/idea-with-github.md)
+- [IDEA 教程：集成并使用 Git 图文教程](docs/dev-tools/idea/idea-integrate-with-git.md)
+- [IDEA 教程：不得不知的实用小技巧](docs/dev-tools/idea/idea-tips.md)
+- [IDEA 教程：创建 Java 入门应用](docs/dev-tools/idea/java-quick-start-with-idea.md)
+- [IDEA 教程：连接 MySQL 失败解决方案](docs/dev-tools/idea/connect-mysql-fail.md)
+- [IDEA 教程：Tomcat 控制台乱码解决方法](docs/dev-tools/idea/tomcat-console-error-code.md)
+### 效率工具
+#### 博客搭建
+- [博客搭建：从 0 到 1 搭建 Halo](docs/efficiency/blog/halo.md)
+- [博客搭建：超详细 Hexo + Github Pages 搭建教程](docs/efficiency/blog/hexo.md)
+- [博客搭建：docsify 搭建高颜值文档网站](docs/efficiency/blog/docsify.md)
+- [博客搭建：Vuepress + GitHub Actions 博客自动部署](docs/efficiency/blog/vuepress-github-action.md)
 ## 公众号
 [「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
 

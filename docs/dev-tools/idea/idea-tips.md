@@ -1,5 +1,5 @@
 ---
-title: 不得不知的 IDEA 实用小技巧
+title: IDEA 教程：不得不知的实用小技巧
 isOriginal: true
 tag:
   - IDEA

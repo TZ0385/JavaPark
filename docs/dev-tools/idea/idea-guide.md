@@ -1,5 +1,5 @@
 ---
-title: 最新版 IDEA 简单使用手册
+title: IDEA 教程：最新版 IDEA 简单使用手册
 isOriginal: true
 tag:
   - IDEA

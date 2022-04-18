@@ -1,5 +1,5 @@
 ---
-title: 从 0 到 1 搭建 Halo 博客
+title: 博客搭建：从 0 到 1 搭建 Halo
 isOriginal: true
 icon: blog
 tag:

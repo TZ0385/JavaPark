@@ -1,5 +1,5 @@
 ---
-title: IDEA 中 Tomcat 控制台乱码解决方法
+title: IDEA 教程：Tomcat 控制台乱码解决方法
 date: 2022-01-15 21:34:09
 isOriginal: true
 tag:
