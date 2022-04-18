@@ -31,7 +31,12 @@
 - [Java 菜鸟入门：JDBC 入门指南](docs/java/java-se/jdbc-introduction.md)
 - [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](docs/java/java-se/test-with-junit.md)
 - [Java 菜鸟入门：Lombok 安装及使用指南](docs/java/java-se/lombok-install-and-usage.md)
-
+### Java Web
+- [Java Web 篇：IDEA 中创建并部署 JavaWeb 程序：](docs/java/java-web/create-deploy-javaweb-with-idea.md)
+#### JavaScript
+- [JS 教程「1」：与君初相识](docs/java/java-web/js/introduction.md)
+- [JS 教程「2」：注释、输入输出、变量](docs/java/java-web/js/annotation-inout-variable.md)
+- [JS 教程「3」：数据类型](docs/java/java-web/js/datatype.md)
 ### Maven
 - [Maven 入门手册：简介，安装及配置](docs/java/maven/maven-intro-install.md)
 - [Maven 入门手册：常用命令及项目骨架生成](docs/java/maven/maven-command-skeleton.md)
