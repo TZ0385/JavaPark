@@ -16,7 +16,7 @@
 ## 目录（Ctrl + F 快速定位）
 
 ### Java
-### Java SE
+#### Java SE
 - [Java 菜鸟入门：开发环境搭建及入门程序](docs/java/java-se/jdk-install-and-hello-world.md)
 - [Java 菜鸟入门：利用 IDEA 进行 Java 开发](/docs/java/java-se/learn-java-with-idea.md)
 - [Java 菜鸟入门：变量与数据类型](docs/java/java-se/variable-and-datatype.md)
@@ -31,32 +31,32 @@
 - [Java 菜鸟入门：JDBC 入门指南](docs/java/java-se/jdbc-introduction.md)
 - [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](docs/java/java-se/test-with-junit.md)
 - [Java 菜鸟入门：Lombok 安装及使用指南](docs/java/java-se/lombok-install-and-usage.md)
-### Java Web
+#### Java Web
 - [Java Web 篇：IDEA 中创建并部署 JavaWeb 程序](docs/java/java-web/create-deploy-javaweb-with-idea.md)
-#### JavaScript
+##### JavaScript
 - [JS 教程「1」：与君初相识](docs/java/java-web/js/introduction.md)
 - [JS 教程「2」：注释、输入输出、变量](docs/java/java-web/js/annotation-inout-variable.md)
 - [JS 教程「3」：数据类型](docs/java/java-web/js/datatype.md)
-### Maven
+#### Maven
 - [Maven 入门手册：简介，安装及配置](docs/java/maven/maven-intro-install.md)
 - [Maven 入门手册：常用命令及项目骨架生成](docs/java/maven/maven-command-skeleton.md)
 - [Maven 入门手册：仓库、坐标以及依赖管理](docs/java/maven/maven-warehouse-dependency.md)
 - [Maven 入门手册：使用 IDEA 创建 Maven 项目](docs/java/maven/maven-project-with-idea.md)
 
-### Spring
+#### Spring
 - [Spring 篇：简介](/docs/java/spring/spring-intro.md)
 - [Spring 篇：3 种创建项目的方式](docs/java/spring/the-methods-to-create-spring-project.md)
-### Spring MVC
+#### Spring MVC
 - [Spring MVC 指南：简介及入门实例](docs/java/spring-mvc/intro-and-quick-start.md)
 
-### MyBatis
+#### MyBatis
 - [MyBatis 指北：简介](docs/java/mybatis/introduction.md)
 - [MyBatis 指北：快速入门](docs/java/mybatis/quick-start.md)
 - [MyBatis 指北：MyBatis Generator 代码自动生成器](docs/java/mybatis/mybatis-generator.md)
-### MyBatis Plus
+#### MyBatis Plus
 - [MyBatis Plus 篇：简介及入门实例](docs/java/mybatis-plus/intro-and-quick-start.md)
 - [MyBatis Plus 篇：日志配置及常用 CRUD](docs/java/mybatis-plus/log-and-common-crud.md)
-### Spring Boot
+#### Spring Boot
 - [Spring Boot 基础教程：入门简介](docs/java/spring-boot/introduction.md)
 - [Spring Boot 基础教程：创建项目的 3 种方式](docs/java/spring-boot/the-methods-to-create-springboot-project.md)
 - [Spring Boot 基础教程：配置详解](docs/java/spring-boot/configuration.md)
@@ -64,6 +64,19 @@
 - [Spring Boot 基础教程：集成 Swagger3](docs/java/spring-boot/integrated-swagger3.md)
 - [Spring Boot 基础教程：整合 FreeMarker 实例](docs/java/spring-boot/integrated-freemarker.md)
 - [Spring Boot 基础教程：整合 Thymeleaf 实例](docs/java/spring-boot/integrated-thymeleaf.md)
+
+### 数据库
+#### SQL 必知必会 50 题
+- [SQL 必知必会 50 题（1 - 5）](docs/database/sql-in-10min/1-5.md)
+- [SQL 必知必会 50 题（6 - 10）](docs/database/sql-in-10min/6-10.md)
+- [SQL 必知必会 50 题（21 - 25）](docs/database/sql-in-10min/11-15.md)
+- [SQL 必知必会 50 题（26 - 30）](docs/database/sql-in-10min/16-20.md)
+- [SQL 必知必会 50 题（31 - 35）](docs/database/sql-in-10min/21-25.md)
+- [SQL 必知必会 50 题（36 - 40）](docs/database/sql-in-10min/26-30.md)
+- [SQL 必知必会 50 题（41 - 35）](docs/database/sql-in-10min/31-35.md)
+- [SQL 必知必会 50 题（36 - 40）](docs/database/sql-in-10min/36-40.md)
+- [SQL 必知必会 50 题（40 - 45）](docs/database/sql-in-10min/41-45.md)
+- [SQL 必知必会 50 题（46 - 50）](docs/database/sql-in-10min/46-50.md)
 ## 公众号
 [「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
 
