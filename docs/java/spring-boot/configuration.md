@@ -1,5 +1,5 @@
 ---
-title: SpringBoot 配置详解
+title: Spring Boot 基础教程：配置详解
 isOriginal: true
 tag:
   - Spring Boot

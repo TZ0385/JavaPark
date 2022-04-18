@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 整合 FreeMarker 实例
+title: Spring Boot 基础教程：整合 FreeMarker 实例
 isOriginal: true
 tag:
   - SpringBoot

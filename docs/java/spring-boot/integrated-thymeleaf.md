@@ -1,5 +1,5 @@
 ---
-title: SpringBoot 整合 Thymeleaf 实例
+title: Spring Boot 基础教程：整合 Thymeleaf 实例
 isOriginal: true
 tag:
   - SpringBoot

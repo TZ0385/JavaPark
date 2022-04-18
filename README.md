@@ -32,6 +32,14 @@
 - [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](docs/java/java-se/test-with-junit.md)
 - [Java 菜鸟入门：Lombok 安装及使用指南](docs/java/java-se/lombok-install-and-usage.md)
 
+#### Spring Boot
+- [Spring Boot 基础教程：入门简介](docs/java/spring-boot/introduction.md)
+- [Spring Boot 基础教程：创建项目的 3 种方式](docs/java/spring-boot/the-methods-to-create-springboot-project.md)
+- [Spring Boot 基础教程：配置详解](docs/java/spring-boot/configuration.md)
+- [Spring Boot 基础教程：集成 Swagger2](docs/java/spring-boot/integrated-swagger2.md)
+- [Spring Boot 基础教程：集成 Swagger3](docs/java/spring-boot/integrated-swagger3.md)
+- [Spring Boot 基础教程：整合 FreeMarker 实例](docs/java/spring-boot/integrated-freemarker.md)
+- [Spring Boot 基础教程：整合 Thymeleaf 实例](docs/java/spring-boot/integrated-thymeleaf.md)
 ## 公众号
 [「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
 

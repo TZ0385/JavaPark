@@ -1,5 +1,5 @@
 ---
-title: 创建 SpringBoot 项目的 3 种方式
+title: Spring Boot 基础教程：创建项目的 3 种方式
 isOriginal: true
 tag:
   - Spring Boot

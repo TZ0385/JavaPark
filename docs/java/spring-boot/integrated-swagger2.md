@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 集成 Swagger2，构建强大的 API 文档
+title: Spring Boot 基础教程：集成 Swagger2
 isOriginal: true
 tag:
   - Swagger

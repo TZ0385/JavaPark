@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 入门简介
+title: Spring Boot 基础教程：入门简介
 isOriginal: true
 tag:
   - Spring Boot

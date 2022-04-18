@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 使用 Swagger3 生成 API 接口文档
+title: Spring Boot 基础教程：集成 Swagger3
 isOriginal: true
 tag:
   - Swagger
