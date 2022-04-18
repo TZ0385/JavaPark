@@ -41,6 +41,7 @@ export default defineSidebarConfig([
           "create-deploy-javaweb-with-idea",
           "js/introduction",
           "js/annotation-inout-variable",
+          "js/datatype",
         ],
       },
       {

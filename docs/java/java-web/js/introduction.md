@@ -1,5 +1,5 @@
 ---
-title: 初识 JavaScript
+title: JS 教程「1」：与君初相识
 icon: javascript
 isOriginal: true
 date: 2022-04-16
