@@ -1,12 +1,11 @@
 ---
-title: Maven 常用命令及项目骨架生成
+title: Maven 入门手册：常用命令及项目骨架生成
 isOriginal: true
-
 tag:
   - Maven
 category:
   - Maven 入门教程
-
+date: 2022-04-18
 ---
 
 

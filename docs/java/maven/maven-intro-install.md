@@ -1,5 +1,5 @@
 ---
-title: Maven 简介，安装及配置
+title: Maven 入门手册：简介，安装及配置
 isOriginal: true
 tag: Maven
 category: Maven 入门教程

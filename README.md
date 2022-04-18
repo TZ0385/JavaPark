@@ -13,7 +13,7 @@
 [![](https://img.shields.io/badge/csdn-CSDN-red)](https://cunyu1943.blog.csdn.net)
 [![](https://img.shields.io/badge/juejin-%E6%8E%98%E9%87%91-blue)](https://juejin.cn/user/747323637904519)
 
-## 目录
+## 目录（Ctrl + F 快速定位）
 
 ### Java
 ### Java SE
@@ -32,7 +32,12 @@
 - [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](docs/java/java-se/test-with-junit.md)
 - [Java 菜鸟入门：Lombok 安装及使用指南](docs/java/java-se/lombok-install-and-usage.md)
 
-#### Spring Boot
+### Maven
+- [Maven 入门手册：简介，安装及配置](docs/java/maven/maven-intro-install.md)
+- [Maven 入门手册：常用命令及项目骨架生成](docs/java/maven/maven-command-skeleton.md)
+- [Maven 入门手册：仓库、坐标以及依赖管理](docs/java/maven/maven-warehouse-dependency.md)
+- [Maven 入门手册：使用 IDEA 创建 Maven 项目](docs/java/maven/maven-project-with-idea.md)
+### Spring Boot
 - [Spring Boot 基础教程：入门简介](docs/java/spring-boot/introduction.md)
 - [Spring Boot 基础教程：创建项目的 3 种方式](docs/java/spring-boot/the-methods-to-create-springboot-project.md)
 - [Spring Boot 基础教程：配置详解](docs/java/spring-boot/configuration.md)

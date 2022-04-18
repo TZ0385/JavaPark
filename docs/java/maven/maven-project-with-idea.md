@@ -1,5 +1,5 @@
 ---
-title: 如何使用 IDEA 创建 Maven 项目
+title: Maven 入门手册：使用 IDEA 创建 Maven 项目
 isOriginal: true
 tag:
   - Maven
@@ -50,8 +50,8 @@ ProjectName/
 | ----- ||     |  | java/ |
 | --- ||     | resources/ |
 | --- | ---------- || test/ |
-| ----- |  || java/ |
-| ----- ||  |resources/
+| ----- ||     | java/ |
+| --- ||  |resources/
     |----pom.xml
 ```
 
