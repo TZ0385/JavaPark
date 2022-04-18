@@ -102,13 +102,6 @@ name = "村雨遥";
 
 除此之外，和其他编程语言一样，JavaScript 也提供了许多转义符，常见的转义符如下表所示。
 
-|
-|
-|
-|
-|
-|
-|
 
 | 转义符 | 说明       |
 | ------ | ---------- |
@@ -132,7 +125,7 @@ alert(wepublic.length);
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418083326974.png)
 
-2.   **字符串拼接**
+1.   **字符串拼接**
 
 如果存在多个字符串，可以使用 `+` 来进行拼接，其具体方式为：
 
@@ -144,7 +137,7 @@ var id = 'cunyu1943';
 alert(wepublic + id);
 ```
 
-![](/Users/cunyu/Library/Application Support/typora-user-images/image-20220418084040519.png)
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418084040519.png)
 
 ### 布尔类型（`Boolean`）
 
@@ -213,7 +206,7 @@ console.log(typeof str);
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418093954838.png)
 
-2.   **String()**
+1.   **String()**
 
 ```js
 var num = 1943;
@@ -224,7 +217,7 @@ console.log(typeof str);
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418094352888.png)
 
-3.   **`+` 拼接**
+1.   **`+` 拼接**
 
 字符串和其他任意类型的变量相拼接，最后得到的一定是字符串。
 
@@ -259,7 +252,7 @@ console.log(typeof num);
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418101002885.png)
 
-2.   **parseFloat(string)**
+1.   **parseFloat(string)**
 
 ```js
 var str = '19.43';
@@ -270,7 +263,7 @@ console.log(typeof num);
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418101126923.png)
 
-3.   **Number()**
+1.   **Number()**
 
 ```js
 var str1 = '19.43';
@@ -285,7 +278,7 @@ console.log(typeof num2);
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418102625953.png)
 
-4.   **运算符隐式转换**
+1.   **运算符隐式转换**
 
 ```js
 var str1 = '2022';
@@ -323,3 +316,5 @@ console.log(Boolean('村雨遥'));
 ```
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418110830295.png)
+
+
