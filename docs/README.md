@@ -4,7 +4,7 @@ icon: home
 title: 主页
 heroImage: /logo.png
 heroText: JavaPark
-tagline: 「Java 自学指南」Java 学习保姆级教程、计算机基础、数据库、实战实践、效率工具、资源分享、程序人生。
+tagline: 「Java 自学指南」Java 学习保姆级教程、面试总结、计算机基础、数据库、实战实践、效率工具、资源分享、程序人生。
 actions:
   - text: 开始阅读 💡
     link: /home
@@ -27,8 +27,6 @@ features:
 
 ## 公众号
 
-最新更新会第一时间发布在公众号「村雨遥」，强烈推荐大家关注一波！
+[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
 
-除此之外，公众号上还会不定时有福利干货哦，但是不会同步到在线阅读网站，所以赶紧去关注一波吧！
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />
+除此之外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
