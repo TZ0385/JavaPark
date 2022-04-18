@@ -1,5 +1,5 @@
 ---
-title: Spring MVC 简介及入门实例
+title: Spring MVC 指南：简介及入门实例
 copyright: true
 abbrlink: e5c2da47
 date: 2022-01-16 20:11:39

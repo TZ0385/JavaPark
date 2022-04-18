@@ -32,7 +32,7 @@
 - [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](docs/java/java-se/test-with-junit.md)
 - [Java 菜鸟入门：Lombok 安装及使用指南](docs/java/java-se/lombok-install-and-usage.md)
 ### Java Web
-- [Java Web 篇：IDEA 中创建并部署 JavaWeb 程序：](docs/java/java-web/create-deploy-javaweb-with-idea.md)
+- [Java Web 篇：IDEA 中创建并部署 JavaWeb 程序](docs/java/java-web/create-deploy-javaweb-with-idea.md)
 #### JavaScript
 - [JS 教程「1」：与君初相识](docs/java/java-web/js/introduction.md)
 - [JS 教程「2」：注释、输入输出、变量](docs/java/java-web/js/annotation-inout-variable.md)
@@ -42,6 +42,12 @@
 - [Maven 入门手册：常用命令及项目骨架生成](docs/java/maven/maven-command-skeleton.md)
 - [Maven 入门手册：仓库、坐标以及依赖管理](docs/java/maven/maven-warehouse-dependency.md)
 - [Maven 入门手册：使用 IDEA 创建 Maven 项目](docs/java/maven/maven-project-with-idea.md)
+
+### Spring
+- [Spring 篇：简介](/docs/java/spring/spring-intro.md)
+- [Spring 篇：3 种创建项目的方式](docs/java/spring/the-methods-to-create-spring-project.md)
+### Spring MVC
+- [Spring MVC 指南：简介及入门实例](docs/java/spring-mvc/intro-and-quick-start.md)
 ### Spring Boot
 - [Spring Boot 基础教程：入门简介](docs/java/spring-boot/introduction.md)
 - [Spring Boot 基础教程：创建项目的 3 种方式](docs/java/spring-boot/the-methods-to-create-springboot-project.md)
