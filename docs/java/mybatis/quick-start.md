@@ -1,5 +1,5 @@
 ---
-title: MyBatis 快速入门实例
+title: MyBatis 指北：快速入门
 isOriginal: true
 date: 2022-01-16 20:21:00
 tag:

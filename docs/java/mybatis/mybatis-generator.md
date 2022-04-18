@@ -1,5 +1,5 @@
 ---
-title: MyBatis Generator 代码自动生成器，从此解放你的双手
+title: MyBatis 指北：MyBatis Generator 代码自动生成器
 isOriginal: true
 tag:
   - MyBatis

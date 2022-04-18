@@ -1,5 +1,5 @@
 ---
-title: MyBatis Plus 日志配置及常用 CRUD
+title: MyBatis Plus 篇：日志配置及常用 CRUD
 date: 2022-01-16 20:41:01
 isOriginal: true
 tag:

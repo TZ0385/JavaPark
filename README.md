@@ -48,6 +48,14 @@
 - [Spring 篇：3 种创建项目的方式](docs/java/spring/the-methods-to-create-spring-project.md)
 ### Spring MVC
 - [Spring MVC 指南：简介及入门实例](docs/java/spring-mvc/intro-and-quick-start.md)
+
+### MyBatis
+- [MyBatis 指北：简介](docs/java/mybatis/introduction.md)
+- [MyBatis 指北：快速入门](docs/java/mybatis/quick-start.md)
+- [MyBatis 指北：MyBatis Generator 代码自动生成器](docs/java/mybatis/mybatis-generator.md)
+### MyBatis Plus
+- [MyBatis Plus 篇：简介及入门实例](docs/java/mybatis-plus/intro-and-quick-start.md)
+- [MyBatis Plus 篇：日志配置及常用 CRUD](docs/java/mybatis-plus/log-and-common-crud.md)
 ### Spring Boot
 - [Spring Boot 基础教程：入门简介](docs/java/spring-boot/introduction.md)
 - [Spring Boot 基础教程：创建项目的 3 种方式](docs/java/spring-boot/the-methods-to-create-springboot-project.md)
