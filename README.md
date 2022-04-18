@@ -16,8 +16,21 @@
 ## 目录
 
 ### Java
+### Java SE
 - [Java 菜鸟入门：开发环境搭建及入门程序](docs/java/java-se/jdk-install-and-hello-world.md)
-
+- [Java 菜鸟入门：利用 IDEA 进行 Java 开发](/docs/java/java-se/learn-java-with-idea.md)
+- [Java 菜鸟入门：变量与数据类型](docs/java/java-se/variable-and-datatype.md)
+- [Java 菜鸟入门：操作符](docs/java/java-se/operator.md)
+- [Java 菜鸟入门：控制流程](docs/java/java-se/control-process.md)
+- [Java 菜鸟入门：数组操作的奇技淫巧](docs/java/java-se/how-to-operate-array.md)
+- [Java 菜鸟入门：面向对象（上）](docs/java/java-se/oop-1.md)
+- [Java 菜鸟入门：面向对象（下）](docs/java/java-se/oop-2.md)
+- [Java 菜鸟入门：成员变量、实例变量、静态变量、局部变量？](docs/java/java-se/all-kinds-of-variable.md)
+- [Java 菜鸟入门：输入输出流](docs/java/java-se/in-out-stream.md)
+- [Java 菜鸟入门：反射机制详解](docs/java/java-se/reflection.md)
+- [Java 菜鸟入门：JDBC 入门指南](docs/java/java-se/jdbc-introduction.md)
+- [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](docs/java/java-se/test-with-junit.md)
+- [Java 菜鸟入门：Lombok 安装及使用指南](docs/java/java-se/lombok-install-and-usage.md)
 
 ## 公众号
 [「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。

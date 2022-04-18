@@ -1,5 +1,5 @@
 ---
-title: IDEA，你的 Java 开发首选 IDE
+title: Java 菜鸟入门：利用 IDEA 进行 Java 开发
 icon: java
 isOriginal: true
 tag:

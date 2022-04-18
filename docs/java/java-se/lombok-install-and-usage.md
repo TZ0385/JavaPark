@@ -1,5 +1,5 @@
 ---
-title: Lombok 安装及使用指南
+title: Java 菜鸟入门：Lombok 安装及使用指南
 date: 2022-01-16 20:51:19
 icon: java
 isOriginal: true

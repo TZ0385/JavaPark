@@ -1,5 +1,5 @@
 ---
-title: Java 中的面向对象（下）
+title: Java 菜鸟入门：面向对象（下）
 icon: java
 isOriginal: true
 tag:

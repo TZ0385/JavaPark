@@ -1,5 +1,5 @@
 ---
-title: 数组操作的奇技淫巧
+title: Java 菜鸟入门：数组操作的奇技淫巧
 icon: java
 isOriginal: true
 category:

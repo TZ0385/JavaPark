@@ -1,5 +1,5 @@
 ---
-title: JDBC 入门指南
+title: Java 菜鸟入门：JDBC 入门指南
 icon: java
 isOriginal: true
 date: 2022-01-15 21:59:14

@@ -1,5 +1,5 @@
 ---
-title: Java 中的面向对象（上）
+title: Java 菜鸟入门：面向对象（上）
 icon: java
 tag:
   - Java
