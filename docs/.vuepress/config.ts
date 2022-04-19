@@ -9,6 +9,17 @@ export default defineHopeConfig({
   base: "/JavaPark/",
 
   head: [
+    // 百度统计
+    [
+      "script", {},
+      `var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0e04a42f3ef801de0a628947884a3bcd";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();`
+    ],
     [
       "link",
       {
