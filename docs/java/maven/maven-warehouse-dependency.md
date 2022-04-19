@@ -1,6 +1,7 @@
 ---
 title: Maven 入门手册：仓库、坐标以及依赖管理
 isOriginal: true
+icon: apache
 tag:
   - Maven
 category:

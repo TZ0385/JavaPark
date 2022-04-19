@@ -1,6 +1,7 @@
 ---
 title: IDEA 教程：集成并使用 Git 图文教程
 isOriginal: true
+icon: intellijidea
 tag:
   - Git
   - IDEA

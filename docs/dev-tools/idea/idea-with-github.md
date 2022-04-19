@@ -1,6 +1,7 @@
 ---
 title: IDEA 教程：IDEA + Github 多设备同步开发
 isOriginal: true
+icon: intellijidea
 tag:
   - IDEA
   - Github

@@ -47,7 +47,7 @@ export default defineSidebarConfig([
       {
         text: "Maven",
         prefix: "maven/",
-        icon: "Apache",
+        icon: "apache",
         collapsable: true,
         children:[
           "maven-intro-install",
@@ -78,7 +78,7 @@ export default defineSidebarConfig([
       {
         text: "MyBatis",
         prefix: "mybatis/",
-        icon: "box",
+        icon: "earlybirds",
         collapsable: true,
         children:[
           "introduction",
@@ -89,7 +89,7 @@ export default defineSidebarConfig([
       {
         text: "MyBatis Plus",
         prefix: "mybatis-plus/",
-        icon: "cache",
+        icon: "earlybirds",
         collapsable: true,
         children:[
           "intro-and-quick-start",
@@ -99,7 +99,7 @@ export default defineSidebarConfig([
       {
         text: "Spring Boot",
         prefix: "spring-boot/",
-        icon: "leaf",
+        icon: "spring-boot",
         collapsable: true,
         children: [
           "introduction",
@@ -182,7 +182,7 @@ export default defineSidebarConfig([
       {
         text: "IntelliJ IDEA",
         prefix: "idea/",
-        icon: "software",
+        icon: "intellijidea",
         collapsable: true,
         children: [
           "idea-pro-with-student-email",

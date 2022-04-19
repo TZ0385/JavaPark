@@ -1,6 +1,7 @@
 ---
 title: Maven 入门手册：简介，安装及配置
 isOriginal: true
+icon: apache
 tag: Maven
 category: Maven 入门教程
 date: 2021-12-30 15:07:13

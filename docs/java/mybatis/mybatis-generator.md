@@ -1,6 +1,7 @@
 ---
 title: MyBatis 指北：MyBatis Generator 代码自动生成器
 isOriginal: true
+icon: earlybirds
 tag:
   - MyBatis
   - MyBatis Generator

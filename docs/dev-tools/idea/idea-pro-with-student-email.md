@@ -1,6 +1,7 @@
 ---
 title: IDEA 教程：白嫖 IntelliJ IDEA 专业版使用权
 isOriginal: true
+icon: intellijidea
 tag:
   - IDEA
   - 工具

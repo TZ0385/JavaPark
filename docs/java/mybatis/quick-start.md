@@ -1,6 +1,7 @@
 ---
 title: MyBatis 指北：快速入门
 isOriginal: true
+icon: earlybirds
 date: 2022-01-16 20:21:00
 tag:
     - MyBatis

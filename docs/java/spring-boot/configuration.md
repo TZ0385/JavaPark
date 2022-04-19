@@ -1,6 +1,7 @@
 ---
 title: Spring Boot 基础教程：配置详解
 isOriginal: true
+icon: spring-boot
 tag:
   - Spring Boot
 category:

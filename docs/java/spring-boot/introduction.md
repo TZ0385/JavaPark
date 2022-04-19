@@ -1,6 +1,7 @@
 ---
 title: Spring Boot 基础教程：入门简介
 isOriginal: true
+icon: spring-boot
 tag:
   - Spring Boot
 category:

@@ -1,6 +1,7 @@
 ---
 title: Spring 篇：3 种创建项目的方式
 date: 2022-01-16 17:27:51
+icon: leaf
 isOriginal: true
 tag:
     - Spring

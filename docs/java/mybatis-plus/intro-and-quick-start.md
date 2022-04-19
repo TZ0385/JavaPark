@@ -2,6 +2,7 @@
 title: MyBatis Plus 篇：简介及入门实例
 date: 2022-01-16 20:40:33
 isOriginal: true
+icon: earlybirds
 tag:
     - MyBatis Plus
 category:

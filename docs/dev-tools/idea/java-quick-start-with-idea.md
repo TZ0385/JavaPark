@@ -1,6 +1,7 @@
 ---
 title: IDEA 教程：创建 Java 入门应用
 date: 2022-01-15 21:19:56
+icon: intellijidea
 isOriginal: true
 tag:
     - Java

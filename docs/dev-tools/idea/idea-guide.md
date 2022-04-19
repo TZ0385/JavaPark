@@ -1,5 +1,6 @@
 ---
 title: IDEA 教程：最新版 IDEA 简单使用手册
+icon: intellijidea
 isOriginal: true
 tag:
   - IDEA

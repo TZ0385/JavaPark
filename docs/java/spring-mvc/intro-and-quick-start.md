@@ -1,10 +1,7 @@
 ---
 title: Spring MVC 指南：简介及入门实例
-copyright: true
-abbrlink: e5c2da47
+icon: leaf
 date: 2022-01-16 20:11:39
-stick:
-description: 之前写了关于 Spring 的相关文章，而接下来，作为 SSM 三驾马车之一的 Spring MVC 怎能落下！那咱们就趁热打铁，看看 Spring MVC 是个啥，然后再看看如何创建一个 Hello World 实例。
 tag:
     - Java
     - Spring MVC

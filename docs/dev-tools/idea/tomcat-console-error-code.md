@@ -1,6 +1,7 @@
 ---
 title: IDEA 教程：Tomcat 控制台乱码解决方法
 date: 2022-01-15 21:34:09
+icon: intellijidea
 isOriginal: true
 tag:
     - Tomcat

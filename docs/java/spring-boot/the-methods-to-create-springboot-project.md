@@ -1,6 +1,7 @@
 ---
 title: Spring Boot 基础教程：创建项目的 3 种方式
 isOriginal: true
+icon: spring-boot
 tag:
   - Spring Boot
 category:

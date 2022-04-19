@@ -1,5 +1,6 @@
 ---
 title: IDEA 教程：连接 MySQL 失败解决方案
+icon: intellijidea
 isOriginal: true
 date: 2022-02-07 19:08:58
 tag:

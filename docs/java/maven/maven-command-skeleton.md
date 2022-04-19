@@ -1,6 +1,7 @@
 ---
 title: Maven 入门手册：常用命令及项目骨架生成
 isOriginal: true
+icon: apache
 tag:
   - Maven
 category:

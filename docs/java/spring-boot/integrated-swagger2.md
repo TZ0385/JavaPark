@@ -1,6 +1,7 @@
 ---
 title: Spring Boot 基础教程：集成 Swagger2
 isOriginal: true
+icon: spring-boot
 tag:
   - Swagger
   - Spring Boot

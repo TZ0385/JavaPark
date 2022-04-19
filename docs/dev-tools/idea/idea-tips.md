@@ -1,6 +1,7 @@
 ---
 title: IDEA 教程：不得不知的实用小技巧
 isOriginal: true
+icon: intellijidea
 tag:
   - IDEA
 category:

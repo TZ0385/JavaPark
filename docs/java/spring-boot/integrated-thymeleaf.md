@@ -1,6 +1,7 @@
 ---
 title: Spring Boot 基础教程：整合 Thymeleaf 实例
 isOriginal: true
+icon: spring-boot
 tag:
   - SpringBoot
   - Thymeleaf
