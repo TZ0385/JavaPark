@@ -43,6 +43,7 @@ export default defineSidebarConfig([
           "js/annotation-inout-variable",
           "js/datatype",
           "js/operator",
+          "js/process-control",
         ],
       },
       {
