@@ -5,7 +5,7 @@ export default defineNavbarConfig([
 
   // "/home",
   { text: "优质书籍", icon: "book", link: "https://github.com/cunyu1943/ebooks" },
-  { text: "RSS订阅", icon: "rss", link: "/feed.json" },
+  { text: "RSS订阅", icon: "rss", link: "feed.json" },
   // {
   //   text: "博文",
   //   icon: "edit",
