@@ -202,19 +202,3 @@ https://player.bilibili.com/player.html?bvid=BV1MA411i7gj
 
 通过上面的学习呢，大家应该都已经能独立完成 U 盘启动盘的制作了。但是不要高兴得太早，这才只是个准备工作呢。开玩笑开玩笑，其实只要把启动盘做好了，我们装系统的工作就算完成了一半了，接下来就是正式安装了。但今天呢讲的已经够多了，我得去休息休息了，那具体的安装过程我们就下一期再见吧！
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgqqpyimg1606570424.gif)
-
-<center><b><font color="red">关注公众号，获取最新文章更新</font></b></center>
-
-<img src="https://github.com/cunyu1943/cunyu1943/blob/main/imgs/wepublic.gif?raw=true" width="200" alt="公众号" />
-
-<script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
-<script>
-    const btw = new BTWPlugin();
-    btw.init({
-        id: 'article-container',
-        blogId: '15556-1641043359442-147',
-        name: '村雨遥',
-        qrcode: 'https://gitee.com/cunyu1943/images/raw/master/blogpic/wepublic.png',
-        keyword: '村雨',
-    });
-</script>
