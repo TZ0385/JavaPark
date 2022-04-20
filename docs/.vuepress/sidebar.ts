@@ -219,6 +219,12 @@ export default defineSidebarConfig([
     prefix: "efficiency/",
     collapsable: true,
     children: [
+      "e-signature",
+      "gitee-typora",
+      "github-img-bed",
+      "markdown-in-10min",
+      "paint-with-markdown",
+      "write-tools",
       {
         text: "博客搭建",
         prefix: "blog/",
@@ -229,6 +235,39 @@ export default defineSidebarConfig([
           "halo",
           "vuepress-github-action",
           "docsify",
+        ],
+      },
+      {
+        text: "Windows",
+        prefix: "windows",
+        icon: "windows",
+        collapsable: true,
+        children: [
+          "how-to-make-usb-boot-drive",
+          "windows-install",
+          "how-to-use-windows10",
+          "nodejs-install",
+          "postgresql-install-on-windows",
+        ],
+      },
+      {
+        text: "macOS",
+        prefix: "macos",
+        icon: "macos",
+        collapsable: true,
+        children: [
+          "item-oh-my-zsh",
+        ],
+      },
+      {
+        text: "Linux",
+        prefix: "linux",
+        icon: "linux",
+        collapsable: true,
+        children: [
+          "ubuntu-install-with-vmware",
+          "ubuntu-guide",
+          "manjora-guide",
         ],
       },
     ],

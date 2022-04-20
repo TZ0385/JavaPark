@@ -115,6 +115,25 @@
 7.  [IDEA 教程：连接 MySQL 失败解决方案](docs/dev-tools/idea/connect-mysql-fail.md)
 8.  [IDEA 教程：Tomcat 控制台乱码解决方法](docs/dev-tools/idea/tomcat-console-error-code.md)
 ### 效率工具
+1. [效率工具：一招搞定电子签名](docs/efficiency/e-signature.md)
+2. [效率工具：Gitee + Typora 打造写作环境](docs/efficiency/gitee-typora.md)
+3. [效率工具：Github 当免费图床](docs/efficiency/github-img-bed.md)
+4. [效率工具：10 分钟入门 Markdown](docs/efficiency/markdown-in-10min.md)
+5. [效率工具：利用 Markdown 画图](docs/efficiency/paint-with-markdown.md)
+6. [工具教程：技术写作中的神兵利器](docs/efficiency/write-tools.md)
+
+#### Windows
+1. [Windows 教程：制作 U 盘启动盘](docs/efficiency/windows/how-to-make-usb-boot-drive.md)
+2. [Windows 教程：手把手安装 Windows 系统](docs/efficiency/windows/windows-install.md)
+3. [Windows 教程：优雅地使用 Windows 10](docs/efficiency/windows/how-to-use-windows10.md)
+4. [Windows 教程：Windows 中安装 PostgreSQL](docs/efficiency/windows/postgresql-install-on-windows.md)
+5. [Windows 教程：Node.js 安装教程](docs/efficiency/windows/nodejs-install.md)
+#### macOS
+1. [macOS 教程：iTerm2 + Oh My Zsh 打造帅气终端](docs/efficiency/macos/item-oh-my-zsh.md)
+#### Linux
+1. [Linux 教程：VMware 中安装 Ubuntu](docs/efficiency/linux/ubuntu-install-with-vmware.md)
+2. [Linux 教程：打造酷炫的 Ubuntu](docs/efficiency/linux/ubuntu-guide.md)
+3. [Linux 教程：玩转 Manjora](docs/efficiency/linux/manjora-guide.md)
 #### 博客搭建
 1.  [博客搭建：从 0 到 1 搭建 Halo](docs/efficiency/blog/halo.md)
 2.  [博客搭建：超详细 Hexo + Github Pages 搭建教程](docs/efficiency/blog/hexo.md)
