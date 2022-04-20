@@ -278,7 +278,7 @@ export default defineSidebarConfig([
     icon: "fuli",
     collapsable: true,
     children: [
-      "save-money-tips"
-    ]
+      "save-money-tips",
+    ],
   },
 ]);
