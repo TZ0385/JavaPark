@@ -139,6 +139,9 @@
 2.  [博客搭建：超详细 Hexo + Github Pages 搭建教程](docs/efficiency/blog/hexo.md)
 3.  [博客搭建：docsify 搭建高颜值文档网站](docs/efficiency/blog/docsify.md)
 4.  [博客搭建：Vuepress + GitHub Actions 博客自动部署](docs/efficiency/blog/vuepress-github-action.md)
+
+## 福利专区
+1. [福利专区：省钱小妙招](docs/welfare/save-money-tips.md)
 ## 公众号
 [「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
 

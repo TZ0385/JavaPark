@@ -272,4 +272,13 @@ export default defineSidebarConfig([
       },
     ],
   },
+  {
+    text: "福利专区",
+    prefix: "welfare",
+    icon: "fuli",
+    collapsable: true,
+    children: [
+      "save-money-tips"
+    ]
+  },
 ]);
