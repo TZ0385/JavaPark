@@ -151,6 +151,18 @@ export default defineSidebarConfig([
     collapsable: true,
     children: [
       {
+        text: "SE 实训营",
+        prefix: "java-se-in-action/",
+        collapsable: true,
+        icon: "ruanjian",
+        children:[
+          "score-management",
+          "order-system",
+          "tally-book",
+          "mysql-mybatis-score-management",
+        ]
+      },
+      {
         text: "Java 编程实例",
         prefix: "java-instance/",
         icon: "java",

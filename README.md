@@ -82,6 +82,12 @@
 - [SQL 必知必会 50 题（46 - 50）](docs/database/sql-in-10min/46-50.md)
 
 ### 实战训练
+
+#### Java SE 实训
+- [SE 实训营：学生成绩管理系统](docs/practical-training-camp/java-se-in-action/score-management.md)
+- [SE 实训营：手撸记账本](docs/practical-training-camp/java-se-in-action/tally-book.md)
+- [SE 实训营：点菜系统](docs/practical-training-camp/java-se-in-action/order-system.md)
+- [SE 实训营：MySQL + MyBatis 版学生成绩管理系统](docs/practical-training-camp/java-se-in-action/mysql-mybatis-score-management.md)
 #### Java 编程实例
 - [Java 编程实例（1-5）](docs/practical-training-camp/java-instance/1-5.md)
 - [Java 编程实例（6-10）](docs/practical-training-camp/java-instance/6-10.md)
