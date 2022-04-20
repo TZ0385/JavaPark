@@ -44,6 +44,7 @@ export default defineSidebarConfig([
           "js/datatype",
           "js/operator",
           "js/process-control",
+          "js/array",
         ],
       },
       {
