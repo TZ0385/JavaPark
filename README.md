@@ -1,4 +1,6 @@
 # JavaPark
+## Star 
+![](https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date)
 ## 简介
 **「Java 自学指南」**，这里有 Java 学习保姆级教程、面试总结、计算机基础、数据库、实战实践、效率工具、开发工具、资源分享、程序人生等诸多方面的内容。
 
@@ -126,4 +128,5 @@
 除此之外，公众号上还会不定时有福利干货哦，但是不会同步到在线阅读网站，所以赶紧去关注一波吧！
 
 <img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />
+
 
