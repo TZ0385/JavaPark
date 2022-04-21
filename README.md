@@ -40,6 +40,7 @@
 4.  [JS 教程「4」：操作符](docs/java/java-web/js/operator.md)
 5.  [JS 教程「5」：流程控制](docs/java/java-web/js/process-control.md)
 6.  [JS 教程「6」：数组](docs/java/java-web/js/array.md)
+7.  [JS 教程「7」：函数](docs/java/java-web/js/function.md)
 #### Maven
 1.  [Maven 入门手册：简介，安装及配置](docs/java/maven/maven-intro-install.md)
 2.  [Maven 入门手册：常用命令及项目骨架生成](docs/java/maven/maven-command-skeleton.md)
