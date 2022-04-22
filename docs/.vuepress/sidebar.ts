@@ -47,6 +47,7 @@ export default defineSidebarConfig([
           "js/array",
           "js/function",
           "js/oop",
+          "js/dom-get-attribute",
         ],
       },
       {
