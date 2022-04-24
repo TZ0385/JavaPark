@@ -43,6 +43,7 @@
 7.  [JS 教程「7」：函数](docs/java/java-web/js/function.md)
 8.  [JS 教程「8」：面向对象](docs/java/java-web/js/oop.md)
 9.  [JS 教程「9」：DOM 元素获取、属性修改](docs/java/java-web/js/dom-get-attribute.md)
+10. [JS 教程「10」：DOM 事件](docs/java/java-web/js/dom-event.md)
 #### Maven
 1.  [Maven 入门手册：简介，安装及配置](docs/java/maven/maven-intro-install.md)
 2.  [Maven 入门手册：常用命令及项目骨架生成](docs/java/maven/maven-command-skeleton.md)
