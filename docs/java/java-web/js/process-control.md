@@ -1,5 +1,5 @@
 ---
-title: JS 教程「5」：流程控制
+title: JS 教程：流程控制
 icon: javascript
 isOriginal: true
 date: 2022-04-19 22:22:22
