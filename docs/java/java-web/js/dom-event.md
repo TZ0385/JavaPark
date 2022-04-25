@@ -1,5 +1,5 @@
 ---
-title: JS 教程「10」：DOM 事件
+title: JS 教程：DOM 事件
 icon: javascript
 isOriginal: true
 date: 2022-04-24 09:12:00

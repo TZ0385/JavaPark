@@ -1,5 +1,5 @@
 ---
-title: JS 教程「6」：数组
+title: JS 教程：数组
 icon: javascript
 isOriginal: true
 date: 2022-04-20 11:05:55

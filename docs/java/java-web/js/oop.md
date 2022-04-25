@@ -1,5 +1,5 @@
 ---
-title: JS 教程「8」：面向对象
+title: JS 教程：面向对象
 icon: javascript
 isOriginal: true
 date: 2022-04-21 14:40:00

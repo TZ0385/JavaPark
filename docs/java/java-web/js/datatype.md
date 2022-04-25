@@ -1,5 +1,5 @@
 ---
-title: JS 教程「3」：数据类型
+title: JS 教程：数据类型
 icon: javascript
 isOriginal: true
 date: 2022-04-18

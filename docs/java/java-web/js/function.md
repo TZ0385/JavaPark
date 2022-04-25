@@ -1,5 +1,5 @@
 ---
-title: JS 教程「7」：函数
+title: JS 教程：函数
 icon: javascript
 isOriginal: true
 date: 2022-04-21 11:55:00

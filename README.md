@@ -1,4 +1,5 @@
 # JavaPark
+
 ## 简介
 **「Java 自学指南」**，这里有 Java 学习保姆级教程、面试总结、计算机基础、数据库、实战实践、效率工具、开发工具、资源分享、程序人生等诸多方面的内容。
 
@@ -33,6 +34,8 @@
 14.  [Java 菜鸟入门：Lombok 安装及使用指南](docs/java/java-se/lombok-install-and-usage.md)
 #### Java Web
 1.  [Java Web 篇：IDEA 中创建并部署 JavaWeb 程序](docs/java/java-web/create-deploy-javaweb-with-idea.md)
+##### HTML
+1. [HTML 教程：基础标签](docs/java/java-web/html/basic-lable.md)
 ##### JavaScript
 1.  [JS 教程「1」：与君初相识](docs/java/java-web/js/introduction.md)
 2.  [JS 教程「2」：注释、输入输出、变量](docs/java/java-web/js/annotation-inout-variable.md)
@@ -73,6 +76,8 @@
 7.  [Spring Boot 基础教程：整合 Thymeleaf 实例](docs/java/spring-boot/integrated-thymeleaf.md)
 
 ### 数据库
+#### PostgreSQL 教程
+1. [PostgreSQL 教程：简介及环境搭建](docs/database/postgresql/pg-install-on-windows.md)
 #### SQL 必知必会 50 题
 1.  [SQL 必知必会 50 题（1 - 5）](docs/database/sql-in-10min/1-5.md)
 2.  [SQL 必知必会 50 题（6 - 10）](docs/database/sql-in-10min/6-10.md)

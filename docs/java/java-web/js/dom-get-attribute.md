@@ -1,5 +1,5 @@
 ---
-title: JS 教程「9」：DOM 元素获取、属性修改
+title: JS 教程：DOM 元素获取、属性修改
 icon: javascript
 isOriginal: true
 date: 2022-04-22 16:47:00

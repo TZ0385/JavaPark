@@ -1,5 +1,5 @@
 ---
-title: JS 教程「4」：操作符
+title: JS 教程：操作符
 icon: javascript
 isOriginal: true
 date: 2022-04-19 11:53:00

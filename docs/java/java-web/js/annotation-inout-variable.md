@@ -1,5 +1,5 @@
 ---
-title: JS 教程「2」：注释、输入输出、变量
+title: JS 教程：注释、输入输出、变量
 icon: javascript
 isOriginal: true
 date: 2022-04-17

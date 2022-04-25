@@ -39,6 +39,7 @@ export default defineSidebarConfig([
         collapsable: true,
         children:[
           "create-deploy-javaweb-with-idea",
+          "html/basic-lable",
           "js/introduction",
           "js/annotation-inout-variable",
           "js/datatype",
@@ -127,6 +128,15 @@ export default defineSidebarConfig([
     prefix: "database/",
     collapsable: true,
     children: [
+      {
+        text: "PostgreSQL 教程",
+        prefix: "postgresql/",
+        icon: "postgresql",
+        collapsable: true,
+        children: [
+          "pg-install-on-windows",
+        ],
+      },
       {
         text: "SQL 必知必会 50 题",
         prefix: "sql-in-10min/",
@@ -276,6 +286,7 @@ export default defineSidebarConfig([
       },
     ],
   },
+  // 福利专区
   {
     text: "福利专区",
     prefix: "welfare",
