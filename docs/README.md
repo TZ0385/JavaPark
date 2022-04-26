@@ -30,3 +30,13 @@ features:
 [「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
 
 除此之外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
+
+## Star 趋势图
+
+<img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date"/>
+
+## 参与贡献
+
+1.   如果您对本项目有任何建议或者发现文中内容有错误的，欢迎提交 issues 指正。
+
+2.   对于项目中未涉及到的知识点，欢迎提交 PR。
