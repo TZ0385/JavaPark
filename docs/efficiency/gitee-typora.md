@@ -5,8 +5,8 @@ icon: tool
 tag:
   - Gitee
   - 图床
-    - 写作
-    - 教程
+  - 写作
+  - 教程
 category:
   - 工具教程
 date: 2022-01-03 21:42:03

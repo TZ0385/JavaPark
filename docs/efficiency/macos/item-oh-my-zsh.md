@@ -4,7 +4,7 @@ isOriginal: true
 icon: macos
 tag:
   - macOS
-    - 工具
+  - 工具
 category:
   - 工具教程
 date: 2022-01-03 22:04:25
