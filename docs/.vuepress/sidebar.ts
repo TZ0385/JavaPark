@@ -271,6 +271,7 @@ export default defineSidebarConfig([
         collapsable: true,
         children: [
           "item-oh-my-zsh",
+          "fish-shell",
         ],
       },
       {

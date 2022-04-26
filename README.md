@@ -17,6 +17,7 @@
 ## 目录（Ctrl + F 快速定位）
 
 ### Java
+
 #### Java SE
 1.  [Java 菜鸟入门：开发环境搭建及入门程序](docs/java/java-se/jdk-install-and-hello-world.md)
 2.  [Java 菜鸟入门：利用 IDEA 进行 Java 开发](/docs/java/java-se/learn-java-with-idea.md)
@@ -139,6 +140,7 @@
 5. [Windows 教程：Node.js 安装教程](docs/efficiency/windows/nodejs-install.md)
 #### macOS
 1. [macOS 教程：iTerm2 + Oh My Zsh 打造帅气终端](docs/efficiency/macos/item-oh-my-zsh.md)
+2. [macOS 教程：iTerm2 + Fish 打造高效终端](docs/efficiency/macos/fish-shell.md)
 #### Linux
 1. [Linux 教程：VMware 中安装 Ubuntu](docs/efficiency/linux/ubuntu-install-with-vmware.md)
 2. [Linux 教程：打造酷炫的 Ubuntu](docs/efficiency/linux/ubuntu-guide.md)
@@ -160,6 +162,5 @@
 
 
 ## Star 趋势图
-
 
 <img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date" width="600"/>

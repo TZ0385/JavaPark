@@ -1,18 +1,35 @@
-## 什么是 Fish-shell
+---
+title: macOS 教程：iTerm2 + Fish 打造高效终端
+isOriginal: true
+icon: macos
+tag:
+  - macOS
+    - 工具
+category:
+  - 工具教程
+date: 2022-04-26 13:14:25
+---
+## 什么是 Fish
 
-Fish 是 “the friendly interactive shell” 的简称，其最大特点就是简单易用。许多其他 shell 需要通过配置才能使用的功能，Fish 做到了开箱即用，不需要任何配置。
+作为一个程序员，难免会和命令行打交道。而提及到命令行，那 Shell 肯定绕不开，说白了，其实学习各种命令实质就是在学习 Shell。
+
+当前市面上有很多 Shell，用的最多的可能就是 Bash 和 zsh 了。比如 macOS 中默认的 Shell 就是 Bash，然后之前也用过一段时间 zsh，两者各有千秋，看自己的喜好，不过个人觉得总体来讲 zsh 更好用！
+
+zsh 虽然比较强大，也提供了各种丰富的插件，但有一点就是略为臃肿，用起来感觉太重了。无意中在网上冲浪是发现了 Fish 这个 Shell，于是用了一段时间，最后在 zsh 和 Fish 中选择了 Fish，于是特在此记录安装过程。
+
+Fish 是 “the friendly interactive shell” 的简称，最大特点是简单易用。Fish 做到了开箱即用，不需要任何配置，提供了许多其他 Shell 需要通过配置才能使用的功能。如果你既想要一个好用的 Shell，又不要去配置各种配置，那么推荐尝试一下 Fish。
 
 ## 安装
 
 这里使用 `homebrew` 进行安装，如果你还没有 `homebrew`，那么推荐你安装一下，这可是 macOS 中的一大神器。
 
-当然，在你安装 `homebrew` 时，当使用官网所提供的脚本：
+当然，在你安装 `homebrew` 时，可以使用官网所提供的脚本：
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-基本上都会安装失败，此时会报如下错误。
+不过基本上都会安装失败，此时大概率会报如下错误。
 
 ```sh
 curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused
@@ -76,6 +93,14 @@ sudo vim /etc/shells
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426111604248.png)
 
+我的电脑安装后 `Fish` 是位于上面的位置，但是如果你不确定你安装后不知道在哪儿，那么可以使用以下命令进行查询 `Fish` 所在位置。
+
+```sh
+whereis fish
+```
+
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426130510066.png)
+
 最后则是切换默认 shell，让我们之后打开终端后都是使用 `Fish`，运行如下命令即可。
 
 ```sh
@@ -127,3 +152,17 @@ omf install 主题名
 
 最后则是效果预览了，这里我自己是安装了 `randomrussel`，最终的效果预览如下。
 
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426115657859.png)
+
+此外，`Oh My Fish` 辅助命令工具 `omf` 还提供了一些常用命令用于管理插件和主题。
+
+| 命令                     | 说明                                 |
+| ------------------------ | ------------------------------------ |
+| `omf update`             | 更新自身和已安装的所有插件及默认主题 |
+| `omf list`               | 显示本地已安装的所有插件             |
+| `omf install [url|name]` | 安装一个或多个插件                   |
+| `omf destroy`            | 卸载 `Oh My Fish`                    |
+
+## 总结
+
+以上就是我们关于 `Fish` 的安装以及简单的配置教程了，如果你也想拥有如此酷炫的终端，那就赶紧来试试吧！
