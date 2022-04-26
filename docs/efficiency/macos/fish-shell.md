@@ -107,3 +107,23 @@ fish install
 fish 脚本文件名
 ```
 
+安装好 `Oh My Fish` 之后，我们就可以安装一个漂亮的主题了。
+
+如果要查看所有可用的主题，那么可以使用如下命令。
+
+```sh
+omf theme
+```
+
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426115402833.png)
+
+可以看到还是有很多主题的，确定好之后，接下来就可以安装我们心仪的一款主题了，安装命令如下。
+
+```sh
+omf install 主题名
+```
+
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426115533542.png)
+
+最后则是效果预览了，这里我自己是安装了 `randomrussel`，最终的效果预览如下。
+
