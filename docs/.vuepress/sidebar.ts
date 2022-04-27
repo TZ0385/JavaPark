@@ -73,6 +73,7 @@ export default defineSidebarConfig([
           "spring-intro",
           "the-methods-to-create-spring-project",
           "ioc",
+          "bean",
         ],
       },
       {

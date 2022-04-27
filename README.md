@@ -1,6 +1,7 @@
-# JavaPark
+# 📖 JavaPark
 
-## 简介
+## 📌 简介
+
 **「Java 自学指南」**，这里有 Java 学习保姆级教程、面试总结、计算机基础、数据库、实战实践、效率工具、开发工具、资源分享、程序人生等诸多方面的内容。
 
 虽然目前还有许多欠缺，但我会一直持续输出，逐渐完善它！
@@ -14,11 +15,12 @@
 [![](https://img.shields.io/badge/csdn-CSDN-red)](https://cunyu1943.blog.csdn.net)
 [![](https://img.shields.io/badge/juejin-%E6%8E%98%E9%87%91-blue)](https://juejin.cn/user/747323637904519)
 
-## 目录（Ctrl + F 快速定位）
+## 🔖 目录（Ctrl + F 快速定位）
 
-### Java
+### ☕️ Java
 
 #### Java SE
+
 1.  [Java 菜鸟入门：开发环境搭建及入门程序](docs/java/java-se/jdk-install-and-hello-world.md)
 2.  [Java 菜鸟入门：利用 IDEA 进行 Java 开发](/docs/java/java-se/learn-java-with-idea.md)
 3.  [Java 菜鸟入门：变量与数据类型](docs/java/java-se/variable-and-datatype.md)
@@ -58,6 +60,8 @@
 1.  [Spring 篇：简介](/docs/java/spring/spring-intro.md)
 2.  [Spring 篇：3 种创建项目的方式](docs/java/spring/the-methods-to-create-spring-project.md)
 3.  [Spring 篇：IoC 简介及入门实例（XML 版）](docs/java/spring/ioc.md)
+4. [Spring 篇：Bean 详解](docs/java/spring/bean.md)
+
 #### Spring MVC
 1.  [Spring MVC 指南：简介及入门实例](docs/java/spring-mvc/intro-and-quick-start.md)
 
@@ -77,7 +81,8 @@
 6.  [Spring Boot 基础教程：整合 FreeMarker 实例](docs/java/spring-boot/integrated-freemarker.md)
 7.  [Spring Boot 基础教程：整合 Thymeleaf 实例](docs/java/spring-boot/integrated-thymeleaf.md)
 
-### 数据库
+### 🍭 数据库
+
 #### PostgreSQL 教程
 1. [PostgreSQL 教程：简介及环境搭建](docs/database/postgresql/pg-install-on-windows.md)
 #### SQL 必知必会 50 题
@@ -92,7 +97,7 @@
 9.  [SQL 必知必会 50 题（40 - 45）](docs/database/sql-in-10min/41-45.md)
 10.  [SQL 必知必会 50 题（46 - 50）](docs/database/sql-in-10min/46-50.md)
 
-### 实战训练
+### 💻 实战训练
 
 #### Java SE 实训
 1.  [SE 实训营：学生成绩管理系统](docs/practical-training-camp/java-se-in-action/score-management.md)
@@ -115,7 +120,8 @@
 13.  [Java 编程实例（61-65）](docs/practical-training-camp/java-instance/61-65.md)
 14.  [Java 编程实例（66-70）](docs/practical-training-camp/java-instance/66-70.md)
 15.  [Java 编程实例（71-75）](docs/practical-training-camp/java-instance/71-75.md)
-### 开发工具
+### 🧰 开发工具
+
 #### IntelliJ IDEA
 1.  [IDEA 教程：白嫖 IntelliJ IDEA 专业版使用权](docs/dev-tools/idea/idea-pro-with-student-email.md)
 2.  [IDEA 教程：最新版 IDEA 简单使用手册](docs/dev-tools/idea/idea-guide.md)
@@ -125,7 +131,8 @@
 6.  [IDEA 教程：创建 Java 入门应用](docs/dev-tools/idea/java-quick-start-with-idea.md)
 7.  [IDEA 教程：连接 MySQL 失败解决方案](docs/dev-tools/idea/connect-mysql-fail.md)
 8.  [IDEA 教程：Tomcat 控制台乱码解决方法](docs/dev-tools/idea/tomcat-console-error-code.md)
-### 效率工具
+### 🛠 效率工具
+
 1. [效率工具：一招搞定电子签名](docs/efficiency/e-signature.md)
 2. [效率工具：Gitee + Typora 打造写作环境](docs/efficiency/gitee-typora.md)
 3. [效率工具：Github 当免费图床](docs/efficiency/github-img-bed.md)
@@ -152,15 +159,16 @@
 3.  [博客搭建：docsify 搭建高颜值文档网站](docs/efficiency/blog/docsify.md)
 4.  [博客搭建：Vuepress + GitHub Actions 博客自动部署](docs/efficiency/blog/vuepress-github-action.md)
 
-## 福利专区
+## 🧧 福利专区
+
 1. [福利专区：省钱小妙招](docs/welfare/save-money-tips.md)
-## 公众号
+##  公众号
+
 [「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
 
 除此之外，公众号上还会不定时有福利干货哦，但是不会同步到在线阅读网站，所以赶紧去关注一波吧！
 
 <img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />
-
 
 ## Star 趋势图
 
