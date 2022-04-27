@@ -72,6 +72,7 @@ export default defineSidebarConfig([
         children:[
           "spring-intro",
           "the-methods-to-create-spring-project",
+          "ioc",
         ],
       },
       {

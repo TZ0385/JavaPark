@@ -57,6 +57,7 @@
 #### Spring
 1.  [Spring 篇：简介](/docs/java/spring/spring-intro.md)
 2.  [Spring 篇：3 种创建项目的方式](docs/java/spring/the-methods-to-create-spring-project.md)
+3.  [Spring 篇：IoC 简介及入门实例（XML 版）](docs/java/spring/ioc.md)
 #### Spring MVC
 1.  [Spring MVC 指南：简介及入门实例](docs/java/spring-mvc/intro-and-quick-start.md)
 
