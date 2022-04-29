@@ -15,6 +15,12 @@
 [![](https://img.shields.io/badge/csdn-CSDN-red)](https://cunyu1943.blog.csdn.net)
 [![](https://img.shields.io/badge/juejin-%E6%8E%98%E9%87%91-blue)](https://juejin.cn/user/747323637904519)
 
+## 我的其他项目
+
+| [![ebooks](https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&repo=ebooks&show_icons=true&theme=radical)](https://github.com/cunyu1943/ebooks) | [![code-library](https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&repo=code-library&show_icons=true&theme=radical)](https://github.com/cunyu1943/code-library) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+
 ## 🔖 目录（Ctrl + F 快速定位）
 
 ### ☕️ Java
