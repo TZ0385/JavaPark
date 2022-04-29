@@ -18,7 +18,7 @@
 ## 我的其他项目
 
 | [![ebooks](https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&repo=ebooks&show_icons=true&theme=radical)](https://github.com/cunyu1943/ebooks) | [![code-library](https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&repo=code-library&show_icons=true&theme=radical)](https://github.com/cunyu1943/code-library) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
 ## 🔖 目录（Ctrl + F 快速定位）
@@ -85,8 +85,9 @@
 3.  [Spring Boot 基础教程：配置详解](docs/java/spring-boot/configuration.md)
 4.  [Spring Boot 基础教程：集成 Swagger2](docs/java/spring-boot/integrated-swagger2.md)
 5.  [Spring Boot 基础教程：集成 Swagger3](docs/java/spring-boot/integrated-swagger3.md)
-6.  [Spring Boot 基础教程：整合 FreeMarker 实例](docs/java/spring-boot/integrated-freemarker.md)
-7.  [Spring Boot 基础教程：整合 Thymeleaf 实例](docs/java/spring-boot/integrated-thymeleaf.md)
+6.  [Spring Boot 基础教程：集成 Knife4j](docs/java/spring-boot/integrated-knife4j.md)
+7.  [Spring Boot 基础教程：整合 FreeMarker 实例](docs/java/spring-boot/integrated-freemarker.md)
+8.  [Spring Boot 基础教程：整合 Thymeleaf 实例](docs/java/spring-boot/integrated-thymeleaf.md)
 
 ### 🍭 数据库
 

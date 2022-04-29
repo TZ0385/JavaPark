@@ -117,6 +117,7 @@ export default defineSidebarConfig([
           "configuration",
           "integrated-swagger2",
           "integrated-swagger3",
+          "integrated-knife4j",
           "integrated-freemarker",
           "integrated-thymeleaf",
         ],
