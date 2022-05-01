@@ -1,5 +1,5 @@
 ---
-title: 工具教程：技术写作中的神兵利器
+title: 效率工具：技术写作中的神兵利器
 isOriginal: true
 icon: tool
 tag:
