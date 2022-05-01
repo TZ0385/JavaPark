@@ -146,7 +146,7 @@
 3. [效率工具：Github 当免费图床](docs/efficiency/github-img-bed.md)
 4. [效率工具：10 分钟入门 Markdown](docs/efficiency/markdown-in-10min.md)
 5. [效率工具：利用 Markdown 画图](docs/efficiency/paint-with-markdown.md)
-6. [工具教程：技术写作中的神兵利器](docs/efficiency/write-tools.md)
+6. [效率工具：技术写作中的神兵利器](docs/efficiency/write-tools.md)
 
 #### Windows
 1. [Windows 教程：制作 U 盘启动盘](docs/efficiency/windows/how-to-make-usb-boot-drive.md)
