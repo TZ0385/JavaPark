@@ -204,6 +204,24 @@ export default defineSidebarConfig([
       },
     ],
   },
+  // 计算机基础
+  {
+    text: "计算机基础",
+    icon: "computer",
+    prefix: "cs-basics/",
+    collapsable: true,
+    children: [
+      {
+        text: "数据结构与算法",
+        prefix: "algorithm/",
+        icon: "suanfa",
+        collapsable: true,
+        children: [
+          "datastructure",
+        ],
+      },
+    ],
+  },
   // 开发工具
   {
     text: "开发工具",

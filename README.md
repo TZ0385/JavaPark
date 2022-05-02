@@ -128,6 +128,9 @@
 13.  [Java 编程实例（61-65）](docs/practical-training-camp/java-instance/61-65.md)
 14.  [Java 编程实例（66-70）](docs/practical-training-camp/java-instance/66-70.md)
 15.  [Java 编程实例（71-75）](docs/practical-training-camp/java-instance/71-75.md)
+### 🖥 计算机基础
+#### 数据结构与算法
+1. [数据结构与算法：数据结构简介](docs/cs-basics/algorithm/datastructure.md)
 ### 🧰 开发工具
 
 #### IntelliJ IDEA
