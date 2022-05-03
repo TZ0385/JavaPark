@@ -131,6 +131,7 @@
 ### 🖥 计算机基础
 #### 数据结构与算法
 1. [数据结构与算法：数据结构简介](docs/cs-basics/algorithm/datastructure.md)
+2. [数据结构与算法：算法简介](docs/cs-basics/algorithm/algorithm.md)
 ### 🧰 开发工具
 
 #### IntelliJ IDEA

@@ -21,6 +21,8 @@ category: 数据结构与算法
 
 用 Java 中的类来类比，数据就像 Java 中的一个类，数据元素就是类中的各个对象，而数据项则是各个对象中的属性。
 
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/05/image-20220503152633196.png)
+
 ## 逻辑结构与物理结构
 
 ### 逻辑结构

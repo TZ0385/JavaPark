@@ -218,6 +218,7 @@ export default defineSidebarConfig([
         collapsable: true,
         children: [
           "datastructure",
+          "algorithm",
         ],
       },
     ],
