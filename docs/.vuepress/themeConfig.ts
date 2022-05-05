@@ -14,6 +14,7 @@ export default defineThemeConfig({
   iconPrefix: "iconfont icon-",
 
   logo: "/logo.png",
+  favicon: "favicon.icon",
 
   repo: "cunyu1943/JavaPark",
 
