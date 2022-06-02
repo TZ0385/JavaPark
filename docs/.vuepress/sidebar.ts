@@ -39,6 +39,7 @@ export default defineSidebarConfig([
         collapsable: true,
         children:[
           "create-deploy-javaweb-with-idea",
+          "mockito-junit5",
           "html/basic-lable",
           "js/introduction",
           "js/annotation-inout-variable",
