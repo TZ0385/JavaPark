@@ -93,6 +93,7 @@
 6.  [Spring Boot 基础教程：集成 Knife4j](docs/java/spring-boot/integrated-knife4j.md)
 7.  [Spring Boot 基础教程：整合 FreeMarker 实例](docs/java/spring-boot/integrated-freemarker.md)
 8.  [Spring Boot 基础教程：整合 Thymeleaf 实例](docs/java/spring-boot/integrated-thymeleaf.md)
+9.  [Spring Boot 基础教程：集成 Spring Security](docs/java/spring-boot/integrated-security.md)
 
 ### 🍭 数据库
 

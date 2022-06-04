@@ -121,6 +121,7 @@ export default defineSidebarConfig([
           "integrated-knife4j",
           "integrated-freemarker",
           "integrated-thymeleaf",
+          "integrated-security",
         ],
       },
     ],
