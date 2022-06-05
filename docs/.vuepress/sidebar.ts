@@ -51,6 +51,7 @@ export default defineSidebarConfig([
           "js/oop",
           "js/dom-get-attribute",
           "js/dom-event",
+          "vue3/introduction",
         ],
       },
       {
