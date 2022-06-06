@@ -52,6 +52,7 @@ export default defineSidebarConfig([
           "js/dom-get-attribute",
           "js/dom-event",
           "vue3/introduction",
+          "vue3/vite-quickstart",
         ],
       },
       {
