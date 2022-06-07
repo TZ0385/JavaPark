@@ -30,6 +30,7 @@ export default defineSidebarConfig([
           "jdbc-introduction",
           "test-with-junit",
           "lombok-install-and-usage",
+          "fastjson2-quickstart",
         ],
       },
       {
