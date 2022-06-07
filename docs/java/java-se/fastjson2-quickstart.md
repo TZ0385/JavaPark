@@ -138,6 +138,8 @@ public class MainApplication {
 }
 ```
 
+![](https://img-blog.csdnimg.cn/67b323159a2d4ff79bc6075bc452ccac.png)
+
 ## 总结
 
 以上就是日常开发中常见的 4 种其他格式和 `JSON` 格式之间的转换过程了，其中，最常用的应该莫过于 `JSON` 和 Java 对象之间的相互转换了，一定要熟练掌握！关于 `Fastjson V2` 的简单使用就介绍到这里了，关于更多 `Fastjson V2` 的高级使用技巧，等待我们后续文章再见吧！
