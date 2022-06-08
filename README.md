@@ -66,6 +66,7 @@
 ##### Vue
 1. [Vue3 笔记：简介及入门实例](docs/java/java-web/vue3/introduction.md)
 2. [Vue3 笔记：搭建 Vue + Vite 入门项目](docs/java/java-web/vue3/vite-quickstart.md)
+3. [Vue3 笔记：Axios 简单使用指南](docs/java/java-web/vue3/axios-quickstart.md)
 #### Maven
 1.  [Maven 入门手册：简介，安装及配置](docs/java/maven/maven-intro-install.md)
 2.  [Maven 入门手册：常用命令及项目骨架生成](docs/java/maven/maven-command-skeleton.md)

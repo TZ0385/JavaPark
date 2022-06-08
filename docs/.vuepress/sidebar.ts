@@ -31,6 +31,7 @@ export default defineSidebarConfig([
           "test-with-junit",
           "lombok-install-and-usage",
           "fastjson2-quickstart",
+          "axios-quickstart"
         ],
       },
       {
