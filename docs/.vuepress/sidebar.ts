@@ -31,7 +31,6 @@ export default defineSidebarConfig([
           "test-with-junit",
           "lombok-install-and-usage",
           "fastjson2-quickstart",
-          "axios-quickstart"
         ],
       },
       {
@@ -55,6 +54,7 @@ export default defineSidebarConfig([
           "js/dom-event",
           "vue3/introduction",
           "vue3/vite-quickstart",
+          "vue3/axios-quickstart",
         ],
       },
       {
