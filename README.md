@@ -182,6 +182,7 @@
 2.  [博客搭建：超详细 Hexo + Github Pages 搭建教程](docs/efficiency/blog/hexo.md)
 3.  [博客搭建：docsify 搭建高颜值文档网站](docs/efficiency/blog/docsify.md)
 4.  [博客搭建：Vuepress + GitHub Actions 博客自动部署](docs/efficiency/blog/vuepress-github-action.md)
+5.  [博客搭建：dumi 搭建文档型博客](docs/efficiency/blog/dumi.md)
 
 ## 🧧 福利专区
 
