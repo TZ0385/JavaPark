@@ -277,7 +277,8 @@ export default defineSidebarConfig([
           "halo",
           "vuepress-github-action",
           "docsify",
-          "dumi"
+          "dumi",
+          "hugo"
         ],
       },
       {
