@@ -164,6 +164,15 @@ export default defineSidebarConfig([
           "46-50",
         ],
       },
+      {
+        text: "SQL 进阶挑战",
+        prefix: "sql-advanced/",
+        icon: "mysql",
+        collapsable: true,
+        children: [
+          "1-5",
+        ],
+      },
     ],
   },
   // 实战训练
