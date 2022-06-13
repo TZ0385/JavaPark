@@ -118,6 +118,7 @@
 10.  [SQL 必知必会 50 题（46 - 50）](docs/database/sql-in-10min/46-50.md)
 #### SQL 进阶挑战
 1. [SQL 进阶挑战（1 - 5）](docs/database/sql-advanced/1-5.md)
+2. [SQL 进阶挑战（6 - 10）](docs/database/sql-advanced/6-10.md)
 ### 💻 实战训练
 
 #### Java SE 实训
