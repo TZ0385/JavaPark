@@ -278,6 +278,7 @@ export default defineSidebarConfig([
       "paint-with-markdown",
       "write-tools",
       "emoji",
+      "useful-website",
       {
         text: "博客搭建",
         prefix: "blog/",
