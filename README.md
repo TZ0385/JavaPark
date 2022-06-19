@@ -119,6 +119,13 @@
 #### SQL 进阶挑战
 1. [SQL 进阶挑战（1 - 5）](docs/database/sql-advanced/1-5.md)
 2. [SQL 进阶挑战（6 - 10）](docs/database/sql-advanced/6-10.md)
+3. [SQL 进阶挑战（11 - 15）](docs/database/sql-advanced/11-15.md)
+4. [SQL 进阶挑战（16 - 20）](docs/database/sql-advanced/16-20.md)
+5. [SQL 进阶挑战（21 - 26）](docs/database/sql-advanced/21-25.md)
+6. [SQL 进阶挑战（26 - 30）](docs/database/sql-advanced/26-30.md)
+7. [SQL 进阶挑战（31 - 35）](docs/database/sql-advanced/31-35.md)
+8. [SQL 进阶挑战（36 - 40）](docs/database/sql-advanced/36-40.md)
+9. [SQL 进阶挑战（41 - 46）](docs/database/sql-advanced/41-46.md)
 ### 💻 实战训练
 
 #### Java SE 实训
