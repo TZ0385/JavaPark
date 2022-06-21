@@ -175,6 +175,7 @@
 7. [效率工具：笑出腹肌的 Emoji 表情符号，你值得拥有！](docs/efficiency/emoji.md)
 8. [效率工具：10 个效率网站，助力带薪摸鱼](docs/efficiency/useful-website.md)
 9. [效率工具：免费可用的 CDN，加速网站访问！](docs/efficiency/cdn-resource.md)
+10. [效率工具：有了这几个刷题网站，还愁跳槽不涨薪？](docs/efficiency/interview-website.md)
 
 #### Windows
 1. [Windows 教程：制作 U 盘启动盘](docs/efficiency/windows/how-to-make-usb-boot-drive.md)

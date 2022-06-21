@@ -287,6 +287,7 @@ export default defineSidebarConfig([
       "emoji",
       "useful-website",
       "cdn-resource",
+      "interview-website",
       {
         text: "博客搭建",
         prefix: "blog/",
