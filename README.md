@@ -176,6 +176,7 @@
 8. [效率工具：10 个效率网站，助力带薪摸鱼](docs/efficiency/useful-website.md)
 9. [效率工具：免费可用的 CDN，加速网站访问！](docs/efficiency/cdn-resource.md)
 10. [效率工具：有了这几个刷题网站，还愁跳槽不涨薪？](docs/efficiency/interview-website.md)
+11. [效率工具：听说你还在花钱从网上买 PPT 模板？](docs/efficiency/website/ppt-template.md)
 
 #### Windows
 1. [Windows 教程：制作 U 盘启动盘](docs/efficiency/windows/how-to-make-usb-boot-drive.md)

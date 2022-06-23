@@ -288,6 +288,7 @@ export default defineSidebarConfig([
       "useful-website",
       "cdn-resource",
       "interview-website",
+      "/website/ppt-template",
       {
         text: "博客搭建",
         prefix: "blog/",
@@ -299,7 +300,7 @@ export default defineSidebarConfig([
           "vuepress-github-action",
           "docsify",
           "dumi",
-          "hugo"
+          "hugo",
         ],
       },
       {
