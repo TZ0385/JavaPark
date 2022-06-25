@@ -55,6 +55,7 @@ export default defineSidebarConfig([
           "vue3/introduction",
           "vue3/vite-quickstart",
           "vue3/axios-quickstart",
+          "vue3/common-commands"
         ],
       },
       {
@@ -191,6 +192,15 @@ export default defineSidebarConfig([
     collapsable: true,
     children: [
       {
+        text: "Java 入门练习 ",
+        prefix: "intro-to-java/",
+        icon: "java",
+        collapsable: true,
+        children:[
+          "1-5",
+        ],
+      },
+      {
         text: "SE 实训营",
         prefix: "java-se-in-action/",
         collapsable: true,
@@ -288,7 +298,7 @@ export default defineSidebarConfig([
       "useful-website",
       "cdn-resource",
       "interview-website",
-      "/website/ppt-template",
+      "website/ppt-template",
       {
         text: "博客搭建",
         prefix: "blog/",

@@ -67,6 +67,7 @@
 1. [Vue3 笔记：简介及入门实例](docs/java/java-web/vue3/introduction.md)
 2. [Vue3 笔记：搭建 Vue + Vite 入门项目](docs/java/java-web/vue3/vite-quickstart.md)
 3. [Vue3 笔记：Axios 简单使用指南](docs/java/java-web/vue3/axios-quickstart.md)
+4. [Vue3 笔记：常用指令](docs/java/java-web/vue3/common-commands.md)
 #### Maven
 1.  [Maven 入门手册：简介，安装及配置](docs/java/maven/maven-intro-install.md)
 2.  [Maven 入门手册：常用命令及项目骨架生成](docs/java/maven/maven-command-skeleton.md)
@@ -128,6 +129,8 @@
 9. [SQL 进阶挑战（41 - 46）](docs/database/sql-advanced/41-46.md)
 ### 💻 实战训练
 
+#### Java 入门练习
+1. [Java 入门练习（1 - 5）](docs/practical-training-camp/intro-to-java/1-5.md)
 #### Java SE 实训
 1.  [SE 实训营：学生成绩管理系统](docs/practical-training-camp/java-se-in-action/score-management.md)
 2.  [SE 实训营：手撸记账本](docs/practical-training-camp/java-se-in-action/tally-book.md)
