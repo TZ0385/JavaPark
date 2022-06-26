@@ -198,6 +198,7 @@ export default defineSidebarConfig([
         collapsable: true,
         children:[
           "1-5",
+          "6-10",
         ],
       },
       {

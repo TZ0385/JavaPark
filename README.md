@@ -131,6 +131,7 @@
 
 #### Java 入门练习
 1. [Java 入门练习（1 - 5）](docs/practical-training-camp/intro-to-java/1-5.md)
+2. [Java 入门练习（6 - 10）](docs/practical-training-camp/intro-to-java/6-10.md)
 #### Java SE 实训
 1.  [SE 实训营：学生成绩管理系统](docs/practical-training-camp/java-se-in-action/score-management.md)
 2.  [SE 实训营：手撸记账本](docs/practical-training-camp/java-se-in-action/tally-book.md)
