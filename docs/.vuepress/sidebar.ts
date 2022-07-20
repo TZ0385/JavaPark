@@ -203,6 +203,7 @@ export default defineSidebarConfig([
           "16-20",
           "21-25",
           "26-30",
+          "31-35",
         ],
       },
       {
