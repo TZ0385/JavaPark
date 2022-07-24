@@ -15,6 +15,7 @@ export default defineSidebarConfig([
         icon: "java",
         collapsable: true,
         children: [
+          "intro-to-java",
           "jdk-install-and-hello-world",
           "learn-java-with-idea",
           "variable-and-datatype",
