@@ -19,6 +19,7 @@ export default defineSidebarConfig([
           "jdk-install-and-hello-world",
           "learn-java-with-idea",
           "variable-and-datatype",
+          "binary-convert",
           "operator",
           "control-process",
           "how-to-operate-array",
