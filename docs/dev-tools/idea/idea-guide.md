@@ -20,11 +20,7 @@ date: 2022-01-04 21:43:45
 
 ## 准备工作
 
-
-
-既然要安装 IDEA，那么首先需要前往 JetBrains 的官网下载最新版的 IDEA，下载地址如下：
-
-
+既然要安装 IDEA，那么首先需要前往 JetBrains 的官网下载最新版的 IDEA，下载地址如下： 
 
 https://www.jetbrains.com/idea/download/
 
@@ -54,7 +50,7 @@ https://www.jetbrains.com/idea/download/
 
 
 
-![img](https://img-blog.csdnimg.cn/img_convert/0a335285878a8f8bef1d12b43b20ca55.png)
+![](https://img-blog.csdnimg.cn/img_convert/0a335285878a8f8bef1d12b43b20ca55.png)
 
 
 
