@@ -18,7 +18,7 @@ date: 2022-01-11 10:42:38
 
 ## 下载并安装 JDK
 
-什么是 JDK 呢？JDK（Java Development Kit）即 Java 开发者工具包，使我们学习 Java 语言必须安装的一个工具。
+什么是 JDK 呢？JDK（Java Development Kit）即 Java 开发者工具包，是我们学习 Java 语言必须安装的一个工具。
 
 这里主要以 Windows 和 macOS 系统中 JDK 的安装为例，一来因为考虑到大家用的最多的还是 Windows 和 macOS 系统，二来则是因为手边没有安装 Linux 图形化系统。如果恰好你使用的是 Linux 系统，那么推荐你参考一下其他的资料，同样你也可以参考我的另一篇文章：[手把手带你玩转 Ubuntu](https://cunyu1943.blog.csdn.net/article/details/105648148)。
 
