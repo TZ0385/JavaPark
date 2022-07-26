@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：控制流程
+title: Java 菜鸟入门：流程控制
 isOriginal: true
 icon: java
 tag:
