@@ -8,27 +8,21 @@ category:
   - Java 菜鸟入门
 date: 2022-01-15 11:14:50
 ---
-
-## 往期推荐
-
->   1.  [Java 菜鸟入门教程：开发环境搭建及入门 Hello World 程序](https://cunyu1943.github.io/posts/9a989e71/)
->   2.  [Java 菜鸟入门教程：选择 IDEA 进行 Java 开发](https://cunyu1943.github.io/posts/cbeb6fba)
->   3.  [Java 菜鸟入门教程：变量与数据类型](https://cunyu1943.github.io/posts/c6412b1)
->   4.  [Java 菜鸟入门教程：操作符](https://cunyu1943.github.io/posts/867c013b)
-
 ## 前言
 
-我们在 Java 操作符一文中讲了各种操作符的使用技巧，接上一篇文章中的内容，本次文章主要来看看流程控制。文章主要内容安排如下：
+我们在 [上一篇文章](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=2247493159&idx=1&sn=b40579fed26d3ae4e31a27ddfe3f6a2d&chksm=e87b9251df0c1b47da575e732fae12591673809e39097a9f04b5f0038cc564d328d1d9c08059&cur_album_id=1624161604734877700&scene=189#rd) 中讲了各种操作符的使用技巧，接上一篇文章中的内容，本次文章主要将流程控制，文章主要内容安排如下：
 
 -   **输入输出**
--   **条件判断**
--   **控制循环**
+- **顺序结构**
+-   **分支结构**
+-   **循环结构**
 
 ## 输入输出
+之前的学习中，我们会发现都是通过定义变量并赋初值的方式来得到一个实现固定好值得变量。加入我们现在不想再以这种方式获取变量值，而想要直接控制变量值，又该怎么做呢？这就涉及到 Java 中的输入输出相关知识了，以下就先来看看，如何实现从控制台输入，并从控制台输出吧。
 
 ### 输入
 
-要实现从控制台输入并读取到我们的程序中时，我们先来看一个实例：
+先来看一个实例：
 
 ```java
 import java.util.Scanner;
@@ -63,13 +57,13 @@ public class Main {
 }
 ```
 
-![](https://i.loli.net/2021/04/15/GOgNuZMFAK4SiHy.png)
+![](https://img-blog.csdnimg.cn/img_convert/bc3778b282d9a2ef5933368369b3e741.png)
 
-要实现从控制台输入，我们需要借助 `Scanner` 类，它属于标准输入流，其步骤总结如下：
+要实现从控制台输入并读取到我们的程序中时，需要借助 `Scanner` 类，它属于标准输入流，其步骤总结如下：
 
-1.  首先，需要导入 `Scanner` 类。即 `import java.util.Scanner`，其中 `import` 表示导入某个类，并且只能放在程序的开头；
-2.  然后创建 `Scanner` 对象。这里需要注意，创建时需要传入 `System.in`，表示标准输入流，与之对应的 `System.out` 则代表标准输出流；
-3.  最后就是读取用户输入即可。这里读取时，调用不同的方法 `Scanner` 会自动转换数据类型，不用我们去进行手动转换；
+1.  首先，需要导入 `Scanner` 类。即 `import java.util.Scanner`，其中 `import` 表示导入某个类，并且只能放在程序的开头。
+2.  然后创建 `Scanner` 对象。这里需要注意，创建时需要传入 `System.in`，表示标准输入流，与之对应的 `System.out` 则代表标准输出流。
+3.  最后就是读取用户输入即可。这里读取时，调用不同的方法 `Scanner` 会自动转换数据类型，不用我们去进行手动转换。
 
 从控制台获取不同类型的输入，其常用方法如下：
 
@@ -83,6 +77,11 @@ public class Main {
 | `float`   | `nextFloat()` | 输入单精度数                                  |
 | `double`  | `nextDouble`  | 输入双精度数                                  |
 
+这里值得注意的是 `next()` 和 `nextLine` 两个方法，虽然他们的作用都是用于获取输入的 `String` 类型的内容，但是它们具体的处理机制又会有所区别。
+针对 `next()` 而言，它会自动消除有效字符前的空格，从而只返回输入的字符，得到的字符串都不会带有空格。也就是说，当使用 `next()` 时，如果遇到空格，此时就会停止录入，只录入空格前的内容，而空格后的内容则会保留到缓冲区。除了空格之外，`next()` 也会对制表符和换行符采用同样的处理方式。
+而对 `nextLine()` 来说，它会返回换行符之前的所有内容，甚至是带空格的字符串。
+
+因此，在使用时一定要注意它们之间的区别，合理搭配使用，从而得到自己想要的结果。
 ### 输出
 
 其实从一开始的 `hello world` 到目前的代码中，我们已经接触过输出了，也就是我们的 `System.out.println()`。
@@ -142,9 +141,18 @@ public class Main {
 }
 ```
 
-![](https://i.loli.net/2021/04/15/uoxEObNPAGIs43H.png)
+![](https://img-blog.csdnimg.cn/img_convert/6c63ba7435b3abbdf69efb96ffaea484.png)
+## 顺序结构
+![顺序结构](https://img-blog.csdnimg.cn/19453d7d4d07486dadef005860423c22.png)
 
-## 条件判断
+
+顺序结构如上图所示，它可以说是最简单的，只需要按照解决问题的顺序写出对应的语句即可，其执行顺序是自上而下，依次执行的。就类似于我们求解一道数学题，你得根据题意一步一步来，直至解出最后的答案。
+
+
+## 分支结构
+![分支结构](https://img-blog.csdnimg.cn/de97074e41524d5387515fbec0a44c63.png)
+上图是分支结构，顺序结构虽然能够处理计算、输出等问题，当遇到需要判断选择时，顺序结构已经不能很好的解决了，此时就需要使用分支结构。
+Java 中，分支结构相关的语句主要涉及到 `if` 和 `switch` 相关，下面就分别来看一下。
 
 ### if
 
@@ -160,7 +168,7 @@ if(条件表达式){
 
 其执行逻辑如下图所示，如果条件表达式的值为 `true`，则执行 `if` 语句块中的执行语句，否则就执行 `if` 语句块后边的代码；
 
-![](https://i.loli.net/2021/04/15/j9TViH3CnRBQvSa.png)
+![](https://img-blog.csdnimg.cn/img_convert/e05f7094590b6f3fe2250b3f60ea4bd4.png)
 
 2.  **多次判断**
 
@@ -178,7 +186,7 @@ if(条件表达式 1){
 
 其执行逻辑如下图所示，如果条件表达式 1 为 `true`，则执行执行语句 1，否则接着判断条件表达式 2，若为 `true`，则执行执行语句 2，以此类推，直到完成最后一个条件表达式的判断。
 
-![](https://i.loli.net/2021/04/15/4BwRhDSksiWzFx2.png)
+![](https://img-blog.csdnimg.cn/img_convert/60fcdbfa3916e040433ae39df9c3fc39.png)
 
 ```java
 import java.util.Scanner;
@@ -215,7 +223,7 @@ public class Main {
 }
 ```
 
-![](https://i.loli.net/2021/04/15/1BV2G6FHyRTXclU.png)
+![](https://img-blog.csdnimg.cn/img_convert/09a52394e44f575f770390e72d785579.png)
 
 ### switch
 
@@ -290,7 +298,11 @@ public class Main {
 2.  `switch` 语句根据表达式的结果跳转到对应的 `case` 结果，然后执行其后跟着的语句，知道遇到 `break` 才结束执行；
 3.  默认情况下，一般都会跟着一个 `default` 的分支，用于未匹配到对应情况时的执行情况；
 
-## 控制循环
+## 循环结构
+![循环结构](https://img-blog.csdnimg.cn/6b08505f87fa4634b59c6b88bf7f3587.png)
+上图为循环结构示意，让程序中遇到需要反复执行某一个功能时，我们发现顺序结构以及分支结构实现起来都太过于繁琐，于是又提出了循环结构的相关概念。
+通过循环结构，我们就可以通过判断循环语句，然后判断是否进入循环体。Java 中，循环结构主要涉及的语句有 `while`、`for`、`continue`、`break` 等。
+
 
 ### while
 
@@ -343,7 +355,7 @@ public class Main {
 }
 ```
 
-![](https://i.loli.net/2021/04/16/T9XGDe7LoRFvsQP.png)
+![](https://img-blog.csdnimg.cn/img_convert/ed281251818035d2b64e367eb55e0204.png)
 
 从上面的实例，利用 `while` 循环，我们就能轻易达成循环的效果。其语法格式如下：
 
@@ -389,7 +401,7 @@ public class Main {
 }
 ```
 
-![](https://i.loli.net/2021/04/16/LYHw8KdTuXcPtvj.png)
+![](https://img-blog.csdnimg.cn/img_convert/bd0369b67972abbf359d39c3a8b506c8.png)
 
 ```java
 /**
@@ -413,7 +425,7 @@ public class Main {
 }
 ```
 
-![](https://i.loli.net/2021/04/16/cqaxwA53K74F9ym.png)
+![](https://img-blog.csdnimg.cn/img_convert/51f69b792eebf84157a23beb08e941ef.png)
 
 观察以上两个实例，在 `while` 程序中，我们定义 `num = 10`，然后假设 `num <= 9` 时就进入循环体，而 $10 > 9$，所以不进入循环体，直接打印 `sum` 的值为 `0`。而在 `do…while` 程序中，我们同样定义 `num = 10`，然后假设 `num < 10` 时继续循环，很明显不满足该情况，理应跳出循环，打印出 `sum` 的值为 `10`，说明此时还是进行了一次循环。
 
@@ -446,7 +458,7 @@ public class Main {
 }
 ```
 
-![](https://i.loli.net/2021/04/16/qYTzu428lGJcDWe.png)
+![](https://img-blog.csdnimg.cn/img_convert/29832cd00253016912eb38b6a1fcc2f9.png)
 
 `for` 循环的语法形式如下：
 
@@ -494,7 +506,7 @@ public class Main {
 }
 ```
 
-![](https://i.loli.net/2021/04/16/7mC9GdBuqKXhJIl.png)
+![](https://img-blog.csdnimg.cn/img_convert/2a37daf78227af1f7aa8787dd581cc3f.png)
 
 其中，声明语句一般是声明一个同数组数据类型相同的局部变量，而表达式则是要访问的数组名或者返回值是数组的方法。
 
@@ -528,7 +540,7 @@ public class Main {
 
 ```
 
-![](https://i.loli.net/2021/04/16/TPxHndCJQIvaYOh.png)
+![](https://img-blog.csdnimg.cn/img_convert/206ee43e16e73609fcb23d616f96c66c.png)
 
 观察结果可知，当 `i == 5` 时，我们执行了 `break` 语句，此时就直接跳出了 `for` 循环，而不再进行下一次的循环。
 
@@ -559,13 +571,13 @@ public class Main {
 }
 ```
 
-![](https://i.loli.net/2021/04/16/psqLXe3z7SNR85I.png)
+![](https://img-blog.csdnimg.cn/img_convert/369eed4071738b235ee90ca45e09dbd0.png)
 
 观察上述结果可知，当 `i == 5` 时，我们执行了 `continue` 语句，此时便跳出了当次循环，不再进行后边的打印语句，然后继续下一次的循环，所以最终打印的结果没有 5.
 
 ## 总结
 
-今天的内容到此就结束了，老规矩，如果大家觉得有用的话，就给个点赞关注吧。当然，如果可以的话，帮忙分享一波是更好的！
+今天的内容到此就结束了，老规矩，如果大家觉得有用的话，就给个点赞关注吧！
 
 其次就是对于文中遗漏或者存在欠缺的知识点，还请大家不吝赐教，在评论区给我指出来！
 
