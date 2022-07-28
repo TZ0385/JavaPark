@@ -8,9 +8,10 @@ category:
   - Java 菜鸟入门
 date: 2022-01-15 11:14:50
 ---
+
 ## 前言
 
-我们在 [上一篇文章](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=2247493159&idx=1&sn=b40579fed26d3ae4e31a27ddfe3f6a2d&chksm=e87b9251df0c1b47da575e732fae12591673809e39097a9f04b5f0038cc564d328d1d9c08059&cur_album_id=1624161604734877700&scene=189#rd) 中讲了各种操作符的使用技巧，接上一篇文章中的内容，本次文章主要将流程控制，文章主要内容安排如下：
+我们在 [上一篇文章](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=2247495697&idx=1&sn=22d1e6ff11567a5c886372d3c5b1381e&chksm=e87b8467df0c0d71b0522f582d7514ce24b0e6c23534a8b8873ea64a45bfc2f41cc89665a476#rd) 中讲了各种操作符的使用技巧，接上一篇文章中的内容，本次文章主要将流程控制，文章主要内容安排如下：
 
 -   **输入输出**
 - **顺序结构**
@@ -168,7 +169,8 @@ if(条件表达式){
 
 其执行逻辑如下图所示，如果条件表达式的值为 `true`，则执行 `if` 语句块中的执行语句，否则就执行 `if` 语句块后边的代码；
 
-![](https://img-blog.csdnimg.cn/img_convert/e05f7094590b6f3fe2250b3f60ea4bd4.png)
+![](https://img-blog.csdnimg.cn/169cade3e35f44d59be998cc46cd8bee.png)
+
 
 2.  **多次判断**
 
@@ -186,7 +188,8 @@ if(条件表达式 1){
 
 其执行逻辑如下图所示，如果条件表达式 1 为 `true`，则执行执行语句 1，否则接着判断条件表达式 2，若为 `true`，则执行执行语句 2，以此类推，直到完成最后一个条件表达式的判断。
 
-![](https://img-blog.csdnimg.cn/img_convert/60fcdbfa3916e040433ae39df9c3fc39.png)
+![](https://img-blog.csdnimg.cn/edad402f4f5e448facefc8b55c6d12a5.png)
+
 
 ```java
 import java.util.Scanner;
@@ -287,6 +290,37 @@ public class Main {
             default:
                 System.out.println("该学生成绩不合格");
                 break;
+        }
+    }
+}
+```
+除了上面的形式之外，也可以使用以下形式：
+```java
+import java.util.Scanner;
+
+/**
+ * @author : cunyu
+ * @version : 1.0
+ * @className : Main
+ * @date : 2021/4/15 15:49
+ * @description : switch
+ */
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("请输入该学生成绩：");
+        int grade = input.nextInt();//定义grade且获取键盘输入的整数
+        if (grade < 0 || grade > 100) {//输入的整数范围应为0-100
+            System.out.println("输入的成绩有误");
+            return;
+        }
+        switch (grade / 10) {
+            case 10,9 -> System.out.println("该学生成绩优秀");
+            case 8 -> System.out.println("该学生成绩良好");
+            case 7 -> System.out.println("该学生成绩中等");
+            case 6 -> System.out.println("该学生成绩基本合格");
+            default -> System.out.println("该学生成绩不合格");
         }
     }
 }
@@ -579,7 +613,7 @@ public class Main {
 
 今天的内容到此就结束了，老规矩，如果大家觉得有用的话，就给个点赞关注吧！
 
-其次就是对于文中遗漏或者存在欠缺的知识点，还请大家不吝赐教，在评论区给我指出来！
+其次就是对于文中遗漏或者存在欠缺的知识点，还请大家不吝赐教，在评论区指出来！
 
 **关注公众号，获取最新文章更新**
 

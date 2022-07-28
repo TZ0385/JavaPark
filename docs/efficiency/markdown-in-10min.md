@@ -60,7 +60,7 @@ Markdown格式是一种可用普通文本编辑器编写的标记语言，使用
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-title'.png)
+![img](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-title.png)
 
 
 
