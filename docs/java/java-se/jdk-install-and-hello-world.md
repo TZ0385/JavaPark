@@ -18,7 +18,7 @@ date: 2022-01-11 10:42:38
 
 ## 下载并安装 JDK
 
-什么是 JDK 呢？JDK（Java Development Kit）即 Java 开发者工具包，是我们学习 Java 语言必须安装的一个工具。
+什么是 JDK 呢？JDK（Java Development Kit）即 Java 开发者工具包，使我们学习 Java 语言必须安装的一个工具。
 
 这里主要以 Windows 和 macOS 系统中 JDK 的安装为例，一来因为考虑到大家用的最多的还是 Windows 和 macOS 系统，二来则是因为手边没有安装 Linux 图形化系统。如果恰好你使用的是 Linux 系统，那么推荐你参考一下其他的资料，同样你也可以参考我的另一篇文章：[手把手带你玩转 Ubuntu](https://cunyu1943.blog.csdn.net/article/details/105648148)。
 
@@ -28,21 +28,24 @@ date: 2022-01-11 10:42:38
 
 1.  首先进入  [Oracle 官网](https://www.oracle.com/java/technologies/javase-downloads.html)，然后找到自己想要的 JDK 版本，这边以 JDK 11 为例；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-jdkxiazai.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe539fc47dd54171a4302dbe2e52afc6~tplv-k3u1fbpfcp-zoom-1.image)
+
+
 
 2.  点击 JDK Download 后，它会跳转到具体下载页面，然后根据自己的系统来进行选择，此处以 Windows 10 64 位为例；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-jdk11.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ee382fc3c0aa42b79450fc011c687ad5~tplv-k3u1fbpfcp-zoom-1.image)
 
 3.  点击最后的连接后，它会让你同意协议，勾选同意，然后登陆你的 Oracle 账户即可开始下载，若是没有 Oracle 账户，点击下面的创建一个即可；
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6439d2e180de40bba90daf396c66643a~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f27a7be5ef5c4926868d9c27c3f37995~tplv-k3u1fbpfcp-zoom-1.image)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-xieyi.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-login.png)
 
 4.  下载完成后，进行安装即可，安装流程和我们平常安装软件的一样，就不再赘述，需要注意的是要记住如下的安装路径，因为一般我们都不会安装到默认路径，所以一定要记住你所安装到的路径，这关系到后续的配置步骤；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-anzhuang.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/56fe9ab565954275aa002377907cf4fe~tplv-k3u1fbpfcp-zoom-1.image)
+
 
 #### 配置 JDK
 
@@ -52,21 +55,22 @@ date: 2022-01-11 10:42:38
 
 1.  **Windows + R**  快捷键组合唤醒 Windows 运行窗口，然后输入 `sysdm.cpl`，紧接着回车即可，一般会打开如下界面，然后点击最上方的 **高级**；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-xiotngshux.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6ae1af9752d544879aa54c00de90d263~tplv-k3u1fbpfcp-zoom-1.image)
 
 2.  点击高级后，就会打开如下界面，然后打开环境变量；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-huanjing.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1ffc2f73109f4608a788ed527177a080~tplv-k3u1fbpfcp-zoom-1.image)
+
 
 3.  新建环境变量 **JAVA_HOME**，然后变量值填入刚才安装 JDK 的路径（刚才提醒过要记住！）；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-javahome.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eea42bacfb2744e9a5f114976a35cb62~tplv-k3u1fbpfcp-zoom-1.image)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-path.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9cd26d5a1b8246dba432515d58c6ac5f~tplv-k3u1fbpfcp-zoom-1.image)
 
 4.  编辑 **Path** 环境变量，然后新建一个变量值，填入如下内容：`%JAVA_HOME%\bin`；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-pathbin.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3d2117a8be01432b882eaee330d9882c~tplv-k3u1fbpfcp-zoom-1.image)
 
 5.  各种确定，然后突出系统属性即可，到这一步，理论上我们的 JDK 就安装并配置成功了，接下来我们就去确认一下到底安装好了没；
 
@@ -87,11 +91,13 @@ java
 
 打开命令控制台（**Windows + R，然后输入 cmd 回车**），然后输入如上三个命令，如果安装成功，一般是会出现如下内容的；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-javaversion.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b782bd2aab5742be9fb7dda7fb6a004a~tplv-k3u1fbpfcp-zoom-1.image)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-java.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-javaccc.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e9d63756ba23471c8bba97fe6f479e8a~tplv-k3u1fbpfcp-zoom-1.image)
+
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ef57a17d98a7482db63c240665fd065b~tplv-k3u1fbpfcp-zoom-1.image)
 
 
 
@@ -101,25 +107,29 @@ java
 
 1.  首先去 [官网下载](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 对应安装包；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/uPic/2021/03/image-20210302105103536.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fb2df44b192545fe8663774d3d955cb5~tplv-k3u1fbpfcp-zoom-1.image)
+
 
 2.  接受相关协议并登录下载；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/uPic/2021/03/p6AJKd.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/uPic/2021/03/pKklai.png)
+![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/32c155177f444452894ad2e1b0d3da62~tplv-k3u1fbpfcp-watermark.image?)
+
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/40a11444998b4217a2a3cf8776297706~tplv-k3u1fbpfcp-watermark.image?)
 
 3.  双击下载好的 `.dmg` 安装包，然后开始安装；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/uPic/2021/03/image-20210302105952541.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/577aef8bdf5d4558abc8bf50405041cc~tplv-k3u1fbpfcp-zoom-1.image)
 
 4.  安装过程中会让你输入密码，也就是你本机的秘密；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/uPic/2021/03/image-20210302110044901.png)
 
+
+![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/311ed8c16ff34ad9b33fb4a50e2923de~tplv-k3u1fbpfcp-watermark.image?)
 5.  安装成功；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/uPic/2021/03/image-20210302110143345.png)
+
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5735ff82d1904af6a7bfdbd0de58602f~tplv-k3u1fbpfcp-watermark.image?)
 
 ####  验证
 
@@ -131,15 +141,18 @@ java
 java -version
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/uPic/2021/03/image-20210302110407805.png)
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/acc8058fe8054ef5a06aa134d6905dee~tplv-k3u1fbpfcp-watermark.image?)
 
 2.  编译命令；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/uPic/2021/03/image-20210302110524017.png)
+
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/87b264c3430349499508327e23ba3dd5~tplv-k3u1fbpfcp-watermark.image?)
 
 3.  运行命令；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/uPic/2021/03/image-20210302110600162.png)
+
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f1e7f819348e463fb7ccd8ddea26cd72~tplv-k3u1fbpfcp-watermark.image?)
 
 ## 你的第一个 Java程序：HelloWorld
 
@@ -151,7 +164,7 @@ java -version
 2.   **编译代码**
 3.   **运行代码**
 
-![](https://img-blog.csdnimg.cn/7e3b65d9d9094c448acd2fe53477c8db.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/de245ce605e04958bfb3d2c9a07772e3~tplv-k3u1fbpfcp-zoom-1.image)
 
 我们不需要任何的基础，只需要按照上面的步骤配置好 JDK 之后，然后以上三个步骤逐一来进行就可以了。下面就来进行具体实践：
 
@@ -171,9 +184,9 @@ public class Main{
 javac Main.java
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-bianyi.png)
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9c3b2ab5900c4bc98b5215eae4052130~tplv-k3u1fbpfcp-watermark.image?)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-classwenjian.png)
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5ce413126ad34cb981f83e5476e5e521~tplv-k3u1fbpfcp-watermark.image?)
 
 3.  运行，使用如下命令进行运行，然后就可以看到打印出的最终结果了！
 
@@ -181,7 +194,7 @@ javac Main.java
 java Main
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-jieguo.png)
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0b0b8127e89e4552a05fd4a45cb0d604~tplv-k3u1fbpfcp-watermark.image?)
 
 ## 知识点说明
 
