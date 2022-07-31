@@ -254,7 +254,7 @@ javadoc -d helloworld -author -version -encoding UTF-8 HelloWorld.java
 
 其实关于这个，我在之前的文章也写过。不过我是利用 IntelliJ IDEA 来对进行代码的打包，如果感兴趣，可以点击下方传送门去看看。
 
->   [如何利用 IntelliJ IDEA 创建 Java 入门应用](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=2247494535&idx=1&sn=e71ab947dc4f03ccab9fca36c75baa04&chksm=e87b9ff1df0c16e79b80d149940d150d90609550fab10141d72ca0d29a2a865bef92a69f6ff3&token=1597480590&lang=zh_CN#rd)
+>   [如何利用 IntelliJ IDEA 创建 Java 入门应用](https://cunyu1943.github.io/JavaPark/dev-tools/idea/java-quick-start-with-idea)
 
 不过那是借助工具来生成的，今天我们来看看如何利用 JDK 所提供的命令行工具，来创建一个能打印出 `Hello World!` 的 `jar` 包。
 
