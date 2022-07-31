@@ -520,7 +520,7 @@ class EmployeeApplicationTests {
 
 
 
-这里需要注意的是 `Assert.assertEquals(3, employees.size());` 这句代码，这里我们引入了 `Junit` 测试模块，所以需要记得在 `pom.xml` 中添加相关依赖，更多关于 `Junit` 测试相关的信息，可以参考我之前写的一篇文章：[抛弃传统注释测试，拥抱 Junit 单元测试](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=100010025&idx=1&sn=26751c299bd70e261b75cff08cecf79f&chksm=687b9c5f5f0c1549feb5591d70d618cadf2821c2a22374b247bad27b65bd0bf9d65eae2f027d#rd)。
+这里需要注意的是 `Assert.assertEquals(3, employees.size());` 这句代码，这里我们引入了 `Junit` 测试模块，所以需要记得在 `pom.xml` 中添加相关依赖，更多关于 `Junit` 测试相关的信息，可以参考我之前写的一篇文章：[抛弃传统注释测试，拥抱 Junit 单元测试](https://cunyu1943.github.io/JavaPark/java/java-se/test-with-junit)。
 
 
 

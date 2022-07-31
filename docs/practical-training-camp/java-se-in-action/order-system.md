@@ -12,7 +12,7 @@ category:
 
 ## 前言
 
-继上次写了一个 Java SE 版本的 [学生成绩管理系统](https://mp.weixin.qq.com/s/4niO72iDWvbgHVGM0SVhAw) 之后，发现大家反响还不错，所以今天我有带来了差不多一样的点菜系统，希望利用我们所学的 Java SE 知识，实现我们的点菜系统。
+继上次写了一个 Java SE 版本的 [学生成绩管理系统](https://cunyu1943.github.io/JavaPark/practical-training-camp/java-se-in-action/score-management) 之后，发现大家反响还不错，所以今天我有带来了差不多一样的点菜系统，希望利用我们所学的 Java SE 知识，实现我们的点菜系统。
 
 而在上次文章的评论中，我也看到了大家的一些建议，可能没有及时回复大家，但是在这次文章中，我会尽量满足大家提的一些好的建议，向着更好的方向前进！
 

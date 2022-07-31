@@ -14,7 +14,7 @@ category:
 
 
 
-之前已经写过关于 [学生成绩管理系统](https://mp.weixin.qq.com/s/4niO72iDWvbgHVGM0SVhAw) 以及 [点菜系统](https://mp.weixin.qq.com/s/Qtn6w2AUwAayjYQZiQz5Jg) 的文章，大家如果感兴趣，可以点击各自的传送门去看看呀！
+之前已经写过关于 [学生成绩管理系统](https://cunyu1943.github.io/JavaPark/practical-training-camp/java-se-in-action/score-management) 以及 [点菜系统](https://cunyu1943.github.io/JavaPark/practical-training-camp/java-se-in-action/order-system) 的文章，大家如果感兴趣，可以点击各自的传送门去看看呀！
 
 
 

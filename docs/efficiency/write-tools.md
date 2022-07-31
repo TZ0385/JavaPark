@@ -23,7 +23,7 @@ date: 2022-01-01 20:38:05
 
 ## 编辑器
 
-主要针对的是使用 Markdown 语法的编辑器，如果你对 Markdown 语法还不太熟悉，可以先看看我的另一篇文章：[十分钟入门 Markdown 写作](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=2247492604&idx=1&sn=a8ef3fe0dc72ed18e841f00236dc01d5&chksm=e87b978adf0c1e9c0b7120aee8826f15e387c5a1581456c7bb227b201c9ad2810a91ca576b2a#rd)。
+主要针对的是使用 Markdown 语法的编辑器，如果你对 Markdown 语法还不太熟悉，可以先看看我的另一篇文章：[十分钟入门 Markdown 写作](https://cunyu1943.github.io/JavaPark/efficiency/markdown-in-10min)。
 
 ### Typora
 
@@ -134,7 +134,7 @@ date: 2022-01-01 20:38:05
 
 >   地址：http://github.com/
 
-是的，你没有看错，就是万能的 GitHub，我们不仅仅可以从这里找到开源的项目、软件、教程等，你还能把它当成你自己的免费图床。关于具体的搭建过程，可以参考以下我之前的一篇文章：[如何利用 GitHub 搭建自己的免费图床？](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=2247492657&idx=1&sn=4420ebc879c2013ee564b832f6615d10&chksm=e87b9047df0c195109f063d5118bbbd01d72469857965360a7cca5951871a7f1fcb470328016#rd)
+是的，你没有看错，就是万能的 GitHub，我们不仅仅可以从这里找到开源的项目、软件、教程等，你还能把它当成你自己的免费图床。关于具体的搭建过程，可以参考以下我之前的一篇文章：[如何利用 GitHub 搭建自己的免费图床？](https://cunyu1943.github.io/JavaPark/efficiency/github-img-bed)
 
 ![](https://img-blog.csdnimg.cn/img_convert/9df4c097a6f575d570c34e7d68130eeb.png)
 
@@ -142,7 +142,7 @@ date: 2022-01-01 20:38:05
 
 >   地址：http://gitee.com/
 
-既然 GitHub 可以用来搭建图床，那我们的国内的 Gitee 也必须可以呀，而且相对 GitHub 来讲访问的速度更快，岂不是美哉。具体的搭建过程可以参考我之前的一篇文章：[Gitee + Typora，搭建自己的免费图床！](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=2247492731&idx=1&sn=3cef56ad4ce5ec462c6233381af2799c&chksm=e87b900ddf0c191bad9d126b0c7e1cc43e1b481f2ad6224f5ac5d3f4edee25fe6d4281f9edbb#rd)
+既然 GitHub 可以用来搭建图床，那我们的国内的 Gitee 也必须可以呀，而且相对 GitHub 来讲访问的速度更快，岂不是美哉。具体的搭建过程可以参考我之前的一篇文章：[Gitee + Typora，搭建自己的免费图床！](https://cunyu1943.github.io/JavaPark/efficiency/gitee-typora)
 
 ![](https://img-blog.csdnimg.cn/img_convert/90a698a4707f5d0a0b0c3a81e79df8b3.png)
 

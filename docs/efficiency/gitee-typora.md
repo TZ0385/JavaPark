@@ -16,7 +16,7 @@ date: 2022-01-03 21:42:03
 
 对于写博客的朋友们来讲，图床这个东西一定不会陌生，而且在一定程度上也给大家造成过一定困扰。
 
-上一篇文章中我们讲了如何 [利用 Github 搭建自己的免费图床](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=2247492657&idx=1&sn=4420ebc879c2013ee564b832f6615d10&chksm=e87b9047df0c195109f063d5118bbbd01d72469857965360a7cca5951871a7f1fcb470328016&token=1963893699&lang=zh_CN#rd)，但有人反映 Github 访问有点慢，而且也不太稳定，所以就推荐用国内的 Gitee 来搭建，于是今天就带来新鲜热乎的基于 Gitee  所搭建的免费图床教程，也水一篇文章，希望对大家伙有所帮助。
+上一篇文章中我们讲了如何 [利用 Github 搭建自己的免费图床](https://cunyu1943.github.io/JavaPark/efficiency/github-img-bed)，但有人反映 Github 访问有点慢，而且也不太稳定，所以就推荐用国内的 Gitee 来搭建，于是今天就带来新鲜热乎的基于 Gitee  所搭建的免费图床教程，也水一篇文章，希望对大家伙有所帮助。
 
 ![](http://ww1.sinaimg.cn/bmiddle/9150e4e5ly1fqdi3jit6oj203h03h3yb.jpg)
 

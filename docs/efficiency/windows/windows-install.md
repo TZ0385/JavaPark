@@ -30,7 +30,7 @@ category:
 
 
 
-于是就有了[昨天那篇](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=2247492186&idx=1&sn=f5f51614b6d7de666f90aa7e4484f6d8&chksm=e87b962cdf0c1f3ae0889f530e7b8a6f95188f54eeb1d1773bed7c7568d0b302c4c58b6f885d&token=2004299281&lang=zh_CN#rd)和这篇文章，手把手教她如何安装 Windows 系统。也可以扔给你的女朋友看看，我不介意的哈 😏😏😏。
+于是就有了昨天那篇和这篇文章，手把手教她如何安装 Windows 系统。也可以扔给你的女朋友看看，我不介意的哈 😏😏😏。
 
 
 

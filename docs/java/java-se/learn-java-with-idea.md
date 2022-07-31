@@ -12,7 +12,7 @@ date: 2022-01-11 21:43:01
 
 ## 前言
 
-上一篇中，我们讲了 [如何搭建 Java 开发环境](https://cunyu1943.site/JavaPark/java/java-se/jdk-install-and-hello-world)。不过既然确定了要从事 Java 开发，那怎么能少得了一个趁手的 IDE 呢。正所谓工欲善其事。必先利其器，一个趁手的 IDE 就像电视剧里的神兵利器，能让我们功力大增，大大提高我们的效率。
+上一篇中，我们讲了 [如何搭建 Java 开发环境](https://cunyu1943.github.io/JavaPark/java/java-se/jdk-install-and-hello-world)。不过既然确定了要从事 Java 开发，那怎么能少得了一个趁手的 IDE 呢。正所谓工欲善其事。必先利其器，一个趁手的 IDE 就像电视剧里的神兵利器，能让我们功力大增，大大提高我们的效率。
 
 但是目前市场上那么多的 IDE，有 Eclipse、IntelliJ IDEA、NetBeans …… 我们究竟该选择哪一个呢？既然做不了决定，那我就替你选择吧！要是都没接触过，那就直接 IDEA 吧，要是你之前是个 Eclipse 的忠实粉丝，也推荐你用一下 IDEA 试试，你只需要把 IDEA 的快捷键方式设置为 Eclipse 方式即可，相信过了一开始的阵痛期之后，就会喜欢上 IDEA 这一神器。那接下来，我们就来进行 IDEA 的安装工作！
 
@@ -130,7 +130,7 @@ Linux 下卸载只需要将对应目录（即刚才解压后的目录）删除�
 
 ##  创建 Java 项目
 
-[上一篇](https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&mid=100008776&idx=1&sn=8a43777446d2553b0874d72d61557b0c&chksm=687b973e5f0c1e287e89a6626a967da2ae46537514f84bcdeaee861c9e19a9faff90aee0dc4b#rd) 文章中，我们介绍了如何利用编辑器写我们的 `Hello World`，接下来就讲讲如何利用 IDEA 来创建并书写我们的 `Hello World` 程序。
+[上一篇](https://mp.weixin.qq.com/s/geOWlAwVMhtmmIMvFvjSpQ) 文章中，我们介绍了如何利用编辑器写我们的 `Hello World`，接下来就讲讲如何利用 IDEA 来创建并书写我们的 `Hello World` 程序。
 
 1.  依次进入 `File -> New -> Project`，然后选择左侧 Java，配置项目 JDK；
 
