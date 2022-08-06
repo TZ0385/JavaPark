@@ -36,15 +36,14 @@ features:
 
 防止失联，建议关注并加星。
 
-<center><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="「公众号」" style="zoom:40%;" /></center>
-
+<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="「公众号」" style="zoom:40%;" />
 ## Star 趋势图
 
 如果您觉得本项目对您有所帮助，那就去 Github **Star** 收藏一下吧！
 
 >   [JavaPark](https://github.com/cunyu1943/JavaPark)
 
-<center><img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date" style="zoom:70%;" /></center>
+<img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date" style="zoom:70%;" />
 
 ## 参与贡献
 
