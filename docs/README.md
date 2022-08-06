@@ -17,23 +17,34 @@ features:
   - title: Java SE
     icon: java
     details: Java SE 基础语法教程
-    link: /java/java-se/jdk-install-and-hello-world
+    link: /java/java-se/intro-to-java
 
   - title: Spring Boot
     icon: spring-boot
     details: Spring Boot 基础教程
     link: /java/spring-boot/introduction
+
+  - title: IntelliJ IDEA
+    icon: intellijidea
+    details: IntelliJ IDEA 使用指南
+    link: /dev-tools/idea/idea-guide
 ---
 
 ## 公众号
 
-[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
+[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，不过文章会优先发布在这里，除此之外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
 
-除此之外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
+防止失联，建议关注并加星。
+
+<center><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="「公众号」" style="zoom:40%;" /></center>
 
 ## Star 趋势图
 
-<img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date"/>
+如果您觉得本项目对您有所帮助，那就去 Github **Star** 收藏一下吧！
+
+>   [JavaPark](https://github.com/cunyu1943/JavaPark)
+
+<center><img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date" style="zoom:70%;" /></center>
 
 ## 参与贡献
 

@@ -1,262 +1,311 @@
+---
+title: Java 菜鸟入门：包和 jar 文件的创建
+icon: java
+isOriginal: true
+tag:
+  - Java
+category:
+  - Java 菜鸟入门
+date: 2022-04-03 16:20:59
+---
 
+## 前言
 
-## 面向对象的具体实例
+在之前的文章中，讲到了面向的 3 大特性（**封装、继承、多态**）和面向对象设计的 5 大原则（SRP、OCP、LSP、DIP、ISP）。此外，我们还讲了如何创建一个类，并且在创建类后如何构造一个对象。然后还介绍了类中的属性和方法，并对构造方法和引用也做了简单的讲解。
 
-### 类与对象
+有了上面的基础之后，今天我们来继续学习面向对象的相关知识，主要内容预告如下：
 
-以我们日常生活为例，我们现在很多人都养宠物，而宠物 **都有一些共同状态**，比如名字、毛色、年龄…… 这样一来我们就可以设计一个叫做 **类** 的东西，用来 **代表宠物** 这一类事物；
+-   **包**
+-   **注释**
+-   **jar 文件的创建**
 
-```java
-public class Pet{
-    // 名字
-    public String name;
-    
-    // 毛色
-    public String furColor;
-    
-    // 年龄
-    public int age;
-}
-```
+## 包
 
-有了这个类之后，它就相当于我们的一个模板，根据这个模板我们就能够创建一个个具体的宠物，而这些宠物，就叫做 **对象**；
+假设现在有这么一种情况，诸葛亮、周瑜、曹操共同开发一款程序。其中，周瑜和曹操均在自己代码模块中写了一个 `PublicUtil` 类，现在诸葛亮要调用周瑜和曹操模块中代码，需要同时用到他们中的 `PublicUtil` 类，这时候就犯难了，诸葛亮在他的代码中使用 `PublicUtil` 类时，该怎么区分是调用周瑜的，还是调用的曹操的呢？
 
-```java
-public class Pet{
-    // 名字
-    public String name;
-    
-    // 毛色
-    public String furColor;
-    
-    // 年龄
-    public int age;
-    
-    public static void main(String[] args){
-        // 创建一个对象
-        Pet dog = new Pet();
-        dog.name = "博美";
-        dog.furColor = "white";
-        dog.age = 1;
-        
-        Pet cat = new Pet();
-        cat.name = "英短";
-        cat.furColor = "orange";
-        cat.age = 2;
-        
-    }
-}
-```
+针对这个问题，开发 Java 的前辈们当然也想到了。于是，他们在 Java 中定义了一种名字空间，也就是我们今天要讲的包：`package`。通过使用包机制，就十分容易区别类名的命名空间了。
 
-### 属性
-
-每个宠物都有自己的名字、毛色和年龄等一系列状态，而这些状态就叫做一个类的 **属性**。而属性的类型既可以是基本类型（比如上述例子中的 `int`），也可以是引用类型（上述例子中的 `String`）。而在 Java 语言中，属性的命名虽然没有强制规定，但是一般都是有一套大家通用的命名方法，即：
-
->   若属性是一个单词组成，那么一般都是小写；
->
->   若属性是多个单词组成，那么则采用驼峰法；
->
->   关于更多的命名规定，推荐参考阿里巴巴出品的 《Java 开发手册》，下载地址：https://github.com/cunyu1943/amazing-books
-
-### 方法
-
-而除开属性之后，每个对象还能够有许多其他的功能，就像宠物都能吃东西、会叫……，那么这些他们能够做的事情，在类里边就可以用 **方法** 来进行表示。所谓方法就是程序中最小的执行单元，一般用于封装重复且具有独立功能的代码，从而提交代码的复用性和可维护性。
+假设曹操的 `PublicUtil` 类代码如下：
 
 ```java
-public class Pet{
-    // 名字
-    public String name;
-    
-    // 毛色
-    public String furColor;
-    
-    // 年龄
-    public int age;
-    
-    // 吃东西对应的方法
-    public void eat(){
-        System.out.println("吃东西！");
-    }
-    
-    // 叫唤对应的方法
-    public void bark(){
-        System.out.println("叫唤！");
-    }
-}
-```
-
-而对于方法，也有需要注意的几点：
-
-1.  方法是可以有返回值的，如果要返回对应值，则其返回值的类型要与返回值相对于，对于不需要返回值的方法，则将其返回类型设置为 `void`；
-2.  方法是可以有参数的，我们上述例子的方法中都是不带参数的，但如果我们有需要，就可以加上自己需要的参数，但此时注意要带上参数的类型；
-
-总结起来，可以分为如下四种方法：
-
-1.  **无参无返回值**
-
-```java
-public void methodName(){
+// 申明包名
+package caocao;
+public class PublicUtil{
     ……
 }
 ```
 
-2.  **无参有返回值**
+周瑜的 `PublicUtil` 类代码如下：
 
 ```java
-public boolean methodName(){
-    ……
-    return false;
-}
-```
-
-3.  **有参无返回值**
-
-```java
-public void methodName(String name){
+// 申明包名
+package zhouyu;
+public class PublicUtil{
     ……
 }
 ```
 
-4.  **有参有返回值**
+此时，如果诸葛亮要同时使用他们俩代码中的 `PublicUtil` 类，此时就可以通过引入他们俩的包，然后通过使用 `包名.类名` 的引用方式来进行区分即可。
 
 ```java
-public boolean methodName(String name){
+package zhugeliang;
+import caocao;
+import zhouyu;
+public class Util{
+    // 使用周瑜代码
+    zhouyu.PublicUtil.xxx();
     ……
-    return false;
+    // 使用曹操代码
+    caocao.PublicUtil.xxx();
+    ……
+}
+```
+
+以上代码中的 `import` 你可能也在其他代码中见到过，但你不知道啥作用。其实它就是为了包的使用而生，如果我要使用另一个人的包，那该怎么做呢？其实很简单，只需要在程序中使用关键字 `import` 即可完成包的导入。
+
+通过使用包，可以达到以下的作用：
+
+1.   将功能类似或或相关的类以及接口组织放在同一个包中，方便类的查找与使用。
+2.   包也像文件夹一样，采用了树形目录的存储方式。同一个包中的类名不同，不同包中的类名可以相同。当同时调用两个不同包中的同一类名的类时，通过加上完整的包名就可以加以区分，从而避免类名冲突。
+3.   同时包也限定了访问权限，只有拥有包访问权限的类才能间接去访问包中的类。
+
+## 注释
+
+所谓注释，就是写在程序里边对代码进行结束说明的文字，既方便自己也方便他人查看，更快理解程序含义。而且注释是不影响程序的执行的，在我们对 Java 源代码进行编译后，字节码文件中不含源代码中的注释内容。
+
+在 Java 中，通常支持三种注释方式，它们分别是：
+
+-   `//`：单行注释
+-   `/* */`：多行注释
+-   `/** */`：文档注释
+
+### 单行注释
+
+单行注释是以双斜杠 `//` 来标识，表示只注释当前行内容，一般用在需要注释的内容较少的地方，以下就是一个单行注释的实例。
+
+```java
+// 第一个 Java 程序
+public class HelloWorld{
+	public static void main(String[] args){
+    	System.out.println("Hello World!");
+    }
+}
+```
+
+### 多行注释
+
+通常我们把要注释的内容放在 `/*` 和 `*/` 之间，表示在两者之间的内容都是我们的注释内容，以下是一个多行注释的实例。
+
+```java
+/* 
+* 第一个 Java 程序
+* 这是许多初学者都会写的一个程序
+*/
+public class HelloWorld{
+	public static void main(String[] args){
+    	System.out.println("Hello World!");
+    }
+}
+```
+
+### 文档注释
+
+文档注释和多行注释很像，它是将我们所需要注释的内容包含在 `/**` 和 `*/` 之间。而文档注释和其他两种注释最大的区别就在于：我们可以利用 `javadoc` 工具来提取文档注释，然后生成一个 HTML 文档，类似于 Java 官网所提供的 API 文档，以下是一个文档注释的实例。
+
+```java
+/**
+* 第一个 Java 程序
+* 这是许多初学者都会写的一个程序
+*/
+public class HelloWorld{
+    /**
+    * 主函数
+    * @param args 主函数参数列表
+    */
+	public static void main(String[] args){
+    	System.out.println("Hello World!");
+    }
+}
+```
+
+然后我们通过终端，使用 `javadoc` 命令就可以为上述文件生成一个 HTML 文档。
+
+```bash
+javadoc HelloWorld.java
+```
+
+而文档注释相比于其他两种注释，也有更多值得注意的地方，下面就分别来看看需要留意的地方。
+
+1.   **常用文档注释分类**
+
+-   **类注释**
+
+顾名思义，所谓类注释，就是针对整个类的说明，它必须放在 `import` 之后，但又必须放在类定义之前。以下是一个类注释的实例：
+
+```java
+/**
+* Animal，动物类
+*/
+public class Animal{
+	...
+}
+```
+
+这里需要注意的是，在 `/**` 和 `*/` 之间的其他行注释，`*` 是可有可无的，之所以加上，更大情况出于美观的考虑，上面的实例写成如下样式也是合法的。
+
+```java
+/**
+  Animal，动物类
+*/
+public class Animal{
+	...
+}
+```
+
+-   **方法注释**
+
+同样的，方法注释也就是针对类中方法的注释，它必须放在所描述的方法之前。而一般情况下，除开说明该方法的功能之外，我们经常使用如下标记来对方法进行注释。
+
+| 标记                          | 说明                                 |
+| ----------------------------- | ------------------------------------ |
+| `@param variable description` | 用于介绍当前方法的参数，可以占据多行 |
+| `@return description`         | 用于描述当前方法的返回值，可以跨多行 |
+| `@throws class description`   | 用于表示该方法有可能抛出的异常       |
+
+以下就是一个方法注释的实例：
+
+```java
+/**
+* 求两数之h
+* @param num1 加数1
+* @param num2 加数2
+@ return 两数之和
+*/
+public int add(int num1, int num2){
+	return num1 + num2;
 }
 ```
 
 
 
-```java
-public class Pet{
-    // 名字
-    public String name;
-    
-    // 毛色
-    public String furColor;
-    
-    // 年龄
-    public int age;
-    
-    // 具有返回值的方法
-    int getAge(){
-        return age;
-    }
+-   **字段注释**
 
-    // 带有参数的方法
-    void setAge(int age){
-        this.age = age;
-    }
-    
-    // 吃东西对应的方法
-    void eat(){
-        System.out.println("吃东西！");
-    }
-    
-    // 叫唤对应的方法
-    void bark(){
-        System.out.println("叫唤！");
+字段注释顾名思义，也就是对于类中字段的说明，用于描述字段的含义，以下是一个字段注释的例子。
+
+```java
+public class Cunyu{
+	/**
+	* 公众号
+	*/    
+    public String wePublic;
+}
+```
+
+当然，如果你不喜欢把一个字段的注释分成多行的话，也可以写成以下格式。
+
+```java
+public class Cunyu{
+	/**公众号*/    
+    public String wePublic;
+}
+```
+
+两种方式都是可以的，也没有优劣之分，可以根据自己的风格来选择。但是在 IntelliJ IDEA 等 IDE 中，如果对代码进行格式化，IDEA 会将第二种方式格式化成第一种方式，这一点需要注意。
+
+2.   **如何提取文档注释**
+
+假设有以下一段代码，我们需要生成关于代码的文档说明。那么就可以使用 JDK 中所提供的 `javadoc` 命令来提取代码的文档注释。
+
+```java
+/**
+* 第一个 Java 程序
+* 这是初学者基本都会写的一个程序
+* @author 村雨遥
+* @version 1.0
+*/
+public class HelloWorld {
+    /**
+    * 主函数：程序入口
+    * @param args 主函数参数列表
+    */
+	public static void main(String[] args){
+    	System.out.println("Hello World!");
     }
 }
 ```
 
-而对于方法命名的方式，也是有一定讲究的。因为一般而言方法都是一个类的动作行为，所以 **一般都是以动词开头，而如果有多个单词组合，则除开第一个单词全部小写之外，后面每个单词的第一个字母都要使用大写**。
+然后利用以下命令就可以生成我们的文档注释。
 
-### 构造方法
-
-上面我们说了实例（也就是对象）和属性，那么当我们创建一个实例的时候，通常我们想要把它的属性也给它设置好。为了实现这一功能，这时候我们可以添加方法，从而达到这一目的，以上述设置宠物的年龄为例。
-
-```java
-// 首先创建一个实例
-Pet pet = new Pet();
-// 接着调用方法设置年龄
-pet.setAge(3);
-// 查看设置年龄是否成功
-System.out.println(pet.getAge());
+```shell
+javadoc -d helloworld -author -version -encoding UTF-8 HelloWorld.java
 ```
 
-可以发现通过上述调用方法的方式是可以完成这一目的的，但假设我们需要设置的属性很多，此时要全部设置属性值时就需要调用许多次 `setter` 方法，一旦遗漏一个，则实例内部状态就紊乱了。那我们就想了，有没有一种简单点的方法，能够让我们在创建实例对象的同时就把内部属性初始化了呢？
+以上命令的意思就是，对名为 `HelloWorld.java` 的提取其中的文档注释，并将输出的文件放在 `helloworld` 文件夹下，并且在文档中包含程序作者和版本，编码方式为 `UTF-8`。
 
-答案是：Yes！🎉🎉🎉
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403145655949.png)
 
-这时候我们就可以用到一类特殊的方法 - **构造方法**，以下就来看看这个构造方法的特殊之处。
+生成的文件列表详情见下图，打开其中的 `index.html` 就可以查看提取的文档注释。
 
-其实在上面我们创建实例的时候就已经调用了构造方法了，只不过它是没有带任何参数的构造方法。以上述动物类 `Pet` 为实例，我们来看看如何编写它的构造方法。
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403145804859.png)
+
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403150043524.png)
+
+## jar 文件的创建
+
+其实关于这个，我在之前的文章也写过。不过我是利用 IntelliJ IDEA 来对进行代码的打包，如果感兴趣，可以点击下方传送门去看看。
+
+>   [如何利用 IntelliJ IDEA 创建 Java 入门应用](https://cunyu1943.github.io/JavaPark/dev-tools/idea/java-quick-start-with-idea)
+
+不过那是借助工具来生成的，今天我们来看看如何利用 JDK 所提供的命令行工具，来创建一个能打印出 `Hello World!` 的 `jar` 包。
+
+同样的，我们仍然是需要先准备一个能输出 `Hello World!` 的 Java 源代码，命名为 `HelloWorld.java`。
 
 ```java
-public class Pet{
-        // 名字
-    public String name;
-    
-    // 毛色
-    public String furColor;
-    
-    // 年龄
-    public int age;
-    
-    // 无参构造方法
-    public Pet(){}
-    
-    // 带参构造方法
-    public Pet(String name, String furColor, int age){
-        this.name = name;
-        this.furColor = furColor;
-        this.age = age;
+public class HelloWorld {
+	public static void main(String[] args){
+    	System.out.println("Hello World!");
     }
 }
 ```
 
-以上我们只是给出了无参的构造方法和带了所有属性的构造方法，除了上面的两个构造方法之外，我们还可以根据需要创建带有部分属性的构造方法。可以看到，相比于普通的方法，构造方法有着明显的特点：
+接着，利用 `javac` 命令对该文件进行编译，然后会生成 `HelloWorld.class` 字节码文件。
 
-1.  **没有返回值**：是的，无论是带参还是不带参的构造函数，它们都是没有返回值的，而它也是 **每个类默认的构造方法**；
-2.  **方法名同类名一样**：必须确保构造方法的名字和类名一致，否则它就不是构造方法了；
-
-有了构造方法之后，我们创建实例时就可以直接给它初始化了，而不用再去麻烦地调用各个 `setter` 方法来初始化实例。
-
-```java
-// 调用无参构造方法
-Pet pet1 = new Pet();
-// 调用有参构造方法
-Pet pet2 = new Pet("柯基", "黄色", 1);
+```shell
+javac HelloWorld.java
 ```
 
-🎈 Tips：对于实例的属性值，在未经构造方法初始化时，各数据类型都有默认值，整型默认值为 `0`，浮点型默认值为 `0.0`，布尔类型默认值为 `false`，引用类型默认值为 `null`。
+然后，利用 `jar` 命令来对生成的字节码文件进行打包。
 
-### 引用
-
-既然知道了什么是面向对象以及面向对象中的一些关键知识点如对象、属性、方法的概念，那我们就趁热来看看啥是引用。
-
-所谓引用，其实在之前学习的时候就已经涉及到了。你是否还记得 `String` 这个特殊的数据类型，其实在我们创建一个 `String` 对象时，也就创建了一个引用。
-
-```java
-String str = new String("村雨遥");
+```shell
+jar -cvf hello.jar HelloWorld.class
 ```
 
-其中 `str` 既是一个变量，也是一个引用，指向一个值为 `"村雨遥"` 的 `String` 对象，后续如果我们要访问这个 `String` 对象，就需要使用 `str` 这个引用来代表它。
+其中 `c` 表示创建一个新 `jar` 包，`v` 表示创建过程中打印创建过程中的信息，`f` 则表示对新生成的 `jar` 命名。
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8c6475fcddda4b19b7f1ba10ec940b09~tplv-k3u1fbpfcp-watermark.image)
-
-以上我们说的是一个引用指向一个对象，但是我们也可以用多个引用指向同一个对象。就好比你家买了一俩车，不仅你可以开，你老婆也可以开，你爸妈也可以开。而这时候的车就好比一个“对象”，而使用它的人就是多个“引用”。
+最后，利用以下命令来运行 `jar` 包。
 
 ```java
-// 对象 1
-String str1 = new String("村雨遥");
-// 对象 2
-String str2 = str1;
-// 对象 3
-String str3 = str1;
+java -jar hello.jar
 ```
 
+不过并不会顺利出现我们想要的结果，此时会报错 `hello.jar` 中没有主清单属性。这是因为我们还没有在 `MENIFEST.MF` 文件中添加 `Main-Class` 属性。
 
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403155157744.png)
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3d8d0a440f60445f9b6f8c249a79caa0~tplv-k3u1fbpfcp-watermark.image)
+用压缩软件打开刚创建的 `hello.jar`，里边除了 `HelloWorld.class` 文件之外，还会多一个 `META-INF` 文件夹，里边还有一个 `MENIFEST.MF` 文件，此时我们只需要用编辑器打开该文件，然后在文件中加入以下代码。（**记得添加之后要保证整个文件最后保留一行空行**）
 
+```
+Main-Class: HelloWorld 
+```
 
+![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403154705550.png)
+
+添加完成之后，再次运行 `java -jar hello.jar` ，就可以成功在控制台打印 `Hello World!` 了。
 
 ## 总结
 
-XDM，今天的内容就到此结束了。主要对面向对象中的类、对象、属性、方法、构造方法以及引用做了介绍，关于更多面向对象的知识，我们下一篇文章中再见！
+以上就是今天博客的所有内容了，如果您觉得本文不错，那就来个一键三连吧，您的关注就是我坚持的不懈动力！
 
+**关注公众号，获取最新文章更新**
 
-
+<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

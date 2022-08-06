@@ -25,6 +25,7 @@ export default defineSidebarConfig([
           "how-to-operate-array",
           "oop-1",
           "oop-2",
+          "oop-3",
           "all-kinds-of-variable",
           "in-out-stream",
           "reflection",

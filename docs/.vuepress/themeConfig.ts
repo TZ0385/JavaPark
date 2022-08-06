@@ -34,7 +34,7 @@ export default defineThemeConfig({
 
   // 博客信息
   blog: {
-    description: "CSDN 博客专家、阿里云专家博主、华为云云享专家",
+    description: "CSDN 博客专家、掘金优秀作者、阿里云专家博主、华为云云享专家",
     // intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
