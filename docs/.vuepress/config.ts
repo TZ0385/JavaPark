@@ -1,11 +1,12 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme";
+import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
   lang: "zh-CN",
+
   title: "JavaPark",
   description: "Java 自学编程之路",
-
   base: "/JavaPark/",
 
   head: [
@@ -24,11 +25,24 @@ export default defineUserConfig({
       "link",
       {
         rel: "stylesheet",
-        // href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
         href: "//at.alicdn.com/t/font_3334252_ez094e1cbfn.css",
       },
     ],
   ],
 
+
+
+  //  插件
+  plugins: [
+    searchPlugin({
+      // ...
+
+      locales: {
+        "/zh/": {
+          placeholder: "搜索",
+        },
+      },
+    }),
+  ],
   theme,
 });

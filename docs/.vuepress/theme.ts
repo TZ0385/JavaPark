@@ -1,9 +1,11 @@
 import { hopeTheme } from "vuepress-theme-hope";
+
 import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
   hostname: "https://cunyu1943.github.io/JavaPark",
+
 
   author: {
     name: "村雨遥",
@@ -24,6 +26,8 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
+
+
   footer: "更多精彩内容，尽在公众号：<b>「村雨遥」</b></br></br><img src=\"https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif\" width=\"100\" alt=\"公众号\" />",
 
   displayFooter: true,
@@ -40,29 +44,7 @@ export default hopeTheme({
       GitHub: "https://github.com/cunyu1943",
       Wechat: "https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wechat.gif",
       QQ: "747731461",
-      // Baidu: "https://example.com",
-      // Bitbucket: "https://example.com",
-      // Dingding: "https://example.com",
-      // Discord: "https://example.com",
-      // Dribbble: "https://example.com",
-      // Evernote: "https://example.com",
-      // Facebook: "https://example.com",
-      // Flipboard: "https://example.com",
-      // Gitlab: "https://example.com",
-      // Gmail: "https://example.com",
-      // Instagram: "https://example.com",
-      // Lines: "https://example.com",
-      // Linkedin: "https://example.com",
-      // Pinterest: "https://example.com",
-      // Pocket: "https://example.com",
-      // Qzone: "https://example.com",
-      // Reddit: "https://example.com",
-      // Rss: "https://example.com",
-      // Steam: "https://example.com",
-      // Twitter: "https://example.com",
-      // Weibo: "https://example.com",
-      // Whatsapp: "https://example.com",
-      // Youtube: "https://example.com",
+
     },
   },
   // // 加密
@@ -71,6 +53,17 @@ export default hopeTheme({
   //       "/guide/encrypt.html": ["1234"],
   //     },
   //   },
+
+  //  主题色
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
+
+  //  全屏按钮
+  fullscreen: true,
 
   plugins: {
     // Feed 支持
@@ -81,21 +74,11 @@ export default hopeTheme({
     },
     // 版权信息
     copyright: true,
-    // 本地搜索
-    // search: {
-    //   locales: {
-    //     "/zh/": {
-    //       placeholder: "搜索",
-    //     },
-    //   },
-    // },
     blog: {
       autoExcerpt: true,
     },
 
     // 如果你不需要评论，可以直接删除 comment 配置，
-    // 以下配置仅供体验，如果你需要评论，请自行配置并使用自己的环境，详见文档。
-    // 为了避免打扰主题开发者以及消耗他的资源，请不要在你的正式环境中直接使用下列配置!!!!!
     comment: {
       /**
        * Using Giscus
