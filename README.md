@@ -33,7 +33,7 @@
 
 1.  [Java 菜鸟入门：简介](docs/java/java-se/intro-to-java.md)
 2.  [Java 菜鸟入门：开发环境搭建及入门程序](docs/java/java-se/jdk-install-and-hello-world.md)
-3.  [Java 菜鸟入门：利用 IDEA 进行 Java 开发](/docs/java/java-se/learn-java-with-idea.md)
+3.  [Java 菜鸟入门：利用 IDEA 进行 Java 开发](docs/java/java-se/learn-java-with-idea.md)
 4.  [Java 菜鸟入门：变量与数据类型](docs/java/java-se/variable-and-datatype.md)
 5.  [Java 菜鸟入门：常用进制转换](docs/java/java-se/binary-convert.md)
 6.  [Java 菜鸟入门：操作符](docs/java/java-se/operator.md)
