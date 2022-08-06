@@ -1,7 +1,9 @@
-import { defineSidebarConfig } from "vuepress-theme-hope";
+import { sidebar } from "vuepress-theme-hope";
 
-export default defineSidebarConfig([
-  "",
+export default sidebar([
+  "/",
+  // "/home",
+
   // Java
   {
     text: "Java",
@@ -41,7 +43,7 @@ export default defineSidebarConfig([
         prefix: "java-web/",
         icon: "java",
         collapsable: true,
-        children:[
+        children: [
           "create-deploy-javaweb-with-idea",
           "mockito-junit5",
           "html/basic-lable",
@@ -66,7 +68,7 @@ export default defineSidebarConfig([
         prefix: "maven/",
         icon: "apache",
         collapsable: true,
-        children:[
+        children: [
           "maven-intro-install",
           "maven-command-skeleton",
           "maven-warehouse-dependency",
@@ -78,7 +80,7 @@ export default defineSidebarConfig([
         prefix: "spring/",
         icon: "leaf",
         collapsable: true,
-        children:[
+        children: [
           "spring-intro",
           "the-methods-to-create-spring-project",
           "ioc",
@@ -90,7 +92,7 @@ export default defineSidebarConfig([
         prefix: "spring-mvc/",
         icon: "leaf",
         collapsable: true,
-        children:[
+        children: [
           "intro-and-quick-start",
         ],
       },
@@ -99,7 +101,7 @@ export default defineSidebarConfig([
         prefix: "mybatis/",
         icon: "earlybirds",
         collapsable: true,
-        children:[
+        children: [
           "introduction",
           "quick-start",
           "mybatis-generator",
@@ -110,7 +112,7 @@ export default defineSidebarConfig([
         prefix: "mybatis-plus/",
         icon: "earlybirds",
         collapsable: true,
-        children:[
+        children: [
           "intro-and-quick-start",
           "log-and-common-crud",
         ],
@@ -199,7 +201,7 @@ export default defineSidebarConfig([
         prefix: "intro-to-java/",
         icon: "java",
         collapsable: true,
-        children:[
+        children: [
           "1-5",
           "6-10",
           "11-15",
@@ -215,7 +217,7 @@ export default defineSidebarConfig([
         prefix: "java-se-in-action/",
         collapsable: true,
         icon: "ruanjian",
-        children:[
+        children: [
           "score-management",
           "order-system",
           "tally-book",

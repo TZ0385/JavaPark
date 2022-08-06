@@ -1,7 +1,7 @@
-import { defineHopeConfig } from "vuepress-theme-hope";
-import themeConfig from "./themeConfig";
+import { defineUserConfig } from "vuepress";
+import theme from "./theme";
 
-export default defineHopeConfig({
+export default defineUserConfig({
   lang: "zh-CN",
   title: "JavaPark",
   description: "Java 自学编程之路",
@@ -13,12 +13,12 @@ export default defineHopeConfig({
     [
       "script", {},
       `var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?0e04a42f3ef801de0a628947884a3bcd";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();`
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?0e04a42f3ef801de0a628947884a3bcd";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();`
     ],
     [
       "link",
@@ -30,5 +30,5 @@ export default defineHopeConfig({
     ],
   ],
 
-  themeConfig,
+  theme,
 });
