@@ -9,9 +9,9 @@ actions:
   - text: 开始阅读 💡
     link: /home
 
-  # - text: 博客主页 🏠
-  #   link: /zh/
-  #   type: secondary
+  - text: 资源下载 💯
+    link: https://mp.weixin.qq.com/s/D6KF7OSK2Py_HboCvyObVw
+    # type: secondary
 
 features:
   - title: Java SE
