@@ -10,8 +10,10 @@
 >
 >   📚 在线阅读：[JavaPark](https://cunyu1943.github.io/JavaPark/)
 
-[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容。另外，我还组建了微信**交流群**，大家可以添加我[「微信」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wechat.gif)进群，技术交流或者提提意见都欢迎！
-日常更文更多是分享到这个项目，如果你觉得本项目对你所有帮助，欢迎 **Star**！
+[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，不过文章会优先发布在这里，此外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！。
+
+另外，我还组建了微信**交流群**，大家可以添加我[「微信」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wechat.gif)进群，技术交流或者提提意见都欢迎！
+日常更文首发于公众号后，后续是同步到这个项目进行更新，如果你觉得本项目对你所有帮助，欢迎 **Star**！
 
 [![](https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%9D%91%E9%9B%A8%E9%81%A5-brightgreen)](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif)
 [![](https://img.shields.io/badge/wechat-%E5%BE%AE%E4%BF%A1%E7%BE%A4-blueviolet)](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wechat.gif)
@@ -24,12 +26,20 @@
 | [![ebooks](https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&repo=ebooks&show_icons=true&theme=radical)](https://github.com/cunyu1943/ebooks) | [![code-library](https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&repo=code-library&show_icons=true&theme=radical)](https://github.com/cunyu1943/code-library) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
+## 🔖 目录
 
-## 🔖 目录（Ctrl + F 快速定位）
+1.   [Java](#☕️-Java)
+2.   [数据库](#🍭-数据库)
+3.   [实战训练](#💻-实战训练)
+4.   [计算机基础](#🖥-计算机基础)
+5.   [开发工具](#🧰-开发工具)
+6.   [效率工具](#🛠-效率工具)
+7.   [福利专区](#🧧-福利专区)
+8.   [面试宝典](#📚-面试宝典)
 
-### ☕️ Java
+## ☕️ Java
 
-#### Java SE
+### Java SE
 
 1.  [Java 菜鸟入门：简介](docs/java/java-se/intro-to-java.md)
 2.  [Java 菜鸟入门：开发环境搭建及入门程序](docs/java/java-se/jdk-install-and-hello-world.md)
@@ -49,12 +59,15 @@
 16.  [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](docs/java/java-se/test-with-junit.md)
 17.  [Java 菜鸟入门：Lombok 安装及使用指南](docs/java/java-se/lombok-install-and-usage.md)
 18.  [Java 菜鸟入门：Fastjson V2 简单使用手册](docs/java/java-se/fastjson2-quickstart.md)
-#### Java Web
+### Java Web
+
 1.  [Java Web 篇：IDEA 中创建并部署 JavaWeb 程序](docs/java/java-web/create-deploy-javaweb-with-idea.md)
 2.  [Java Web 篇：Mockito + JUnit 单元测试实例](docs/java/java-web/mockito-junit5.md)
-##### HTML
+#### HTML
+
 1. [HTML 教程：基础标签](docs/java/java-web/html/basic-lable.md)
-##### JavaScript
+#### JavaScript
+
 1.  [JS 教程：与君初相识](docs/java/java-web/js/introduction.md)
 2.  [JS 教程：注释、输入输出、变量](docs/java/java-web/js/annotation-inout-variable.md)
 3.  [JS 教程：数据类型](docs/java/java-web/js/datatype.md)
@@ -66,35 +79,41 @@
 9.  [JS 教程：DOM 元素获取、属性修改](docs/java/java-web/js/dom-get-attribute.md)
 10. [JS 教程：DOM 事件](docs/java/java-web/js/dom-event.md)
 
-##### Vue
+#### Vue
+
 1. [Vue3 笔记：简介及入门实例](docs/java/java-web/vue3/introduction.md)
 2. [Vue3 笔记：搭建 Vue + Vite 入门项目](docs/java/java-web/vue3/vite-quickstart.md)
 3. [Vue3 笔记：Axios 简单使用指南](docs/java/java-web/vue3/axios-quickstart.md)
 4. [Vue3 笔记：常用指令](docs/java/java-web/vue3/common-commands.md)
-#### Maven
+### Maven
+
 1.  [Maven 入门手册：简介，安装及配置](docs/java/maven/maven-intro-install.md)
 2.  [Maven 入门手册：常用命令及项目骨架生成](docs/java/maven/maven-command-skeleton.md)
 3.  [Maven 入门手册：仓库、坐标以及依赖管理](docs/java/maven/maven-warehouse-dependency.md)
 4.  [Maven 入门手册：使用 IDEA 创建 Maven 项目](docs/java/maven/maven-project-with-idea.md)
 
-#### Spring
+### Spring
+
 1.  [Spring 篇：简介](/docs/java/spring/spring-intro.md)
 2.  [Spring 篇：3 种创建项目的方式](docs/java/spring/the-methods-to-create-spring-project.md)
 3.  [Spring 篇：IoC 简介及入门实例（XML 版）](docs/java/spring/ioc.md)
 4.  [Spring 篇：Bean 详解](docs/java/spring/bean.md)
 
+### Spring MVC
 
-#### Spring MVC
 1.  [Spring MVC 指南：简介及入门实例](docs/java/spring-mvc/intro-and-quick-start.md)
 
-#### MyBatis
+### MyBatis
+
 1.  [MyBatis 指北：简介](docs/java/mybatis/introduction.md)
 2.  [MyBatis 指北：快速入门](docs/java/mybatis/quick-start.md)
 3.  [MyBatis 指北：MyBatis Generator 代码自动生成器](docs/java/mybatis/mybatis-generator.md)
-#### MyBatis Plus
+### MyBatis Plus
+
 1.  [MyBatis Plus 篇：简介及入门实例](docs/java/mybatis-plus/intro-and-quick-start.md)
 2.  [MyBatis Plus 篇：日志配置及常用 CRUD](docs/java/mybatis-plus/log-and-common-crud.md)
-#### Spring Boot
+### Spring Boot
+
 1.  [Spring Boot 基础教程：入门简介](docs/java/spring-boot/introduction.md)
 2.  [Spring Boot 基础教程：创建项目的 3 种方式](docs/java/spring-boot/the-methods-to-create-springboot-project.md)
 3.  [Spring Boot 基础教程：配置详解](docs/java/spring-boot/configuration.md)
@@ -105,18 +124,18 @@
 8.  [Spring Boot 基础教程：整合 Thymeleaf 实例](docs/java/spring-boot/integrated-thymeleaf.md)
 9.  [Spring Boot 基础教程：集成 Spring Security](docs/java/spring-boot/integrated-security.md)
 
-### 🍭 数据库
+## 🍭 数据库
 
-#### MySQL 教程
+### MySQL 教程
 
-1.   [MySQL 教程：数据库简介](docs/database/mysql/overview)
-2.   [MySQL 教程：环境搭建](docs/database/mysql/install)
+1.   [MySQL 教程：数据库简介](docs/database/mysql/overview.md)
+2.   [MySQL 教程：环境搭建](docs/database/mysql/install.md)
 
-#### PostgreSQL 教程
+### PostgreSQL 教程
 
 1. [PostgreSQL 教程：简介及环境搭建](docs/database/postgresql/pg-install-on-windows.md)
 
-#### SQL 必知必会 50 题
+### SQL 必知必会 50 题
 
 1.  [SQL 必知必会 50 题（1 - 5）](docs/database/sql-in-10min/1-5.md)
 2.  [SQL 必知必会 50 题（6 - 10）](docs/database/sql-in-10min/6-10.md)
@@ -128,7 +147,8 @@
 8.  [SQL 必知必会 50 题（36 - 40）](docs/database/sql-in-10min/36-40.md)
 9.  [SQL 必知必会 50 题（40 - 45）](docs/database/sql-in-10min/41-45.md)
 10.  [SQL 必知必会 50 题（46 - 50）](docs/database/sql-in-10min/46-50.md)
-#### SQL 进阶挑战
+### SQL 进阶挑战
+
 1. [SQL 进阶挑战（1 - 5）](docs/database/sql-advanced/1-5.md)
 2. [SQL 进阶挑战（6 - 10）](docs/database/sql-advanced/6-10.md)
 3. [SQL 进阶挑战（11 - 15）](docs/database/sql-advanced/11-15.md)
@@ -138,9 +158,10 @@
 7. [SQL 进阶挑战（31 - 35）](docs/database/sql-advanced/31-35.md)
 8. [SQL 进阶挑战（36 - 40）](docs/database/sql-advanced/36-40.md)
 9. [SQL 进阶挑战（41 - 46）](docs/database/sql-advanced/41-46.md)
-### 💻 实战训练
+## 💻 实战训练
 
-#### Java 入门练习
+### Java 入门练习
+
 1. [Java 入门练习（1 - 5）](docs/practical-training-camp/intro-to-java/1-5.md)
 2. [Java 入门练习（6 - 10）](docs/practical-training-camp/intro-to-java/6-10.md)
 3. [Java 入门练习（11 - 15）](docs/practical-training-camp/intro-to-java/11-15.md)
@@ -149,12 +170,14 @@
 6. [Java 入门练习（26 - 30）](docs/practical-training-camp/intro-to-java/26-30.md)
 7. [Java 入门练习（31 - 35）](docs/practical-training-camp/intro-to-java/31-35.md)
 8. [Java 入门练习（36 - 40）](docs/practical-training-camp/intro-to-java/36-40.md)
-#### Java SE 实训
+### Java SE 实训
+
 1.  [SE 实训营：学生成绩管理系统](docs/practical-training-camp/java-se-in-action/score-management.md)
 2.  [SE 实训营：手撸记账本](docs/practical-training-camp/java-se-in-action/tally-book.md)
 3.  [SE 实训营：点菜系统](docs/practical-training-camp/java-se-in-action/order-system.md)
 4.  [SE 实训营：MySQL + MyBatis 版学生成绩管理系统](docs/practical-training-camp/java-se-in-action/mysql-mybatis-score-management.md)
-#### Java 编程实例
+### Java 编程实例
+
 1.  [Java 编程实例（1-5）](docs/practical-training-camp/java-instance/1-5.md)
 2.  [Java 编程实例（6-10）](docs/practical-training-camp/java-instance/6-10.md)
 3.  [Java 编程实例（11-15）](docs/practical-training-camp/java-instance/11-15.md)
@@ -170,13 +193,16 @@
 13.  [Java 编程实例（61-65）](docs/practical-training-camp/java-instance/61-65.md)
 14.  [Java 编程实例（66-70）](docs/practical-training-camp/java-instance/66-70.md)
 15.  [Java 编程实例（71-75）](docs/practical-training-camp/java-instance/71-75.md)
-### 🖥 计算机基础
-#### 数据结构与算法
+## 🖥 计算机基础
+
+### 数据结构与算法
+
 1. [数据结构与算法：数据结构简介](docs/cs-basics/algorithm/datastructure.md)
 2. [数据结构与算法：算法简介](docs/cs-basics/algorithm/algorithm.md)
-### 🧰 开发工具
+## 🧰 开发工具
 
-#### IntelliJ IDEA
+### IntelliJ IDEA
+
 1.  [IDEA 教程：白嫖 IntelliJ IDEA 专业版使用权](docs/dev-tools/idea/idea-pro-with-student-email.md)
 2.  [IDEA 教程：最新版 IDEA 简单使用手册](docs/dev-tools/idea/idea-guide.md)
 3.  [IDEA 教程：IDEA + Github 多设备同步开发](docs/dev-tools/idea/idea-with-github.md)
@@ -185,7 +211,7 @@
 6.  [IDEA 教程：创建 Java 入门应用](docs/dev-tools/idea/java-quick-start-with-idea.md)
 7.  [IDEA 教程：连接 MySQL 失败解决方案](docs/dev-tools/idea/connect-mysql-fail.md)
 8.  [IDEA 教程：Tomcat 控制台乱码解决方法](docs/dev-tools/idea/tomcat-console-error-code.md)
-### 🛠 效率工具
+## 🛠 效率工具
 
 1. [效率工具：一招搞定电子签名](docs/efficiency/e-signature.md)
 2. [效率工具：Gitee + Typora 打造写作环境](docs/efficiency/gitee-typora.md)
@@ -199,20 +225,24 @@
 10. [效率工具：有了这几个刷题网站，还愁跳槽不涨薪？](docs/efficiency/interview-website.md)
 11. [效率工具：听说你还在花钱从网上买 PPT 模板？](docs/efficiency/website/ppt-template.md)
 
-#### Windows
+### Windows
+
 1. [Windows 教程：制作 U 盘启动盘](docs/efficiency/windows/how-to-make-usb-boot-drive.md)
 2. [Windows 教程：手把手安装 Windows 系统](docs/efficiency/windows/windows-install.md)
 3. [Windows 教程：优雅地使用 Windows 10](docs/efficiency/windows/how-to-use-windows10.md)
 4. [Windows 教程：Windows 中安装 PostgreSQL](docs/efficiency/windows/postgresql-install-on-windows.md)
 5. [Windows 教程：Node.js 安装教程](docs/efficiency/windows/nodejs-install.md)
-#### macOS
+### macOS
+
 1. [macOS 教程：iTerm2 + Oh My Zsh 打造帅气终端](docs/efficiency/macos/item-oh-my-zsh.md)
 2. [macOS 教程：iTerm2 + Fish 打造高效终端](docs/efficiency/macos/fish-shell.md)
-#### Linux
+### Linux
+
 1. [Linux 教程：VMware 中安装 Ubuntu](docs/efficiency/linux/ubuntu-install-with-vmware.md)
 2. [Linux 教程：打造酷炫的 Ubuntu](docs/efficiency/linux/ubuntu-guide.md)
 3. [Linux 教程：玩转 Manjora](docs/efficiency/linux/manjora-guide.md)
-#### 博客搭建
+### 博客搭建
+
 1.  [博客搭建：从 0 到 1 搭建 Halo](docs/efficiency/blog/halo.md)
 2.  [博客搭建：超详细 Hexo + Github Pages 搭建教程](docs/efficiency/blog/hexo.md)
 3.  [博客搭建：docsify 搭建高颜值文档网站](docs/efficiency/blog/docsify.md)
@@ -225,7 +255,8 @@
 1. [福利专区：省钱小妙招](docs/welfare/save-money-tips.md)
 
 ## 📚 面试宝典
-1. [面试宝典：MySQL 面试总结](docs/interview/mysql)
+
+1. [面试宝典：MySQL 面试总结](docs/interview/mysql.md)
 ##  公众号
 
 [「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
