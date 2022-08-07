@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：Java 简介
+title: Java 简介
 icon: java
 isOriginal: true
 date: 2022-07-23 11:11:11

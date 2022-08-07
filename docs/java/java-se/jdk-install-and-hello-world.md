@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：开发环境搭建及入门程序
+title: 开发环境搭建及入门程序
 isOriginal: true
 icon: java
 tag:

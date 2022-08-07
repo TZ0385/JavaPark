@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：反射机制详解
+title: 反射机制详解
 icon: java
 date: 2022-01-15 21:52:26
 isOriginal: true

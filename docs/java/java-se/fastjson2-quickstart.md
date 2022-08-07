@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：Fastjson V2 简单使用手册
+title: Fastjson V2 简单使用手册
 isOriginal: true
 icon: java
 tag:

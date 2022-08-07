@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：是时候拥抱 Junit 单元测试了！
+title: 是时候拥抱 Junit 单元测试了
 date: 2022-01-16 09:21:33
 icon: java
 isOriginal: true

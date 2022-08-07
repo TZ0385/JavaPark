@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：类的相关知识
+title: 类的相关知识
 icon: java
 tag:
   - Java

@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：变量与数据类型
+title: 变量与数据类型
 icon: java
 isOriginal: true
 tag:

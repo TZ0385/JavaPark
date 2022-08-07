@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：包和 jar 文件的创建
+title: 包和 jar 文件的创建
 icon: java
 isOriginal: true
 tag:
@@ -15,9 +15,9 @@ date: 2022-04-03 16:20:59
 
 有了上面的基础之后，今天我们来继续学习面向对象的相关知识，主要内容预告如下：
 
--   **包**
--   **注释**
--   **jar 文件的创建**
+- **包**
+- **注释**
+- **jar 文件的创建**
 
 ## 包
 
@@ -65,9 +65,9 @@ public class Util{
 
 通过使用包，可以达到以下的作用：
 
-1.   将功能类似或或相关的类以及接口组织放在同一个包中，方便类的查找与使用。
-2.   包也像文件夹一样，采用了树形目录的存储方式。同一个包中的类名不同，不同包中的类名可以相同。当同时调用两个不同包中的同一类名的类时，通过加上完整的包名就可以加以区分，从而避免类名冲突。
-3.   同时包也限定了访问权限，只有拥有包访问权限的类才能间接去访问包中的类。
+1.  将功能类似或或相关的类以及接口组织放在同一个包中，方便类的查找与使用。
+2.  包也像文件夹一样，采用了树形目录的存储方式。同一个包中的类名不同，不同包中的类名可以相同。当同时调用两个不同包中的同一类名的类时，通过加上完整的包名就可以加以区分，从而避免类名冲突。
+3.  同时包也限定了访问权限，只有拥有包访问权限的类才能间接去访问包中的类。
 
 ## 注释
 
@@ -75,9 +75,9 @@ public class Util{
 
 在 Java 中，通常支持三种注释方式，它们分别是：
 
--   `//`：单行注释
--   `/* */`：多行注释
--   `/** */`：文档注释
+- `//`：单行注释
+- `/* */`：多行注释
+- `/** */`：文档注释
 
 ### 单行注释
 
@@ -97,7 +97,7 @@ public class HelloWorld{
 通常我们把要注释的内容放在 `/*` 和 `*/` 之间，表示在两者之间的内容都是我们的注释内容，以下是一个多行注释的实例。
 
 ```java
-/* 
+/*
 * 第一个 Java 程序
 * 这是许多初学者都会写的一个程序
 */
@@ -136,9 +136,9 @@ javadoc HelloWorld.java
 
 而文档注释相比于其他两种注释，也有更多值得注意的地方，下面就分别来看看需要留意的地方。
 
-1.   **常用文档注释分类**
+1.  **常用文档注释分类**
 
--   **类注释**
+- **类注释**
 
 顾名思义，所谓类注释，就是针对整个类的说明，它必须放在 `import` 之后，但又必须放在类定义之前。以下是一个类注释的实例：
 
@@ -162,7 +162,7 @@ public class Animal{
 }
 ```
 
--   **方法注释**
+- **方法注释**
 
 同样的，方法注释也就是针对类中方法的注释，它必须放在所描述的方法之前。而一般情况下，除开说明该方法的功能之外，我们经常使用如下标记来对方法进行注释。
 
@@ -186,9 +186,7 @@ public int add(int num1, int num2){
 }
 ```
 
-
-
--   **字段注释**
+- **字段注释**
 
 字段注释顾名思义，也就是对于类中字段的说明，用于描述字段的含义，以下是一个字段注释的例子。
 
@@ -196,7 +194,7 @@ public int add(int num1, int num2){
 public class Cunyu{
 	/**
 	* 公众号
-	*/    
+	*/
     public String wePublic;
 }
 ```
@@ -205,14 +203,14 @@ public class Cunyu{
 
 ```java
 public class Cunyu{
-	/**公众号*/    
+	/**公众号*/
     public String wePublic;
 }
 ```
 
 两种方式都是可以的，也没有优劣之分，可以根据自己的风格来选择。但是在 IntelliJ IDEA 等 IDE 中，如果对代码进行格式化，IDEA 会将第二种方式格式化成第一种方式，这一点需要注意。
 
-2.   **如何提取文档注释**
+2.  **如何提取文档注释**
 
 假设有以下一段代码，我们需要生成关于代码的文档说明。那么就可以使用 JDK 中所提供的 `javadoc` 命令来提取代码的文档注释。
 
@@ -241,20 +239,21 @@ javadoc -d helloworld -author -version -encoding UTF-8 HelloWorld.java
 ```
 
 以上命令的意思就是，对名为 `HelloWorld.java` 的提取其中的文档注释，并将输出的文件放在 `helloworld` 文件夹下，并且在文档中包含程序作者和版本，编码方式为 `UTF-8`。
+![](https://img-blog.csdnimg.cn/a5f6160a0449461f9a08e028eb529a7e.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403145655949.png)
 
 生成的文件列表详情见下图，打开其中的 `index.html` 就可以查看提取的文档注释。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403145804859.png)
+![](https://img-blog.csdnimg.cn/61b1760f009043c3b5bfd656f933b376.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403150043524.png)
+![](https://img-blog.csdnimg.cn/92bbcb45ec3547c0aca403989fc82353.png)
+
 
 ## jar 文件的创建
 
 其实关于这个，我在之前的文章也写过。不过我是利用 IntelliJ IDEA 来对进行代码的打包，如果感兴趣，可以点击下方传送门去看看。
 
->   [如何利用 IntelliJ IDEA 创建 Java 入门应用](https://cunyu1943.github.io/JavaPark/dev-tools/idea/java-quick-start-with-idea)
+> [如何利用 IntelliJ IDEA 创建 Java 入门应用](https://cunyu1943.github.io/JavaPark/dev-tools/idea/java-quick-start-with-idea "如何利用 IntelliJ IDEA 创建 Java 入门应用")
 
 不过那是借助工具来生成的，今天我们来看看如何利用 JDK 所提供的命令行工具，来创建一个能打印出 `Hello World!` 的 `jar` 包。
 
@@ -289,22 +288,25 @@ java -jar hello.jar
 ```
 
 不过并不会顺利出现我们想要的结果，此时会报错 `hello.jar` 中没有主清单属性。这是因为我们还没有在 `MENIFEST.MF` 文件中添加 `Main-Class` 属性。
+![](https://img-blog.csdnimg.cn/952d1f6788874e42bdff0bdaf97197c4.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403155157744.png)
 
 用压缩软件打开刚创建的 `hello.jar`，里边除了 `HelloWorld.class` 文件之外，还会多一个 `META-INF` 文件夹，里边还有一个 `MENIFEST.MF` 文件，此时我们只需要用编辑器打开该文件，然后在文件中加入以下代码。（**记得添加之后要保证整个文件最后保留一行空行**）
 
 ```
-Main-Class: HelloWorld 
+Main-Class: HelloWorld
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220403154705550.png)
+
+![](https://img-blog.csdnimg.cn/img_convert/d851120ecfd46dd56b97df87cf4d8dd8.png)
+
 
 添加完成之后，再次运行 `java -jar hello.jar` ，就可以成功在控制台打印 `Hello World!` 了。
 
 ## 总结
 
 以上就是今天博客的所有内容了，如果您觉得本文不错，那就来个一键三连吧，您的关注就是我坚持的不懈动力！
+
 
 **关注公众号，获取最新文章更新**
 

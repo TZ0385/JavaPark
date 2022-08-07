@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：面向对象的 3、5 知识点
+title: 面向对象的 3、5 知识点
 icon: java
 tag:
   - Java

@@ -10,7 +10,7 @@
 >
 >   📚 在线阅读：[JavaPark](https://cunyu1943.github.io/JavaPark/)
 
-[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，不过文章会优先发布在这里，此外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！。
+[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，不过文章会优先发布在这里，此外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
 
 另外，我还组建了微信**交流群**，大家可以添加我[「微信」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wechat.gif)进群，技术交流或者提提意见都欢迎！
 日常更文首发于公众号后，后续是同步到这个项目进行更新，如果你觉得本项目对你所有帮助，欢迎 **Star**！

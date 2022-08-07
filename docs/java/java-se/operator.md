@@ -1,5 +1,5 @@
 ---
-title: Java 菜鸟入门：操作符
+title: 操作符
 icon: java
 isOriginal: true
 tag:
