@@ -17,17 +17,17 @@ features:
   - title: Java SE
     icon: java
     details: Java SE 基础语法教程
-    link: /java/java-se/intro-to-java
+    link: /java/java-se/
 
   - title: Spring Boot
     icon: spring-boot
     details: Spring Boot 基础教程
-    link: /java/spring-boot/introduction
+    link: /java/spring-boot/
 
   - title: IntelliJ IDEA
     icon: intellijidea
     details: IntelliJ IDEA 使用指南
-    link: /dev-tools/idea/idea-guide
+    link: /dev-tools/idea/
 ---
 
 ## 公众号
