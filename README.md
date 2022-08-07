@@ -110,6 +110,7 @@
 #### MySQL 教程
 
 1.   [MySQL 教程：数据库简介](docs/database/mysql/overview)
+2.   [MySQL 教程：环境搭建](docs/database/mysql/install)
 
 #### PostgreSQL 教程
 

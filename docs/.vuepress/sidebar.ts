@@ -175,6 +175,7 @@ export default sidebar([
         collapsable: true,
         children: [
           "overview",
+          "install",
         ],
       },
       //  PG
