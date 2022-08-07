@@ -199,28 +199,3 @@ DELETE FROM <表名> WHERE ...;
 
 - **注意**：不带`WHERE`的`DELETE`将会删除整个表的数据；
 
-
-
-
-
-## 资源下载
-
-建议关注公众号 **村雨遥**，文章会优先发布在此处，此外还有 **超多精品资源** 等着你。
-
-![](https://mmbiz.qpic.cn/mmbiz_png/byMlBGX64ICyeI2FoBUKzhNQe5yGLrWCY84Fkbg7xt1ZS7nKjugZ5MUgbaL9fml7GRywfw0oONnCdqsm6F20YQ/640?wx_fmt=png)
-
-### 资源分类
-
-![资源分类](https://mmbiz.qpic.cn/mmbiz_png/byMlBGX64ICyeI2FoBUKzhNQe5yGLrWCweQDLnEQ6OfHaaHgzdKQwNGQoIpA0yc2JS6HCkiaJicvJVDibqswMiccDg/0?wx_fmt=png)
-
-### 部分资源截图
-
-![Java](https://mmbiz.qlogo.cn/mmbiz_png/byMlBGX64ICyeI2FoBUKzhNQe5yGLrWCrTtT0icyU4OdPfKQ4G6wZqaqHW9C5KjMwcxiaE7t0OjTBesg9fia3EGWw/0?wx_fmt=png)
-
-![Python](https://mmbiz.qlogo.cn/mmbiz_png/byMlBGX64ICyeI2FoBUKzhNQe5yGLrWCYe7LJgSicYLAb5ZVuhQ8AuRNicW8Ww45CZ73osGFavj0UHkuRY3vKvmA/0?wx_fmt=png)
-
-![Algorithm](https://mmbiz.qlogo.cn/mmbiz_png/byMlBGX64ICyeI2FoBUKzhNQe5yGLrWCDgpP6ibhwetesHCsAFeJ3eJ06mBzBuI5ZhZPd3g7mIOiaI8f5D9WMoBA/0?wx_fmt=png)
-
-![程序员必读](https://mmbiz.qlogo.cn/mmbiz_png/byMlBGX64ICyeI2FoBUKzhNQe5yGLrWCuCxNN54ickrtssRTkTicsePCxM1mohVBVf5O2K4cEnUYueVkv0nbxXgA/0?wx_fmt=png)
-
-![个人提升](https://mmbiz.qlogo.cn/mmbiz_png/byMlBGX64ICyeI2FoBUKzhNQe5yGLrWCKlzJJF3P905fQ45lT0Z8ZOYCEZ2BVy5hftFdY7AlNleXgvhNINd7vw/0?wx_fmt=png)

@@ -407,4 +407,13 @@ export default sidebar([
       "save-money-tips",
     ],
   },
+  {
+    text: "面试宝典",
+    prefix: "interview",
+    icon: "book",
+    collapsable: true,
+    children: [
+      "mysql",
+    ],
+  },
 ]);

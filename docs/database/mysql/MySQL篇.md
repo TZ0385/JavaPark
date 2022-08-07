@@ -97,4 +97,3 @@ INSERT IGNORE INTO <tableName> (...) VALUES (...);
 CREATE TABLE <newTableName> SELECT * FROM <tableName> WHERE <条件表达式>;
 ```
 
-

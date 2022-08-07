@@ -1,3 +1,14 @@
+---
+title: MySQL 面试总结
+icon: mysql
+isOriginal: true
+date: 2022-08-07 00:00:00
+tag: 
+    - 面试
+    - MySQL
+category: 面试宝典
+---
+
 
 
 ## 数据库基础
