@@ -1,5 +1,5 @@
 ---
-title: PostgreSQL 教程：简介及环境搭建
+title: 简介及环境搭建
 icon: postgresql
 isOriginal: true
 date: 2022-04-24 22:22:22

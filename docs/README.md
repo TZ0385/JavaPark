@@ -10,7 +10,7 @@ actions:
     link: /home
 
   - text: 资源下载 💯
-    link: https://mp.weixin.qq.com/s/D6KF7OSK2Py_HboCvyObVw
+    link: https://mp.weixin.qq.com/s/XW-WJhbw14YA52UpsSW_pA
     # type: secondary
 
 features:

@@ -107,9 +107,16 @@
 
 ### 🍭 数据库
 
+#### MySQL 教程
+
+1.   [MySQL 教程：数据库简介](docs/database/mysql/overview)
+
 #### PostgreSQL 教程
+
 1. [PostgreSQL 教程：简介及环境搭建](docs/database/postgresql/pg-install-on-windows.md)
+
 #### SQL 必知必会 50 题
+
 1.  [SQL 必知必会 50 题（1 - 5）](docs/database/sql-in-10min/1-5.md)
 2.  [SQL 必知必会 50 题（6 - 10）](docs/database/sql-in-10min/6-10.md)
 3.  [SQL 必知必会 50 题（21 - 25）](docs/database/sql-in-10min/11-15.md)

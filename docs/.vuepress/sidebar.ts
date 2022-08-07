@@ -44,23 +44,47 @@ export default sidebar([
         icon: "java",
         collapsable: true,
         children: [
+          {
+            text: "HTML 教程",
+            prefix: "html/",
+            icon: "html",
+            collapsable: true,
+            children: [
+              "basic-lable",
+            ]
+          },
+          {
+            text: "JavaScript 教程",
+            prefix: "js/",
+            icon: "javascript",
+            collapsable: true,
+            children: [
+              "introduction",
+              "annotation-inout-variable",
+              "datatype",
+              "operator",
+              "process-control",
+              "array",
+              "function",
+              "oop",
+              "dom-get-attribute",
+              "dom-event",
+            ]
+          },
+          {
+            text: "Vue3 笔记",
+            prefix: "vue3/",
+            icon: "Vue",
+            collapsable: true,
+            children: [
+              "introduction",
+              "vite-quickstart",
+              "axios-quickstart",
+              "common-commands"
+            ]
+          },
           "create-deploy-javaweb-with-idea",
           "mockito-junit5",
-          "html/basic-lable",
-          "js/introduction",
-          "js/annotation-inout-variable",
-          "js/datatype",
-          "js/operator",
-          "js/process-control",
-          "js/array",
-          "js/function",
-          "js/oop",
-          "js/dom-get-attribute",
-          "js/dom-event",
-          "vue3/introduction",
-          "vue3/vite-quickstart",
-          "vue3/axios-quickstart",
-          "vue3/common-commands"
         ],
       },
       {
@@ -143,6 +167,17 @@ export default sidebar([
     prefix: "database/",
     collapsable: true,
     children: [
+      // MySQL
+      {
+        text: "MySQL 教程",
+        prefix: "mysql/",
+        icon: "mysql",
+        collapsable: true,
+        children: [
+          "overview",
+        ],
+      },
+      //  PG
       {
         text: "PostgreSQL 教程",
         prefix: "postgresql/",

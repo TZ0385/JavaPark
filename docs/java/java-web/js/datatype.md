@@ -1,5 +1,5 @@
 ---
-title: JS 教程：数据类型
+title: 数据类型
 icon: javascript
 isOriginal: true
 date: 2022-04-18
@@ -316,5 +316,4 @@ console.log(Boolean('村雨遥'));
 ```
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418110830295.png)
-
 
