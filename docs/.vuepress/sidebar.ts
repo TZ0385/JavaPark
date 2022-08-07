@@ -414,6 +414,9 @@ export default sidebar([
     collapsable: true,
     children: [
       "mysql",
+      "collection",
+      "hashmap",
+      "jvm",
     ],
   },
 ]);
