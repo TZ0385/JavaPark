@@ -415,7 +415,7 @@ export default sidebar([
     children: [
       "mysql",
       "java-basic",
-      "java-advance",
+      // "java-advance",
       "collection",
       "hashmap",
       "exception",
