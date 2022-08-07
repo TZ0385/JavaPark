@@ -414,9 +414,14 @@ export default sidebar([
     collapsable: true,
     children: [
       "mysql",
+      "java-basic",
+      "java-advance",
       "collection",
       "hashmap",
+      "exception",
+      "concurrence",
       "jvm",
+      "spring",
     ],
   },
 ]);
