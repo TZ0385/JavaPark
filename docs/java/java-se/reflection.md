@@ -20,14 +20,14 @@ category:
 
 - **优点**
 
-    1.  在 **程序运行过程中** 可以操作类对象，增加了程序的灵活性；
-    2.  解耦，从而提高程序的可扩展性，提高代码的复用率，方便外部调用；
-    3.  对于任何一个类，当知道它的类名后，就能够知道这个类的所有属性和方法；而对于任何一个对象，都能够调用它的一个任意方法。
+  1.  在 **程序运行过程中** 可以操作类对象，增加了程序的灵活性；
+  2.  解耦，从而提高程序的可扩展性，提高代码的复用率，方便外部调用；
+  3.  对于任何一个类，当知道它的类名后，就能够知道这个类的所有属性和方法；而对于任何一个对象，都能够调用它的一个任意方法。
 
 - **缺点**
-    1.  **性能问题**：Java 反射中包含了一些动态类型，JVM 无法对这些动态代码进行优化，因此通过反射来操作的方式要比正常操作效率更低。
-    2.  **安全问题**：使用反射时要求程序必须在一个没有安全限制的环境中运行，如果程序有安全限制，就不能使用反射。
-    3.  **程序健壮性**：反射允许代码执行一些平常不被允许的操作，破坏了程序结构的抽象性，导致平台发生变化时抽象的逻辑结构无法被识别。
+  1.  **性能问题**：Java 反射中包含了一些动态类型，JVM 无法对这些动态代码进行优化，因此通过反射来操作的方式要比正常操作效率更低。
+  2.  **安全问题**：使用反射时要求程序必须在一个没有安全限制的环境中运行，如果程序有安全限制，就不能使用反射。
+  3.  **程序健壮性**：反射允许代码执行一些平常不被允许的操作，破坏了程序结构的抽象性，导致平台发生变化时抽象的逻辑结构无法被识别。
 
 ## Class 对象的获取及使用
 
@@ -44,7 +44,6 @@ category:
 3. `对象.getClass()`
 
 运行时阶段，`getClass()` 定义在 `Object` 类中，表明所有类都能使用该方法，多用于 **对象的获取字节码** 的方式。
-
 
 我们首先定义一个 `Person` 类，用于后续反射功能的测试；
 
@@ -103,7 +102,7 @@ public class Person {
     public void setId(long id) {
         this.id = id;
     }
-    
+
     public long getGrade() {
         return grade;
     }
@@ -178,8 +177,8 @@ public class Demo1 {
 }
 ```
 
+![](https://img-blog.csdnimg.cn/3dfcde48fc4742cf878de465ad20f331.png)
 
-![对比结果](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/49b4292e4a2847f799276d5ca4eae6b5~tplv-k3u1fbpfcp-watermark.image)
 
 上述代码中，会发现最后输出的比较结果返回的是两个 `true`，说明通过上述三种方式获取的 `Class` 对象都是同一个，**同一个字节码文件（`*.class`）在一次运行过程中只会被加载一次**。
 
@@ -222,7 +221,8 @@ public class Demo2 {
 }
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/251a59ebd83a4fc686c6551db8458f22~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/b68edecb63ec40cfab12378373f4067b.png)
+
 
 回顾下我们的 `Person` 类，可以发现 `id`、`grade` 成员变量都是被 `public` 所修饰的，说明该方法是用于获取类中所有被 `public` 所修饰的成员变量（**包括父类**）。
 
@@ -256,9 +256,9 @@ public class Demo2 {
 }
 ```
 
-![](https://i.loli.net/2021/04/08/gHNZs2m17xfdupG.png)
+![](https://img-blog.csdnimg.cn/img_convert/63666bafdc6b39f3e838808f88f56fd8.png)
 
-![](https://i.loli.net/2021/04/08/tw6Dfkb7JMSu85O.png)
+![](https://img-blog.csdnimg.cn/img_convert/233a56e1ec2da842623fcb807be1884d.png)
 
 从上面的结果分析可知，该方法只能用于获取类中指定名称的 `public` 所修饰的成员变量，对于 `protected`、`private` 所修饰的成员变量，该方法是无法获取的（**包括父类**）。而获取或设置成员变量值时，可以通过 `get/set` 方法来操作，具体操作方法如下。
 
@@ -300,8 +300,8 @@ public class Demo2 {
     }
 }
 ```
+![](https://img-blog.csdnimg.cn/a0edec9a132a467ca621c39f5074be91.png)
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9a1d3a2baf70423ca728272390627b2d~tplv-k3u1fbpfcp-watermark.image)
 
 观察上面的结果可知，该方法可用于获取所有的成员变量，不用考虑修饰符的限制（**不包括父类**）。
 
@@ -334,20 +334,19 @@ public class Demo2 {
 }
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a7329d7c094d4872a066a111feed0eb5~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/f603d1ec9dd7476b9fd06c9e1ddcb880.png)
+
 
 观察上面的结果可知，该方法可用于获取指定的成员变量，不用考虑成员变量修饰符的限制（**不包括父类**）。但是在利用 `set`、`get` 方法来获取和设置 `private`、`protected` 修饰的成员变量时，需要利用 `setAccessible()` 来忽略访问全新啊修饰符的安全检查，否则程序将会报错。
 
 #### 获取构造方法
 
-| 方法                                                             | 说明                                                                                  |
-| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| `Constructor<?>[] getConstructors()`                             | 返回包含一个数组 `Constructor `对象反射由此表示的类的所有公共构造类对象               |
-| `Constructor<T> getConstructor(类<?>... parameterTypes)`         | 返回一个 `Constructor ` 对象，该对象反映 `Constructor `对象表示的类的指定的公共类函数 |
-| `Constructor<?>[] getDeclaredConstructors()`                     | 返回一个反映 `Constructor` 对象表示的类声明的所有 `Constructor` 对象的数组类          |
-| `Constructor<T> getDeclaredConstructor(类<?>... parameterTypes)` | 返回一个 `Constructor` 对象，该对象反映 `Constructor` 对象表示的类或接口的指定类函数  |
-
-
+| 方法                                                             | 说明                                                                                 |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| `Constructor<?>[] getConstructors()`                             | 返回包含一个数组 `Constructor`对象反射由此表示的类的所有公共构造类对象               |
+| `Constructor<T> getConstructor(类<?>... parameterTypes)`         | 返回一个 `Constructor` 对象，该对象反映 `Constructor`对象表示的类的指定的公共类函数  |
+| `Constructor<?>[] getDeclaredConstructors()`                     | 返回一个反映 `Constructor` 对象表示的类声明的所有 `Constructor` 对象的数组类         |
+| `Constructor<T> getDeclaredConstructor(类<?>... parameterTypes)` | 返回一个 `Constructor` 对象，该对象反映 `Constructor` 对象表示的类或接口的指定类函数 |
 
 ```java
 package com.cunyu;
@@ -393,7 +392,7 @@ public class Demo3 {
 //        第二种方法
         Object person1 = personClass.newInstance();
         System.out.println(person1);
-        
+
         System.out.println("带参创建对象");
         Object object = constructor2.newInstance(20, "村雨遥", 1312020, 3, 99.0F, 2);
         System.out.println(object);
@@ -401,11 +400,12 @@ public class Demo3 {
 }
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2be21b4915204d52bc0ec38a349e729c~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/9c9c1e1860c14943a9406a210fdf7d6b.png)
+
 
 - `Constructor<?>[] getConstructors()`
 
-    类似于通过 `Class` 实例来获取成员变量，该方法用于获取所有 `public` 所修饰的构造方法（**包括父类**）；
+  类似于通过 `Class` 实例来获取成员变量，该方法用于获取所有 `public` 所修饰的构造方法（**包括父类**）；
 
 - `Constructor<T> getConstructor(类<?>... parameterTypes)`
 
@@ -469,7 +469,7 @@ public class Demo4 {
 }
 ```
 
-![](https://i.loli.net/2021/04/08/F9uVRSj4fwmHkd5.png)
+![](https://img-blog.csdnimg.cn/img_convert/9c21c4d72cd9596d8b613c4281f34aad.png)
 
 - `Method[] getMethods()`
 
@@ -479,7 +479,7 @@ public class Demo4 {
 
 用于获取当前类的某一个指定名称 `public` 所修饰的成员方法（**包括父类**）。
 
-- `Method[] getDeclaredMethods()` 
+- `Method[] getDeclaredMethods()`
 
 用于获取当前类的所有 `public` 所修饰的成员方法（**不包括父类**）。
 
@@ -513,7 +513,7 @@ public class Demo5 {
 }
 ```
 
-![](https://i.loli.net/2021/04/08/yedGYnhujbKPB9m.png)
+![](https://img-blog.csdnimg.cn/img_convert/22bb9e527af5a0a18ea9c76c27c0bb49.png)
 
 - `String getName()`
 
@@ -523,7 +523,7 @@ public class Demo5 {
 
 假设我们有如下需求：在不改变类的代码的前提下，我们能够创建任意类的对象，并执行其中的方法。
 
-此时，我们可以通过 **配置文件 + 反射**  的方式来实现这一效果，而这也就是我们现在所用框架中的基础，当我们使用反射后，只需要通过修改配置文件中的内容就能够不用去改代码就实现对应的功能。
+此时，我们可以通过 **配置文件 + 反射** 的方式来实现这一效果，而这也就是我们现在所用框架中的基础，当我们使用反射后，只需要通过修改配置文件中的内容就能够不用去改代码就实现对应的功能。
 
 假设我们有两个类，一个 `Student`，一个 `Teacher`，两者的定义如下；
 
@@ -573,7 +573,7 @@ public class Student {
 
 1.  将要创建对象的全类名和要执行的方法都配置在配置文件中；
 
-定义的配置文件 `prop.properties` ，其中主要内容包括 `className` 和 `methodName` 两个属性，分别代表类的全类名和要调用方法的名字。一个具体实例如下，分别代表名为 `Student` 的类和名为 `study`  的方法。
+定义的配置文件 `prop.properties` ，其中主要内容包括 `className` 和 `methodName` 两个属性，分别代表类的全类名和要调用方法的名字。一个具体实例如下，分别代表名为 `Student` 的类和名为 `study` 的方法。
 
 ```properties
 className=com.cunyu.Student
@@ -664,9 +664,10 @@ public class ReflectTest {
 
 此时，我们只需要改动配置文件 `prop.properties` 中的配置即可输出不同结果；
 
-![](https://i.loli.net/2021/04/08/arv3PqhMc8nuz9d.png)
+![](https://img-blog.csdnimg.cn/0f5fa2e6b3cb4361ab2077a749b24600.png)
 
-![](https://i.loli.net/2021/04/08/DqYptN45o13eOVi.png)
+
+![](https://img-blog.csdnimg.cn/img_convert/73e14cf75134959d90b08de7af557125.png)
 
 ## 总结
 
@@ -675,5 +676,6 @@ public class ReflectTest {
 最后，对于文中知识点有错误或欠缺的地方，还请大家见谅，欢迎大家评论留言给我指正~
 
 **关注公众号，获取最新文章更新**
+
 
 <img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

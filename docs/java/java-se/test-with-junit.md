@@ -10,6 +10,9 @@ category:
     - Java 菜鸟入门
 ---
 
+
+
+
 ## 何为测试
 
 在计算机领域中，所谓测试，描述的是一种用来鉴定软件正确性、完整性和质量的过程。而软件测试又一般可以分为黑盒测试和白盒测试，两者的相关定义如下。
@@ -57,7 +60,7 @@ JUnit 是一个编写可重复测试的简单框架，是单元测试框架 xUni
 
 以 IDEA 为例，依次打开 `File -> Project Structure -> Project Settings -> Modules -> Dependencies -> 点击 + -> Library... -> Java`，最后找到下载的 JUnit 文件即可；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs/picgo/image-20210330095328265.png)
+![](https://img-blog.csdnimg.cn/img_convert/6fa746fca397f6a6eb14ef6ded41237e.png)
 
 -   **Maven 安装**
 
@@ -76,7 +79,7 @@ JUnit 是一个编写可重复测试的简单框架，是单元测试框架 xUni
 
 ### 使用 Junit 进行单元测试
 
-首先我们需要有一个主类，然后基于改类来进行测试，这里我们以简单的运算器为例；
+首先我们需要有一个主类，然后基于该类来进行测试，这里我们以简单的运算器为例；
 
 创建一个简易计算机类 `Calc`，然后包括加法 `add` 和减法 `sub` 两个方法；
 
@@ -178,17 +181,17 @@ public class CalcTest {
 
 如果测试成功，则在 IDE 中会出现如下提示。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs/picgo/image-20210330103051677.png)
+![](https://img-blog.csdnimg.cn/img_convert/c2e053c12ec6cd1e22c035fa5b84b029.png)
 
 一般来讲，测试成功一般是绿色，而测试失败则是红色。
 
 -   测试成功的界面
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210619112210147.png)
+![](https://img-blog.csdnimg.cn/img_convert/1c3677d56701e6ee54a0b6d1f667fc27.png)
 
 -   测试失败的界面
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210619112134376.png)
+![](https://img-blog.csdnimg.cn/img_convert/b34133e6584b05228b3f49712e535624.png)
 
 总结起来，我们针对一个方法的具体测试的步骤如下：
 
@@ -224,19 +227,19 @@ public class CalcTest {
 
 而在测试中，我们经常用到断言方法。这些断言方法都来自于由继承了 `java.lang.Object` 的 `Assert` 类，用于提供编写测试。
 
-| 方法                                                                    | 说明                                                       |
-| :---------------------------------------------------------------------- | :--------------------------------------------------------- |
+| 方法                                                         | 说明                                                       |
+| :----------------------------------------------------------- | :--------------------------------------------------------- |
 | `void assertArrayEquals([String message],expected array, result array)` | 断言预期数组和结果数组相等                                 |
-| `void assertEquals([String message],expected value, actual value)`      | 断言两个值是否相等。类似于字符串比较使用的 `equals()` 方法 |
-| `void assertNotEquals(String message], first, second)`                  | 查看两个对象是否不相等                                     |
-| `void assertNull(String message], object)`                              | 查看对象是否为空                                           |
-| `void assertNotNull(String message], object)`                           | 查看对象是否不为空                                         |
-| `void assertSame(String message], expected, actual)`                    | 查看两个对象的引用是否相等。类似于使用 `==` 比较两个对象   |
-| `void assertNotSame(String message], unexpected, actual)`               | 查看两个对象的引用是否不相等。类似于使用 `!=` 比较两个对象 |
-| `void assertTrue(String message], boolean condition)`                   | 查看运行结果是否为 `true`                                  |
-| `void assertFalse([String message], boolean condition)`                 | 查看运行结果是否为 `false`                                 |
-| `void assertThat([String message], actual, matcher)`                    | 查看实际值是否满足指定的条件                               |
-| `fail()`                                                                | 让测试失败                                                 |
+| `void assertEquals([String message],expected value, actual value)` | 断言两个值是否相等。类似于字符串比较使用的 `equals()` 方法 |
+| `void assertNotEquals(String message], first, second)`       | 查看两个对象是否不相等                                     |
+| `void assertNull(String message], object)`                   | 查看对象是否为空                                           |
+| `void assertNotNull(String message], object)`                | 查看对象是否不为空                                         |
+| `void assertSame(String message], expected, actual)`         | 查看两个对象的引用是否相等。类似于使用 `==` 比较两个对象   |
+| `void assertNotSame(String message], unexpected, actual)`    | 查看两个对象的引用是否不相等。类似于使用 `!=` 比较两个对象 |
+| `void assertTrue(String message], boolean condition)`        | 查看运行结果是否为 `true`                                  |
+| `void assertFalse([String message], boolean condition)`      | 查看运行结果是否为 `false`                                 |
+| `void assertThat([String message], actual, matcher)`         | 查看实际值是否满足指定的条件                               |
+| `fail()`                                                     | 让测试失败                                                 |
 
 
 
@@ -253,41 +256,42 @@ public class CalcTest {
 
     @Test
     public void test() {
-        String obj1 = "村雨遥";
-        String obj2 = "村雨遥";
-        String obj3 = "1943";
-        String obj4 = "1943";
-        String obj5 = null;
-        int var1 = 1;
-        int var2 = 2;
-        int[] arithmetic1 = {1, 2, 3};
-        int[] arithmetic2 = {1, 2, 3};
+        String str1 = "村雨遥";
+        String str2 = "村雨遥";
+        String str3 = "1943";
+        String str4 = "1943";
+        String str5 = null;
+        int num1 = 1;
+        int num2 = 2;
+        int[] arr1 = {1, 2, 3};
+        int[] arr2 = {1, 2, 3};
 
-        assertEquals(obj1, obj2);
+        assertEquals(str1, str2);
 
-        assertSame(obj3, obj4);
+        assertSame(str3, str4);
 
-        assertNotSame(obj2, obj4);
+        assertNotSame(str2, str4);
 
-        assertNotNull(obj1);
+        assertNotNull(str1);
 
-        assertNull(obj5);
+        assertNull(str5);
 
-        assertTrue(var1 == var2);
+        assertTrue(num1 == num2);
 
-        assertArrayEquals(arithmetic1, arithmetic2);
+        assertArrayEquals(arr1, arr2);
     }
 }
 
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210619115316524.png)
-
-
+![](https://img-blog.csdnimg.cn/img_convert/cdd1fbb38f123243a290caffaa640426.png)
 
 ## 总结
 
 好了，以上就是有关单元测试 Junit 的简单使用指南了。虽说大家现在还是有很多人在使用 Junit4，但如果你之前并未接触过 Junit，个人建议那就直接学习 Junit5 吧。当然了，Junit4 了解也是很有必要的，毕竟技多不压身，多一份技能少求人嘛。
+
+
+
 
 **关注公众号，获取最新文章更新**
 
