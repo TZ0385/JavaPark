@@ -130,6 +130,7 @@
 
 1.   [MySQL 教程：数据库简介](docs/database/mysql/overview.md)
 2.   [MySQL 教程：环境搭建](docs/database/mysql/install.md)
+3.   [MySQL 教程：常用语法](docs/database/mysql/grammar.md)
 
 ### PostgreSQL 教程
 

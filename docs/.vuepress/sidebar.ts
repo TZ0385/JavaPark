@@ -176,6 +176,7 @@ export default sidebar([
         children: [
           "overview",
           "install",
+          "grammar",
         ],
       },
       //  PG

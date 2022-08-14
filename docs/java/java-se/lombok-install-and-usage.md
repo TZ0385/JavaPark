@@ -22,7 +22,7 @@ category:
 
 
 
-日常开发中，相信大多数人现在使用的都是 IDEA 这个 Java 神器了，如果你还在使用 Eclipse 或者 MyEclipse 等工具，那强烈推荐你去体验一把 IDEA，相信你一用上它就会爱上他它的强大！下面我就一在 IDEA 中使用 Lombok 为例，看看如何安装并使用它。
+日常开发中，相信大多数人现在使用的都是 IDEA 这个 Java 神器了，如果你还在使用 Eclipse 或者 MyEclipse 等工具，那强烈推荐你去体验一把 IDEA，相信你一用上它就会爱上它的强大！下面我就以在 IDEA 中使用 Lombok 为例，看看如何安装并使用它。
 
 
 
@@ -34,7 +34,7 @@ category:
 
 
 
-![img](https://gitee.com/cunyu1943/images/raw/master/imgsUbuntu/20200519140731.png)
+![](https://img-blog.csdnimg.cn/img_convert/5e17fcb6e7b97a22524fa70cfa2a2eec.png)
 
 
 
@@ -42,7 +42,8 @@ category:
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210830093437410.png)
+![](https://img-blog.csdnimg.cn/img_convert/4d1a5af9a659fbdcac9a536a8779af0a.png)
+
 
 
 
@@ -79,7 +80,7 @@ category:
 
 
 
-![img](https://gitee.com/cunyu1943/images/raw/master/imgsUbuntu/20200519141238.png)
+![](https://img-blog.csdnimg.cn/img_convert/817d88cc2e90caedcf8d26cff2f50693.png)
 
 
 
@@ -87,7 +88,7 @@ category:
 
 
 
-#### [@Data ]() 
+#### @Data 
 
 
 
@@ -261,7 +262,7 @@ public class User {
 
 
 
-#### [@Setter ]() 
+#### @Setter 
 
 
 
@@ -397,7 +398,7 @@ public class User {
 
 
 
-#### [@Getter ]() 
+#### @Getter 
 
 
 
@@ -533,7 +534,7 @@ public class User {
 
 
 
-#### [@ToString ]() 
+#### @ToString 
 
 
 
@@ -597,7 +598,7 @@ public class User {
 
 
 
-#### [@Value ]() 
+#### @Value 
 
 
 
@@ -756,7 +757,7 @@ public class User {
 
 
 
-#### [@AllArgsConstructor ]() 
+#### @AllArgsConstructor 
 
 
 
@@ -820,7 +821,7 @@ public class User {
 
 
 
-#### [@NoArgsConstructor ]() 
+#### @NoArgsConstructor 
 
 
 
@@ -954,7 +955,7 @@ public class User {
 
 
 
-#### [@NonNull ]() 
+#### @NonNull 
 
 
 
@@ -962,7 +963,7 @@ public class User {
 
 
 
-#### [@EqualsAndHashCode ]() 
+#### @EqualsAndHashCode 
 
 
 
@@ -1104,7 +1105,7 @@ public class User {
 
 
 
-#### [@Cleanup ]() 
+#### @Cleanup 
 
 
 
@@ -1171,7 +1172,7 @@ public class CleanupExample {
 
 
 
-#### [@Synchronized ]() 
+#### @Synchronized 
 
 
 
@@ -1240,7 +1241,7 @@ public class SynchronizedExample {
 
 
 
-#### [@SneakyThrows ]() 
+#### @SneakyThrows 
 
 
 
@@ -1298,7 +1299,7 @@ public class SneakyThrowsExample implements Runnable {
 
 
 
-#### [@Log ]() 
+#### @Log 
 
 
 
@@ -1333,5 +1334,6 @@ public class SneakyThrowsExample implements Runnable {
 1.  https://projectlombok.org/features/all
 
 **关注公众号，获取最新文章更新**
+
 
 <img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />
