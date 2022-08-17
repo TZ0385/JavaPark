@@ -177,6 +177,7 @@ export default sidebar([
           "overview",
           "install",
           "grammar",
+          "function",
         ],
       },
       //  PG
