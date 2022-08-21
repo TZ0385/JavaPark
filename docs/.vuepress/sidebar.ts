@@ -178,6 +178,9 @@ export default sidebar([
           "install",
           "grammar",
           "function",
+          "constraint",
+          "muti-table-query",
+          "transaction",
         ],
       },
       //  PG

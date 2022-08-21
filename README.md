@@ -132,6 +132,9 @@
 2.   [MySQL 教程：环境搭建](docs/database/mysql/install.md)
 3.   [MySQL 教程：常用语法](docs/database/mysql/grammar.md)
 4.   [MySQL 教程：函数](docs/database/mysql/function.md)
+5.   [MySQL 教程：约束](docs/database/mysql/constraint.md)
+6.   [MySQL 教程：多表查询](docs/database/mysql/muti-table-query.md)
+7.   [MySQL 教程：事务](docs/database/mysql/transaction.md)
 
 ### PostgreSQL 教程
 
