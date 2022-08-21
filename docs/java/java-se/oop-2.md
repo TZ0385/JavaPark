@@ -412,7 +412,13 @@ String str3 = str1;
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3d8d0a440f60445f9b6f8c249a79caa0~tplv-k3u1fbpfcp-watermark.image)
 
+## JavaBean
 
+JavaBean 也可以称为实体类，其对象可以用在程序中封装数据。对于一个标准的 JavaBean，定义时需要满足以下要求：
+
+-   成员变量均使用 `private` 修饰。
+-   提供成员比那辆所对应的 `getXxx()/setXxx()` 方法。
+-   必须提供一个标准的无参构造器，而有参构造器则是可写可不写。
 
 ## 总结
 
