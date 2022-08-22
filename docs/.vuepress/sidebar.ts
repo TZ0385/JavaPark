@@ -29,6 +29,8 @@ export default sidebar([
           "oop-2",
           "oop-3",
           "all-kinds-of-variable",
+          "string",
+          "arraylist",
           "in-out-stream",
           "reflection",
           "annotations",
