@@ -7,6 +7,7 @@ tag: JavaScript
 category: JavaScript 教程
 ---
 
+
 ## 什么是对象
 
 之前学习的数据类型在存储一些复杂的信息时，十分不方便，而且也难以区分。为此，为了更加详细方便的描述某一个事物，因而提出面向对象的概念。
@@ -109,7 +110,7 @@ let hero = {
 console.log(hero);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220421163843598.png)
+![](https://img-blog.csdnimg.cn/img_convert/e22ca61732e02a1c91ac6d8f8ad36d11.png)
 
 1.   **增加**
 
@@ -133,7 +134,7 @@ hero.height = 172;
 console.log(hero);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220421164505440.png)
+![](https://img-blog.csdnimg.cn/img_convert/4cac185597f62faa66d3d293a956e719.png)
 
 2.   **修改**
 
@@ -169,9 +170,10 @@ console.log(hero);
 hero.silentArrow();
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220421165415864.png)
+![](https://img-blog.csdnimg.cn/img_convert/cf3ea495c960d7326f17174adf691efa.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/modifyhero.gif)
+![](https://img-blog.csdnimg.cn/e85529e4fb6b4e1fb1d208a5581fea74.png)
+
 
 3.   **查询**
 
@@ -199,7 +201,7 @@ console.log(hero.name);
 console.log(hero.silentArrow());
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220421211601819.png)
+![](https://img-blog.csdnimg.cn/img_convert/89ff4be499b93d82805d94698a6b799b.png)
 
 4.   **删除**
 
@@ -224,7 +226,7 @@ delete hero.height;
 console.log(hero);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220421211117808.png)
+![](https://img-blog.csdnimg.cn/img_convert/6a7942668b51305aab0fb9d88c7ecf77.png)
 
 ## 遍历对象
 
@@ -261,7 +263,7 @@ for(let key in hero){
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220421213158064.png)
+![](https://img-blog.csdnimg.cn/img_convert/da9f90545e07c54cf7b7cf009b4ae549.png)
 
 ## 内置对象
 
@@ -289,7 +291,8 @@ console.log(Math.pow(10, 3));
 console.log(Math.abs(-1.3));
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220421225123546.png)
+![](https://img-blog.csdnimg.cn/0b8adee00806455580d3a4c6a61d63c8.png)
+
 
 ## 总结
 

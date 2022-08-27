@@ -160,6 +160,15 @@ export default sidebar([
           "integrated-security",
         ],
       },
+      {
+        text: "Nginx",
+        prefix: "nginx/",
+        icon: "nginx",
+        collapsable: true,
+        children: [
+          "intro-install",
+        ],
+      },
     ],
   },
   // 数据库

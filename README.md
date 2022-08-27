@@ -126,6 +126,8 @@
 8.  [Spring Boot 基础教程：整合 Thymeleaf 实例](docs/java/spring-boot/integrated-thymeleaf.md)
 9.  [Spring Boot 基础教程：集成 Spring Security](docs/java/spring-boot/integrated-security.md)
 
+### Nginx
+1. [Nginx 教程：简介与安装](docs/java/nginx/intro-install.md)
 ## 🍭 数据库
 
 ### MySQL 教程
@@ -273,7 +275,7 @@
 8. [面试宝典：Spring 面试总结](docs/interview/spring.md)
 ##  公众号
 
-[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，为了防止失联，建议关注。
+[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，更多地是分享一些合辑类内容，防止失联，建议关注。
 
 除此之外，公众号上还会不定时有福利干货哦，但是不会同步到在线阅读网站，所以赶紧去关注一波吧！
 
