@@ -202,4 +202,4 @@ spring:
 
 **关注公众号，获取最新文章更新**
 
-<img src="https://img-blog.csdnimg.cn/29df27912ca342e4a6219e967ef2f8a2.png" width="200" alt="公众号" />
+<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

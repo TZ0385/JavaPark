@@ -32,11 +32,11 @@ features:
 
 ## 公众号
 
-[「公众号」](https://img-blog.csdnimg.cn/29df27912ca342e4a6219e967ef2f8a2.png) 佛系更新，不过文章会优先发布在这里，除此之外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
+[「公众号」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif) 佛系更新，不过文章会优先发布在这里，除此之外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
 
 防止失联，建议关注并加星。
 
-<img src="https://img-blog.csdnimg.cn/29df27912ca342e4a6219e967ef2f8a2.png" alt="「公众号」" style="zoom:40%;" />
+<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="「公众号」" style="zoom:40%;" />
 
 ## Star 趋势图
 
