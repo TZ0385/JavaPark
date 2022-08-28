@@ -227,19 +227,19 @@ public class CalcTest {
 
 而在测试中，我们经常用到断言方法。这些断言方法都来自于由继承了 `java.lang.Object` 的 `Assert` 类，用于提供编写测试。
 
-| 方法                                                         | 说明                                                       |
-| :----------------------------------------------------------- | :--------------------------------------------------------- |
+| 方法                                                                    | 说明                                                       |
+| :---------------------------------------------------------------------- | :--------------------------------------------------------- |
 | `void assertArrayEquals([String message],expected array, result array)` | 断言预期数组和结果数组相等                                 |
-| `void assertEquals([String message],expected value, actual value)` | 断言两个值是否相等。类似于字符串比较使用的 `equals()` 方法 |
-| `void assertNotEquals(String message], first, second)`       | 查看两个对象是否不相等                                     |
-| `void assertNull(String message], object)`                   | 查看对象是否为空                                           |
-| `void assertNotNull(String message], object)`                | 查看对象是否不为空                                         |
-| `void assertSame(String message], expected, actual)`         | 查看两个对象的引用是否相等。类似于使用 `==` 比较两个对象   |
-| `void assertNotSame(String message], unexpected, actual)`    | 查看两个对象的引用是否不相等。类似于使用 `!=` 比较两个对象 |
-| `void assertTrue(String message], boolean condition)`        | 查看运行结果是否为 `true`                                  |
-| `void assertFalse([String message], boolean condition)`      | 查看运行结果是否为 `false`                                 |
-| `void assertThat([String message], actual, matcher)`         | 查看实际值是否满足指定的条件                               |
-| `fail()`                                                     | 让测试失败                                                 |
+| `void assertEquals([String message],expected value, actual value)`      | 断言两个值是否相等。类似于字符串比较使用的 `equals()` 方法 |
+| `void assertNotEquals(String message], first, second)`                  | 查看两个对象是否不相等                                     |
+| `void assertNull(String message], object)`                              | 查看对象是否为空                                           |
+| `void assertNotNull(String message], object)`                           | 查看对象是否不为空                                         |
+| `void assertSame(String message], expected, actual)`                    | 查看两个对象的引用是否相等。类似于使用 `==` 比较两个对象   |
+| `void assertNotSame(String message], unexpected, actual)`               | 查看两个对象的引用是否不相等。类似于使用 `!=` 比较两个对象 |
+| `void assertTrue(String message], boolean condition)`                   | 查看运行结果是否为 `true`                                  |
+| `void assertFalse([String message], boolean condition)`                 | 查看运行结果是否为 `false`                                 |
+| `void assertThat([String message], actual, matcher)`                    | 查看实际值是否满足指定的条件                               |
+| `fail()`                                                                | 让测试失败                                                 |
 
 
 
@@ -295,4 +295,4 @@ public class CalcTest {
 
 **关注公众号，获取最新文章更新**
 
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />
+<img src="https://img-blog.csdnimg.cn/29df27912ca342e4a6219e967ef2f8a2.png" width="200" alt="公众号" />

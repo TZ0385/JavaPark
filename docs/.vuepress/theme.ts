@@ -28,7 +28,7 @@ export default hopeTheme({
 
 
 
-  footer: "更多精彩内容，尽在公众号：<b>「村雨遥」</b></br></br><img src=\"https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif\" width=\"100\" alt=\"公众号\" />",
+  footer: "更多精彩内容，尽在公众号：<b>「村雨遥」</b></br></br><img src=\"https://img-blog.csdnimg.cn/29df27912ca342e4a6219e967ef2f8a2.png\" width=\"100\" alt=\"公众号\" />",
 
   displayFooter: true,
 
