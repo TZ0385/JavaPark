@@ -42,7 +42,7 @@ export default hopeTheme({
       Zhihu: "https://www.zhihu.com/people/cunyu1943",
       Gitee: "https://gitee.com/cunyu1943",
       GitHub: "https://github.com/cunyu1943",
-      Wechat: "https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wechat.gif",
+      Wechat: "https://img-blog.csdnimg.cn/3809c008c5f44c6da4d9cc6eed0d8592.png",
       QQ: "747731461",
 
     },

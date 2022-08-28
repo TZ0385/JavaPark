@@ -12,11 +12,11 @@
 
 [「公众号」](https://img-blog.csdnimg.cn/29df27912ca342e4a6219e967ef2f8a2.png) 佛系更新，不过文章会优先发布在这里，此外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
 
-另外，我还组建了微信**交流群**，大家可以添加我[「微信」](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wechat.gif)进群，技术交流或者提提意见都欢迎！
+另外，我还组建了微信**交流群**，大家可以添加我[「微信」](https://img-blog.csdnimg.cn/3809c008c5f44c6da4d9cc6eed0d8592.png)进群，技术交流或者提提意见都欢迎！
 日常更文首发于公众号后，后续是同步到这个项目进行更新，如果你觉得本项目对你所有帮助，欢迎 **Star**！
 
 [![](https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%9D%91%E9%9B%A8%E9%81%A5-brightgreen)](https://img-blog.csdnimg.cn/29df27912ca342e4a6219e967ef2f8a2.png)
-[![](https://img.shields.io/badge/wechat-%E5%BE%AE%E4%BF%A1%E7%BE%A4-blueviolet)](https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wechat.gif)
+[![](https://img.shields.io/badge/wechat-%E5%BE%AE%E4%BF%A1%E7%BE%A4-blueviolet)](https://img-blog.csdnimg.cn/3809c008c5f44c6da4d9cc6eed0d8592.png)
 [![](https://img.shields.io/badge/zhihu-%E7%9F%A5%E4%B9%8E-informational)](https://www.zhihu.com/people/cunyu1943)
 [![](https://img.shields.io/badge/csdn-CSDN-red)](https://cunyu1943.blog.csdn.net)
 [![](https://img.shields.io/badge/juejin-%E6%8E%98%E9%87%91-blue)](https://juejin.cn/user/747323637904519)
@@ -279,6 +279,7 @@
 
 除此之外，公众号上还会不定时有福利干货哦，但是不会同步到在线阅读网站，所以赶紧去关注一波吧！
 <!-- https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif -->
+<!-- https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wechat.gif -->
 <img src="https://img-blog.csdnimg.cn/29df27912ca342e4a6219e967ef2f8a2.png" width="200" alt="公众号" />
 
 ## Star 趋势图
