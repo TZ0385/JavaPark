@@ -1,5 +1,5 @@
 ---
-title: Nginx 的简介与安装
+title: Nginx 简介与安装
 isOriginal: true
 icon: nginx
 date: 2022-08-27
@@ -15,33 +15,38 @@ category:
 ## 简介
 
 ### 什么是 Nginx
-`Nginx` 是一个跨平台、轻量级、高性能的 `HTTP` 和反向代理 `web` 服务器，而且同时也提供了 `IMAP/POP3/SMTP` 服务。`Nginx` 最高能够支持搞到 50000 哥并发连接数的相应，在最高并发连接的情况下，可以作为 `Apache` 服务的一个替代品。
+
+`Nginx` 是一个跨平台、轻量级、高性能的 `HTTP` 和反向代理 `web` 服务器，而且同时也提供了 `IMAP/POP3/SMTP` 服务。`Nginx` 最高能够支持高到 50000 个并发连接数的相应，在最高并发连接的情况下，可以作为 `Apache` 服务的一个替代品。
 
 `Nginx` 作为负载均衡服务，既可以在内部直接支持 `Redis` 和 `PHP` 程序对外进行服务，也可以作为支持 `HTTP` 代理服务对外进行支持。`Nginx` 是基于 C 语言来进行开发的，所以无论是系统资源开销还是 CPU 使用率都较低，也因此 `Nginx` 性能较强。
-### Nginx 的版本 
+
+### Nginx 的版本
 
 常用版本主要分为四大阵营：
 
-1.   `Nginx` 开源版
-2.   `Nginx plus` 商业版
-3.   `Openresty`
-4.   `Tengine`
+1.  `Nginx` 开源版
+2.  `Nginx plus` 商业版
+3.  `Openresty`
+4.  `Tengine`
 
 ## 下载
+
 上一节中我们讲了 `Nginx` 的一些简单知识，接下来就来看看，如何在我们的服务器中安装 `Nginx`。下文中，我们均以 `Nginx` 开源版做示范。
 
 前往 `Nginx` 官方地址下载对应的版本，因为这里主要是在服务器中安装，所以是以 `Linux（Centos）` 版本来演示。
 
->   http://nginx.org/en/download.html
+> http://nginx.org/en/download.html
 
 ![](https://img-blog.csdnimg.cn/82fab0e89c6a42b896b77f98dee94b2c.png)
 
 ## 编译安装与依赖检查
+
 将下载后的 `Nginx` 压缩包进行解压，解压命令如下。
 
 ```shell
 tar -zxf 压缩包名
 ```
+
 ![](https://img-blog.csdnimg.cn/2cd8cb2c4221471e89bd6ad9c58269d5.png)
 进入解压缩后的 `Nginx` 所在文件夹，然后执行 `configure` 脚本，这时候就会检查安装 `Nginx` 所需的依赖，这里可能会因为你的服务器中没有事先安装所需依赖而导致报错。
 
@@ -49,8 +54,8 @@ tar -zxf 压缩包名
 cd nginx-1.22.0
 sh configure
 ```
-![](https://img-blog.csdnimg.cn/16c89775141f40f9a69cdb9980bd221b.png)
 
+![](https://img-blog.csdnimg.cn/16c89775141f40f9a69cdb9980bd221b.png)
 
 这里例举几个安装时可能会遇到的错误：
 
@@ -71,6 +76,7 @@ yum install -y gcc
 ```shell
 error: the HTTP rewrite module requires the PCRE library.
 ```
+
 同样，为了解决这个这个问题，需要安装 `pcre-devel`。
 
 ```shell
@@ -82,6 +88,7 @@ yum install -y pcre pcre-devel
 ```shell
 error: the HTTP gzip module requires zlib library.
 ```
+
 解决方法，安装 `zlib` 库。
 
 ```shell
@@ -96,13 +103,11 @@ make
 
 make install
 ```
+
 ![](https://img-blog.csdnimg.cn/73fa2a756cd54177ac55cfd17b34d9f1.png)
 ![](https://img-blog.csdnimg.cn/991d0ce06dc6480d97abf8b858b93030.png)
 
-
-
 ## Nginx 启停
-
 
 如果顺利执行完 `configure` 脚本，则会在服务器终端打印出以上 `Nginx` 相关的配置。
 
@@ -113,6 +118,7 @@ make install
 ```shell
 ./nginx
 ```
+
 ![](https://img-blog.csdnimg.cn/70fc81bab6ce4aeb9618e27ba081469d.png)
 然后在浏览器中访问服务器的 `IP` 地址，如果出现以下界面，则说明我们的 `Nginx` 安装并启动成功了！
 
@@ -123,9 +129,9 @@ make install
 ```shell
 ./nginx -s stop
 ```
+
 停止后，再到浏览器中去访问服务器地址，就会出现以下情况。
 ![](https://img-blog.csdnimg.cn/7205270749fb4e5ab06423dc6920891c.png)
-
 
 3. **关闭前完成已接受的连接请求**
 
@@ -139,11 +145,12 @@ make install
 ./nginx -s reload
 ```
 
-通过这种方式，可以实现 `Nginx` 的无感重启。也就是说，当我们需要修改 `Nginx` 的配置时，不希望通过停止 `Nginx` 然后在启动的方式，此时就可以通过这个命令来实现。
-
+通过这种方式，可以实现 `Nginx` 的无感重启。也就是说，当我们需要修改 `Nginx` 的配置时，不希望通过停止 `Nginx` 然后再启动的方式，此时就可以通过这个命令来实现。
 
 ## 防火墙
+
 ### 关闭防火墙
+
 ```shell
 systemctl stop firewall.service
 ```
@@ -153,6 +160,7 @@ systemctl stop firewall.service
 ```shell
 systemctl disable firewall.service
 ```
+
 ### 放行端口
 
 ```shell
@@ -166,6 +174,7 @@ firewall-cmd reload
 ```
 
 ## 安装为系统服务
+
 1. **添加系统服务**
 
 在 `/usr/lib/systemd/system` 目录下新增一个文件，命名为 `nginx.service`，然后将以下内容添加到该文件中。
@@ -175,7 +184,7 @@ firewall-cmd reload
 Description=nginx - high performance web server
 Documentation=http://nginx.org/en/docs/
 After=network.target remote-fs.target nss-lookup.target
- 
+
 [Service]
 Type=forking
 PIDFile=/usr/local/nginx/logs/nginx.pid
@@ -184,7 +193,7 @@ ExecStart=/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ExecReload=/bin/kill -s HUP $MAINPID
 ExecStop=/bin/kill -s QUIT $MAINPID
 PrivateTmp=true
- 
+
 [Install]
 WantedBy=multi-user.target
 ```
@@ -206,11 +215,13 @@ systemctl daemon-reload
 ```shell
 systemctl start nginx
 ```
+
 - 关停
 
 ```shell
 systemctl stop nginx
 ```
+
 - 查看当前状态
 
 ```shell
@@ -218,5 +229,7 @@ systemctl status nginx
 ```
 
 ![](https://img-blog.csdnimg.cn/06e3119f7e4b4e7096b3ce9e85387613.png)
+
 ## 总结
-以上就是 `Nginx` 的简介和如何在 Linux 中安装 `Nginx` 的相关内容了，如果您觉得本文对您有所帮助，还请来个一键三连支持把！
+
+以上就是 `Nginx` 的简介和如何在 Linux 中安装 `Nginx` 的相关内容了，如果您觉得本文对您有所帮助，那就来个一键三连支持吧！
