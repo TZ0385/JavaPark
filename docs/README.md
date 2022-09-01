@@ -11,6 +11,9 @@ actions:
 
   - text: 资源下载 💯
     link: https://mp.weixin.qq.com/s/XW-WJhbw14YA52UpsSW_pA
+
+  - text: 公众号 ⛩
+    link: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNTg2MjkzNw==&action=getalbum&album_id=2501145320567963650&scene=173&from_msgid=2247496866&from_itemidx=1&count=3&nolastread=1#wechat_redirect
     # type: secondary
 
 features:
