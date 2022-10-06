@@ -40,7 +40,7 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 
 
-![img](https://s1.ax1x.com/2020/07/08/UEXDb9.png)
+![](https://s1.ax1x.com/2020/07/08/UEXDb9.png)
 
 
 
@@ -56,7 +56,7 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 
 
-![img](https://s1.ax1x.com/2020/07/08/UEzlR0.png)
+![](https://s1.ax1x.com/2020/07/08/UEzlR0.png)
 
 
 

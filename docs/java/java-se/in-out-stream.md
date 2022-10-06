@@ -59,7 +59,7 @@ public class FileObject {
 }
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4bd54169166f49678b8bae19c2115400~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/8d00d3c76f0205191b0baf5f41111002.png)
 
 对于我们传入文件的路径，既可以使用绝对路径，也可以使用相对路径。
 
@@ -88,7 +88,7 @@ public class FilePath {
 }
 ```
 
-![](https://i.loli.net/2021/04/20/PUmqCxSsa7rzl3X.png)
+![](https://img-blog.csdnimg.cn/img_convert/14b55b0c214f6543c9264aca39be5e59.png)
 
 ### 文件和目录操作
 
@@ -96,12 +96,12 @@ public class FilePath {
 
 既然拿到了 `File` 对象，接下来就是通过操作该对象来进行创建和删除文件或目录了，以下是一些 `File` 类常用的创建和删除方法。
 
-| 返回值    | 方法              | 描述                                                                                 |
-| --------- | ----------------- | ------------------------------------------------------------------------------------ |
+| 返回值    | 方法              | 描述                                                         |
+| --------- | ----------------- | ------------------------------------------------------------ |
 | `boolean` | `createNewFile()` | 当具有该名称的文件不存在时，创建一个由该抽象路径名命名的新空文件；存在时，则创建失败 |
-| `boolean` | `mkdir()`         | 创建由此抽象路径名命名的目录                                                         |
-| `boolean` | `mkdirs()`        | 创建由此抽象路径名命名的多级目录，包括任何必需但不存在的父目录                       |
-| `boolean` | `delete()`        | 删除由此抽象路径名命名的文件或目录，删除目录的前提是该目录必须为空                   |
+| `boolean` | `mkdir()`         | 创建由此抽象路径名命名的目录                                 |
+| `boolean` | `mkdirs()`        | 创建由此抽象路径名命名的多级目录，包括任何必需但不存在的父目录 |
+| `boolean` | `delete()`        | 删除由此抽象路径名命名的文件或目录，删除目录的前提是该目录必须为空 |
 
 ```java
 import java.io.File;
@@ -147,7 +147,7 @@ public class CreateAndDelete {
 }
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/534bb1a0d75e461ba2acd983c078edd3~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/ead663818d1e5ab026569c4813dc14c6.png)
 
 **注意**：
 
@@ -205,7 +205,7 @@ public class Main {
 
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/77103e1fbe464ce99be7d2582dd5a0c2~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/77142d614e1be43a596fe36393391fa2.png)
 
 #### 判断和获取
 
@@ -257,7 +257,7 @@ public class Main {
 }
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0781d7339e8d473799da48df17007843~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/f700643b45d2c342b1bfbcc8013e6f04.png)
 
 ### 练习
 
@@ -286,7 +286,7 @@ public class Test {
 }
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/296fa11841f24eceb30d3dbbe305266d~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/1748c876c040f679a85599b1cb690996.png)
 
 ## 流
 
@@ -303,11 +303,11 @@ public class Test {
 
 下图描述了字节流和字符流的类层次图，注意：**无论是字节流还是字符流，其子类名都是以其父类名作为子类名的后缀的**。
 
-![IO 流.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cd696788c9424ed79985f2d0b0f7a176~tplv-k3u1fbpfcp-watermark.image)
+![IO 流.png](https://img-blog.csdnimg.cn/img_convert/3d6801788ba190b32b12c2fbce6128c4.png)
 
 ### InputStream
 
-![InputStream.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/abb62befda3d4bb9a92f1caff8355175~tplv-k3u1fbpfcp-watermark.image)
+![InputStream.png](https://img-blog.csdnimg.cn/img_convert/89f7aa014a7a9eca0cb72a9a4a518af3.png)
 
 注意，`InputStream` 并非是并不是一个接口，而是所有字节输入流所有类的父类。下面我们主要以 `FileInputStream` 来举例，所谓 `FileInputStream`，就是从文件流中读取数据，然后将数据从文件中读取到内存，常用方法如下：
 
@@ -319,7 +319,7 @@ public class Test {
 
 下面是一个从文件中读取数据到内存中的实例，文件内容如下：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f796aa5de8c046899f81ae2680477074~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/3bfb8168f79fa1df2ff05016a44f3977.png)
 
 ```java
 import java.io.File;
@@ -363,11 +363,11 @@ public class TestInputStream {
 }
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d73ae236c6aa4444912041ac98f333a5~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/079bde92fdeb5a244abe14c11550b3a9.png)
 
 ### OutputStream
 
-![OutputStream.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ef7bbbb0ebee4c25aca4d17d4708ec46~tplv-k3u1fbpfcp-watermark.image)
+![OutputStream.png](https://img-blog.csdnimg.cn/img_convert/c099dc3f0e3887966b11ae9598fb6cf0.png)
 
 `OutputStream` 并非是并不是一个接口，而是所有输出字节流的所有类的父类。下面我们主要以 `FileOutputStream` 来举例，所谓 `FileOutputStream`，就是从内存中读取数据，然后将数据从内存存放到文件中，常用方法如下：
 
@@ -406,9 +406,9 @@ public class TestOutputStream {
 }
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/45480f90a7ab4bc09f0c87705c67de8e~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/cf65c7eda0591d6e773596eb59a54cb2.png)
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2ad043cb27df47809126689171e321f5~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/c23f98c28c2c9ea6359926338b6ac127.png)
 
 需要注意的点：
 
@@ -468,11 +468,11 @@ public class EncodeAndDecode {
 }
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f3e4116e59f54ceca97b3c7c3c1cc2be~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/aa51244d9e2c9ac431675b8edbedcbf6.png)
 
 ### Writer
 
-![Writer.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/be783c46018d4f7898ba6a413c831811~tplv-k3u1fbpfcp-watermark.image)
+![Writer.png](https://img-blog.csdnimg.cn/img_convert/262d05641e092d5fba6c6a0f226c7084.png)
 
 当我们要写入基于字符的数据到数据源中时，需要使用写入器 `Writer`. 以其中的 `FileWriter` 具体展开，其常用方法如下：
 
@@ -514,11 +514,11 @@ public class TestWriter {
 }
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/54ea97dccb4646e1b82e230fa46287be~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/8a1c0ed741fa76bed7adc8af032cfccc.png)
 
 ### Reader
 
-![Reader.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c43591dc3370414ba6b8fcf20a5ef77d~tplv-k3u1fbpfcp-watermark.image)
+![Reader.png](https://img-blog.csdnimg.cn/img_convert/866febfe2af649d41ef0fa956e09141a.png)
 
 当我们要从数据源读取基于字符的数据时，需要使用读取器 `Reader`. 我们以 `FileReader` 实践，其常用的方法有：
 
@@ -558,13 +558,15 @@ public class TestReader {
 }
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/08f6aec86238411a9152d5ae671c990d~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/7755ba832f71ac4227afac703a4aeee6.png)
 
 ## 总结
 
 好了，关于 IO 流的知识点到此就结束了，赶紧学起来！如果你觉得本文对你有所帮助，那就点赞关注一波吧！
 
 对于文中遗漏或者错误的知识点，欢迎大家评论留言，咱们评论区见！
+
+
 
 **关注公众号，获取最新文章更新**
 

@@ -167,7 +167,7 @@ public class TraverseTest {
 }
 ```
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3ac401c4e57b4a909e5bec78d39b1fcf~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/2d24af85365e92bb29d8543a6d95cf16.png)
 
 ### 增强 for 循环
 
@@ -193,7 +193,7 @@ public class EnforceTraverseTest {
 }
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/93fda9d16e5640ca83235f153aff7a63~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/4619689f28322985a72ed0c4053c379f.png)
 
 **两者的区别**：标准 `for` 循环是通过计数器来进行遍历，我们能够很清晰的得知每个元素所对应的索引位置，而增强 `for each` 循环则是直接访问数组中的元素值，而不关心每个元素对应的索引位置。
 
@@ -221,7 +221,7 @@ public class StandardLibraryTest {
 }
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8ebf10e7b2004fe68b5bc427a39eaef2~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/5f8750c8bfd074f45925eb12ce6ea9aa.png)
 
 以上的遍历主要是针对一维数组，而针对二维数组，当我们要访问其中的一个元素时，可以使用 `array[row][col]` 来进行访问，而对于二维及更多维的数组，可以使用  `Arrays.deepToString()`。
 
@@ -267,7 +267,7 @@ public class BubbleSort {
 }
 ```
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/150c4a5df0d14913a158b5917093fbf6~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/b73ce00494d9de15a976862a17b89b24.png)
 
 ### 标准库排序
 
@@ -296,7 +296,7 @@ public class StandardLibrarySortTest {
 }
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/06de71848e0a4bedb5517d0eabc58270~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/e6e8974b6358119bf353d0ac4e87ba80.png)
 
 ## 常用方法
 
@@ -346,7 +346,7 @@ public class CommonMethodsTest {
 
 
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/69e8d48ab1cb477c8de5db21eabc8cbf~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/d9f61769262f1676bf0bf86c8ba8b806.png)
 
 ## 总结
 

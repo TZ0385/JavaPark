@@ -10,10 +10,9 @@ date: 2022-06-02 22:22:22
 ---
 
 
-
 ## 前言
 
-之前已经学习过了 `HTML`、 `CSS` 以及 `JavaScript` 的相关知识，也算是基本了解了关于这前端三件套的一些基本用法。今天就来了解下，当前前端开发中最炙手可热的当红辣子鸡 - `Vue`。本文主要介绍 `Vue` 的一些入门知识和最经典的 `Vue` 入门 `Hello World` 程序，如果你想了解的是更高级的使用技巧，那么完全可以忽略。
+之前已经学习过来 `HTML`、 `CSS` 以及 `JavaScript` 的相关知识，也算是基本了解了关于这前端三件套的一些基本用法。今天就来了解下，当前前端开发中最炙手可热的当红辣子鸡 - `Vue`。本文主要介绍 `Vue` 的一些入门知识和最经典的 `Vue` 入门 `Hello World` 程序，如果你想了解的是更高级的使用技巧，那么完全可以忽略。
 
 ## Vue 简介
 
@@ -55,7 +54,7 @@ Vue 的安装主要有两种方式，一种是通过在文件中直接用 `<scri
 npm install vue@next
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/399e3be2560942efad1f0b1bcf6f8b0b~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/aa9650d4c991be9e0eca210af108d3d4.png)
 
 ## Vue 入门实例
 
@@ -136,7 +135,7 @@ Vue.createApp(app).mount('#app')
 
 将文件用浏览器打开，在页面中应该就会显示如下信息了。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d31a168149f64f88be441e9d9628a476~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/68c971d94d1c423291c619faf7492af2.png)
 
 以上就是一个最简单的 `Vue` 入门小案例，如何在网页中打印 `Hello World！` 。虽然看起来十分简单，和我们用 `HTML` 中的字符串模板来实现相同的效果也十分类似，但实际上 `Vue` 在背后做了许多我们看不见的工作。
 

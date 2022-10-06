@@ -33,17 +33,17 @@ JDBC（Java Database Connectivity），即 Java 数据库连接。是 Java 语�
 
 1.  首先依次打开 `File -> Project Structure -> Modules -> Dependencies`；
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c379a613f5064fde85a2a3bbcddea59d~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/6e3572b6c59db8be5744c0bd0c12a9d5.png)
 
 2.  然后点击 `+` 号，选择 `1 JARs or Directories`，找到你下载好的 jar 包导入；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/71dfa2be556d46979af00cc9ec648219~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/8082a759f2591062d315d81fb94ee15d.png)
 
 3.  导入成功，点击 `OK` 即可；
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5feba852a1a4447395edfdda93894483~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/84303a0098eb65a69699508c25a23ce1.png)
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/54f6d70128034f359b4863fc047bc40c~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/fe1d7566246ace5729f1388cb374b7dc.png)
 
 ### 初始化并建立连接
 
@@ -72,9 +72,9 @@ INSERT INTO students (id, name, gender, grade, score) VALUES (201,'小黄', 1, 2
 INSERT INTO students (id, name, gender, grade, score) VALUES (301,'小绿', 1, 3, 99);
 ```
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5b39d14fe78b400bb0f8f9f445e2e5a2~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/548cc956782f3cd2655b421012f1a432.png)
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/244698bd3c3d4e8aa05183e4d384a87f~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/3a8094b4b4dcbc3987678c6cc170ed06.png)
 
 创建好数据库及表之后，我们就可以进行初始化和连接工作了，这里的步骤主要分为如下几步：
 
@@ -105,7 +105,7 @@ public class InitJDBC {
 //            初始化，注册驱动
             Class.forName("com.mysql.cj.jdbc.Driver");
 //            建立连接
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/javalearning?characterEncoding=UTF-8", "root", "12345");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost/javalearning?characterEncoding=UTF-8", "root", "12345");
             System.out.println("连接成功！");
 //            创建 Statement 用于执行 SQL 语句
             statement = connection.createStatement();
@@ -133,7 +133,7 @@ public class InitJDBC {
 }
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/605cda3f1bd54dbc95ba062e4f1fa368~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/cd87bbdcfb84e1c58b733bf1a1b4c0fc.png)
 
 对于上述关闭 `Connection` 和 `Statement` 的方式，可能略显繁琐，为了进一步简化，可以使用 `try-with-source` 的方式自动关闭，简化后的代码如下；
 
@@ -169,56 +169,6 @@ public class InitJDBC2 {
 }
 ```
 
-### JDBC 对象详解
-
-在我们上述利用 JDBC 进行初始化并建立连接的过程中，涉及到了如下几个对象：
-
-1.  `DriverManager`
-2.  `Connection`
-3.  `Statement`
-
-此外，对于数据已经后续操作，我们还会涉及到:
-
-1.  `ResultSet`
-2.  `PreparedStatement`
-
-这里就对这 5 个 JDBC 中的对象进行解释，从而方便后续知识点的学习。
-
-#### DriverManager
-
-这是驱动管理对象，主要是用于 **注册驱动** 和 **获取数据库连接**。
-
--   **注册驱动**：主要用于告知程序应该使用哪一个数据库驱动 jar，对应到上述代码中为 `Class.forName("com.mysql.cj.jdbc.Driver")`；
--   **获取数据库连接**：对应到上述代码中为 `static Connection getConnection(String url, String user, String password)`；
-
-#### Connection
-
-数据库连接对象，主要用于 **获取执行 SQL 的对象** 和 **管理事务**。
-
--   **获取执行 SQL 的对象**：涉及代码 `Statement createStatement()` 和 `PreparedStatement prepareStatement（String sql)`
--   **管理事务**
-    -   **开启事务**：`setAutoCommit(boolean autoCommit)`，当参数值为 `false` 时，表示开启事务；
-    -   **提交事务**：`commit()`
-    -   **回滚事务**：`rollback()`
-
-#### Statement
-
-用于执行静态 SQL 语句并返回其生成结果的对象，涉及的代码：
-
--   `boolean execute(String sql)`：可以执行任意的 SQL 语句；
--   `int executeUpdate(String sql)`：执行  DML 语句（`insert`、`update`、`delete`）和 DDL 语句（`create`、`alter`、`drop`）。
-
-#### PreparedStatement
-
-用于执行 SQL 语句并返回其生成结果的对象，涉及的代码：
-
-#### ResultSet
-
-执行 SQL 语句后的结果集对象，用于封装查询结果。涉及的方法：
-
--   `next()`：游标向下移动一行，注意游标是从 1 开始；
--   `getXXX()`：用于获取对应数据类型 `XXX` 的数据；
-
 ## JDBC 增删改查
 
 当我们初始化并建立 JDBC 连接之后，我们就可以对数据库进行 CRUD （增加、查询、更新、删除）等操作。
@@ -240,7 +190,7 @@ public class InitJDBC2 {
 此外，虽然我们在 JDBC 的简介部分在初始化和建立连接时使用的是用 `Statement` 来创建一个对象并用于后续操作，但是在实际使用过程中时，SQL 参数基本都是从方法参数传入的，这时使用 `Statement` 就十分容易引起 SQL 注入，为了解决这一问题，大牛们提出了如下两个办法：
 
 1.  对字符串中的参数进行转义，然后利用转义后的参数来进行操作。但是转义十分麻烦，而且一使用 SQL，我们就必须增加转义代码。
-2.  利用 `PreparedStatement`，它利用 `?` 作为占位符，将数据连同 SQL 本身传递给数据库，从而保证每次传给数据库的 SQL 语句都是保持一致的，每次变动的只是占位符中的数据不同。通过使用 `PreparedStatement`，我们就能够 **完全避免 SQL 注入 问题**。
+2.  利用 `PreparedStatement`，它利用 `?` 作为占位符，将数据联通 SQL 本身传递给数据库，从而保证每次传给数据库的 SQL 语句都是保持一致的，每次变动的只是占位符中的数据不同。通过使用 `PreparedStatement`，我们就能够 **完全避免 SQL 注入 问题**。
 
 针对后续利用 JDBC 操作数据库的过程，为了尽量避免 SQL 注入问题，我们优先采用 `PreparedStatement` 而非 `Statement`. 
 
@@ -296,7 +246,7 @@ public class QueryTest {
 }
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c1b4cfe5d36b43e081cf5bc2521e690f~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/536701ccd3ab5e17e2cbe285d25bbf2d.png)
 
 ### 增加数据
 
@@ -353,7 +303,7 @@ public class InsertTest {
 
 新增数据后，接着查询数据，得到如下结果，可以看到我们新插入的数据成功加入到了数据库中！
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f06ef5ab46b34f19a910e49778535692~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/1704ab74c66d3a0d9d04fabeb3fdffee.png)
 
 
 
@@ -403,7 +353,7 @@ public class DeleteTest {
 
 删除数据后，接着查询数据，得到如下结果，可以看到 `id = 101` 的数据列已经被删除了，说明我们删除数据成功了！
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/84568c5fb6354c82919a7e89c5d5d283~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/a16948c1b805f8e626c52ed8064ed5b0.png)
 
 ### 修改数据
 
@@ -450,7 +400,7 @@ public class UpdateTest {
 
 修改数据后，接着查询数据，得到如下结果，可以看到 `id = 201` 对应的数据列中，`name` 从小黄变成了村雨遥，说明数据更新成功。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/07cd90892b554bf883a27f5c38c33934~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/38c64700683b351176eb8464b3bcf5ed.png)
 
 ### 注意
 
@@ -517,7 +467,7 @@ public class QueryTest {
 url=jdbc:mysql://localhost/demo?characterEncoding=UTF-8
 user=root
 password="12345"
-driver=com.mysql.cj.jdbc.Driver
+driver=com.mysql.jdbc.cj.Driver
 ```
 
 2.  创建工具类
@@ -555,7 +505,7 @@ public class JDBCUtils {
             ClassLoader classLoader = JDBCUtils.class.getClassLoader();
             URL resource = classLoader.getResource("jdbc.properties");
             String path = resource.getPath();
-            System.out.println("配置文件所在位置" + path);
+            System.out.println("配置文件所在位置");
 //        加载配置文件
             properties.load(new FileReader(path));
 
@@ -732,11 +682,11 @@ SQL 标准定义了 4 个隔离级别，隔离级别从低到高分别是：
 
 关于回滚，主要涉及 `Connection` 对象，常用的三个方法如下：
 
-| 返回值 | 方法                                | 描述                                                                                            |
-| ------ | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
-| `void` | `setAutoCommit(boolean autoCommit)` | 设定连接的自动提交模式，`true` 表示自动提交，`false` 表示手动提交                               |
+| 返回值 | 方法                                | 描述                                                         |
+| ------ | ----------------------------------- | ------------------------------------------------------------ |
+| `void` | `setAutoCommit(boolean autoCommit)` | 设定连接的自动提交模式，`true` 表示自动提交，`false` 表示手动提交 |
 | `void` | `commit()`                          | 使上次提交/回滚以来所做的所有更改成为永久更改，并释放此 `Connection` 对象当前持有的所有数据库锁 |
-| `void` | `rollback()`                        | 撤销当前十五中所做的所有更改，并释放此 `Connection` 对象当前持有的所有数据库锁                  |
+| `void` | `rollback()`                        | 撤销当前十五中所做的所有更改，并释放此 `Connection` 对象当前持有的所有数据库锁 |
 
 以下是一个回滚实例，我们当我们第一次插入一条数据时，由于是新数据，所以不会报错，但是如果我们执行一次程序之后再次执行，此时按理来说就会报错，因为插入的数据重复，这时候利用事务就可以十分方便的解决这个问题，我们设置插入出错就回滚到未出错之前的状态，这样就能保证插入数据不会报错了。
 
@@ -835,7 +785,7 @@ public class AffairTest {
 
 首先需要导包，先去下载 C3P0 对象的 jar 包，下载地址：https://sourceforge.net/projects/c3p0/，然后将其中的如下两个包导入；
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cfd9c3f1db524f9395fa95d8de623ab4~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/43da94c403dd6360ad04373672c46852.png)
 
 2.  定义配置文件
 
@@ -899,7 +849,7 @@ public class C3POTest {
 }
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dea833ede35949b280f74cf1f17c2dc7~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/187f08661a4d619d80d2293c739efd8e.png)
 
 #### Druid
 
@@ -960,7 +910,7 @@ public class DruidTest {
 }
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dccdd27421fc4fc8a687d4e2b5becabd~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/888af90836674c37389c20993a2c9e73.png)
 
 ## 总结
 

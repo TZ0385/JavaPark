@@ -10,7 +10,6 @@ category:
 date: 2022-06-10 20:47:42
 ---
 
-
 ## 前言
 
 之前已经讲过如何利用网上各种开源的框架来搭建自己的博客，比如 `docsify`、`Hexo`、`VuePress`、`Halo` 等。前三者可以直接搭配 `Github` 就能免费得到一个专属自己的博客，而 `Halo` 可能需要自己有服务器，然后将服务部署在自己的服务器里。
@@ -42,7 +41,7 @@ date: 2022-06-10 20:47:42
 node -v
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c7881b2db7984a07952e812188fecb07~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/1ce6ed710afc8664fecffeea809eda48.png)
 
 ### 脚手架初始化
 
@@ -58,7 +57,7 @@ cd dumi-demo
 npx @umijs/create-dumi-lib
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ef50e6f5f51d46ada6e664b1f0f2c060~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/19cfca0e3e270a805509bca768290e1d.png)
 
 初始化完成之后，执行以下命令，然后在浏览器其中打开 `http://localhost:8080` 就可以进行预览了。
 
@@ -66,26 +65,26 @@ npx @umijs/create-dumi-lib
 npx dumi dev
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a8ef8465fe104fb2a0ff6ac3ff14b79b~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/4c5b205b52dd81509c3909ef993b1cb6.png)
 
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e09e9a3e5b8f484abe97ba43b31e65ce~tplv-k3u1fbpfcp-watermark.image?)
+![](https://img-blog.csdnimg.cn/img_convert/4e138ac7ccf22bd375b75152b8aeae8a.png)
 
 ### 编写文档
 
 查看我们的项目目录，可以发现 `docs` 文件，这里就是我们编写文档的地方。项目初始化时，默认只有 `index.md` 也就是上面我们访问 `http://localhost:8080` 页面中所称呈现的内容。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/62763a9ff57b4dc3840a5f4893e1a403~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/62b8d06bbd002bf9da2e7de0ffeb01fb.png)
 
 接着我们在 `docs` 目录下新增修改 `Markdown` 文档，它就会帮我们自动渲染到前端页面中。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8e4d0a4bff06422cab27e0ccf5586282~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/194fc4bf8bb3d542fae4ba35f849af67.png)
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/446413367a7d4e41b9d104d0b0b56cbd~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/1de4e00f12b0853e038bc3c069d6d9e4.png)
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/284f9fe5137d47858c5590aec241bbd2~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/00f5b5bf65d24602e3c2702572819a2e.png)
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/09f3636bd2c54453911520375094de95~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/866d0121f0ec6bc86303f82091c56840.png)
 
 ## 总结
 
