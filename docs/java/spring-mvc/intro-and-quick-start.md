@@ -9,6 +9,7 @@ category:
     - Spring MVC 合辑
 ---
 
+
 ## MVC 简介
 
 
@@ -40,7 +41,7 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 
 
-![](https://s1.ax1x.com/2020/07/08/UEXDb9.png)
+![](https://img-blog.csdnimg.cn/img_convert/8c13f2cd8f702f155cfefef9ededc575.png)
 
 
 
@@ -56,7 +57,7 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 
 
-![](https://s1.ax1x.com/2020/07/08/UEzlR0.png)
+![](https://img-blog.csdnimg.cn/img_convert/89507d77757a69ce1dcfc3dc4ae3faf2.png)
 
 
 
@@ -103,11 +104,11 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5Bew6.png)
+![](https://img-blog.csdnimg.cn/img_convert/869cb8932168b514a512369d1f4beb2b.png)
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5BuFO.png)
+![](https://img-blog.csdnimg.cn/img_convert/75d289bfbaa08033ab67f553d077baec.png)
 
 
 
@@ -115,23 +116,23 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 
 
-1.  既然是 Web 项目，那肯定得加入 Web 框架的支持，选中项目后右键，选择 `Add Framework Support`，然后选中 `Web Application` 添加即可；
+2.  既然是 Web 项目，那肯定得加入 Web 框架的支持，选中项目后右键，选择 `Add Framework Support`，然后选中 `Web Application` 添加即可；
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5BJmt.png)
+![](https://img-blog.csdnimg.cn/img_convert/cc32f3529de67c7aa1d19c2467785706.png)
 
 
 
-1.  创建 Maven 项目，并添加 Web 框架之后之后，我们的项目结构如下图：
+3. 创建 Maven 项目，并添加 Web 框架之后之后，我们的项目结构如下图：
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5BY0P.png)
+![](https://img-blog.csdnimg.cn/img_convert/84d2be9e23dccd253487801c1239ce54.png)
 
 
 
-1.  接下来，在 `pom.xml` 中添加相关依赖，一般需要 Junit、Servlet、Spring MVC 等框架的依赖；
+4.  接下来，在 `pom.xml` 中添加相关依赖，一般需要 Junit、Servlet、Spring MVC 等框架的依赖；
 
 
 
@@ -198,7 +199,7 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 
 
-1.  接下来，在 `web.xml` 中注册 `DispatcherServlet`；
+5.  接下来，在 `web.xml` 中注册 `DispatcherServlet`；
 
 
 
@@ -227,11 +228,11 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5DE9g.png)
+![](https://img-blog.csdnimg.cn/img_convert/8e117ce0f03fac5737229375b1740f05.png)
 
 
 
-1.  配置 Spring MVC 的配置文件，即上一步中所创建的 `springmvc-servlet.xml`；
+6. 配置 Spring MVC 的配置文件，即上一步中所创建的 `springmvc-servlet.xml`；
 
 
 
@@ -260,7 +261,7 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 
 
-1.  创建控制类 Controller
+7.  创建控制类 Controller
 
 
 
@@ -297,7 +298,7 @@ public class HelloController {
 
 
 
-1.  创建视图层，在 `WEB-INF/jsp` 目录下新建 `hello.jsp`（没有的目录和文件需要自己创建），然后就可以取出 `Controller` 中 `Model` 所存放的值或者对象；
+8.  创建视图层，在 `WEB-INF/jsp` 目录下新建 `hello.jsp`（没有的目录和文件需要自己创建），然后就可以取出 `Controller` 中 `Model` 所存放的值或者对象；
 
 
 
@@ -322,15 +323,15 @@ public class HelloController {
 
 
 
-1.  以上步骤都配置好之后，接下来就去配置 Tomcat；
+9.  以上步骤都配置好之后，接下来就去配置 Tomcat；
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5rYi8.png)
+![](https://img-blog.csdnimg.cn/img_convert/eba5959c841bef1e7257b1b491044a34.png)
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5rDZq.png)
+![](https://img-blog.csdnimg.cn/img_convert/0ec8af170851f83e97def7583ec50751.png)
 
 
 
@@ -338,19 +339,19 @@ public class HelloController {
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5rIdx.png)
+![](https://img-blog.csdnimg.cn/img_convert/ab48d9148ce8de43f9c9f7ff42f78a82.png)
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5rjOA.png)
+![](https://img-blog.csdnimg.cn/img_convert/ea84bc4fcf0220f7638bb6548f67891d.png)
 
 
 
-1.  点击启动 Tomcat，然后在浏览器中访问 `localhost:8080/hello`
+10. 点击启动 Tomcat，然后在浏览器中访问 `localhost:8080/hello`
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5sIXj.png)
+![](https://img-blog.csdnimg.cn/img_convert/91ae34f4d2c1a6ac262601c35aafd1a1.png)
 
 
 
@@ -366,15 +367,15 @@ public class HelloController {
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5sPfS.png)
+![](https://img-blog.csdnimg.cn/img_convert/4f7a43285a665216f97586f28de84928.png)
 
 
 
-1.  在 `WEB-INF` 目录新建 `lib` 目录，然后将所有 `Library Files` 添加到 `lib` 目录，然后重启 Tomcat 即可；
+2.  在 `WEB-INF` 目录新建 `lib` 目录，然后将所有 `Library Files` 添加到 `lib` 目录，然后重启 Tomcat 即可；
 
 
 
-![img](https://s1.ax1x.com/2020/07/21/U5s1l4.png)
+![](https://img-blog.csdnimg.cn/img_convert/2739039678b7cad7f0be4d236907678e.png)
 
 
 
@@ -383,4 +384,5 @@ public class HelloController {
 
 
 以上就是 Spring MVC 的相关简介以及如何利用 IDEA 来创建一个 Spring MVC 实例的所有内容了。原创不易，如果你觉得我的文章对你有所帮助，那就帮忙点赞关注一波吧！
+
 

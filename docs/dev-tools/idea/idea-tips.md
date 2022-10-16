@@ -13,19 +13,17 @@ date: 2022-02-07 19:05:54
 
 人人都说 IDEA 好，但你知道他的强大之处在哪儿么？今天就来看看，增进日常开发效率的 IDEA 小技巧。
 
-## 代码编辑方面
-
-
+## 代码编辑
 
 ### 复制 & 粘贴
 
 我们知道，最常用的复制粘贴是通过 `Ctrl + C/V`，但如果要针对复制历史进行粘贴，此时在 IDEA 中可以通过 `Ctrl + Shift + V` 来进行自主选择自己想要粘贴的内容；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-ctrlshiftv.png)
+![](https://img-blog.csdnimg.cn/img_convert/75a104b1eff84a78dedbc4bc4d51ed7a.png)
 
 同时，在 IDEA 中，默认粘贴时是会对代码自动格式化的。如果我们不想让它自动格式化，那么此时可以利用快捷键 `Ctrl + Alt + Shift + V` 进行粘贴。或者通过右键菜单，选择 `Paste as Plain Text` 进行粘贴；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-plaintext.png)
+![](https://img-blog.csdnimg.cn/img_convert/cdb76601e9527a592220166ae68e5afc.png)
 
 ### 格式化代码
 
@@ -51,7 +49,7 @@ date: 2022-02-07 19:05:54
 
 通过快捷键 `Ctrl + G`，然后输入所要跳转的行，快速跳转到对应行。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-columefind.png)
+![](https://img-blog.csdnimg.cn/img_convert/2d2e86ecb8dc163069b4803619c69c80.png)
 
 ### Tab 切换
 
@@ -61,13 +59,13 @@ date: 2022-02-07 19:05:54
 
 通过快捷键 `Ctrl + E`，能快速打开我们最近浏览的文件列表；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-recentfiles.png)
+![](https://img-blog.csdnimg.cn/img_convert/091e8b6b63aed8112ff8c800686a4394.png)
 
 ### 快速打开文件所在文件夹
 
 要打开文件所在文件夹，一般是通过选中文件，然后鼠标右键选中 `Show in Explorer` 即可；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-showinexplorer.png)
+![](https://img-blog.csdnimg.cn/img_convert/bcbcdb8bf3fea3b21b3d3698caae943b.png)
 
 ##  快速查找与替换
 
@@ -81,27 +79,27 @@ date: 2022-02-07 19:05:54
 
     针对全局查找，用 `Ctrl + Shift+ F`，而针对全局替换，则可以使用 `Ctrl + Shift + R`；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-quanjuchazhao.png)
+![](https://img-blog.csdnimg.cn/img_convert/a6e49aded013bc28aa53dac516f8229a.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-quanjutihuan.png)
+![](https://img-blog.csdnimg.cn/img_convert/f11c243584856d809749bd9069e2a63e.png)
 
 ###  文件查找
 
 要快速查找文件，可以通过 `Ctrl + Shift+ N` 来进行查找；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-findfile.png)
+![](https://img-blog.csdnimg.cn/img_convert/4eba607aff5dd7291c3112fb80c89c81.png)
 
 ###  查找菜单或操作
 
 通过 `Ctrl + Shift + A` 快捷键，然后就能通过关键字来查找我们所需要的菜单和操作；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-20201111105333492.png)
+![](https://img-blog.csdnimg.cn/img_convert/fcbad07fe2b94f437617c67647f919b2.png)
 
 ###  万能查找
 
 通过双击两次 `Shift`，来实现万能查找，既可以实现文件查找，也可以实现菜单、操作查找，但是要注意的是它不能进行文件内容查找；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-wanneng.png)
+![](https://img-blog.csdnimg.cn/img_convert/3451e9cbe42b89ce3b654ff0323aafa3.png)
 
 ### 注意
 

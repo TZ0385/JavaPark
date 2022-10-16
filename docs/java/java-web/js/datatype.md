@@ -86,7 +86,7 @@ alert(isNaN('村雨遥'));
 alert(isNaN(12));
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/isNaN.gif)
+![](https://img-blog.csdnimg.cn/img_convert/56070b14907ae0310b02cb9dc68c1bf3.gif)
 
 ### 字符串类型（`String`）
 
@@ -123,9 +123,9 @@ var wepublic = '村雨遥';
 alert(wepublic.length);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418083326974.png)
+![](https://img-blog.csdnimg.cn/img_convert/0517f8dc3b83b23a6aed158062578f35.png)
 
-1.   **字符串拼接**
+2.   **字符串拼接**
 
 如果存在多个字符串，可以使用 `+` 来进行拼接，其具体方式为：
 
@@ -137,7 +137,7 @@ var id = 'cunyu1943';
 alert(wepublic + id);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418084040519.png)
+![](https://img-blog.csdnimg.cn/img_convert/e81d9acd24a29e0bb12f38d65751ddac.png)
 
 ### 布尔类型（`Boolean`）
 
@@ -150,7 +150,7 @@ alert(true + 1);
 alert(false + 1);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/boolean.gif)
+![](https://img-blog.csdnimg.cn/img_convert/66e9785c383e24d098cbd1db7865b363.gif)
 
 ### `Undefined` 和 `Null`
 
@@ -171,7 +171,7 @@ var focus = true;
 console.log(typeof focus);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418092406338.png)
+![](https://img-blog.csdnimg.cn/img_convert/54c159e17b993a45d6893c80f21ad185.png)
 
 ## 数据类型转换
 
@@ -204,9 +204,9 @@ console.log(str);
 console.log(typeof str);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418093954838.png)
+![](https://img-blog.csdnimg.cn/img_convert/caa873449d4f32322eb02bd81f782105.png)
 
-1.   **String()**
+2.   **String()**
 
 ```js
 var num = 1943;
@@ -215,9 +215,9 @@ console.log(str);
 console.log(typeof str);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418094352888.png)
+![](https://img-blog.csdnimg.cn/img_convert/edbf5e3efa47ca1af0b0eae725a1fbaf.png)
 
-1.   **`+` 拼接**
+3.   **`+` 拼接**
 
 字符串和其他任意类型的变量相拼接，最后得到的一定是字符串。
 
@@ -228,7 +228,7 @@ console.log(str);
 console.log(typeof str);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418094527677.png)
+![](https://img-blog.csdnimg.cn/img_convert/c0a4e4f881909e059843551817966f76.png)
 
 ### 转换为数字类型
 
@@ -250,9 +250,9 @@ console.log(num);
 console.log(typeof num);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418101002885.png)
+![](https://img-blog.csdnimg.cn/img_convert/96ed3e8b75385549e0869ff4788c332b.png)
 
-1.   **parseFloat(string)**
+2.   **parseFloat(string)**
 
 ```js
 var str = '19.43';
@@ -261,9 +261,9 @@ console.log(num);
 console.log(typeof num);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418101126923.png)
+![](https://img-blog.csdnimg.cn/img_convert/9f32cd5199b6015a503a788e0f7951e3.png)
 
-1.   **Number()**
+3.   **Number()**
 
 ```js
 var str1 = '19.43';
@@ -276,9 +276,9 @@ console.log(num2);
 console.log(typeof num2);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418102625953.png)
+![](https://img-blog.csdnimg.cn/img_convert/45a721bb41f8dd178f2ff70b3ea7d8ed.png)
 
-1.   **运算符隐式转换**
+4.   **运算符隐式转换**
 
 ```js
 var str1 = '2022';
@@ -294,7 +294,7 @@ console.log(num3);
 console.log(typeof num3);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418104433855.png)
+![](https://img-blog.csdnimg.cn/img_convert/02552faab1a464ff09201d013e17ca23.png)
 
 ### 转换为布尔类型
 
@@ -315,5 +315,6 @@ console.log(Boolean(1943));
 console.log(Boolean('村雨遥'));
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220418110830295.png)
+![](https://img-blog.csdnimg.cn/img_convert/61a66c457fca2d068a1bec8145352bf1.png)
+
 

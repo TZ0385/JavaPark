@@ -173,7 +173,7 @@ let num = this;
 alert(num);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220424143845013.png)
+![](https://img-blog.csdnimg.cn/img_convert/ce1fe56f9cdd7702b0f17d8d09d84dd0.png)
 
 3.   **函数中**
 
@@ -186,9 +186,10 @@ function func(){
 alert(func());
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220424143845013.png)
+![](https://img-blog.csdnimg.cn/img_convert/3eabc18cf3d244f400d101d52648458f.png)
 
 ## 总结
 
 本文主要从什么是事件、如何实现事件监听和常见的事件类型三个方面介绍了关于事件的知识点。此外，从函数表达式和回调函数对函数的高阶用法做了简要介绍。最后则是对使用最多的 `this` 在不同环境中使用时所代表的一些含义。
+
 

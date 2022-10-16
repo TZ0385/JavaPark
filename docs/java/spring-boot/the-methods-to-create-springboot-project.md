@@ -12,11 +12,11 @@ date: 2022-01-09 15:51:15
 ## 前言
 
 如果你是一个浸淫 SpringBoot 已久的老手，那么可能下面的内容可能不那么适合你，写得很简单。但如果是
-对于一个刚学习 SpringBoot 的新手而言，我想多少还是有些用的。本文就来手把手教你如何创建一个 SpringBoot 项目，并对其中的一些关键信息进行简单分析，让你更加快速地掌握如何创建一个 SpringBoot 项目。
+对于一个刚学习 SpringBoot 的新手而言，我想多少还是有些用的。本文就来手把手教你如何创建一个 SpringBoot 项目，并对其中的一些关键信息进行简单分析，让你更加快速的掌握如何创建一个 SpringBoot 项目。
 
 ## Spring Boot 简介
 
-使用 Servlet/JSP 开发 JavaWeb 时，一个接口对应一个Servlet，配置很繁琐。为尽量减少这种麻烦，Spring Boot 应用而生。它是由 Pivotal 团队提供的全新框架，目的是用于简化 Spring 应用的初始搭建即开发过程。该框架使用特定方式进行配置，从而使开发人员无需定义样板化的配置。
+使用 Servlet/JSP 开发 JavaWeb 时，一个接口对应一个Servlet，配置很繁琐。未尽量减少这种麻烦，Spring Boot 应用而生。它是由 Pivotal 团队提供的全新框架，目的适用于简化 Spring 应用的初始搭建即开发过程。该框架使用特定方式进行配置，从而使开发人员无需定义样板化的配置。
 
 ## 如何创建 Spring Boot 项目
 
@@ -26,7 +26,7 @@ Sping Boot 项目的本质其实还是一个 Maven 项目，主要有如下几�
 
 1.  打开 https://start.spring.io/  来生成 `Spring Boot` 项目；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c6178b187e574a52a18056ec4736fce2~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/69bc8fcdeb7d003d8435f63ed54d4eb9.png)
 
 2.  然后选择和填写相关配置；
 
@@ -36,11 +36,11 @@ Sping Boot 项目的本质其实还是一个 Maven 项目，主要有如下几�
 -   **Project Metadata**：项目元数据，即 Maven项目基本元素，根据自己的实际情况填写；
 -   **Dependencies**：要加入的 Spring Boot 组件；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7fb2906957d64676b6ceff59d0f3f4e7~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/89d398fd75033e437c7f34c1ed90d131.png)
 
 3.  然后点击生成或 `Ctrl + Enter` 即可；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e82fdc575e6043429ed223983bcd4697~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/51b0fea0db18f15723bd3bce4549ffd1.png)
 
 4.  将压缩包下载后，解压缩后用自己喜欢的 IDE 开发即可；
 
@@ -48,36 +48,36 @@ Sping Boot 项目的本质其实还是一个 Maven 项目，主要有如下几�
 
 1.  新建项目时选择 `Spring Initializr` ；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bcd868b4e4ab44c68bb8f23ec4732e83~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/688657458528f2467fc9b7a46b9648fd.png)
 
 2.  点击下一步，填写相关配置；
 
 -   `Group`：组织 ID，一般分为多个段，一般第一段为**域**，而第二段则是 **公司名称**；
 -   `Artifact`：唯一标识符，一般是项目名；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/be858081cdb24cdeba3c58b5e7f341fa~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/670b5de78b6ec92cc49f00f33c1bf444.png)
 
 3.  选择包，添加相关依赖；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/41020ec5d50f41449a9426cb49572449~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/4c20b2ba08f111ee3131656c2343da88.png)
 
 4.  配置项目名，点击完成即可；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5a2336475e8f407e825e667bd99a9ade~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/dfb91002b373b2951611187bceaf37c0.png)
 
 ### Maven 创建
 
 1.  新建 Maven 项目；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f24d4e84144b460989a1eb9be947ab7d~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/f0340f49c99f92cc4b894423b4c1032d.png)
 
 2.  填写项目名和相关配置；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c878b38dd07049d2b76280e9a0373d0d~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/09a392fe5a02cd0a7a8d995aa6e7df28.png)
 
 3.  点击完成即可；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3150bb7433a743e6b9246c3326330d39~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/b9d782e5bc6126a20724c3226a108eb6.png)
 
 4.  配置 `pom.xml` 添加依赖；
 
@@ -135,6 +135,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @EnableAutoConfiguration
 @RestController
+
 public class App {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(App.class, args);
@@ -149,7 +150,7 @@ public class App {
 
 6.  运行上一步中的 `main` 方法即可；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/33f78b58c7e64c1488c98f6c95cece69~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://img-blog.csdnimg.cn/img_convert/91b5310c2142ea527bd906c1e52a0d19.png)
 
 ## 常见项目结构
 
@@ -199,7 +200,7 @@ public @interface SpringBootApplication {
 
 ### 说明
 
-`@SpringBootApplication` 标注该类是一个启动类，每个 Spring Boot 项目有且只有项目启动类才能用该注解。可以看做是 `@Configuration、@EnableAutoConfiguration、@ComponentScan` 的组合注解。
+`@SpringBootApplication` 标注该类是一个启动类，可以看做是 `@Configuration、@EnableAutoConfiguration、@ComponentScan` 的集合；
 
 - `@Configuration` ：允许在上下文中注册额外的 `Bean` 或导入其他配置；
 - `@EnableAutoConfiguration`：启动 `Spring Boot` 的自动配置机制；
@@ -284,6 +285,3 @@ public @interface SpringBootApplication {
 
 最后，创作不易，如果觉得我的文章对你有所帮助，那就帮忙点赞关注吧，感谢支持！
 
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

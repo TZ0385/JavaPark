@@ -39,8 +39,6 @@ A[Java Se & EE] --> B[Spring]
 B[Spring] --> C[Spring Boot]
 ```
 
-![](https://gitee.com/cunyu1943/images/raw/master/imgsUbuntu/image-20200519083943477.png)
-
 
 
 ### 特点
@@ -61,11 +59,11 @@ B[Spring] --> C[Spring Boot]
 
 -   约定项目中有且只有一个入口类，其类名推荐使用：`xxxApplication.java`。而且该入口类必须位于所有的子包之外，其中必须存在一个用于启动项目的 `main` 函数。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20211002204054945.png)
+![](https://img-blog.csdnimg.cn/img_convert/e004e85b17f27105407b1916186d9943.png)
 
 -   此外， Spring Boot 项目约定必须在项目根目录中存在一个名为 `application.yml` 或者 `yml.prpperties` 的配置文件，一般是位于 `resources` 目录下。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20211002204712421.png)
+![](https://img-blog.csdnimg.cn/img_convert/d497cf5ecdfa0901da96910ed026d52d.png)
 
 ### Spring Boot 的优缺点
 

@@ -12,6 +12,8 @@ category:
 
 
 
+
+
 ##  Bean 的别名配置
 
 接着上一篇文章中的 `<bean>` 配置，其中配置了 `id` 属性，通过 `id` 属性我们就可以获取到对象。其实 `<bean>` 配置也提供了 `name` 属性，它是用于定义 Bean 的别名，一个 Bean 的别名是可以有多个的，各个别名之间可以通过逗号（`,`）、分号（`;`）、空格（` `）分隔。
@@ -44,7 +46,7 @@ Bean 既然是一个对象，那么它也是有作用范围的。在 `<bean>` �
 
 | 值          | 说明                           |
 | ----------- | ------------------------------ |
-| `singleton` | 单例，也是 Bean 默认的作用范围 |
+| `singleton` | 单例，也是 Bean 磨人的作用范围 |
 | `prototype` | 非单例                         |
 
 ```xml
@@ -73,7 +75,7 @@ public class AppIoC {
 
 
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220427154906508.png)
+![](https://img-blog.csdnimg.cn/img_convert/23274c95c22d506fe28d07e59058881b.png)
 
 而如果我们将 Bean 的 `scope` 配置为 `prototype`，那么此时再创建两个 `BookService` 对象，然后对比它们的内存地址，会发现两者指向的并非指向同一块内存。
 
@@ -97,7 +99,7 @@ public class AppIoC {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220427160012518.png)
+![](https://img-blog.csdnimg.cn/img_convert/762db86a1a56da40cad36f0adefab25e.png)
 
 ## Bean 实例化
 
@@ -142,7 +144,7 @@ public class AppIoC {
 
 
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220427164017994.png)
+![](https://img-blog.csdnimg.cn/img_convert/738ba175ae38bd9eecce821a88b15b63.png)
 
 ### 静态工厂方法
 
@@ -173,7 +175,7 @@ public class AppIoC {
 
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220427163059088.png)
+![](https://img-blog.csdnimg.cn/img_convert/7efc979cde7f61adecf59e1505011624.png)
 
 ### 实例工厂对象方法 
 
@@ -230,7 +232,7 @@ public class AppIoC {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220427165856934.png)
+![](https://img-blog.csdnimg.cn/img_convert/0a92ceb6def8add5e0bf5283576fc511.png)
 
 ## Bean 的生命周期
 

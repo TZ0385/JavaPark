@@ -68,7 +68,7 @@ var arr = ['村雨遥', 'cunyu1943', '村雨'];
 console.log(arr);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220420094444070.png)
+![](https://img-blog.csdnimg.cn/img_convert/9cbbb970f27082075505e7a0e7ca4459.png)
 
 通过字面量的方式，我们就创建了一个含有三个初始值的数组。
 
@@ -82,7 +82,7 @@ var arr = ['村雨遥', 'cunyu1943', '村雨'];
 console.log(arr[0]);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220420095415879.png)
+![](https://img-blog.csdnimg.cn/img_convert/4a4ff0a44fc4cb55f98f5cb6e4282c2b.png)
 
 以上的实例中，我们通过索引获取到了数组中的第一个元素 `村雨遥`。
 
@@ -98,7 +98,7 @@ arr[0] = '村雨1943'
 console.log(arr[0]);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220420100032348.png)
+![](https://img-blog.csdnimg.cn/img_convert/70e2d8730f590f233eb3c83dcd1182b5.png)
 
 ## 遍历数组
 
@@ -114,7 +114,7 @@ var arr = ['村雨遥', 'cunyu1943', '村雨'];
 console.log(arr.length);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220420100832922.png)
+![](https://img-blog.csdnimg.cn/img_convert/09ab09e8a2aa089941c6837cbc45daff.png)
 
 接着，我们就可以通过循环来获取到数组中的所有元素了。
 
@@ -125,7 +125,7 @@ for(var i = 0; i < arr.length; i++){
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220420101124911.png)
+![](https://img-blog.csdnimg.cn/img_convert/72f61bfefdddb01d2861e1d65e1f2c43.png)
 
 ## 数组新增元素
 
@@ -142,7 +142,7 @@ arr[3] = '村雨1943';
 console.log(arr);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220420103750762.png)
+![](https://img-blog.csdnimg.cn/img_convert/90c7dcd78c042e4ff3ab7394e4269af1.png)
 
 通过实例结果可以看到，通过修改数组长度奏效了，数组长度从一开始的 3 变成了 4，而且数组中增加元素也成功了。
 
@@ -156,7 +156,7 @@ console.log(arr);
 console.log(arr.length);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220420104331641.png)
+![](https://img-blog.csdnimg.cn/img_convert/fad844b606125a42ef43cbfbf0489e19.png)
 
 同样达到了往数组中新增元素的效果，区别在于没有事先修改数组长度，而是直接修改数组索引的方式来增加元素。
 
@@ -169,9 +169,10 @@ arr[1] = '村雨1943';
 console.log(arr);
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220420105359023.png)
+![](https://img-blog.csdnimg.cn/img_convert/e969f19caa1fe03017aee380a8773ed9.png)
 
 ## 总结
 
 以上就是今天的所有内容了，主要从数组的定义、如何创建数组、如何获取数组中元素、遍历数组以及新增数组元素几个方面总结了数组的知识点。关于更多数组的操作，期待大家和我一起去探索发现！
+
 

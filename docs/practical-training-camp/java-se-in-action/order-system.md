@@ -12,11 +12,9 @@ category:
 
 ## 前言
 
-继上次写了一个 Java SE 版本的 [学生成绩管理系统](https://cunyu1943.github.io/JavaPark/practical-training-camp/java-se-in-action/score-management) 之后，发现大家反响还不错，所以今天我有带来了差不多一样的点菜系统，希望利用我们所学的 Java SE 知识，实现我们的点菜系统。
+继上次写了一个 Java SE 版本的 [学生成绩管理系统](https://mp.weixin.qq.com/s/4niO72iDWvbgHVGM0SVhAw) 之后，发现大家反响还不错，所以今天我有带来了差不多一样的点菜系统，希望利用我们所学的 Java SE 知识，实现我们的点菜系统。
 
 而在上次文章的评论中，我也看到了大家的一些建议，可能没有及时回复大家，但是在这次文章中，我会尽量满足大家提的一些好的建议，向着更好的方向前进！
-
-
 
 ## 需求分析
 
@@ -33,7 +31,7 @@ category:
 5.   **结账**
 6.   **退出系统**
 
-![点菜系统](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/1.png)
+![点菜系统](https://img-blog.csdnimg.cn/img_convert/df9117133f0025e395d1b7068dc6bcc9.png)
 
 ## 功能预览
 
@@ -41,23 +39,23 @@ category:
 
 进入我们的点菜系统之后，一般都是有系统菜单的，用于提示我们进行下一步的操作。
 
-![系统菜单](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731213343738.png)
+![系统菜单](https://img-blog.csdnimg.cn/img_convert/3920cf4fb7dce044dacd8fbda667893a.png)
 
 ### 点菜
 
 根据系统菜单进入点菜功能后，输入菜品序号进行点菜以及返回上一级菜单。
 
-![点菜](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731213619392.png)
+![点菜](https://img-blog.csdnimg.cn/img_convert/461135e530a1998d39b97c6ea21fb828.png)
 
 ### 查看已点菜品
 
 假设我们点完菜之后，要确认下有没有点重复的菜，此时就可以查看已点菜品。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731213843662.png)
+![](https://img-blog.csdnimg.cn/img_convert/93034e596810610a1ac84d40ff919ca0.png)
 
 当然，上图是我们已经点过菜才会出现菜品，如果我们还没有点过菜，那么系统则会提示还未点菜。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731214100753.png)
+![](https://img-blog.csdnimg.cn/img_convert/c70e4fe4d20d9450e15c7c770bbb16db.png)
 
 
 
@@ -65,27 +63,27 @@ category:
 
 假设我们不小心点了重复的菜，那该怎么办呢？不用担心，我们直接选择删除菜品功能，然后删除对应重复菜品即可。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731215307790.png)
+![](https://img-blog.csdnimg.cn/img_convert/5b1601079f666eb8a9942aeb022d3433.png)
 
 同样的，加入我们还未点菜就进入删除菜品功能，系统也会给出提示。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731214811164.png)
+![](https://img-blog.csdnimg.cn/img_convert/9dcd13637a2916aa173c8edbbe937a10.png)
 
 ### 结账
 
 当我们用完餐之后，接下来就是结账了。此时只要进入我们的结账选项，系统就会打印出本次所消费的所有金额。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731215116906.png)
+![](https://img-blog.csdnimg.cn/img_convert/511b4859bf7090ad102e4ca314fce063.png)
 
 同样的，加入我们还未点菜就进入结账功能，系统也会给出提示。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731214852823.png)
+![](https://img-blog.csdnimg.cn/img_convert/80ec3f6b7cf0500b16627ea11e9e485b.png)
 
 ### 退出系统
 
 当我们输入选择为 0 时，表示我们退出系统。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731220844484.png)
+![](https://img-blog.csdnimg.cn/img_convert/d30bc01021a930cb08f78b42e85377d8.png)
 
 ## 功能实现
 
@@ -429,7 +427,7 @@ public void checkout(List<Dish> orderedList) {
 
 各部分的代码都已经贴出来的，不过为了大家更方便，我这这里给出总程序结构。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210731223250507.png)
+![](https://img-blog.csdnimg.cn/img_convert/2a6587a091352f84ee9bee91f231e358.png)
 
 所有代码均位于 `com.cunyu` 包下，然后分别是实体类 `Dish`、接口类 `DishInterface` 以及主程序 `DishApp`。
 

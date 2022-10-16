@@ -11,7 +11,6 @@ date: 2022-06-02 22:22:22
 ---
 
 
-
 ## 前言
 
 在日常 Java 开发中，一般都需要进行单元测试，而 `Mock` 测试则是单元测试中的重要方法之一。所谓 `Mock` 测试，就是指在测试过程中，对于一些不容易构造或难以获取的较为复杂的对象，用一个虚拟的对象来代表，从而方便测试的一种测试方法。其中，这个虚拟的对象就叫做 `Mock` 对象，最常见的就是用它来代表 `Servlet` 中 `HttpServletRequest` 对象，`JDBC` 中的 `ResultSet` 对象等。
@@ -38,7 +37,8 @@ date: 2022-06-02 22:22:22
 
 创建好项目之后，项目结构如下图所示。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/06/image-20220601223525321.png)
+![](https://img-blog.csdnimg.cn/89c981e76b8041778bef3397d20f3263.png)
+
 
 紧接着，我们向项目的 `pom.xml` 中添加 `Mockito` 和 `JUnit` 的依赖。
 
@@ -112,7 +112,8 @@ public class Demo {
 
 接着在 `Demo` 类中单击鼠标右键，选择 `Generate`，会弹出以下选择项，我们选择 `Test` 来自动生成该类的测试代码。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/06/image-20220601224850126.png)
+![](https://img-blog.csdnimg.cn/740c39144eb5470189db4c934657101f.png)
+
 
 选择 `Test` 之后，IDEA 并不会立马生成对应的测试类，而是会弹出以下配置窗口让我们配置后再进行生成。这里主要注意的点在于：
 
@@ -121,11 +122,13 @@ public class Demo {
 3.   `Destination package`：生成的测试类所在的包，一般是对应于上面的类所在的包。
 4.   `Generate test methods for`：这里主要是选择需要生成测试的方法，在下面的 `Member` 中进行勾选即可。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/06/image-20220601225129834.png)
+![](https://img-blog.csdnimg.cn/4b5a44b91820434fb8399a68ae1284d7.png)
+
 
 配置完成后，IDEA 会在 `test/java` 文件夹下自动创建包并生成对应测试类，最终自动生成的测试类如下。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/06/image-20220601225822055.png)
+![](https://img-blog.csdnimg.cn/88df70ce36c449498cc96457f5cf92da.png)
+
 
 最后，我们按照 `Mock` 测试的三个步骤来书写代码，得到最终的测试方法如下。
 
@@ -150,7 +153,8 @@ class DemoTest {
 
 最后，执行测试类中的方法，如果测试通过，则 IDEA 中出现如下结果。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/06/image-20220602223351075.png)
+![](https://img-blog.csdnimg.cn/4343249c31e24d49bfe3c1709cc5b76f.png)
+
 
 假设我们修改下以上代码中断言中的期望值，则测试不通过，此时 IDEA 会返回断言中的提示信息。
 
@@ -165,9 +169,12 @@ class DemoTest {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/06/image-20220602223734686.png)
+
+![](https://img-blog.csdnimg.cn/7538165d2acb4641818ba073c2b77608.png)
+
 
 ## 总结
 
 以上内容就是关于 `Mockito` 搭配 `JUnit` 进行单元测试的简单示例了，主要从两个方面来展开。一方面是如何创建并添加对应依赖，另一方面则是如何编写代码并自动生成对应测试类，然后编写测试代码。而更多关于 `Mockito` 的使用技巧，我们将到另一篇文章中进行介绍。
+
 

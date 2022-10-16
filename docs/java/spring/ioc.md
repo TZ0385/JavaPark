@@ -34,7 +34,7 @@ IoC 容器虽然负责了创建和初始化对象等一系列工作，但实际�
 
 接着我们分别创建 DAO 层和 Service 层接口，并实现其接口，最后则是在主程序入口中调用，创建后的项目结构如下：
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220427100328543.png)
+![](https://img-blog.csdnimg.cn/img_convert/c8be93c33fc982de23d52b6bfa74034d.png)
 
 -   **DAO 层**
 
@@ -86,7 +86,7 @@ public class AppCommon {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220427100959404.png)
+![](https://img-blog.csdnimg.cn/img_convert/e754b26be2e317997753c9e9896564db.png)
 
 ### IoC 方式
 
@@ -128,7 +128,7 @@ public class AppIoC {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220427100959404.png)
+![](https://img-blog.csdnimg.cn/img_convert/aaceffc537d9c1bf2445a6c067b0d07a.png)
 
 ### DI 方式
 
@@ -174,7 +174,7 @@ public class BookServiceImpl implements BookService {
 
 最后，用 IoC 方式中同样的方式，在主程序入口获取配置文件，然后获取对象调用接口即可。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220427100959404.png)
+![](https://img-blog.csdnimg.cn/img_convert/1e4b4d41e460b1dd7638bee473f8b9de.png)
 
 ## 总结
 

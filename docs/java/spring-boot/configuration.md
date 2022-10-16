@@ -9,6 +9,7 @@ category:
 date: 2022-01-09 16:15:47
 ---
 
+
 ##  前言
 
 为了 Spring Boot 能够更好地生成配置元数据文件，我们可以在创建项目时添加 `Spring Configuartion Processor` 依赖，或者在创建好项目后的 `pom.xml` 文件中手动添加。添加该依赖后，我们在编写配置时就会有属性提示，大大降低编写错误。
@@ -109,9 +110,9 @@ public class CunyuPropertiesController {
 
 4.  打开网页测试，打开 1，同时观察控制台，显示如下内容则说明属性注入成功；
 
-![](https://s1.ax1x.com/2020/07/29/aZ4ucV.png)
+![](https://img-blog.csdnimg.cn/img_convert/a749931a1ed4fed321f2fed10ff39524.png)
 
-![](https://s1.ax1x.com/2020/07/29/aZ4wnO.png)
+![](https://img-blog.csdnimg.cn/img_convert/7e41a871c0d8b2992e37f7a5d587b486.png)
 
 ### 多环境配置
 
@@ -233,9 +234,9 @@ public class MyPropertiesController {
 
 4.  打开网页测试，打开 `http://localhost:8080/my/profile`，同时观察控制台，显示如下内容则说明属性注入成功；
 
-![](https://s1.ax1x.com/2020/07/29/aZHXK1.png)
+![](https://img-blog.csdnimg.cn/img_convert/fd2d14ade1c670b6c41706e9fe33918b.png)
 
-![](https://s1.ax1x.com/2020/07/29/aZbErt.png)
+![](https://img-blog.csdnimg.cn/img_convert/83a11edacd179ff4d36d115efae92b8c.png)
 
 ##  注意
 
@@ -293,7 +294,3 @@ spring:
 ## 总结
 
 以上就是关于 Spring Boot 中的配置相关内容了。本文主要介绍了 Spring Boot 项目自带的配置文件的相关信息，同时也介绍了如果我们想要满足自己需求如何进行自定义配置。最后，则是对 `.yml` 和 `.properties` 不同格式的配置文件的区别进行解释。
-
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

@@ -7,6 +7,7 @@ tag: JavaScript
 category: JavaScript 教程
 ---
 
+
 ## 注释
 
 为了提高代码的可读性，我们往往需要在代码中添加一些额外的信息，但是我们又不想让这些信息影响到代码的执行。这时候，我们就需要使用到注释。JavaScript 中，主要有两种注释，一种是单行注释，另一种则是多行注释，和 Java 中的注释很相似。
@@ -61,7 +62,7 @@ alert("网球王子");
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220417120304362.png)
+![](https://img-blog.csdnimg.cn/img_convert/d074d5d6d9a7006ee0bdf064c39c46b5.png)
 
 2.   **alert(msg)**
 
@@ -84,13 +85,13 @@ alert("网球王子");
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/promt-alert.gif)
+![](https://img-blog.csdnimg.cn/img_convert/10e2ce1f783e5f3bde02b32331abce8d.gif)
 
 3.   **console(msg)**
 
 这个方法主要是用于在浏览器的控制台打开，而一般用户也用不到这个，更多的是开发人员用于调试开发时使用。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220417121805634.png)
+![](https://img-blog.csdnimg.cn/img_convert/2ef96b65b33837206ef3aa56eabb1477.png)
 
 ## 变量
 

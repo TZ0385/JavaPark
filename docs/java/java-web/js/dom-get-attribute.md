@@ -7,6 +7,7 @@ tag: JavaScript
 category: JavaScript 教程
 ---
 
+
 ## 什么是 Web API
 
 Web API 是指网页服务器或者网页浏览器的应用程序接口。简单来讲，就是我们在编写 JavaScript 代码时，可以通过 Web API 来操作 HTML 网页和浏览器。
@@ -16,7 +17,7 @@ Web API 又可以分为两类：
 -   DOM（文档对象模型）
 -   BOM（浏览器对象模型）
 
-![](https://img-blog.csdnimg.cn/img_convert/c1614745eb297b509c51685d12370ce9.png)
+![](https://img-blog.csdnimg.cn/img_convert/ca7783e87ad2eafae32b4090697d3dcc.png)
 
 DOM（`Document Object Model`），即文档对象模型，主要用来呈现以及与 HTML 或 XML 文档交互的 API。说白了就是用来操作网页内容，实现各种特效，让用户用起来更顺手。
 
@@ -45,7 +46,7 @@ DOM（`Document Object Model`），即文档对象模型，主要用来呈现以
 	</body>
 </html>
 ```
-![](https://img-blog.csdnimg.cn/39aaf0deb32742299c718bf512ce85ce.png)
+![](https://img-blog.csdnimg.cn/img_convert/7e563024185360972ec1298d052b0e76.png)
 可以看到原本 `button` 标签的属性 `innerText` 从原先的点击变成了 村雨遥，说明通过修改 JavaScript 对象属性从而改变 HTML 中标签属性的目的达到了。
 
 ## DOM 对象获取
@@ -85,7 +86,7 @@ document.querySelector('CSS 选择器');
 
 ```
 
-![](https://img-blog.csdnimg.cn/e35c743f879d4f72ade0d647bc9ab790.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5p2R6Zuo6YGl,size_20,color_FFFFFF,t_70,g_se,x_16)
+![](https://img-blog.csdnimg.cn/img_convert/20f87d38e1ddddedbbec16433db29210.png)
 
 2. **匹配的多个元素**
 
@@ -116,7 +117,7 @@ document.querySelectorAll('CSS 选择器');
 </html>
 ````
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422113827743.png)
+![](https://img-blog.csdnimg.cn/img_convert/093eaf1ff0a0bb858b49c472fd09e231.png)
 
 除开上述两种获取 DOM 对象之外，还提供了一些用于获取 DOM 元素的方法。最常见的几种总结如下：
 
@@ -170,7 +171,7 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422140927487.png)
+![](https://img-blog.csdnimg.cn/img_convert/82cef4cbf8d1ffc141a1dab1b488c8b6.png)
 
 ## DOM 元素内容
 
@@ -203,7 +204,7 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422142304628.png)
+![](https://img-blog.csdnimg.cn/img_convert/76edfc4952ca904e6d9e2f78e258d57b.png)
 
 ### innerText 属性
 
@@ -231,9 +232,9 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422143135431.png)
+![](https://img-blog.csdnimg.cn/img_convert/1dd37fe23ef71f430f2636091a210c36.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422143303536.png)
+![](https://img-blog.csdnimg.cn/img_convert/90dbfb2cbd9909197f81ef3ef925fa35.png)
 
 ### innerHTML 属性
 
@@ -261,9 +262,9 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422143737284.png)
+![](https://img-blog.csdnimg.cn/img_convert/8f925e54c7622e40f117fb85eb3768a3.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422143814606.png)
+![](https://img-blog.csdnimg.cn/img_convert/63283773c5e0fc0b91a1a5eb956657fb.png)
 
 ### 修改元素样式属性
 
@@ -310,7 +311,7 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422151536757.png)
+![](https://img-blog.csdnimg.cn/img_convert/3b5601f55041a8de8d15357cb97d91ca.png)
 
 2.   通过类名 `className` 操作 CSS
 
@@ -353,7 +354,7 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422153427588.png)
+![](https://img-blog.csdnimg.cn/img_convert/057111262b26859801c1eb3471119e76.png)
 
 使用类名来操作 CSS 时，需要注意一下，如果原先的元素中已经有了 CSS 类，那么此时新增的 CSS 类将覆盖之前 CSS 类。
 
@@ -408,9 +409,9 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422154620799.png)
+![](https://img-blog.csdnimg.cn/img_convert/5607530ddd3832480626144371b54970.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220422154728553.png)
+![](https://img-blog.csdnimg.cn/img_convert/8da5c65462de12d6e65667775d064e72.png)
 
 ## 总结
 

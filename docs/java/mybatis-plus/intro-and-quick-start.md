@@ -9,6 +9,8 @@ category:
     - MyBatis Plus 指南
 ---
 
+
+
 ## 前言
 
 
@@ -74,7 +76,7 @@ Mybatis-Plus 其实可以看作是对 Mybatis 的再一次封装，升级之后�
 
 
 
-![img](https://baomidou.com/img/mybatis-plus-framework.jpg)
+![](https://img-blog.csdnimg.cn/img_convert/87f66154129c854d2c03d23d39020863.jpeg)
 
 
 
@@ -128,7 +130,7 @@ INSERT INTO employee (id, name, sex, email) VALUES
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210807173814520.png)
+![img](https://img-blog.csdnimg.cn/img_convert/66c7ae42898111a5b20ba9f586fc557c.png)
 
 
 
@@ -194,7 +196,7 @@ spring:
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210807172954162.png)
+![img](https://img-blog.csdnimg.cn/img_convert/220064cf38a81109548fee8b591198e8.png)
 
 
 
@@ -512,7 +514,7 @@ class EmployeeApplicationTests {
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210807180458401.png)
+![img](https://img-blog.csdnimg.cn/img_convert/1ce4ce911c2b194804ebeb96c69172b4.png)
 
 
 

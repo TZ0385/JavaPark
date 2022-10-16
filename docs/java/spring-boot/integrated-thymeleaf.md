@@ -10,6 +10,7 @@ category:
 date: 2022-01-09 16:17:16
 ---
 
+
 ## 什么是 Thymeleaf
 
 -   Thymeleaf 是新一代的 Java 模板引擎，类似于 Velocity、FreeMarker 等传统引擎，其语言和 HTML 很接近，而且扩展性更高；
@@ -20,8 +21,6 @@ date: 2022-01-09 16:17:16
 -   Thymeleaf 使用教程请戳 [Tutorial: Using Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)，配合 Spring 使用的教程请戳 [Tutorial: Thymeleaf + Spring](https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html)。
 
 ## 整合过程
-
-
 
 ### 准备过程
 
@@ -39,7 +38,8 @@ date: 2022-01-09 16:17:16
 
 在新建项目时添加，在 `Templeate Engines` 中勾选 Thymeleaf；
 
-![](https://s1.ax1x.com/2020/07/29/ae6BOH.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/img_convert/d21cf34a70eef14aadda1115504a2e20.png#pic_center)
+
 
 2.  **第二种**
 
@@ -148,7 +148,7 @@ public class UserController {
 
 第上面的代码中，我们设置了跳转的视图为 `index`，所以我们需要在 `src/main/resources/templates` 中创建 `index.html`。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210809205828636.png)
+![](https://img-blog.csdnimg.cn/img_convert/15061e92fe45f7c20cd92719af1bc518.png)
 
 ```html
 <!DOCTYPE html>
@@ -178,11 +178,11 @@ public class UserController {
 
 启动项目，然后在浏览器中访问 `http://localhost:8080/index`，如果出现下图中的信息，说明整合成功。
 
-![](https://s1.ax1x.com/2020/07/29/ae2Uf0.png)
+![https://s1.ax1x.com/2020/07/29/ae2Uf0.png](https://img-blog.csdnimg.cn/img_convert/b097ea4415d4788723624bc10c8d5079.png#pic_center)
 
 ## 注意事项
 
-为了方便使用，我们在使用 Thymeleaf 模板时，可以添加一些自己的配置。而添加的位置则是项目的配置文件 `application.yml`，项目默认配置文件应该是 `application.properties`，但 SpringBoot 更加推荐使用 yml 来配置，所以我们这里需要手动将其改为 yml 的格式，然后设置 Thymeleaf 的相关配置即可。
+为了方便使用，我们在使用 Thymeleaf 模板时，可以添加一些自己的配置。而添加的位置则是项目的配置文件 `application.yml`，项目默认配置文件应该是 `application.properties`，但 SpringBoot 更加推荐使用 yml 来配置，所以我们这里需要手动将其改为 yml 的格式。
 
 ```properties
 spring:
@@ -199,7 +199,3 @@ spring:
 ## 总结
 
 好了，以上就是我们今天的所有内容了。今天主要介绍了 Themeleaf 的相关简介，然后对利用 SpringBoot 整合 Thymeleaf 的过程进行了描述，最后则是使用 Thymeleaf 中常用的一些相关配置的注意事项。
-
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

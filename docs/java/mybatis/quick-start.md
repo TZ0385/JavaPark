@@ -53,7 +53,7 @@ INSERT INTO user (id, name, password) VALUES (1, '村雨遥', '123456'),(2, '张
 
 
 
-1.  对于如何创建 Maven 工程，可以参照我之前写的一篇文章：[利用 IDEA 搭建一个 Maven 项目 ](http://cunyu1943.github.io/posts/373ef5ea/)
+1.  对于如何创建 Maven 工程，可以参照我之前写的一篇文章：[利用 IDEA 搭建一个 Maven 项目 ](http://cunyu1943.github.io/posts/8ced8971/)
 2.  接着在项目的 `pom.xml` 中添加 MyBatis、MySQL、Junit 以及 Lombok 的依赖，关于更多 Lombok 的使用，可以参考我的另一篇文章：[Lombok 安装及使用指南](https://cunyu1943.github.io/posts/f7032e71)
 
 ```xml
@@ -282,7 +282,7 @@ public class InsertTest {
 }
 ```
 
-![插入成功](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/image-20220226223539293.png)
+![插入成功](https://img-blog.csdnimg.cn/img_convert/aacb76f5ffabbbc9ede23f683256be41.png)
 
 ## 查询操作 `select`
 
@@ -357,7 +357,7 @@ public class QueryTest {
 }
 ```
 
-![查询成功](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/image-20220226230328039.png)
+![查询成功](https://img-blog.csdnimg.cn/img_convert/ba28cca59f160f88a2c5c0535fceeb2e.png)
 
 ## 修改操作 `update`
 
@@ -429,9 +429,9 @@ public class UpdateTest {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/image-20220226231004190.png)
+![](https://img-blog.csdnimg.cn/img_convert/644f607ea9707de6d25f9dfafb4cfb96.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/image-20220226231031255.png)
+![](https://img-blog.csdnimg.cn/img_convert/2b5ad394c94ba5803bc2e894744d8ba7.png)
 
 ## 删除操作 `delete`
 
@@ -503,9 +503,9 @@ public class DeleteTest {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/image-20220226231309519.png)
+![](https://img-blog.csdnimg.cn/img_convert/571f9bfe5b4baaab08ca1586f0e5ff6a.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/image-20220226231340663.png)
+![](https://img-blog.csdnimg.cn/img_convert/087f7db9a7249e900dde8c00df58dd8e.png)
 
 
 

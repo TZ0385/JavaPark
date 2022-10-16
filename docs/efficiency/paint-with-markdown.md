@@ -31,7 +31,6 @@ Note right of 村雨遥: 思考！
 
 
 
-![img](https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200507164716.png)
 
 
 

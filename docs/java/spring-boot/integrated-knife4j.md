@@ -12,6 +12,8 @@ date: 2022-04-29 17:20:00
 
 
 
+
+
 ## 前言
 
 之前介绍了如何在 Spring Boot 中集成 Swagger2 和 Swagger3，对于我们日常的接口管理已经够用了。但是作为一个颜值党，无论是 Swagger2 还是 Swagger3，都难以满足我们的审美。而且 Swagger2 和 Swagger3 都已经好久没更新了，更新还是比较慢的。
@@ -107,17 +109,17 @@ public class DemoController {
 
 然后将项目启动起来，接着到浏览器中去打开 `http://localhost:8080/doc.html`，就会出现以下的主界面。这里有我们之前在配置类中所设置的一些接口信息，此外，还对接口进行了统计。因为我们代码中只写了一个 `POST` 的请求，所以这里统计出只有一个 `POST` 请求。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220429162440628.png)
+![](https://img-blog.csdnimg.cn/img_convert/8b6f5004e1f91d1abcffbb8b4d380b2e.png)
 
 打开具体接口，这里就有我们接口的请求和响应的一些情况说明。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220429162410570.png)
+![](https://img-blog.csdnimg.cn/img_convert/3365c280ea9b48d4fde5b80e3d0847bb.png)
 
 点击左侧 `调试` 按钮，我们就可以在 `Knife4j` 中测试我们的接口。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220429163815352.png)
+![](https://img-blog.csdnimg.cn/img_convert/cf1fa1440de711f1e1788c5897d31808.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220429163835499.png)
+![](https://img-blog.csdnimg.cn/img_convert/10ee44265c16148cbed2a8a34a676f6a.png)
 
 ## 踩过的坑
 
@@ -154,7 +156,7 @@ public class SpringbootKnife4jDemoApplication {
 
 当我们成功启动项目后，在浏览器中打开 `http://localhost:8080/doc.html`，却没想到迎接我们的不是成功界面，而是下面的 `Whitelabel Error Page`。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220429170230515.png)
+[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-DMP0RV4z-1651224417803)(https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220429170230515.png)]
 
 然后到 `IDEA` 中一看日志，程序照常运行，也没报错，但是给我们抛出了一个 `WARN`，警告信息如下：
 

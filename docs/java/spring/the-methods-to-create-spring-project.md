@@ -11,6 +11,7 @@ category:
     - Spring 教程
 ---
 
+
 ## 前言
 
 
@@ -23,7 +24,7 @@ category:
 
 
 
-创建 Spring 项目的方式有很多种，最原始可以通过导包来创建，但在这里我们就直接用 Maven 来进行依赖管理，省去各种导包过程。如果你对 Maven 还不够熟悉，那么推荐你先去看看 Maven 的相关内容，我这里之前也写了 Maven 的相关文章，详情可戳 👉 [Maven 系列文章](https://blog.csdn.net/github_39655029/category_11013347.html)。
+创建 Spring 项目的方式有很多种，最原始可以通过导包来创建，但在这里我们就直接用 Maven 来进行依赖管理，省去各种导包过程。如果你对 Maven 还不够熟悉，那么推荐你先去看看 Maven 的相关内容，我这里之前也写了 Maven 的相关文章。
 
 
 
@@ -35,27 +36,27 @@ category:
 
 
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210814103240169.png)
+![](https://img-blog.csdnimg.cn/img_convert/acdf4887c803bd3d7e25edd9286bc431.png)
 
 
 
-1.  填写项目名及 Maven 坐标相关配置；
+2.  填写项目名及 Maven 坐标相关配置；
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210814103410430.png)
+![](https://img-blog.csdnimg.cn/img_convert/cd6bd31a0e29645110f6e41eb8c74811.png)
 
 
 
-1.  点击 `Finish` 后完成项目构建，构建后的项目目录结构如下；
+3.  点击 `Finish` 后完成项目构建，构建后的项目目录结构如下；
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210814103630232.png)
+![](https://img-blog.csdnimg.cn/img_convert/56dbea20b80abdbbf9f082b646600754.png)
 
 
 
-1.  接下来我们就是在 `pom.xml` 中添加 Spring 的相关依赖，这里主要导入 Spring 的四个核心依赖包 `Beans`、`Context`、`Core`、`Expression`。
+4.  接下来我们就是在 `pom.xml` 中添加 Spring 的相关依赖，这里主要导入 Spring 的四个核心依赖包 `Beans`、`Context`、`Core`、`Expression`。
 
 
 
@@ -101,7 +102,7 @@ category:
 
 
 
-1.  创建一个普通类，然后类中创建一个普通方法；
+5.  创建一个普通类，然后类中创建一个普通方法；
 
 
 
@@ -131,7 +132,7 @@ public class Hero {
 
 
 
-1.  创建 Spring 配置文件，用于配置创建的对象；
+6.  创建 Spring 配置文件，用于配置创建的对象；
 
 
 
@@ -150,7 +151,7 @@ Spring 配置文件一般是一个 `xml` 文件，其名字可以有我们自定
 
 
 
-1.  建立测试类进行测试；
+7.  建立测试类进行测试；
 
 
 
@@ -189,7 +190,7 @@ public class HeroTest {
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210814110815386.png)
+![](https://img-blog.csdnimg.cn/img_convert/9f0ee02b7a09bf21a07b84f017b2fb7c.png)
 
 
 
@@ -201,19 +202,19 @@ public class HeroTest {
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210814111131533.png)
+![](https://img-blog.csdnimg.cn/img_convert/977c956dba05aa4ec52399f269ee6298.png)
 
 
 
-1.  这里其实严格上说是一个 SpringBoot 项目，而不是 Spring 项目，但用于 Spring 项目也可以，直接 `Finish`；
+2.  这里其实严格上说是一个 SpringBoot 项目，而不是 Spring 项目，但用于 Spring 项目也可以，直接 `Finish`；
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210814111501980.png)
+![](https://img-blog.csdnimg.cn/img_convert/b7f4ff9ebfb6ae7c108c449959af96ac.png)
 
 
 
-1.  同样的，我们创建实体类 `Hero`
+3.  同样的，我们创建实体类 `Hero`
 
 
 
@@ -243,7 +244,7 @@ public class Hero {
 
 
 
-1.  然后同样在 `resources` 目录下新建 Spring 配置文件 `ApplicationContent.xml`；
+4.  然后同样在 `resources` 目录下新建 Spring 配置文件 `ApplicationContent.xml`；
 
 
 
@@ -258,7 +259,7 @@ public class Hero {
 
 
 
-1.  编写测试类进行测试；
+5.  编写测试类进行测试；
 
 
 
@@ -286,11 +287,11 @@ class SpringDemo2ApplicationTests {
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210814112402669.png)
+![](https://img-blog.csdnimg.cn/img_convert/5e62f5ce35aa9948c502a3f9b240fc57.png)
 
 
 
-1.  **注意**
+6.  **注意**
 
 
 
@@ -361,16 +362,16 @@ class SpringDemo2ApplicationTests {
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210814130710286.png)
+![](https://img-blog.csdnimg.cn/img_convert/69bc8fcdeb7d003d8435f63ed54d4eb9.png)
 
 
 
-1.   然后点击左下角生成按钮或使用快捷键 `Ctrl + Enter` 生成； 
-2.   将压缩包下载后，解压缩后用自己喜欢的 IDE 开发即可； 
+2.   然后点击左下角生成按钮或使用快捷键 `Ctrl + Enter` 生成； 
+3.   将压缩包下载后，解压缩后用自己喜欢的 IDE 开发即可； 
 
 
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210814130915526.png)
+![](https://img-blog.csdnimg.cn/img_convert/fa5a99c0ff8090613827b28656337d1d.png)
 
 
 
@@ -387,3 +388,4 @@ class SpringDemo2ApplicationTests {
 
 
 最后，原创不易，如果你觉得文章的内容对你有所帮助，那就点赞关注吧！
+

@@ -8,6 +8,8 @@ category: JavaScript 教程
 ---
 
 
+
+
 ## 什么是 JavaScript
 
 作为世界上最流行的语言之一，是一种运行在客户端的脚本语言。而所谓脚本语言，就是不需要编译就能运行的编程语言，JavaScript 在运行过程中通过 JS 解释器来逐行解释然后执行。
@@ -33,7 +35,7 @@ JavaScript 一般运行在网页中的，所以一般是在浏览器中运行。
 
 ## JavaScript 的组成
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220416215107844.png)
+![](https://img-blog.csdnimg.cn/img_convert/43b1927d9159b19f2a43471cf3a0a289.png)
 
 1.   **ECMAScript**
 
@@ -69,7 +71,7 @@ JavaScript 的书写位置主要有 3 种，分别是行内式、内嵌式和外
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220416220841448.png)
+![](https://img-blog.csdnimg.cn/img_convert/cc3bfe820f145a4537bc04ef2fdbeb01.png)
 
 行内式的特点就是比较简单，但是也存在很多问题。比如可读性较差，如果需要在 HTML 编写大量 JavaScript 代码时，此时阅读就很不方便。除此之外，JavaScript 和 HTML 中都会使用到引号，如果出现多层引号相互嵌套时，会非常容易混淆，导致代码实现结果出错。所以除非特殊情况，否则一般不推荐使用行内式。
 
@@ -95,7 +97,7 @@ JavaScript 的书写位置主要有 3 种，分别是行内式、内嵌式和外
 
 
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220416221113393.png)
+![](https://img-blog.csdnimg.cn/img_convert/533b7d71fa6d9e3d7525d6e44eec01fd.png)
 
 3.   **外部式**
 
@@ -126,7 +128,7 @@ alert("手塚国光")
 
 
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220416221441397.png)
+![](https://img-blog.csdnimg.cn/img_convert/b87142ce6a5f5cdacd0d65eb3062308d.png)
 
 ## 总结
 

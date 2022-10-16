@@ -10,6 +10,7 @@ category:
 date: 2022-01-15 17:15:37
 ---
 
+
 >   PS：白色背景版和透明背景版可能在某些平台预览效果一样，但实际上是不同的，大家自己尝试就清楚了。
 
 ## 前言
@@ -18,6 +19,8 @@ date: 2022-01-15 17:15:37
 
 1.  **PPT 制作电子签名**
 2.  **PS 制作电子签名**
+
+
 
 ## PPT 制作电子签名
 
@@ -34,33 +37,33 @@ date: 2022-01-15 17:15:37
 
 打开 PowerPoint，新建一个空白文档，然后在 `插入 -> 图片 -> 插入图片来自本设备`；
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0d3db085c2434deca6d3ed909854f423~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/d6d39e83a478354b87d7eeb3749ec90c.png)
 
 2.  图片旋转裁剪
 
 具体步骤是，选中导入的图片，然后在 `图片格式` 下边进行旋转和裁剪，讲你的签名摆正，并裁减到只剩下你的签名；
 
-![旋转正置](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/26abda1aafa343b9abdee41e68865251~tplv-k3u1fbpfcp-watermark.image)
+![旋转正置](https://img-blog.csdnimg.cn/img_convert/a75e1f7a2f6fe352430e4047c01fedd7.png)
 
-![裁剪](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ce0a097068674f07a1529641704622bc~tplv-k3u1fbpfcp-watermark.image)
+![裁剪](https://img-blog.csdnimg.cn/img_convert/c6dd0a7af3094d241a747bb8e02a7e86.png)
 
 3.  对比度设置
 
 选中图片右键，然后选择 **设置图片格式**，然后在 **图片校正** 下将对比度设置为最大 100%。
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4258413e3ac74b848bc37e1155ec36ea~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/d275288f0d4535ad0485bfd044ae43a8.png)
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9a6a1a2be8c944ca980ee25583599b11~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/44a22e469329a2c03462581512ebffe2.png)
 
 4.  保存签名
 
 此时我们就得到我们的签名，可以看到我们的效果还是蛮好的。
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5970d2d06ec9489ebea0a3a82b860531~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/fad47686398ba51d821707dea848e0d5.png)
 
 同样的，选中图片右键，然后选择 **另存为图片** 即可。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8cf2583cc77742699075de5523864fec~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/26ccae17342aad7cefaa01f0911680b1.png)
 
 5.  效果优化
 
@@ -70,20 +73,20 @@ date: 2022-01-15 17:15:37
 
 
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7eddae4805bc448c9f4877561bcfbb44~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/8edc0ce23795dabec68575155858bbab.png)
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cdd4435b553b4aa59c3c50c6294cc65a~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/917c8e6a122ab7418482fabab6bd77dc.png)
 
 ### 效果对比
 
-![纯色背景版](https://z3.ax1x.com/2021/04/22/cLpETI.png)
-![透明背景版](https://z3.ax1x.com/2021/04/22/cLpZkt.png)
+![纯色背景版](https://img-blog.csdnimg.cn/img_convert/d5d858644f8aca78e6208b5e5203c383.png)
+![透明背景版](https://img-blog.csdnimg.cn/img_convert/fd92f95f135601b6bf3e51019a0d38ca.png)
 
 ## PS 制作电子签名
 
 ### 准备工作
 
--   Photoshop（也可以利用 [在线版 PS](https://www.uupoop.com/#/old)）
+-   Photoshop（也可以利用在线版 PS）
 
 -   一张有你手写签名的照片
 
@@ -91,37 +94,35 @@ date: 2022-01-15 17:15:37
 
 1.  导入图片
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/acbb52c32fce4706ad93441498ee3c91~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/821c128314f356fa733294a824859113.png)
 
 2.  提取签字区域
 
 依次打开工具栏的 **选择 -> 色彩范围**；
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c4c90a52b5484c6b8335bfde61c391de~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/8ac730969fec656e5f3f87d6fc2948fc.png)
 
 接着选择左侧工具栏中的 **吸管**，然后点选签字的黑色区域，得到下图的效果；
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d4bd292c392b4d0193af6caff2a5a006~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/d313ec7fdaa00afd52b66906a7f8ca02.png)
 
 然后利用快捷键 **Ctrl + J** 创建一个新的图层，然后点击 `Background` 前边的小眼睛，把它给隐藏掉，就得到我们的图层 1 的视图；
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0d19847e9fe743a8b8f342b60bf6f300~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/e8a278084341f745c18011a8b027e8e3.png)
 
 3.  保存签名
 
-完成上面的步骤之后，点击 **文件 -> 导出为 ** ，选择你想要导出的格式即可；
+完成上面的步骤之后，点击 **文件 -> 导出为 **，选择你想要导出的格式即可；
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ab7badc882e492d883094aa5dcd5d5c~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/106487dea7ff428aa19fbfef8fb92c99.png)
 
 以导出 `png` 为例，我们还可以设置导出的宽度和高度，以及导出的质量，然后点击保存即可；
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f5b8d069ab7947a2a72ff9f39a04625c~tplv-k3u1fbpfcp-watermark.image)
+![](https://img-blog.csdnimg.cn/img_convert/1ec9adeca00283b77e4da6b49359b38f.png)
 
 ### 效果预览
 
-![](https://z3.ax1x.com/2021/04/22/cLCWeH.png)
-
-
+![](https://img-blog.csdnimg.cn/img_convert/9619137bd4d1a911fc740360c92946f6.png)
 
 ## 总结
 

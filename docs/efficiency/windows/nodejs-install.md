@@ -13,6 +13,9 @@ date: 2022-01-03 22:01:31
 
 
 
+
+
+
 ## 前言
 
 本教程所有操作基于`Window 10`操作系统 + `Node.js v12.16.1-x64`，原则上适用于所有`Windows`操作系统，细节不同请根据自己需要自行判断。
@@ -67,8 +70,6 @@ node -v
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTlmMWJiNmQzYWNkZA?x-oss-process=image/format,png)
 
-
-
 ## 环境变量配置
 
 默认情况下，我们利用 `npm` 包管理器用来安装依赖包时，包会默认存放在 `C:\Users\用户名\AppData\Roaming\npm\node_modules` 目录下，如果你不确定你的包存放路径在哪儿，那么可以通过如下命令来进行查看：
@@ -94,7 +95,7 @@ prefix = D:\node\node_global
 cache = D:\node\node_cache
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210913142636700.png)
+![](https://img-blog.csdnimg.cn/img_convert/90614e36232264ba33de238ec0173007.png)
 
 ##  总结
 

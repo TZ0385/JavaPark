@@ -49,7 +49,7 @@ brew install fish
 
 如果顺利的话，此时是可以安装成功的，但如果你也和我一样在安装时报以下错误信息，那么你可以根据下面的解决方法尝试解决。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426101405092.png)
+![](https://img-blog.csdnimg.cn/img_convert/c93dcb6cb05722a08af366cff83a3e4d.png)
 
 ```shell
 Error: No such file or directory @ rb_sysopen - /Users/cunyu/Library/Caches/Homebrew/downloads/7c65a980f7151e14dc5cf1e45ff29b9456a318d6868b1e78a7cd9369a3de144b--pcre2-10.39.arm64_monterey.bottle.tar.gz
@@ -63,11 +63,11 @@ Error: No such file or directory @ rb_sysopen - /Users/cunyu/Library/Caches/Home
 brew install pcre2
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426101012447.png)
+![](https://img-blog.csdnimg.cn/img_convert/4b1e7b0f468d3b4d58723fec116b927e.png)
 
 接着再使用上面安装 `Fish` 的命令进行安装即可。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426101319819.png)
+![](https://img-blog.csdnimg.cn/img_convert/21063423c08f43eefe9c053213cea50c.png)
 
 ## 切换默认 shell
 
@@ -91,7 +91,7 @@ sudo vim /etc/shells
 /opt/homebrew/bin/fish
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426111604248.png)
+![](https://img-blog.csdnimg.cn/img_convert/5281eb4d6dffc9b567e9c23421ab6748.png)
 
 我的电脑安装后 `Fish` 是位于上面的位置，但是如果你不确定你安装后不知道在哪儿，那么可以使用以下命令进行查询 `Fish` 所在位置。
 
@@ -99,7 +99,7 @@ sudo vim /etc/shells
 whereis fish
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426130510066.png)
+![](https://img-blog.csdnimg.cn/img_convert/983388b90027be6b36ced40c2c26d70f.png)
 
 最后则是切换默认 shell，让我们之后打开终端后都是使用 `Fish`，运行如下命令即可。
 
@@ -109,7 +109,7 @@ chsh -s /opt/homebrew/bin/fish
 
 至此，我们的 `Fish` 就安装成功了，退出终端后重新打开终端即可使用安装好的 `Fish`。
 
- ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426112524750.png)
+ ![](https://img-blog.csdnimg.cn/img_convert/e6de544c26a6387c2a5fa1f878180473.png)
 
 ## 安装 Oh My Fish
 
@@ -140,7 +140,7 @@ fish 脚本文件名
 omf theme
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426115402833.png)
+![](https://img-blog.csdnimg.cn/img_convert/f646aedf1343d77e628c9cb8f1378ea1.png)
 
 可以看到还是有很多主题的，确定好之后，接下来就可以安装我们心仪的一款主题了，安装命令如下。
 
@@ -148,21 +148,22 @@ omf theme
 omf install 主题名
 ```
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426115533542.png)
+![](https://img-blog.csdnimg.cn/img_convert/dd61a13f988a1409e09d2708bc900e84.png)
 
 最后则是效果预览了，这里我自己是安装了 `randomrussel`，最终的效果预览如下。
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220426115657859.png)
+![](https://img-blog.csdnimg.cn/img_convert/813b6c612943cfd356efb9413c714d25.png)
 
 此外，`Oh My Fish` 辅助命令工具 `omf` 还提供了一些常用命令用于管理插件和主题。
 
-| 命令                        | 说明                                 |
-| --------------------------- | ------------------------------------ |
-| `omf update`                | 更新自身和已安装的所有插件及默认主题 |
-| `omf list`                  | 显示本地已安装的所有插件             |
-| `omf install [url \| name]` | 安装一个或多个插件                   |
-| `omf destroy`               | 卸载 `Oh My Fish`                    |
+| 命令                     | 说明                                 |
+| ------------------------ | ------------------------------------ |
+| `omf update`             | 更新自身和已安装的所有插件及默认主题 |
+| `omf list`               | 显示本地已安装的所有插件             |
+| `omf install [url\|name]` | 安装一个或多个插件                   |
+| `omf destroy`            | 卸载 `Oh My Fish`                    |
 
 ## 总结
 
 以上就是我们关于 `Fish` 的安装以及简单的配置教程了，如果你也想拥有如此酷炫的终端，那就赶紧来试试吧！
+
