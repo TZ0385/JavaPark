@@ -22,7 +22,6 @@ jobs:
         with:
           node-version: 18
           cache: npm
-          cache-dependency-path: "./docs/package.json"
 
       - name: 安装依赖
         run: npm ci
