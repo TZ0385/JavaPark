@@ -35,7 +35,7 @@ features:
   - title: 面试宝典
     icon: guide
     details: 八股文合辑，找工作必备
-    link: /interview/
+    link: /md/interview/
 ---
 
 ## 公众号

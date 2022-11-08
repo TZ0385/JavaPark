@@ -10,7 +10,7 @@ jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout ✨
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -23,7 +23,7 @@ jobs:
           node-version: 18
           cache: npm
 
-      - name: 安装依赖
+      - name: 安装依赖 ✔
         run: npm ci
 
       - name: 构建文档 🧸
