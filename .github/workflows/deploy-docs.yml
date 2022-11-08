@@ -31,11 +31,11 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build
-          > docs/src/.vuepress/dist/.nojekyll
+          > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档 🎉
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 这是文档部署到的分支名称
           branch: gh-pages
-          folder: docs/src/.vuepress/dist
+          folder: src/.vuepress/dist
