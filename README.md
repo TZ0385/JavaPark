@@ -23,13 +23,13 @@
 
 虽然目前还有许多欠缺，但我会一直持续输出，逐渐完善它！
 
-[「公众号」](./src/.vuepress/public/personal/wechatpublic.png) 佛系更新，不过文章会优先发布在这里，此外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
+[「公众号」](https://s1.ax1x.com/2022/10/08/xG7Nmd.png) 佛系更新，不过文章会优先发布在这里，此外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
 
 另外，我还组建了微信**交流群**，大家可以添加我[「微信」](./src/.vuepress/public/personal/wechat.png)进群，技术交流或者提提意见都欢迎！
 
 日常更文首发于公众号后，后续是同步到这个项目进行更新，如果你觉得本项目对你所有帮助，欢迎 **Star**！
 
-[![](https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%9D%91%E9%9B%A8%E9%81%A5-brightgreen)](./src/.vuepress/public/personal/wechatpublic.png)
+[![](https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%9D%91%E9%9B%A8%E9%81%A5-brightgreen)](https://s1.ax1x.com/2022/10/08/xG7Nmd.png)
 [![](https://img.shields.io/badge/wechat-%E5%BE%AE%E4%BF%A1%E7%BE%A4-blueviolet)](./src/.vuepress/public/personal/wechat.png)
 [![](https://img.shields.io/badge/zhihu-%E7%9F%A5%E4%B9%8E-informational)](https://www.zhihu.com/people/cunyu1943)
 [![](https://img.shields.io/badge/csdn-CSDN-red)](https://cunyu1943.blog.csdn.net)
@@ -61,7 +61,7 @@
 
 除此之外，公众号上还会不定时有福利干货哦。
 
-<center><img src="./src/.vuepress/public/personal/wechatpublic.png" width="150"/></center>
+<center><img src="https://s1.ax1x.com/2022/10/08/xG7Nmd.png" width="150"/></center>
 
 ## Star 趋势图
 
