@@ -20,8 +20,8 @@ export const zhSidebar = sidebar({
     {
       icon: "guide",
       text: "面试宝典",
-      prefix: "interview/",
-      link: "interview/",
+      prefix: "md/interview/",
+      link: "md/interview/",
       collapsable: true,
       children: "structure",
     },
