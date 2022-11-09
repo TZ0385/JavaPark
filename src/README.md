@@ -27,11 +27,11 @@ features:
   #   details: Spring Boot 基础教程
   #   link: /java/spring-boot/
 
-  # - title: IntelliJ IDEA
-  #   icon: intellijidea
-  #   details: IntelliJ IDEA 使用指南
-  #   link: /dev-tools/idea/
-  
+  - title: Java 菜鸟入门
+    icon: java
+    details: Java 初学者入门必备
+    link: /md/java/java-se/
+
   - title: 面试宝典
     icon: guide
     details: 八股文合辑，找工作必备
