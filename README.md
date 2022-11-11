@@ -57,7 +57,7 @@
 
 建群的目的是希望给大家提供一个良好的技术学习交流平台，由于微信群人满 `100` 之后无法加入，请扫描下方二维码先添加作者 “村雨遥” 微信(`cunyu1024`)，备注：**加群**。
 
-<center><img src="https://s1.ax1x.com/2022/11/11/zPSAQs.png" width="150"></center>
+<center><img src="./src/.vuepress/public/personal/wechat.png" width="150"></center>
 
 ### 公众号『村雨遥』
 
@@ -65,7 +65,7 @@
 
 除此之外，公众号上还会不定时有福利干货哦。
 
-<center><img src="https://s1.ax1x.com/2022/10/08/xG7Nmd.png" width="150"/></center>
+<center><img src="./src/.vuepress/public/personal/wechatpublic.png" width="150"/></center>
 
 ## Star 趋势图
 
