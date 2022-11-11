@@ -35,6 +35,10 @@
 [![](https://img.shields.io/badge/csdn-CSDN-red)](https://cunyu1943.blog.csdn.net)
 [![](https://img.shields.io/badge/juejin-%E6%8E%98%E9%87%91-blue)](https://juejin.cn/user/747323637904519)
 
+## Java
+
+### Java 菜鸟入门
+
 
 ## 面试宝典
 
@@ -53,7 +57,7 @@
 
 建群的目的是希望给大家提供一个良好的技术学习交流平台，由于微信群人满 `100` 之后无法加入，请扫描下方二维码先添加作者 “村雨遥” 微信(`cunyu1024`)，备注：**加群**。
 
-<center><img src="./src/.vuepress/public/personal/wechat.png" width="150"></center>
+<center><img src="https://s1.ax1x.com/2022/11/11/zPSAQs.png" width="150"></center>
 
 ### 公众号『村雨遥』
 

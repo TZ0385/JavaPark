@@ -5,7 +5,7 @@ icon: java
 category:
   - Java 菜鸟入门
 date: 2022-07-02
-order: 2
+order: 5
 ---
 
 ## 前言
