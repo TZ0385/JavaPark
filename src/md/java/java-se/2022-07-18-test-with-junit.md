@@ -8,7 +8,13 @@ category:
     - Java 菜鸟入门
 ---
 
+作者：村雨遥
 
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+原文：https://mp.weixin.qq.com/s/_FWd0Bj3DlbCReex6pqJKQ
+
+>   吾生也有涯，而知也无涯。
 
 ## 何为测试
 

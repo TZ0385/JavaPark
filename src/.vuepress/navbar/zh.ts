@@ -34,9 +34,9 @@ export const zhNavbar = navbar([
   //   ],
   // },
   {
-    text: "Github",
-    icon: "github",
-    link: "https://github.com/cunyu1943/JavaPark/",
+    text: "博客",
+    icon: "blog",
+    link: "https://cunyu1943.github.io",
   },
   {
     text: "订阅",

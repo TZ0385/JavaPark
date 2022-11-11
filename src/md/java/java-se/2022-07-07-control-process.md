@@ -8,6 +8,14 @@ date: 2022-07-07
 order: 30
 ---
 
+作者：村雨遥
+
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+原文：https://mp.weixin.qq.com/s/3WU5l37DpPkR6o7CnFiStA
+
+>   吾生也有涯，而知也无涯。
+
 ## 前言
 
 我们在 [上一篇文章](https://mp.weixin.qq.com/s/49KRDz8bpcGdPlU15OJD0g) 中讲了各种操作符的使用技巧，接上一篇文章中的内容，本次文章主要将流程控制，文章主要内容安排如下：

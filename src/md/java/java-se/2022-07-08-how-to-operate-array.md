@@ -8,6 +8,14 @@ date: 2022-07-08
 order: 35
 ---
 
+作者：村雨遥
+
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+原文：https://mp.weixin.qq.com/s/2Ff14d3cwjVflhtz67k3vQ
+
+>   吾生也有涯，而知也无涯。
+
 ## 前言
 
 前边已经讲过了 Java 中的 8 大基本数据类型，这篇文章主要就来讲讲引用类型中的数组。主要内容安排如下：

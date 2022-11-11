@@ -7,6 +7,14 @@ order: 70
 category:
     - Java 菜鸟入门
 ---
+作者：村雨遥
+
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+原文：https://mp.weixin.qq.com/s/I8UJKtTtdqcbbxcTx_dVzg
+
+>   吾生也有涯，而知也无涯。
+
 ## 前言
 
 我们日常开发过程中，有许多方面都涉及到 IO 流，比如上传下载、传输、设计模式等等。而所有的一切都是基于 IO 流来进行，所以今天就来看看 Java 中 IO 流的相关知识点。

@@ -8,6 +8,14 @@ date: 2022-07-02
 order: 5
 ---
 
+作者：村雨遥
+
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+原文：https://mp.weixin.qq.com/s/geOWlAwVMhtmmIMvFvjSpQ
+
+>   吾生也有涯，而知也无涯。
+
 ## 前言
 
 作为一个入门的学习者，要进行 Java 开发，那怎么能少得了 JDK 呢，本文就先来看看如何安装并配置 JDK，为后续的学习做好铺垫。
