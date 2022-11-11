@@ -33,7 +33,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "更多精彩内容，尽在公众号：<b>「村雨遥」</b></br></br><img src=\"https://s1.ax1x.com/2022/10/08/xG7Nmd.png\" width=\"100\" alt=\"公众号\" />",
+      footer: "更多精彩内容，尽在公众号：<b>「村雨遥」</b></br></br><img src=\"personal/wechatpublic.png\" width=\"100\" alt=\"公众号\" />",
 
       displayFooter: true,
 

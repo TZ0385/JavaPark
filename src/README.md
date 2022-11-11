@@ -40,11 +40,11 @@ features:
 
 ## 公众号
 
-[「公众号」](https://s1.ax1x.com/2022/10/08/xG7Nmd.png) 佛系更新，不过文章会优先发布在这里，除此之外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
+[「公众号」](./.vuepress/public/personal/wechatpublic.png) 佛系更新，不过文章会优先发布在这里，除此之外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
 
 防止失联，建议关注并加星。
 
-<img src="https://s1.ax1x.com/2022/10/08/xG7Nmd.png" alt="「公众号」" style="zoom:40%;" />
+<img src="./.vuepress/public/personal/wechatpublic.png" alt="「公众号」" style="zoom:40%;" />
 
 ## Star 趋势图
 
