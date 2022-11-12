@@ -39,17 +39,50 @@
 
 ### Java 菜鸟入门
 
+1.  [Java 菜鸟入门：简介](src/md/java/java-se/2022-07-01-intro-to-java.md)
+2.  [Java 菜鸟入门：开发环境搭建及入门程序](src/md/java/java-se/2022-07-02-jdk-install-and-hello-world.md)
+3.  [Java 菜鸟入门：利用 IDEA 进行 Java 开发](src/md/java/java-se/2022-07-03-learn-java-with-idea.md)
+4.  [Java 菜鸟入门：变量与数据类型](src/md/java/java-se/2022-07-04-variable-and-datatype.md)
+5.  [Java 菜鸟入门：常用进制转换](src/md/java/java-se/2022-07-05-binary-convert.md)
+6.  [Java 菜鸟入门：操作符](src/md/java/java-se/2022-07-06-operator.md)
+7.  [Java 菜鸟入门：控制流程](src/md/java/java-se/2022-07-07-control-process.md)
+8.  [Java 菜鸟入门：数组操作的奇技淫巧](src/md/java/java-se/2022-07-08-how-to-operate-array.md)
+9.  [Java 菜鸟入门：面向对象的 3、5 知识点](src/md/java/java-se/2022-07-09-oop-1.md)
+10.  [Java 菜鸟入门：类的相关知识](src/md/java/java-se/2022-07-10-oop-2.md)
+11.  [Java 菜鸟入门：包和 jar 文件的创建](src/md/java/java-se/2022-07-11-oop-3.md)
+12.  [Java 菜鸟入门：成员变量、实例变量、静态变量、局部变量？](src/md/java/java-se/2022-07-12-all-kinds-of-variable.md)
+13.  [Java 菜鸟入门：String 详解](src/md/java/java-se/2022-07-13-string.md)
+14.  [Java 菜鸟入门：ArrayList 详解](src/md/java/java-se/2022-07-14-arraylist.md)
+15.  [Java 菜鸟入门：输入输出流](src/md/java/java-se/2022-07-15-in-out-stream.md)
+16.  [Java 菜鸟入门：反射机制详解](src/md/java/java-se/2022-07-16-reflection.md)
+17.  [Java 菜鸟入门：深入浅出 Java 注解](src/md/java/java-se/2022-07-21-annotations.md)
+18.  [Java 菜鸟入门：JDBC 入门指南](src/md/java/java-se/2022-07-17-jdbc-introduction.md)
+19.  [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](src/md/java/java-se/2022-07-18-test-with-junit.md)
+20.  [Java 菜鸟入门：Lombok 安装及使用指南](src/md/java/java-se/2022-07-19-lombok-install-and-usage.md)
+21.  [Java 菜鸟入门：Fastjson V2 简单使用手册](src/md/java/java-se/2022-07-20-fastjson2-quickstart.md)
 
+
+### Spring Boot 基础教程
+
+1.  [Spring Boot 基础教程：入门简介](src/md/java/springboot/2022-01-01-introduction.md)
+2.  [Spring Boot 基础教程：创建项目的 3 种方式](src/md/java/springboot/2022-01-02-the-methods-to-create-springboot-project.md)
+3.  [Spring Boot 基础教程：配置详解](src/md/java/springboot/2022-01-03-configuration.md)
+4.  [Spring Boot 基础教程：集成 Swagger2](src/md/java/springboot/2022-01-04-integrated-swagger2.md)
+5.  [Spring Boot 基础教程：集成 Swagger3](src/md/java/springboot/2022-01-05-integrated-swagger3.md)
+6.  [Spring Boot 基础教程：集成 Knife4j](src/md/java/springboot/2022-01-06-integrated-knife4j.md)
+7.  [Spring Boot 基础教程：整合 FreeMarker 实例](src/md/java/springboot/2022-01-07-integrated-freemarker.md)
+8.  [Spring Boot 基础教程：整合 Thymeleaf 实例](src/md/java/springboot/2022-01-08-integrated-thymeleaf.md)
+9.  [Spring Boot 基础教程：集成 Spring Security](src/md/java/springboot/2022-01-09-integrated-security.md)
 ## 面试宝典
 
-1. [面试宝典：MySQL 面试总结](docs/interview/mysql.md)
-2. [面试宝典：Java 基础面试总结](docs/interview/java-basic.md)
-3. [面试宝典：Java 容器面试总结](docs/interview/collection.md)
-4. [面试宝典：HashMap 面试解惑](docs/interview/hashmap.md)
-5. [面试宝典：Java 异常面试总结](docs/interview/exception.md)
-6. [面试宝典：Java 并发面试总结](docs/interview/concurrence.md)
-7. [面试宝典：JVM 面试总结](docs/interview/jvm.md)
-8. [面试宝典：Spring 面试总结](docs/interview/spring.md)
+1. [面试宝典：MySQL 面试总结](src/md/interview/mysql.md)
+2. [面试宝典：Java 基础面试总结](src/md/interview/java-basic.md)
+3. [面试宝典：Java 容器面试总结](src/md/interview/collection.md)
+4. [面试宝典：HashMap 面试解惑](src/md/interview/hashmap.md)
+5. [面试宝典：Java 异常面试总结](src/md/interview/exception.md)
+6. [面试宝典：Java 并发面试总结](src/md/interview/concurrence.md)
+7. [面试宝典：JVM 面试总结](src/md/interview/jvm.md)
+8. [面试宝典：Spring 面试总结](src/md/interview/spring.md)
 
 ##  与我联系
 
