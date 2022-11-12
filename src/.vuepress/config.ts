@@ -21,9 +21,9 @@ export default defineUserConfig({
     docsearchPlugin({
       // 你的选项
       // appId, apiKey 和 indexName 是必填的
-      appId: "fds",
-      apiKey: "fds",
-      indexName: "fsd",
+      appId: "D8MI4BWH3Z",
+      apiKey: "e0bcfe17fa5b06e346c79a4da439935e",
+      indexName: "JavaPark",
     }),
   ]
 

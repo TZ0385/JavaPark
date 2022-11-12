@@ -7,6 +7,11 @@ category: 面试宝典
 order: 4
 ---
 
+作者：村雨遥
+
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+>   吾生也有涯，而知也无涯。
 ## 异常简介
 
 ###  异常类层次结构

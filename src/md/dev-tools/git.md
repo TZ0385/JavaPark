@@ -1,0 +1,328 @@
+---
+title: Git 使用手册
+isOriginal: true
+icon: git
+date: 2022-02-09
+category:
+    - Git 教程
+---
+
+作者：村雨遥
+
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+>   吾生也有涯，而知也无涯。
+
+
+## 什么是 Git
+
+### 概述
+
+`Git` 是一个分布式版本控制工具，而对应的，还有一种集中式版本控制工具，其中最为典型并被大家所熟知的产品就是 `SVN`.
+
+其中，集中式版本控制工具的的核心是服务器，所有开发者在开始更新代码前，都必须从服务器中获取代码，然后各自开发，最后则是解决冲突。
+
+### 版本控制
+
+所谓版本控制，就是一种用来记录文件内容变化，方便未来查阅特定修订情况的系统。版本控制最重要的一点就是可以记录文件的历史修改记录，方便用户随时查看历史版本，实现版本之间的切换。
+
+## 下载安装
+
+1.   下载：https://npm.taobao.org/mirrors/git-for-windows/
+
+2. 安装
+
+	- Linux：```sudo apt-get install git```
+	- Windows、macOS通过官网下载安装包后进行安装即可；
+
+3.   设置
+
+	安装完成后，设置署名和邮箱：
+	
+	```shell
+	$ git config --global user.name "user name"
+	$ git config --global user.email "example@email.com"
+	# 可选，让Git命令行显示颜色
+	$ git config --global color.ui true
+	```
+
+---
+
+## 版本库创建及管理
+
+1. 如何创建版本库
+
+	- 先创建一个空文件夹，Windows下不再介绍，Linux以及macOS下可通过`$ mkdir gitlearn`命令创建；
+	- 通过`$ git init`将刚才创建的目录变为可管理的仓库;
+	
+	![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDkvMjAvUGpNZmJOMU9SM21LN3I1LnBuZw?x-oss-process=image/format,png)
+
+2. 如何将文件添加到版本库
+
+	- 在刚才创建的空文件夹中，添加你自己的文件，以readme.md为例；
+	
+	- 用`git add`命令将文件添加到仓库；
+	
+		```shell
+		# 添加单一文件
+		$ git add readme.md
+		# 添加所有文件
+		$ git add .
+		```
+	
+	-  用`git commit`将文件提交到仓库；
+	
+		```shell
+		$ git commit -m "this is a readme.md file."
+		```
+
+3. 如何查看仓库修改的内容
+
+	- 用`git status`查看仓库当前状态；
+	
+	- 用`git diff filename`查看文件具体修改的内容；
+	
+		```shell
+		$ git status
+		$ git diff readme.txt
+		```
+	
+	- `git log`查看最近到最远的提交日志
+	
+		```shell
+		$ git log --pretty=oneline
+		```
+	
+	- 回退之前的版本，先用`git log`查看提交历史，以确定commit_id，回退后，当想要重返未来版本时，用`git reflog`查看命令历史，从而确定重返版本commit_id，`HEAD`指向当前版本，为了在版本的历史之间穿梭，使用命令`git resrt --hard commit_id`
+	
+		```shell
+		$ git reset --hard HEAD^
+		```
+	
+	- 直接丢弃工作区的某文件修改内容时，使用命令`git checkout -- filename`
+	
+		```shell
+		$ git checkout -- readme.md
+		```
+	
+	- 删除文件，先在工作区将文件删除后，然后使用命令`git rm`将版本库中文件删除，然后通过`git commit`提交
+	
+		```shell
+		$ git rm readme.md
+		$ git commit -m "delete readme.md"
+		```
+
+
+​		
+
+---
+
+## 远程仓库
+
+1. 本地Git和远程Github相连接，可以进行如下操作：
+
+	- 确定`.ssh`目录下是否存在文件`id_rsa`和`id_rsa.pub`，有则复制`id_rsa.pub`中内容明将其添加到Github中的SSH Key，建立两者联系，可以在本地管理，
+	
+	- 不存在则通过如下命令生成；
+	
+		```shell
+		$ ssh-keygen -t rsa -C "example@email.com"
+		```
+
+2. 如何添加远程仓库
+
+	- 在本地通过如下命令建立本地仓库与远程仓库进行管理，然后就可以将本地仓库内容推送到Github仓库；
+	
+		```shell
+		$ git remote add origin git@github.com:cunyu1943/LeetCode.git
+		```
+	
+	- 从远程仓库克隆岛本地：
+	
+		```shell
+		$ git clone https://github.com/cunyu1943/LeetCode.git
+		```
+
+3. 将本地仓库内容推送到远程仓库；
+
+	```shell
+	# 第一次推送
+	$ git push -u origin master
+	# 之后的推送
+	$ git push origin master
+	```
+
+
+​	
+
+---
+
+## 分支管理
+
+1. 创建并切换分支
+
+	```shell
+	$ git switch -c dev
+	# 等价命令
+	$ git checkout -b dev
+	# 等价命令
+	$ git branch dev
+	$ git checkout dev
+	```
+
+2. 查看当前分支，前边标有$*$代表当前分支，切换回`master`分支；
+
+	```shell
+	$ git branch
+	$ git checkout/switch master
+	```
+
+3. 将`dev`分支合并到`master`分支；
+
+	```shell
+	$ git merge dev
+	```
+
+4. 删除分支；
+
+	```shell
+	$ git branch -d dev
+	```
+
+5. 强制删除未合并分支；
+
+	```shell
+	$ git branch -D dev
+	```
+
+6. 查看分支合并图
+
+	```shell
+	$ git log --graph
+	```
+
+---
+
+## 多人协作
+
+1. 查看远程库信息：`git remote -v`；
+
+2. 本地新建分支若不推送到远程，则对其他人不可见；
+
+3. 本地推送到远程库，`git push origin branch-name`，若推送失败，则用`git pull`抓取远程新提交；
+
+	```shell
+	$ git push origin master
+	# 若推送失败，则先执行如下命令
+	$ git pull
+	```
+
+
+​	
+
+4. 本地创建和远程分支对应分支，`git checkout -b branch-name origin/branch-name`
+
+	```shell
+	$ git checkout -b dev origin/dev
+	```
+
+5. 建立本地分支和远程分支的关联，`git branch --set-upstream branch-name origin/branch-name`
+
+	```shell
+	$ git branch --set-upstream dev origin/dev
+	```
+
+6. 从远程抓取分支则使用`git pull`，若有冲突，则先解决处理后再处理；
+
+---
+
+## 标签管理
+
+1. 切换到需要打标签的分支`git switch branch-name`；
+
+2. 打标签并查看；
+
+	```shell
+	# 打一个名为"v1.0"的标签
+	$ git tag v1.0
+	# 查看所有标签
+	$ git tag
+	```
+
+3. 查看标签信息，`git show <tagname>`；
+
+	```shell
+	$ git show v1.0
+	```
+
+4. 创建带有说明的标签，用`-a`打标签名，`-m`指定说明文字；
+
+	```shell
+	$ git tag -a v1.0 -m "version 1.0 released"
+	```
+
+5. 删除标签，本地使用`git tag -d <tagname>`，远程则使用`git push origin :refs/tags/<tagname>`
+
+	```shell
+	# 删除本地标签
+	$ git tag -d v30.0
+	# 删除远程标签
+	$ git push origin :refs/tags/v30.0
+	```
+
+6. 将标签推送到远程`git push origin <tagname>`
+
+	```shell
+	# 推送某一标签
+	$ git push origin v1.0
+	# 推送所有标签
+	$ git push origin --tags
+	```
+
+---
+
+## 建立 Github 和 Gitee 共同远程连接
+
+1. 删除某一关联的远程库，`git remote rm <basename>`
+
+	```shell
+	$ git remote rm origin
+	```
+
+2. 关联Gitee远程库，`git remote add <basename> git@https://gitee.com/<username>/<respName>.git`
+
+	```shell
+	$ git remote add gitee https://gitee.com/cunyu1943/LeetCode.git
+	```
+
+3. 关联Github远程库，`git remote add <basename> https://github.com/<username>/<respName>.git`
+
+	```shell
+	$ git remote add github https://github.com/cunyu1943/LeetCode.git
+	```
+
+4. 推送到Gitee和Github
+
+	```shell
+	# 推送到Gitee
+	$ git push gitee master
+	# 推送到Github
+	$ git push github master
+	```
+
+---
+
+## 其他小技巧
+
+1. 忽略特殊文件
+
+	此时需要编写`.gitignore`文件，文件要放到版本库中，且可以对`.gitignore`进行版本管理；
+
+2. 配置命令别名
+
+	```shell
+	# 举例
+	$ git config --global alias status st
+	$ git config --global alias checkout co
+	$ git config --global alias commit cm
+	```

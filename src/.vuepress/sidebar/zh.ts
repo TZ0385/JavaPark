@@ -18,5 +18,13 @@ export const zhSidebar = sidebar({
       collapsable: true,
       children: "structure",
     },
+
+    {
+      icon: "code",
+      text: "开发工具",
+      prefix: "md/dev-tools/",
+      collapsable: true,
+      children: "structure",
+    },
   ],
 });

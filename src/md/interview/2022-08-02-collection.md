@@ -7,6 +7,13 @@ category: 面试宝典
 order: 2
 ---
 
+作者：村雨遥
+
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+>   吾生也有涯，而知也无涯。
+
+
 ## Java 集合类简介
 
 ### 集合概览

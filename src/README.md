@@ -38,6 +38,11 @@ features:
     icon: guide
     details: 八股文合辑，找工作必备
     link: /md/interview/
+
+  - title: IDEA
+    icon: intellijidea
+    details: IntelliJ IDEA 使用指南
+    link: /md/dev-tools/idea
 ---
 
 ## 公众号
