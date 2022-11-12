@@ -30,6 +30,10 @@
     - [PostgreSQL](#postgresql)
   - [开发工具](#开发工具)
     - [IDEA 使用指南](#idea-使用指南)
+  - [效率工具](#效率工具)
+    - [博客搭建](#博客搭建)
+    - [Linux 教程](#linux-教程)
+    - [macOS 教程](#macos-教程)
   - [与我联系](#与我联系)
     - [加群交流](#加群交流)
     - [公众号『村雨遥』](#公众号村雨遥)
@@ -142,6 +146,22 @@
 7.  [IDEA 教程：连接 MySQL 失败解决方案](src/md/dev-tools/idea/2022-02-07-connect-mysql-fail.md)
 8.  [IDEA 教程：Tomcat 控制台乱码解决方法](src/md/dev-tools/idea/2022-02-08-tomcat-console-error-code.md)
 
+## 效率工具
+
+### 博客搭建
+1. [博客搭建：超详细 Hexo + Github Pages 搭建教程](src/md/tools/blog/2022-04-01-hexo.md)
+2. [博客搭建：从 0 到 1 搭建 Halo](src/md/tools/blog/2022-04-02-halo.md)
+3. [博客搭建：Vuepress + GitHub Actions 博客自动部署](src/md/tools/blog/2022-04-03-vuepress-github-action.md)
+4. [博客搭建：docsify 搭建高颜值文档网站](src/md/tools/blog/2022-04-04-docsify.md)
+5. [博客搭建：dumi 搭建文档型博客](src/md/tools/blog/2022-04-05-dumi.md)
+6. [博客搭建：Hugo 博客搭建教程](src/md/tools/blog/2022-04-06-hugo.md)
+###  Linux 教程
+1. [Linux 教程：VMware 中安装 Ubuntu](src/md/tools/linux/2022-04-07-ubuntu-install-with-vmware.md)
+2. [Linux 教程：打造酷炫的 Ubuntu](src/md/tools/linux/2022-04-08-ubuntu-guide.md)
+3. [Linux 教程：玩转 Manjora](src/md/tools/linux/2022-04-09-manjora-guide.md)
+### macOS 教程
+1. [macOS 教程：iTerm2 + Fish 打造高效终端](src/md/tools/macos/2022-04-10-fish-shell.md)
+2. [macOS 教程：iTerm2 + Oh My Zsh 打造帅气终端](src/md/tools/macos/2022-04-11-item-oh-my-zsh.md)
 ##  与我联系
 
 ### 加群交流
