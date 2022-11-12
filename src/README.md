@@ -17,12 +17,6 @@ actions:
     # type: secondary
 
 features:
-  # - title: Java SE
-  #   icon: java
-  #   details: Java SE 基础语法教程
-  #   link: /java/java-se/
-
-
 
   - title: Java 菜鸟入门
     icon: java
@@ -43,6 +37,16 @@ features:
     icon: intellijidea
     details: IntelliJ IDEA 使用指南
     link: /md/dev-tools/idea
+
+  - title: MySQL
+    icon: mysql
+    details: MySQL 教程
+    link: /md/database/mysql
+
+  - title: 博客搭建
+    icon: blog
+    details: 各类博客搭建教程
+    link: /md/tools/blog
 ---
 
 ## 公众号

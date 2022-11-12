@@ -42,5 +42,14 @@ export const zhSidebar = sidebar({
       collapsable: true,
       children: "structure",
     },
+
+    {
+      icon: "tool",
+      text: "效率工具",
+      prefix: "md/tools/",
+      collapsable: true,
+      children: "structure",
+    },
+
   ],
 });
