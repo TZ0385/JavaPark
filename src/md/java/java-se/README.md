@@ -7,6 +7,12 @@ category:
   - Java 菜鸟入门
 ---
 
+作者：村雨遥
+
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+>   吾生也有涯，而知也无涯。
+
 ## 目录
 
 1.  [Java 菜鸟入门：简介](2022-07-01-intro-to-java.md)
@@ -30,8 +36,3 @@ category:
 19.  [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](2022-07-18-test-with-junit.md)
 20.  [Java 菜鸟入门：Lombok 安装及使用指南](2022-07-19-lombok-install-and-usage.md)
 21.  [Java 菜鸟入门：Fastjson V2 简单使用手册](2022-07-20-fastjson2-quickstart.md)
-
-
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />
