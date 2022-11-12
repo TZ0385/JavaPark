@@ -22,15 +22,17 @@ features:
   #   details: Java SE 基础语法教程
   #   link: /java/java-se/
 
-  # - title: Spring Boot
-  #   icon: spring-boot
-  #   details: Spring Boot 基础教程
-  #   link: /java/spring-boot/
+
 
   - title: Java 菜鸟入门
     icon: java
     details: Java 初学者入门必备
     link: /md/java/java-se/
+
+  - title: Spring Boot
+    icon: spring-boot
+    details: Spring Boot 基础教程
+    link: /md/java/springboot/
 
   - title: 面试宝典
     icon: guide
