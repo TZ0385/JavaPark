@@ -10,13 +10,23 @@
 
 - 👉 [『资源下载』](https://github.com/cunyu1943/ebooks)
 
+![](https://img.shields.io/github/stars/cunyu1943/JavaPark?style=social)
+![](https://img.shields.io/github/forks/cunyu1943/JavaPark?style=social)
+![](https://img.shields.io/github/watchers/cunyu1943/JavaPark?style=social)
+
 <center><img width="400px" src="./src/.vuepress/public/logo.png"></center>
 
 ## 🔖 目录
 
-1. [简介](#简介)
-2. [面试宝典](#面试宝典)
-3. [与我联系](#与我联系)
+  - [简介](#简介)
+  - [Java](#java)
+    - [Java 菜鸟入门](#java-菜鸟入门)
+    - [Spring Boot 基础教程](#spring-boot-基础教程)
+  - [面试宝典](#面试宝典)
+  - [与我联系](#与我联系)
+    - [加群交流](#加群交流)
+    - [公众号『村雨遥』](#公众号村雨遥)
+  - [Star 趋势图](#star-趋势图)
 
 ## 简介
 
@@ -28,6 +38,7 @@
 另外，我还组建了微信**交流群**，大家可以添加我[「微信」](./src/.vuepress/public/personal/wechat.png)进群，技术交流或者提提意见都欢迎！
 
 日常更文首发于公众号后，后续是同步到这个项目进行更新，如果你觉得本项目对你所有帮助，欢迎 **Star**！
+
 
 [![](https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%9D%91%E9%9B%A8%E9%81%A5-brightgreen)](./src/.vuepress/public/personal/wechatpublic.png)
 [![](https://img.shields.io/badge/wechat-%E5%BE%AE%E4%BF%A1%E7%BE%A4-blueviolet)](./src/.vuepress/public/personal/wechat.png)
