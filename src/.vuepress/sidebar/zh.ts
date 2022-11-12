@@ -28,6 +28,14 @@ export const zhSidebar = sidebar({
     },
 
     {
+      icon: "storage",
+      text: "数据库",
+      prefix: "md/database/",
+      collapsable: true,
+      children: "structure",
+    },
+
+    {
       icon: "code",
       text: "开发工具",
       prefix: "md/dev-tools/",
