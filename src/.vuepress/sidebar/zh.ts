@@ -20,6 +20,14 @@ export const zhSidebar = sidebar({
     },
 
     {
+      icon: "computer",
+      text: "计算机基础",
+      prefix: "md/cs-basics/",
+      collapsable: true,
+      children: "structure",
+    },
+
+    {
       icon: "code",
       text: "开发工具",
       prefix: "md/dev-tools/",

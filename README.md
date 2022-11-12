@@ -23,6 +23,10 @@
     - [Java 菜鸟入门](#java-菜鸟入门)
     - [Spring Boot 基础教程](#spring-boot-基础教程)
   - [面试宝典](#面试宝典)
+  - [计算机基础](#计算机基础)
+    - [数据结构与算法](#数据结构与算法)
+  - [开发工具](#开发工具)
+    - [IDEA 使用指南](#idea-使用指南)
   - [与我联系](#与我联系)
     - [加群交流](#加群交流)
     - [公众号『村雨遥』](#公众号村雨遥)
@@ -94,6 +98,13 @@
 6. [面试宝典：Java 并发面试总结](src/md/interview/concurrence.md)
 7. [面试宝典：JVM 面试总结](src/md/interview/jvm.md)
 8. [面试宝典：Spring 面试总结](src/md/interview/spring.md)
+
+## 计算机基础
+
+### 数据结构与算法
+
+1. [数据结构与算法：数据结构简介](src/md/cs-basics/algorithm/2022-05-01-datastructure.md)
+2. [数据结构与算法：算法简介](src/md/cs-basics/algorithm/2022-05-02-algorithm.md)
 
 ## 开发工具
 
