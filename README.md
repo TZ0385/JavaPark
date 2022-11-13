@@ -22,6 +22,7 @@
     - [Java 菜鸟入门](#java-菜鸟入门)
     - [Maven 入门手册](#maven-入门手册)
     - [Spring Boot 基础教程](#spring-boot-基础教程)
+    - [Nginx 教程](#nginx-教程)
   - [面试宝典](#面试宝典)
   - [计算机基础](#计算机基础)
     - [数据结构与算法](#数据结构与算法)
@@ -103,7 +104,8 @@
 8.  [Spring Boot 基础教程：整合 Thymeleaf 实例](src/md/java/springboot/2022-01-08-integrated-thymeleaf.md)
 9.  [Spring Boot 基础教程：集成 Spring Security](src/md/java/springboot/2022-01-09-integrated-security.md)
 
-
+### Nginx 教程
+1. [Nginx 教程：简介与安装](src/md/java/nginx/2022-09-01-intro-install.md)
 ## 面试宝典
 
 1. [面试宝典：MySQL 面试总结](src/md/interview/mysql.md)
