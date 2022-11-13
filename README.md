@@ -168,6 +168,14 @@
 2. [Linux 教程：打造酷炫的 Ubuntu](src/md/tools/linux/2022-04-08-ubuntu-guide.md)
 3. [Linux 教程：玩转 Manjora](src/md/tools/linux/2022-04-09-manjora-guide.md)
 
+### 资源推荐
+1. [资源推荐：有了这几个刷题网站，还愁跳槽不涨薪？](src/md/tools/resource/2022-04-15-interview-website.md)
+2. [资源推荐：10 个效率网站，助力带薪摸鱼](src/md/tools/resource/2022-04-16-useful-website.md)
+3. [资源推荐：笑出腹肌的 Emoji 表情符号，你值得拥有！](src/md/tools/resource/2022-04-17-emoji.md)
+4. [资源推荐：听说你还在花钱从网上买 PPT 模板？](src/md/tools/resource/2022-04-18-ppt-template.md)
+5. [资源推荐：免费可用的 CDN，加速网站访问！](src/md/tools/resource/2022-04-19-cdn-resource.md)
+6. [资源推荐：技术写作中的神兵利器](src/md/tools/resource/2022-04-20-write-tools.md)
+
 ##  与我联系
 
 ### 加群交流
