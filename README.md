@@ -155,13 +155,19 @@
 4. [博客搭建：docsify 搭建高颜值文档网站](src/md/tools/blog/2022-04-04-docsify.md)
 5. [博客搭建：dumi 搭建文档型博客](src/md/tools/blog/2022-04-05-dumi.md)
 6. [博客搭建：Hugo 博客搭建教程](src/md/tools/blog/2022-04-06-hugo.md)
+### Windows 教程
+1. [Windows 教程：制作 U 盘启动盘](src/md/tools/windows/2022-04-12-how-to-make-usb-boot-drive.md)
+2. [Windows 教程：优雅地使用 Windows 10](src/md/tools/windows/2022-04-12-windows-install.md)
+3. [Windows 教程：优雅地使用 Windows 10](src/md/tools/windows/2022-04-13-how-to-use-windows10.md)
+4. [Windows 教程：Node.js 安装教程](src/md/tools/windows/2022-04-14-nodejs-install.md)
+### macOS 教程
+1. [macOS 教程：iTerm2 + Fish 打造高效终端](src/md/tools/macos/2022-04-10-fish-shell.md)
+2. [macOS 教程：iTerm2 + Oh My Zsh 打造帅气终端](src/md/tools/macos/2022-04-11-item-oh-my-zsh.md)
 ###  Linux 教程
 1. [Linux 教程：VMware 中安装 Ubuntu](src/md/tools/linux/2022-04-07-ubuntu-install-with-vmware.md)
 2. [Linux 教程：打造酷炫的 Ubuntu](src/md/tools/linux/2022-04-08-ubuntu-guide.md)
 3. [Linux 教程：玩转 Manjora](src/md/tools/linux/2022-04-09-manjora-guide.md)
-### macOS 教程
-1. [macOS 教程：iTerm2 + Fish 打造高效终端](src/md/tools/macos/2022-04-10-fish-shell.md)
-2. [macOS 教程：iTerm2 + Oh My Zsh 打造帅气终端](src/md/tools/macos/2022-04-11-item-oh-my-zsh.md)
+
 ##  与我联系
 
 ### 加群交流
