@@ -1,7 +1,7 @@
 ---
 title: 听说你还在花钱从网上买 PPT 模板？
 isOriginal: true
-icon: tool
+icon: ziyuan
 order: 15
 category:
   - 资源推荐

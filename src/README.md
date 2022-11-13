@@ -49,9 +49,14 @@ features:
     link: /md/tools/blog
 
   - title: 资源推荐
-    icon: tool
-    details: 各类博客搭建教程
+    icon: ziyuan
+    details: 资源、工具推荐
     link: /md/tools/resource
+
+  - title: 效率提升
+    icon: rocket
+    details: 效率提升小技巧
+    link: /md/tools/efficiency
 ---
 
 ## 公众号

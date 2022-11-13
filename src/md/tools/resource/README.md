@@ -1,7 +1,7 @@
 ---
 title: 资源推荐
 index: false
-icon: tool
+icon: ziyuan
 category:
   - 资源推荐
 ---
