@@ -67,8 +67,10 @@
 [![](https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%9D%91%E9%9B%A8%E9%81%A5-brightgreen)](./src/.vuepress/public/personal/wechatpublic.png)
 [![](https://img.shields.io/badge/wechat-%E5%BE%AE%E4%BF%A1%E7%BE%A4-blueviolet)](./src/.vuepress/public/personal/wechat.png)
 [![](https://img.shields.io/badge/zhihu-%E7%9F%A5%E4%B9%8E-informational)](https://www.zhihu.com/people/cunyu1943)
+[![](https://img.shields.io/badge/%E8%AF%AD%E9%9B%80-%E6%9D%91%E9%9B%A8%E9%81%A5-brightgreen)](https://yuque.com/cunyu1943)
 [![](https://img.shields.io/badge/csdn-CSDN-red)](https://cunyu1943.blog.csdn.net)
 [![](https://img.shields.io/badge/juejin-%E6%8E%98%E9%87%91-blue)](https://juejin.cn/user/747323637904519)
+[![](https://img.shields.io/badge/NowCoder-%E7%89%9B%E5%AE%A2-lightgrey)](https://www.nowcoder.com/users/806383223)
 
 ## Java
 
