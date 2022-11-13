@@ -223,10 +223,11 @@
 
 ### 效率提升
 1. [效率提升：10 分钟入门 Markdown](src/md/tools/efficiency/2022-04-21-markdown-in-10min.md)
-2. [效率提升：利用 Markdown 画图](src/md/tools/efficiency/2022-04-22-paint-with-markdown.md)
-3. [效率提升：Github 当免费图床](src/md/tools/efficiency/2022-04-23-github-img-bed.md)
-4. [效率提升：Gitee + Typora 打造写作环境](src/md/tools/efficiency/2022-04-24-gitee-typora.md)
-5. [效率提升：一招搞定电子签名](src/md/tools/efficiency/2022-04-25-e-signature.md)
+2. [效率提升：XMind 入门手册](src/md/tools/efficiency/2022-11-13-xmind-guide.md)
+3. [效率提升：利用 Markdown 画图](src/md/tools/efficiency/2022-04-22-paint-with-markdown.md)
+4. [效率提升：Github 当免费图床](src/md/tools/efficiency/2022-04-23-github-img-bed.md)
+5. [效率提升：Gitee + Typora 打造写作环境](src/md/tools/efficiency/2022-04-24-gitee-typora.md)
+6. [效率提升：一招搞定电子签名](src/md/tools/efficiency/2022-04-25-e-signature.md)
 
 ### 资源推荐
 1. [资源推荐：有了这几个刷题网站，还愁跳槽不涨薪？](src/md/tools/resource/2022-04-15-interview-website.md)
