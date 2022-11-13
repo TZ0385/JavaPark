@@ -50,6 +50,8 @@
   - [与我联系](#与我联系)
     - [加群交流](#加群交流)
     - [公众号『村雨遥』](#公众号村雨遥)
+
+  - [转载分享](#转载分享)
   - [Star 趋势图](#star-趋势图)
 
 ## 简介
@@ -264,6 +266,15 @@
 
 <center><img src="./src/.vuepress/public/personal/wechatpublic.png" width="150"/></center>
 
+## 转载分享
+
+建立本仓库的初衷是记录自己的学习和工作中所的所学、所思、所想，也希望能给遇到相同问题的小伙伴提供一点点帮助。如果您需要对仓库中的一些文章进行转载分享，请按照以下格式注明出处，感谢合作。
+
+```
+作者：村雨遥
+链接：https://cunyu1943.github.io/JavaPark
+来源：村雨遥
+````
 ## Star 趋势图
 
 <center><img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date" width="400"/></center>
