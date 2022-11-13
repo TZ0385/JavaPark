@@ -51,5 +51,13 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
 
+    {
+      icon: "exam",
+      text: "考试打怪",
+      prefix: "md/exam/",
+      collapsable: true,
+      children: "structure",
+    },
+
   ],
 });

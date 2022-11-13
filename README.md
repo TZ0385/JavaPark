@@ -47,6 +47,8 @@
     - [Linux 教程](#linux-教程)
     - [macOS 教程](#macos-教程)
     - [Windows 教程](#windows-教程)
+  - [考试打怪](#考试打怪)
+    - [软件设计师](#软件设计师)
   - [与我联系](#与我联系)
     - [加群交流](#加群交流)
     - [公众号『村雨遥』](#公众号村雨遥)
@@ -252,7 +254,10 @@
 2. [Linux 教程：打造酷炫的 Ubuntu](src/md/tools/linux/2022-04-08-ubuntu-guide.md)
 3. [Linux 教程：玩转 Manjora](src/md/tools/linux/2022-04-09-manjora-guide.md)
 
+## 考试打怪
+### 软件设计师
 
+1. [软件设计师：数据的表示](/src/md/exam/software-developer/2022-11-13-data-representation.md)
 ##  与我联系
 
 ### 加群交流

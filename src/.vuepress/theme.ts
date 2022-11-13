@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://cunyu1943.github.io/JavaPark",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_3334252_xv8ywdcsbc.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3334252_n9q8i5t3rtb.css",
 
   fullscreen: true,
 
