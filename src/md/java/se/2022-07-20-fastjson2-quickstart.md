@@ -1,7 +1,6 @@
 ---
 title: Fastjson V2 简单使用手册
 isOriginal: true
-icon: java
 order: 95
 category:
   - Java 菜鸟入门

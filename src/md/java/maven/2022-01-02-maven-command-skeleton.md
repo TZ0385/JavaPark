@@ -1,7 +1,6 @@
 ---
 title: 常用命令及项目骨架生成
 isOriginal: true
-icon: apache
 order: 5
 category:
   - Maven 入门手册

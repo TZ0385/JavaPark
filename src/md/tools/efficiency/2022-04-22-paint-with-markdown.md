@@ -1,7 +1,6 @@
 ---
 title: 利用 Markdown 画图
 isOriginal: true
-icon: rocket
 date: 2022-04-22
 order: 5
 category:

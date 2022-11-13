@@ -1,6 +1,5 @@
 ---
 title: 利用 IDEA 进行 Java 开发
-icon: java
 isOriginal: true
 category:
   - Java 菜鸟入门

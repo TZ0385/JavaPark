@@ -1,6 +1,5 @@
 ---
 title: JDBC 入门指南
-icon: java
 isOriginal: true
 date: 2022-07-17
 order: 80

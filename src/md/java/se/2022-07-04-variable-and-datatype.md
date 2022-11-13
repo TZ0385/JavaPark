@@ -1,6 +1,5 @@
 ---
 title: 变量与数据类型
-icon: java
 isOriginal: true
 category:
   - Java 菜鸟入门

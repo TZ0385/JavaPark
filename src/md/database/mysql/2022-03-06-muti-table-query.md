@@ -1,7 +1,6 @@
 ---
 title: 多表查询
 isOriginal: true
-icon: mysql
 order: 25
 category:
   - MySQL 教程

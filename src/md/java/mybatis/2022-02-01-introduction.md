@@ -1,7 +1,6 @@
 ---
 title: 简介
 isOriginal: true
-icon: earlybirds
 date: 2022-02-01
 order: 1
 category:

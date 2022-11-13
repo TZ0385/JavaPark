@@ -1,7 +1,6 @@
 ---
 title: 约束
 isOriginal: true
-icon: mysql
 order: 20
 category:
   - MySQL 教程

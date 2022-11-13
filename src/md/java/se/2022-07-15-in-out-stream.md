@@ -1,6 +1,5 @@
 ---
 title: 输入输出流
-icon: java
 isOriginal: true
 date: 2022-07-15
 order: 70

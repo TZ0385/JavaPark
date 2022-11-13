@@ -1,7 +1,6 @@
 ---
 title: 创建项目的 3 种方式
 isOriginal: true
-icon: spring-boot
 category:
   - Spring Boot 基础教程
 date: 2022-01-02

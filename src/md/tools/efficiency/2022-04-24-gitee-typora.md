@@ -1,7 +1,6 @@
 ---
 title: Gitee + Typora 打造写作环境
 isOriginal: true
-icon: rocket
 order: 15
 category:
   - 效率提升

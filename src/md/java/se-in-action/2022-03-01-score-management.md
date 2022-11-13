@@ -1,6 +1,5 @@
 ---
 title: 学生成绩管理系统
-icon: ruanjian
 date: 2022-03-01
 isOriginal: true
 order: 1

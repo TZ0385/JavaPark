@@ -1,7 +1,6 @@
 ---
 title: 如何安装 Node.js
 isOriginal: true
-icon: macos
 order: 3
 category:
   - macOS 教程

@@ -1,7 +1,6 @@
 ---
 title: 集成 Swagger2
 isOriginal: true
-icon: spring-boot
 order: 15
 category:
   - Spring Boot 基础教程

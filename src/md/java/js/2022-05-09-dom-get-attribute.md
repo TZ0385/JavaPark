@@ -1,6 +1,5 @@
 ---
 title: DOM 元素获取、属性修改
-icon: javascript
 isOriginal: true
 date: 2022-05-09
 order: 40

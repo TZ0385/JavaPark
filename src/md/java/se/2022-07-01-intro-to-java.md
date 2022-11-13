@@ -1,6 +1,5 @@
 ---
 title: Java 简介
-icon: java
 isOriginal: true
 date: 2022-07-01
 category:

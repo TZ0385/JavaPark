@@ -1,7 +1,6 @@
 ---
 title: Nginx 简介与安装
 isOriginal: true
-icon: nginx
 date: 2022-09-01
 order: 1
 category:

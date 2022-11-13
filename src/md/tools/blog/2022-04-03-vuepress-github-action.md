@@ -1,7 +1,6 @@
 ---
 title: Vuepress + GitHub Actions 博客自动部署
 isOriginal: true
-icon: blog
 order: 10
 category:
   - 博客搭建

@@ -1,7 +1,6 @@
 ---
 title: MyBatis Generator 代码自动生成器
 isOriginal: true
-icon: earlybirds
 date: 2022-02-03
 order: 10
 category:

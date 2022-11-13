@@ -1,7 +1,6 @@
 ---
 title: 创建 Java 入门应用
 date: 2022-02-06
-icon: intellijidea
 isOriginal: true
 order: 25
 category:

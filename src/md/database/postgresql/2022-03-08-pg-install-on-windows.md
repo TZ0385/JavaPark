@@ -1,6 +1,5 @@
 ---
 title: 简介及环境搭建
-icon: postgresql
 isOriginal: true
 date: 2022-03-08
 index: 1

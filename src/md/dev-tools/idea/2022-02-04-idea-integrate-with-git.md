@@ -1,7 +1,6 @@
 ---
 title: 集成并使用 Git 图文教程
 isOriginal: true
-icon: intellijidea
 order: 15
 category:
   - IDEA 教程

@@ -2,7 +2,6 @@
 title: VMware 中安装 Ubuntu
 date: 2022-04-07
 isOriginal: true
-icon: linux
 order: 1
 category:
     - Linux 教程

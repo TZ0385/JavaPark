@@ -2,7 +2,6 @@
 title: 手把手安装 Windows 系统
 date: 2022-04-12
 isOriginal: true
-icon: windows
 order: 2
 category:
     - Windows 教程

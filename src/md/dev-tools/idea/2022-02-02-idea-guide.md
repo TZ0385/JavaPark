@@ -1,6 +1,5 @@
 ---
 title: 最新版 IDEA 简单使用手册
-icon: intellijidea
 isOriginal: true
 order: 5
 category:

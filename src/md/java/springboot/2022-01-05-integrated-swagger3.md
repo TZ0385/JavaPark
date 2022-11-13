@@ -1,7 +1,6 @@
 ---
 title: 集成 Swagger3
 isOriginal: true
-icon: spring-boot
 order: 20
 category:
   - Spring Boot 基础教程

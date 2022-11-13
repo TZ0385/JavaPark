@@ -1,7 +1,6 @@
 ---
 title: 使用 IDEA 创建 Maven 项目
 isOriginal: true
-icon: apache
 order: 15
 category:
   - Maven 入门手册

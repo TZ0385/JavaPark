@@ -1,7 +1,6 @@
 ---
 title: 白嫖 IntelliJ IDEA 专业版使用权
 isOriginal: true
-icon: intellijidea
 order: 1
 category:
   - IDEA 教程

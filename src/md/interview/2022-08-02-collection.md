@@ -1,6 +1,5 @@
 ---
 title: Java 容器面试总结
-icon: java
 isOriginal: true
 date: 2022-08-02
 category: 面试宝典

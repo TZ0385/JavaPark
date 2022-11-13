@@ -1,7 +1,6 @@
 ---
 title: 如何给视频加上字幕
 isOriginal: true
-icon: rocket
 order: 3
 category:
   - 效率提升

@@ -1,7 +1,6 @@
 ---
 title: iTerm2 + Fish 打造高效终端
 isOriginal: true
-icon: macos
 order: 1
 category:
   - macOS 教程

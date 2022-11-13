@@ -1,7 +1,6 @@
 ---
 title: XMind 入门手册
 isOriginal: true
-icon: rocket
 order: 2
 category:
   - 效率提升

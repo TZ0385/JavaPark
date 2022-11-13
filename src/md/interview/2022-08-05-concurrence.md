@@ -1,6 +1,5 @@
 ---
 title: Java 并发面试总结
-icon: java
 isOriginal: true
 date: 2022-08-05
 category: 面试宝典

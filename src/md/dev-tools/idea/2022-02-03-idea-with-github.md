@@ -1,7 +1,6 @@
 ---
 title: IDEA + Github 多设备同步开发
 isOriginal: true
-icon: intellijidea
 order: 10
 category:
   - IDEA 教程

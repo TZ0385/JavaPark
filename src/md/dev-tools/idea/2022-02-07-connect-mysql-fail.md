@@ -1,6 +1,5 @@
 ---
 title: 连接 MySQL 失败解决方案
-icon: intellijidea
 isOriginal: true
 date: 2022-02-07
 order: 30

@@ -2,7 +2,6 @@
 title: 手撸记账本
 isOriginal: true
 date: 2022-03-03
-icon: ruanjian
 order: 3
 category:
     - SE 实训营

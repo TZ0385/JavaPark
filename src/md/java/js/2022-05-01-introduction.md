@@ -1,6 +1,5 @@
 ---
 title: 简介
-icon: javascript
 isOriginal: true
 date: 2022-05-01
 order: 1

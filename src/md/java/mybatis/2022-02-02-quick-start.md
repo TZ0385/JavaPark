@@ -1,7 +1,6 @@
 ---
 title: 快速入门
 isOriginal: true
-icon: earlybirds
 date: 2022-02-02
 order: 5
 category:

@@ -1,7 +1,6 @@
 ---
 title: ArrayList 详解
 isOriginal: true
-icon: java
 order: 65
 category:
   - Java 菜鸟入门

@@ -1,6 +1,5 @@
 ---
 title: 算法简介
-icon: relation-datastructure
 isOriginal: true
 order: 5
 date: 2022-05-02

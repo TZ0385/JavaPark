@@ -1,7 +1,6 @@
 ---
 title: 仓库、坐标以及依赖管理
 isOriginal: true
-icon: apache
 order: 10
 category:
   - Maven 入门手册

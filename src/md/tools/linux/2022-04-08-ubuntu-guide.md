@@ -1,7 +1,6 @@
 ---
 title: 打造酷炫的 Ubuntu
 isOriginal: true
-icon: linux
 order: 5
 category:
   - Linux 教程

@@ -1,7 +1,6 @@
 ---
 title: 常用指令
 isOriginal: true
-icon: Vue
 order: 5
 category:
   - Vue3 笔记

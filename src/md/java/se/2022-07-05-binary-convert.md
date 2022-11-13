@@ -1,6 +1,5 @@
 ---
 title: 常用进制转换
-icon: java
 isOriginal: true
 category:
   - Java 菜鸟入门

@@ -1,7 +1,6 @@
 ---
 title: 简介，安装及配置
 isOriginal: true
-icon: apache
 order: 1
 category: Maven 入门手册
 date: 2022-01-01

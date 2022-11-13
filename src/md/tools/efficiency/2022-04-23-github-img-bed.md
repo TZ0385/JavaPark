@@ -1,7 +1,6 @@
 ---
 title: Github 当免费图床
 isOriginal: true
-icon: rocket
 order: 10
 category:
   - 效率提升

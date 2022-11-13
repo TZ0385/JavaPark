@@ -1,7 +1,6 @@
 ---
 title: IDEA 中创建并部署 JavaWeb 程序
 isOriginal: true
-icon: java
 order: 1
 category:
   - Java Web

@@ -1,7 +1,6 @@
 ---
 title: 整合 Thymeleaf 实例
 isOriginal: true
-icon: spring-boot
 order: 35
 category:
   - Spring Boot 基础教程

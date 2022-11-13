@@ -1,7 +1,6 @@
 ---
 title: Node.js 安装教程
 isOriginal: true
-icon: windows
 order: 15
 category:
   - Windows 教程

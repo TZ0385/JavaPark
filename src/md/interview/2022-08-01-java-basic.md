@@ -1,6 +1,5 @@
 ---
 title: Java 基础面试总结
-icon: java
 isOriginal: true
 date: 2022-08-01
 category: 面试宝典

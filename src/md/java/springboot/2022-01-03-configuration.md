@@ -1,7 +1,6 @@
 ---
 title: 配置详解
 isOriginal: true
-icon: spring-boot
 order: 10
 category:
   - Spring Boot 基础教程

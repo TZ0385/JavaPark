@@ -1,6 +1,5 @@
 ---
 title: 数组操作的奇技淫巧
-icon: java
 isOriginal: true
 category:
   - Java 菜鸟入门

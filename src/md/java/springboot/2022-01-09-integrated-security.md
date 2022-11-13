@@ -1,7 +1,6 @@
 ---
 title: 集成 Spring Security
 isOriginal: true
-icon: spring-boot
 order: 40
 category:
   - Spring Boot 基础教程

@@ -1,6 +1,5 @@
 ---
 title: 数据结构简介
-icon: relation-datastructure
 isOriginal: true
 date: 2022-05-01
 order: 1

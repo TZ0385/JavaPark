@@ -1,6 +1,5 @@
 ---
 title: 简介及入门实例
-icon: leaf
 date: 2022-01-16 20:11:39
 order: 1
 category:

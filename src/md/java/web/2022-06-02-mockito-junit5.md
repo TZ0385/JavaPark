@@ -1,7 +1,6 @@
 ---
 title: Mockito + JUnit 单元测试实例
 isOriginal: true
-icon: java
 order: 5
 category:
   - Java Web

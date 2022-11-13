@@ -1,7 +1,6 @@
 ---
 title: 免费可用的 CDN，加速网站访问！
 isOriginal: true
-icon: ziyuan
 order: 20
 category:
   - 资源推荐

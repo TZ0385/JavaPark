@@ -1,7 +1,6 @@
 ---
 title: 制作 U 盘启动盘
 isOriginal: true
-icon: windows
 date: 2022-04-12
 order: 1
 category:

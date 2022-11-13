@@ -1,7 +1,6 @@
 ---
 title: 简介及入门实例
 isOriginal: true
-icon: Vue
 order: 1
 category:
   - Vue3 笔记

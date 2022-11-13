@@ -2,7 +2,6 @@
 title: 日志配置及常用 CRUD
 date: 2022-02-02
 isOriginal: true
-icon: earlybirds
 order: 5
 category:
     - MyBatis Plus 指南

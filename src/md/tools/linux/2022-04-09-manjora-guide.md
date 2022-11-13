@@ -1,7 +1,6 @@
 ---
 title: 玩转 Manjora
 isOriginal: true
-icon: linux
 date: 2022-04-09
 order: 10
 category:

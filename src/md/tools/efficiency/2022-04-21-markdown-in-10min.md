@@ -1,7 +1,6 @@
 ---
 title: 10 分钟入门 Markdown
 isOriginal: true
-icon: rocket
 date: 2022-04-21
 order: 1
 category:

@@ -1,7 +1,6 @@
 ---
 title: Axios 简单使用指南
 isOriginal: true
-icon: Vue
 order: 10
 category:
   - Vue3 笔记

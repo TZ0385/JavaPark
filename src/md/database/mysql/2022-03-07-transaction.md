@@ -1,7 +1,6 @@
 ---
 title: 事务
 isOriginal: true
-icon: mysql
 order: 30
 category:
   - MySQL 教程

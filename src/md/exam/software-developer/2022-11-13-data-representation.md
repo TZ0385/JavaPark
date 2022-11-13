@@ -1,7 +1,6 @@
 ---
 title: 数据的表示
 isOriginal: true
-icon: developer
 date: 2022-11-13
 order: 1
 category:

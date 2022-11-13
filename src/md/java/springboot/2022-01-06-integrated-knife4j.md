@@ -1,7 +1,6 @@
 ---
 title: 集成 Knife4j
 isOriginal: true
-icon: spring-boot
 order: 25
 category:
   - Spring Boot 基础教程

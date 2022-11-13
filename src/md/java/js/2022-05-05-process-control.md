@@ -1,6 +1,5 @@
 ---
 title: 流程控制
-icon: javascript
 isOriginal: true
 date: 2022-05-05
 order: 20

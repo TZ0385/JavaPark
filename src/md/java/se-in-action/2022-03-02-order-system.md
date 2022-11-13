@@ -1,6 +1,5 @@
 ---
 title: 点菜系统
-icon: ruanjian
 date: 2022-03-02
 isOriginal: true
 order: 2

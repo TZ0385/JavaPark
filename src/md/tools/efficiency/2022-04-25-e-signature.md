@@ -1,7 +1,6 @@
 ---
 title: 一招搞定电子签名
 isOriginal: true
-icon: rocket
 order: 20
 category:
   - 效率提升

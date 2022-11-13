@@ -1,7 +1,6 @@
 ---
 title: 整合 FreeMarker 实例
 isOriginal: true
-icon: spring-boot
 order: 30
 category:
   - Spring Boot 基础教程

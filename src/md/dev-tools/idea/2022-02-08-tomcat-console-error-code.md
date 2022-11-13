@@ -1,7 +1,6 @@
 ---
 title: Tomcat 控制台乱码解决方法
 date: 2022-02-08
-icon: intellijidea
 isOriginal: true
 order: 35
 category:
