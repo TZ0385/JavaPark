@@ -20,6 +20,7 @@
   - [简介](#简介)
   - [Java](#java)
     - [Java 菜鸟入门](#java-菜鸟入门)
+    - [SE 实训营](#se-实训营)
     - [Java Web](#java-web)
     - [Maven 入门手册](#maven-入门手册)
     - [Spring](#spring)
@@ -94,7 +95,11 @@
 19.  [Java 菜鸟入门：是时候拥抱 Junit 单元测试了！](src/md/java/se/2022-07-18-test-with-junit.md)
 20.  [Java 菜鸟入门：Lombok 安装及使用指南](src/md/java/se/2022-07-19-lombok-install-and-usage.md)
 21.  [Java 菜鸟入门：Fastjson V2 简单使用手册](src/md/java/se/2022-07-20-fastjson2-quickstart.md)
-
+### SE 实训营
+1. [SE 实训营：学生成绩管理系统](src/md/java/se-in-action/2022-03-01-score-management.md)
+2. [SE 实训营：点菜系统](src/md/java/se-in-action/2022-03-02-order-system.md)
+3. [SE 实训营：手撸记账本](src/md/java/se-in-action/2022-03-03-tally-book.md)
+4. [SE 实训营：MySQL + MyBatis 版学生成绩管理系统](src/md/java/se-in-action/2022-03-04-mysql-mybatis-score-management.md)
 ### Java Web
 
 1. [Java Web：IDEA 中创建并部署 JavaWeb 程序](src/md/java/web/2022-06-01-create-deploy-javaweb-with-idea.md)

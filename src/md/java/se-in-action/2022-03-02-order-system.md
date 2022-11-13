@@ -7,7 +7,13 @@ order: 2
 category:
     - SE 实训营
 ---
+作者：村雨遥
 
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+>   吾生也有涯，而知也无涯。
+
+---
 ## 前言
 
 继上次写了一个 Java SE 版本的 [学生成绩管理系统](2022-03-01-score-management.md) 之后，发现大家反响还不错，所以今天我有带来了差不多一样的点菜系统，希望利用我们所学的 Java SE 知识，实现我们的点菜系统。
