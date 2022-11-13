@@ -21,6 +21,7 @@
   - [简介](#简介)
   - [Java](#java)
     - [Java 菜鸟入门](#java-菜鸟入门)
+    - [Maven 入门手册](#maven-入门手册)
     - [Spring Boot 基础教程](#spring-boot-基础教程)
   - [面试宝典](#面试宝典)
   - [计算机基础](#计算机基础)
@@ -32,8 +33,11 @@
     - [IDEA 使用指南](#idea-使用指南)
   - [效率工具](#效率工具)
     - [博客搭建](#博客搭建)
+    - [效率提升](#效率提升)
+    - [资源推荐](#资源推荐)
     - [Linux 教程](#linux-教程)
     - [macOS 教程](#macos-教程)
+    - [Windows 教程](#windows-教程)
   - [与我联系](#与我联系)
     - [加群交流](#加群交流)
     - [公众号『村雨遥』](#公众号村雨遥)
@@ -83,7 +87,11 @@
 20.  [Java 菜鸟入门：Lombok 安装及使用指南](src/md/java/java-se/2022-07-19-lombok-install-and-usage.md)
 21.  [Java 菜鸟入门：Fastjson V2 简单使用手册](src/md/java/java-se/2022-07-20-fastjson2-quickstart.md)
 
-
+### Maven 入门手册
+1. [Maven 入门手册：简介，安装及配置](src/md/java/maven/2022-01-01-maven-intro-install.md)
+2. [Maven 入门手册：常用命令及项目骨架生成](src/md/java/maven/2022-01-02-maven-command-skeleton.md)
+3. [Maven 入门手册：仓库、坐标以及依赖管理](src/md/java/maven/2022-01-03-maven-warehouse-dependency.md)
+4. [Maven 入门手册：使用 IDEA 创建 Maven 项目](src/md/java/maven/2022-01-04-maven-project-with-idea.md)
 ### Spring Boot 基础教程
 
 1.  [Spring Boot 基础教程：入门简介](src/md/java/springboot/2022-01-01-introduction.md)
@@ -155,6 +163,22 @@
 4. [博客搭建：docsify 搭建高颜值文档网站](src/md/tools/blog/2022-04-04-docsify.md)
 5. [博客搭建：dumi 搭建文档型博客](src/md/tools/blog/2022-04-05-dumi.md)
 6. [博客搭建：Hugo 博客搭建教程](src/md/tools/blog/2022-04-06-hugo.md)
+
+### 效率提升
+1. [效率提升：10 分钟入门 Markdown](src/md/tools/efficiency/2022-04-21-markdown-in-10min.md)
+2. [效率提升：利用 Markdown 画图](src/md/tools/efficiency/2022-04-22-paint-with-markdown.md)
+3. [效率提升：Github 当免费图床](src/md/tools/efficiency/2022-04-23-github-img-bed.md)
+4. [效率提升：Gitee + Typora 打造写作环境](src/md/tools/efficiency/2022-04-24-gitee-typora.md)
+5. [效率提升：一招搞定电子签名](src/md/tools/efficiency/2022-04-25-e-signature.md)
+
+### 资源推荐
+1. [资源推荐：有了这几个刷题网站，还愁跳槽不涨薪？](src/md/tools/resource/2022-04-15-interview-website.md)
+2. [资源推荐：10 个效率网站，助力带薪摸鱼](src/md/tools/resource/2022-04-16-useful-website.md)
+3. [资源推荐：笑出腹肌的 Emoji 表情符号，你值得拥有！](src/md/tools/resource/2022-04-17-emoji.md)
+4. [资源推荐：听说你还在花钱从网上买 PPT 模板？](src/md/tools/resource/2022-04-18-ppt-template.md)
+5. [资源推荐：免费可用的 CDN，加速网站访问！](src/md/tools/resource/2022-04-19-cdn-resource.md)
+6. [资源推荐：技术写作中的神兵利器](src/md/tools/resource/2022-04-20-write-tools.md)
+
 ### Windows 教程
 1. [Windows 教程：制作 U 盘启动盘](src/md/tools/windows/2022-04-12-how-to-make-usb-boot-drive.md)
 2. [Windows 教程：优雅地使用 Windows 10](src/md/tools/windows/2022-04-12-windows-install.md)
