@@ -2,7 +2,7 @@
 title: 多表查询
 isOriginal: true
 icon: mysql
-index: 25
+order: 25
 category:
   - MySQL 教程
 date: 2022-03-06

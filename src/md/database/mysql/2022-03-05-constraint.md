@@ -2,7 +2,7 @@
 title: 约束
 isOriginal: true
 icon: mysql
-index: 20
+order: 20
 category:
   - MySQL 教程
 date: 2022-03-05

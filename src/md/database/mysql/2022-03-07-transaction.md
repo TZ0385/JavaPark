@@ -2,7 +2,7 @@
 title: 事务
 isOriginal: true
 icon: mysql
-index: 30
+order: 30
 category:
   - MySQL 教程
 date: 2022-03-07
