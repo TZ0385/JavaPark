@@ -47,6 +47,11 @@ features:
     icon: blog
     details: 各类博客搭建教程
     link: /md/tools/blog
+
+  - title: 资源推荐
+    icon: tool
+    details: 各类博客搭建教程
+    link: /md/tools/resource
 ---
 
 ## 公众号
