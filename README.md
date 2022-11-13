@@ -244,6 +244,7 @@
 ### macOS 教程
 1. [macOS 教程：iTerm2 + Fish 打造高效终端](src/md/tools/macos/2022-04-10-fish-shell.md)
 2. [macOS 教程：iTerm2 + Oh My Zsh 打造帅气终端](src/md/tools/macos/2022-04-11-item-oh-my-zsh.md)
+3. [macOS 教程：如何安装 Node.js](src/md/tools/macos/2022-11-13-nodejs-install.md)
 ###  Linux 教程
 1. [Linux 教程：VMware 中安装 Ubuntu](src/md/tools/linux/2022-04-07-ubuntu-install-with-vmware.md)
 2. [Linux 教程：打造酷炫的 Ubuntu](src/md/tools/linux/2022-04-08-ubuntu-guide.md)

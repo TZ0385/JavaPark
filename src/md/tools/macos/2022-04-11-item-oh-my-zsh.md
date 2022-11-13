@@ -2,9 +2,9 @@
 title: iTerm2 + Oh My Zsh 打造帅气终端
 isOriginal: true
 icon: macos
-order: 5
+order: 2
 category:
-  - 工具教程
+  - macOS 教程
 date: 2022-04-11
 ---
 作者：村雨遥

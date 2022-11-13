@@ -4,7 +4,7 @@ isOriginal: true
 icon: macos
 order: 1
 category:
-  - 工具教程
+  - macOS 教程
 date: 2022-04-10
 ---
 作者：村雨遥
@@ -12,7 +12,7 @@ date: 2022-04-10
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
 >   吾生也有涯，而知也无涯。
-
+---
 ## 什么是 Fish
 
 作为一个程序员，难免会和命令行打交道。而提及到命令行，那 Shell 肯定绕不开，说白了，其实学习各种命令实质就是在学习 Shell。
