@@ -34,6 +34,11 @@ export const zhNavbar = navbar([
   //   ],
   // },
   {
+    text: "优质书籍",
+    icon: "book",
+    link: "https://github.com/cunyu1943/ebooks"
+  },
+  {
     text: "博客",
     icon: "blog",
     link: "https://cunyu1943.github.io",
