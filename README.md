@@ -258,6 +258,7 @@
 ### 软件设计师
 
 1. [软件设计师：数据的表示](/src/md/exam/software-developer/2022-11-13-data-representation.md)
+2. [软件设计师：计算机系统](/src/md/exam/software-developer/2022-11-13-computer-system.md)
 ##  与我联系
 
 ### 加群交流
