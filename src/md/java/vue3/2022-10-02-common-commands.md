@@ -7,7 +7,13 @@ category:
   - Vue3 笔记
 date: 2022-10-02
 ---
+作者：村雨遥
 
+博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+>   吾生也有涯，而知也无涯。
+
+---
 
 
 ##  插值
