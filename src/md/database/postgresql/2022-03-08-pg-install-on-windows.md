@@ -2,7 +2,7 @@
 title: 简介及环境搭建
 isOriginal: true
 date: 2022-03-08
-index: 1
+order: 1
 category: PostgreSQL 教程
 ---
 作者：村雨遥
