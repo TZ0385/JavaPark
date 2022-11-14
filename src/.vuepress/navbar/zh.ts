@@ -38,14 +38,24 @@ export const zhNavbar = navbar([
     icon: "book",
     link: "https://github.com/cunyu1943/ebooks"
   },
+
   {
     text: "博客",
     icon: "blog",
     link: "https://cunyu1943.github.io",
   },
+
+  {
+    text: "更新日志",
+    icon: "time",
+    link: "/timeline"
+  },
+
   {
     text: "订阅",
     icon: "rss",
     link: "/javapark-rss.xml"
   },
+
+
 ]);
