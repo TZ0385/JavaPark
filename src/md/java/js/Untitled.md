@@ -1,9 +1,8 @@
 ---
 title: JS 教程「11」：DOM 节点
-icon: javascript
 isOriginal: true
 date: 2022-04-24 16:15:00
-tag: JavaScript
+order: 1
 index: false
 category: JavaScript 教程
 ---

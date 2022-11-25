@@ -23,4 +23,5 @@ category:
 5.  [IDEA 教程：不得不知的实用小技巧](2022-02-05-idea-tips.md)
 6.  [IDEA 教程：创建 Java 入门应用](2022-02-06-java-quick-start-with-idea.md)
 7.  [IDEA 教程：连接 MySQL 失败解决方案](2022-02-07-connect-mysql-fail.md)
-8.  [IDEA 教程：Tomcat 控制台乱码解决方法](2022-02-08-tomcat-console-error-code.md)
+8.  [IDEA 教程：IDEA 代码提交前流程及提交日志模板化](2022-11-24-code-commit.md)
+9.  [IDEA 教程：Tomcat 控制台乱码解决方法](2022-02-08-tomcat-console-error-code.md)
