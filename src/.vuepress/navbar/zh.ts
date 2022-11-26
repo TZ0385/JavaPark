@@ -40,6 +40,12 @@ export const zhNavbar = navbar([
   },
 
   {
+    text: "效率神器",
+    icon: "tool",
+    link: "https://www.yuque.com/cunyu1943/nav/"
+  },
+
+  {
     text: "博客",
     icon: "blog",
     link: "https://cunyu1943.github.io",
