@@ -246,7 +246,8 @@
 1. [Windows 教程：制作 U 盘启动盘](src/md/tools/windows/2022-04-12-how-to-make-usb-boot-drive.md)
 2. [Windows 教程：优雅地使用 Windows 10](src/md/tools/windows/2022-04-12-windows-install.md)
 3. [Windows 教程：优雅地使用 Windows 10](src/md/tools/windows/2022-04-13-how-to-use-windows10.md)
-4. [Windows 教程：Node.js 安装教程](src/md/tools/windows/2022-04-14-nodejs-install.md)
+4. [Windows 教程：常用 CMD 命令](src/md/tools/windows/2022-11-26-cmd-command.md)
+5. [Windows 教程：Node.js 安装教程](src/md/tools/windows/2022-04-14-nodejs-install.md)
 ### macOS 教程
 1. [macOS 教程：iTerm2 + Fish 打造高效终端](src/md/tools/macos/2022-04-10-fish-shell.md)
 2. [macOS 教程：iTerm2 + Oh My Zsh 打造帅气终端](src/md/tools/macos/2022-04-11-item-oh-my-zsh.md)

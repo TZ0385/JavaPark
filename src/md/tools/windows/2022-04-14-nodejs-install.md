@@ -1,7 +1,7 @@
 ---
 title: Node.js 安装教程
 isOriginal: true
-order: 15
+order: 5
 category:
   - Windows 教程
 date: 2022-04-14
