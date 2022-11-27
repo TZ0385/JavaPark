@@ -105,7 +105,9 @@ public class Main {
 -   **变量引用**
 -   **保留字**
 
-![](https://img-blog.csdnimg.cn/9f8fed4aeeda4dea9d1de0ff7677ca4a.png)
+<!-- ![](https://img-blog.csdnimg.cn/9f8fed4aeeda4dea9d1de0ff7677ca4a.png) -->
+
+![Java 关键字](https://img-blog.csdnimg.cn/f8387d9590a94b7987c9f0deee668cf6.png#pic_center)
 
 ## 数据类型
 
@@ -220,15 +222,15 @@ Java 编译器中，对于字符串和其他数据类型之间，可以使用 `+
 
 1.  **String Pool 中不存在 “xxx”**
 
-此时会创建两个字符串对象，“xxx” 属于字符串字面量，因此在编译期会在 String Pool 中创建一个字符串对象，用于指向该字符串的字面量 “xxx”；然后 `new` 会在堆中创建一个字符串对象；
+此时会创建两个字符串对象，“xxx” 属于字符串字面量，因此在编译期会在 String Pool 中创建一个字符串对象，用于指向该字符串的字面量 “xxx”；然后 `new` 会在堆中创建一个字符串对象。
 
-![](https://s1.ax1x.com/2020/07/25/UxXxC8.png)
+![](https://img-blog.csdnimg.cn/8949f6730e3b454f9d916f1326f6f142.png)
 
 2.  **String Pool 中存在 “xxx”**
 
-此时只需要创建一个字符串对象，由于 String Pool 中已经存在指向 “xxx” 的对象，所以直接在堆中创建一个字符串对象；
+此时只需要创建一个字符串对象，由于 String Pool 中已经存在指向 “xxx” 的对象，所以直接在堆中创建一个字符串对象。
 
-![](https://s1.ax1x.com/2020/07/25/UxjpvQ.png)
+![](https://img-blog.csdnimg.cn/3987b78f052d47b2a405a889df206a33.png)
 
 ### 数据类型转换
 
