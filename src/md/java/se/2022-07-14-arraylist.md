@@ -15,7 +15,7 @@ date: 2022-07-14
 
 ## 概述
 
-`ArrayList` 代表的是集合类，集合是一种容器，类似于数组。不同的是数组一旦定义并启动后，其类型和长度就固定了，但集合的大小却是动态变化的，而且其中的元素类型也不是固定的。
+`ArrayList` 代表的是集合类，集合是一种容器，类似于数组。不同的是数组一旦定义后，其类型和长度就固定了，但集合的大小却是动态变化的，而且其中的元素类型也是动态的。
 
 因此，数组更适合数据个数和类型确定的场景，而集合则更适合数据个数不确定，且需要做增删元素的场景。
 
@@ -74,13 +74,18 @@ date: 2022-07-14
 1.   **for 循环**
 
 ```java
-public static void main(String[] args){
-    ArrayList<Integer> list = new ArrayList<>;
-    list.add(1);
-    list.add(2);
-    list.add(3);
-    for(int i = 0; i < list.size(); i++){
-        System.out.println(list.get(i));
+import java.util.ArrayList;
+
+public class ForTest {
+    public static void main(String[] args) {
+
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
     }
 }
 ```
@@ -88,13 +93,17 @@ public static void main(String[] args){
 2.   **增强 for 循环**
 
 ```java
-public static void main(String[] args){
-    ArrayList<Integer> list = new ArrayList<>;
-    list.add(1);
-    list.add(2);
-    list.add(3);
-    for(Integer element: list){
-        System.out.println(element);
+import java.util.ArrayList;
+
+public class EnhanceForTest {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        for (Integer element : list) {
+            System.out.println(element);
+        }
     }
 }
 ```
@@ -102,14 +111,19 @@ public static void main(String[] args){
 3.   **迭代器**
 
 ```java
-public static void main(String[] args){
-    ArrayList<Integer> list = new ArrayList<>;
-    list.add(1);
-    list.add(2);
-    list.add(3);
-    Iterator<Integer> iter = list.iterator();
-    while(iter.hasNext()){
-        System.out.println(iter.next());
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class IterTest {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        Iterator<Integer> iter = list.iterator();
+        while (iter.hasNext()) {
+            System.out.println(iter.next());
+        }
     }
 }
 ```
