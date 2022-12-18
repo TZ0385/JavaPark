@@ -2,7 +2,7 @@
 
 > 你好，我是村雨遥。一个从事 `Java` 的工程师。
 
-- 👉 推荐 [Github 在线阅读](https://cunyu1943.github.io/JavaPark) | [Gitee 在线阅读](https://cunyu1943.gitee.io/JavaPark)，`Github` 访问较慢，所以部分资源可能会加载较慢。
+- 👉 推荐 [Github 在线阅读](https://cunyu1943.github.io/JavaPark) | [Gitee 在线阅读](https://cunyu1943.gitee.io/JavaPark)，`Github` 访问较慢，所以部分资源可能会加载较慢。
 
 - 👉 项目同步维护：[Github](https://github.com/cunyu1943/JavaPark) | [Gitee](https://gitee.com/cunyu1943/JavaPark)
 
