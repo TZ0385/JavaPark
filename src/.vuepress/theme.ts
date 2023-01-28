@@ -3,7 +3,6 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-
   hostname: "https://cunyu1943.github.io",
 
   author: {
@@ -23,7 +22,7 @@ export default hopeTheme({
 
   docsDir: "JavaPark/docs/src",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Word", "ReadingTime", "PageView"],
+  pageInfo: ["Author", "Date", "Category", "Word", "ReadingTime", "PageView"],
 
   locales: {
     "/": {
@@ -33,7 +32,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "更多精彩内容，尽在公众号：<b>「村雨遥」</b></br></br><img src=\"personal/wechatpublic.png\" width=\"100\" alt=\"公众号\" />",
+      // footer: "GPL Licensed | All rights reserved.",
 
       displayFooter: true,
 
@@ -53,23 +52,32 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    components: ["Badge", "BiliBili", "CodePen", "PDF", "StackBlitz", "VideoPlayer", "YouTube"],
+    components: [
+      "Badge",
+      "BiliBili",
+      "CodePen",
+      "PDF",
+      "StackBlitz",
+      "VideoPlayer",
+      "YouTube",
+    ],
 
-    copyright: ({
+    copyright: {
       author: "村雨遥",
-      license: "转载请注明以下信息：『作者：村雨遥，博客：https://cunyu1943.github.io/JavaPark』",
+      license:
+        "转载请注明以下信息：『作者：村雨遥，博客：https://cunyu1943.github.io/JavaPark』",
       global: true,
       triggerWords: 50,
-    }),
+    },
 
-    feed: ({
+    feed: {
       rss: true,
       rssOutputFilename: "javapark-rss.xml",
-    }),
+    },
 
-    sitemap: ({
-      sitemapFilename: "javapark-sitemap.xml"
-    }),
+    sitemap: {
+      sitemapFilename: "javapark-sitemap.xml",
+    },
 
     comment: {
       /**
@@ -105,10 +113,10 @@ export default hopeTheme({
       echarts: true,
       flowchart: true,
       gfm: true,
-      imageLazyload: true,
-      imageTitle: true,
-      imageMark: true,
-      imageSize: true,
+      // imageLazyload: true,
+      // imageTitle: true,
+      // imageMark: true,
+      // imageSize: true,
       include: true,
       katex: true,
       footnote: true,

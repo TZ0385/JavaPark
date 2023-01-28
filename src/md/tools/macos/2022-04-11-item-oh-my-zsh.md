@@ -71,7 +71,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 1.  首先下载 `oh-my-zsh` 源码；
 
 ```bash
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+git clone git@github.com:ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 ```
 
 2.  把配置文件拷贝到根目录；
@@ -100,7 +100,7 @@ source ~/.zshrc
 vim ~/.zshrc
 ```
 
-每次修改之后，如果要让配置利马生效，需要执行如下命令：
+每次修改之后，如果要让配置立马生效，需要执行如下命令。
 
 ```bash
 source ~/.zshrc
