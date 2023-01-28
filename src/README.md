@@ -8,11 +8,12 @@ tagline: 「Java 自学指南」Java 学习保姆级教程、面试总结、计�
 actions:
   - text: 开始阅读 💡
     link: /home
+    type: primary
 
   - text: 资源下载 💯
     link: https://mp.weixin.qq.com/s/XW-WJhbw14YA52UpsSW_pA
 
-  - text: 公众号 ⛩
+  - text: 公众号 🧩
     link: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNTg2MjkzNw==&action=getalbum&album_id=2501145320567963650&scene=173&from_msgid=2247496866&from_itemidx=1&count=3&nolastread=1#wechat_redirect
     # type: secondary
 
@@ -61,7 +62,7 @@ features:
 
 ## 公众号
 
-[「公众号」](./.vuepress/public/personal/wechatpublic.png) 佛系更新，不过文章会优先发布在这里，除此之外，公众号上还会不定时有福利干货哦，但是这些内容不会同步到在线阅读网站！
+[「公众号」](./.vuepress/public/personal/wechatpublic.png) 佛系更新，不过文章会优先发布在这里，除此之外，公众号上还会不定时有福利干货哦，但是这些内容不一定会同步到在线阅读网站！
 
 防止失联，建议关注并加星。
 
@@ -77,6 +78,6 @@ features:
 
 ## 参与贡献
 
-1.   如果您对本项目有任何建议或者发现文中内容有错误的，欢迎提交 issues 指正。
+1.   如果您对本项目有任何建议或者发现文中内容有错误的，欢迎私信我或者提交 `issues` 指正。
 
-2.   对于项目中未涉及到的知识点，欢迎提交 PR。
+2.   对于项目中未涉及到的知识点，欢迎提交 `PR`。

@@ -6,8 +6,8 @@ export const zhSidebar = sidebar({
       icon: "java",
       text: "Java",
       prefix: "md/java/",
-      collapsable: true,
-      children: "structure",
+      collapsible: true,
+      children: "structure"
     },
 
     {
@@ -15,7 +15,7 @@ export const zhSidebar = sidebar({
       text: "面试宝典",
       prefix: "md/interview/",
       link: "md/interview/",
-      collapsable: true,
+      collapsible: true,
       children: "structure",
     },
 
@@ -23,7 +23,7 @@ export const zhSidebar = sidebar({
       icon: "computer",
       text: "计算机基础",
       prefix: "md/cs-basics/",
-      collapsable: true,
+      collapsible: true,
       children: "structure",
     },
 
@@ -31,7 +31,7 @@ export const zhSidebar = sidebar({
       icon: "storage",
       text: "数据库",
       prefix: "md/database/",
-      collapsable: true,
+      collapsible: true,
       children: "structure",
     },
 
@@ -39,7 +39,7 @@ export const zhSidebar = sidebar({
       icon: "code",
       text: "开发工具",
       prefix: "md/dev-tools/",
-      collapsable: true,
+      collapsible: true,
       children: "structure",
     },
 
@@ -47,7 +47,7 @@ export const zhSidebar = sidebar({
       icon: "tool",
       text: "效率工具",
       prefix: "md/tools/",
-      collapsable: true,
+      collapsible: true,
       children: "structure",
     },
 
@@ -55,9 +55,8 @@ export const zhSidebar = sidebar({
       icon: "exam",
       text: "考试打怪",
       prefix: "md/exam/",
-      collapsable: true,
+      collapsible: true,
       children: "structure",
     },
-
   ],
 });

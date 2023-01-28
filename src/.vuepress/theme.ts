@@ -8,19 +8,22 @@ export default hopeTheme({
   author: {
     name: "村雨遥",
     url: "https://cunyu1943.github.io/JavaPark",
+    email: "747731461@qq.com",
   },
+
+  darkmode: "auto",
 
   iconAssets: "//at.alicdn.com/t/c/font_3334252_n9q8i5t3rtb.css",
 
   fullscreen: true,
 
-  // pure: true,
+  pure: true,
 
   logo: "/logo.png",
 
   repo: "cunyu1943/JavaPark",
 
-  docsDir: "JavaPark/docs/src",
+  docsDir: "JavaPark/src/md",
 
   pageInfo: ["Author", "Date", "Category", "Word", "ReadingTime", "PageView"],
 
@@ -104,19 +107,23 @@ export default hopeTheme({
 
     // Disable features you don’t want here
     mdEnhance: {
+      sub: true,
+      sup: true,
+      tabs: true,
+      imgMark: true,
+      imgLazyload: true,
+      imgSize: true,
+      vPre: true,
+      vuePlayground: true,
+      linkCheck: true,
       align: true,
       attrs: true,
       chart: true,
       codetabs: true,
-      container: true,
       demo: true,
       echarts: true,
       flowchart: true,
       gfm: true,
-      // imageLazyload: true,
-      // imageTitle: true,
-      // imageMark: true,
-      // imageSize: true,
       include: true,
       katex: true,
       footnote: true,
@@ -142,11 +149,6 @@ export default hopeTheme({
           },
         },
       ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      vPre: true,
-      vuePlayground: true,
     },
 
     pwa: {
