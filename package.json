@@ -1,8 +1,8 @@
 {
   "name": "java-park",
   "version": "2.0.0",
-  "description": "The way to top java coder!",
-  "license": "MIT",
+  "description": "The way to be a top java coder!",
+  "license": "GPL",
   "type": "module",
   "scripts": {
     "docs:build": "vuepress build src",
