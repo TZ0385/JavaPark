@@ -1,20 +1,19 @@
 ---
-title: Spring MVC 指南
-icon: spring
+title: Git 使用指南
+date: 2023-01-29
+icon: git
 isOriginal: true
 index: false
 category:
-  - Spring MVC 指南
-date: 2022-09-01
+    - Git 使用指南
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
 >   吾生也有涯，而知也无涯。
 
----
 ## 目录
 
-1. [Spring MVC 指南：简介及入门实例](2022-02-01-intro-and-quick-start.md)
-
+1.  [Git 使用指南：使用手册](2022-02-09-git.md)

@@ -2,6 +2,7 @@
 title: 算法简介
 isOriginal: true
 order: 5
+icon: relation
 date: 2022-05-02
 category: 数据结构与算法
 ---

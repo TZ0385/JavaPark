@@ -1,6 +1,6 @@
 ---
 title: Vue3 笔记
-icon: Vue
+icon: vue
 isOriginal: true
 index: false
 category:

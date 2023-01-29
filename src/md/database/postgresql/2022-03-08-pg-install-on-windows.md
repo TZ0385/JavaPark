@@ -1,5 +1,6 @@
 ---
 title: 简介及环境搭建
+shortTitle: 简介及安装
 isOriginal: true
 date: 2022-03-08
 order: 1

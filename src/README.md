@@ -22,15 +22,15 @@ features:
   - title: Java 菜鸟入门
     icon: java
     details: Java 初学者入门必备
-    link: /md/java/java-se/
+    link: /md/java/se/
 
   - title: Spring Boot
-    icon: spring-boot
+    icon: spring
     details: Spring Boot 基础教程
     link: /md/java/springboot/
 
   - title: 面试宝典
-    icon: guide
+    icon: compass
     details: 八股文合辑，找工作必备
     link: /md/interview/
 
@@ -40,7 +40,7 @@ features:
     link: /md/dev-tools/idea
 
   - title: MySQL
-    icon: mysql
+    icon: table
     details: MySQL 教程
     link: /md/database/mysql
 
@@ -50,7 +50,7 @@ features:
     link: /md/tools/blog
 
   - title: 资源推荐
-    icon: ziyuan
+    icon: photo-film
     details: 资源、工具推荐
     link: /md/tools/resource
 

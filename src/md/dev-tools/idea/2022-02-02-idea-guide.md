@@ -1,5 +1,6 @@
 ---
 title: 最新版 IDEA 简单使用手册
+shortTitle: 使用手册
 isOriginal: true
 order: 5
 category:

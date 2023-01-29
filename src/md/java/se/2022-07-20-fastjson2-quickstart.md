@@ -2,6 +2,7 @@
 title: Fastjson V2 简单使用手册
 isOriginal: true
 order: 95
+icon: java
 category:
   - Java 菜鸟入门
 date: 2022-07-20

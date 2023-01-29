@@ -1,6 +1,6 @@
 ---
 title: Spring 教程
-icon: leaf
+icon: spring
 isOriginal: true
 index: false
 category:

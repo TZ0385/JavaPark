@@ -202,7 +202,7 @@
 
 ## 开发工具
 
-1. [开发工具：Git 使用手册](src/md/dev-tools/2022-02-09-git.md)
+1. [开发工具：Git 使用手册](src/md/dev-tools/git/2022-02-09-git.md)
 
 ### IDEA 使用指南
 

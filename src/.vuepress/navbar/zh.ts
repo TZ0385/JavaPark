@@ -34,6 +34,12 @@ export const zhNavbar = navbar([
   //   ],
   // },
   {
+    text: "Java",
+    icon: "java",
+    link: "/md/java/",
+  },
+
+  {
     text: "优质书籍",
     icon: "book",
     link: "https://github.com/cunyu1943/ebooks",
@@ -41,13 +47,13 @@ export const zhNavbar = navbar([
 
   {
     text: "效率神器",
-    icon: "tool",
+    icon: "toolbox",
     link: "https://www.yuque.com/cunyu1943/nav/",
   },
 
   {
     text: "更新日志",
-    icon: "time",
+    icon: "timeline",
     link: "/timeline",
   },
 ]);

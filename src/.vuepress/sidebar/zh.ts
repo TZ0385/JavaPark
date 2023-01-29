@@ -11,7 +11,7 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "guide",
+      icon: "compass",
       text: "面试宝典",
       prefix: "md/interview/",
       link: "md/interview/",
@@ -28,7 +28,7 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "storage",
+      icon: "database",
       text: "数据库",
       prefix: "md/database/",
       collapsible: true,
@@ -36,7 +36,7 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "code",
+      icon: "gear",
       text: "开发工具",
       prefix: "md/dev-tools/",
       collapsible: true,
@@ -44,7 +44,7 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "tool",
+      icon: "screwdriver-wrench",
       text: "效率工具",
       prefix: "md/tools/",
       collapsible: true,
@@ -52,7 +52,7 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "exam",
+      icon: "file-pen",
       text: "考试提升",
       prefix: "md/exam/",
       collapsible: true,

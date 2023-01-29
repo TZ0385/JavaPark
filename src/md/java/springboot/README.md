@@ -1,7 +1,7 @@
 ---
 title: Spring Boot 基础教程
 isOriginal: true
-icon: spring-boot
+icon: spring
 category:
   - Spring Boot 基础教程
 date: 2022-01-01

@@ -1,7 +1,7 @@
 ---
 title: 资源推荐
 index: false
-icon: ziyuan
+icon: photo-film
 category:
   - 资源推荐
 ---

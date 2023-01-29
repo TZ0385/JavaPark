@@ -1,6 +1,7 @@
 ---
 title: Java 容器面试总结
 isOriginal: true
+shortTitle: 集合
 date: 2022-08-02
 category: 面试宝典
 order: 2

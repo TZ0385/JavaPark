@@ -1,6 +1,6 @@
 ---
 title: SE 实训营
-icon: ruanjian
+icon: java
 isOriginal: true
 index: false
 category:

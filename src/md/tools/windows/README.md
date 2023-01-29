@@ -1,7 +1,7 @@
 ---
 title: Windows 教程
 index: false
-icon: windows
+icon: fa-brands fa-windows
 category:
   - Windows 教程
 ---

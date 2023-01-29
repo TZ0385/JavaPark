@@ -2,6 +2,7 @@
 title: Java 简介
 isOriginal: true
 date: 2022-07-01
+icon: java
 category:
     - Java 菜鸟入门
 order: 1

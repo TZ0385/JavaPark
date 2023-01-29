@@ -1,6 +1,7 @@
 ---
 title: 集成并使用 Git 图文教程
 isOriginal: true
+shortTitle: Git 集成教程
 order: 15
 category:
   - IDEA 教程

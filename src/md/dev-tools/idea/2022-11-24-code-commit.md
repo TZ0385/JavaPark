@@ -2,6 +2,7 @@
 title: IDEA 代码提交前流程及提交日志模板化
 date: 2022-11-24
 isOriginal: true
+shortTitle: 代码提交流程及日志规范
 order: 31
 category:
     - IDEA 教程

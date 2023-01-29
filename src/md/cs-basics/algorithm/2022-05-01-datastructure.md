@@ -1,6 +1,7 @@
 ---
 title: 数据结构简介
 isOriginal: true
+icon: map
 date: 2022-05-01
 order: 1
 category: 数据结构与算法

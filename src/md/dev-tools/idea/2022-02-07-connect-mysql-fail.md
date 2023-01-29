@@ -3,6 +3,7 @@ title: 连接 MySQL 失败解决方案
 isOriginal: true
 date: 2022-02-07
 order: 30
+shortTitle: 连接 MySQL 失败
 category:
     - IDEA 教程
 ---

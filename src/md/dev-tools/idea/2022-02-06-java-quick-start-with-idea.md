@@ -2,6 +2,7 @@
 title: 创建 Java 入门应用
 date: 2022-02-06
 isOriginal: true
+shortTitle: Java 应用创建
 order: 25
 category:
     - IDEA 教程

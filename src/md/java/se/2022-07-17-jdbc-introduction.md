@@ -3,6 +3,7 @@ title: JDBC 入门指南
 isOriginal: true
 date: 2022-07-17
 order: 80
+icon: java
 category:
     - Java 菜鸟入门
 ---

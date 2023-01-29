@@ -2,6 +2,7 @@
 title: ArrayList 详解
 isOriginal: true
 order: 65
+icon: java
 category:
   - Java 菜鸟入门
 date: 2022-07-14

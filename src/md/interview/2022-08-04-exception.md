@@ -1,6 +1,7 @@
 ---
 title: Java 异常面试总结
 isOriginal: true
+shortTitle: 异常
 date: 2022-08-04
 category: 面试宝典
 order: 4
