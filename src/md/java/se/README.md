@@ -2,6 +2,7 @@
 title: Java 菜鸟入门
 icon: java
 index: false
+order: 1
 isOriginal: true
 category:
   - Java 菜鸟入门

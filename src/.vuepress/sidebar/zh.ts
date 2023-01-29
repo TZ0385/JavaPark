@@ -7,7 +7,7 @@ export const zhSidebar = sidebar({
       text: "Java",
       prefix: "md/java/",
       collapsible: true,
-      children: "structure"
+      children: "structure",
     },
 
     {
@@ -53,7 +53,7 @@ export const zhSidebar = sidebar({
 
     {
       icon: "exam",
-      text: "考试打怪",
+      text: "考试提升",
       prefix: "md/exam/",
       collapsible: true,
       children: "structure",

@@ -1,5 +1,6 @@
 ---
 title: Java 基础面试总结
+shortTitle: Java 基础
 isOriginal: true
 date: 2022-08-01
 category: 面试宝典
