@@ -1,6 +1,6 @@
 ---
 title: MyBatis 指北
-icon: earlybirds
+icon: mybatis
 isOriginal: true
 index: false
 category:

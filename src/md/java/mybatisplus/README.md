@@ -1,6 +1,6 @@
 ---
 title: MyBatis Plus 指南
-icon: earlybirds
+icon: mybatis
 isOriginal: true
 index: false
 category:

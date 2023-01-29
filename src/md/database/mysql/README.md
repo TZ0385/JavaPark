@@ -1,7 +1,7 @@
 ---
 title: MySQL 教程
 isOriginal: true
-icon: icon-mysql-alt
+icon: mysql
 category:
   - MySQL 教程
 date: 2022-03-01
