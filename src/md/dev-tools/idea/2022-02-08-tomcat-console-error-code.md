@@ -2,6 +2,7 @@
 title: Tomcat 控制台乱码解决方法
 date: 2022-02-08
 isOriginal: true
+icon: tomcat
 shortTitle: Tomcat 乱码解决
 order: 35
 category:

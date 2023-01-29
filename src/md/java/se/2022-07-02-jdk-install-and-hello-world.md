@@ -1,7 +1,7 @@
 ---
 title: 开发环境搭建及入门程序
 isOriginal: true
-icon: java
+icon: install
 category:
   - Java 菜鸟入门
 date: 2022-07-02

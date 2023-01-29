@@ -2,6 +2,7 @@
 title: 约束
 isOriginal: true
 order: 20
+icon: lock
 category:
   - MySQL 教程
 date: 2022-03-05

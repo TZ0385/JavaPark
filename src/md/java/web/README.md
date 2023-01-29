@@ -1,6 +1,6 @@
 ---
 title: Java Web
-icon: java
+icon: web
 isOriginal: true
 index: false
 category:

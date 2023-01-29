@@ -1,7 +1,7 @@
 ---
 title: 软件设计师
 index: false
-icon: developer
+icon: robot
 category:
   - 软件设计师
 ---

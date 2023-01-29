@@ -2,6 +2,7 @@
 title: IDEA + Github 多设备同步开发
 isOriginal: true
 shortTitle: 多设备协同
+icon: github
 order: 10
 category:
   - IDEA 教程

@@ -3,6 +3,7 @@ title: 数据的表示
 isOriginal: true
 date: 2022-11-13
 order: 1
+icon: data
 category:
     - 软件设计师
 ---

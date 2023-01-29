@@ -1,7 +1,7 @@
 ---
 title: 资源推荐
 index: false
-icon: photo-film
+icon: resource
 category:
   - 资源推荐
 ---

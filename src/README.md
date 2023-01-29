@@ -30,7 +30,7 @@ features:
     link: /md/java/springboot/
 
   - title: 面试宝典
-    icon: compass
+    icon: interview
     details: 八股文合辑，找工作必备
     link: /md/interview/
 
@@ -40,7 +40,7 @@ features:
     link: /md/dev-tools/idea
 
   - title: MySQL
-    icon: table
+    icon: mysql
     details: MySQL 教程
     link: /md/database/mysql
 
@@ -50,7 +50,7 @@ features:
     link: /md/tools/blog
 
   - title: 资源推荐
-    icon: photo-film
+    icon: resource
     details: 资源、工具推荐
     link: /md/tools/resource
 

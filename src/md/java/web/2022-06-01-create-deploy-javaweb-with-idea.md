@@ -1,7 +1,9 @@
 ---
 title: IDEA 中创建并部署 JavaWeb 程序
+shortTitle: JavaWeb 程序创建并部署
 isOriginal: true
 order: 1
+icon: intellijidea
 category:
   - Java Web
 date: 2022-06-01

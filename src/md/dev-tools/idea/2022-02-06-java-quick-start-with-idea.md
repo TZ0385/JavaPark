@@ -4,6 +4,7 @@ date: 2022-02-06
 isOriginal: true
 shortTitle: Java 应用创建
 order: 25
+icon: java
 category:
     - IDEA 教程
 ---

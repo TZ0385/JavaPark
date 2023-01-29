@@ -2,6 +2,7 @@
 title: 简介及环境搭建
 shortTitle: 简介及安装
 isOriginal: true
+icon: install
 date: 2022-03-08
 order: 1
 category: PostgreSQL 教程

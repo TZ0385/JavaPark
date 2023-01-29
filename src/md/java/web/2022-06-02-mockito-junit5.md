@@ -1,7 +1,9 @@
 ---
 title: Mockito + JUnit 单元测试实例
+shortTitle: Mockito + JUnit 单元测试
 isOriginal: true
 order: 5
+icon: test
 category:
   - Java Web
 date: 2022-06-02

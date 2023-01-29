@@ -1,7 +1,7 @@
 ---
 title: 面试宝典
 index: false
-icon: guide
+icon: interview
 category:
   - 面试宝典
 ---

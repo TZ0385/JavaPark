@@ -3,6 +3,7 @@ title: IDEA 破解图文教程
 isOriginal: true
 order: 6
 index: false
+icon: unlock
 category:
   - IDEA 教程
 date: 2022-02-01

@@ -2,6 +2,7 @@
 title: 最新版 IDEA 简单使用手册
 shortTitle: 使用手册
 isOriginal: true
+icon: guide
 order: 5
 category:
   - IDEA 教程

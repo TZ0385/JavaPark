@@ -2,6 +2,7 @@
 title: 多表查询
 isOriginal: true
 order: 25
+icon: table
 category:
   - MySQL 教程
 date: 2022-03-06
