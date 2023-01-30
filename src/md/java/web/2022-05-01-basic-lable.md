@@ -1,6 +1,5 @@
 ---
 title: HTML 基础标签
-shortTitle: 基础标签
 isOriginal: true
 icon: label
 date: 2022-04-25 16:00:00

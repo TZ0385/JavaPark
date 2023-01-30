@@ -2,41 +2,65 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",
-  // {
-  //   text: "案例",
-  //   icon: "discover",
-  //   link: "/demo/"
-  // },
-  // {
-  //   text: "指南",
-  //   icon: "creative",
-  //   prefix: "/guide/",
-  //   children: [
-  //     {
-  //       text: "Demo",
-  //       icon: "creative",
-  //       prefix: "bar/",
-  //       children: [
-  //         "baz",
-  //         {
-  //           text: "...",
-  //           icon: "more",
-  //           link: ""
-  //         }
-  //       ],
-  //     },
-  //     {
-  //       text: "Foo",
-  //       icon: "config",
-  //       prefix: "foo/",
-  //       children: ["ray", { text: "...", icon: "more", link: "" }],
-  //     },
-  //   ],
-  // },
   {
     text: "Java",
     icon: "java",
-    link: "/md/java/se",
+    prefix: "/md/java/",
+    children: [
+      {
+        text: "SE 菜鸟入门",
+        icon: "java",
+        link: "se/",
+      },
+
+      {
+        text: "Java  Web",
+        icon: "web",
+        link: "web/",
+      },
+
+      {
+        text: "Maven 入门",
+        icon: "apache",
+        link: "maven/",
+      },
+
+      {
+        text: "MyBatis 指北",
+        icon: "mybatis",
+        link: "mybatis/",
+      },
+
+      {
+        text: "MyBatis Plus",
+        icon: "mybatis",
+        link: "mybatisplus/",
+      },
+
+      {
+        text: "Spring 教程",
+        icon: "spring",
+        link: "spring/",
+      },
+
+      {
+        text: "Spring MVC",
+        icon: "spring",
+        link: "springmvc/",
+      },
+
+      {
+        text: "Spring Boot",
+        icon: "spring",
+        link: "springboot/",
+      },
+    ],
+  },
+
+  {
+    text: "面试宝典",
+    icon: "interview",
+    link: "/md/interview",
   },
 
   {
