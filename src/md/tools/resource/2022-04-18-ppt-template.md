@@ -2,6 +2,7 @@
 title: 听说你还在花钱从网上买 PPT 模板？
 isOriginal: true
 order: 15
+icon: ppt
 category:
   - 资源推荐
 date: 2022-04-18

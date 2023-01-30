@@ -2,6 +2,7 @@
 title: 简介及入门实例
 date: 2022-02-01
 isOriginal: true
+icon: guide
 order: 1
 category:
     - MyBatis Plus 指南

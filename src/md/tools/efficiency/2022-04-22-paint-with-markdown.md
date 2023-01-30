@@ -2,6 +2,7 @@
 title: 利用 Markdown 画图
 isOriginal: true
 date: 2022-04-22
+icon: photo
 order: 5
 category:
     - 效率提升

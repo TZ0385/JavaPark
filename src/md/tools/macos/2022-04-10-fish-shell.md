@@ -2,6 +2,7 @@
 title: iTerm2 + Fish 打造高效终端
 isOriginal: true
 order: 1
+icon: fish
 category:
   - macOS 教程
 date: 2022-04-10

@@ -3,6 +3,7 @@ title: 快速入门
 isOriginal: true
 date: 2022-02-02
 order: 5
+icon: guide
 category:
     - MyBatis 指北
 ---

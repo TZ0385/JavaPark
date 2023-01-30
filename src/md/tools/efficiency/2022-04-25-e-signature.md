@@ -2,6 +2,7 @@
 title: 一招搞定电子签名
 isOriginal: true
 order: 20
+icon: signature
 category:
   - 效率提升
 date: 2022-04-25

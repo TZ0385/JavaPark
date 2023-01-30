@@ -2,6 +2,7 @@
 title: 常用 CMD 命令
 isOriginal: true
 order: 4
+icon: terminal
 category:
   - Windows 教程
 date: 2022-11-26

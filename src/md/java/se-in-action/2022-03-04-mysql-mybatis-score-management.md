@@ -2,6 +2,7 @@
 title: MySQL + MyBatis 版学生成绩管理系统
 isOriginal: true
 order: 4
+icon: mybatis
 category:
   - SE 实训营
 date: 2022-03-04

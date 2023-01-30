@@ -2,6 +2,7 @@
 title: 如何安装 Node.js
 isOriginal: true
 order: 3
+icon: node
 category:
   - macOS 教程
 date: 2022-11-13

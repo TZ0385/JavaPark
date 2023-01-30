@@ -2,6 +2,7 @@
 title: 学生成绩管理系统
 date: 2022-03-01
 isOriginal: true
+icon: student
 order: 1
 category:
     - SE 实训营

@@ -1,11 +1,11 @@
 ---
 title: 利用 IDEA 进行 Java 开发
 isOriginal: true
+icon: intellijidea
 category:
   - Java 菜鸟入门
 order: 10
 date: 2022-07-03
-icon: java
 ---
 
 作者：村雨遥

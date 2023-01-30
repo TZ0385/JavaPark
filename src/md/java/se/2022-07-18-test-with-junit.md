@@ -2,7 +2,7 @@
 title: 是时候拥抱 Junit 单元测试了
 date: 2022-07-18
 isOriginal: true
-icon: java
+icon: test
 order: 85
 category:
     - Java 菜鸟入门

@@ -1,6 +1,7 @@
 ---
 title: 手撸记账本
 isOriginal: true
+icon: accountbook
 date: 2022-03-03
 order: 3
 category:

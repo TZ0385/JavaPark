@@ -1,6 +1,7 @@
 ---
 title: 注释、输入输出、变量
 isOriginal: true
+icon: keyboard
 date: 2022-05-02
 order: 5
 category: JavaScript 教程

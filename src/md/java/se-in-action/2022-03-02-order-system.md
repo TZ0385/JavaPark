@@ -2,6 +2,7 @@
 title: 点菜系统
 date: 2022-03-02
 isOriginal: true
+icon: menu
 order: 2
 category:
     - SE 实训营

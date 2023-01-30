@@ -2,6 +2,7 @@
 title: Gitee + Typora 打造写作环境
 isOriginal: true
 order: 15
+icon: gitee
 category:
   - 效率提升
 date: 2022-04-24

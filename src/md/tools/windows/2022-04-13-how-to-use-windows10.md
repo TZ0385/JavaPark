@@ -3,6 +3,7 @@ title: 优雅地使用 Windows 10
 isOriginal: true
 date: 2022-04-13
 order: 3
+icon: guide
 category:
     - Windows 教程
 ---

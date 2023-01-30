@@ -2,6 +2,7 @@
 title: Java 并发面试总结
 isOriginal: true
 shortTitle: 并发
+icon: concurrency
 date: 2022-08-05
 category: 面试宝典
 order: 5

@@ -2,6 +2,7 @@
 title: 简介
 isOriginal: true
 date: 2022-02-01
+icon: intro
 order: 1
 category:
     - MyBatis 指北

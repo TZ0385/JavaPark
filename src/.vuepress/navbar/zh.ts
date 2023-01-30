@@ -36,7 +36,7 @@ export const zhNavbar = navbar([
   {
     text: "Java",
     icon: "java",
-    link: "/md/java/",
+    link: "/md/java/se",
   },
 
   {

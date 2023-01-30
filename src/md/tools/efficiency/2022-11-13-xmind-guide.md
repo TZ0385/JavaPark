@@ -2,6 +2,7 @@
 title: XMind 入门手册
 isOriginal: true
 order: 2
+icon: mindmap
 category:
   - 效率提升
 date: 2022-11-13

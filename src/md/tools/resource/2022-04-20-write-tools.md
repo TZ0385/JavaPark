@@ -1,6 +1,7 @@
 ---
 title: 技术写作中的神兵利器
 isOriginal: true
+icon: tools
 order: 25
 category:
   - 资源推荐

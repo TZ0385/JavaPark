@@ -2,6 +2,7 @@
 title: 打造酷炫的 Ubuntu
 isOriginal: true
 order: 5
+icon: ubuntu
 category:
   - Linux 教程
 date: 2022-04-08

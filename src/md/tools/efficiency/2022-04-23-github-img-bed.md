@@ -2,6 +2,7 @@
 title: Github 当免费图床
 isOriginal: true
 order: 10
+icon: github
 category:
   - 效率提升
 date: 2022-04-23

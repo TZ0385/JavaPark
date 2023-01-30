@@ -3,6 +3,7 @@ title: 制作 U 盘启动盘
 isOriginal: true
 date: 2022-04-12
 order: 1
+icon: usb
 category:
     - Windows 教程
 ---

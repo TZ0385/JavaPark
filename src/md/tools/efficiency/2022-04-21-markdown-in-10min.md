@@ -3,6 +3,7 @@ title: 10 分钟入门 Markdown
 isOriginal: true
 date: 2022-04-21
 order: 1
+icon: markdown
 category:
     - 效率提升
 ---

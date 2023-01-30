@@ -60,7 +60,7 @@ features:
     link: /md/tools/efficiency
 ---
 
-## 公众号
+## 🧩 公众号
 
 [「公众号」](./.vuepress/public/personal/wechatpublic.png) 佛系更新，不过文章会优先发布在这里，除此之外，公众号上还会不定时有福利干货哦，但是这些内容不一定会同步到在线阅读网站！
 
@@ -68,7 +68,7 @@ features:
 
 <img src="./.vuepress/public/personal/wechatpublic.png" alt="「公众号」" style="zoom:40%;" />
 
-## Star 趋势图
+## ✨ Star 趋势图
 
 如果您觉得本项目对您有所帮助，那就去 Github **Star** 收藏一下吧！
 
@@ -76,7 +76,7 @@ features:
 
 <img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date" style="zoom:70%;" />
 
-## 参与贡献
+## 🧑‍🤝‍🧑 参与贡献
 
 1.   如果您对本项目有任何建议或者发现文中内容有错误的，欢迎私信我或者提交 `issues` 指正。
 

@@ -2,6 +2,7 @@
 title: 如何给视频加上字幕
 isOriginal: true
 order: 3
+icon: video
 category:
   - 效率提升
 date: 2022-11-13

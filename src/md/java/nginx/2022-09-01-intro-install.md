@@ -3,6 +3,7 @@ title: Nginx 简介与安装
 isOriginal: true
 date: 2022-09-01
 order: 1
+icon: install
 category:
     - Nginx 教程
 ---

@@ -2,6 +2,7 @@
 title: iTerm2 + Oh My Zsh 打造帅气终端
 isOriginal: true
 order: 2
+icon: cmd
 category:
   - macOS 教程
 date: 2022-04-11

@@ -2,6 +2,7 @@
 title: 搭建 Vue + Vite 入门项目
 isOriginal: true
 order: 15
+icon: vue
 category:
   - Vue3 笔记
 date: 2022-10-04

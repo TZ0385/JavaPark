@@ -1,7 +1,7 @@
 ---
 title: Lombok 安装及使用指南
 date: 2022-07-19
-icon: java
+icon: lombok
 isOriginal: true
 category:
     - Java 菜鸟入门

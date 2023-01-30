@@ -2,6 +2,7 @@
 title: 简介
 isOriginal: true
 date: 2022-05-01
+icon: intro
 order: 1
 category: JavaScript 教程
 ---

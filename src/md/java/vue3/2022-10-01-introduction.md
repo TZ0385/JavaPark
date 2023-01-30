@@ -2,6 +2,7 @@
 title: 简介及入门实例
 isOriginal: true
 order: 1
+icon: intro
 category:
   - Vue3 笔记
 date: 2022-10-01

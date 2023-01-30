@@ -2,6 +2,7 @@
 title: 使用 IDEA 创建 Maven 项目
 isOriginal: true
 order: 15
+icon: intellijidea
 category:
   - Maven 入门手册
 date: 2022-01-04

@@ -3,6 +3,7 @@ title: 日志配置及常用 CRUD
 date: 2022-02-02
 isOriginal: true
 order: 5
+icon: log
 category:
     - MyBatis Plus 指南
 ---

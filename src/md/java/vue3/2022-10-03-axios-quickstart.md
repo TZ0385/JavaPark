@@ -2,6 +2,7 @@
 title: Axios 简单使用指南
 isOriginal: true
 order: 10
+icon: guide
 category:
   - Vue3 笔记
 date: 2022-10-03

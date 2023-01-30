@@ -2,6 +2,7 @@
 title: 免费可用的 CDN，加速网站访问！
 isOriginal: true
 order: 20
+icon: cdn
 category:
   - 资源推荐
 date: 2022-04-19
