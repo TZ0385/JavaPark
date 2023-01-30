@@ -2,6 +2,7 @@
 title: 配置详解
 isOriginal: true
 order: 10
+icon: config
 category:
   - Spring Boot 基础教程
 date: 2022-01-03

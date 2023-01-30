@@ -2,6 +2,7 @@
 title: 仓库、坐标以及依赖管理
 isOriginal: true
 order: 10
+icon: coordinate
 category:
   - Maven 入门手册
 date: 2022-01-03

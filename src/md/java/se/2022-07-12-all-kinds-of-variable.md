@@ -1,9 +1,10 @@
 ---
 title: 成员变量、实例变量、静态变量、局部变量
+shortTitle: 各种变量之间的区别
 isOriginal: true
 date: 2022-07-12
 order: 55
-icon: java
+icon: variable
 category:
     - Java 菜鸟入门
 ---

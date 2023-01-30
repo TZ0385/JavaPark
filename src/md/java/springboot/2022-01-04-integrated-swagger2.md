@@ -2,6 +2,7 @@
 title: 集成 Swagger2
 isOriginal: true
 order: 15
+icon: swagger
 category:
   - Spring Boot 基础教程
 date: 2022-01-04

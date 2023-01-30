@@ -1,5 +1,6 @@
 ---
 title: 免费可用的 CDN，加速网站访问！
+shortTitle: 免费可用 CDN 推荐
 isOriginal: true
 order: 20
 icon: cdn

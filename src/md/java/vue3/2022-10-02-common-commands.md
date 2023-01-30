@@ -2,6 +2,7 @@
 title: 常用指令
 isOriginal: true
 order: 5
+icon: order
 category:
   - Vue3 笔记
 date: 2022-10-02

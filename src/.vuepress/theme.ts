@@ -11,7 +11,7 @@ export default hopeTheme({
     email: "747731461@qq.com",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_3871871_pj7u80xwbyb.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3871871_q9xua0qirib.css",
 
   fullscreen: true,
 

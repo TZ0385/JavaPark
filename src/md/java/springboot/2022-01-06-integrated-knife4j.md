@@ -2,6 +2,7 @@
 title: 集成 Knife4j
 isOriginal: true
 order: 25
+icon: knife
 category:
   - Spring Boot 基础教程
 date: 2022-01-06

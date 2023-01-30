@@ -1,4 +1,5 @@
 ---
+shortTitle: 数据库版学生成绩管理系统
 title: MySQL + MyBatis 版学生成绩管理系统
 isOriginal: true
 order: 4

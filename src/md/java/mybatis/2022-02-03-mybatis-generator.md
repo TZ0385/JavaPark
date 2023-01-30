@@ -1,8 +1,10 @@
 ---
 title: MyBatis Generator 代码自动生成器
+shortTitle: 逆向工程
 isOriginal: true
 date: 2022-02-03
 order: 10
+icon: auto
 category:
   - MyBatis 指北
 ---

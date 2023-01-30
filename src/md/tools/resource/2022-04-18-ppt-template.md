@@ -1,5 +1,6 @@
 ---
 title: 听说你还在花钱从网上买 PPT 模板？
+shortTitle: 高颜值 PPT 模板
 isOriginal: true
 order: 15
 icon: ppt

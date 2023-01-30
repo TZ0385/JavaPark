@@ -1,7 +1,7 @@
 ---
 title: 深入浅出 Java 注解
 isOriginal: true
-icon: java
+icon: flag
 category:
   - Java 菜鸟入门
 date: 2022-07-21

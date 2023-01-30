@@ -2,6 +2,7 @@
 title: 整合 FreeMarker 实例
 isOriginal: true
 order: 30
+icon: html
 category:
   - Spring Boot 基础教程
 date: 2022-01-07

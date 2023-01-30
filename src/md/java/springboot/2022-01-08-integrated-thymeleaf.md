@@ -2,6 +2,7 @@
 title: 整合 Thymeleaf 实例
 isOriginal: true
 order: 35
+icon: leaf
 category:
   - Spring Boot 基础教程
 date: 2022-01-08

@@ -1,7 +1,7 @@
 ---
 title: static 和 final 小课堂
 isOriginal: true
-icon: java
+icon: oop
 category:
   - Java 菜鸟入门
 date: 2022-12-03

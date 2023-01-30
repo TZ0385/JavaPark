@@ -1,6 +1,6 @@
 ---
 
-title: Spring 篇：3 种创建项目的方式
+title: 3 种创建项目的方式
 date: 2022-02-04
 isOriginal: true
 order: 15

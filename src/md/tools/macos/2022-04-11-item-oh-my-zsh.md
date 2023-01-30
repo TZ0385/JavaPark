@@ -1,5 +1,6 @@
 ---
 title: iTerm2 + Oh My Zsh 打造帅气终端
+shortTitle: iTerm2 + Oh My Zsh
 isOriginal: true
 order: 2
 icon: cmd
