@@ -3,6 +3,14 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
+  themeColor: {
+    blue: "#2196f3",
+    // green: "#3eaf7c",
+    red: "#f26d6d",
+    orange: "#fb9b5f",
+    purple: "#c56cf0",
+  },
+
   hostname: "https://cunyu1943.github.io",
 
   author: {
@@ -14,8 +22,6 @@ export default hopeTheme({
   iconAssets: "//at.alicdn.com/t/c/font_3871871_q9xua0qirib.css",
 
   fullscreen: true,
-
-  pure: true,
 
   logo: "/logo.png",
 
