@@ -14,6 +14,12 @@ export const zhNavbar = navbar([
       },
 
       {
+        text: "SE 实训营",
+        icon: "java",
+        link: "se-in-action/",
+      },
+
+      {
         text: "Java  Web",
         icon: "web",
         link: "web/",
@@ -23,18 +29,6 @@ export const zhNavbar = navbar([
         text: "Maven 入门",
         icon: "apache",
         link: "maven/",
-      },
-
-      {
-        text: "MyBatis 指北",
-        icon: "mybatis",
-        link: "mybatis/",
-      },
-
-      {
-        text: "MyBatis Plus",
-        icon: "mybatis",
-        link: "mybatisplus/",
       },
 
       {
@@ -50,9 +44,33 @@ export const zhNavbar = navbar([
       },
 
       {
+        text: "MyBatis 指北",
+        icon: "mybatis",
+        link: "mybatis/",
+      },
+
+      {
+        text: "MyBatis Plus",
+        icon: "mybatis",
+        link: "mybatisplus/",
+      },
+
+      {
         text: "Spring Boot",
         icon: "spring",
         link: "springboot/",
+      },
+
+      {
+        text: "Vue3 笔记",
+        icon: "vue",
+        link: "vue3/",
+      },
+
+      {
+        text: "Nginx 笔记",
+        icon: "nginx",
+        link: "nginx/",
       },
     ],
   },
