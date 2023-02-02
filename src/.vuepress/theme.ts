@@ -77,13 +77,39 @@ export default hopeTheme({
     },
 
     components: {
+      rootComponents: {
+        addThis: "ra-63db55caf33c5b85",
+        notice: [
+          {
+            showOnce: true,
+            path: "/",
+            title: "🎉🎉🎉",
+            content:
+              '<center><p>扫码订阅微信公众号【村雨遥】，第一时间获取最新消息！</p></br><img src="https://cunyu1943.gitee.io/JavaPark/assets/wechatpublic-63cf881a.png" width="70%"></center>',
+            confirm: true,
+            actions: [
+              {
+                text: "我已订阅",
+                // link: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNTg2MjkzNw==&action=getalbum&album_id=2501145320567963650&scene=173&from_msgid=2247496990&from_itemidx=1&count=3&nolastread=1#wechat_redirect",
+                type: "primary",
+              },
+            ],
+            fullscreen: true,
+          },
+        ],
+      },
       components: [
+        "ArtPlayer",
+        "AudioPlayer",
         "Badge",
         "BiliBili",
         "CodePen",
+        "FontIcon",
         "PDF",
         "StackBlitz",
+        "SiteInfo",
         "VideoPlayer",
+        "XiGua",
         "YouTube",
       ],
     },
