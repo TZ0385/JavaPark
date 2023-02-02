@@ -59,16 +59,6 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    components: [
-      "Badge",
-      "BiliBili",
-      "CodePen",
-      "PDF",
-      "StackBlitz",
-      "VideoPlayer",
-      "YouTube",
-    ],
-
     copyright: {
       author: "村雨遥",
       license:
@@ -79,11 +69,23 @@ export default hopeTheme({
 
     feed: {
       rss: true,
-      rssOutputFilename: "javapark-rss.xml",
+      rssOutputFilename: "rss.xml",
     },
 
     sitemap: {
-      sitemapFilename: "javapark-sitemap.xml",
+      sitemapFilename: "sitemap.xml",
+    },
+
+    components: {
+      components: [
+        "Badge",
+        "BiliBili",
+        "CodePen",
+        "PDF",
+        "StackBlitz",
+        "VideoPlayer",
+        "YouTube",
+      ],
     },
 
     comment: {
