@@ -6,7 +6,8 @@ date: 2022-04-14
 category: 
 ---
 
-<!-- ## 本站知识阅览 -->
+## 🌏 本站知识阅览
+![JavaPark 站点知识点导图](./.vuepress/public/personal/site-overview.png)
 
 
 
