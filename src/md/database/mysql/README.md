@@ -8,13 +8,7 @@ date: 2022-03-01
 index: false
 ---
 
-作者：村雨遥
-
-博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
-
->   吾生也有涯，而知也无涯。
-
-## 目录
+## 🎖️ 目录
 
 1. [MySQL 教程：数据库简介](2022-03-01-overview.md)
 2. [MySQL 教程：安装](2022-03-02-install.md)

@@ -8,13 +8,7 @@ date: 2022-01-01
 index: false
 ---
 
-作者：村雨遥
-
-博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
-
->   吾生也有涯，而知也无涯。
-
-## 目录
+## 🎖️ 目录
 
 1.  [Spring Boot 基础教程：入门简介](2022-01-01-introduction.md)
 2.  [Spring Boot 基础教程：创建项目的 3 种方式](2022-01-02-the-methods-to-create-springboot-project.md)

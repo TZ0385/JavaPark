@@ -85,7 +85,7 @@ export default hopeTheme({
             path: "/",
             title: "🎉🎉🎉",
             content:
-              '<center>扫码订阅微信公众号<b><font color="#3eaf7c">村雨遥</font></b></br>获取最新资讯！</br><img src="https://cunyu1943.gitee.io/JavaPark/assets/wechatpublic-63cf881a.png" width="70%"></center>',
+              '<center>扫码订阅微信公众号<b><font color="#3eaf7c">村雨遥</font></b></br>获取最新资讯！</br></br><img src="https://cunyu1943.gitee.io/JavaPark/assets/wechatpublic-63cf881a.png" width="70%"></center>',
             confirm: true,
             actions: [
               {

@@ -7,14 +7,8 @@ category:
   - Vue3 笔记
 date: 2022-10-01
 ---
-作者：村雨遥
 
-博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
-
->   吾生也有涯，而知也无涯。
-
----
-## 目录
+## 🎖️ 目录
 
 1. [Vue3 笔记：简介及入门实例](2022-10-01-introduction.md)
 2. [Vue3 笔记：常用指令](2022-10-02-common-commands.md)

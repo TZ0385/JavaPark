@@ -5,13 +5,7 @@ icon: blog
 category:
   - 博客搭建
 ---
-作者：村雨遥
-
-博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
-
->   吾生也有涯，而知也无涯。
----
-## 目录
+## 🎖️ 目录
 
 1. [博客搭建：超详细 Hexo + Github Pages 搭建教程](2022-04-01-hexo.md)
 2. [博客搭建：从 0 到 1 搭建 Halo](2022-04-02-halo.md)

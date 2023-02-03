@@ -8,13 +8,8 @@ category:
     - IDEA 教程
 ---
 
-作者：村雨遥
 
-博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
-
->   吾生也有涯，而知也无涯。
-
-## 目录
+## 🎖️ 目录
 
 1.  [IDEA 教程：白嫖 IntelliJ IDEA 专业版使用权](2022-02-01-idea-pro-with-student-email.md)
 2.  [IDEA 教程：最新版 IDEA 简单使用手册](2022-02-02-idea-guide.md)

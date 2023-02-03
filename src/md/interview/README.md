@@ -5,12 +5,8 @@ icon: interview
 category:
   - 面试宝典
 ---
-作者：村雨遥
 
-博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
-
->   吾生也有涯，而知也无涯。
-## 目录
+## 🎖️ 目录
 
 1.   [面试宝典：Java 基础面试总结](2022-08-01-java-basic.md)
 2.   [面试宝典：Java 容器面试总结](2022-08-02-collection.md)

@@ -8,12 +8,6 @@ category:
     - Git 使用指南
 ---
 
-作者：村雨遥
-
-博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
-
->   吾生也有涯，而知也无涯。
-
-## 目录
+## 🎖️ 目录
 
 1.  [Git 使用指南：使用手册](2022-02-09-git.md)

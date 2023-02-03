@@ -7,14 +7,8 @@ category:
   - JavaScript 教程
 date: 2022-05-01
 ---
-作者：村雨遥
 
-博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
-
->   吾生也有涯，而知也无涯。
-
----
-## 目录
+## 🎖️ 目录
 
 1. [JavaScript 教程：简介](2022-05-01-introduction.md)
 2. [JavaScript 教程：注释、输入输出、变量](2022-05-02-annotation-inout-variable.md)

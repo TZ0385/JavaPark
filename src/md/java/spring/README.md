@@ -7,14 +7,8 @@ category:
   - Spring 教程
 date: 2022-09-01
 ---
-作者：村雨遥
 
-博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
-
->   吾生也有涯，而知也无涯。
-
----
-## 目录
+## 🎖️ 目录
 
 1. [Spring 教程：简介](2022-02-01-spring-intro.md)
 2. [Spring 教程：IoC 简介及入门实例（XML 版）](2022-02-02-ioc.md)
