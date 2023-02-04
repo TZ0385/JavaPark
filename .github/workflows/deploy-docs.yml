@@ -1,5 +1,5 @@
 
-name: 部署文档
+name: 🪀 部署文档
 
 on:
   push:
@@ -18,28 +18,28 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
-      - name: 安装 pnpm
+      - name: 🎾 安装 pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 7
           run_install: true
 
 
-      - name: 设置 Node.js
+      - name: 🏐 设置 Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: pnpm
 
 
-      - name: 构建文档
+      - name: 🏀 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
+      - name: 🥎 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 这是文档部署到的分支名称
