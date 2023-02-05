@@ -171,13 +171,13 @@ export const zhNavbar = navbar([
           },
 
           {
-            text: "macOS 笔记",
+            text: "macOS",
             icon: "macos",
             link: "tools/macos",
           },
 
           {
-            text: "Linux 笔记",
+            text: "Linux",
             icon: "linux",
             link: "tools/linux",
           },
