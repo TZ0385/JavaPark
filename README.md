@@ -110,8 +110,9 @@
 4. [SE 实训营：MySQL + MyBatis 版学生成绩管理系统](src/md/java/se-in-action/2022-03-04-mysql-mybatis-score-management.md)
 ### Java Web
 
-1. [Java Web：IDEA 中创建并部署 JavaWeb 程序](src/md/java/web/2022-06-01-create-deploy-javaweb-with-idea.md)
-2. [Java Web：Mockito + JUnit 单元测试实例](src/md/java/web/2022-06-02-mockito-junit5.md)
+1. [Java Web：HTML 基础标签](src/md/java/html/2022-05-01-basic-lable.md)
+2. [Java Web：IDEA 中创建并部署 JavaWeb 程序](src/md/java/web/2022-06-01-create-deploy-javaweb-with-idea.md)
+3. [Java Web：Mockito + JUnit 单元测试实例](src/md/java/web/2022-06-02-mockito-junit5.md)
 ### Maven 入门手册
 1. [Maven 入门手册：简介，安装及配置](src/md/java/maven/2022-01-01-maven-intro-install.md)
 2. [Maven 入门手册：常用命令及项目骨架生成](src/md/java/maven/2022-01-02-maven-command-skeleton.md)
@@ -145,8 +146,7 @@
 7.  [Spring Boot 基础教程：整合 FreeMarker 实例](src/md/java/springboot/2022-01-07-integrated-freemarker.md)
 8.  [Spring Boot 基础教程：整合 Thymeleaf 实例](src/md/java/springboot/2022-01-08-integrated-thymeleaf.md)
 9.  [Spring Boot 基础教程：集成 Spring Security](src/md/java/springboot/2022-01-09-integrated-security.md)
-### HTML 教程
-1. [HTML 教程：基础标签](src/md/java/html/2022-05-01-basic-lable.md)
+
 ### JS 教程
 
 1. [JS 教程：简介](src/md/java/js/2022-05-01-introduction.md)
@@ -258,7 +258,8 @@
 2. [Linux 教程：打造酷炫的 Ubuntu](src/md/tools/linux/2022-04-08-ubuntu-guide.md)
 3. [Linux 教程：玩转 Manjora](src/md/tools/linux/2022-04-09-manjora-guide.md)
 
-## 考试打怪
+## 考试提升
+
 ### 软件设计师
 
 1. [软件设计师：数据的表示](/src/md/exam/software-developer/2022-11-13-data-representation.md)
