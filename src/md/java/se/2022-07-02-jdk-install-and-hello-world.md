@@ -20,6 +20,18 @@ order: 5
 
 作为一个入门的学习者，要进行 Java 开发，那怎么能少得了 JDK 呢，本文就先来看看如何安装并配置 JDK，为后续的学习做好铺垫。
 
+```mermaid
+graph LR
+A[开发环境搭建及入门程序] --> B[1. 下载并安装 JDK]
+B[1. 下载并安装 JDK] --> C[1.1 Windows]
+B[1. 下载并安装 JDK] --> D[1.2 macOS]
+B[1. 下载并安装 JDK] --> G[1.3 安装目录详解]
+A[开发环境搭建及入门程序] --> E[2. Hello World]
+A[开发环境搭建及入门程序] --> F[3. 知识点解析]
+```
+
+
+
 ## 下载并安装 JDK
 
 什么是 JDK 呢？JDK（Java Development Kit）即 Java 开发者工具包，使我们学习 Java 语言必须安装的一个工具。
