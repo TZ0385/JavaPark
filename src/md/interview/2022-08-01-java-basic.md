@@ -11,6 +11,8 @@ order: 1
 > 作者：村雨遥
 
 > 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
+
+
 ## 一个 Java 文件中是否可以存在多个类（修饰类除外）？
 
 一个 Java 文件中是可以存在多个类的，但是一个 Java 文件中只能存在一个 `public` 所修饰的类，而且这个 Java 文件的文件名还必须和 `public` 所修饰类的类名保持一致，一个简单的实例如下。
