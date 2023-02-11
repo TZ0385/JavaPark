@@ -13,7 +13,7 @@ category:
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
@@ -27,53 +27,33 @@ category:
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjI5MTQucG5n?x-oss-process=image/format,png)
 
-
-
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjI5NTcucG5n?x-oss-process=image/format,png)
-
-
 
 ### IntelliJ IDEA 启动项
 
-
-
--    在 IntelliJ IDEA 安装目录下，进入 `./bin` 目录，找到 `idea.exe.vmoptions` （ 32 位）或 `idea64.exe.vmoptions` ( 64 位)，根据自己所使用的版本进行修改，在文件最后加入如下配置（如果不确定自己是哪个版本，可以对两个文件均修改）；  
+- 在 IntelliJ IDEA 安装目录下，进入 `./bin` 目录，找到 `idea.exe.vmoptions` （ 32 位）或 `idea64.exe.vmoptions` ( 64 位)，根据自己所使用的版本进行修改，在文件最后加入如下配置（如果不确定自己是哪个版本，可以对两个文件均修改）；
 
 ```plain
   -Dfile.encoding=UTF-8
 ```
 
--    或者直接在 IntelliJ IDEA 中直接进行修改； 
-
-
+- 或者直接在 IntelliJ IDEA 中直接进行修改；
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjM2NDUucG5n?x-oss-process=image/format,png)
 
-
-
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjM3MjgucG5n?x-oss-process=image/format,png)
-
-
 
 ### Tomcat 配置
 
-
-
 对 Tomcat 启动脚本 `catalina.bat` 中的环境变量 `JAVA_OPTIONS` 追加如下参数；
-
-
 
 ```bash
 -Dfile.encoding=UTF8 -Dsun.jnu.encoding=UTF8
 ```
 
-
-
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjQ1MDYucG5n?x-oss-process=image/format,png)
 
 ## 总结
-
-
 
 经过上述配置之后，就成功解决 Tomcat 中文乱码问题。
 

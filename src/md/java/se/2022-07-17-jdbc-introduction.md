@@ -14,16 +14,16 @@ category:
 
 原文：https://mp.weixin.qq.com/s/DOXFxk5dk9WBfAVK0UJUng
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
 在我们日常使用的 APP 或网站中，往往需要存取数据，比如在微信中，需要存储我们的用户名、手机号、用户密码…… 等一系列信息。依靠之前所学习的 Java 相关知识已经无法满足这一需求。现在的应用程序中最基本、应用最广的也就是关系型数据库，如 MySQL。Java 语言中为了实现与关系型数据库的通信，制定了标准的访问接口，即 JDBC（Java Database Connectivity）。本文主要介绍在 Java 中使用 JDBC 的相关知识，主要内容如下：
 
--   **JDBC 简介**
--   **数据的增删改查**
--   **事务**
--   **连接池**
+- **JDBC 简介**
+- **数据的增删改查**
+- **事务**
+- **连接池**
 
 ## JDBC 简介
 
@@ -198,21 +198,21 @@ public class InitJDBC2 {
 1.  对字符串中的参数进行转义，然后利用转义后的参数来进行操作。但是转义十分麻烦，而且一使用 SQL，我们就必须增加转义代码。
 2.  利用 `PreparedStatement`，它利用 `?` 作为占位符，将数据联通 SQL 本身传递给数据库，从而保证每次传给数据库的 SQL 语句都是保持一致的，每次变动的只是占位符中的数据不同。通过使用 `PreparedStatement`，我们就能够 **完全避免 SQL 注入 问题**。
 
-针对后续利用 JDBC 操作数据库的过程，为了尽量避免 SQL 注入问题，我们优先采用 `PreparedStatement` 而非 `Statement`. 
+针对后续利用 JDBC 操作数据库的过程，为了尽量避免 SQL 注入问题，我们优先采用 `PreparedStatement` 而非 `Statement`.
 
 ### 查询数据
 
 首先，我们来进行查询操作。进行查询时，可以总结为如下几个步骤：
 
 1.  通过创建一个 `Connection` 对象从而建立连接；
-2.  然后利用 `prepareStatement()`  方法创建一个 `PreparedStatement` 对象并传入 SQL 语句，用于执行查询操作；
-3.  接着执行 `PreparedStatement`  对象所提供的 `executeQuery()` 方法，获取查询结果并返回到一个 `ResultSet` 结果集中；
-4.  最后则是利用  `ResultSet` 对象的 `next()` 方法去读取我们所查询返回的结果；
+2.  然后利用 `prepareStatement()` 方法创建一个 `PreparedStatement` 对象并传入 SQL 语句，用于执行查询操作；
+3.  接着执行 `PreparedStatement` 对象所提供的 `executeQuery()` 方法，获取查询结果并返回到一个 `ResultSet` 结果集中；
+4.  最后则是利用 `ResultSet` 对象的 `next()` 方法去读取我们所查询返回的结果；
 
->   需要注意的地方：
+> 需要注意的地方：
 >
->   1.  如果你不是利用 `try-with-source` 的方式，那么一定要记得在使用完连接之后记得释放资源；
->   2.  结果集 `ResultSet` 中，索引位置是从 `1` 开始的，而不是从 `0` 开始，这一点要特别注意！
+> 1.  如果你不是利用 `try-with-source` 的方式，那么一定要记得在使用完连接之后记得释放资源；
+> 2.  结果集 `ResultSet` 中，索引位置是从 `1` 开始的，而不是从 `0` 开始，这一点要特别注意！
 
 ```java
 import java.sql.*;
@@ -259,9 +259,9 @@ public class QueryTest {
 即插入一条新记录，和查询语句很像，但是区别在于最后 `PreparedStatement` 对象执行的不是 `executeQuery()`，而是 `executeUpdate()`. 插入记录的步骤总结如下：
 
 1.  创建 `Connection` 对象从而建立连接；
-2.  利用 `prepareStatement()`  方法创建一个 `PreparedStatement` 对象并传入 SQL 语句，用于执行插入操作；
+2.  利用 `prepareStatement()` 方法创建一个 `PreparedStatement` 对象并传入 SQL 语句，用于执行插入操作；
 3.  然后依次设置占位符所代表的值；
-4.  执行 `PreparedStatement`  对象所提供的 `executeUpdate()` 方法，此时返回的是一个 `int` 类型的数，表示插入记录的条数；
+4.  执行 `PreparedStatement` 对象所提供的 `executeUpdate()` 方法，此时返回的是一个 `int` 类型的数，表示插入记录的条数；
 
 ```java
 import java.sql.Connection;
@@ -310,10 +310,6 @@ public class InsertTest {
 新增数据后，接着查询数据，得到如下结果，可以看到我们新插入的数据成功加入到了数据库中！
 
 ![](https://img-blog.csdnimg.cn/img_convert/1704ab74c66d3a0d9d04fabeb3fdffee.png)
-
-
-
-
 
 ### 删除数据
 
@@ -611,8 +607,6 @@ public class JDBCUtils {
 }
 ```
 
-
-
 ## JDBC 事务
 
 ### 事务 4 大特性
@@ -653,7 +647,7 @@ public class JDBCUtils {
 
 **注意：不可重复读和幻读的区别在于：**
 
->   **不可重复读的重点在于修改，** 比如多次读取一条记录发现其中某些列的值被修改，而 **幻读的重点在于新增或删除**，比如多次读取一条记录发现记录增多或减少了。
+> **不可重复读的重点在于修改，** 比如多次读取一条记录发现其中某些列的值被修改，而 **幻读的重点在于新增或删除**，比如多次读取一条记录发现记录增多或减少了。
 
 ### 隔离级别
 
@@ -680,9 +674,9 @@ SQL 标准定义了 4 个隔离级别，隔离级别从低到高分别是：
 | 隔离级别           | 脏读 | 不可重复读 | 幻读 |
 | ------------------ | ---- | ---------- | ---- |
 | `READ-UNCOMMITTED` | ✔    | ✔          | ✔    |
-| `READ-COMMITTED`   | ❌    | ✔          | ✔    |
-| `REPEATABLE-READ`  | ❌    | ❌          | ✔    |
-| `SERIALIZABLE`     | ❌    | ❌          | ❌    |
+| `READ-COMMITTED`   | ❌   | ✔          | ✔    |
+| `REPEATABLE-READ`  | ❌   | ❌         | ✔    |
+| `SERIALIZABLE`     | ❌   | ❌         | ❌   |
 
 ### 实例
 
@@ -720,11 +714,11 @@ public class AffairTest {
 
         String url = "jdbc:mysql://localhost:3306/javalearning?characterEncoding=UTF-8";
         String username = "root";
-        String password = "12345";       
+        String password = "12345";
         String insertString = "INSERT INTO students VALUES (?,?,?,?,?)";
         Connection connection = null;
         PreparedStatement preparedStatement = null;
-        
+
         try {
             connection = DriverManager.getConnection(url, username, password);
 //            关闭自动提交
@@ -772,8 +766,8 @@ public class AffairTest {
 
 除了上述回滚的方式外，JDBC 还支持设置保存点的方式，我们可以使用事务回滚到指定的保存点，主要涉及的方法如下：
 
--   `setSavepoint(String savePointName)`：创建新的保存点，返回一个 `SavePoint` 对象；
--   `rollback(String savePointName)`：回滚到指定保存点；
+- `setSavepoint(String savePointName)`：创建新的保存点，返回一个 `SavePoint` 对象；
+- `rollback(String savePointName)`：回滚到指定保存点；
 
 ## 连接池
 
@@ -797,8 +791,8 @@ public class AffairTest {
 
 创建 C3P0 对应的配置文件，注意：配置文件一般放在 `src` 路径下，而且文件的名称要必须为以下其中的一个：
 
--   `c3p0.properties`
--   `c3p0-config.xml`
+- `c3p0.properties`
+- `c3p0-config.xml`
 
 ```xml
 <c3p0-config>

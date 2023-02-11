@@ -5,6 +5,7 @@ icon: linux
 category:
   - Linux 教程
 ---
+
 ## 🎖️ 目录
 
 1. [Linux 教程：VMware 中安装 Ubuntu](2022-04-07-ubuntu-install-with-vmware.md)

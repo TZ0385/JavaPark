@@ -12,23 +12,24 @@ category:
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
+
 ---
 
-## 什么是Markdown格式
+## 什么是 Markdown 格式
 
-Markdown格式是一种可用普通文本编辑器编写的标记语言，使用者能够通过简单的标记语法，对自己所写文本内容进行简单的格式排版。如果你经常逛 Github，你会发现大多数项目下边都会有一个 `README.md` 的项目说明文件，而它就是利用 Markdown 来进行编写的。而现在的大多数博客平台如 CSDN、博客园、掘金等，基本都支持 Markdown 格式，如果你有多平台发布文章的需求，那么学会用 Markdown 来编写内容未尝不是一个好的方法。
+Markdown 格式是一种可用普通文本编辑器编写的标记语言，使用者能够通过简单的标记语法，对自己所写文本内容进行简单的格式排版。如果你经常逛 Github，你会发现大多数项目下边都会有一个 `README.md` 的项目说明文件，而它就是利用 Markdown 来进行编写的。而现在的大多数博客平台如 CSDN、博客园、掘金等，基本都支持 Markdown 格式，如果你有多平台发布文章的需求，那么学会用 Markdown 来编写内容未尝不是一个好的方法。
 
 而且就算微信公众号，我们也可以借助第三方工具来进行排版，比起之前用 Word 来排版的方式省去了很多麻烦，实现一文多发变得更加容易，不用再去调格式适应不同平台。
 
 ## 优点
 
--   语法简洁易学，且功能比纯文本强大；
+- 语法简洁易学，且功能比纯文本强大；
 
--   格式转换方便，兼容性强，可读性极好；
--   专注内容写作而不用关注排版样式；
--   能导出PDF、HTML 等格式的文件；
--   迁移、反复编辑不会导致格式错乱；
+- 格式转换方便，兼容性强，可读性极好；
+- 专注内容写作而不用关注排版样式；
+- 能导出 PDF、HTML 等格式的文件；
+- 迁移、反复编辑不会导致格式错乱；
 
 ## 写作格式
 
@@ -38,10 +39,15 @@ Markdown格式是一种可用普通文本编辑器编写的标记语言，使用
 
 ```markdown
 # 一级标题
+
 ## 二级标题
+
 ### 三级标题
+
 #### 四级标题
+
 ##### 五级标题
+
 ###### 六级标题
 ```
 
@@ -51,12 +57,12 @@ Markdown格式是一种可用普通文本编辑器编写的标记语言，使用
 
 列表又分为有序列表和无序列表；
 
--   有序列表：`阿拉伯数字 + . + 空格 + 内容`，具体格式如下：
+- 有序列表：`阿拉伯数字 + . + 空格 + 内容`，具体格式如下：
 
 ```markdown
-  1. 蒂姆.邓肯
-  2. 马努.比诺比利
-  3. 托尼.帕克
+1. 蒂姆.邓肯
+2. 马努.比诺比利
+3. 托尼.帕克
 ```
 
 ![有序列表](https://img-blog.csdnimg.cn/img_convert/8c663af45633769901188f8c23b65197.png)
@@ -64,9 +70,9 @@ Markdown格式是一种可用普通文本编辑器编写的标记语言，使用
 - 无序列表：`英文横杠 + 空格 + 内容`，具体格式如下：
 
 ```markdown
-  - Apple
-  - Orange
-  - Banana
+- Apple
+- Orange
+- Banana
 ```
 
 ![无序](https://img-blog.csdnimg.cn/img_convert/1175509f13955ff4b8e42bae4adbb664.png)
@@ -86,7 +92,7 @@ Markdown格式是一种可用普通文本编辑器编写的标记语言，使用
 和加粗很类似，不过只需要将内容前后分别用一个 `*` 包围起来即可，即 `* + 内容 + *`，具体格式如下：
 
 ```markdown
-*公众号：村雨遥*
+_公众号：村雨遥_
 ```
 
 ![斜体](https://img-blog.csdnimg.cn/img_convert/40c6f14a2bfeedc70a0e8ce0b54a8946.png)
@@ -151,11 +157,11 @@ Markdown格式是一种可用普通文本编辑器编写的标记语言，使用
 ```markdown
 1. 上标
 
-    H^2^O
+   H^2^O
 
 2. 下标
 
-    H~2~O
+   H~2~O
 ```
 
 ![上下标](https://img-blog.csdnimg.cn/img_convert/10f60efe3d7dcae87aa04535e8666aec.png)
@@ -180,12 +186,12 @@ Markdown格式是一种可用普通文本编辑器编写的标记语言，使用
 ```markdown
 1. 未完成任务
 
-    - [ ] 公众号：村雨遥
-    - [ ] 个人博客：https://cunyu1943.github.io
+   - [ ] 公众号：村雨遥
+   - [ ] 个人博客：https://cunyu1943.github.io
 
 2. 已完成任务
-    - [x] 知乎：https://www.zhihu.com/people/cunyu1943
-    - [x] CSDN：https://blog.csdn.net/github_39655029
+   - [x] 知乎：https://www.zhihu.com/people/cunyu1943
+   - [x] CSDN：https://blog.csdn.net/github_39655029
 ```
 
 ![任务列表](https://img-blog.csdnimg.cn/img_convert/3bca5f634b83c145eff86a28ce6b6490.png)
@@ -206,11 +212,11 @@ Markdown 中的表格也很方便，我们可以用 `:` 来调整表格对齐的
 
 ```markdown
 1. 左对齐
-| 平台     | 链接                                   |
-| :------- | :------------------------------------- |
-| 公众号   | 村雨遥                                 |
-| 个人博客 | https://cunyu1943.github.io            |
-| 知乎     | https://www.zhihu.com/people/cunyu1943 |
+   | 平台 | 链接 |
+   | :------- | :------------------------------------- |
+   | 公众号 | 村雨遥 |
+   | 个人博客 | https://cunyu1943.github.io |
+   | 知乎 | https://www.zhihu.com/people/cunyu1943 |
 
 2. 居中对齐
 
@@ -221,11 +227,11 @@ Markdown 中的表格也很方便，我们可以用 `:` 来调整表格对齐的
 |   知乎   | https://www.zhihu.com/people/cunyu1943 |
 
 3. 右对齐
-|     平台 |                                   链接 |
-| -------: | -------------------------------------: |
-|   公众号 |                                 村雨遥 |
-| 个人博客 |            https://cunyu1943.github.io |
-|     知乎 | https://www.zhihu.com/people/cunyu1943 |
+   | 平台 | 链接 |
+   | -------: | -------------------------------------: |
+   | 公众号 | 村雨遥 |
+   | 个人博客 | https://cunyu1943.github.io |
+   | 知乎 | https://www.zhihu.com/people/cunyu1943 |
 ```
 
 ![表格](https://img-blog.csdnimg.cn/img_convert/ec474b8f727bba158731159036c7457b.png)
@@ -240,18 +246,18 @@ Markdown 支持 LaTeX 语法，可以实现行间公式和独立公式块，公�
 ```markdown
 1. 行间公式
 
-    $x_1+x_2=0$
+   $x_1+x_2=0$
 
 2. 独立公式块
 
-    $$x^2+y^2=0$$
+   $$x^2+y^2=0$$
 ```
 
 ![](https://img-blog.csdnimg.cn/img_convert/607a345cc47c3965c94412d261abec43.png)
 
 ### 代码块
 
-同公式一样，代码块同样可以分为行间代码块和独立代码块，其区别在于用一个或多个 \`  将其括起来，具体格式如下：
+同公式一样，代码块同样可以分为行间代码块和独立代码块，其区别在于用一个或多个 \` 将其括起来，具体格式如下：
 
 ![代码块](https://img-blog.csdnimg.cn/img_convert/b39aa6a4d026691f678260467ce2b4c8.png)
 

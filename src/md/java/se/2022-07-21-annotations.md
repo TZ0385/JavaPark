@@ -12,7 +12,7 @@ order: 76
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 注解简介
 
@@ -227,10 +227,6 @@ public class Demo{
     ……
 }
 ```
-
-
-
-
 
 ## 元注解
 

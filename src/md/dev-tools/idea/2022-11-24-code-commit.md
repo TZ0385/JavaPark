@@ -15,7 +15,8 @@ category:
 
 原文：https://mp.weixin.qq.com/s/Mhc7tygE6Fl5_3h8mz7A9g
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
+
 ---
 
 ## 前言
@@ -32,23 +33,21 @@ category:
 
 - **下载地址**
 
->   https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines/versions
+> https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines/versions
 
--   **安装及使用**
+- **安装及使用**
 
->   https://github.com/alibaba/p3c/wiki/IDEA%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3
+> https://github.com/alibaba/p3c/wiki/IDEA%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3
 
-####  SonarLint
+#### SonarLint
 
 - **下载地址**
 
->   https://plugins.jetbrains.com/plugin/7973-sonarlint/versions
+> https://plugins.jetbrains.com/plugin/7973-sonarlint/versions
 
--   **安装及使用**
+- **安装及使用**
 
->   https://www.cnblogs.com/cocoxu1992/p/11336723.html
-
-
+> https://www.cnblogs.com/cocoxu1992/p/11336723.html
 
 ### 提交前的配置项
 
@@ -59,9 +58,9 @@ category:
 安装 `p3c` 插件后，才会有该选项。在提交代码改动之前，如果勾选此选项，则会去扫描代码中不符合 `p3c` 规则中的代码，然后弹窗提示存在可疑代码，此时可以到控制台查看存疑的代码。然后只需要根据控制台中提示的去修改代码即可。
 
 - 代码存疑弹窗
-![](https://img-blog.csdnimg.cn/125e2dac822d41639a28a5776dd7ba12.png)
+  ![](https://img-blog.csdnimg.cn/125e2dac822d41639a28a5776dd7ba12.png)
 - 控制台中存疑的代码提示
-![](https://img-blog.csdnimg.cn/6f7bec02753d4cbba1b651411ea8c79a.png)
+  ![](https://img-blog.csdnimg.cn/6f7bec02753d4cbba1b651411ea8c79a.png)
 
 #### Reformat code
 
@@ -172,6 +171,7 @@ public class Main {
 }
 
 ```
+
 ![](https://img-blog.csdnimg.cn/cd721721a8ae49f29a62f187d61b7cac.png)
 ![](https://img-blog.csdnimg.cn/78ad273a718b4258b02b0e280c514ba5.png)
 
@@ -183,13 +183,13 @@ public class Main {
 
 ### 下载安装
 
-1.   **下载地址**
+1.  **下载地址**
 
->   https://plugins.jetbrains.com/plugin/9861-git-commit-template/versions
+> https://plugins.jetbrains.com/plugin/9861-git-commit-template/versions
 
-2.   **安装**
+2.  **安装**
 
->   https://blog.csdn.net/m0_46636892/article/details/122116712
+> https://blog.csdn.net/m0_46636892/article/details/122116712
 
 ### 使用教程
 
@@ -205,13 +205,13 @@ public class Main {
 
 主要分为三部分：
 
--   Head（`<type 类型>(<scope 可选作用域>): <subject 描述>`）
--   Body（`<body 可选的正文>`）
--   Footer（`<footer 可选的脚注>`）
+- Head（`<type 类型>(<scope 可选作用域>): <subject 描述>`）
+- Body（`<body 可选的正文>`）
+- Footer（`<footer 可选的脚注>`）
 
 #### Head 参数说明
 
-1.   **type（必填）**
+1.  **type（必填）**
 
 | 类型       | 英文                                                                                                    | 中文说明                                       |
 | ---------- | :------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
@@ -227,11 +227,11 @@ public class Main {
 | `chore`    | `Other changes that don't modify src or test files`                                                     | 其他不影响源码和测试的改动                     |
 | `revert`   | `Reverts a previous commit`                                                                             | 回退版本                                       |
 
-2.   **scope（可选）**
+2.  **scope（可选）**
 
 用户说明此次提交所影响的范围，常见的有数据层、控制层、视图层等，这个需要根据自己的项目来具体定义。
 
-3.   **subject（必填）**
+3.  **subject（必填）**
 
 此次提交的概括，一般建议不超过 50 字，结尾不加任何标点符号。
 
@@ -248,30 +248,22 @@ public class Main {
 
 主要用于两种情况：
 
-1.   不兼容的变动，对应具体使用部分图中的 `Breaking changes`.
-2.   关闭 `Issue`，对应具体使用部分图中的 `Closed issues`.
+1.  不兼容的变动，对应具体使用部分图中的 `Breaking changes`.
+2.  关闭 `Issue`，对应具体使用部分图中的 `Closed issues`.
 
 #### 具体使用
 
-1.   安装完成后，在代码提交界面会有以下图标，点击进行参数配置。
+1.  安装完成后，在代码提交界面会有以下图标，点击进行参数配置。
 
 ![](https://img-blog.csdnimg.cn/05b8d9da6c2543f7b5715b5b8b2c43c7.png)
 
-
-
-
-
-2.   根据自己的需求进行相关配置。
+2.  根据自己的需求进行相关配置。
 
 ![](https://img-blog.csdnimg.cn/3f00fe384f24410881842d8e05579ca9.png)
 
 ![](https://img-blog.csdnimg.cn/5608cf18f6434a369fcde51bb1f44235.png)
 
-
-
-
-3.   完成配置之后，点击右下角的 `ok`，就会自动根据模板生成提交的具体信息，最后进行提交即可，一个自动生成的具体示例如下：
-
+3.  完成配置之后，点击右下角的 `ok`，就会自动根据模板生成提交的具体信息，最后进行提交即可，一个自动生成的具体示例如下：
 
 ```java
 fix(改动生效的范围): 代码改动的简述
@@ -283,8 +275,8 @@ BREAKING CHANGE: 不兼容的变更
 Closes 关闭的issue
 ```
 
-
 ![](https://img-blog.csdnimg.cn/2bc745e949704c7483e8b3d0079fae99.png)
+
 ## 总结
 
 可能屏幕前的你所在的项目组并没有这么多的流程和提交规范，但养成良好的编码习惯总归是好的。代码不仅仅是写给自己看的，一个高手不仅仅是能够实现复杂的功能，能把代码编写得能让人看着简洁清爽也是一种艺术。

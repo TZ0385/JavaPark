@@ -7,11 +7,12 @@ category:
   - MySQL 教程
 date: 2022-03-05
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 概述
 
@@ -36,7 +37,7 @@ date: 2022-03-05
 
 添加外键的方式主要有两种，一种是在创建表时添加，而另一种则是在创建表之后添加。
 
-1.   **创建时**
+1.  **创建时**
 
 ```sql
 CREATE TABLE 表名(
@@ -46,7 +47,7 @@ CREATE TABLE 表名(
 );
 ```
 
-2.   **创建后**
+2.  **创建后**
 
 ```sql
 ALTER TABLE 表名 ADD CONSTRAINT 外键名称 FOREIGN KEY(外键字段名) REFERENCES 主表(主表列名);
@@ -71,4 +72,3 @@ ALTER TABLE 表名 DROP FOREIGN KEY 外键名称;
 ```sql
 ALTER TABLE 表名 ADD CONSTRAINT 外键名称 FOREIGN KEY (外键字段) REFERENCES 主表名(主表字段名) ON UPDATE CASCADE ON DELETE CASCADE;
 ```
-

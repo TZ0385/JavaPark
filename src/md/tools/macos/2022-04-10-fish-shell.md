@@ -7,12 +7,15 @@ category:
   - macOS 教程
 date: 2022-04-10
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
+
 ---
+
 ## 什么是 Fish
 
 作为一个程序员，难免会和命令行打交道。而提及到命令行，那 Shell 肯定绕不开，说白了，其实学习各种命令实质就是在学习 Shell。
@@ -58,8 +61,6 @@ brew install fish
 ```shell
 Error: No such file or directory @ rb_sysopen - /Users/cunyu/Library/Caches/Homebrew/downloads/7c65a980f7151e14dc5cf1e45ff29b9456a318d6868b1e78a7cd9369a3de144b--pcre2-10.39.arm64_monterey.bottle.tar.gz
 ```
-
-
 
 这是因为 `pcre2-10.39.arm64_monterey` 依赖包下载失败了，则可以单独将依赖包下载安装，从而避免依赖版本的错误。
 
@@ -113,7 +114,7 @@ chsh -s /opt/homebrew/bin/fish
 
 至此，我们的 `Fish` 就安装成功了，退出终端后重新打开终端即可使用安装好的 `Fish`。
 
- ![](https://img-blog.csdnimg.cn/img_convert/e6de544c26a6387c2a5fa1f878180473.png)
+![](https://img-blog.csdnimg.cn/img_convert/e6de544c26a6387c2a5fa1f878180473.png)
 
 ## 安装 Oh My Fish
 
@@ -170,4 +171,3 @@ omf install 主题名
 ## 总结
 
 以上就是我们关于 `Fish` 的安装以及简单的配置教程了，如果你也想拥有如此酷炫的终端，那就赶紧来试试吧！
-

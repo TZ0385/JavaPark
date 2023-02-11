@@ -6,19 +6,21 @@ order: 1
 category: Maven 入门手册
 date: 2022-01-01
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
+
 ## 前言
 
 在我们之前的开发过程中，往往会遇到以下问题：
 
--   一个项目就是一个工程，当项目过大时，难以管理；
--   项目中的 jar 包（也就是我们的依赖文件），需要我们手动进行移动到 Web 项目的 `WEB-INF/lib` 目录中；
--   jar 一般是通过下载或其他人打包后获取；
--   各个 jar 包之间繁琐的依赖关系需要我们自行解决；
+- 一个项目就是一个工程，当项目过大时，难以管理；
+- 项目中的 jar 包（也就是我们的依赖文件），需要我们手动进行移动到 Web 项目的 `WEB-INF/lib` 目录中；
+- jar 一般是通过下载或其他人打包后获取；
+- 各个 jar 包之间繁琐的依赖关系需要我们自行解决；
 
 针对以上的问题，我们提出采用项目管理工具来对我们的项目进行管理，而这就是我们今天所要讲的 Maven。
 
@@ -30,8 +32,8 @@ Maven 是一个项目管理工具，包含了一个项目对象模型（`Project
 
 其中 Maven 最核心的两大概念包括 **依赖管理** 和 **项目构建**。
 
--   **依赖管理**：提供对 `jar` 的统一管理。（Maven 提供了一个中央仓库，当我们在项目中添加完依赖后，Maven 就会自动去中央仓库中下载相关依赖）。
--   **项目构建**：Maven 提供对项目的编译、测试、打包、部署、上传到私服等。
+- **依赖管理**：提供对 `jar` 的统一管理。（Maven 提供了一个中央仓库，当我们在项目中添加完依赖后，Maven 就会自动去中央仓库中下载相关依赖）。
+- **项目构建**：Maven 提供对项目的编译、测试、打包、部署、上传到私服等。
 
 ## Maven 安装
 
@@ -61,11 +63,11 @@ java -version
 
 这里需要配置环境变量，一个是新建一个系统变量用于指向 Maven 解压缩后的路径，另一个则是修改 Path 变量环境，新加上一条指向 Maven 的 bin 目录的路径。
 
--   MAVEN_HOME：即刚才解压缩后 Maven 的存放路径
+- MAVEN_HOME：即刚才解压缩后 Maven 的存放路径
 
 ![](https://img-blog.csdnimg.cn/img_convert/27d6940eb47536577ab32d83d880752e.png)
 
--   Path：`%MAVEN_HOME%\bin`
+- Path：`%MAVEN_HOME%\bin`
 
 ![](https://img-blog.csdnimg.cn/img_convert/8db1d5da10c87044b037bb192d00bea2.png)
 
@@ -85,19 +87,19 @@ mvn -v
 
 ![](https://img-blog.csdnimg.cn/img_convert/168fbc6eee963079342fa276d8b9aa8a.png)
 
--   **bin**
+- **bin**
 
 包含 mvn 运行的脚步，用于配置 Java 命令，准备好 classpath 和相关的 Java 系统属性，然后执行 Java 命令。
 
--   **boot**
+- **boot**
 
 只包含一个文件，是一个类加载器框架，相对于默认的 Java 类加载器，提供了更丰富的语法以方便配置。
 
--   **conf**
+- **conf**
 
 包含 `settings.xml` ，通过修改该文件，能在机器中全局定制 Maven 的行为。
 
--   **lib**
+- **lib**
 
 包含所有 Maven 运行时所需的 Java 类库，Maven 本身是分模块开发，所以里边有不同模块之类的类库。此外还包含了一些 Maven 用到的第三方依赖。
 

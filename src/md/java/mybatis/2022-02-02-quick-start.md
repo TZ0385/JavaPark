@@ -7,35 +7,29 @@ icon: guide
 category:
     - MyBatis 指北
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ---
+
 ## 前言
-
-
 
 上一篇文章中我们讲了什么是持久化以及 Mybatis 的相关简介，今天就来看看如何创建一个 Mybatis 入门实例以及如何利用 Mybatis 进行 CRUD。
 
-
-
 ## 数据库准备
 
-
-
 1.  首先，我们来创建一个数据库，用于后序步骤的使用；
-
-
 
 ```sql
 CREATE DATABASE test;
 USE test;
 ```
 
-2.   接着创建一个表，用于存放数据；
+2.  接着创建一个表，用于存放数据；
 
 ```sql
 CREATE TABLE user (
@@ -46,17 +40,13 @@ CREATE TABLE user (
 );
 ```
 
-3.   向数据库中插入数据
+3.  向数据库中插入数据
 
 ```sql
 INSERT INTO user (id, name, password) VALUES (1, '村雨遥', '123456'),(2, '张三', '1234567'),(3, '李四', '12345678');
 ```
 
-
-
 ## 创建 Maven 工程
-
-
 
 1.  对于如何创建 Maven 工程，可以参照我之前写的一篇文章：[利用 IDEA 搭建一个 Maven 项目 ](http://cunyu1943.github.io/posts/8ced8971/)
 2.  接着在项目的 `pom.xml` 中添加 MyBatis、MySQL、Junit 以及 Lombok 的依赖，关于更多 Lombok 的使用，可以参考我的另一篇文章：[Lombok 安装及使用指南](https://cunyu1943.github.io/posts/f7032e71)
@@ -86,11 +76,7 @@ INSERT INTO user (id, name, password) VALUES (1, '村雨遥', '123456'),(2, '张
 </dependency>
 ```
 
-
-
 ## 准备工作
-
-
 
 1.  编写 MyBatis 核心配置文件，在 `main/resources` 文件下新建 `mybatis-config.xml` ，配置数据库。这里主要是配置连接的数据库，数据库连接用户名以及密码。
 
@@ -121,7 +107,7 @@ INSERT INTO user (id, name, password) VALUES (1, '村雨遥', '123456'),(2, '张
 </configuration>
 ```
 
-2.   编写 MyBatis 工具类；
+2.  编写 MyBatis 工具类；
 
 ```java
 package com.cunyu.util;
@@ -174,7 +160,7 @@ public class MybatisUtil {
 }
 ```
 
-3.   接下来创建实体类，用于映射数据库中的 `user` 表。
+3.  接下来创建实体类，用于映射数据库中的 `user` 表。
 
 ```java
 package com.cunyu.entity;
@@ -209,9 +195,7 @@ public class User {
 
 ## 插入操作 `insert`
 
-
-
-1.   首先在 `UserMapper` 接口中添加对应方法
+1.  首先在 `UserMapper` 接口中添加对应方法
 
 ```java
 /**
@@ -225,7 +209,7 @@ public class User {
 int insert(User user);
 ```
 
-2.   在映射文件 `UserMapper.xml` 中添加 `Insert` 语句；
+2.  在映射文件 `UserMapper.xml` 中添加 `Insert` 语句；
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -241,7 +225,7 @@ int insert(User user);
 </mapper>
 ```
 
-3.   测试方法中测试；
+3.  测试方法中测试；
 
 ```java
 package com.cunyu.test;
@@ -291,8 +275,6 @@ public class InsertTest {
 
 ## 查询操作 `select`
 
-
-
 1.  在 `UserMapper` 中添加对应方法：
 
 ```java
@@ -307,10 +289,10 @@ public class InsertTest {
 User query(Integer id);
 ```
 
-2.   接着在 `UserMapper.xml` 中添加 `Select` 语句。其中各属性含义如下：
+2.  接着在 `UserMapper.xml` 中添加 `Select` 语句。其中各属性含义如下：
 
--   **id**：对应接口中的 **方法名**；
--   **resultType**：SQL 语句执行的返回值；
+- **id**：对应接口中的 **方法名**；
+- **resultType**：SQL 语句执行的返回值；
 
 ```xml
 <select id="query" resultType="com.cunyu.entity.User">
@@ -320,7 +302,7 @@ User query(Integer id);
 </select>
 ```
 
-3.   在测试类中测试即可；
+3.  在测试类中测试即可；
 
 ```java
 package com.cunyu.test;
@@ -370,7 +352,7 @@ public class QueryTest {
 
 ```java
 /**
-     * @param 
+     * @param
      * @return
      * @Author 村雨遥
      * @Version 1.0
@@ -380,7 +362,7 @@ public class QueryTest {
 int update(User user);
 ```
 
-3.   在 `UserMapper.xml` 中添加 `update` 语句；
+3.  在 `UserMapper.xml` 中添加 `update` 语句；
 
 ```xml
 <update id="update">
@@ -391,7 +373,7 @@ int update(User user);
 </update>
 ```
 
-4.   测试类中测试；
+4.  测试类中测试；
 
 ```java
 package com.cunyu.test;
@@ -440,11 +422,7 @@ public class UpdateTest {
 
 ## 删除操作 `delete`
 
-
-
 1.  在 `UserMapper` 中添加接口；
-
-
 
 ```java
 /**
@@ -458,7 +436,7 @@ public class UpdateTest {
 int delete(Integer id);
 ```
 
-2.   在 `UserMapper.xml` 中添加 `delete` 语句；
+2.  在 `UserMapper.xml` 中添加 `delete` 语句；
 
 ```xml
 <delete id="delete">
@@ -468,7 +446,7 @@ int delete(Integer id);
 </delete>
 ```
 
-3.   在测试类中测试；
+3.  在测试类中测试；
 
 ```java
 package com.cunyu.test;
@@ -512,14 +490,10 @@ public class DeleteTest {
 
 ![](https://img-blog.csdnimg.cn/img_convert/087f7db9a7249e900dde8c00df58dd8e.png)
 
-
-
 ## 最后
-
-
 
 以上就是我们今天的所有内容了，原创不易，如果你觉得我的文章对你有所帮助，那就帮忙点赞关注吧，我们就下篇文章再见吧 ~
 
 而关于文章中的示例代码，我已经上传到了 Github，如果有需要的朋友，可以自取。
 
->   传送门：https://github.com/cunyu1943/java-learning-demos
+> 传送门：https://github.com/cunyu1943/java-learning-demos

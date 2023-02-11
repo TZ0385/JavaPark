@@ -13,9 +13,10 @@ category:
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ---
+
 ## 前言
 
 在日常开发工作中，我们往往需要自己去构建各种数据表所对应的持久化对象（PO）、用于操作数据库的接口（DAO）以及跟 DAO 所绑定的对应 XML。这都是一些重复性的操作，不需要多大技术含量，这时候我们不禁会去想，有没有一种工具，能够帮助我们去自动生成这些文件呢？答案是：有的！
@@ -26,11 +27,11 @@ category:
 
 作为一个基于 MyBatis 的独立工具，MyBatis Generator 能够满足我们以上的要求，能够通过简单的配置去帮我们生成数据表所对应的 PO、DAO、XML 等文件，减去我们手动去生成这些文件的时间，有效提高开发效率。MyBatis Generator 运行方式多样，主要可以通过以下几种方式来运行：
 
-1.   命令行
-2.   Ant
-3.   Maven
-4.   Java
-5.   Eclipse
+1.  命令行
+2.  Ant
+3.  Maven
+4.  Java
+5.  Eclipse
 
 而我平时主要在 Maven 中配置并使用，所以本文主要基于 Maven 环境来进行讲解。
 
@@ -71,7 +72,7 @@ category:
 
 完成上述步骤后，我们只是完成了 MyBatis Generator 的引入工作，要想让它正常工作，我们还需要对它进行配置，而 MyBatis Generator 在 `pom.xml` 中的主要配置主要有以下几点。
 
-1.   **代码生成器的配置文件所在路径**
+1.  **代码生成器的配置文件所在路径**
 
 这里主要配置 MyBatis Generator 配置文件所在路径，一般我们将其放在 `resources` 路径中，而配置文件的名字则可以自定义，这里我以 `mybatis-generator-config.xml` 为例，此时需要将如下配置加入到 `pom.xml` 文件中。
 
@@ -95,7 +96,7 @@ category:
 
 不过有一点需要注意，就算我们设置了覆盖旧文件，MyBatis Generator 也只会覆盖原来的 PO、DAO 文件，此时 Mapper 不会被覆盖，而是采取追加的方式，从而保证我们自己添加的 sql 语句不会被覆盖掉。
 
-3.   **数据库驱动依赖**
+3.  **数据库驱动依赖**
 
 虽然在项目的 `pom.xml` 文件中我们已经配置了数据库的相关依赖，但是在 MyBatis Generator 配置中仍然需要对其进行再次配置。此时，这里有两种方式供我们选择。
 
@@ -132,7 +133,7 @@ category:
 
 我们在上述步骤中已经引入了 MyBatis Generator，而且也在项目配置文件 `pom.xml` 中配置了 MyBatis Generator 配置文件所在的路径、是否进行文件覆盖以及数据库依赖配置，接下来就该具体来看看，如何对 MyBatis Generator 进行具体配置，配置我们生成代码中的各种细节。
 
-1.   **外部配置文件**
+1.  **外部配置文件**
 
 一般我们需要引入外部文件，主要用于配置项目数据库，方便我们后续的设置，而引入外部配置文件的方式也很简单，具体配置如下：
 
@@ -143,7 +144,7 @@ category:
 </generatorConfiguration>
 ```
 
-2.   **context 配置**
+2.  **context 配置**
 
 除开外部配置外，`context` 无疑是 MyBatis Generator 中最重要的配置了。一个 `context` 配置的具体示例如下：
 
@@ -154,9 +155,9 @@ category:
 
 其中的各个属性含义如下：
 
--   **id**：唯一标识，不可重复，可以根据我们自己的喜好进行自定义。
--   **defaultModelType**：非必填项，有两个值可选，一个是 `conditional`，也是默认值，另一个值是 `flat`，也就是我们常用的一个配置，表示数据库中的一张表对应生成一个 PO。
--   **targetRuntime**：非必填项，这里同样有两个值可选，一个是 `MyBatis3`，一个是 `MyBatis3Simple`，两者的最主要区别在于不同配置下所生成的 DAO 和 Mapper 会有所不同，后者生成的 DAO 和 Mapper 会少很多，只含有日常最常用的。
+- **id**：唯一标识，不可重复，可以根据我们自己的喜好进行自定义。
+- **defaultModelType**：非必填项，有两个值可选，一个是 `conditional`，也是默认值，另一个值是 `flat`，也就是我们常用的一个配置，表示数据库中的一张表对应生成一个 PO。
+- **targetRuntime**：非必填项，这里同样有两个值可选，一个是 `MyBatis3`，一个是 `MyBatis3Simple`，两者的最主要区别在于不同配置下所生成的 DAO 和 Mapper 会有所不同，后者生成的 DAO 和 Mapper 会少很多，只含有日常最常用的。
 
 `context` 除了上面配置的之外，还有许多子元素需要配置，而且这些子元素的配置的个数以及顺序都是规定好的，如果不按照给定的规则进行配置，则会导致错误，常见子元素及个数配置如下（按照规定的顺序进行从上到下排序）：
 
@@ -176,7 +177,7 @@ category:
 
 ### context 子元素配置
 
-1.   **property**
+1.  **property**
 
 如果我们要给我们的所生成文件的编码类型进行设置，则可以在此处进行配置，具体配置如下：
 
@@ -184,9 +185,7 @@ category:
 <property name="javaFileEncoding" value="UTF-8"/>
 ```
 
-
-
-2.   **plugin**
+2.  **plugin**
 
 默认生成的 PO 中，只包含了各个各个属性声明以及各个属性所对应的 `setter/getter`，如果我们想要生成对应 PO 的 `equals` 和 `hashCode` 方法，则可以通过配置如下插件来实现。
 
@@ -206,7 +205,7 @@ category:
 <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
 ```
 
-3.   **commentGenerator**
+3.  **commentGenerator**
 
 该配置主要用于配置生成的注释，默认情况下是会生成注释的，而且会带上时间戳，如果我们不需要这些配置，则可以通过如下配置来清除：
 
@@ -216,12 +215,12 @@ category:
     <property name="suppressAllComments" value="true"/>
     <!-- 是否去除自动生成的时间戳 true：是 ： false:否 -->
     <property name="suppressDate" value="true"/>
-    <!-- 是否添加数据库表中字段的注释 true：是 ： false:否，只有当suppressAllComments 为 false 时才能生效 -->   
+    <!-- 是否添加数据库表中字段的注释 true：是 ： false:否，只有当suppressAllComments 为 false 时才能生效 -->
     <property name="addRemarkComments" value="true"/>
 </commentGenerator>
 ```
 
-4.   **jdbcConnection**
+4.  **jdbcConnection**
 
 既然要自动生成对应文件，那肯定得链接数据库，所以我们需要对数据库进行配置，上面我们讲过导入外部配置文件，我们可以通过这种方式将数据库的配置定义在外部文件中，然后通过导入该文件进行配置即可，具体可以通过如下具体步骤进行：
 
@@ -235,7 +234,7 @@ category:
 </jdbcConnection>
 ```
 
-5.   **javaTypeResolver**
+5.  **javaTypeResolver**
 
 主要用于配置 JDBC 和 Java 中的类型转换规则，如果我们不配置，会采用默认的一套转换规则，而如果我们需要自定义，也只能配置 `bigDecimal`、`NUMERIC` 和时间类型，不能去配置其他类型，否则会导致出错，具体配置规则如下：
 
@@ -246,11 +245,11 @@ category:
 </javaTypeResolver>
 ```
 
--   forceBigDecimals
+- forceBigDecimals
 
 该属性默认为 `false`，此时它会将 JDBC `DECIMAL` 和 `NUMERIC` 类型解析为 `Integer`，若该属性为 `true`，此时将会把 JDBC `DECIMAL` 和 `NUMERIC` 类型解析为 `java.math.BigDecimal`。
 
--   useJSR310Types
+- useJSR310Types
 
 该属性默认为 `false`，它会将 JDBC 所有的时间类型都解析为 `java.util.Date`，若该属性为 `true`，则会按照如下规则进行解析：
 
@@ -262,7 +261,7 @@ category:
 | `TIME_WITH_TIMEZONE`      | `java.time.OffsetTime`     |
 | `TIMESTAMP_WITH_TIMEZONE` | `java.time.OffsetDateTime` |
 
-6.   **javaModelGenerator**
+6.  **javaModelGenerator**
 
 这里主要用于配置自动生成的 PO 所在的包路径和项目路径，这里需要根据自己的需求进行配置，这里以我自己的配置为例，比如我的 PO 所在包为 `com.cunyu1943.mybatisgeneratordemo.entity`，项目路径为 `src/main/java`。
 
@@ -275,7 +274,7 @@ category:
 </javaModelGenerator>
 ```
 
-7.   **sqlMapGenerator**
+7.  **sqlMapGenerator**
 
 配置生成的 `Mapper.xml` 所存放的路径，比如我们要放在 `src/main/resources/mapper` 路径下，则配置如下：
 
@@ -284,7 +283,7 @@ category:
 </sqlMapGenerator>
 ```
 
-8.   **javaClientGenerator**
+8.  **javaClientGenerator**
 
 配置 `Mapper` 接口所存放的路径，一般我们都是存放在项目的 `mapper` 包下，如我的配置为：
 
@@ -294,7 +293,7 @@ category:
 </javaClientGenerator>
 ```
 
-9.   **table**
+9.  **table**
 
 配置所要自动生成代码的数据库表，这里一张表对应一个 `table`，如果要生成多张表，则需要配置多个 `table`，以下为一个具体实例：
 
@@ -430,4 +429,4 @@ jdbc.driver-class-name=com.mysql.cj.jdbc.Driver
 
 最后，关于本示例的相关代码，我已经传到了 Github，如果有需要的兄弟，可以自取。
 
->   🎉🎉🎉 传送门 -> [mybatis-generator-demo](https://github.com/cunyu1943/java-learning-demos/tree/main/mybatis-generator-demo)
+> 🎉🎉🎉 传送门 -> [mybatis-generator-demo](https://github.com/cunyu1943/java-learning-demos/tree/main/mybatis-generator-demo)

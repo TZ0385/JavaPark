@@ -7,11 +7,12 @@ order: 1
 category:
     - SE 实训营
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ---
 
@@ -21,7 +22,7 @@ category:
 
 今天就来复习以下这个课题，用 Java SE 来实现该课题，也算是补上当初上课的时候没有好好写的遗憾吧。
 
-虽然很简单，但是对于刚涉足编程学习的人来讲，还是有一定难度的，既要考虑界面打印，也要考虑条件判断、循环语句、输入输出控制等等技巧，所以在这里简单地实现一下，方便给初学的小伙伴们一个参考（对于我的界面比较丑的问题，就不要过于纠结了，下去可以自己调整😂，我们只关注功能实现🤣）。
+虽然很简单，但是对于刚涉足编程学习的人来讲，还是有一定难度的，既要考虑界面打印，也要考虑条件判断、循环语句、输入输出控制等等技巧，所以在这里简单地实现一下，方便给初学的小伙伴们一个参考（对于我的界面比较丑的问题，就不要过于纠结了，下去可以自己调整 😂，我们只关注功能实现 🤣）。
 
 对于学生成绩管理系统，主要可以分为如下几个功能：
 
@@ -40,49 +41,49 @@ category:
 
 ![](https://img-blog.csdnimg.cn/img_convert/8df8f15688e8e60a2f37408e5e1b991e.png)
 
--   **录入学生成绩**
+- **录入学生成绩**
 
 该功能是每次录入学生的成绩信息，或者在当前数据的基础上添加录入新的学生成绩信息；
 
 ![](https://img-blog.csdnimg.cn/img_convert/ee773f66ab26c72d1e055c2a34726b80.png)
 
--   **统计学生成绩**
+- **统计学生成绩**
 
 主要是对学生的成绩进行统计，然后输出平均分，并打印出对应信息；
 
 ![image-20210405133413661](https://img-blog.csdnimg.cn/img_convert/ba9ba8e22d47559ff28a711ffeb7fdf6.png)
 
--   **查找学生成绩**
+- **查找学生成绩**
 
 根据输入的学号来查找对应学生的相关成绩信息；
 
 ![](https://img-blog.csdnimg.cn/img_convert/4dc976ae64d0adcfc74643dd228c2972.png)
 
--   **修改学生成绩**
+- **修改学生成绩**
 
 根据输入的学号来对对应学生的成绩进行修改；
 
 ![](https://img-blog.csdnimg.cn/img_convert/93a7e09af9d90a599bdb79b5de7c7c63.png)
 
--   **删除学生成绩**
+- **删除学生成绩**
 
 根据输入的学生学号，删除对应学生的成绩信息；
 
 ![](https://img-blog.csdnimg.cn/img_convert/4ba351b052ca1ea1abf42eda0f51811e.png)
 
--   **按平均分排序**
+- **按平均分排序**
 
 按照平均分降序排序；
 
 ![image-20210405135553488](https://img-blog.csdnimg.cn/img_convert/f9b068d8d724f20ca54af69b5048245f.png)
 
--   **显示所有成绩**
+- **显示所有成绩**
 
 便利所有学生成绩，然后打印出来；
 
 ![](https://img-blog.csdnimg.cn/img_convert/776112ffa9b118db618a91e11030ce7f.png)
 
--   **退出管理系统**
+- **退出管理系统**
 
 退出菜单；
 
@@ -92,7 +93,6 @@ category:
 
 鉴于大家的留言说经常会报错找不到对应类，所以在这里也给出这个程序的包结构如下图所示。
 ![](https://img-blog.csdnimg.cn/20210619143254399.png)
-
 
 ## 功能设计与实现
 
@@ -211,7 +211,7 @@ public class Student {
     private float algorithm;
     //    平均分
     private double average;
-    
+
     // 各种 setter/getter 以及构造函数
 }
 ```
@@ -357,8 +357,6 @@ public void lookupStudent(ArrayList<Student> students) {
 }
 ```
 
-
-
 ### 修改学生成绩
 
 先判断是否有数据，有数据再进行后续操作。然后通过对输入的学号进行匹配，找到对应学号的学生，然后对其成绩信息进行修改，但不修改个人其他信息；
@@ -490,8 +488,6 @@ public void sortStudent(ArrayList<Student> students) {
     }
 }
 ```
-
-
 
 ### 显示所有成绩
 
@@ -1020,4 +1016,3 @@ public class Student {
 ## 总结
 
 虽然功能比较简陋，但还是需要一定时间来完成的。此外，本设计只是针对一次运行过程，一旦程序终止，录入的数据就无法保存了，这一点需要注意。后续考虑加入文件写入或者数据库的方式来实现该课程设计，以保存我们所录入的数据。
-

@@ -13,14 +13,11 @@ category:
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
-
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
 此文章用于记录自己在 IDEA 中使用 MySQL 开发过程中所遇到的问题及如何修复。
-
-
 
 ## Bug 及修复
 

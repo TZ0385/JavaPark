@@ -12,7 +12,7 @@ date: 2022-07-14
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 概述
 
@@ -37,8 +37,6 @@ date: 2022-07-14
 | `public ArrayList(Collection<? extends E> c)` | 创建一个包含指定集合中元素的列表 |
 
 ## 常用方法
-
-
 
 ### 元素个数
 
@@ -74,7 +72,7 @@ date: 2022-07-14
 
 ### 元素遍历
 
-1.   **for 循环**
+1.  **for 循环**
 
 ```java
 import java.util.ArrayList;
@@ -93,7 +91,7 @@ public class ForTest {
 }
 ```
 
-2.   **增强 for 循环**
+2.  **增强 for 循环**
 
 ```java
 import java.util.ArrayList;
@@ -111,7 +109,7 @@ public class EnhanceForTest {
 }
 ```
 
-3.   **迭代器**
+3.  **迭代器**
 
 ```java
 import java.util.ArrayList;
@@ -133,5 +131,4 @@ public class IterTest {
 
 ## 总结
 
-本文主要讲解了 `ArrayList` 的定义、泛型支持、构造方法以及常用方法等。主要针对的是日常中的使用，更多关于 `ArrayList` 底层原理的一些知识，抽个时间再聊吧！
-
+本文主要讲解了 `ArrayList` 的定义、泛型支持、构造方法以及常用方法等。主要针对的是日常中的使用，更多关于 `ArrayList`  底层原理的一些知识，抽个时间再聊吧！

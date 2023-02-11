@@ -12,7 +12,7 @@ date: 2022-04-08
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 # 前言
 
@@ -92,7 +92,7 @@ timedatectl set-local-rtc 1
 然后在当前文件夹下打开终端，输入如下命令安装即可；
 
 ```shell
-sudo dpkg -i sogoupinyin_2.3.1.0112_amd64.deb 
+sudo dpkg -i sogoupinyin_2.3.1.0112_amd64.deb
 ```
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTE5MTI3ZDNmNjMyZTQyZTMucG5n?x-oss-process=image/format,png)
@@ -115,14 +115,14 @@ sudo apt-get --fix-broken install
 ## 浏览器
 
 - Chrome
-    说到浏览器，虽然 Ubuntu 中预装了 Firefox，但笔者更习惯用 Chrome ，作为全球范围内份额最高的浏览器，自然不用说啥，其实微软新出的 Edge 浏览器也很不错，只是目前还没有支持 Linux，后续可能会进一步支持。
+  说到浏览器，虽然 Ubuntu 中预装了 Firefox，但笔者更习惯用 Chrome ，作为全球范围内份额最高的浏览器，自然不用说啥，其实微软新出的 Edge 浏览器也很不错，只是目前还没有支持 Linux，后续可能会进一步支持。
 
 - 安装
 
 建议使用 deb 安装包安装，先 [下载](https://www.google.cn/intl/zh-CN/chrome/) 安装包，然后在本地终端使用如下命令进行安装；
 
 ```shell
-sudo dpkg -i google-chrome-stable_current_amd64.deb 
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTY0OWZkMTA1YWRiMmM3NTUucG5n?x-oss-process=image/format,png)
@@ -184,7 +184,7 @@ sudo dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
 ## 截图工具
 
 - flameshot
-    flameshot，能够用于标注、模糊，同时还支持上传到 imgur 图床的新式截图工具；
+  flameshot，能够用于标注、模糊，同时还支持上传到 imgur 图床的新式截图工具；
 - 安装
 
 ```shell
@@ -207,7 +207,7 @@ sudo apt install flameshot
 
 - Gimp
 
-GIMP是 GNU Image Manipulation Program（GNU图像处理程序）的缩写，它是 Peter Mattis 和 Spencer Kimhall 开发的免费照片和图像处理和创作工具，功能十分强大。支持多种图像处理工具、全通道、多级撤销操作恢复旧貌与映像修饰等功能。支持数目众多的效果插件（plug-ins），完全可以与 Windows 平台下著名的图像处理软件 Photoshop 媲美；
+GIMP 是 GNU Image Manipulation Program（GNU 图像处理程序）的缩写，它是 Peter Mattis 和 Spencer Kimhall 开发的免费照片和图像处理和创作工具，功能十分强大。支持多种图像处理工具、全通道、多级撤销操作恢复旧貌与映像修饰等功能。支持数目众多的效果插件（plug-ins），完全可以与 Windows 平台下著名的图像处理软件 Photoshop 媲美；
 
 - 安装
 
@@ -265,7 +265,7 @@ sudo apt-get install typora
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTg3ZDJiYWEyOTZhOGVhMmQucG5n?x-oss-process=image/format,png)
 
--   成品
+- 成品
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NVYnVudHUvMjAyMDA0MjIxMTQ3MTIucG5n?x-oss-process=image/format,png)
 
@@ -300,13 +300,13 @@ sudo apt-get install okular
 去 [下载](https://www.xmind.cn/download/) 安装包之后，在终端中使用如下命令行安装即可；
 
 ```shell
-sudo dpkg -i XMind-2020-for-Linux-amd-64bit-10.1.2-202004142327.deb 
+sudo dpkg -i XMind-2020-for-Linux-amd-64bit-10.1.2-202004142327.deb
 ```
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWNkYmEwNDU3ZTExNWUzMDAucG5n?x-oss-process=image/format,png)
 
 - 成品
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWY1OTMyOGQyNDAzMzRlMjEucG5n?x-oss-process=image/format,png)
+  ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWY1OTMyOGQyNDAzMzRlMjEucG5n?x-oss-process=image/format,png)
 
 ## 多媒体播放器
 
@@ -330,11 +330,11 @@ sudo snap install vlc
 
 ## 录屏软件
 
--   Kazam
+- Kazam
 
 小巧而强大，易安装，即可选择区域录制，也可选择全屏录制，同时还兼具截图功能；
 
--   安装
+- 安装
 
 直接在终端中使用如下命令安装即可：
 
@@ -342,19 +342,17 @@ sudo snap install vlc
 sudo apt install kazam
 ```
 
-
-
--   成品
+- 成品
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NVYnVudHUvMjAyMDA0MjIxMTUzMTMucG5n?x-oss-process=image/format,png)
 
 ## 视频编辑软件
 
--   OpenShot
+- OpenShot
 
 OpenShot 是 Linux 上的一个多用途视频编辑器，可以帮助你创建具有过渡和效果的视频。
 
--   安装
+- 安装
 
 直接在终端中使用如下命令安装即可；
 
@@ -362,7 +360,7 @@ OpenShot 是 Linux 上的一个多用途视频编辑器，可以帮助你创建�
 sudo apt install openshot
 ```
 
--   成品
+- 成品
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NVYnVudHUvMjAyMDA0MjIxMTUyMzEucG5n?x-oss-process=image/format,png)
 
@@ -370,7 +368,7 @@ sudo apt install openshot
 
 - uGet
 
-Uget（原名：Urlgfe）是一个基于 GTK+ 编写的自由和开放源码的下载管理器 ，跨平台（Windows和GNU / Linux的），支持断点续传和分类下载 ，uGet 同时 具备 多线程下载能力；
+Uget（原名：Urlgfe）是一个基于 GTK+ 编写的自由和开放源码的下载管理器 ，跨平台（Windows 和 GNU / Linux 的），支持断点续传和分类下载 ，uGet 同时 具备 多线程下载能力；
 
 - 安装
 
@@ -433,7 +431,7 @@ npm -v
 先去 [下载](https://www.oracle.com/java/technologies/javase-downloads.html) 要安装的 JDK 版本，然后解压到本地，移到你要存放的位置；
 
 ```shell
-tar -zxvf jdk-11.0.7_linux-x64_bin.tar.gz 
+tar -zxvf jdk-11.0.7_linux-x64_bin.tar.gz
 ```
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWUyZGYwYjIzNzdiMTcyODUucG5n?x-oss-process=image/format,png)
@@ -475,9 +473,9 @@ javac
 直接去 [下载](https://docs.conda.io/en/latest/miniconda.html) 对应版本安装包，此处以 3.7 版本为例，然后在终端中对齐赋予执行权限后执行；
 
 ```shell
-chmod +x Miniconda3-latest-Linux-x86_64.sh 
+chmod +x Miniconda3-latest-Linux-x86_64.sh
 
-sh Miniconda3-latest-Linux-x86_64.sh 
+sh Miniconda3-latest-Linux-x86_64.sh
 ```
 
 执行后会让你阅读相关权限，然后输入 yes 同意，然后会让你指定安装目录，默认就直接回车就好，最后等安装好即可；
@@ -540,10 +538,10 @@ sudo dpkg -i code_1.44.2-1587059832_amd64.deb
 - 安装
 
 从官网 [下载](https://www.jetbrains.com/idea/download/#section=linux)
- 对应安装包，然后将其解压；
+对应安装包，然后将其解压；
 
 ```shell
-tar -zxvf ideaIU-2020.1.tar.gz 
+tar -zxvf ideaIU-2020.1.tar.gz
 ```
 
 进入 **IDEA/bin** 目录下，执行 `idea.sh` 即可；
@@ -561,7 +559,7 @@ tar -zxvf ideaIU-2020.1.tar.gz
 从官网 [下载](https://www.jetbrains.com/pycharm/download/#section=linux) 对应安装包，然后将其解压；
 
 ```shell
-tar -zxvf pycharm-professional-2020.1.tar.gz 
+tar -zxvf pycharm-professional-2020.1.tar.gz
 ```
 
 进入 **Pycharm/bin** 目录下，执行 `pycharm.sh` 即可；
@@ -594,7 +592,7 @@ sudo ./install.sh -t -2 -b
 
 ```
 #lockDialogGroup {
-  background: #2c001e       
+  background: #2c001e
   url(file:///home/cunyu/imgs/lock.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -656,7 +654,7 @@ sudo apt install zsh
 chsh -s /usr/bin/zsh
 ```
 
--   美化
+- 美化
 
 安装 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)，通过如下任一命令安装；
 

@@ -7,11 +7,12 @@ date: 2022-03-08
 order: 1
 category: PostgreSQL 教程
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
@@ -43,43 +44,43 @@ category: PostgreSQL 教程
 
 准备工作好了之后，接下来就是正式安装过程了。
 
-1.   双击我们下载好的安装包之后，进入安装界面，首先是一个欢迎界面，直接 `Next` 下一步即可；
+1.  双击我们下载好的安装包之后，进入安装界面，首先是一个欢迎界面，直接 `Next` 下一步即可；
 
 ![](https://img-blog.csdnimg.cn/img_convert/d25464db8f1ccad9d4fe193df1657553.png)
 
-2.   然后是选择安装路径，这里默认是在 `C:\Program Files\PostgreSQL\13` 下，不过我们一般推荐安装到自己平常安装软件的地方，不要直接安装在 C 盘；
+2.  然后是选择安装路径，这里默认是在 `C:\Program Files\PostgreSQL\13` 下，不过我们一般推荐安装到自己平常安装软件的地方，不要直接安装在 C 盘；
 
 ![](https://img-blog.csdnimg.cn/img_convert/ccde635d53ecde5db61fbd8b4770a6e3.png)
 
-3.   选择所要安装的组件，这里默认是全部安装，如果你们有特殊的要求，那就默认直接点击 `Next` 下一步即可；
+3.  选择所要安装的组件，这里默认是全部安装，如果你们有特殊的要求，那就默认直接点击 `Next` 下一步即可；
 
 ![](https://img-blog.csdnimg.cn/img_convert/972c4ada250cbcb1ae11fc64d67d1ea8.png)
 
-4.   选择数据数据存放的地方，这里默认实在安装路径下的 `data` 子目录下，如果你之前在第 2 步中自定义了安装路径，那么这里直接选择 `Next` 下一步即可；
+4.  选择数据数据存放的地方，这里默认实在安装路径下的 `data` 子目录下，如果你之前在第 2 步中自定义了安装路径，那么这里直接选择 `Next` 下一步即可；
 
 ![](https://img-blog.csdnimg.cn/img_convert/14acea39ce07988b9c47b9dd72ec796a.png)
 
-5.   设置密码，也就是待会儿我们安装结束后登陆时所需的密码，这里自己设置即可（**一定要记住！**）；
+5.  设置密码，也就是待会儿我们安装结束后登陆时所需的密码，这里自己设置即可（**一定要记住！**）；
 
 ![](https://img-blog.csdnimg.cn/img_convert/d8f597a48d75ac8679a19ede476345cb.png)
 
-6.   端口设置，PostgreSQL 默认端口是 5432，如果你不想使用默认端口，可以自定义想要使用的端口，这里如果改动了也要记住，确保不要和其他服务冲突；
+6.  端口设置，PostgreSQL 默认端口是 5432，如果你不想使用默认端口，可以自定义想要使用的端口，这里如果改动了也要记住，确保不要和其他服务冲突；
 
 ![](https://img-blog.csdnimg.cn/img_convert/6e15b68a9641a7a44be4108e9e81b3c9.png)
 
-7.   其实就是时区选择，这里直接默认点击 `Next` 下一步即可；
+7.  其实就是时区选择，这里直接默认点击 `Next` 下一步即可；
 
 ![](https://img-blog.csdnimg.cn/img_convert/88596c55247c9a327fdf825629a05bfa.png)
 
-8.   然后是确认信息，确保我们已经准备好了要开始 PostgreSQL 的安装，直接点击 `Next` 下一步即可；
+8.  然后是确认信息，确保我们已经准备好了要开始 PostgreSQL 的安装，直接点击 `Next` 下一步即可；
 
 ![](https://img-blog.csdnimg.cn/img_convert/15781307661c1c8e0626ef0dc5730a37.png)
 
-9.   接下来就是相对漫长的安装过程了，这里等待即可；
+9.  接下来就是相对漫长的安装过程了，这里等待即可；
 
 ![](https://img-blog.csdnimg.cn/img_convert/3bd19984a627c03b15ce27a86af8e59a.png)
 
-10.   好了，显示此界面就说明我们的安装过程结束了，点击 `Finish` 完成安装即可。
+10. 好了，显示此界面就说明我们的安装过程结束了，点击 `Finish` 完成安装即可。
 
 ![](https://img-blog.csdnimg.cn/img_convert/294881a19a526faee6a12ba990576f0b.png)
 

@@ -7,12 +7,15 @@ category:
   - macOS 教程
 date: 2022-11-13
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
+
 ---
+
 ## 什么是 Node.js
 
 `Node.js` 是一个基于 `Chrome V8` 引擎的 `JavaScript` 运行时环境。最早发布于 2009 年 5 月，由 `Ryan Dahl` 开发。它使用了一个事件驱动、非阻塞式 `I/O` 模型，让 `JavaScript` 运行在服务端的开发平台，能让 `JavaScript` 成为 `PHP`、`Python`、`Perl`、`Ruby` 等服务端语言的脚本语言。
@@ -35,6 +38,7 @@ date: 2022-11-13
 
 这里注意和 `Windows` 区分一下，因为 `macOS` 是基于 `Unix` 开发而来的，所以它的目录结构和 `Linux` 类似，是在总的根目录 `/` 下存在子目录。
 ![](https://img-blog.csdnimg.cn/3f5c380b1b07471684ab25d4e198a33a.png)
+
 2. 点击**继续**，会提示软件的相关许可协议。
 
 ![](https://img-blog.csdnimg.cn/b236646d36d644abbbad9586c548c9f9.png)
@@ -42,7 +46,6 @@ date: 2022-11-13
 - 如果点击**打印**，而你的电脑也连接了打印机，那么这时候就能够将协议打印出来。
 
 ![](https://img-blog.csdnimg.cn/2e216b16032e48bc975879a6c33e3efa.png)
-
 
 - 如果点击**存储**，此时会将协议保存为 `pdf`，由自己选择存放的路径。
 
@@ -66,11 +69,5 @@ date: 2022-11-13
 ![](https://img-blog.csdnimg.cn/34f899be9c4b472ca820ff95e61c821f.png)
 
 ## 总结
+
 以上就是在 `macOS` 中安装 `Node.js` 的具体详细步骤，如果你还有任何的疑惑，欢迎在评论区留言或者私信我。当然，如果该教程对你有所帮助，那就给我点个赞再走吧。
-
-
-
-
-
-
-

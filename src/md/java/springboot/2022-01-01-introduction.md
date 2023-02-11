@@ -12,7 +12,7 @@ icon: intro
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
@@ -23,8 +23,6 @@ Spring Boot 是为简化 Spring 应用初始搭建和开发过程，我们只要
 今天我们就来看看，关于 Spring Boot 的相关介绍吧！
 
 ## Spring Boot
-
-
 
 ### 定义
 
@@ -44,29 +42,27 @@ A[Java Se & EE] --> B[Spring]
 B[Spring] --> C[Spring Boot]
 ```
 
-
-
 ### 特点
 
--   可以创建独立 `Spring` 应用程序，并且基于 `Maven` 或 `Gradle` 插件，可以创建可执行的 `JARs` 和 `WARs`；
--   内嵌 `Tomcat` 或 `Jetty` 等 `Servlet` 容器；
--   提供自动配置的 `started` 项目对象模型（`POMS`）以简化 `Maven` 配置；
--   尽可能自动配置 `Spring` 容器；
--   提供准备好的特性，如指标、健康检查和外部化配置；
--   没有冗余代码生成，不需要 `XML` 配置；
+- 可以创建独立 `Spring` 应用程序，并且基于 `Maven` 或 `Gradle` 插件，可以创建可执行的 `JARs` 和 `WARs`；
+- 内嵌 `Tomcat` 或 `Jetty` 等 `Servlet` 容器；
+- 提供自动配置的 `started` 项目对象模型（`POMS`）以简化 `Maven` 配置；
+- 尽可能自动配置 `Spring` 容器；
+- 提供准备好的特性，如指标、健康检查和外部化配置；
+- 没有冗余代码生成，不需要 `XML` 配置；
 
 ### 重要策略
 
--   **开箱即用**：`Outofbox`，指在开发过程中，通过在 `Maven` 项目的 `pom` 文件中添加相关依赖包，然后使用对应注解来代替繁琐的 `XML` 配置文件以管理对象的生命周期。这一特点使得开发人员摆脱了复杂的配置工作以及相关依赖的管理工作，更加专注于业务逻辑；
--   **约定优于配置**：`Convention over configuration`，一种由 `SpringBoot` 本身来配置目标结构，由开发者在结构中添加信息的软件设计范式。这一特点虽然降低了部分灵活性，增加了 `BUG` 定位的复杂性，但减少了开发人员需要做出决定的数量，同时减少了大量 `XML` 配置，而且可以将代码编译、测试和打包等工作自动化；
+- **开箱即用**：`Outofbox`，指在开发过程中，通过在 `Maven` 项目的 `pom` 文件中添加相关依赖包，然后使用对应注解来代替繁琐的 `XML` 配置文件以管理对象的生命周期。这一特点使得开发人员摆脱了复杂的配置工作以及相关依赖的管理工作，更加专注于业务逻辑；
+- **约定优于配置**：`Convention over configuration`，一种由 `SpringBoot` 本身来配置目标结构，由开发者在结构中添加信息的软件设计范式。这一特点虽然降低了部分灵活性，增加了 `BUG` 定位的复杂性，但减少了开发人员需要做出决定的数量，同时减少了大量 `XML` 配置，而且可以将代码编译、测试和打包等工作自动化；
 
 ### Spring Boot 项目约定
 
--   约定项目中有且只有一个入口类，其类名推荐使用：`xxxApplication.java`。而且该入口类必须位于所有的子包之外，其中必须存在一个用于启动项目的 `main` 函数。
+- 约定项目中有且只有一个入口类，其类名推荐使用：`xxxApplication.java`。而且该入口类必须位于所有的子包之外，其中必须存在一个用于启动项目的 `main` 函数。
 
 ![](https://img-blog.csdnimg.cn/img_convert/e004e85b17f27105407b1916186d9943.png)
 
--   此外， Spring Boot 项目约定必须在项目根目录中存在一个名为 `application.yml` 或者 `yml.prpperties` 的配置文件，一般是位于 `resources` 目录下。
+- 此外， Spring Boot 项目约定必须在项目根目录中存在一个名为 `application.yml` 或者 `yml.prpperties` 的配置文件，一般是位于 `resources` 目录下。
 
 ![](https://img-blog.csdnimg.cn/img_convert/d497cf5ecdfa0901da96910ed026d52d.png)
 
@@ -94,7 +90,7 @@ B[Spring] --> C[Spring Boot]
 
 以上就是今天的所有内容了，主要讲了 Spring Boot 的定义、特点、项目约定以及其优缺点。而关于 Spring Boot 项目的具体事例的搭建，我们就下期文章再见吧！
 
->   传送门：[创建 SpringBoot 项目的 3 种方式](https://blog.csdn.net/github_39655029/article/details/119618308)
+> 传送门：[创建 SpringBoot 项目的 3 种方式](https://blog.csdn.net/github_39655029/article/details/119618308)
 
 最后，如果本文对你有所帮助，那就点个赞再走鸭 ~
 

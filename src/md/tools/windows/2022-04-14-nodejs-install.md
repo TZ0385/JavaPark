@@ -12,10 +12,7 @@ date: 2022-04-14
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
-
-
-
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
@@ -27,41 +24,41 @@ date: 2022-04-14
 
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDQwODIxMDIxNy5wbmc?x-oss-process=image/format,png)
 
-##  安装
+## 安装
 
 1. 双击下载好的安装包；
 
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDQwODIxMDc0MC5wbmc?x-oss-process=image/format,png)
+   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDQwODIxMDc0MC5wbmc?x-oss-process=image/format,png)
 
 2. 直接下一步；
 
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTZkMGQ4MTQ4MWY2MThlNjMucG5n?x-oss-process=image/format,png)
+   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTZkMGQ4MTQ4MWY2MThlNjMucG5n?x-oss-process=image/format,png)
 
 3. 勾选同意相关使用协议，同时下一步；
 
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTAzNmVkZDcyODNiNTAxYzQucG5n?x-oss-process=image/format,png)
+   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTAzNmVkZDcyODNiNTAxYzQucG5n?x-oss-process=image/format,png)
 
 4. 修改成你要安装的路径（默认也可以），然后下一步；
 
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllYmI1Njk1M2Y5Mw?x-oss-process=image/format,png)
+   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllYmI1Njk1M2Y5Mw?x-oss-process=image/format,png)
 
 5. 建议不作修改，直接下一步，当然你也可以对里边所需服务进行勾选；
 
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllZDdkMjljYTg1Ng?x-oss-process=image/format,png)
+   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllZDdkMjljYTg1Ng?x-oss-process=image/format,png)
 
 6. 所需工具自己需要就勾选，不需要就直接下一步；
 
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllZTEzMWE1MjUwNg?x-oss-process=image/format,png)
+   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllZTEzMWE1MjUwNg?x-oss-process=image/format,png)
 
 7. 直接安装，开始安装；
 
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllZWQxNTllZmQ0Mg?x-oss-process=image/format,png)
+   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllZWQxNTllZmQ0Mg?x-oss-process=image/format,png)
 
 8. 完成安装后，点击 Finish 完成安装；
 
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTlmMDU2OTdiMTUxNA?x-oss-process=image/format,png)
+   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTlmMDU2OTdiMTUxNA?x-oss-process=image/format,png)
 
-##  验证
+## 验证
 
 安装后，我们怎样知道自己是否安装成功呢？可以使用如下命令查看，若成功则会返回下图类似结果；
 
@@ -98,6 +95,6 @@ cache = D:\node\node_cache
 
 ![](https://img-blog.csdnimg.cn/img_convert/90614e36232264ba33de238ec0173007.png)
 
-##  总结
+## 总结
 
 通过上述操作，我们就可以成功安装`Node.js`，接下来我们就可以使用 `npm` 等工具了，是不是很简单呢！

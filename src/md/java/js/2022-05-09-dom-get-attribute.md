@@ -7,15 +7,14 @@ order: 40
 category: JavaScript 教程
 ---
 
-
 ## 什么是 Web API
 
 Web API 是指网页服务器或者网页浏览器的应用程序接口。简单来讲，就是我们在编写 JavaScript 代码时，可以通过 Web API 来操作 HTML 网页和浏览器。
 
 Web API 又可以分为两类：
 
--   DOM（文档对象模型）
--   BOM（浏览器对象模型）
+- DOM（文档对象模型）
+- BOM（浏览器对象模型）
 
 ![](https://img-blog.csdnimg.cn/img_convert/ca7783e87ad2eafae32b4090697d3dcc.png)
 
@@ -46,20 +45,25 @@ DOM（`Document Object Model`），即文档对象模型，主要用来呈现以
 	</body>
 </html>
 ```
+
 ![](https://img-blog.csdnimg.cn/img_convert/7e563024185360972ec1298d052b0e76.png)
 可以看到原本 `button` 标签的属性 `innerText` 从原先的点击变成了 村雨遥，说明通过修改 JavaScript 对象属性从而改变 HTML 中标签属性的目的达到了。
 
 ## DOM 对象获取
+
 1. **匹配的首个元素**
-上一小节实例中我们其实已经获取过相关 DOM 对象了，也就是以下这一句：
+   上一小节实例中我们其实已经获取过相关 DOM 对象了，也就是以下这一句：
+
 ```js
 let btn = document.querySelector('button');
 ```
 
 这其实是通过 CSS 选择器来获取的我们网页中的标签，通过以下语法，我们将会从网页中选择到匹配的第一个元素。
+
 ```js
 document.querySelector('CSS 选择器');
 ```
+
 其中的参数包含了一个或多个有效的 CSS 选择器字符串，然后返回的结果就是匹配到的 CSS 选择器中的**第一个元素**，是一个 `HTMLElement` 元素。当然，如果没有匹配到任何元素，则返回 `null`。
 
 以下是一个获取 DOM 对象的实例。
@@ -91,6 +95,7 @@ document.querySelector('CSS 选择器');
 2. **匹配的多个元素**
 
 之前我们已经学习了如何获取匹配的首个元素，但是在日常开发中，我们常常需要获取匹配到的多个元素，此时我们就可以使用如下语法来获取匹配的多个元素。
+
 ```js
 document.querySelectorAll('CSS 选择器');
 ```
@@ -115,25 +120,25 @@ document.querySelectorAll('CSS 选择器');
 	</body>
 
 </html>
-````
+```
 
 ![](https://img-blog.csdnimg.cn/img_convert/093eaf1ff0a0bb858b49c472fd09e231.png)
 
 除开上述两种获取 DOM 对象之外，还提供了一些用于获取 DOM 元素的方法。最常见的几种总结如下：
 
--   根据 `id` 获取一个元素
+- 根据 `id` 获取一个元素
 
 ```js
 document.getElementById('id 元素名');
 ```
 
--   根据标签获取页面中的一类元素
+- 根据标签获取页面中的一类元素
 
 ```js
 document.getElementsByTagName('标签名');
 ```
 
--   根据类名获取页面中的元素
+- 根据类名获取页面中的元素
 
 ```js
 document.getElementsByClassName('类名')
@@ -179,13 +184,13 @@ document.getElementsByClassName('类名')
 
 这里 Web API 主要提供了三种方式，分别是：
 
--   `document.write()`
--   `innerText` 属性
--   `innerHTML` 属性
+- `document.write()`
+- `innerText` 属性
+- `innerHTML` 属性
 
 ### doucument.write()
 
-该方法只能将文本内容追加到 `</body>`  标签前面的位置，而且文本内容中所包含的标签也同样会被解析。
+该方法只能将文本内容追加到 `</body>` 标签前面的位置，而且文本内容中所包含的标签也同样会被解析。
 
 ```js
 <!DOCTYPE html>
@@ -270,13 +275,11 @@ document.getElementsByClassName('类名')
 
 出了修改文本内容，我们还可以实现对元素样式的控制，主要可以通过以下三种方式：
 
--   通过 `style` 属性操作 CSS
--   通过类名 `className` 操作 CSS
--   通过 `classList` 操作类控制 CSS
+- 通过 `style` 属性操作 CSS
+- 通过类名 `className` 操作 CSS
+- 通过 `classList` 操作类控制 CSS
 
-
-
-1.   **通过 `style` 属性操作 CSS**
+1.  **通过 `style` 属性操作 CSS**
 
 语法结构如下：
 
@@ -313,7 +316,7 @@ document.getElementsByClassName('类名')
 
 ![](https://img-blog.csdnimg.cn/img_convert/3b5601f55041a8de8d15357cb97d91ca.png)
 
-2.   通过类名 `className` 操作 CSS
+2.  通过类名 `className` 操作 CSS
 
 当设计修改的样式较多时，如果直接通过 `style` 属性修改比较麻烦，此时就可以通过操作 CSS 类名的方式来进行批量修改，其语法结构如下：
 
@@ -358,7 +361,7 @@ document.getElementsByClassName('类名')
 
 使用类名来操作 CSS 时，需要注意一下，如果原先的元素中已经有了 CSS 类，那么此时新增的 CSS 类将覆盖之前 CSS 类。
 
-3.   **通过 `classList` 来操作 CSS**
+3.  **通过 `classList` 来操作 CSS**
 
 针对通过类名 `className` 操作 CSS 会覆盖以前类名的问题，JavaScript 中又提供了 `classList` 的方式来追加和删除类名。
 

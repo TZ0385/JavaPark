@@ -7,11 +7,13 @@ category:
   - 效率提升
 date: 2022-04-23
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
+
 ## 前言
 
 对于写博客的朋友们来讲，图床这个东西一定不会陌生，而且在一定程度上也给大家造成过一定困扰。
@@ -30,11 +32,11 @@ date: 2022-04-23
 
 今天的文章就是给大家分享一个搭建免费图床的教程，既是方便自己后续的复习，也希望对大家也有所帮助。
 
-##  准备工作
+## 准备工作
 
 那么在正式开始之前，你需要提前准备以下东西：
 
->   一个 Github 账号
+> 一个 Github 账号
 
 <img src="http://ww2.sinaimg.cn/bmiddle/9150e4e5ly1g6zyr5dbqvj20cs0cudgc.jpg" style="zoom:50%;" />
 
@@ -58,7 +60,7 @@ date: 2022-04-23
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-successimg.png)
 
-##  上传图片
+## 上传图片
 
 通过上面的步骤，我们的图床时搭建好了，但是通过传统的方法向 Github 上传图片太麻烦了，这里我们推荐使用一个开源图床工具 [PicGo](https://molunerfinn.com/PicGo/) 来作为我们的图片上传工具；
 
@@ -84,7 +86,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126134143580.png)
 
-4.  配置 PicGo，依次打开 图床设置 ->  Github 图床；
+4.  配置 PicGo，依次打开 图床设置 -> Github 图床；
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126134655906.png)
 
@@ -96,13 +98,13 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126135321015.png)
 
-##  加速访问
+## 加速访问
 
 大家可能会发现，我们上传到 Github 的图片有时候访问太慢了，有时候甚至直接加载不出来！那该咋办呢？
 
 这时候我们就可以用 [jsDelivr](https://www.jsdelivr.com/) 进行免费加速，而设置的方法也很简单，只需要在我们 PicGo 图床配置中添加如下自定义域名即可；
 
->   `https://cdn.jsdelivr.net/gh/用户名/仓库名`
+> `https://cdn.jsdelivr.net/gh/用户名/仓库名`
 
 比如我的就是 `https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs`
 
@@ -116,7 +118,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 2.  [SM.MS](https://sm.ms/)
 3.  [Imgur](https://imgur.com/)
 
-##  总结
+## 总结
 
 至此，我们的搭建免费图床的教程就到此结束了，总结一下主要有如下几部分：
 
@@ -129,4 +131,3 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 如果你对上面的部分有疑问，欢迎留言或者私信，我会在看到的第一时间回复你！
 
 ![](http://ww4.sinaimg.cn/bmiddle/6af89bc8gw1f8srz9343vj205i05ijr9.jpg)
-

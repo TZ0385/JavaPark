@@ -14,7 +14,7 @@ category:
 
 原文：https://mp.weixin.qq.com/s/_FWd0Bj3DlbCReex6pqJKQ
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 何为测试
 
@@ -22,13 +22,13 @@ category:
 
 ### 黑盒测试
 
->   黑盒测试（`black-box testing`），也称黑箱测试，是软件测试方法，测试应用程序的功能，而不是其内部结构或运作。测试者不需具备应用程序的代码、内部结构和编程语言的专门知识。测试者只需知道什么是系统应该做的事，即当键入一个特定的输入，可得到一定的输出。测试案例是依应用系统应该做的功能，照规范、规格或要求等设计。测试者选择有效输入和无效输入来验证是否正确的输出。
+> 黑盒测试（`black-box testing`），也称黑箱测试，是软件测试方法，测试应用程序的功能，而不是其内部结构或运作。测试者不需具备应用程序的代码、内部结构和编程语言的专门知识。测试者只需知道什么是系统应该做的事，即当键入一个特定的输入，可得到一定的输出。测试案例是依应用系统应该做的功能，照规范、规格或要求等设计。测试者选择有效输入和无效输入来验证是否正确的输出。
 
 黑盒测试方法可适合大部分的软件测试，例如集成测试（`integration testing`）以及系统测试（`system testing`）。
 
 ### 白盒测试
 
->   白盒测试（`white-box testing`），又称透明盒测试 `glass box testing`、结构测试 `structural testing` 等）是一个测试软件的方法，测试应用程序的内部结构或运作，而不是测试应用程序的功能（即黑盒测试）。在白盒测试时，以编程语言的角度来设计测试案例。测试者输入资料验证资料流在程序中的流动路径，并确定适当的输出，类似测试电路中的节点。
+> 白盒测试（`white-box testing`），又称透明盒测试 `glass box testing`、结构测试 `structural testing` 等）是一个测试软件的方法，测试应用程序的内部结构或运作，而不是测试应用程序的功能（即黑盒测试）。在白盒测试时，以编程语言的角度来设计测试案例。测试者输入资料验证资料流在程序中的流动路径，并确定适当的输出，类似测试电路中的节点。
 
 白盒测试可以应用于单元测试（`unit testing`）、集成测试（`integration testing`）和系统的软件测试流程，可测试在集成过程中每一单元之间的路径，或者主系统跟子系统中的测试。尽管这种测试的方法可以发现许多的错误或问题，它可能无法检测未使用部分的规范。
 
@@ -38,7 +38,7 @@ category:
 
 ### 什么是 JUnit
 
->   官网：https://junit.org/
+> 官网：https://junit.org/
 
 JUnit 是一个编写可重复测试的简单框架，是单元测试框架 xUnit 的一个实例，属于白盒测试。
 
@@ -53,19 +53,19 @@ JUnit 是一个编写可重复测试的简单框架，是单元测试框架 xUni
 
 ### 如何安装 JUnit
 
--   **本地安装**
+- **本地安装**
 
 对于这种方法，我们只需要去下载 JUnit 最新的包，当前有 Junit4 和 Junit5 两个版本，可以根据自己的需要进行选择然后导入我们 IDE 的依赖文件即可，依赖文件下载地址如下：
 
->   JUnit4：https://github.com/junit-team/junit4/releases/
+> JUnit4：https://github.com/junit-team/junit4/releases/
 >
->   JUnit5：https://github.com/junit-team/junit5/releases/
+> JUnit5：https://github.com/junit-team/junit5/releases/
 
 以 IDEA 为例，依次打开 `File -> Project Structure -> Project Settings -> Modules -> Dependencies -> 点击 + -> Library... -> Java`，最后找到下载的 JUnit 文件即可；
 
 ![](https://img-blog.csdnimg.cn/img_convert/6fa746fca397f6a6eb14ef6ded41237e.png)
 
--   **Maven 安装**
+- **Maven 安装**
 
 当使用 Maven 之后，我们就能十分简单地安装 JUnit 了，只需要在项目的 `pom.xml` 配置文件中导入依赖即可；
 
@@ -130,7 +130,7 @@ public class Calc {
 
 1.  **定义测试类**
 
-定义测试类时，我们推荐定义类名时就是 **主类Test** 的形式，比如我们上面的类为 `Calc`，我们要对其进行测试，则测试类的类名为 `CalcTest`；
+定义测试类时，我们推荐定义类名时就是 **主类 Test** 的形式，比如我们上面的类为 `Calc`，我们要对其进行测试，则测试类的类名为 `CalcTest`；
 
 ```java
 package com.cunyu;
@@ -151,9 +151,9 @@ public class CalcTest {
 
 测试类定义好之后，我们就可以定义测试方法了，而定义测试方法时，我们也有几点建议；
 
--   测试方法名是在主类方法名前加上 `test`，比如我们上边的方法为 `add`，则我们对应的测试方法名为 `testAdd`；
--   针对测试方法的返回值，因为我们只需要在方法内给出结果即可，不用再供其他人调用，所以建议返回值设置为 `void`；
--   针对测试方法的参数列表，由于我们主要还是针对传统建类调用方法测试的方法，所以此时最好是保持参数列表为空；
+- 测试方法名是在主类方法名前加上 `test`，比如我们上边的方法为 `add`，则我们对应的测试方法名为 `testAdd`；
+- 针对测试方法的返回值，因为我们只需要在方法内给出结果即可，不用再供其他人调用，所以建议返回值设置为 `void`；
+- 针对测试方法的参数列表，由于我们主要还是针对传统建类调用方法测试的方法，所以此时最好是保持参数列表为空；
 
 ```java
 package com.cunyu;
@@ -188,11 +188,11 @@ public class CalcTest {
 
 一般来讲，测试成功一般是绿色，而测试失败则是红色。
 
--   测试成功的界面
+- 测试成功的界面
 
 ![](https://img-blog.csdnimg.cn/img_convert/1c3677d56701e6ee54a0b6d1f667fc27.png)
 
--   测试失败的界面
+- 测试失败的界面
 
 ![](https://img-blog.csdnimg.cn/img_convert/b34133e6584b05228b3f49712e535624.png)
 
@@ -208,15 +208,15 @@ public class CalcTest {
 
 下表中，给出了 Junit4 和 Junit5 中所共有功能的对应注解：
 
-|  Junit4 注解   | Junit5 注解   | 说明                   |
-| :------------: | ------------- | :--------------------- |
-|    `@Test`     | `@Test`       | 标识一条测试用例       |
-|   `@Ignore`    | `@Disable`    | 忽略的测试用例         |
-|   `@Before`    | `@BeforeEach` | 每一个测试方法之前运行 |
-|   `@After `    | `@AfterEach`  | 每一个测试方法之后运行 |
-| `@BefreClass`  | `@BeforeAll`  | 所有测试开始之前运行   |
-| `@AfterClass ` | `@AfterAll`   | 所有测试结果之后运行   |
-|  `@Category`   | `@Tag`        | 标记和过滤             |
+|  Junit4 注解  | Junit5 注解   | 说明                   |
+| :-----------: | ------------- | :--------------------- |
+|    `@Test`    | `@Test`       | 标识一条测试用例       |
+|   `@Ignore`   | `@Disable`    | 忽略的测试用例         |
+|   `@Before`   | `@BeforeEach` | 每一个测试方法之前运行 |
+|   `@After`    | `@AfterEach`  | 每一个测试方法之后运行 |
+| `@BefreClass` | `@BeforeAll`  | 所有测试开始之前运行   |
+| `@AfterClass` | `@AfterAll`   | 所有测试结果之后运行   |
+|  `@Category`  | `@Tag`        | 标记和过滤             |
 
 而相对于 Junit4，Junit5 也有做出升级，其特有的一些注解如下：
 
@@ -243,8 +243,6 @@ public class CalcTest {
 | `void assertFalse([String message], boolean condition)`                 | 查看运行结果是否为 `false`                                 |
 | `void assertThat([String message], actual, matcher)`                    | 查看实际值是否满足指定的条件                               |
 | `fail()`                                                                | 让测试失败                                                 |
-
-
 
 ```java
 package com.cunyu;
@@ -292,9 +290,6 @@ public class CalcTest {
 ## 总结
 
 好了，以上就是有关单元测试 Junit 的简单使用指南了。虽说大家现在还是有很多人在使用 Junit4，但如果你之前并未接触过 Junit，个人建议那就直接学习 Junit5 吧。当然了，Junit4 了解也是很有必要的，毕竟技多不压身，多一份技能少求人嘛。
-
-
-
 
 **关注公众号，获取最新文章更新**
 

@@ -72,12 +72,12 @@ features:
 
 如果您觉得本项目对您有所帮助，那就去 Github **Star** 收藏一下吧！
 
->   [JavaPark](https://github.com/cunyu1943/JavaPark)
+> [JavaPark](https://github.com/cunyu1943/JavaPark)
 
 <img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date" style="zoom:70%;" />
 
 ## 🧑‍🤝‍🧑 参与贡献
 
-1.   如果您对本项目有任何建议或者发现文中内容有错误的，欢迎私信我或者提交 `issues` 指正。
+1.  如果您对本项目有任何建议或者发现文中内容有错误的，欢迎私信我或者提交 `issues` 指正。
 
-2.   对于项目中未涉及到的知识点，欢迎提交 `PR`。
+2.  对于项目中未涉及到的知识点，欢迎提交 `PR`。

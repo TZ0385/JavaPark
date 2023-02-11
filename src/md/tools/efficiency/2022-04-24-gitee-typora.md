@@ -7,26 +7,26 @@ category:
   - 效率提升
 date: 2022-04-24
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
+
 ## 前言
 
 对于写博客的朋友们来讲，图床这个东西一定不会陌生，而且在一定程度上也给大家造成过一定困扰。
 
-上一篇文章中我们讲了如何 [利用 Github 搭建自己的免费图床](https://cunyu1943.github.io/JavaPark/efficiency/github-img-bed)，但有人反映 Github 访问有点慢，而且也不太稳定，所以就推荐用国内的 Gitee 来搭建，于是今天就带来新鲜热乎的基于 Gitee  所搭建的免费图床教程，也水一篇文章，希望对大家伙有所帮助。
+上一篇文章中我们讲了如何 [利用 Github 搭建自己的免费图床](https://cunyu1943.github.io/JavaPark/efficiency/github-img-bed)，但有人反映 Github 访问有点慢，而且也不太稳定，所以就推荐用国内的 Gitee 来搭建，于是今天就带来新鲜热乎的基于 Gitee 所搭建的免费图床教程，也水一篇文章，希望对大家伙有所帮助。
 
 ![](http://ww1.sinaimg.cn/bmiddle/9150e4e5ly1fqdi3jit6oj203h03h3yb.jpg)
 
-
-
-##  准备工作
+## 准备工作
 
 那么在正式开始之前，同样的，你得提前准备以下东西：
 
->   一个 Gitee 账号
+> 一个 Gitee 账号
 
 ![](http://ww2.sinaimg.cn/bmiddle/6af89bc8gw1f8so949lh9j205i03st8i.jpg)
 
@@ -50,7 +50,7 @@ date: 2022-04-24
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs/image-finish.png)
 
-##  上传图片
+## 上传图片
 
 通过上面的步骤，我们的图床时搭建好了，但是通过传统的方法向 Gitee 上传图片太麻烦了，这里我们推荐使用一个开源图床工具 [PicGo](https://molunerfinn.com/PicGo/) 来作为我们的图片上传工具；
 
@@ -79,12 +79,12 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs/image-giteeconfig.png)
 
 6.  填写相关信息，最后点击 `确定`即可，要将其作为默认图床的话，点击设为默认图床，其中的相关信息如下：
-    -   **repo**：就是刚才创建的 **用户名/仓库名**;
-    -   **branch**：默认为 **master** 即可；
-    -   **token**：刚才生成的令牌；
-    -   **path**：可自定义，但是要填，否则可能导致上传失败；
-    -   **customPath**：图片归档方式，以年、年月……
-    -   **customUrl**：保持默认；
+    - **repo**：就是刚才创建的 **用户名/仓库名**;
+    - **branch**：默认为 **master** 即可；
+    - **token**：刚才生成的令牌；
+    - **path**：可自定义，但是要填，否则可能导致上传失败；
+    - **customPath**：图片归档方式，以年、年月……
+    - **customUrl**：保持默认；
 
 ![设置](https://gitee.com/cunyu1943/blog-img/raw/master/images/image-configgitee.png)
 
@@ -92,7 +92,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 ![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126135321015.png)
 
-##  搭配 Typora 使用
+## 搭配 Typora 使用
 
 [Typora](https://www.typora.io/) 是一款跨平台的本地 Markdown 编辑器（个人认为是同类最棒的一款软件了），通过搭配 Typora + Picgo，我们不用向上面上传图片那么麻烦，只需要在 Typora 设置后图片就能自动上传，设置方法如下：
 
@@ -100,7 +100,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 ![Typora 设置](https://gitee.com/cunyu1943/blog-img/raw/master/images/image-typoraconfig.png)
 
-##  总结
+## 总结
 
 至此，我们的搭建免费图床的教程就到此结束了，总体上来讲和 Github 搭建的方式还是一样的，只是有一些小细节需要注意。好了，总结一下本文，主要有如下几部分：
 

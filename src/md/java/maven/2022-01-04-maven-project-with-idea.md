@@ -12,7 +12,7 @@ date: 2022-01-04
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
@@ -24,9 +24,9 @@ date: 2022-01-04
 
 这里主要配置的项目有：
 
--   **Maven home directory**：也就是我们 Maven 安装的路径；
--   **User settings file**：Maven 安装路径下配置文件夹中的 `settings.xml` 所在路径；
--   **Local repository**：也就是我们前边文章中所配置的本地仓库位置。
+- **Maven home directory**：也就是我们 Maven 安装的路径；
+- **User settings file**：Maven 安装路径下配置文件夹中的 `settings.xml` 所在路径；
+- **Local repository**：也就是我们前边文章中所配置的本地仓库位置。
 
 比如我 IDEA 中的 Maven 相关设置就可以参照下图。
 
@@ -57,8 +57,6 @@ ProjectName/
 | --- ||  |resources/
     |----pom.xml
 ```
-
-
 
 ![](https://s1.ax1x.com/2020/07/07/UFZVRs.png)
 
@@ -169,4 +167,3 @@ public class HelloWorldTest {
 经过上边的项目创建以及业务代码编写之后，一个 Maven 版的 `Hello World` 项目到此就结束了。是不是很简单呢，赶快自己动手试试吧！
 
 创作不易，如果大家觉得我的文章对你所有帮助，那就动动你的小手，帮我点赞关注一波吧。💖💖💖
-

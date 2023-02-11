@@ -8,11 +8,12 @@ category:
   - macOS 教程
 date: 2022-04-11
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
@@ -21,8 +22,6 @@ date: 2022-04-11
 终端（也就是 Windows 中所说的控制台）在我们大多数人的印象中，应该都是黑乎乎的一片，然后再加几个白色的文字吧。如果你还这样想，那你可就 Out 了，现在，我们的终端也可以改造成酷炫时尚的模样，就像下面这张图，那该怎么改呢？赶紧来看看吧。
 
 ![最终效果图](https://img-blog.csdnimg.cn/img_convert/5b165f298d960808713fef024bc97b0c.png)
-
-
 
 ## iTerm2
 
@@ -44,7 +43,7 @@ macOS 自带的终端又丑又难用，不过还好，大佬们的智慧是无�
 
 ![](https://img-blog.csdnimg.cn/img_convert/1d31de3b8ade95d4062b2ab4b2fd81da.gif)
 
->   Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.
+> Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.
 
 上面这句话是官网给出的描述，即它是开源、由社区驱动的用于管理 zsh 配置的框架！好了，那就动手整起来！
 
@@ -52,14 +51,14 @@ macOS 自带的终端又丑又难用，不过还好，大佬们的智慧是无�
 
 官网提供了以下两种自动安装的方式：
 
-1.   通过 `curl` 的方式
+1.  通过 `curl` 的方式
 
 ```bash
 # via curl
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-2.   通过 `wget` 的方式
+2.  通过 `wget` 的方式
 
 ```bash
 # via wget
@@ -90,8 +89,6 @@ source ~/.zshrc
 
 好了，这时候界面应该变了！
 
-
-
 ![](https://img-blog.csdnimg.cn/img_convert/8603f31c02b851d7b28b7d5e631a3897.png)
 
 ### .zshrc
@@ -120,8 +117,6 @@ source ~/.zshrc
 ZSH_THEME="agnoster"
 ```
 
-
-
 关于配色，你可以去 [主题市场](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) 进行选择，不过在这里推荐一下自己用的一款主题 [PowerLevel10k](https://github.com/romkatv/powerlevel10k)；
 
 使用如下命令进行安装，然后打开配置文件 `.zsrch`，把主题设置为 PowerLevel10k；
@@ -149,12 +144,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 7.  是否显示时间
 8.  目录层级分隔符
 9.  头部（左边）
-10.  尾部（右边）
-11.  是否换行
-12.  左边和右边是否有连接线
-13.  命令行和提示是否连接
-14.  两行命令之间分布稀疏还是松散
-15.  是否需要图标
+10. 尾部（右边）
+11. 是否换行
+12. 左边和右边是否有连接线
+13. 命令行和提示是否连接
+14. 两行命令之间分布稀疏还是松散
+15. 是否需要图标
 
 ![完成后的效果](https://img-blog.csdnimg.cn/img_convert/4ba07fea07cfd5b51f923651919523a5.png)
 
@@ -233,8 +228,6 @@ tar, gz, zip, rar 等格式的压缩包都可以使用 extract 命令来进行�
 ```bash
 x 压缩包名
 ```
-
-
 
 ## 总结
 

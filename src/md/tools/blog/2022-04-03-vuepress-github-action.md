@@ -7,21 +7,22 @@ category:
   - 博客搭建
 date: 2022-04-03
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
 正常我们利用 Vuepress 搭建一个文档博客之后，往往都是通过如下步骤来部署一篇博客：
 
-1.   首先写文章；
-2.   写完文章之后生成静态文件，这里一般使用的是 `npm run build` 命令，但也有使用 `yarn build` 的；
+1.  首先写文章；
+2.  写完文章之后生成静态文件，这里一般使用的是 `npm run build` 命令，但也有使用 `yarn build` 的；
 
-3.   将我们生成的静态文件推送到 Github Pages；
-4.   访问我们对应的网址，查看我们的推送是否成功。
+3.  将我们生成的静态文件推送到 Github Pages；
+4.  访问我们对应的网址，查看我们的推送是否成功。
 
 上述步骤看似简单，但一旦文档过多时，生成静态文件就十分耗费时间。这时候我们就想了，有不有一种方法，能够帮我们自动构建静态文件然后部署到 Github Pages 上呢。刚好，Github 官方提供了这个一个工具：Github Actions。利用它，我们就能够将重心转移到创作之后，每次创作之后推送到远程之后它就会自动后续工作，接下来我们就来看看如何利用 Github Action 实现自动部署我们的博客。
 
@@ -43,7 +44,7 @@ date: 2022-04-03
 
 ## 编写 Action
 
-进入项目的的 `Actions` 选项，然后新建一个 `workflow`（我是因为已经建立过了，所以才是下面的界面），默认新建的 `workflow` 名字是  `main.yml` 这个可以自己自定义，根据你自己喜好来就行了。
+进入项目的的 `Actions` 选项，然后新建一个 `workflow`（我是因为已经建立过了，所以才是下面的界面），默认新建的 `workflow` 名字是 `main.yml` 这个可以自己自定义，根据你自己喜好来就行了。
 
 ![image-20210826100501499](https://img-blog.csdnimg.cn/img_convert/a057ab9c0039b346a0f90a0b2ce30c5a.png)
 
@@ -53,7 +54,7 @@ date: 2022-04-03
 
 接下来是在 `main.yml` 中填入如下信息即可，具体实例的可以参考我的博客实例：
 
->   https://github.com/cunyu1943/cunyu1943.github.io/
+> https://github.com/cunyu1943/cunyu1943.github.io/
 
 ```yml
 # name 可以自定义
@@ -110,8 +111,8 @@ jobs:
 
 最后，贴出我的博客地址，可以去看看效果！
 
--   项目文件：https://github.com/cunyu1943/cunyu1943.github.io
--   预览地址：https://cunyu1943.github.io/
+- 项目文件：https://github.com/cunyu1943/cunyu1943.github.io
+- 预览地址：https://cunyu1943.github.io/
 
 关注公众号，获取最新文章更新
 

@@ -12,16 +12,16 @@ date: 2022-01-08
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 什么是 Thymeleaf
 
--   Thymeleaf 是新一代的 Java 模板引擎，类似于 Velocity、FreeMarker 等传统引擎，其语言和 HTML 很接近，而且扩展性更高；
+- Thymeleaf 是新一代的 Java 模板引擎，类似于 Velocity、FreeMarker 等传统引擎，其语言和 HTML 很接近，而且扩展性更高；
 
--   Thymeleaf 的主要目的是将优雅的模板引入开发工作流程中，并将 HTML 在浏览器中正确显示。同时能够作为静态引擎，让开发成员之间更方便协作开发；
--   Spring Boot 官方推荐使用模板，而且 Spring Boot 也为 Thymeleaf 提供了完整的自动化 配置解决方案；
+- Thymeleaf 的主要目的是将优雅的模板引入开发工作流程中，并将 HTML 在浏览器中正确显示。同时能够作为静态引擎，让开发成员之间更方便协作开发；
+- Spring Boot 官方推荐使用模板，而且 Spring Boot 也为 Thymeleaf 提供了完整的自动化 配置解决方案；
 
--   Thymeleaf 使用教程请戳 [Tutorial: Using Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)，配合 Spring 使用的教程请戳 [Tutorial: Thymeleaf + Spring](https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html)。
+- Thymeleaf 使用教程请戳 [Tutorial: Using Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)，配合 Spring 使用的教程请戳 [Tutorial: Thymeleaf + Spring](https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html)。
 
 ## 整合过程
 
@@ -29,9 +29,9 @@ date: 2022-01-08
 
 正式开始整合过程之前，这里先给出本文的搭建环境，方便大家进行后续内容的学习。
 
--   JDK 11（理论上其他版本的 JDK 也是可以的，但是更为推荐 JDK 1.8 及以后的版本）
--   IDEA（这里没有啥要求，但我个人的话是出新的版本我就会更新，虽然臃肿，但是更新了确实好用 😂）
--   SpringBoot 2.x（现在主流应该都是 2.x 版本，1.x 的都是老一点的版本了）
+- JDK 11（理论上其他版本的 JDK 也是可以的，但是更为推荐 JDK 1.8 及以后的版本）
+- IDEA（这里没有啥要求，但我个人的话是出新的版本我就会更新，虽然臃肿，但是更新了确实好用 😂）
+- SpringBoot 2.x（现在主流应该都是 2.x 版本，1.x 的都是老一点的版本了）
 
 ### 添加 Thymeleaf 依赖
 
@@ -42,7 +42,6 @@ date: 2022-01-08
 在新建项目时添加，在 `Templeate Engines` 中勾选 Thymeleaf；
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/img_convert/d21cf34a70eef14aadda1115504a2e20.png#pic_center)
-
 
 2.  **第二种**
 
@@ -73,11 +72,11 @@ date: 2022-01-08
 
 然后我们就可以编写我们的实体类，这里主要用到了 `@Data`、`@Component`、`@AllArgsConstructor` 、`NoArgsConstructor` 四个注解，其中各个注解的含义如下：
 
--   `@Component`：把类实例化到 Spring 容器，相当于在配置文件中配置；
+- `@Component`：把类实例化到 Spring 容器，相当于在配置文件中配置；
 
--   `@Data` ：给类的所有属性提供 `get` 和 `set` 方法，此外还有 `equals、canEqual、hashCode、toString` 方法以及 **默认参数为空的构造方法**；
--   `@AllArgsConstructor`：为类提供一个 **全参构造方法**，但此时不再提供默认构造方法；
--   `@NoArgsConstructor`：因为使用了 `AllArgsConstructor` 会导致类没有默认空参构造方法，所以此时需要它为类提供一个 **无参构造方法**；
+- `@Data` ：给类的所有属性提供 `get` 和 `set` 方法，此外还有 `equals、canEqual、hashCode、toString` 方法以及 **默认参数为空的构造方法**；
+- `@AllArgsConstructor`：为类提供一个 **全参构造方法**，但此时不再提供默认构造方法；
+- `@NoArgsConstructor`：因为使用了 `AllArgsConstructor` 会导致类没有默认空参构造方法，所以此时需要它为类提供一个 **无参构造方法**；
 
 ```java
 package com.cunyu.pojo;
@@ -147,7 +146,7 @@ public class UserController {
 }
 ```
 
-### 创建Thymeleaf 模板
+### 创建 Thymeleaf 模板
 
 第上面的代码中，我们设置了跳转的视图为 `index`，所以我们需要在 `src/main/resources/templates` 中创建 `index.html`。
 
@@ -161,12 +160,12 @@ public class UserController {
     <meta charset="UTF-8">
     <!-- 即 Controller 中的 title 属性 -->
     <title th:text="${title}"></title>
-    
+
 </head>
 <body>
 <!-- 即 Controller 中的 desc 属性 -->
 <h1 th:text="${desc}" th:align="center"></h1>
-    
+
 <!-- 即 Controller 中的 author 信息 -->
 <h2 th:align="center">=====作者信息=====</h2>
 <p th:text="${author?.name}"></p>

@@ -14,7 +14,7 @@ category:
 
 原文：https://mp.weixin.qq.com/s/f0sJpAhgI6B7oirsJfv9jQ
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 反射概述
 
@@ -185,7 +185,6 @@ public class Demo1 {
 
 ![](https://img-blog.csdnimg.cn/3dfcde48fc4742cf878de465ad20f331.png)
 
-
 上述代码中，会发现最后输出的比较结果返回的是两个 `true`，说明通过上述三种方式获取的 `Class` 对象都是同一个，**同一个字节码文件（`*.class`）在一次运行过程中只会被加载一次**。
 
 ### Class 对象的使用
@@ -228,7 +227,6 @@ public class Demo2 {
 ```
 
 ![](https://img-blog.csdnimg.cn/b68edecb63ec40cfab12378373f4067b.png)
-
 
 回顾下我们的 `Person` 类，可以发现 `id`、`grade` 成员变量都是被 `public` 所修饰的，说明该方法是用于获取类中所有被 `public` 所修饰的成员变量（**包括父类**）。
 
@@ -306,8 +304,8 @@ public class Demo2 {
     }
 }
 ```
-![](https://img-blog.csdnimg.cn/a0edec9a132a467ca621c39f5074be91.png)
 
+![](https://img-blog.csdnimg.cn/a0edec9a132a467ca621c39f5074be91.png)
 
 观察上面的结果可知，该方法可用于获取所有的成员变量，不用考虑修饰符的限制（**不包括父类**）。
 
@@ -341,7 +339,6 @@ public class Demo2 {
 ```
 
 ![](https://img-blog.csdnimg.cn/f603d1ec9dd7476b9fd06c9e1ddcb880.png)
-
 
 观察上面的结果可知，该方法可用于获取指定的成员变量，不用考虑成员变量修饰符的限制（**不包括父类**）。但是在利用 `set`、`get` 方法来获取和设置 `private`、`protected` 修饰的成员变量时，需要利用 `setAccessible()` 来忽略访问全新啊修饰符的安全检查，否则程序将会报错。
 
@@ -407,7 +404,6 @@ public class Demo3 {
 ```
 
 ![](https://img-blog.csdnimg.cn/9c9c1e1860c14943a9406a210fdf7d6b.png)
-
 
 - `Constructor<?>[] getConstructors()`
 
@@ -672,7 +668,6 @@ public class ReflectTest {
 
 ![](https://img-blog.csdnimg.cn/0f5fa2e6b3cb4361ab2077a749b24600.png)
 
-
 ![](https://img-blog.csdnimg.cn/img_convert/73e14cf75134959d90b08de7af557125.png)
 
 ## 总结
@@ -682,6 +677,5 @@ public class ReflectTest {
 最后，对于文中知识点有错误或欠缺的地方，还请大家见谅，欢迎大家评论留言给我指正~
 
 **关注公众号，获取最新文章更新**
-
 
 <img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

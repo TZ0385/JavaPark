@@ -20,4 +20,3 @@ date: 2022-05-01
 8. [JavaScript 教程：面向对象](2022-05-08-oop.md)
 9. [JavaScript 教程：DOM 元素获取、属性修改](2022-05-09-dom-get-attribute.md)
 10. [JavaScript 教程：DOM 事件](2022-05-10-dom-event.md)
-

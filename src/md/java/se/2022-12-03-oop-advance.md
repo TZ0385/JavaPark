@@ -12,7 +12,7 @@ order: 51
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
@@ -34,15 +34,15 @@ order: 51
 public class Hero{
     /** 成员变量 */
     private String name;
-    
+
     /** 静态变量 */
     pubic static String game;
-    
+
     // 各种 setter 和 getter
 }
 ```
 
-1.   **成员变量调用**
+1.  **成员变量调用**
 
 ```java
 public class Main{
@@ -53,7 +53,7 @@ public class Main{
 }
 ```
 
-2.   **静态变量调用**
+2.  **静态变量调用**
 
 ```java
 public class Main{
@@ -61,7 +61,7 @@ public class Main{
        	// 第一种方式
         Hero hero = new Hero();
         hero.setGame("王者荣耀");
-        
+
         // 第二种方式，更为推荐
         Hero.setGame("王者荣耀");
     }
@@ -77,7 +77,7 @@ public class Main{
 ```java
 public class Util{
     private Util(){};
-    
+
     pubilc static void attack(){
         System.out.println("攻击");
     }
@@ -96,9 +96,9 @@ public class Main{
 
 使用 `static` 修饰方法或变量后，需要注意以下的小细节。
 
--   一个静态方法中**只能**访问静态变量和其他的静态方法。而不能访问非静态的变量和方法。
--   但一个非静态方法一方面既可以访问静态变量，也可以访问非静态变量；另一方面，也既可以访问静态方法，也可以访问非静态方法。
--   不同于成员方法，静态方式中是不存在 `this` 关键字的。
+- 一个静态方法中**只能**访问静态变量和其他的静态方法。而不能访问非静态的变量和方法。
+- 但一个非静态方法一方面既可以访问静态变量，也可以访问非静态变量；另一方面，也既可以访问静态方法，也可以访问非静态方法。
+- 不同于成员方法，静态方式中是不存在 `this` 关键字的。
 
 ### 静态代码块
 
@@ -107,14 +107,12 @@ public class Main{
 ```java
 public class Main{
     static String password;
-    
+
     static{
         password = "123456";
     }
 }
 ```
-
-
 
 ## final
 
@@ -126,8 +124,8 @@ public class Main{
 
 对常量进行命名时，一般遵循以下的规范：
 
--   如果是单个单词，那么将它全部大写即可。
--   如果是多个单词，那么将每个单词都大写，并且单词之间用下划线 `_` 隔开。
+- 如果是单个单词，那么将它全部大写即可。
+- 如果是多个单词，那么将每个单词都大写，并且单词之间用下划线 `_` 隔开。
 
 此外，对于修饰的变量的类型不同，含义也是不一样的。
 

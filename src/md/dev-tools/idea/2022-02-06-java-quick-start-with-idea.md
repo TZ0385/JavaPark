@@ -13,7 +13,7 @@ category:
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 前言
 
@@ -23,23 +23,23 @@ category:
 
 首先，我们来看看，如何利用 IDEA 来创建一个 Java 项目，以下是具体的创建过程。
 
-1.   打开 IDEA 主界面，然后点击 `New Project`。
+1.  打开 IDEA 主界面，然后点击 `New Project`。
 
 ![](https://img-blog.csdnimg.cn/img_convert/f71546df34e73baa93cae1d1b10c830b.png)
 
-2.   接着选中左侧的 `Java` 选项，然后设置项目的 `JDK`，这里如果你事先安装好了 `JDK`，一般 IDEA 会自动检测出来，如果没有检测出来，那么选中 `Add JDK …`，然后去找你所安装 `JDK` 的路径即可，最后则是选择最下方的 `Next`。 
+2.  接着选中左侧的 `Java` 选项，然后设置项目的 `JDK`，这里如果你事先安装好了 `JDK`，一般 IDEA 会自动检测出来，如果没有检测出来，那么选中 `Add JDK …`，然后去找你所安装 `JDK` 的路径即可，最后则是选择最下方的 `Next`。
 
 ![](https://img-blog.csdnimg.cn/img_convert/68ec843db0696ba14e7b7d9837e53ad9.png)
 
-3.   选择是否从模板创建，默认 IDEA 自带有模板，如果你要基于改模板创建，那么就勾选 `Create project from template`，默认我们不勾选，则是创建一个空项目，这里直接点击 `Next` 进入下一步即可。
+3.  选择是否从模板创建，默认 IDEA 自带有模板，如果你要基于改模板创建，那么就勾选 `Create project from template`，默认我们不勾选，则是创建一个空项目，这里直接点击 `Next` 进入下一步即可。
 
 ![](https://img-blog.csdnimg.cn/img_convert/179f79e1e8445c1e7b6a7de2723c4845.png)
 
-4.   设置项目名以及项目存放路径，这里可以根据自己的需要来自定义，我们这里以 `HelloWolrd` 为示例，设置好项目名和项目存放路径后直接 `Finish` 即可。
+4.  设置项目名以及项目存放路径，这里可以根据自己的需要来自定义，我们这里以 `HelloWolrd` 为示例，设置好项目名和项目存放路径后直接 `Finish` 即可。
 
 ![](https://img-blog.csdnimg.cn/img_convert/af56e65bf33369897c860d19b6a6537d.png)
 
-5.   这时候我们的项目就创建好了，创建好项目结构如下图所示。
+5.  这时候我们的项目就创建好了，创建好项目结构如下图所示。
 
 ![](https://img-blog.csdnimg.cn/img_convert/430123c951a1061b2a8f3669876da1ee.png)
 
@@ -47,11 +47,11 @@ category:
 
 虽然我们的项目创建好了，但是里边啥都没有，这时候我们就需要来编写我们的代码了。
 
-1.   首先，我们在项目工具窗口鼠标右击 `src` 文件夹，然后选择 `New`，接着选择 `Java Class`（也可以直接使用快捷键 `Alt + Insert`）。
+1.  首先，我们在项目工具窗口鼠标右击 `src` 文件夹，然后选择 `New`，接着选择 `Java Class`（也可以直接使用快捷键 `Alt + Insert`）。
 
 ![](https://img-blog.csdnimg.cn/img_convert/61d1aa5347ab34d5923180d5036f6926.png)
 
-2.   接着在 `Name` 域输入 `com.cunyu1943.helloworld.HelloWorld`，然后回车，接着 `com.cunyu1943.hellowold` 包和 `HelloWorld` 类就创建好了。
+2.  接着在 `Name` 域输入 `com.cunyu1943.helloworld.HelloWorld`，然后回车，接着 `com.cunyu1943.hellowold` 包和 `HelloWorld` 类就创建好了。
 
 ![](https://img-blog.csdnimg.cn/img_convert/2233a0ba9b7a2261170803a4ef89d26f.png)
 
@@ -75,10 +75,10 @@ package com.cunyu1943.helloworld;
  * @description :
  */
 public class HelloWorld {
-} 
+}
 ```
 
-3.   然后输入 `main` 并选择 `main()` 方法的声明，接着在 `main()` 方法中输入如下打印 `Hello World!` 的代码。
+3.  然后输入 `main` 并选择 `main()` 方法的声明，接着在 `main()` 方法中输入如下打印 `Hello World!` 的代码。
 
 ```java
 package com.cunyu1943.helloworld;
@@ -104,9 +104,9 @@ public class HelloWorld {
 }
 ```
 
-##  编译并运行项目
+## 编译并运行项目
 
-代码写好之后，我们先编译下代码，选择工具栏中的编译按钮（也可以使用快捷键  `Ctrl + F9`），项目就会自动进行编译。
+代码写好之后，我们先编译下代码，选择工具栏中的编译按钮（也可以使用快捷键 `Ctrl + F9`），项目就会自动进行编译。
 
 ![](https://img-blog.csdnimg.cn/img_convert/ec8b180d1673a5e889961e2d972f3210.png)
 
@@ -140,7 +140,7 @@ public class HelloWorld {
 
 ![](https://img-blog.csdnimg.cn/img_convert/7b0c9354865783a461df50ee8a0344dd.png)
 
-接着在我们项目的  `out -> artifacts` 目录下，就可以找到 `HelloWorld.jar` 了，此时我们项目的打包工作也完成了。
+接着在我们项目的 `out -> artifacts` 目录下，就可以找到 `HelloWorld.jar` 了，此时我们项目的打包工作也完成了。
 
 ![](https://img-blog.csdnimg.cn/img_convert/d76ef859fa7e96b20f35ce9d8071692c.png)
 
@@ -161,4 +161,3 @@ java -jar HelloWorld.jar
 今天的内容就到此结束了，本文主要讲了如何利用 IDEA 来创建、编译、运行、打包我们的 Java 项目。如果你有更多关于 IDEA 使用的小技巧，欢迎在评论区留言。
 
 创作不易，如果你觉得本文对你有所帮助，那就来一波点赞关注吧。
-

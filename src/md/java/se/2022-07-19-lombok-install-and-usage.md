@@ -14,56 +14,31 @@ order: 90
 
 原文：https://mp.weixin.qq.com/s/t4h5VRfbYqNIRZVlMaqPEg
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ## 简介
 
-
-
 为了减少写一些 `get/set/toString` 方法，让项目代码更加整洁，提高开发效率，发现大家都开始采用 Lombok 这个工具。Lombok 是一个 Java 类库，它会自动插入编辑器和构建工具，用于帮助开发人员消除 Java 中冗长样板代码。而我们开发人员所要做的，仅仅是添加几个 Lombok 中的注解，就可以替换掉原来的多行 `get/set/toString` 方法代码，既简洁也易于维护。下面我们就来看看，如何安装并使用这一工具。
-
-
 
 ## 安装 Lombok
 
-
-
 日常开发中，相信大多数人现在使用的都是 IDEA 这个 Java 神器了，如果你还在使用 Eclipse 或者 MyEclipse 等工具，那强烈推荐你去体验一把 IDEA，相信你一用上它就会爱上它的强大！下面我就以在 IDEA 中使用 Lombok 为例，看看如何安装并使用它。
-
-
 
 在先前 IDEA 的版本中，Lombok 是需要通过插件来安装的，安装方法如下：依次进入`File -> Settings -> Plugins`，然后搜索 Lombok ，最后进行安装即可。而在新版本的 IDEA 中，Lombok 已经被集成到 IDEA 中，我们不用再去安装它就可以直接使用，可以说是十分方便了。
 
-
-
--   老版本 IDEA 安装 Lombok
-
-
+- 老版本 IDEA 安装 Lombok
 
 ![](https://img-blog.csdnimg.cn/img_convert/5e17fcb6e7b97a22524fa70cfa2a2eec.png)
 
-
-
--   新版本中集成了 Lombok
-
-
+- 新版本中集成了 Lombok
 
 ![](https://img-blog.csdnimg.cn/img_convert/4d1a5af9a659fbdcac9a536a8779af0a.png)
 
-
-
-
 以上就是 Lombok 的安装过程了，是不是十分简单？那接下来我们就来看看，如何在我们的项目中使用 Lombok！
-
-
 
 ## Lombok 使用
 
-
-
 现在大家进行项目管理时用的工具大多应该都是 Maven，所以我们直接在需要使用 Lombok 的项目中加入 Lombok 编译支持，也就是在 `pom.xml` 文件中加入以下依赖。
-
-
 
 ```xml
 <dependency>
@@ -72,39 +47,21 @@ order: 90
 </dependency>
 ```
 
-
-
 导入相关依赖之后，接下来就是具体使用过程了。
-
-
 
 ### 具体使用
 
-
-
 在需要的实体类中引入相关注解即可，只不过注解不同它们所对应的功能也不同，而且同一个注解可能在不同位置的功能也不一样。如下图；
-
-
 
 ![](https://img-blog.csdnimg.cn/img_convert/817d88cc2e90caedcf8d26cff2f50693.png)
 
-
-
 ### 常用注解
 
-
-
-#### @Data 
-
-
+#### @Data
 
 注解在 **类** 上：给类的所有属性提供 `get` 和 `set` 方法，此外还有 `equals、canEqual、hashCode、toString` 方法以及 **默认参数为空的构造方法**；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -234,11 +191,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -266,19 +219,11 @@ public class User {
 }
 ```
 
-
-
-#### @Setter 
-
-
+#### @Setter
 
 注解在 **类** 上：为该类所有属性均提供 `set` 方法，同时提供 **默认构造方法**；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -310,11 +255,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -342,15 +283,9 @@ public class User {
 }
 ```
 
-
-
 注解在 **属性** 上：为该属性提供 `set` 方法，同时提供 **默认构造方法**；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -370,11 +305,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -402,19 +333,11 @@ public class User {
 }
 ```
 
-
-
-#### @Getter 
-
-
+#### @Getter
 
 注解在 **类** 上：为该类所有属性均提供 `get` 方法，同时提供 **默认构造方法**；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -446,11 +369,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -478,15 +397,9 @@ public class User {
 }
 ```
 
-
-
 注解在 **属性** 上：为该属性提供 `get` 方法，同时提供 **默认构造方法**；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -506,11 +419,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -538,19 +447,11 @@ public class User {
 }
 ```
 
-
-
-#### @ToString 
-
-
+#### @ToString
 
 注解在 **类** 上：生成所有参数的 `toString()` 方法，同时提供 **默认构造方法**；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -570,11 +471,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -602,19 +499,11 @@ public class User {
 }
 ```
 
-
-
-#### @Value 
-
-
+#### @Value
 
 注解在 **类** 上：生成 `get` 方法，以及 `equals、hashCode、toString` 方法，同时提供 **含所有参数的构造方法**；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -729,11 +618,7 @@ public final class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -761,19 +646,11 @@ public class User {
 }
 ```
 
-
-
-#### @AllArgsConstructor 
-
-
+#### @AllArgsConstructor
 
 注解在 **类** 上：为类提供一个 **全参构造方法**，但此时不再提供默认构造方法；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -793,11 +670,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -825,19 +698,11 @@ public class User {
 }
 ```
 
-
-
-#### @NoArgsConstructor 
-
-
+#### @NoArgsConstructor
 
 注解在 **类** 上：为类提供一个 **无参构造方法**；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -853,11 +718,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -885,19 +746,11 @@ public class User {
 }
 ```
 
-
-
 #### @RequiredArgsConstructor
-
-
 
 注解在 **类** 上：使用类中所有带 `@NonNull` 注解的或带有 `final` 修饰的成员变量生成对应构造方法；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 package com.cunyu.user.entity;
@@ -925,11 +778,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -959,27 +808,15 @@ public class User {
 }
 ```
 
-
-
-#### @NonNull 
-
-
+#### @NonNull
 
 注解在 **属性** 上，自动生成一个关于该参数的非空检查，若参数为 `null`，则抛出一个空指针异常，同时提供 **默认构造方法**，具体用法可以参照上面的例子；
 
-
-
-#### @EqualsAndHashCode 
-
-
+#### @EqualsAndHashCode
 
 注解在 **类** 上，生成 `equals、canEquals、hasnCode` 方法，同时会生成默认构造方法；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 //
@@ -1077,11 +914,7 @@ public class User {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 package com.cunyu.user.entity;
@@ -1109,19 +942,11 @@ public class User {
 }
 ```
 
-
-
-#### @Cleanup 
-
-
+#### @Cleanup
 
 注解在 **局部变量** 前，保证该变量代表的资源使用后自动关闭，默认调用资源的 `close()` 方法，若该资源有其它关闭方法，可用 `@Cleanup("方法名")` 来指定要调用的方法，同时提供 默认构造方法；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 import java.io.*;
@@ -1152,11 +977,7 @@ public class CleanupExample {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 import lombok.Cleanup;
@@ -1176,19 +997,11 @@ public class CleanupExample {
 }
 ```
 
-
-
-#### @Synchronized 
-
-
+#### @Synchronized
 
 注解在 **类方法 或 实例方法**：效果与 `synchronized` 关键字相同，区别在于锁对象不同，对于类方法和实例方法，`synchronized` 关键字的锁对象分别是 **类的** `**class**` **对象和** `**this**` **对象**，而 `@Synchronized` 的锁对象分别是 **私有静态** `**final**` **对象** `**lock**` **和 私有** `**final**` **对象** `**lock**`，也可以自己指定锁对象，同时提供默认构造方法；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 public class SynchronizedExample {
@@ -1216,11 +1029,7 @@ public class SynchronizedExample {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 import lombok.Synchronized;
@@ -1245,19 +1054,11 @@ public class SynchronizedExample {
 }
 ```
 
-
-
-#### @SneakyThrows 
-
-
+#### @SneakyThrows
 
 注解在 **方法** 上：将方法中的代码用 `try-catch` 语句包裹，捕获异常并在 `catch` 中用 `Lombok.sneakyThrow(e)` 将异常抛出，还可以用 `@SneakyThrows(Exception.class)` 的形式指定抛出异常类型，同时提供 **默认构造方法**；
 
-
-
--   **使用前**
-
-
+- **使用前**
 
 ```java
 import lombok.Lombok;
@@ -1281,11 +1082,7 @@ public class SneakyThrowsExample implements Runnable {
 }
 ```
 
-
-
--   **使用后**
-
-
+- **使用后**
 
 ```java
 import lombok.SneakyThrows;
@@ -1303,43 +1100,26 @@ public class SneakyThrowsExample implements Runnable {
 }
 ```
 
-
-
-#### @Log 
-
-
+#### @Log
 
 注解在 **类** 上：主要用于我们记录日志信息，同时提供 **默认构造方法**。它封装了多个主流 `Log` 库，主要有如下几个；
 
+- `@Log`
+- `@Slf4j`
 
-
--   `@Log`
--   `@Slf4j`
-
--   `Log4j`
--   `Log4j2`
-
-
+- `Log4j`
+- `Log4j2`
 
 ## 总结
 
-
-
 以上就是关于 Lombok 的相关使用小技巧了，如果你还没有使用过它，那就赶紧去试试吧！
-
-
 
 最后，创作不易，如果你觉得我的文章对你有所帮助，那就来个一键三连吧！
 
-
-
 ## 参考资料
-
-
 
 1.  https://projectlombok.org/features/all
 
 **关注公众号，获取最新文章更新**
-
 
 <img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

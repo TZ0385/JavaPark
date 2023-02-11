@@ -7,13 +7,15 @@ order: 2
 category:
     - SE 实训营
 ---
+
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
 ---
+
 ## 前言
 
 继上次写了一个 Java SE 版本的 [学生成绩管理系统](2022-03-01-score-management.md) 之后，发现大家反响还不错，所以今天我有带来了差不多一样的点菜系统，希望利用我们所学的 Java SE 知识，实现我们的点菜系统。
@@ -28,12 +30,12 @@ category:
 
 因此，对于点菜系统，主要所需功能如下：
 
-1.   **初始化菜单**
-2.   **点菜**
-3.   **移除已点的菜**
-4.   **查看已点的菜**
-5.   **结账**
-6.   **退出系统**
+1.  **初始化菜单**
+2.  **点菜**
+3.  **移除已点的菜**
+4.  **查看已点的菜**
+5.  **结账**
+6.  **退出系统**
 
 ![点菜系统](https://img-blog.csdnimg.cn/img_convert/df9117133f0025e395d1b7068dc6bcc9.png)
 
@@ -60,8 +62,6 @@ category:
 当然，上图是我们已经点过菜才会出现菜品，如果我们还没有点过菜，那么系统则会提示还未点菜。
 
 ![](https://img-blog.csdnimg.cn/img_convert/c70e4fe4d20d9450e15c7c770bbb16db.png)
-
-
 
 ### 删除菜品
 
@@ -443,4 +443,4 @@ public void checkout(List<Dish> orderedList) {
 
 最后的最后，贴出本设计的 Github 仓库地址：https://github.com/cunyu1943/java-in-actions
 
-有需要的童鞋可以自取，当然了，也希望大家给我一个⭐ **star**，满足一下我这个菜鸟的虚荣心呀 ~ :heart::heart::heart:
+有需要的童鞋可以自取，当然了，也希望大家给我一个 ⭐ **star**，满足一下我这个菜鸟的虚荣心呀 ~ :heart::heart::heart:

@@ -8,14 +8,13 @@ category:
 date: 2022-01-03
 ---
 
-
 作者：村雨遥
 
 博客：[JavaPark](https://cunyu1943.github.io/JavaPark)
 
->   吾生也有涯，而知也无涯。
+> 吾生也有涯，而知也无涯。
 
-##  前言
+## 前言
 
 为了 Spring Boot 能够更好地生成配置元数据文件，我们可以在创建项目时添加 `Spring Configuartion Processor` 依赖，或者在创建好项目后的 `pom.xml` 文件中手动添加。添加该依赖后，我们在编写配置时就会有属性提示，大大降低编写错误。
 
@@ -27,9 +26,7 @@ date: 2022-01-03
 </dependency>
 ```
 
-##  application.properties
-
-
+## application.properties
 
 ### 自定义属性
 
@@ -125,19 +122,19 @@ public class CunyuPropertiesController {
 
 1.  创建不同环境对应的配置文件，配置文件名为 `application-{profile}.properties`，`{profile}` 为我们自定义环境，如下：
 
->   开发环境：application-dev.properties
+> 开发环境：application-dev.properties
 
 ```properties
 server.servlet.context-path=/dev
 ```
 
->   测试环境：application-test.properties
+> 测试环境：application-test.properties
 
 ```properties
 server.servlet.context-path=/test
 ```
 
->   生产环境：application-prod.properties
+> 生产环境：application-prod.properties
 
 ```properties
 server.servlet.context-path=/prod
@@ -231,7 +228,7 @@ public class MyPropertiesController {
         logger.info("=============");
         logger.info(myProperties.toString());
         logger.info("=============");
-        
+
         return myProperties.toString();
     }
 }
@@ -243,7 +240,7 @@ public class MyPropertiesController {
 
 ![](https://img-blog.csdnimg.cn/img_convert/83a11edacd179ff4d36d115efae92b8c.png)
 
-##  注意
+## 注意
 
 `application.properties` 和 `my.properties` 会优先加载 `application.properties`。
 
@@ -253,7 +250,7 @@ public class MyPropertiesController {
 
 开始比较之前，我们先来看看各自的实例：
 
-- **.properties 格式** 
+- **.properties 格式**
 
 ```properties
 server.port=8081
@@ -283,13 +280,13 @@ spring:
 
 1.  **语法结构**
 
--   `.properties` 格式使用的是 **键值对形式（key=value）**，而 `.yml` 格式则使用的是 **树状结构（key: value）**；
+- `.properties` 格式使用的是 **键值对形式（key=value）**，而 `.yml` 格式则使用的是 **树状结构（key: value）**；
 
--   `.properties` 格式通过 `.` 来连接，`=` 来赋值，结构上比较直接，而 `.yml` 格式则使用 `:` 来分层，结构上呈现树状结构，层次感明显，而且赋值时 `:` 的后边必须 **接着一个空格再赋值**
+- `.properties` 格式通过 `.` 来连接，`=` 来赋值，结构上比较直接，而 `.yml` 格式则使用 `:` 来分层，结构上呈现树状结构，层次感明显，而且赋值时 `:` 的后边必须 **接着一个空格再赋值**
 
-2.   **执行先后顺序**
+2.  **执行先后顺序**
 
-如果一个工程中同时存在两种格式的文件，那么会 **优先加载 `.yml`  文件，然后再加载 `.properties`，而且后加载的 `.properties` 会覆盖之前加载的 `.yml` 文件**。
+如果一个工程中同时存在两种格式的文件，那么会 **优先加载 `.yml` 文件，然后再加载 `.properties`，而且后加载的 `.properties` 会覆盖之前加载的 `.yml` 文件**。
 
 此外，`.yml` 配置时需要注意以下几点：
 
