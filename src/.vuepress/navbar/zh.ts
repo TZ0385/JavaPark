@@ -211,9 +211,9 @@ export const zhNavbar = navbar([
   //   link: "https://www.yuque.com/cunyu1943/nav/",
   // },
 
-  {
-    text: "更新日志",
-    icon: "timeline",
-    link: "/timeline",
-  },
+  // {
+  //   text: "更新日志",
+  //   icon: "timeline",
+  //   link: "/timeline",
+  // },
 ]);
