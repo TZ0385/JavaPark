@@ -85,13 +85,13 @@ export default hopeTheme({
             path: "/",
             title: "🎉🎉🎉",
             content:
-              '<center>扫码订阅微信公众号<b><font color="#3eaf7c">村雨遥</font></b></br>获取最新资讯！</br></br><img src="https://cunyu1943.gitee.io/JavaPark/assets/wechatpublic-63cf881a.png" width="70%"></center>',
+              '<center>扫码加入<b><font color="green">JavaPark 官方交流群</font></b>，和大家一起成长！</br></br><img src="https://gitee.com/cunyu1943/JavaPark/raw/main/src/.vuepress/public/personal/wechat.png" width="70%"></center>',
             confirm: true,
             actions: [
               {
-                text: "我已订阅",
+                text: "我已加入",
                 // link: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNTg2MjkzNw==&action=getalbum&album_id=2501145320567963650&scene=173&from_msgid=2247496990&from_itemidx=1&count=3&nolastread=1#wechat_redirect",
-                type: "primary",
+                // type: "primary",
               },
             ],
             fullscreen: true,
