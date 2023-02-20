@@ -3,7 +3,7 @@ title: Hexo + Butterfly 博客搭建教程
 index: false
 isOriginal: true
 icon: hexo
-order:2
+order: 2
 category:
   - 博客搭建
 date: 2023-02-19
@@ -192,8 +192,8 @@ nav:
 
 修改主题配置文件 `_config.butterfly.yml`，设置文章中代码的主题即可。
 
-| 主题         | 预览                                                         |
-| ------------ | ------------------------------------------------------------ |
+| 主题         | 预览                                                                  |
+| ------------ | --------------------------------------------------------------------- |
 | `darker`     | ![](https://img-blog.csdnimg.cn/3f40c34a3da94938a5222a78a9fcf9fc.png) |
 | `pale night` | ![](https://img-blog.csdnimg.cn/a10898f482f74e2dae644962421bd65d.png) |
 | `ocean`      | ![](https://img-blog.csdnimg.cn/550a008bb28d4e1f88335c35961f5ca7.png) |
