@@ -21,7 +21,7 @@ hexo init butterfly-blog
 
 ### 2.1 主题安装
 
-进入刚才初始化后的博客根目录中，然后安装 `Butterfly` 主题。但是需要注意的是，该方法只适合于 `Hexo 5.0.0` 以上的版本。
+进入刚才初始化后的博客根目录中，然后安装 `Butterfly` 主题。但是需要注意的是，该方法只适合于 `Hexo 5.0.0` 以上的版本。
 
 ```shell
 npm i hexo-theme-butterfly
@@ -223,7 +223,7 @@ highlight_shrink: true
 
 4.   **代码换行**
 
-默认情况下，`Hexo` 在编译时不会实现代码自动换行，如果不想代码块区域有横线滚动条，则可以开启。
+默认情况下，`Hexo` 在编译时不会实现代码自动换行，如果不想代码块区域有横线滚动条，则可以开启。
 
 ```yml
 code_word_wrap: true
@@ -279,7 +279,237 @@ disable_top_img: true
 
 ### 2.12 文章置顶
 
-如果想要把文章置顶，需要在文章 `front-matter` 区域中添加 `sticky: 1` 属性把文章置顶即可，其中数值越大，置顶的优先级越高。
+如果想要把文章置顶，需要在文章 `front-matter` 区域中添加 `sticky: 1` 属性把文章置顶即可。其中数值越大，置顶的优先级越高。
+
+### 2.13 文章封面
+
+1.   **是否显示**
+
+如果要显示文章封面，则将主题设置的 `cover` 属性中的 `index_enable` 设置为 `true` 即可。如果不想显示文章封面，则将该属性设置为 `false`。
+
+```yml
+cover:
+  index_enable: true
+```
+
+2.   **单独设置**
+
+如果要单独给每篇文章设置不同的封面，那就需要在文章的 `Front-matter` 中添加 `cover` 属性，设置封面的图片地址即可。
+
+3.   **封面显示的位置**
+
+主要分为三种：
+
+-   **left**：全部显示在左边
+-   **right**：全部显示在右边
+-   **both**：封面位置左右交替显示
+
+4.   **设置默认封面**
+
+如果不想每次给文章设置单独封面，那么可以配置默认的封面，然后主题会自动从中选择一个封面配置给文章。
+
+```yml
+default_cover:
+  - https://cdn.pixabay.com/photo/2022/01/28/18/32/leaves-6975462_960_720.png
+  - https://cdn.pixabay.com/photo/2023/01/10/10/47/space-7709489_960_720.jpg
+  - https://cdn.pixabay.com/photo/2022/10/31/12/40/sorrow-7559727_960_720.jpg
+```
+
+### 2.14 文章页配置
+
+1.   **文章 meta 显示**
+
+```yml
+post_meta:
+  page:
+    date_type: updated # created or updated or both 主页文章日期是创建日或者更新日或都显示
+    date_format: date # date/relative 显示日期还是相对日期
+    categories: true # true or false 主页是否显示分类
+    tags: true # true or false 主页是否显示标签
+    label: false # true or false 显示描述性文字
+  post:
+    date_type: updated # created or updated or both 文章页日期是创建日或者更新日或都显示
+    date_format: date # date/relative 显示日期还是相对日期
+    categories: true # true or false 文章页是否显示分类
+    tags: true # true or false 文章页是否显示标签
+    label: false # true or false 显示描述性文字
+```
+
+2.   **文章版权**
+
+通过添加相关配置后，为博客文章展示文章版权和许可协议。
+
+```yml
+post_copyright:
+  enable: true
+  decode: false
+  author_href:
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+```
+
+3.   **文章打赏**
+
+配置打赏相关信息，让你的读者可以该方式给你打赏。
+
+在博客根目录下的 `source` 目录下新建 `img` 目录，然后将支付宝和微信收款二维码加入后配置即可。
+
+```yml
+reward:
+  enable: true
+  QR_code:
+    - img: /img/wechat.jpg
+      link:
+      text: 微信支付
+    - img: /img/alipay.jpg
+      link:
+      text: 支付宝
+```
+
+4.   **TOC**
+
+```yml
+toc:
+  post: true
+  page: true
+  number: false
+  expand: true
+  style_simple: true
+  scroll_percent: true
+```
+
+5.   **相关文章**
+
+```yml
+related_post:
+  enable: true
+  limit: 6
+  date_type: updated
+```
+
+6.   **文章分页**
+
+-   **1**：下一篇显示的是旧文章
+-   **2**：下一篇显示的是新文章
+-   **false**：关闭分页按钮
+
+```yml
+post_pagination: 2
+```
+
+7.   **文章过期提醒**
+
+-   **limit_day**： 距离更新时间多少天才显示文章过期提醒
+-   **message_prev** ： 天数之前的文字
+-   **message_next**：天数之后的文字
+
+```yml
+noticeOutdate:
+  enable: true
+  style: flat # style: simple/flat
+  limit_day: 365 # When will it be shown
+  position: top # position: top/bottom
+  message_prev: 距离本文上一次更新已经过去
+  message_next: 天，相关内容可能已不具备时效性，请注意！
+```
+
+
+
+### 2.15 头像
+
+```yml
+avatar:
+  img: /img/avatar.png
+  effect: true # 头像会一直转圈
+```
+
+### 2.16 图片描述
+
+```yml
+photofigcaption: true
+```
+
+### 2.17 复制相关配置
+
+```yml
+copy:
+  enable: true
+  copyright:
+    enable: true
+    limit_count: 50
+```
+
+| 配置         | 说明                                                         |
+| ------------ | ------------------------------------------------------------ |
+| enable       | 是否开启网站复制权限                                         |
+| copyright    | 复制的内容后面加上版权信息                                   |
+| enable       | 是否开启复制版权信息添加                                     |
+| limit\_count | 字数限制，当复制文字大于这个字数限制时，将在复制的内容后面加上版权信息 |
+
+### 2.18 Footer
+
+
+
+```yml
+footer:
+  owner:
+    enable: true
+    since: 2018
+  custom_text:
+  copyright: false
+```
+
+### 2.19 右下角按钮
+
+1.   **简繁转换**
+
+```yml
+translate:
+  enable: true
+  default: 繁
+  defaultEncoding: 2
+  translateDelay: 0
+  msgToTraditionalChinese: "繁"
+  msgToSimplifiedChinese: "簡"
+```
+
+2.   **夜间模式**
+
+```yml
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+```
+
+autoChangeMode: 1 跟随系统而变化，不支持的浏览器/系统将按照时间晚上6点到早上6点之间切换为 dark mode
+
+autoChangeMode: 2 只按照时间 晚上6点到早上6点之间切换为 dark mode,其余时间为light mode
+
+autoChangeMode: false 取消自动切换
+
+3.   **阅读模式**
+
+```yml
+readmode: true
+```
+
+4.   **滚动状态百分比**
+
+```yml
+rightside_scroll_percent: true
+```
+
+5.   **按钮排序**
+
+```yml
+rightside_item_order:
+  enable: true
+  hide: # readmode,translate,darkmode,hideAside
+  show: readmode,translate,darkmode,comment,toc # toc,chat,comment
+```
+
+
 
 ## 3. 站点配置
 
