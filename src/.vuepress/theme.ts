@@ -118,11 +118,11 @@ export default hopeTheme({
       /**
        * Using Giscus
        */
-      // provider: "Giscus",
-      // repo: "vuepress-theme-hope/giscus-discussions",
-      // repoId: "R_kgDOG_Pt2A",
-      // category: "Announcements",
-      // categoryId: "DIC_kwDOG_Pt2M4COD69",
+      provider: "Giscus",
+      repo: "cunyu1943/JavaPark",
+      repoId: "R_kgDOHI1mog",
+      category: "Announcements",
+      categoryId: "DIC_kwDOHI1mos4CUBUV",
 
       /**
        * Using Twikoo
@@ -133,8 +133,8 @@ export default hopeTheme({
       /**
        * Using Waline
        */
-      provider: "Waline",
-      serverURL: "https://waline-bz1ai9zkr-cunyu1943.vercel.app/",
+      // provider: "Waline",
+      // serverURL: "https://waline-bz1ai9zkr-cunyu1943.vercel.app/",
     },
 
     // Disable features you don’t want here
