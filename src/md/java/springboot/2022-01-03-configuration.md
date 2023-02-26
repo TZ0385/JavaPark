@@ -16,7 +16,7 @@ date: 2022-01-03
 
 ## 前言
 
-为了 Spring Boot 能够更好地生成配置元数据文件，我们可以在创建项目时添加 `Spring Configuartion Processor` 依赖，或者在创建好项目后的 `pom.xml` 文件中手动添加。添加该依赖后，我们在编写配置时就会有属性提示，大大降低编写错误。
+为了 `Spring Boot` 能够更好地生成配置元数据文件，我们可以在创建项目时添加 `Spring Configuartion Processor` 依赖，或者在创建好项目后的 `pom.xml` 文件中手动添加。添加该依赖后，我们在编写配置时就会有属性提示，大大降低编写错误。
 
 ```xml
 <dependency>
@@ -71,7 +71,7 @@ public class CunyuProperties {
 }
 ```
 
-3.  定义 Controller 来注入测试；
+3.  定义 `Controller` 来注入测试；
 
 ```java
 package com.cunyu.controller;
@@ -110,7 +110,7 @@ public class CunyuPropertiesController {
 }
 ```
 
-4.  打开网页测试，打开 1，同时观察控制台，显示如下内容则说明属性注入成功；
+4.  打开网页测试，打开 http://localhost:8080/cunyu/profile，同时观察控制台，显示如下内容则说明属性注入成功；
 
 ![](https://img-blog.csdnimg.cn/img_convert/a749931a1ed4fed321f2fed10ff39524.png)
 
@@ -194,7 +194,7 @@ public class MyProperties {
 }
 ```
 
-3.  定义 Controller 来注入测试
+3.  定义 `Controller` 来注入测试
 
 ```java
 package com.cunyu.controller;
@@ -246,7 +246,7 @@ public class MyPropertiesController {
 
 ## .yml 和 .properties
 
-一般来说，使用 IDEA 创建一个 Spring Boot 项目时，默认都会生成一个 `application.properties` 的配置文件。该配置文件是用来 **修改 Spring Boot 自动配置的默认值**。 但有的朋友会更倾向于使用 `application.yml`，那么问题来了，这两种格式到底有啥区别呢？
+一般来说，使用 `IDEA` 创建一个 `Spring Boot` 项目时，默认都会生成一个 `application.properties` 的配置文件。该配置文件是用来 **修改 `Spring Boot` 自动配置的默认值**。 但有的朋友会更倾向于使用 `application.yml`，那么问题来了，这两种格式到底有啥区别呢？
 
 开始比较之前，我们先来看看各自的实例：
 
@@ -290,9 +290,9 @@ spring:
 
 此外，`.yml` 配置时需要注意以下几点：
 
-1. **缩进必须用空格，不能用 Tab**
+1. **缩进必须用空格，不能用 `Tab`**
 2. `@PropertySource` 注解不能加载 `yml` 文件
 
 ## 总结
 
-以上就是关于 Spring Boot 中的配置相关内容了。本文主要介绍了 Spring Boot 项目自带的配置文件的相关信息，同时也介绍了如果我们想要满足自己需求如何进行自定义配置。最后，则是对 `.yml` 和 `.properties` 不同格式的配置文件的区别进行解释。
+以上就是关于 `Spring Boot` 中的配置相关内容了。本文主要介绍了 `Spring Boot` 项目自带的配置文件的相关信息，同时也介绍了如果我们想要满足自己需求如何进行自定义配置。最后，则是对 `.yml` 和 `.properties` 不同格式的配置文件的区别进行解释。

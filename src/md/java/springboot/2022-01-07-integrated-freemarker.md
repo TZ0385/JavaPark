@@ -201,8 +201,3 @@ public class UserController {
 
 以上就是 Spring Boot 整合 FreeMarker 的具体过程了，可以结合之前的文章：[Spring Boot 整合 Thymeleaf 实例](https://cunyu1943.blog.csdn.net/article/details/107671467)共同阅读，对比 Thymeleaf 和 FreeMarker 在整合过程中的一些共同点和不同点，相信你会有更多的收获。
 
-最后，关于本文案例代码，我已经上传到 Github，有需要的小伙伴可以自取：[传送门](https://github.com/cunyu1943/java-learning/tree/main/springboot-demo/springboot-freemarker-demo/)。
-
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />

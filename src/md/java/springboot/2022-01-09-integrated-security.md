@@ -117,7 +117,3 @@ public class HelloController {
 ## 总结
 
 以上就是 `Spring Boot` 集成 `Spring Security` 的实例了，主要演示了最经典的 `Hello World` 程序。关于更多 `Spring Security` 的知识，我们后续的文章再见吧！
-
-最后，关于本文的中的代码，我已经上传到云端，有需要的小伙伴可以自取。
-
-> [➛ 传送门](https://github.com/cunyu1943/java-learning-demos)

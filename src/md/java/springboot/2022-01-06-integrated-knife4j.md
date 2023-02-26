@@ -156,7 +156,7 @@ public class SpringbootKnife4jDemoApplication {
 
 当我们成功启动项目后，在浏览器中打开 `http://localhost:8080/doc.html`，却没想到迎接我们的不是成功界面，而是下面的 `Whitelabel Error Page`。
 
-[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-DMP0RV4z-1651224417803)(https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/04/image-20220429170230515.png)]
+![](https://img-blog.csdnimg.cn/ddf646e233e04d498717eec8bc8719a1.png)
 
 然后到 `IDEA` 中一看日志，程序照常运行，也没报错，但是给我们抛出了一个 `WARN`，警告信息如下：
 
@@ -194,6 +194,3 @@ public class WebMvcConfigurer extends WebMvcConfigurationSupport {
 
 此外，对于文中集成是所遇到的 `Bug`，如果你没有遇到，那么你应该顺利集成了，如果你也有遇到，那么不妨跟着我去试一下解决的办法。
 
-最后的最后，关于本文中所涉及的代码，我已经开源了，有需要到小伙伴可以去自取哦。
-
-> [springboot-knife4j-demo](https://github.com/cunyu1943/java-learning-demos/tree/main/springboot-knife4j-demo)
