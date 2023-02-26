@@ -92,7 +92,7 @@ B[Spring] --> C[Spring Boot]
 
 > 传送门：[创建 SpringBoot 项目的 3 种方式](https://blog.csdn.net/github_39655029/article/details/119618308)
 
-最后，如果本文对你有所帮助，那就点个赞再走鸭 ~
+最后，如果本文对你有所帮助，那就点个赞再走吧 ~
 
 **关注公众号，获取最新文章更新**
 
