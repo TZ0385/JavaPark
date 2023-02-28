@@ -117,11 +117,11 @@ java
 
 2.  接受相关协议并登录下载；
 
-3)  双击下载好的 `.dmg` 安装包，然后开始安装；
+3.  双击下载好的 `.dmg` 安装包，然后开始安装；
 
 ![](https://img-blog.csdnimg.cn/img_convert/46caccfb6cde9f27ee97937136962a5f.png)
 
-4.  安装过程中会让你输入密码，也就是你本机的秘密；
+4.  安装过程中会让你输入密码，也就是你本机的密码。
 
 ![](https://img-blog.csdnimg.cn/5d403a0376b54a4fb1dc205e86b8f9dd.png)
 
