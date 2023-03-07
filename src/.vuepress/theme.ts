@@ -23,7 +23,7 @@ export default hopeTheme({
 
   fullscreen: true,
 
-  logo: "/logo.png",
+  logo: "/JavaPark.svg",
 
   repo: "cunyu1943/JavaPark",
 
@@ -184,7 +184,7 @@ export default hopeTheme({
     },
 
     pwa: {
-      favicon: "/favicon.ico",
+      favicon: "/JavaPark.svg",
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
