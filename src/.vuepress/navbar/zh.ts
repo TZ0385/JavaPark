@@ -205,6 +205,11 @@ export const zhNavbar = navbar([
     link: "https://github.com/cunyu1943/ebooks",
   },
 
+  {
+    text: "旧版博客",
+    icon: "blog",
+    link: "https://cunyu1943.gitee.io",
+  },
   // {
   //   text: "效率神器",
   //   icon: "rocket",
