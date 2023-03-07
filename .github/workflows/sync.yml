@@ -2,7 +2,7 @@ name: Gitee 同步
 
 on:
   push:
-    branches: [main]
+    branches: [gh-pages]
   workflow_dispatch:
 
 jobs:
