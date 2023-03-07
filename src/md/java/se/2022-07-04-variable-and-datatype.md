@@ -1,4 +1,4 @@
-¡---
+---
 title: 变量与数据类型
 isOriginal: true
 category:

@@ -1,6 +1,13 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
+  "/md/java/": "structure",
+  "/md/interview/": "structure",
+  "/md/cs-basics/": "structure",
+  "/md/database/": "structure",
+  "/md/dev-tools/": "structure",
+  "/md/tools/": "structure",
+  "/md/exam/": "structure",
   "/": [
     {
       icon: "java",
