@@ -11,11 +11,11 @@ export default hopeTheme({
     purple: "#c56cf0",
   },
 
-  hostname: "https://cunyu1943.github.io",
+  hostname: "https://cunyu1943.site",
 
   author: {
     name: "村雨遥",
-    url: "https://cunyu1943.github.io/JavaPark",
+    url: "https://cunyu1943.site/JavaPark",
     email: "747731461@qq.com",
   },
 
@@ -62,7 +62,7 @@ export default hopeTheme({
     copyright: {
       author: "村雨遥",
       license:
-        "转载请注明以下信息：『作者：村雨遥，博客：https://cunyu1943.github.io/JavaPark』",
+        "转载请注明以下信息：『作者：村雨遥，博客：https://cunyu1943.site/JavaPark』",
       global: true,
       triggerWords: 50,
     },
