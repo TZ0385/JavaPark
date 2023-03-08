@@ -27,7 +27,7 @@ export default hopeTheme({
 
   repo: "cunyu1943/JavaPark",
 
-  docsDir: "JavaPark/src/md",
+  docsDir: "src/md",
 
   pageInfo: ["Author", "Date", "Category", "Word", "ReadingTime", "PageView"],
 
