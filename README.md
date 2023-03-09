@@ -14,7 +14,7 @@
 ![](https://img.shields.io/github/forks/cunyu1943/JavaPark?style=social)
 ![](https://img.shields.io/github/watchers/cunyu1943/JavaPark?style=social)
 
-<center><img width="400px" src="./src/.vuepress/public/logo.png"></center>
+<center><img width="400px" src="./src/.vuepress/public/JavaPark.svg"></center>
 
 ## 🔖 目录
 - [📖 JavaPark | Java 自学指南](#-javapark--java-自学指南)
@@ -30,7 +30,6 @@
     - [MyBatis](#mybatis)
     - [MyBatis Plus](#mybatis-plus)
     - [Spring Boot 基础教程](#spring-boot-基础教程)
-    - [HTML 教程](#html-教程)
     - [JS 教程](#js-教程)
     - [Vue3-笔记](#vue3-笔记)
     - [Nginx 教程](#nginx-教程)
@@ -49,7 +48,7 @@
     - [Windows 教程](#windows-教程)
     - [macOS 教程](#macos-教程)
     - [Linux 教程](#linux-教程)
-  - [考试打怪](#考试打怪)
+  - [考试提升](#考试提升)
     - [软件设计师](#软件设计师)
   - [与我联系](#与我联系)
     - [加群交流](#加群交流)
@@ -271,6 +270,7 @@
 建群的目的是希望给大家提供一个良好的技术学习交流平台，由于微信群人满 `100` 之后无法加入，请扫描下方二维码先添加作者 “村雨遥” 微信(`cunyu1024`)，备注：**加群**。
 
 <center><img src="./src/.vuepress/public/personal/wechat.png" width="150"></center>
+
 
 ### 公众号『村雨遥』
 
