@@ -208,7 +208,7 @@ export const zhNavbar = navbar([
   {
     text: "旧版博客",
     icon: "blog",
-    link: "https://cunyu1943.gitee.io",
+    link: "https://cunyu1943.github.io",
   },
   // {
   //   text: "效率神器",

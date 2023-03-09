@@ -85,7 +85,8 @@ export default hopeTheme({
             showOnce: true,
             path: "/",
             title: "🎉🎉🎉",
-            content: '<center>扫码加入<b><font color="green">JavaPark 官方交流群</font></b></br>和大家一起成长！</br></br><img src="https://cunyu1943.site/JavaPark/assets/wechat-69416edf.png" width="150"></center>',
+            content:
+              '<center>扫码加入<b><font color="green">JavaPark 官方交流群</font></b></br>和大家一起成长！</br></br><img src="https://cunyu1943.github.io/JavaPark/assets/wechat-69416edf.png" width="150"></center>',
             actions: [
               {
                 text: "我已加入",
