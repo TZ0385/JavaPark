@@ -19,5 +19,4 @@ date: 2022-04-14
 
 4. [《IntelliJ IDEA 使用指南》](md/dev-tools/idea/README.md)：日常使用所总结的关于 IntelliJ IDEA 的使用经验总结！
 
-<!--    [《](./dev-tools/idea/README.md)：
--   [《MySQL 教程》](./database/mysql/README.md)：MySQL 从初级到高阶，一套教程搞定！ -->
+<!--    [《](./dev-tools/idea/README.md)：[《MySQL 教程》](./database/mysql/README.md)：MySQL 从初级到高阶，一套教程搞定！ -->
