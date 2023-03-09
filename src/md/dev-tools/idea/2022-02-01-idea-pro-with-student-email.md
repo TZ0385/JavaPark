@@ -34,7 +34,7 @@ date: 2022-02-01
 1.  进入[申请页](https://www.jetbrains.com/zh-cn/community/education/?_ga=2.100493086.1068267370.1584595992-1646227051.1584503956#students)，然后点击立即申请；
     ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTEzNDAxMS5wbmc?x-oss-process=image/format,png)
 2.  如实填写相关信息；
-    ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTEzNDEzNC5wbmc?x-oss-process=image/format,png)
+    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTEzNDEzNC5wbmc?x-oss-process=image/format,png)
 
 3.  提交信息后，后续步骤会发送到你的教育邮箱，注意进入教育邮箱接收并完成后续步骤；
     ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTEzNDcyMC5wbmc?x-oss-process=image/format,png)
