@@ -47,17 +47,17 @@ java -version
 
 如果出现如下的提示，则说明我们的 JDK 安装成功了（当然，你可能和我安装的不是一个版本，但只要出现下面类似的提示，就代表你也成功了）。
 
-![](https://img-blog.csdnimg.cn/img_convert/07b231ac8f0c6addd6c9baba7e69bae4.png)
+![](../../../.vuepress/public/img/maven/jdk-version.png)
 
 安装好 JDK 之后，然后接下来在安装 Maven，安装过程如下：
 
 1.  下载 Maven，下载地址：https://maven.apache.org/download.cgi。如下图，我们在 Windows 中一般选择第二项进行下载，而在 macOS 或者 Linux 系统中，则选择第一项进行下载。
 
-![](https://img-blog.csdnimg.cn/img_convert/7723ba221f40ec7f0d5beefb7542f47a.png)
+![](../../../.vuepress/public/img/maven/maven-download.png)
 
 2.  将下载后的压缩包进行解压
 
-![](https://img-blog.csdnimg.cn/img_convert/6761f1ec34dbb0f014b10d8134424a64.png)
+![](../../../.vuepress/public/img/maven/maven-package.png)
 
 3.  配置环境变量
 
@@ -65,11 +65,11 @@ java -version
 
 - MAVEN_HOME：即刚才解压缩后 Maven 的存放路径
 
-![](https://img-blog.csdnimg.cn/img_convert/27d6940eb47536577ab32d83d880752e.png)
+![](../../../.vuepress/public/img/maven/maven-environment.png)
 
 - Path：`%MAVEN_HOME%\bin`
 
-![](https://img-blog.csdnimg.cn/img_convert/8db1d5da10c87044b037bb192d00bea2.png)
+![](../../../.vuepress/public/img/maven/maven-path.png)
 
 4.  校验安装是否成功
 
@@ -79,13 +79,13 @@ java -version
 mvn -v
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/e36aee427c695641584f215e3d97145b.png)
+![](../../../.vuepress/public/img/maven/maven-version.png)
 
 ## Maven 目录结构
 
 安装好 Maven 之后，其目录和内容如下，各目录内容如下：
 
-![](https://img-blog.csdnimg.cn/img_convert/168fbc6eee963079342fa276d8b9aa8a.png)
+![](../../../.vuepress/public/img/maven/maven-structure.png)
 
 - **bin**
 
@@ -120,7 +120,7 @@ mvn -v
 </mirror>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/940699ffc4d8704d0370faa22fa337e2.png)
+![](../../../.vuepress/public/img/maven/maven-mirror.png)
 
 ### 本地仓库配置
 
@@ -132,7 +132,7 @@ mvn -v
 <localRepository>/path/to/local/repo</localRepository>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/c73f0bb7e00acb4eece937dd37afe39e.png)
+![](../../../.vuepress/public/img/maven/maven-repo.png)
 
 ## 总结
 
