@@ -7,7 +7,7 @@ date: 2022-04-14
 
 ## 🌏 本站知识阅览
 
-![JavaPark 站点知识点导图](personal/site-overview.png)
+![JavaPark 站点知识点导图](.vuepress/public/personal/site-overview.png)
 
 ## 🎖️ 精选专栏
 
