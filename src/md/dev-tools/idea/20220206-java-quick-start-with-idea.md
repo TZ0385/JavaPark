@@ -25,23 +25,23 @@ category:
 
 1.  打开 IDEA 主界面，然后点击 `New Project`。
 
-![](https://img-blog.csdnimg.cn/img_convert/f71546df34e73baa93cae1d1b10c830b.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/new-pro.png)
 
 2.  接着选中左侧的 `Java` 选项，然后设置项目的 `JDK`，这里如果你事先安装好了 `JDK`，一般 IDEA 会自动检测出来，如果没有检测出来，那么选中 `Add JDK …`，然后去找你所安装 `JDK` 的路径即可，最后则是选择最下方的 `Next`。
 
-![](https://img-blog.csdnimg.cn/img_convert/68ec843db0696ba14e7b7d9837e53ad9.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/jdk-setting.png)
 
 3.  选择是否从模板创建，默认 IDEA 自带有模板，如果你要基于改模板创建，那么就勾选 `Create project from template`，默认我们不勾选，则是创建一个空项目，这里直接点击 `Next` 进入下一步即可。
 
-![](https://img-blog.csdnimg.cn/img_convert/179f79e1e8445c1e7b6a7de2723c4845.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/create-temp.png)
 
 4.  设置项目名以及项目存放路径，这里可以根据自己的需要来自定义，我们这里以 `HelloWolrd` 为示例，设置好项目名和项目存放路径后直接 `Finish` 即可。
 
-![](https://img-blog.csdnimg.cn/img_convert/af56e65bf33369897c860d19b6a6537d.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/pro-path.png)
 
 5.  这时候我们的项目就创建好了，创建好项目结构如下图所示。
 
-![](https://img-blog.csdnimg.cn/img_convert/430123c951a1061b2a8f3669876da1ee.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/pro-structure.png)
 
 ## 编写代码
 
@@ -49,13 +49,13 @@ category:
 
 1.  首先，我们在项目工具窗口鼠标右击 `src` 文件夹，然后选择 `New`，接着选择 `Java Class`（也可以直接使用快捷键 `Alt + Insert`）。
 
-![](https://img-blog.csdnimg.cn/img_convert/61d1aa5347ab34d5923180d5036f6926.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/new-class.png)
 
 2.  接着在 `Name` 域输入 `com.cunyu1943.helloworld.HelloWorld`，然后回车，接着 `com.cunyu1943.hellowold` 包和 `HelloWorld` 类就创建好了。
 
-![](https://img-blog.csdnimg.cn/img_convert/2233a0ba9b7a2261170803a4ef89d26f.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/pkg.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/cffaa858bea34df06f88230506d01620.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/hello-class.png)
 
 ```java
 package com.cunyu1943.helloworld;
@@ -108,41 +108,41 @@ public class HelloWorld {
 
 代码写好之后，我们先编译下代码，选择工具栏中的编译按钮（也可以使用快捷键 `Ctrl + F9`），项目就会自动进行编译。
 
-![](https://img-blog.csdnimg.cn/img_convert/ec8b180d1673a5e889961e2d972f3210.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/build.png)
 
 编译如果没有出错，那我们就可以接着运行项目了。点击 `main()` 方法之前的绿色三角箭头，项目就会运行起来了（也可以使用快捷键 `Ctrl + Shift + F10`。
 
-![](https://img-blog.csdnimg.cn/img_convert/2d0d0aa5adee9fd5f756e3bdb0cd705b.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/run.png)
 
 或者点击工具栏中的绿色三角箭头即可运行（或者使用快捷键 `Shift + F10`），不过此时运行的是整个项目，而上面的方法则是只运行当前类中的主方法。
 
-![](https://img-blog.csdnimg.cn/img_convert/bf17a258aaa8fae4ec8a55e3f39e1255.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/key-run.png)
 
 然后就在控制台就可以看到我们程序的输出了。
 
-![](https://img-blog.csdnimg.cn/img_convert/c3e6f20cf409e842b1e1c2b219b58464.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/console-output.png)
 
 ## 打包项目为 JAR 应用
 
 依次点击 `File -> Project Structure`，进入项目结构（或者使用快捷键 `Ctrl + Shift + Alt + S`），然后进入选中 `Project Settings -> Artifacts`。
 
-![](https://img-blog.csdnimg.cn/img_convert/6380310c50b5b853aa3f84861fc06034.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/pkg-jar.png)
 
 点击左上角的 `+`，然后选中 `JAR -> From modules with dependencies`，接着会进入 `Create JAR from Modules`，将 `Main Class` 设置为刚才的 `HelloWolrd`，最后点击 `ok` 即可。
 
-![](https://img-blog.csdnimg.cn/img_convert/df8e27534d5ed9b913dc647837e9dab5.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/jar-setting.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/c7510f468bf4e16a42bf4e59e25dffc5.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/manifest.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/421747d7cc7be0688f1a71614e13cff3.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/setting-apply.png)
 
 确定并 `apply` 之后，此时项目打包就配置好了，然后选择菜单栏中的 `Build -> Build Artifacts`，然后点击 `HelloWorld:jar` 并选择 `Build`，然后等待打包完成即可。
 
-![](https://img-blog.csdnimg.cn/img_convert/7b0c9354865783a461df50ee8a0344dd.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/artifacts-build.png)
 
 接着在我们项目的 `out -> artifacts` 目录下，就可以找到 `HelloWorld.jar` 了，此时我们项目的打包工作也完成了。
 
-![](https://img-blog.csdnimg.cn/img_convert/d76ef859fa7e96b20f35ce9d8071692c.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/finish-pkg.png)
 
 ## 运行 JAR 应用
 
@@ -154,7 +154,7 @@ java -jar HelloWorld.jar
 
 可以看到同样打印出了 `Hello Wolrd!`，说明我们项目打包成功，而且也将其顺利运行。
 
-![](https://img-blog.csdnimg.cn/img_convert/12edb796ce2da0302b24f5802288e655.png)
+![](../../../.vuepress/public/img/idea/20220206-java-quick-start-with-idea/run-jar.png)
 
 ## 总结
 

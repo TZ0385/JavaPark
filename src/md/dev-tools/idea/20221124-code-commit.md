@@ -51,16 +51,16 @@ category:
 
 ### 提交前的配置项
 
-![提交前的配置](https://img-blog.csdnimg.cn/fcb9af8780484cab9a63310e7d00c06d.png)
+![提交前的配置](../../../.vuepress/public/img/idea/20221124-code-commit/before-commit.png)
 
 #### Alibaba Code Guidelines
 
 安装 `p3c` 插件后，才会有该选项。在提交代码改动之前，如果勾选此选项，则会去扫描代码中不符合 `p3c` 规则中的代码，然后弹窗提示存在可疑代码，此时可以到控制台查看存疑的代码。然后只需要根据控制台中提示的去修改代码即可。
 
 - 代码存疑弹窗
-  ![](https://img-blog.csdnimg.cn/125e2dac822d41639a28a5776dd7ba12.png)
+  ![](../../../.vuepress/public/img/idea/20221124-code-commit/ali-code-analyze.png)
 - 控制台中存疑的代码提示
-  ![](https://img-blog.csdnimg.cn/6f7bec02753d4cbba1b651411ea8c79a.png)
+  ![](../../../.vuepress/public/img/idea/20221124-code-commit/console-ali.png)
 
 #### Reformat code
 
@@ -113,9 +113,9 @@ public class Main {
 #### Analyze code
 
 勾选该选项后，`IDEA` 会用默认的配置文件去扫描我们所写代码的质量。如果扫描发现问题，则会弹出以下类似的弹窗，此时只要点击 `Review` 就可以对代码中存在问题的地方进行 `Review`，根据所给提示对代码进行修改。
-![](https://img-blog.csdnimg.cn/8a087da5e21e41d695a5e0d587ffda72.png)
+![](../../../.vuepress/public/img/idea/20221124-code-commit/code-analysis.png)
 
-![](https://img-blog.csdnimg.cn/ba6e3073308b4c5782cb6b6a67299ee4.png)
+![](../../../.vuepress/public/img/idea/20221124-code-commit/code-analysis-res.png)
 
 #### Check TODO
 
@@ -132,10 +132,10 @@ public class Main {
 
 如果我们新增的代码如上，此时如果在提交点前勾选 `Check TODO` 选项，就会弹窗提示。
 
-![](https://img-blog.csdnimg.cn/c4753c81e46245b0906ecbdbf110dac9.png)
+![](../../../.vuepress/public/img/idea/20221124-code-commit/todo.png)
 
 此时点击 `Review` 就可以去查看对应分析结果，然后去找到对应 `todo` 所在的代码对它进行补充。
-![](https://img-blog.csdnimg.cn/9d9981a80f674fa78093c04f6592c797.png)
+![](../../../.vuepress/public/img/idea/20221124-code-commit/review.png)
 
 #### Cleanup
 
@@ -172,8 +172,9 @@ public class Main {
 
 ```
 
-![](https://img-blog.csdnimg.cn/cd721721a8ae49f29a62f187d61b7cac.png)
-![](https://img-blog.csdnimg.cn/78ad273a718b4258b02b0e280c514ba5.png)
+![](../../../.vuepress/public/img/idea/20221124-code-commit/review-sonar-res.png)
+
+![](../../../.vuepress/public/img/idea/20221124-code-commit/sonar-res.png)
 
 ## 提交日志模板化（Git Commit Template）
 
@@ -255,13 +256,13 @@ public class Main {
 
 1.  安装完成后，在代码提交界面会有以下图标，点击进行参数配置。
 
-![](https://img-blog.csdnimg.cn/05b8d9da6c2543f7b5715b5b8b2c43c7.png)
+![](../../../.vuepress/public/img/idea/20221124-code-commit/para-setting.png)
 
 2.  根据自己的需求进行相关配置。
 
-![](https://img-blog.csdnimg.cn/3f00fe384f24410881842d8e05579ca9.png)
+![](../../../.vuepress/public/img/idea/20221124-code-commit/para-fill.png)
 
-![](https://img-blog.csdnimg.cn/5608cf18f6434a369fcde51bb1f44235.png)
+![](../../../.vuepress/public/img/idea/20221124-code-commit/fix-setting.png)
 
 3.  完成配置之后，点击右下角的 `ok`，就会自动根据模板生成提交的具体信息，最后进行提交即可，一个自动生成的具体示例如下：
 
@@ -275,7 +276,7 @@ BREAKING CHANGE: 不兼容的变更
 Closes 关闭的issue
 ```
 
-![](https://img-blog.csdnimg.cn/2bc745e949704c7483e8b3d0079fae99.png)
+![](../../../.vuepress/public/img/idea/20221124-code-commit/gene-res.png)
 
 ## 总结
 

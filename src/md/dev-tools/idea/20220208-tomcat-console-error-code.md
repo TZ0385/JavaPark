@@ -25,9 +25,9 @@ category:
 
 将 IntelliJ IDEA 和项目均配置为 `UTF-8` 编码；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjI5MTQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/idea-encode-setting.png)
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjI5NTcucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/utf8.png)
 
 ### IntelliJ IDEA 启动项
 
@@ -39,9 +39,9 @@ category:
 
 - 或者直接在 IntelliJ IDEA 中直接进行修改；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjM2NDUucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/vm-option.png)
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjM3MjgucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/dfile-encode.png)
 
 ### Tomcat 配置
 
@@ -51,7 +51,7 @@ category:
 -Dfile.encoding=UTF8 -Dsun.jnu.encoding=UTF8
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NXaW4vMjAyMDA0MTMyMjQ1MDYucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/java-opt.png)
 
 ## 总结
 
