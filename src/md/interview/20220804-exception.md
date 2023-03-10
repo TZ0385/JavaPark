@@ -18,7 +18,7 @@ order: 4
 
 ### 异常类层次结构
 
-![](https://s1.ax1x.com/2020/07/28/akwEee.png)
+![](../../.vuepress/public/img/interview/20220804-exception/throwable.png)
 
 从结构图可以看出，所有异常均继承自 `Throwable` 类，它有两个重要的子类：`Exception` 和 `Error` ，各自又包含大量子类。
 
@@ -101,7 +101,7 @@ try (Scanner scanner = new Scanner(new File("D:/demo.txt"))) {
 
 Java 中，异常处理机制分为 **声明异常、抛出异常和捕获异常**，根据异常的情况，可以对异常进行不同处理：
 
-![](https://s1.ax1x.com/2020/09/11/wYXFKO.png)
+![](../../.vuepress/public/img/interview/20220804-exception/exception-1.png)
 
 ### 声明异常
 
