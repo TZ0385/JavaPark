@@ -32,7 +32,7 @@ JavaScript 一般运行在网页中的，所以一般是在浏览器中运行。
 
 ## JavaScript 的组成
 
-![](../../../.vuepress/public/img/js/js-compose.png)
+![](./../../../.vuepress/public/img/js/2022-05-01-introduction/js-compose.png)
 
 1.  **ECMAScript**
 
@@ -68,7 +68,7 @@ JavaScript 的书写位置主要有 3 种，分别是行内式、内嵌式和外
 </html>
 ```
 
-![](../../../.vuepress/public/img/js/inline.png)
+![](./../../../.vuepress/public/img/js/2022-05-01-introduction/inline.png)
 
 行内式的特点就是比较简单，但是也存在很多问题。比如可读性较差，如果需要在 HTML 编写大量 JavaScript 代码时，此时阅读就很不方便。除此之外，JavaScript 和 HTML 中都会使用到引号，如果出现多层引号相互嵌套时，会非常容易混淆，导致代码实现结果出错。所以除非特殊情况，否则一般不推荐使用行内式。
 
@@ -92,7 +92,7 @@ JavaScript 的书写位置主要有 3 种，分别是行内式、内嵌式和外
 </html>
 ```
 
-![](../../../.vuepress/public/img/js/embed.png)
+![](./../../../.vuepress/public/img/js/2022-05-01-introduction/embed.png)
 
 3.  **外部式**
 
@@ -121,7 +121,7 @@ alert("手塚国光")
 </html>
 ```
 
-![](../../../.vuepress/public/img/js/outer.png)
+![](./../../../.vuepress/public/img/js/2022-05-01-introduction/outer.png)
 
 ## 总结
 
