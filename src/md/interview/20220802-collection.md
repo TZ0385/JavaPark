@@ -391,7 +391,7 @@ public interface Map<K,V> {
 
 ### HashMap
 
-最基础常用的一种 `Map`，无序且以散列表的方式进行存储。`HashSet` 其实就是基于 `HashMap`，将其 `key` 作为单个元素进行存储。关于 `HashMap` 的更多知识，可以参看 [HashMap 知多少](2022-08-03-hashmap.md)。
+最基础常用的一种 `Map`，无序且以散列表的方式进行存储。`HashSet` 其实就是基于 `HashMap`，将其 `key` 作为单个元素进行存储。关于 `HashMap` 的更多知识，可以参看 [HashMap 知多少](20220803-hashmap.md)。
 
 ### LinkedHashMap
 

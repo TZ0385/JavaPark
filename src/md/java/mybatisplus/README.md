@@ -10,5 +10,5 @@ date: 2022-09-01
 
 ## 🎖️ 目录
 
-1. [MyBatis Plus 指南：简介及入门实例](2022-02-01-intro-and-quick-start.md)
-2. [MyBatis Plus 指南：日志配置及常用 CRUD](2022-02-02-log-and-common-crud.md)
+1. [MyBatis Plus 指南：简介及入门实例](100%20Learning%20学习/120%20开源项目/JavaPark/src/md/java/mybatisplus/20220201-intro-and-quick-start.md)
+2. [MyBatis Plus 指南：日志配置及常用 CRUD](20220202-log-and-common-crud.md)
