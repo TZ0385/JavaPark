@@ -31,36 +31,49 @@ date: 2022-02-01
 
 阅读了免费教育许可证相关信息之后，准备好你的教育邮箱，咱们来正式看看具体的申请过程吧。
 
-1.  进入[申请页](https://www.jetbrains.com/zh-cn/community/education/?_ga=2.100493086.1068267370.1584595992-1646227051.1584503956#students)，然后点击立即申请；
-    ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTEzNDAxMS5wbmc?x-oss-process=image/format,png)
-2.  如实填写相关信息；
-    ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTEzNDEzNC5wbmc?x-oss-process=image/format,png)
+1.  进入[申请页](https://www.jetbrains.com/zh-cn/community/education/?_ga=2.100493086.1068267370.1584595992-1646227051.1584503956#students)，然后点击立即申请。
 
-3.  提交信息后，后续步骤会发送到你的教育邮箱，注意进入教育邮箱接收并完成后续步骤；
-    ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTEzNDcyMC5wbmc?x-oss-process=image/format,png)
-    ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTE0MDMwNy5wbmc?x-oss-process=image/format,png)
-4.  阅读并同意相关条例，然后会发完成注册的邮件到你的教育邮箱，接着去邮箱完成即可；
-    ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTEzNTgzNy5wbmc?x-oss-process=image/format,png)
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/start.png)
 
-5.  在邮箱中按指示完成注册；
-    ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTE0MDA1NC5wbmc?x-oss-process=image/format,png)
-6.  填写注册名以及设置密码后提交；册名以及设置密码后提交；
-    ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTE0MDQyMy5wbmc?x-oss-process=image/format,png)
+2. 如实填写相关信息。
 
-7.  好了，注册完成，下边就可以使用注册好的账号登录使用 JetBrains 开发工具套件了；
-    ![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDMxOTE0MDcyNS5wbmc?x-oss-process=image/format,png)
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/info-fill.png)
+
+3.  提交信息后，后续步骤会发送到你的教育邮箱，注意进入教育邮箱接收并完成后续步骤。
+    
+
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/verifify.png)
+
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/mail-check.png)
+
+4.  阅读并同意相关条例，然后会发完成注册的邮件到你的教育邮箱，接着去邮箱完成即可。
+    
+
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/agree.png)
+
+5.  在邮箱中按指示完成注册。
+
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/register.png)
+
+6.  填写注册名以及设置密码后提交。
+
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/set-pwd.png)
+
+7.  好了，注册完成，下边就可以使用注册好的账号登录使用 JetBrains 开发工具套件了。
+
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/finish.png)
 
 ## 如何续期
 
 以上的步骤完成之后，默认往往只有一年的使用时间，到其之后一般就会在开发工具中提醒，如：
 
-![img](https://img-blog.csdnimg.cn/20200616231631232.png)
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/expires.png)
 
 这个时候，我们需要到官网进行续期，登录之后，我们只需要在 License 页面点击 `Renew my Education Pack` ，然后我们确认相关信息之后，它就会发送续期邮件到我们的邮箱。
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210929143134739.png)
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/renew.png)
 
-![img](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main//blog/image-20210929143855399.png)
+![](./../../../.vuepress/public/img/idea/20220201-idea-pro-with-student-email/re-agree.png)
 
 接着我们只需要点击 `Accept` 同意即可。
 
