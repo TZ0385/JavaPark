@@ -29,9 +29,9 @@ console.log(num);
 
 这三种结构分别代表了三种代码执行的顺序，用流程图示意如下。
 
-| 顺序结构                                                                          | 分支结构                                                                          | 循环结构                                                                          |
-| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| ![](https://img-blog.csdnimg.cn/img_convert/58300ac63840c7474f7d183aa592df37.png) | ![](https://img-blog.csdnimg.cn/img_convert/233ef57183f2e5d2b83ebc9250fb6d97.png) | ![](https://img-blog.csdnimg.cn/img_convert/d425505cdd81240e3c19ad5e6e7fd276.png) |
+| 顺序结构                                                     | 分支结构                                                     | 循环结构                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![](./../../../.vuepress/public/img/js/20220505-process-control/flow.png) | ![](./../../../.vuepress/public/img/js/20220505-process-control/branch.png) | ![](./../../../.vuepress/public/img/js/20220505-process-control/loop.png) |
 
 ## 顺序结构流程控制
 
@@ -63,7 +63,7 @@ if(10 > 20){
 console.log('10 小于 20');
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/a94771451e8abf42ec1b7e4cce84577c.png)
+![](./../../../.vuepress/public/img/js/20220505-process-control/if.png)
 
 除开单分支语句 `if` 之外，JavaScript 也提供了双分支语句 `if…else…`，其语法结构如下：
 
@@ -86,9 +86,9 @@ if(age >= 18){
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/8844ae3cf53621c074638f8d8684caf1.gif)
+![](./../../../.vuepress/public/img/js/20220505-process-control/if-demo1.gif)
 
-![](https://img-blog.csdnimg.cn/img_convert/a00ff8b587ed4064c1526aac3571a89b.gif)
+![](./../../../.vuepress/public/img/js/20220505-process-control/if-demo2.gif)
 
 当然，除开单分支和双分支之外，还有多分支语句 `if…else…if…`，其语法结构如下：
 
@@ -182,7 +182,7 @@ for(i = 1; i <= 100; i++){
 console.log(sum);
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/538605cdf676c60e1e32e4fd1f02b328.png)
+![](./../../../.vuepress/public/img/js/20220505-process-control/for.png)
 
 `for` 循环语句的执行顺序可以总结为如下：
 
@@ -242,7 +242,7 @@ for(var i = 0; i <= 5; i++){
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/784186b63df1ccecd4b38bcc9486c7bd.png)
+![](./../../../.vuepress/public/img/js/20220505-process-control/continue.png)
 
 以上实例中，设置了当 `i` 为 2 时，跳出当次循环，所以程序打印出了 `0-5` 中除 2 之外的其他元素。
 
@@ -257,7 +257,7 @@ for(var i = 0; i <= 5; i++){
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/0d5dc1dadbb90dd6eeb36f584ddad4db.png)
+![](./../../../.vuepress/public/img/js/20220505-process-control/break.png)
 
 以上实例设置了当 `i` 为 2 时跳出整个循环，所以程序只打印出了 0、1，2 及以后的数不再打印。
 
