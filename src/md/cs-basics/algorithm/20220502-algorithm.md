@@ -104,7 +104,7 @@ category: 数据结构与算法
 
 #### 常见的时间复杂度曲线
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/image-20200626143247469.png)
+![](./../../../.vuepress/public/img/algo/20220502-algorithm/fx.png)
 
 #### 常见时间复杂度
 
