@@ -37,7 +37,7 @@ date: 2022-04-18
 10. 字体下载
 11. PPT 音效等
 
-![](https://img-blog.csdnimg.cn/438df0d550ea41e38e8cceece957cd74.png)
+![](../../../.vuepress/public/img/resource/20220418-ppt-template/first-ppt.png)
 
 ## PPT 超级市场
 
@@ -45,7 +45,7 @@ date: 2022-04-18
 
 听名字就知道，这里是就像超市一样，提供各式各样的 PPT 作品和相关服务。这里不仅提供免费、优质、高效、安全的 PPT 模板下载，还提供 PPT 定制化增值服务，无论是想白嫖还是花钱买省心，都可以来这里来试试。网站主要分为 PPT 模板、PPT 作品/文案、PPT 定制、PPT 工具、PPT 教程等模块。
 
-![](https://img-blog.csdnimg.cn/a8c3aa6a415845b6a1cfa876a9827d3a.png)
+![](../../../.vuepress/public/img/resource/20220418-ppt-template/ppt-supermarket.png)
 
 ## PPT 课件网
 
@@ -53,7 +53,7 @@ date: 2022-04-18
 
 主要提供免费的 PPT 课件下载，这里汇聚了基本上从小学、初中、高中到大学期间所有年级的 PPT 课件，主要包括语文、数学、英语、物理、化学、生物、地理、历史、政治、科学、音乐、美术、信息等科目的 PPT。如果你刚好是一位教育行业从事者，那么相信这个网站一定会对你大有帮助。
 
-![](https://img-blog.csdnimg.cn/f674fd4529b34e7e8ab99f65e869fbe6.png)
+![](../../../.vuepress/public/img/resource/20220418-ppt-template/ppt-course.png)
 
 ## 吾道
 
@@ -61,7 +61,7 @@ date: 2022-04-18
 
 提供免版权的幻灯片模板，素材广场中还有其他共享文库、图片、视频、音乐、茶花园、营销设计、音效、矢量、贴纸等素材等你来下载！
 
-![](https://img-blog.csdnimg.cn/e97bcf54b8eb4450a1d457efcd7cf3b7.png)
+![](../../../.vuepress/public/img/resource/20220418-ppt-template/wudao.png)
 
 ## 优品 PPT
 
@@ -69,7 +69,7 @@ date: 2022-04-18
 
 官网自称为：一个有轻快的免费 PPT 模板下载网站！这里有各种 `PPT` 模板、背景、图表、素材、教程、课件等资源，主要分为 PPT 模板、PPT 背景、PPT 图表、PPT 素材、PPT 教程、节日 PPT、字体库、PPT 课件等 8 大模块。
 
-![](https://img-blog.csdnimg.cn/img_convert/44f8e2802e1a639b6129b468e2247372.png)
+![](../../../.vuepress/public/img/resource/20220418-ppt-template/you-ppt.png)
 
 ## 站长素材
 
@@ -77,7 +77,7 @@ date: 2022-04-18
 
 站长之家下的一个子网站，提供各种商用图库、图片、字体、PPT、简历、表格、音效、PSD 等超多资源下载，虽然有的模板需要开通会员才能洗澡，但是免费的就已经很多了，绝对够你用！
 
-![](https://img-blog.csdnimg.cn/5374e008e63d4ad5b0c2ba1e3167daa8.png)
+![](../../../.vuepress/public/img/resource/20220418-ppt-template/chinazz-com.png)
 
 ## 叮当设计
 
@@ -85,7 +85,7 @@ date: 2022-04-18
 
 分享优秀设计资源，主要分为 PPT 模板、PPT 教程、PSD、矢量图、XD、Sketch、Figma 等栏目，还支持全站搜索，身为设计师的你，还不赶紧去看看？
 
-![](https://img-blog.csdnimg.cn/b1f4a358e1884d608ee1ab54aef23a4b.png)
+![](../../../.vuepress/public/img/resource/20220418-ppt-template/dingdang.png)
 
 ## 总结
 

@@ -20,11 +20,7 @@ category:
 
 在我们日常使用电脑的过程中，难免会遇到电脑卡顿的情况，大多时候我们可以通过重装系统的方式来让我们的电脑重焕新生。但是这时候就遇到个难题呀，不会装系统咋办？？？去电脑城或者维修店花钱装？
 
-![](http://ww2.sinaimg.cn/bmiddle/9150e4e5gw1f9nbx3l75mj2057043t8j.jpg)
-
 作为我的读者，怎么可能让你花那么多钱就为了装个系统呢，留着买吃的他不香么？
-
-![](http://wx3.sinaimg.cn/bmiddle/415f82b9ly1fwkr16m9gjj20b40b4aau.jpg)
 
 那今天咱就来聊聊，怎么装系统！在正式开始装系统之前呢，我们需要做一些准备工作，那就是先得搞个系统启动盘呀。当然了，你可能说直接解压安装也行呀，但那样个人觉得始终安装不干净，还是有之前系统残留的一些东西。所以今天就来看看，怎么制作一个系统启动盘！
 
@@ -50,15 +46,15 @@ Refus 十一款 Windows 下十分小巧强大的刻录软件，打开即用，�
 
 1.  到上面给的链接下载好 Refus 后，不用安装，双击打开即可，打开后的界面如下：
 
-![img](https://s1.ax1x.com/2020/09/05/wAyyQg.png)
+<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/refus.png" style="zoom:67%;" />
 
-1.  然后选择镜像文件，然后选择分区类型，最后点击 **开始** 即可；
+2.   然后选择镜像文件，然后选择分区类型，最后点击 **开始** 即可；
 
-![img](https://s1.ax1x.com/2020/09/05/wAyRwn.png)
+<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/iso-select.png" style="zoom:50%;" />
 
-1.  点击开始之后，会提示格式化 U 盘，确定后等待完成即可，之后我们就能得到一个刻录好的 U 盘启动盘了；
+3.   点击开始之后，会提示格式化 U 盘，确定后等待完成即可，之后我们就能得到一个刻录好的 U 盘启动盘了；
 
-![img](https://s1.ax1x.com/2020/09/05/wA6VtP.png)
+<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/upan-remove.png" style="zoom:50%;" />
 
 ### UltraISO：https://cn.ultraiso.net/
 
@@ -66,19 +62,19 @@ UltraISO（软碟通）是一款老牌的刻录工具，虽然可以免费提供
 
 1.  插入 U 盘，打开 UltraISO，然后在 **文件 -> 打开** 准备好的系统镜像文件；
 
-![img](https://s1.ax1x.com/2020/09/04/wArEkV.png)
+<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/ultraiso.png" style="zoom:50%;" />
 
-1.  然后点击 **启动 -> 写入硬盘映像…**，此时会自动识别出 U 盘；
+2.   然后点击 **启动 -> 写入硬盘映像…**，此时会自动识别出 U 盘；
 
-![img](https://s1.ax1x.com/2020/09/05/wAr2cQ.png)
+<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/disk-write.png" style="zoom:50%;" />
 
-1.  不用修改其他配置，直接点击 **写入**，此时会提示操作会格式化 U 盘，点击 **是** 即可；
+3.   不用修改其他配置，直接点击 **写入**，此时会提示操作会格式化 U 盘，点击 **是** 即可；
 
-![img](https://s1.ax1x.com/2020/09/05/wAseEt.png)
+![](../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/continue.png)
 
-1.  点击是之后，此时开始刻录过程，等待刻录完成，退出软件即可，此时我们就得到了一个刻录好的 U 盘启动盘了，拿它去安装系统就可以了！
+4.   点击是之后，此时开始刻录过程，等待刻录完成，退出软件即可，此时我们就得到了一个刻录好的 U 盘启动盘了，拿它去安装系统就可以了！
 
-![img](https://s1.ax1x.com/2020/09/05/wAsHat.png)
+<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/burn.png" alt="刻录" style="zoom:50%;" />
 
 ## 单次多系统
 
@@ -101,7 +97,7 @@ https://www.ventoy.net/cn/download.html
 
 3.  然后 Ventoy 会自动识别 U 盘，然后点击安装即可；
 
-![img](https://s1.ax1x.com/2020/07/19/UfmUK0.png)
+![](../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/ventoy.png)
 
 1.  开始安装前会提示抹除 U 盘数据，所以需要先将 U 盘中的资料备份好，然后等待安装过程结束即可；
 2.  接下来，将我们要安装的系统镜像拷贝到我们的 U 盘即可，然后就可以用来安装系统了；
@@ -115,4 +111,3 @@ https://player.bilibili.com/player.html?bvid=BV1MA411i7gj
 ## 总结
 
 通过上面的学习呢，大家应该都已经能独立完成 U 盘启动盘的制作了。但是不要高兴得太早，这才只是个准备工作呢。开玩笑开玩笑，其实只要把启动盘做好了，我们装系统的工作就算完成了一半了，接下来就是正式安装了。但今天呢讲的已经够多了，我得去休息休息了，那具体的安装过程我们就下一期再见吧！
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgqqpyimg1606570424.gif)

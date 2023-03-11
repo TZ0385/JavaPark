@@ -21,7 +21,7 @@ date: 2022-04-15
 
 ## PTA
 
-![](https://img-blog.csdnimg.cn/img_convert/a6fcd5cf60758ffb36cb9af286268e9b.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/pta.png)
 
 - [PTA](https://pintia.cn/)
 
@@ -30,7 +30,7 @@ date: 2022-04-15
 
 ## LeetCode 美国站
 
-![](https://img-blog.csdnimg.cn/img_convert/360b7331438a65a9d9beb61aad44b197.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/leetcode-us.png)
 
 - [LeetCode 美国站](https://leetcode.com/)
 
@@ -38,7 +38,7 @@ date: 2022-04-15
 
 ## LeetCode 中国站
 
-![](https://img-blog.csdnimg.cn/img_convert/e56959e6d975c8fb5e064eecb22152d5.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/leetcode-ch.png)
 
 - [LeetCode 中国站](https://leetcode.cn/)
 
@@ -46,7 +46,7 @@ date: 2022-04-15
 
 ## 牛客网
 
-![](https://img-blog.csdnimg.cn/img_convert/e885b214e9203bfef740fef7a1a23c93.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/nowcoder.png)
 
 - [牛客网](https://www.nowcoder.com/)
 
@@ -56,7 +56,7 @@ date: 2022-04-15
 
 ## 炼码
 
-![](https://img-blog.csdnimg.cn/img_convert/ab94245a4e65ae241496f0a2a3c2340c.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/lintcode.png)
 
 - [炼码](https://www.lintcode.com/)
 
@@ -65,7 +65,7 @@ date: 2022-04-15
 
 ## 赛码
 
-![](https://img-blog.csdnimg.cn/img_convert/98bf365924b164df10001725fc432632.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/acm.png)
 
 - [赛码](https://www.acmcoder.com/)
 
@@ -73,7 +73,7 @@ date: 2022-04-15
 
 ## 百面网
 
-![](https://img-blog.csdnimg.cn/img_convert/3eb2af5af5884eea42a5636974291b08.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/100mian.png)
 
 - [百面网](http://www.100mian.com/)
 
@@ -81,7 +81,7 @@ IT 公司面试神器，这里不仅提供了 300 本计算机编程经典书籍
 
 ## hihoCoder
 
-![](https://img-blog.csdnimg.cn/img_convert/213c84cd7d25d1bd89170749c5d8b9c3.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/hihocoder.png)
 
 - [hihoCoder](http://hihocoder.com/)
 
@@ -89,7 +89,7 @@ IT 公司面试神器，这里不仅提供了 300 本计算机编程经典书籍
 
 ## 7 月在线
 
-![](https://img-blog.csdnimg.cn/03c6165fdeb244ae8af11cc36f0b6884.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/june-online.png)
 
 - [7 月在线](https://www.julyedu.com/question/index)
 
@@ -98,7 +98,7 @@ IT 公司面试神器，这里不仅提供了 300 本计算机编程经典书籍
 
 ## N 诺
 
-![](https://img-blog.csdnimg.cn/img_convert/75a49bd80897f5102ecdf3a5e111abbb.png)
+![](../../../.vuepress/public/img/resource/20220415-interview-website/dreamjudge.png)
 
 - [N 诺](https://noobdream.com/)
 

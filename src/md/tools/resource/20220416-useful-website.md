@@ -20,7 +20,7 @@ category:
 
 ## docsmall
 
-![](https://img-blog.csdnimg.cn/img_convert/9d33d4ffd08b6d673f53eae95548cacc.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/docsmall.jpeg)
 
 - [docsmall](https://docsmall.com/)
 
@@ -28,7 +28,7 @@ docsmall，这是一个神奇的网站。通过它，你不仅可以实现图片
 
 ## 白描网页版
 
-![](https://img-blog.csdnimg.cn/img_convert/b06786bc14b8cc4929a4389f9e4d419c.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/white-cat.png)
 
 - [白描](https://web.baimiaoapp.com/)
 
@@ -36,7 +36,7 @@ docsmall，这是一个神奇的网站。通过它，你不仅可以实现图片
 
 ## DeepL 翻译器
 
-![](https://img-blog.csdnimg.cn/img_convert/a5d4ac05b3bb6a0d9fa42e2907a49e2a.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/deepl.png)
 
 - [DeepL](https://www.deepl.com/translator)
 
@@ -44,7 +44,7 @@ docsmall，这是一个神奇的网站。通过它，你不仅可以实现图片
 
 ## BigJpg
 
-![](https://img-blog.csdnimg.cn/img_convert/056bfd7142319889abbef059c1a456de.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/bigjpg.png)
 
 - [BigJpg](https://bigjpg.com/)
 
@@ -52,7 +52,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## unDraw
 
-![](https://img-blog.csdnimg.cn/img_convert/ca2d77c94ba85104131af8db27543076.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/undraw.png)
 
 - [链接](https://undraw.co/illustrations)
 
@@ -60,7 +60,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## IconFont
 
-![](https://img-blog.csdnimg.cn/img_convert/b89fc7397f8bd6b756a7587cdcb822d0.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/iconfont.png)
 
 - [IconFont](http://www.iconfont.cn/)
 
@@ -68,7 +68,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## IconPark
 
-![](https://img-blog.csdnimg.cn/img_convert/866528a021da01def1ebb0f22000bc9a.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/iconpark.png)
 
 - [IconPark](https://iconpark.oceanengine.com/home)
 
@@ -76,7 +76,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## Font Awesome
 
-![](https://img-blog.csdnimg.cn/img_convert/6ba2ca2cb8aa2e60c74e61237e4a0aea.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/fontawesome.png)
 
 - [Font Awesome](https://fontawesome.com/)
 
@@ -84,7 +84,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## 第 1 PPT
 
-![](https://img-blog.csdnimg.cn/81c34f60febe42aca79b8baebdc9a7c7.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/ppt1.png)
 
 - [第 1 PPT](https://www.1ppt.com/)
 
@@ -92,7 +92,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## 优品 PPT
 
-![](https://img-blog.csdnimg.cn/img_convert/44f8e2802e1a639b6129b468e2247372.png)
+![](../../../.vuepress/public/img/resource/20220416-useful-website/you-ppt.png)
 
 - [优品 PPT](https://www.ypppt.com/moban/)
 

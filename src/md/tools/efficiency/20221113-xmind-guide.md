@@ -22,45 +22,45 @@ date: 2022-11-13
 
 ## 思维导图的优点
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTEzZDM1NTczZGQ4Y2RkNzIucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/advantage.png)
 
 ## XMind
 
 XMind 专业版是需要付费的，但是基础版的也可以使用，只是较之专业版的有的功能受限，但满足日常使用需求已经足以。[下载地址](https://www.xmind.cn/download/win/)。
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTUwZGYyZjk3NGFlODcwZGIucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/download.png)
 
 ## XMind 快捷键
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLThlYTkxYmE5NzNjZWEwNWMucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/key.png)
 
 ## 使用技巧
 
 - 修改节点中的内容
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTNkYzkyNzBmMjEzZDA4ZGIucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/change-context.png)
 
 - 创建同级节点和子节点
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTcwNzY1ZTBhYzYxYmQ2MTQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/node-create.png)
 
 - 添加优先等级图标
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTMwZGRlNjMxN2ZmYTY0MTcucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/add-icon.png)
 
 - 更改思维导图样式
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTQwOTRmMmI0NzYyNzNjODcucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/style-change.png)
 
 ## 总结
 
 XMind 是一款十分有助于效率提高的工具，也很容易上手操作，绝对是学习生活中的一大利器。如果你对自己的学习工作效率不是十分满意，那么 XMind 绝对值得一试哦！！！
 以下附上几张 XMind 官方给出的模版：
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTg1YTUyN2MwYWExYzM5OTUucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/model1.png)
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTM5NzNiZjRlZjIwMDQwNDEucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/model2.png)
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTVmOGNhZjE2MGJlYzI0ZjYucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/model3.png)
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTIzMTM1NTY1MDdiOTk0NTUucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/efficiency/20221113-xmind-guide/mode4.png)

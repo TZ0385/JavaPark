@@ -22,15 +22,15 @@ date: 2022-04-08
 
 - 桌面
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWU1MTMwNmJiN2Q5ZDQ1MjUucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/desktop.png)
 
 - 程序坞
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NVYnVudHUvMjAyMDA0MjIxMjA0MTYucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/program.png)
 
 - 文件
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NVYnVudHUvMjAyMDA0MjIxMTU5MjAucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/file.png)
 
 # 系统设置
 
@@ -40,7 +40,7 @@ date: 2022-04-08
 
 打开 **软件和更新** ，然后选择下载自 **其他站点**，选择你要设置的镜像源站点即可，也可以点击右侧选择最佳服务器，会根据你所处地区然后自动选择网速最快的；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTAxNmU0NjhjMTNkZmI5ZGQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/mirror.png)
 
 ## 安装更新
 
@@ -87,7 +87,7 @@ timedatectl set-local-rtc 1
 
 此处推荐下载安装包后安装，[下载地址](https://pinyin.sogou.com/linux/?r=pinyin)，下载后的安装包如下；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWM5ZjY0NWQ0NzhjZDFmMzQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/input-download.png)
 
 然后在当前文件夹下打开终端，输入如下命令安装即可；
 
@@ -95,14 +95,15 @@ timedatectl set-local-rtc 1
 sudo dpkg -i sogoupinyin_2.3.1.0112_amd64.deb
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTE5MTI3ZDNmNjMyZTQyZTMucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/install-sougou.png)
 
-接着到 **设置 - &gt; 区域和语言** 点击已安装的语言；
+接着到 **设置 - &gt; 区域和语言** 点击已安装的语言。
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWQ5NzgxM2I4ODkzOWFlOTIucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/language.png)
 
-把键盘输入法设置为 **fcitx**，然后应用到整个系统即可，然后注销或者重启即可使用；
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWFlY2U2ZTQwMGVkZWFhM2UucG5n?x-oss-process=image/format,png)
+把键盘输入法设置为 **fcitx**，然后应用到整个系统即可，然后注销或者重启即可使用。
+
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/fcitx.png)
 
 - 注意
 
@@ -125,11 +126,11 @@ sudo apt-get --fix-broken install
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTY0OWZkMTA1YWRiMmM3NTUucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/browser.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWZkOTExNTAyMzQyMTM4MDMucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/chrom-preview.png)
 
 ## QQ
 
@@ -139,11 +140,11 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo dpkg -i linuxqq_2.0.0-b2-1082_amd64.deb
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTNkZjVlMmU3NDBhMzc2MTAucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/qq.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWJkYjVmYTUxOTAyNDJiMjEucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/qq-preview.png)
 
 ## 微信
 
@@ -155,11 +156,11 @@ sudo dpkg -i linuxqq_2.0.0-b2-1082_amd64.deb
 
 打开网页版微信，然后打开浏览器设置中的 **更多工具 -&gt; 创建快捷方式** 即可，然后在桌面就会出现快捷方式，信任即可；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTEwMTY0ZDU2MDc5YmQxNjAucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/wechat.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWM3NWUwZjA3NzdiZWQ2Y2YucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/wechat-pre.png)
 
 ## 音乐播放器
 
@@ -175,11 +176,11 @@ sudo dpkg -i linuxqq_2.0.0-b2-1082_amd64.deb
 sudo dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTFjZmZkMmNkYWE1NGE3OTcucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/cloud-music.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTQ1OTA5YjczYjQzOTVjMjAucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/cloud-music-pre.png)
 
 ## 截图工具
 
@@ -191,17 +192,17 @@ sudo dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
 sudo apt install flameshot
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTM4ZTkzNmNjOThhZjU0MTQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/flameshot.png)
 
 - 设置快捷键
 
 依次进入 **设置 -&gt; 设备 -&gt; 键盘** ，然后滑到最底端会有一个 `+` 按钮，点击 `+` 添加自定义快捷键，并设置名称和命令，然后点击右上角添加就可以设置自己想要的截图快捷键，比如我设置的是 `Ctrl + Alt + A`，如下图所示；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWJmODdiNzlhMWViNzI4N2IucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/key.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWJhMzMwODIzZjFjM2Y0NWQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/flameshot-pre.png)
 
 ## 图片编辑器
 
@@ -217,11 +218,11 @@ GIMP 是 GNU Image Manipulation Program（GNU 图像处理程序）的缩写，�
 sudo apt-get install gimp
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWUzYTNhNjE3N2RlM2E3MmUucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/gimp-install.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWM1NWJkODc1OTRhNmY5YTIucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/gimp.png)
 
 ## 文字处理
 
@@ -237,11 +238,11 @@ Ubuntu 中自带了 LibreOffice 办公套件，但此处更推荐使用 WPS，�
 sudo dpkg -i wps-office_11.1.0.9505_amd64.deb
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWVmN2Q0ODgzYjJjMWRjNzgucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/wps-install.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTlmMzYzNjM5MzhiYTdlOGYucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/wps.png)
 
 ## Markdown 编辑器
 
@@ -263,11 +264,11 @@ sudo apt-get update
 sudo apt-get install typora
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTg3ZDJiYWEyOTZhOGVhMmQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/typora.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NVYnVudHUvMjAyMDA0MjIxMTQ3MTIucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/typora-pre.png)
 
 ## 文档阅读器
 
@@ -283,11 +284,11 @@ sudo apt-get install typora
 sudo apt-get install okular
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTYzYTNiZDNlNDA5ZDdkYmYucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/okular-install.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTY0ZDVkNzQ4Yzc4YmNmZWQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/okular.png)
 
 ## 思维导图
 
@@ -303,10 +304,11 @@ sudo apt-get install okular
 sudo dpkg -i XMind-2020-for-Linux-amd-64bit-10.1.2-202004142327.deb
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWNkYmEwNDU3ZTExNWUzMDAucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/xmind-install.png)
 
 - 成品
-  ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWY1OTMyOGQyNDAzMzRlMjEucG5n?x-oss-process=image/format,png)
+
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/xmind.png)
 
 ## 多媒体播放器
 
@@ -322,11 +324,11 @@ sudo dpkg -i XMind-2020-for-Linux-amd-64bit-10.1.2-202004142327.deb
 sudo snap install vlc
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTJjMDFmN2ZlMDAwYTJiZmMucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/vlc-install.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLThhZGJhZDljYWQ0YTU0N2UucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/vlc.png)
 
 ## 录屏软件
 
@@ -344,7 +346,7 @@ sudo apt install kazam
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NVYnVudHUvMjAyMDA0MjIxMTUzMTMucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/kazam.png)
 
 ## 视频编辑软件
 
@@ -362,7 +364,7 @@ sudo apt install openshot
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NVYnVudHUvMjAyMDA0MjIxMTUyMzEucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/opspshot.png)
 
 ## 下载工具
 
@@ -376,11 +378,11 @@ Uget（原名：Urlgfe）是一个基于 GTK+ 编写的自由和开放源码的�
 sudo apt-get install uget
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWEzYTIwYzhiNTYwYTA3YjAucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/uget-install.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTM5MDcyZGExMDJkNmJmYjAucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/uget.png)
 
 # 开发环境搭建
 
@@ -392,7 +394,7 @@ sudo apt-get install uget
 sudo apt install git
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTAyOTE2MDI3OTliOTYwNDYucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/git.png)
 
 ## Node.js 安装
 
@@ -422,7 +424,7 @@ node -v
 npm -v
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTk1YjVmNzIxYjZhZDk0ZGEucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/node-v.png)
 
 ## JDK 安装
 
@@ -434,9 +436,9 @@ npm -v
 tar -zxvf jdk-11.0.7_linux-x64_bin.tar.gz
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWUyZGYwYjIzNzdiMTcyODUucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/jdk-install.png)
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWYzODYyMzY2ZDhkMmJkOTEucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/jdk-path.png)
 
 - 配置
 
@@ -447,9 +449,9 @@ export JAVA_HOME=/home/cunyu/Soft/jdk11.0.7
 export PATH=$JAVA_HOME:$PATH
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTljMzcwMmJjYzlkNDNlMDEucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/jdk-profile.png)
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTUzN2I0NTZkODA3N2Y3ZWQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/profile-jdk.png)
 
 - 验证
 
@@ -464,7 +466,7 @@ java
 javac
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLThmYWU0NjczYjNiNjQ3ODAucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/verify.png)
 
 ## MiniConda 安装
 
@@ -491,7 +493,7 @@ export  PATH="/home/cunyu/miniconda3/bin:"$PATH
 
 - 验证
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTU4NDg3M2YwOTA3OTE5MmYucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/conda-v.png)
 
 ## MySQL 安装
 
@@ -501,7 +503,7 @@ export  PATH="/home/cunyu/miniconda3/bin:"$PATH
 sudo apt-get install mysql-server
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLThjNzY3NTc3ODU0MzIzMDQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/mysql-install.png)
 
 - 设置 root 用户密码
 
@@ -527,11 +529,11 @@ SET PASSWORD FOR &#39;root&#39;@&#39;localhost&#39; = PASSWORD(&#39;你要设置
 sudo dpkg -i code_1.44.2-1587059832_amd64.deb
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWQzZDJkMDZiMDQyOTE5ZGMucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/vscode-install.png)
 
 - 成品
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTkwNjFlYzMzNTQ5NTRiYzYucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/vscode.png)
 
 ## IntelliJ IDEA 安装
 
@@ -550,7 +552,7 @@ tar -zxvf ideaIU-2020.1.tar.gz
 
 打开 IDEA 后，进入 **Configure -&gt; Create Desktop Entry**，然后输入 root 用户密码即可；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTc5ZDQzZjY5N2FmM2Y5ZmQucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/idea.png)
 
 ## Pycharm 安装
 
@@ -568,7 +570,7 @@ tar -zxvf pycharm-professional-2020.1.tar.gz
 
 打开 Pycharm 后，进入 **Configure -&gt; Create Desktop Entry**，然后输入 root 用户密码即可；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTIzYzk2NGRlZTc0NGE1ZGEucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/pycharm.png)
 
 # 系统美化
 
@@ -608,7 +610,7 @@ sudo ./install.sh -t -2 -b
 sudo apt-get install gnome-tweak-tool
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTZhMDhlODMwZGQyZDRkMWEucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/gnome.png)
 
 ## 主题安装
 
@@ -616,7 +618,7 @@ sudo apt-get install gnome-tweak-tool
 
 推荐使用这套，macos 风格的主题，[下载链接](https://www.gnome-look.org/p/1275087/)；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWFhMGIyZjlmYTg4ODZmODYucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/theme.png)
 
 - 安装
 
@@ -628,7 +630,7 @@ sudo apt-get install gnome-tweak-tool
 
 推荐这款图标，[下载链接](https://github.com/keeferrourke/la-capitaine-icon-theme)；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWFhMTE4ZWZhZmY2YzhiMTcucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/icon-install.png)
 
 - 安装
 
@@ -646,7 +648,7 @@ Ubuntu 自带终端已经很强大，但我更推荐使用 ZSH；
 sudo apt install zsh
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLWY5NjVhYzEwMGEyMDI1ZTgucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/zsh.png)
 
 - 设为默认 Shell
 
@@ -676,7 +678,7 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 进入 [主题列表](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)，挑选自己喜欢的主题，然后在上述配置中改成你喜欢的主题，比如我的配置文件如下；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vY3VueXUxOTQzL2ltYWdlcy9yYXcvbWFzdGVyL0ltZ3NVYnVudHUvMjAyMDA0MjExMzI5MjgucG5n?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/linux/20220408-ubuntu-guide/zsh-theme.png)
 
 ```.bashrc
 # If you come from bash you might have to change your $PATH.

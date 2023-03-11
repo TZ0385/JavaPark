@@ -21,7 +21,7 @@ date: 2022-04-19
 
 ## cdnjs.com
 
-![](https://img-blog.csdnimg.cn/83ebc1e6678e4f0989c8e228838597b2.png)
+![](../../../.vuepress/public/img/resource/20220419-cdn-resource/cdnjs.png)
 
 - 官网：https://cdnjs.com/
 
@@ -29,7 +29,7 @@ date: 2022-04-19
 
 ## 字节跳动
 
-![](https://img-blog.csdnimg.cn/da0eab7486904e278dfd00048d0476d0.png)
+![](../../../.vuepress/public/img/resource/20220419-cdn-resource/bytedance.png)
 
 - 官网：http://cdn.bytedance.com/
 
@@ -37,7 +37,7 @@ date: 2022-04-19
 
 ## jsDelivr
 
-![](https://img-blog.csdnimg.cn/7a6c1e4b8e7c4a2f8db15a928353a0cc.png)
+![](../../../.vuepress/public/img/resource/20220419-cdn-resource/jsdelivr.png)
 
 - 官网：https://www.jsdelivr.com/
 
@@ -47,7 +47,7 @@ jsDelivr 是一个免费开源的 CDN 解决方案，用于帮助开发者和站
 
 ## UNPKG
 
-![](https://img-blog.csdnimg.cn/538c9ecafd5141dfbb5bfc6985226785.png)
+![](../../../.vuepress/public/img/resource/20220419-cdn-resource/unpkg.png)
 
 - 官网：https://unpkg.com/
 
@@ -59,7 +59,7 @@ unpkg.com/:package@:version/:file
 
 ## BootCDN
 
-![](https://img-blog.csdnimg.cn/a7293d618a104caeb8a596a0a7fea8b7.png)
+![](../../../.vuepress/public/img/resource/20220419-cdn-resource/bootcdn.png)
 
 - 官网：https://www.bootcdn.cn/
 
@@ -67,7 +67,7 @@ BootCDN 是极兔云联合 Bootstrap 中文网共同支持并维护的前端开�
 
 ## 75 CDN
 
-![](https://img-blog.csdnimg.cn/8c96a38af82240a2bffd07db526d01ba.png)
+![](../../../.vuepress/public/img/resource/20220419-cdn-resource/75cdn.png)
 
 - 官网：https://cdn.baomitu.com
 
@@ -75,7 +75,7 @@ BootCDN 是极兔云联合 Bootstrap 中文网共同支持并维护的前端开�
 
 ## Staticfile CDN
 
-![](https://img-blog.csdnimg.cn/d406b53ec2af4ee09e0911b977387a3b.png)
+![](../../../.vuepress/public/img/resource/20220419-cdn-resource/static-cdn.png)
 
 - 官网：https://staticfile.org/
 

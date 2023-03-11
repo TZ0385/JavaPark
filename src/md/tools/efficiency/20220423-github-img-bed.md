@@ -22,13 +22,9 @@ date: 2022-04-23
 
 那你可能会疑惑，那这个东西和写博客的我们有啥关系呢？
 
-<img src="http://ww2.sinaimg.cn/bmiddle/ceeb653ejw1faa8rtzdq1j20k00k0jvh.jpg" style="zoom: 50%;" />
-
 你想想，我们写博客，是不是有很多图片需要插入，我们这些博客要保留在本地的时候你可以预览到图片，但一旦你要把它发布到网上，这时候问题来了！发现图片上传失败，那是因为你本地的图片都是存在本地的，平台不会自动给你上传，那这个时候就凸显出图床的重要性了。当然了，如果你是直接在平台进行编辑，那着一点就不用担心了，基本平台都会自动给你上传到它自己的服务器。
 
 有了图床，我们在本地写好博客之后，就能够任意复制到其他平台，不用担心图片丢失问题了。
-
-<img src="http://ww2.sinaimg.cn/bmiddle/9150e4e5gy1g39su10f1dj209l0a3q30.jpg" style="zoom:50%;" />
 
 今天的文章就是给大家分享一个搭建免费图床的教程，既是方便自己后续的复习，也希望对大家也有所帮助。
 
@@ -38,27 +34,25 @@ date: 2022-04-23
 
 > 一个 Github 账号
 
-<img src="http://ww2.sinaimg.cn/bmiddle/9150e4e5ly1g6zyr5dbqvj20cs0cudgc.jpg" style="zoom:50%;" />
-
 好了，就这么简单，只要你有一个 Github 账号就够了，你就能拥有一个免费的图床了，如果你还没有，那赶紧去 [注册](https://github.com/cunyu1943) 一个账号吧。
 
 ## 搭建过程
 
 这一部分就是正式开始大家过程了，准备好大干一场吧！
 
-<img src="http://ww1.sinaimg.cn/bmiddle/006r3PQBjw1fabl4k0h27j309q09q3yk.jpg" style="zoom:50%;" />
+
 
 1.  登录你的 Github 之后，创建一个新的仓库；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-createrepo.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/repo-create.png)
 
 2.  填写仓库先关资料，一般只需要选一个合适的仓库名，然后确保仓库为 `public` 其他的保持默认就好；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126131523319.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/repo-info.png)
 
 3.  一般创建成功之后，会出现如下界面，至此，我们的图床算是创建好了，接下来就是如何上传图片了；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-successimg.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/repo-finish.png)
 
 ## 上传图片
 
@@ -66,7 +60,7 @@ date: 2022-04-23
 
 PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/) 下载对应版本进行安装即可，我们主要讲讲如何用它来上传图片。安装后，打开软件其主页面如下：
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-picgo.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/picgo.png)
 
 接下来就是配置 PicGo 的过程了。
 
@@ -74,29 +68,29 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 以此打开 `Settings -> Developer settings -> Personal access tokens`，最后点击 `generate new token`；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126133151041.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/github-setting.png)
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126133303931.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/token-generate.png)
 
 2.  填写及勾选相关信息，然后点击 `Genetate token` 即可；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/access.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/token-info.png)
 
 3.  `token` 生成，注意它只会显示一次，所以你最好把它复制下来到你的备忘录存好，方便下次使用，否则下次有需要重新新建；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126134143580.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/access-token.png)
 
 4.  配置 PicGo，依次打开 图床设置 -> Github 图床；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126134655906.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/picgo-github.png)
 
 5.  填写相关信息，最后点击 `确定`即可，要将其作为默认图床的话，点击设为默认图床；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126135110934.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/img-bed-setting.png)
 
 6.  上传图片，通过上传区上传即可（Ctrl V 或者将图片拖拽都可以），也可以通过快捷键的方式上传（默认上传键为 `Ctrl + Shift + P`）；
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-20210126135321015.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/upload.png)
 
 ## 加速访问
 
@@ -108,7 +102,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 比如我的就是 `https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs`
 
-![](https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs/image-jsdelivr.png)
+![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/speed.png)
 
 ## 图床推荐
 
@@ -129,5 +123,3 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 5.  免费图床推荐；
 
 如果你对上面的部分有疑问，欢迎留言或者私信，我会在看到的第一时间回复你！
-
-![](http://ww4.sinaimg.cn/bmiddle/6af89bc8gw1f8srz9343vj205i05ijr9.jpg)

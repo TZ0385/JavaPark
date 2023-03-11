@@ -160,8 +160,9 @@ yay -S ttf-wps-fonts
 yay wps|grep zh
 ```
 
-安装好之后，切换即可；
-![img](https://img-blog.csdnimg.cn/20200521121805344.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dpdGh1Yl8zOTY1NTAyOQ==,size_16,color_FFFFFF,t_70)
+安装好之后，切换即可。
+
+![](../../../.vuepress/public/img/linux/20220409-manjora-guide/wps-language.png)
 
 ### 2.7 flameshot
 
@@ -243,7 +244,7 @@ plugins=(
 )
 ```
 
-![img](https://img-blog.csdnimg.cn/20200521124446435.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dpdGh1Yl8zOTY1NTAyOQ==,size_16,color_FFFFFF,t_70)
+![img](../../../.vuepress/public/img/linux/20220409-manjora-guide/zsh-theme.png)
 
 ### 2.10 utools
 

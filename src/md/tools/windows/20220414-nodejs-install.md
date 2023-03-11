@@ -22,41 +22,41 @@ date: 2022-04-14
 
 要安装`Node.js`，首先需要去下载对应系统安装包，[下载地址](https://nodejs.org/zh-cn/download/)；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDQwODIxMDIxNy5wbmc?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/windows/20220414-nodejs-install/node-download.png)
 
 ## 安装
 
 1. 双击下载好的安装包；
 
-   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2N1bnl1MTk0My9pbWFnZS1ob3N0aW5nLWZvci1ibG9nL2ltZ3NXaW4yMDIwMDQwODIxMDc0MC5wbmc?x-oss-process=image/format,png)
+   ![](../../../.vuepress/public/img/windows/20220414-nodejs-install/install.png)
 
 2. 直接下一步；
 
-   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTZkMGQ4MTQ4MWY2MThlNjMucG5n?x-oss-process=image/format,png)
+   ![](../../../.vuepress/public/img/windows/20220414-nodejs-install/next.png)
 
 3. 勾选同意相关使用协议，同时下一步；
 
-   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85NzQ3MzUwLTAzNmVkZDcyODNiNTAxYzQucG5n?x-oss-process=image/format,png)
+   ![](../../../.vuepress/public/img/windows/20220414-nodejs-install/agree.png)
 
 4. 修改成你要安装的路径（默认也可以），然后下一步；
 
-   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllYmI1Njk1M2Y5Mw?x-oss-process=image/format,png)
+   ![](../../../.vuepress/public/img/windows/20220414-nodejs-install/path.png)
 
 5. 建议不作修改，直接下一步，当然你也可以对里边所需服务进行勾选；
 
-   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllZDdkMjljYTg1Ng?x-oss-process=image/format,png)
+   ![](../../../.vuepress/public/img/windows/20220414-nodejs-install/setting.png)
 
 6. 所需工具自己需要就勾选，不需要就直接下一步；
 
-   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllZTEzMWE1MjUwNg?x-oss-process=image/format,png)
+   ![](../../../.vuepress/public/img/windows/20220414-nodejs-install/auto.png)
 
 7. 直接安装，开始安装；
 
-   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTllZWQxNTllZmQ0Mg?x-oss-process=image/format,png)
+   ![](../../../.vuepress/public/img/windows/20220414-nodejs-install/start.png)
 
 8. 完成安装后，点击 Finish 完成安装；
 
-   ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTlmMDU2OTdiMTUxNA?x-oss-process=image/format,png)
+   ![](../../../.vuepress/public/img/windows/20220414-nodejs-install/inish.png)
 
 ## 验证
 
@@ -66,7 +66,7 @@ date: 2022-04-14
 node -v
 ```
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC80LzgvMTcxNTlmMWJiNmQzYWNkZA?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/windows/20220414-nodejs-install/node-v.png)
 
 ## 环境变量配置
 
@@ -93,7 +93,7 @@ prefix = D:\node\node_global
 cache = D:\node\node_cache
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/90614e36232264ba33de238ec0173007.png)
+![](../../../.vuepress/public/img/windows/20220414-nodejs-install/envi-change.png)
 
 ## 总结
 

@@ -50,7 +50,7 @@ date: 2022-04-20
 - OPML
 - 图像
 
-![](https://img-blog.csdnimg.cn/img_convert/93f5e642ec2df9f4800192fb7b634121.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/typora.png)
 
 ### MarkText
 
@@ -67,7 +67,7 @@ date: 2022-04-20
 - 各种编辑模式：**源代码模式**、**打字机模式**、**专注模式**。
 - 直接从剪贴板中粘贴图片。
 
-![](https://img-blog.csdnimg.cn/img_convert/43b55f25b35d160e46ac3c74cc046d41.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/marktext.png)
 
 ### VS Code
 
@@ -80,7 +80,7 @@ date: 2022-04-20
 - Markdown All in One
 - Markdown Preview GitHub Styling
 
-![](https://img-blog.csdnimg.cn/img_convert/05a79ed98bd13b3a7dca992a89bbc4f6.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/vscode.png)
 
 ## 思维导图
 
@@ -98,9 +98,7 @@ date: 2022-04-20
 - 组织结构图
 - ……
 
-![](https://img-blog.csdnimg.cn/img_convert/5f7d91517e741db88ea31cb08ffd6906.png)
-
-![](https://img-blog.csdnimg.cn/img_convert/dc4fdd7d65efdcef9ca7aff90a068965.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/process-on.png)
 
 ### 幕布
 
@@ -108,7 +106,7 @@ date: 2022-04-20
 
 大纲式笔记工具，根据我们的大纲生成思维导图。免费账号支持 300 条多文档结点数量，支持 4 种结构、4 种风格思维导图样式，还能导出 Word、PDF、图片、HTML 等格式，完全足够我们日常个人使用。
 
-![](https://img-blog.csdnimg.cn/img_convert/6496690a8cbde7ed3741ad873273c64b.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/mubu.png)
 
 ### GitMind
 
@@ -116,13 +114,13 @@ date: 2022-04-20
 
 免费在线思维导图软件，简化逻辑梳理，集思广益，释放创造力在线脑图、思维导图、流程图、工业设计、工程管理，一图涵千面。
 
-![](https://img-blog.csdnimg.cn/img_convert/2e110d0c638da659f2c41688a3aba490.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/gitmind.png)
 
 我们不仅能自己编辑，还能邀请小伙伴进行团队协作。此外，支持多种模板，不仅支持在线编辑，还支持多种导出形式。
 
-![](https://img-blog.csdnimg.cn/img_convert/b8f96e90ed0b0295a2b27e80ea2bb083.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/gitmind-use.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/7c481ca35d6ff0e1055c51bfe3068405.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/export-gitmind.png)
 
 ### markmap
 
@@ -130,7 +128,7 @@ date: 2022-04-20
 
 上面的工具都是直接图像化工具，和我们的 Markdown 工具无关。而今天这个工具，将两者结合起来，利用 Markdown 来画思维导图。markmap 将 Markdown 语法的文本通过思维导图的方式进行可视化，我们即可以使用在线版，也可以使用它在 VS Code 中的插件版，十分方便，而且支持导出 SVG 和 HTML，可以说是十分方便了！
 
-![](https://img-blog.csdnimg.cn/img_convert/4c69fd55e7e1032d866093822ac75db0.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/markmap.png)
 
 ## 图床
 
@@ -140,7 +138,7 @@ date: 2022-04-20
 
 是的，你没有看错，就是万能的 GitHub，我们不仅仅可以从这里找到开源的项目、软件、教程等，你还能把它当成你自己的免费图床。关于具体的搭建过程，可以参考以下我之前的一篇文章：[如何利用 GitHub 搭建自己的免费图床？](https://cunyu1943.github.io/JavaPark/efficiency/github-img-bed)
 
-![](https://img-blog.csdnimg.cn/img_convert/9df4c097a6f575d570c34e7d68130eeb.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/github.png)
 
 ### Gitee
 
@@ -148,7 +146,7 @@ date: 2022-04-20
 
 既然 GitHub 可以用来搭建图床，那我们的国内的 Gitee 也必须可以呀，而且相对 GitHub 来讲访问的速度更快，岂不是美哉。具体的搭建过程可以参考我之前的一篇文章：[Gitee + Typora，搭建自己的免费图床！](https://cunyu1943.github.io/JavaPark/efficiency/gitee-typora)
 
-![](https://img-blog.csdnimg.cn/img_convert/90a698a4707f5d0a0b0c3a81e79df8b3.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/gitee.png)
 
 ### SM.MS
 
@@ -156,7 +154,7 @@ date: 2022-04-20
 
 提供免费图床，而且每个账户有 5 GB 的免费空间，方便我们自己管理，作为我们日常使用完全足够了。
 
-![](https://img-blog.csdnimg.cn/img_convert/9347fd7fa0b1edb839c22c80f3f9e1f9.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/smms.png)
 
 ### 路过图床
 
@@ -164,7 +162,7 @@ date: 2022-04-20
 
 路过图床，这是一款高速稳定的上传和外链服务的图床，支持全球 CDN 加速、支持外链、原图保持，而且最大单张支持 10 MB。至于它的稳定性，相信你也不用担心，它已经从 2011 运行至今 10 年的历程，截至到发文前托管了 16151781 张图片，还在犹豫什么，用起来就完事儿了！
 
-![](https://img-blog.csdnimg.cn/img_convert/b26f1bd57b635e0a1102f3e0b4016320.png)
+![](../../../.vuepress/public/img/resource/20220420-write-tools/luguo.png)
 
 ## 多平台分发
 
@@ -209,11 +207,11 @@ date: 2022-04-20
 - 七牛云
 - 阿里云
 
-![渠道管理](https://img-blog.csdnimg.cn/img_convert/166a1a14756f06a2d7f5ce454f619b18.png)
+![渠道管理](../../../.vuepress/public/img/resource/20220420-write-tools/openwrite.png)
 
-![文章管理](https://img-blog.csdnimg.cn/img_convert/4899edb48d76b22bdad0cf5e17315bc5.png)
+![文章管理](../../../.vuepress/public/img/resource/20220420-write-tools/arti-manage.png)
 
-![图床配置](https://img-blog.csdnimg.cn/img_convert/e9f134196a0b63cc749fe1925eb7ff15.png)
+![图床配置](../../../.vuepress/public/img/resource/20220420-write-tools/img-bed-setting.png)
 
 ### ArtiPub
 
@@ -236,15 +234,15 @@ ArtiPub (Article Publisher 的简称，意为 "文章发布者") 是一款开源
 - 开发者头条
 - 微信公众号
 
-![登陆注册](https://img-blog.csdnimg.cn/img_convert/858f33946ecbb1446983154fc4cb3c6f.png)
+![登陆注册](../../../.vuepress/public/img/resource/20220420-write-tools/login.png)
 
-![平台管理](https://img-blog.csdnimg.cn/img_convert/a5d533cd3c854c6f1b73b952543d240f.png)
+![平台管理](../../../.vuepress/public/img/resource/20220420-write-tools/manage-platform.png)
 
-![文章管理](https://img-blog.csdnimg.cn/img_convert/9e310e1b7ef6aa3eed5e75fcf6cef1a1.png)
+![文章管理](../../../.vuepress/public/img/resource/20220420-write-tools/arti-mng.png)
 
-![文章编辑](https://img-blog.csdnimg.cn/img_convert/3a7830643aca031b5809fcd9324d2303.png)
+![文章编辑](../../../.vuepress/public/img/resource/20220420-write-tools/arti-edit.png)
 
-![文章发布](https://img-blog.csdnimg.cn/img_convert/6af374723b950d11ad06f966c4b44e54.png)
+![文章发布](../../../.vuepress/public/img/resource/20220420-write-tools/arti-pub.png)
 
 ### BlogHelper
 
@@ -272,9 +270,9 @@ ArtiPub (Article Publisher 的简称，意为 "文章发布者") 是一款开源
     - GitHub
     - ImgUR
 
-![图床管理](https://img-blog.csdnimg.cn/img_convert/9f662f4455952462aca4894af58457d1.png)
+![图床管理](../../../.vuepress/public/img/resource/20220420-write-tools/ben-manage.png)
 
-![平台管理](https://img-blog.csdnimg.cn/img_convert/a2e945b1b3ef1a3a9eccd3c7be36f7eb.png)
+![平台管理](../../../.vuepress/public/img/resource/20220420-write-tools/platform-manage.png)
 
 ## 总结
 

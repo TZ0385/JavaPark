@@ -28,7 +28,7 @@ Note right of 村雨遥: 思考！
 
 ## 流程图（Flowcharts）
 
-![](https://img-blog.csdnimg.cn/e1260088087c45ff8dd7cb5781f41bda.png)
+![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/flow-chat.png)
 
 ## Mermaid 图
 
@@ -72,7 +72,7 @@ sequenceDiagram
     end
 ```
 
-![](https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200507211259.png)
+![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/sequence.png)
 
 ### 流程图（Flowcharts)
 
@@ -95,7 +95,7 @@ A[开始] -->B[出示证件]
     E --> F[结束]
 ```
 
-![](https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200507211237.png)
+![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/flow-charts.png)
 
 ### 甘特图（Gantt Charts）
 
@@ -111,7 +111,7 @@ gantt
     项目实施      : 24d
 ```
 
-![](https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200507214018.png)
+![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/gantt.png)
 
 ### 类图（Class Diagrams）
 
@@ -143,7 +143,7 @@ classDiagram
 	}
 ```
 
-![](https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200507211208.png)
+![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/class.png)
 
 ### 状态图（State Diagrams）
 
@@ -158,10 +158,10 @@ stateDiagram
 	加速 --> [*]
 ```
 
-![](https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200507211112.png)
+![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/state.png)
 
 ### 饼图（Pie Charts）
 
-![img](https://cdn.nlark.com/yuque/__mermaid_v3/805eac7734d0ca3e4b48f70c7a39fe3f.svg)
+![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/pie.svg)
 
-![](https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200507170556.png)
+![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/pie-preview.png)

@@ -58,7 +58,7 @@ date: 2022-11-26
 
 如 `D:` 就代码进入 `D` 盘。
 
-![](https://img-blog.csdnimg.cn/09414a722bdc4ecb919d9c12a20cbeff.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/disk-switch.png)
 
 2.  **进入指定目录**
 
@@ -66,7 +66,7 @@ date: 2022-11-26
 cd 目录
 ```
 
-![](https://img-blog.csdnimg.cn/1ef51757d619425383bb0e847186d46b.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/cd.png)
 
 3.  **返回磁盘根目录**
 
@@ -74,7 +74,7 @@ cd 目录
 cd \
 ```
 
-![](https://img-blog.csdnimg.cn/9ab01d4d9b7c4ecea2deb6985bd3ba9e.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/cd-root.png)
 
 4.  **返回上级目录**
 
@@ -82,7 +82,7 @@ cd \
 cd ..
 ```
 
-![](https://img-blog.csdnimg.cn/5dea8e9f04c34e91869c7356b32bfab2.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/cd up.png)
 
 5.  **新建目录**
 
@@ -90,7 +90,7 @@ cd ..
 md 目录名
 ```
 
-![](https://img-blog.csdnimg.cn/6617f0f262cd44b39bc6e75f7146e0e7.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/md.png)
 
 6.  **查看当前目录中内容**
 
@@ -98,7 +98,7 @@ md 目录名
 dir
 ```
 
-![](https://img-blog.csdnimg.cn/bddda2e75fb6487b9e0631b00f52b5ff.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/dir.png)
 
 7.  **查看指定目录结构**
 
@@ -106,7 +106,7 @@ dir
 tree 目录
 ```
 
-![](https://img-blog.csdnimg.cn/aaf0e471c2434efa905e0d160b1b060e.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/tree.png)
 
 8.  **删除目录**
 
@@ -114,7 +114,7 @@ tree 目录
 rd 目录名
 ```
 
-![](https://img-blog.csdnimg.cn/c422e4c274ba4e4eab773b94763c9f06.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/rd.png)
 
 9.  **复制文件**
 
@@ -122,7 +122,7 @@ rd 目录名
 copy 源文件 目标文件
 ```
 
-![](https://img-blog.csdnimg.cn/45336c8adbc94cb4ae00a8754280930e.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/copy.png)
 
 10. **删除文件**
 
@@ -130,7 +130,7 @@ copy 源文件 目标文件
 del 文件名
 ```
 
-![](https://img-blog.csdnimg.cn/98b36e84ffaf4292a6cd97bdc98aa4fd.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/del.png)
 
 ### 开关机操作
 
@@ -164,7 +164,7 @@ shutdown /h /f
 shutdown /s /t 时间（秒）
 ```
 
-![](https://img-blog.csdnimg.cn/e88262049fb2404894e0137de05d83b5.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/shutdown.png)
 
 6.  **取消关机**
 
@@ -172,7 +172,7 @@ shutdown /s /t 时间（秒）
 shutdown /a
 ```
 
-![](https://img-blog.csdnimg.cn/e77917423cde4e07b1552897ee9497d7.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/cancel-shutdown.png)
 
 ### 网络操作
 
@@ -182,7 +182,7 @@ shutdown /a
 ping ip/域名
 ```
 
-![](https://img-blog.csdnimg.cn/b90c248998964ff79241b7d5a4a5dba9.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/ping.png)
 
 2.  **查看本机 ip 地址**
 
@@ -190,7 +190,7 @@ ping ip/域名
 ipconfig
 ```
 
-![](https://img-blog.csdnimg.cn/68a68e8dc08745ee90b562feb5120de5.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/ipconfig.png)
 
 3.  **清除本地 DNS 缓存**
 
@@ -198,7 +198,7 @@ ipconfig
 ipconfig /flushdns
 ```
 
-![](https://img-blog.csdnimg.cn/2d7f861853f44810821c50208d9d88eb.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/flushdns.png)
 
 4.  **路由追踪**
 
@@ -206,7 +206,7 @@ ipconfig /flushdns
 tracert ip/域名
 ```
 
-![](https://img-blog.csdnimg.cn/280ecadf38664625b5be11c324f170c1.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/tracert.png)
 
 ### 进程/服务操作
 
@@ -216,7 +216,7 @@ tracert ip/域名
 tasklist
 ```
 
-![](https://img-blog.csdnimg.cn/074848735de8420cab1ba252e95fa575.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/tasklist.png)
 
 2.  **运行指定程序或命令**
 
@@ -230,7 +230,7 @@ start 程序名
 taskkill /im 进程名
 ```
 
-![](https://img-blog.csdnimg.cn/39d7659d45884808b26da56f85afca97.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/taskkill.png)
 
 4.  **按 PID 结束进程**
 
@@ -238,7 +238,7 @@ taskkill /im 进程名
 taskkill /pid PID
 ```
 
-![](https://img-blog.csdnimg.cn/fb1d63432bae44d18462e68655232300.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/taskkill-pid.png)
 
 5.  **查看当前运行的服务**
 
@@ -246,7 +246,7 @@ taskkill /pid PID
 net start
 ```
 
-![](https://img-blog.csdnimg.cn/925f0da34e374d1b8b27799209af0293.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/net-start.png)
 
 6.  **启动指定服务**
 
@@ -254,7 +254,7 @@ net start
 net start 服务名
 ```
 
-![](https://img-blog.csdnimg.cn/4ff4342792f3439e934eb03776188aff.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/net-start-service.png)
 
 7.  **停止指定服务**
 
@@ -262,7 +262,7 @@ net start 服务名
 net stop 服务名
 ```
 
-![](https://img-blog.csdnimg.cn/867c5f3845c34e9e9332612406020dc1.png)
+![](../../../.vuepress/public/img/windows/20221126-cmd-command/net-stop.png)
 
 ### 其他操作
 
@@ -272,8 +272,9 @@ net stop 服务名
 cls
 ```
 
-![清除前](https://img-blog.csdnimg.cn/89af78bbcd7a48d6be489b09a0505ea0.png)
-![清除后](https://img-blog.csdnimg.cn/871450fabd614115ac62f4d8cc552871.png)
+<img src="../../../.vuepress/public/img/windows/20221126-cmd-command/cls-before.png" alt="清除前" style="zoom:50%;" />
+
+<img src="../../../.vuepress/public/img/windows/20221126-cmd-command/cls-after.png" alt="清除后" style="zoom:50%;" />
 
 2.  **退出**
 

@@ -15,7 +15,7 @@ date: 2023-02-19
 hexo init butterfly-blog
 ```
 
-![](https://img-blog.csdnimg.cn/5eab7b3da0e04d76806a4ba9313f3e78.png)
+![](../../../.vuepress/public/img/blog/20230219-butterfly/butterfly-init.png)
 
 ## 2. 主题设置
 
@@ -27,7 +27,7 @@ hexo init butterfly-blog
 npm i hexo-theme-butterfly
 ```
 
-![](https://img-blog.csdnimg.cn/0d126d303a1d4f2c8e8cfa98d7b0ba2f.png)
+![](../../../.vuepress/public/img/blog/20230219-butterfly/theme-install.png)
 
 如果想要后续想要升级主题，那么只需要在博客根目录中执行以下命令即可。
 
@@ -192,14 +192,14 @@ nav:
 
 修改主题配置文件 `_config.butterfly.yml`，设置文章中代码的主题即可。
 
-| 主题         | 预览                                                                  |
-| ------------ | --------------------------------------------------------------------- |
-| `darker`     | ![](https://img-blog.csdnimg.cn/3f40c34a3da94938a5222a78a9fcf9fc.png) |
-| `pale night` | ![](https://img-blog.csdnimg.cn/a10898f482f74e2dae644962421bd65d.png) |
-| `ocean`      | ![](https://img-blog.csdnimg.cn/550a008bb28d4e1f88335c35961f5ca7.png) |
-| `light`      | ![](https://img-blog.csdnimg.cn/f1d0d5afda2b48fa85c696c251443947.png) |
-| `mac`        | ![](https://img-blog.csdnimg.cn/d774c47d864740c382af0db4e2fd5875.png) |
-| `mac light`  | ![](https://img-blog.csdnimg.cn/da759525591844338db48edc3f0d0f39.png) |
+| 主题         | 预览                                                         |
+| ------------ | ------------------------------------------------------------ |
+| `darker`     | ![](../../../.vuepress/public/img/blog/20230219-butterfly/darker.png) |
+| `pale night` | ![](../../../.vuepress/public/img/blog/20230219-butterfly/pale.png) |
+| `ocean`      | ![](../../../.vuepress/public/img/blog/20230219-butterfly/ocean.png) |
+| `light`      | ![](../../../.vuepress/public/img/blog/20230219-butterfly/light.png) |
+| `mac`        | ![](../../../.vuepress/public/img/blog/20230219-butterfly/mac.png) |
+| `mac light`  | ![](../../../.vuepress/public/img/blog/20230219-butterfly/mac-light.png) |
 
 ```yml
 highlight_theme: mac
@@ -352,7 +352,7 @@ post_copyright:
 
 配置打赏相关信息，让你的读者可以该方式给你打赏。
 
-在博客根目录下的 `source` 目录下新建 `img` 目录，然后将支付宝和微信收款二维码加入后配置即可。
+在博客根目录下的 `source` 目录下新建 `img` 目录，然后将支付宝和微信收款二维码加入后配置即可。
 
 ```yml
 reward:
@@ -537,5 +537,4 @@ timezone: 'Asia/Shanghai'
 
 ## 4. 自动部署
 https://github.com/yanglbme/gitee-pages-action
-
 

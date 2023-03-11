@@ -21,7 +21,7 @@ date: 2022-04-11
 
 终端（也就是 Windows 中所说的控制台）在我们大多数人的印象中，应该都是黑乎乎的一片，然后再加几个白色的文字吧。如果你还这样想，那你可就 Out 了，现在，我们的终端也可以改造成酷炫时尚的模样，就像下面这张图，那该怎么改呢？赶紧来看看吧。
 
-![最终效果图](https://img-blog.csdnimg.cn/img_convert/5b165f298d960808713fef024bc97b0c.png)
+![最终效果图](../../../.vuepress/public/img/macOS/20220411-item-oh-my-zsh/preview.png)
 
 ## iTerm2
 
@@ -29,7 +29,7 @@ macOS 自带的终端又丑又难用，不过还好，大佬们的智慧是无�
 
 首先安装上 iTerm2，去 [官网下载](https://iterm2.com/index.html)，然后直接解压后拖入 `Application` 就搞定了，然后我们首先来看看他的原皮！
 
-![](https://img-blog.csdnimg.cn/img_convert/ee3f6d808c9bb4470a5b86bd889f1e53.png)
+![](../../../.vuepress/public/img/macOS/20220411-item-oh-my-zsh/iterm2.png)
 
 好像还是很丑，咋回事儿，不是说 iTerm2 很酷炫的么，不还是一样丑不拉叽的么？？？
 
@@ -89,7 +89,7 @@ source ~/.zshrc
 
 好了，这时候界面应该变了！
 
-![](https://img-blog.csdnimg.cn/img_convert/8603f31c02b851d7b28b7d5e631a3897.png)
+![](../../../.vuepress/public/img/macOS/20220411-item-oh-my-zsh/iterm2-preview.png)
 
 ### .zshrc
 
@@ -131,7 +131,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 接着安装 `MesloLGS NF` 字体（ [PowerLevel10k](https://github.com/romkatv/powerlevel10k) 安装手册里有），然后依次打开：`iTerm2->Preferences->Profiles->Text`，把字体选为 `MesloLGS NF` 即可；
 
-![iTerm2字体配置](https://img-blog.csdnimg.cn/img_convert/1383cd7541d0404f91e7dc27ecd2d1e9.png)
+![iTerm2字体配置](../../../.vuepress/public/img/macOS/20220411-item-oh-my-zsh/font-change.png)
 
 然后重启 iTerm2，输入 `p10k configure` 按照自己的喜好进行主题配置即可，一般配置的问题大概是以下意思：
 
@@ -151,7 +151,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 14. 两行命令之间分布稀疏还是松散
 15. 是否需要图标
 
-![完成后的效果](https://img-blog.csdnimg.cn/img_convert/4ba07fea07cfd5b51f923651919523a5.png)
+![完成后的效果](../../../.vuepress/public/img/macOS/20220411-item-oh-my-zsh/finish-config.png)
 
 ### 常用插件推荐
 
