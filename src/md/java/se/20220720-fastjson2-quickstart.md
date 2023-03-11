@@ -49,7 +49,7 @@ date: 2022-07-20
 
 当然，首要的工作就是创建一个 `Maven` 项目，如果你还有点摸不着头脑，那可以移步先去看看前备知识：
 
-> [Maven 入门手册：使用 IDEA 创建 Maven 项目](https://cunyu1943.site/JavaPark/java/maven/maven-project-with-idea.html)
+> [Maven 入门手册：使用 IDEA 创建 Maven 项目](https://cunyu1943.github.io/JavaPark/md/java/maven/20220104-maven-project-with-idea)
 
 当我们创建完成一个 `Maven` 项目之后，首要的工作就是在项目的 `pom.xml` 中添加 `Fastjson V2` 的依赖。
 
@@ -89,7 +89,7 @@ public class MainApplication {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/826aa135cbf72c5e07b4132fd56a536a.png)
+![](../../../.vuepress/public/img/se/20220720-fastjson2-quickstart/json.png)
 
 ### JSON 解析为 Java 对象
 
@@ -106,7 +106,7 @@ public class MainApplication {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/5606df207ee83f3476f94d09c50d57ce.png)
+![](../../../.vuepress/public/img/se/20220720-fastjson2-quickstart/json2java.png)
 
 ### JSON 解析为 JSONObject
 
@@ -123,7 +123,7 @@ public class MainApplication {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/3b07a663fee762b6540620919ac462cb.png)
+![](../../../.vuepress/public/img/se/20220720-fastjson2-quickstart/json2obj.png)
 
 ### JSON 解析为 JSONArray
 
@@ -140,7 +140,7 @@ public class MainApplication {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/67b323159a2d4ff79bc6075bc452ccac.png)
+![](../../../.vuepress/public/img/se/20220720-fastjson2-quickstart/json-array.png)
 
 ## 总结
 

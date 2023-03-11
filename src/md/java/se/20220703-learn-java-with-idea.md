@@ -30,7 +30,7 @@ date: 2022-07-03
 
 对于旗舰版和社区版，我从官网给出的对比从而摘选了如下图所示的区别。可以看出旗舰版无论在 **语言支持、框架支持、Build 工具、部署工具、版本控制** 等多方面都比社区版更加强大，但是最大的区别也是我们最为关心的一点：**旗舰版收费，而社区版免费**， 所以可以根据自己的需求进行选择。
 
-![](https://img-blog.csdnimg.cn/20200604092817501.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dpdGh1Yl8zOTY1NTAyOQ==,size_16,color_FFFFFF,t_70)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/ul-vs-community.png)
 
 ### 软件
 
@@ -53,7 +53,7 @@ date: 2022-07-03
 
 1. 下载安装包，根据自己的需求选择旗舰版或是社区版
 
-![](https://img-blog.csdnimg.cn/img_convert/c8e6ed571070c0f4e901afcabf1bb5dd.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/ubuntu-download.png)
 
 2. 将下载好的安装包 `ideaIU-2020.1.1.tar.gz` 移动到平时存放软件的目录下进行解压缩
 
@@ -61,9 +61,9 @@ date: 2022-07-03
 tar -zxvf ideaIU-2020.1.1.tar.gz
 ```
 
-![解压](https://img-blog.csdnimg.cn/img_convert/5c9639809d7c328e018fb6b61f61a398.png)
+![解压](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/unzip.png)
 
-![解压后的目录结构](https://img-blog.csdnimg.cn/img_convert/3d9686b9b627c266902bf8285e6e2070.png)
+![解压后的目录结构](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/strucrure.png)
 
 3. 进入解压后的 `bin` 目录，然后在终端启动如下命令即可：
 
@@ -71,25 +71,25 @@ tar -zxvf ideaIU-2020.1.1.tar.gz
 ./idea.sh
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/7bf398f1e0ffce8f7befe700382cfafd.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/sh-idea.png)
 
 4. 进入初始化启动后的设置即可。
 
 首先是 UI 主题选择，根据自己的喜好选择 Light 还是 Darcula 模式；
 
-![图片源自 IDEA 官网](https://img-blog.csdnimg.cn/img_convert/50c45c95d8a949b84fa2fe9c9cf2610f.png)
+![图片源自 IDEA 官网](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/ui.png)
 
 接着是否创建启动器脚本，同时选择自己的脚本保存目录
 
-![图片源自 IDEA 官网](https://img-blog.csdnimg.cn/img_convert/ceb4487d5361393427d4042c97eed63b.png)
+![图片源自 IDEA 官网](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/shell-path.png)
 
-接着选择自己想要的插件和禁用无关插件，根据自己的需求安装即可，如果不知道怎么选择，默认即可
+接着选择自己想要的插件和禁用无关插件，根据自己的需求安装即可，如果不知道怎么选择，默认即可。
 
-![图片源自 IDEA 官网](https://img-blog.csdnimg.cn/img_convert/6a9a3e366d5cb27097bfba77c72525d6.png)
+![图片源自 IDEA 官网](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/plugin.png)
 
-选择额外的插件支持，按需安装，默认不勾选，后续也可以自行安装
+选择额外的插件支持，按需安装，默认不勾选，后续也可以自行安装。
 
-![图片源自 IDEA 官网](https://img-blog.csdnimg.cn/img_convert/5f82ed4452d9651f332cfdcd59b05534.png)
+![图片源自 IDEA 官网](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/other-pulgin.png)
 
 #### 卸载
 
@@ -105,7 +105,7 @@ Linux 下卸载只需要将对应目录（即刚才解压后的目录）删除�
 
 进入 Windows 设置，然后进入应用，然后搜索 IDEA，选择卸载即可。
 
-![](https://img-blog.csdnimg.cn/img_convert/44bfa0d6b9a4603a36aa97e6541f33fa.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/uninstall.png)
 
 ### macOS
 
@@ -113,21 +113,21 @@ Linux 下卸载只需要将对应目录（即刚才解压后的目录）删除�
 
 1.  首先去 [官网下载](https://www.jetbrains.com/idea/download/#section=mac) 对应安装包；
 
-![](https://img-blog.csdnimg.cn/img_convert/4ef290b1d198ca527be68976b2b0d1f9.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/macos-down.png)
 
 2.  然后双击下载好的 `.dmg` 安装包，等待验证后拖拽到 `Applications` 即可；
 
-![](https://img-blog.csdnimg.cn/img_convert/4fe048a188a173cd0af8c6554e9543af.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/macos-install.png)
 
 3.  安装成功，打开的主页面如下图所示；
 
-![](https://img-blog.csdnimg.cn/img_convert/03d5e35d96a9d0e58de0417da5fa3904.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/idea-main-ui.png)
 
 #### 卸载
 
 打开访达中的 **应用程序**，然后找到 IDEA，将其拖到 **🗑️ 废纸篓** 即可，也可以单击鼠标右键，然后 **移到废纸篓**；
 
-![](https://img-blog.csdnimg.cn/img_convert/b07e6e7541c46d466b4a7d1ef4b74212.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/uninstall-macos.png)
 
 ## 创建 Java 项目
 
@@ -135,19 +135,19 @@ Linux 下卸载只需要将对应目录（即刚才解压后的目录）删除�
 
 1.  依次进入 `File -> New -> Project`，然后选择左侧 Java，配置项目 JDK；
 
-![](https://img-blog.csdnimg.cn/img_convert/96300c4662be3303a16b10a5c9e9f259.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/new-project.png)
 
 2.  下一步之后，如果勾选上面的选项，就会从模板创建一个项目（一般都是 `HelloWorld`），不勾选就是一个空项目，看自己选择；
 
-![](https://img-blog.csdnimg.cn/img_convert/1c432029df5d079f9cfe8b8de7e325da.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/template.png)
 
 3.  再接下来，就是设置项目名以及项目存储目录了；
 
-![](https://img-blog.csdnimg.cn/img_convert/a736ab37266ffb211c86ae8c9c53426d.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/pro-name.png)
 
 4.  最后点击完成，我们的普通 Java 项目就创建成功了；
 
-![](https://img-blog.csdnimg.cn/img_convert/be2c04c4161b0a22a7d8576c7c43988b.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/finish-pro.png)
 
 5.  项目创建成功了，我们在项目 `src` 目录上右键新建一个 Java 类文件。注意，一般来讲，我们倾向于把类的命名方式定义为首字母大写的驼峰命名法。然后填入如下代码，一个 简单的 `HelloWorld` 就完成了；
 
@@ -167,7 +167,7 @@ public class HelloWorld {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/a2e8be34e51c7f05f82d4697003147b8.png)
+![](../../../.vuepress/public/img/se/20220703-learn-java-with-idea/helloworld.png)
 
 6.  最后运行我们刚才写的代码，可以看到输出了 `Hello World`，和我们在上一篇文章中通过控制台打印出的一样！
 
@@ -183,8 +183,4 @@ Hello World!
 
 > 最后，针对更多 IntelliJ IDEA 的使用，我特地写了一篇文章，赶紧去看看吧！
 >
-> -> [传送门](https://cunyu1943.github.io/JavaPark/dev-tools/idea/idea-guide)
-
-**关注公众号，获取最新文章更新**
-
-<img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" />
+> -> [传送门](https://cunyu1943.github.io/JavaPark/md/dev-tools/idea)

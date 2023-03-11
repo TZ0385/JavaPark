@@ -63,7 +63,7 @@ JUnit 是一个编写可重复测试的简单框架，是单元测试框架 xUni
 
 以 IDEA 为例，依次打开 `File -> Project Structure -> Project Settings -> Modules -> Dependencies -> 点击 + -> Library... -> Java`，最后找到下载的 JUnit 文件即可；
 
-![](https://img-blog.csdnimg.cn/img_convert/6fa746fca397f6a6eb14ef6ded41237e.png)
+<img src="../../../.vuepress/public/img/se/20220718-test-with-junit/dependency.png" style="zoom:50%;" />
 
 - **Maven 安装**
 
@@ -184,17 +184,17 @@ public class CalcTest {
 
 如果测试成功，则在 IDE 中会出现如下提示。
 
-![](https://img-blog.csdnimg.cn/img_convert/c2e053c12ec6cd1e22c035fa5b84b029.png)
+![](../../../.vuepress/public/img/se/20220718-test-with-junit/@test.png)
 
 一般来讲，测试成功一般是绿色，而测试失败则是红色。
 
 - 测试成功的界面
 
-![](https://img-blog.csdnimg.cn/img_convert/1c3677d56701e6ee54a0b6d1f667fc27.png)
+![](../../../.vuepress/public/img/se/20220718-test-with-junit/success.png)
 
 - 测试失败的界面
 
-![](https://img-blog.csdnimg.cn/img_convert/b34133e6584b05228b3f49712e535624.png)
+![](../../../.vuepress/public/img/se/20220718-test-with-junit/fail.png)
 
 总结起来，我们针对一个方法的具体测试的步骤如下：
 
@@ -285,7 +285,7 @@ public class CalcTest {
 
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/cdd1fbb38f123243a290caffaa640426.png)
+![](../../../.vuepress/public/img/se/20220718-test-with-junit/assert.png)
 
 ## 总结
 

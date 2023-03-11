@@ -39,17 +39,17 @@ JDBC（Java Database Connectivity），即 Java 数据库连接。是 Java 语�
 
 1.  首先依次打开 `File -> Project Structure -> Modules -> Dependencies`；
 
-![](https://img-blog.csdnimg.cn/img_convert/6e3572b6c59db8be5744c0bd0c12a9d5.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/pro-structure.png)
 
 2.  然后点击 `+` 号，选择 `1 JARs or Directories`，找到你下载好的 jar 包导入；
 
-![](https://img-blog.csdnimg.cn/img_convert/8082a759f2591062d315d81fb94ee15d.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/module.png)
 
 3.  导入成功，点击 `OK` 即可；
 
-![](https://img-blog.csdnimg.cn/img_convert/84303a0098eb65a69699508c25a23ce1.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/dependency.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/fe1d7566246ace5729f1388cb374b7dc.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/import.png)
 
 ### 初始化并建立连接
 
@@ -78,9 +78,9 @@ INSERT INTO students (id, name, gender, grade, score) VALUES (201,'小黄', 1, 2
 INSERT INTO students (id, name, gender, grade, score) VALUES (301,'小绿', 1, 3, 99);
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/548cc956782f3cd2655b421012f1a432.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/create-tb.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/3a8094b4b4dcbc3987678c6cc170ed06.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/tb-data.png)
 
 创建好数据库及表之后，我们就可以进行初始化和连接工作了，这里的步骤主要分为如下几步：
 
@@ -139,7 +139,7 @@ public class InitJDBC {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/cd87bbdcfb84e1c58b733bf1a1b4c0fc.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/connection.png)
 
 对于上述关闭 `Connection` 和 `Statement` 的方式，可能略显繁琐，为了进一步简化，可以使用 `try-with-source` 的方式自动关闭，简化后的代码如下；
 
@@ -252,7 +252,7 @@ public class QueryTest {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/536701ccd3ab5e17e2cbe285d25bbf2d.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/qry.png)
 
 ### 增加数据
 
@@ -309,7 +309,7 @@ public class InsertTest {
 
 新增数据后，接着查询数据，得到如下结果，可以看到我们新插入的数据成功加入到了数据库中！
 
-![](https://img-blog.csdnimg.cn/img_convert/1704ab74c66d3a0d9d04fabeb3fdffee.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/add-qry.png)
 
 ### 删除数据
 
@@ -355,7 +355,7 @@ public class DeleteTest {
 
 删除数据后，接着查询数据，得到如下结果，可以看到 `id = 101` 的数据列已经被删除了，说明我们删除数据成功了！
 
-![](https://img-blog.csdnimg.cn/img_convert/a16948c1b805f8e626c52ed8064ed5b0.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/del-qry.png)
 
 ### 修改数据
 
@@ -402,7 +402,7 @@ public class UpdateTest {
 
 修改数据后，接着查询数据，得到如下结果，可以看到 `id = 201` 对应的数据列中，`name` 从小黄变成了村雨遥，说明数据更新成功。
 
-![](https://img-blog.csdnimg.cn/img_convert/38c64700683b351176eb8464b3bcf5ed.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/update-qry.png)
 
 ### 注意
 
@@ -785,7 +785,7 @@ public class AffairTest {
 
 首先需要导包，先去下载 C3P0 对象的 jar 包，下载地址：https://sourceforge.net/projects/c3p0/，然后将其中的如下两个包导入；
 
-![](https://img-blog.csdnimg.cn/img_convert/43da94c403dd6360ad04373672c46852.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/c3p0.png)
 
 2.  定义配置文件
 
@@ -849,7 +849,7 @@ public class C3POTest {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/187f08661a4d619d80d2293c739efd8e.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/link.png)
 
 #### Druid
 
@@ -910,7 +910,7 @@ public class DruidTest {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/888af90836674c37389c20993a2c9e73.png)
+![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/druid.png)
 
 ## 总结
 
