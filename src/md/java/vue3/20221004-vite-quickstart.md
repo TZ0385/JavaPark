@@ -47,11 +47,11 @@ node --version
 npm --version
 ```
 
-![](https://img-blog.csdnimg.cn/1bcdad701ebf4452baed219fc83acede.png)
+![](../../../.vuepress/public/img/vue3/20221004-vite-quickstart/npm-version.png)
 
 如何还是不太清楚，那么可以参考我之前的一篇文章：
 
-> [Windows 教程：Node.js 安装教程](https://cunyu1943.github.io/JavaPark/efficiency/windows/nodejs-install.html)
+> [Windows 教程：Node.js 安装教程](https://cunyu1943.github.io/JavaPark/md/tools/windows/20220414-nodejs-install)
 
 初始工作做好之后，我们就可以开始搭建我们的第一个 `Vite` 项目了。
 
@@ -65,15 +65,15 @@ npm create vite@latest
 
 比如我们要创建一个基于 `Vue` 的项目，那么可以选择 `Vue` 模板，然后再进行下一步。
 
-![](https://img-blog.csdnimg.cn/15646dd536d24bd1bdec490bf9ef9947.png)
+![](../../../.vuepress/public/img/vue3/20221004-vite-quickstart/npm-create.png)
 
 选择变体，是基于 `Vue` 还是 `Vue-ts`。
 
-![](https://img-blog.csdnimg.cn/8643dfb26f7046f38dff61bf34412547.png)
+![](../../../.vuepress/public/img/vue3/20221004-vite-quickstart/vue-ts.png)
 
 最后，等待项目创建完毕即可。
 
-![](https://img-blog.csdnimg.cn/398ba0dc8fac4c028ac08a91183ea9d9.png)
+![](../../../.vuepress/public/img/vue3/20221004-vite-quickstart/finish.png)
 
 然后根据它的提示，依次执行以下三个命令即可。
 
@@ -84,7 +84,7 @@ npm install
 npm run dev
 ```
 
-![](https://img-blog.csdnimg.cn/001f62742fa74ef18243ee2d6be11f1c.png)
+![](../../../.vuepress/public/img/vue3/20221004-vite-quickstart/npm-run.png)
 
 接着在浏览器中访问以下地址：
 
@@ -92,7 +92,7 @@ npm run dev
 
 如果一切正常，那么应该就会出现以下的界面了，至此我们的第一个 `Vite` + `Vue` 项目就搭建成功了！
 
-![](https://img-blog.csdnimg.cn/7ebab8a50d8b40d1b6dfd3d363b7420e.png)
+![](../../../.vuepress/public/img/vue3/20221004-vite-quickstart/preview.png)
 
 当然，除开使用上面的命令来创建之外，我们还可以通过附加的命令选项来执行项目的名称和想要使用的模板。不过这里需要注意，根据你电脑上 `npm` 版本的不同，需要使用不同的命令。
 
@@ -110,7 +110,7 @@ npm create vite@latest my-vue-app --template vue
 npm create vite@latest my-vue-app -- --template vue
 ```
 
-![](https://img-blog.csdnimg.cn/191b34c683cd49f2a9b608ea24533267.png)
+![](../../../.vuepress/public/img/vue3/20221004-vite-quickstart/init-vite.png)
 
 同样的，我们依次执行提示的三条命令。
 
@@ -120,11 +120,11 @@ npm install
 npm run dev
 ```
 
-![](https://img-blog.csdnimg.cn/3bc140611b8241d99f05ecfac0123b04.png)
+![](../../../.vuepress/public/img/vue3/20221004-vite-quickstart/npm-run-1.png)
 
 最后，同样在浏览器中访问 `http://localhost:3000`，不出意外同样可以看到以下的界面。
 
-![](https://img-blog.csdnimg.cn/7ebab8a50d8b40d1b6dfd3d363b7420e.png)
+![](../../../.vuepress/public/img/vue3/20221004-vite-quickstart/preview1.png)
 
 ## 总结
 

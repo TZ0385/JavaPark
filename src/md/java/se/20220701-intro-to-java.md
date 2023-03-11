@@ -72,8 +72,8 @@ Java简介 ---> D[4. Java 技术体系]
 
 以下是截止 2022 年 7 月 TIOBE 统计的编程语言排行榜，可以看到 Java 处于前三的位置。而从历年编程语言所占市场份额趋势图也可以看出，Java 虽然没有一直独占鳌头，但绝大数时间都是占据领先地位。
 
-![](https://img-blog.csdnimg.cn/6637fb1c44b9454f98a730133d895747.png)
-![](https://img-blog.csdnimg.cn/f9b7d09d943c4bb38f8ec076c504fe41.png)
+![](../../../.vuepress/public/img/se/20220701-intro-to-java/language-sort.png)
+![](../../../.vuepress/public/img/se/20220701-intro-to-java/trending.png)
 
 2. **移植性高**
 
@@ -103,7 +103,7 @@ Java 应用广泛，在我们日常中就能经常见到由 Java 所开发的程
 2.  **Java 虚拟机**
 3.  **Java API 类库**
 
-![](https://img-blog.csdnimg.cn/4dfc7057ff0f406187a2c7def724b99a.png)
+![](../../../.vuepress/public/img/se/20220701-intro-to-java/java-system.png)
 
 同时，Java 技术体系又可以主要分为以下 3 个平台。
 
@@ -119,7 +119,7 @@ Java Enterprise Editon，即 Java 企业版。从它的名字就不难看出，�
 
 Java Micro Edition，即 Java 小型版。主要是 Java 针对移动设备应用所提供的一套解决方案，主要运行在手机、pad 等移动端。
 
-![](https://img-blog.csdnimg.cn/b0ad3b942def40e2a6cec69f15072a27.png)
+![](../../../.vuepress/public/img/se/20220701-intro-to-java/java-platform.png)
 
 ## 6. 总结
 

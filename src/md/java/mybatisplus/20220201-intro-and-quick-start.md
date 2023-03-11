@@ -55,7 +55,7 @@ Mybatis-Plus 其实可以看作是对 Mybatis 的再一次封装，升级之后�
 
 ### Mybatis-Plus 结构
 
-![](https://img-blog.csdnimg.cn/img_convert/87f66154129c854d2c03d23d39020863.jpeg)
+![](../../../.vuepress/public/img/mybatis-plus/20220201-intro-and-quick-start/mp-structure.jpeg)
 
 ## 快速入门示例
 
@@ -91,7 +91,7 @@ INSERT INTO employee (id, name, sex, email) VALUES
 (3, '王五', '男', 'wangwu@cunyu1943.com');
 ```
 
-![img](https://img-blog.csdnimg.cn/img_convert/66c7ae42898111a5b20ba9f586fc557c.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220201-intro-and-quick-start/data-view.png)
 
 ### SpringBoot 项目
 
@@ -135,7 +135,7 @@ spring:
 
 项目创建完成后，我们最终的项目目录结构如下图所示：
 
-![img](https://img-blog.csdnimg.cn/img_convert/220064cf38a81109548fee8b591198e8.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220201-intro-and-quick-start/pro-stru.png)
 
 ### 编码
 
@@ -419,11 +419,11 @@ class EmployeeApplicationTests {
 }
 ```
 
-![img](https://img-blog.csdnimg.cn/img_convert/1ce4ce911c2b194804ebeb96c69172b4.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220201-intro-and-quick-start/test.png)
 
 可以看到执行我们测试代码后测试成功了，说明接口是没问题的。
 
-这里需要注意的是 `Assert.assertEquals(3, employees.size());` 这句代码，这里我们引入了 `Junit` 测试模块，所以需要记得在 `pom.xml` 中添加相关依赖，更多关于 `Junit` 测试相关的信息，可以参考我之前写的一篇文章：[抛弃传统注释测试，拥抱 Junit 单元测试](https://cunyu1943.github.io/JavaPark/java/java-se/test-with-junit)。
+这里需要注意的是 `Assert.assertEquals(3, employees.size());` 这句代码，这里我们引入了 `Junit` 测试模块，所以需要记得在 `pom.xml` 中添加相关依赖，更多关于 `Junit` 测试相关的信息，可以参考我之前写的一篇文章：[抛弃传统注释测试，拥抱 Junit 单元测试](https://cunyu1943.github.io/JavaPark/md/java/se/20220718-test-with-junit)。
 
 ```xml
 <dependency>

@@ -36,7 +36,7 @@ date: 2022-01-05
 
 项目创建成功之后，总体结构如下：
 
-![](https://img-blog.csdnimg.cn/img_convert/9d0b71735ce59d7b07c4710d61e87f9c.png)
+![](../../../.vuepress/public/img/springboot/20220105-integrated-swagger3/structure.png)
 
 这里的 `config`、`controller`、`entity` 模块是我后续加入的，所以不用理会，也就是说你创建好之后的项目是不包含这三个部分的，关于他们的用途，文章后续内容我会讲到。
 
@@ -275,7 +275,7 @@ public class UserController {
 
 这里 Swagger2 和 Swagger3 是不同的，这里大家一定要注意，否则可能你继续拿着 Swagger2 接口访问地址来放到 Swagger3 项目中不适用。
 
-![](https://img-blog.csdnimg.cn/img_convert/77fb63e04b37520112786c316357b5e9.png)
+![](../../../.vuepress/public/img/springboot/20220105-integrated-swagger3/preview.png)
 
 点开具体接口，我们以直接传参的接口来对比 Swagger3 和 Swagger2 的区别。第一张图是在 Swagger3 中，第二张图是在 Swagger2 中。这里可以发现，我们都是传的一个 `name` 属性，Swagger2 中会把我们接口中参数部分 `Parameters` 直接标识出来，而 Swagger3 中则不会，这里需要注意。
 
@@ -299,21 +299,21 @@ public String show1(@ApiParam(value = "姓名", required = true, example = "村�
 }
 ```
 
-![Swagger3](https://img-blog.csdnimg.cn/img_convert/55b5febabbbd5843263e23a15c3dba25.png)
+<img src="../../../.vuepress/public/img/springboot/20220105-integrated-swagger3/test.png" alt="Swagger3" style="zoom:50%;" />
 
-![](https://img-blog.csdnimg.cn/img_convert/c189ce0f46e7fc0ab30a7f9abdd29b0e.png)
+<img src="../../../.vuepress/public/img/springboot/20220105-integrated-swagger3/doc.png" style="zoom:50%;" />
 
 此外，我们来看 Swagger3 中的另一个接口，这里我们传递的是一个用户对象，接口中它将我们设置的默认值给传了过来。下图中第一张图为 Swagger3 中的截图，第二张图为 Swagger2 中的截图。同样的，Swagger2 中的参数会在 `Parameters` 模块标识出来，而 Swagger3 则不会标识。
 
 还有一点值得注意的是，Swagger 中如果传递的部分是对象，那么 Swagger2 会在 `Models` 部分进行标识，而 Swagger3 中则是变成了 `Schemas` 部分，这也算是一个小变动吧。
 
-![Swagger3](https://img-blog.csdnimg.cn/img_convert/e614f6d4b8a5080f356547e604e869c9.png)
+<img src="../../../.vuepress/public/img/springboot/20220105-integrated-swagger3/post.png" alt="Swagger3" style="zoom:50%;" />
 
-![](https://img-blog.csdnimg.cn/img_convert/e95321801f7ac573bfa0061f6c6c5114.png)
+<img src="../../../.vuepress/public/img/springboot/20220105-integrated-swagger3/para.png" style="zoom:50%;" />
 
 最后，我们同样来进行测试，测试方法同 Swagger2，点击接口右上方的 `Try it out`，然后编辑参数的值，编辑完成后点击下方的 `Execute` 即可查看接口调用结果。
 
-![](https://img-blog.csdnimg.cn/img_convert/2414e1f4aa828327b4f7e4081f34fa67.png)
+<img src="../../../.vuepress/public/img/springboot/20220105-integrated-swagger3/res-pre.png" style="zoom:50%;" />
 
 ## Swagger2 VS Swagger3
 

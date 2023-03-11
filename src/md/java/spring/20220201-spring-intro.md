@@ -80,7 +80,7 @@ Spring 的核心是一个 **容器**，常称为 **Spring 应用程序上下文*
 
 ### Spring 的组成
 
-![](https://img-blog.csdnimg.cn/img_convert/7294d205368932cf9f740cda96d73cd9.png)
+![](../../../.vuepress/public/img/spring/20220201-spring-intro/spring-structure.png)
 
 Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模块位于核心容器，定义了创建、配置和管理 Bean 的方式。
 
@@ -95,7 +95,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 
 7.  **Spring Web MVC**：MVC 是一个全功能的构建 Web 应用的 MVC 实现，可以通过策略接口对 MVC 框架实现高度可配置。而且 MVC 还容纳了 JSP、Velocity、Tiles 等视图技术。
 
-![](https://img-blog.csdnimg.cn/img_convert/a7e669fff1ccfbd462d1e7187781f9b0.png)
+![](../../../.vuepress/public/img/spring/20220201-spring-intro/spring-mvc.png)
 
 ### XML 配置 VS Java 配置
 

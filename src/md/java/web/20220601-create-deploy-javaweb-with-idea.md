@@ -38,29 +38,29 @@ date: 2022-06-01
 
 具体操作如下，依次进入 `File -> New -> Project`，然后选择左侧的 Java 选项后默认点击 `Next` 即可。
 
-![](https://img-blog.csdnimg.cn/img_convert/8edb7e8531ab3d29018be6c29a1974d3.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/create-pro.png)
 
 2.  选择是否从模板创建
 
 如果不勾选，此时创建出来的项目就是一个空项目。如果勾选上，就会创建一个最简单的模板程序。这里默认不勾选即可，直接点击 `Next` 进入下一步。
 
-![](https://img-blog.csdnimg.cn/img_convert/76e6298b257517839f06dced4fc21878.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/boolean-template.png)
 
 3.  设置项目名
 
 这里需要自己设置自己项目名以及项目所存放位置，`Project name` 为项目名，`Project location` 为项目存放地址。关于 `More Settings` 部分则不用管，会随着我们设置好项目名和项目存放地址后自动变化。设置好之后，直接点击 `Finish` 即可。
 
-![](https://img-blog.csdnimg.cn/img_convert/3417c2e85c6b318fe36e69dcb6ed0c7a.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/pro-name.png)
 
 4.  添加 Web 支持
 
 项目创建完成之后，我们发现和之前的 Java SE 项目并没有什么不同，而要将项目变成一个 Java Web 项目，就需要添加 Web 支持。具体操作为：在项目上单击鼠标右键，然后选择 `Add Framework Support` 选项卡。
 
-![](https://img-blog.csdnimg.cn/img_convert/6a987a7ebd96f9067ef9dcfb9170a287.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/web-support.png)
 
 然后会出现如下的选项供我们选择，这里勾选 `Web Application` 即可，最后点击 `OK` 完成。
 
-![](https://img-blog.csdnimg.cn/img_convert/ac3d60ef820a57d8bb7c941fe58ab7a7.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/web-app.png)
 
 5.  项目目录
 
@@ -73,17 +73,17 @@ D:\个人文件\代码\IDEA\JAVAWEB-IDEA-DEMO
     └─WEB-INF
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/a5dc0b5761a1388ba0fbd16248a86f2e.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/pro-context.png)
 
 ## 配置 Tomcat
 
 1.  点击工具栏的 `Add Configuration`，弹出 `Run/Debug Configurations` 窗口
 
-![](https://img-blog.csdnimg.cn/img_convert/18e8ea3dcead9f78f241c9d6ab6d6e74.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/tomcat.png)
 
 2.  点击左上角 `+` 号，选择 `Tomcat Server` 下的 `Local`，注意不要选成了 `TomEE Server` 下的 `Local`。
 
-![](https://img-blog.csdnimg.cn/img_convert/6550e13a4c8e2792293700859f463227.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/tomcat-server.png)
 
 3.  配置相关属性
 
@@ -97,7 +97,7 @@ D:\个人文件\代码\IDEA\JAVAWEB-IDEA-DEMO
 
 最后，一般还需要点击右下角的 `Fix`，IDEA 就会自动配置好项目的虚拟路径 `Application context`。
 
-![](https://img-blog.csdnimg.cn/img_convert/43ac294d1ad13c378473a852632833cf.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/tomcat-setting.png)
 
 4.  点击上面的 `Fix` 步骤后，会自动跳转到 `Deployment` 选项卡下，同时 `Server` 下的 URL 会变成以下形式：
 
@@ -107,17 +107,17 @@ D:\个人文件\代码\IDEA\JAVAWEB-IDEA-DEMO
 
 - 首先是 `Deploy` 选项卡下的 `Application Context` 修改成 `/`。
 
-![](https://img-blog.csdnimg.cn/img_convert/3a755d8d863609e72af9d07a39c54483.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/deployment.png)
 
 - 然后将 `Server` 选项卡下的 `URL` 修改为：
 
 > http://localhost:8080/
 
-![](https://img-blog.csdnimg.cn/img_convert/048f1a6cef4b96d98593ce3a6aaddcca.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/server-url.png)
 
 5.  注意以下设置。为了实现热部署，我们通常将 `On Update action` 选择为 `Redeploy`，同时将 `On frame deactivation` 选择为 `Update classes and resources`。这样一来，通过部署后一旦出现代码改动，IDEA 就会自动将我们的项目重新部署，而不用再去重新启动服务器，实现实时更新。此外，`JRE` 设置这里默认的是使用项目的 JRE 版本，如果要单独设置，则可以在这里进行改动。
 
-![](https://img-blog.csdnimg.cn/img_convert/5f43cbcfc6f32abd2954c1c28d21ec32.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/jre.png)
 
 ## 验证访问
 
@@ -145,11 +145,11 @@ D:\个人文件\代码\IDEA\JAVAWEB-IDEA-DEMO
 
 然后启动我们的 IDEA 项目，控制台中就会打印出如下信息：
 
-![](https://img-blog.csdnimg.cn/img_convert/c660cd44196ba0fe1035504830de9682.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/run.png)
 
 同时，浏览器将会自动弹窗访问我们的 `index.html`。如果浏览器中正确出现如下图中的信息，则说明我们的项目创建和部署就成功了。
 
-![](https://img-blog.csdnimg.cn/img_convert/436a40ad8c1f373a0cf63a4ac655c236.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/index.png)
 
 ## 注意
 
@@ -161,13 +161,13 @@ D:\个人文件\代码\IDEA\JAVAWEB-IDEA-DEMO
 
 我们一般自定义是选择在 `WEB-INF` 目录下创建一个 `classes` 目录，然后依次进入 `File -> Project Structure` ，选择项目设置中的 `Modules` 选项卡，在右侧的 `Paths` 选项卡下选择 `Use` module compile out path，并将 `Output path` 设置为我们创建的 `classes` 目录即可。
 
-![](https://img-blog.csdnimg.cn/img_convert/a9d45806f21c0fcf2e9038d93b955532.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/module.png)
 
 2.  项目访问端口
 
 默认情况下，IDEA 给每个新建的项目分配的接口都是 `8080`，如果我们想要自定义，则需要在配置 Tomcat 时注意，设置位置如下。
 
-![](https://img-blog.csdnimg.cn/img_convert/d6d4e312ba025309984449be9c1fd4b1.png)
+![](../../../.vuepress/public/img/web/20220601-create-deploy-javaweb-with-idea/port.png)
 
 ## 总结
 

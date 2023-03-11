@@ -19,7 +19,7 @@ HTML（Hypertext Markup Language），中文名超文本标记语言，是一种
 
 元素又是由一对标签加上内容所共同构成，以下是一个简单的文本标签示例。
 
-![](https://img-blog.csdnimg.cn/img_convert/358d1379a1be8eec442c9c80394bfc84.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/html-basic.png)
 
 该元素中，主要组成部分如下：
 
@@ -67,7 +67,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/13d6214e3137fd1dd7b1ff3520e01ea7.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/body.png)
 
 ### `<title>`
 
@@ -84,7 +84,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/ec48236b924d07e6fe58118b3c2752c7.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/title.png)
 
 ### `<p>`
 
@@ -105,7 +105,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/75118f09654cf6d34e99bc5d0e412f64.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/p.png)
 
 ### 标题
 
@@ -132,7 +132,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/c56686387e9f2838aaa4d36f15b1f430.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/title-class.png)
 
 ### `</br>`
 
@@ -148,7 +148,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/fbb83f4ffa44ab8267731a2fdac327ba.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/br.png)
 
 ### `<img>`
 
@@ -171,7 +171,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/82f32ff066130743421caff31ddc0361.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/img.png)
 
 ```html
 <!DOCTYPE html>
@@ -187,7 +187,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/ea021284870b8d94f98597cc8f693060.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/alt-img.png)
 
 ### `<a>`
 
@@ -206,7 +206,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/22269e0203268786ab50c56f31608a5e.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/link.png)
 
 ### 列表
 
@@ -230,7 +230,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/827c4ceaa684fa272cb983d5de6586ea.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/ol-list.png)
 
 有序列表中，可以在 `ol` 标签中添加 `start` 属性，用于表示从第几位开始，`type` 属性用于标识所要显示的类型。
 
@@ -260,7 +260,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/69fa832b5cfc27adabadc1bba3f58f75.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/roma-list.png)
 
 除开有序列表之外，还有无序列表，无序列表以 `ul` 标识。
 
@@ -282,7 +282,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/2107ee19742d2e0168c2c8ce8e29bffd.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/ul-list.png)
 
 无序列表虽然没有顺序之分，但是同样提供了 `type` 属性。
 
@@ -315,7 +315,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/646129ba43b8c27d73cfe0bae69186cf.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/ul-list-1.png)
 
 ### `<b>`
 
@@ -334,7 +334,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/94bab1ee0a369c192e6f8e949957936d.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/bold.png)
 
 ### `<u>`
 
@@ -353,7 +353,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/351666f51b8e8ab20b39287d2ad1efa9.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/underline.png)
 
 ### `<i>`
 
@@ -372,7 +372,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/c68e9f8935afa7ff9f063718d5708e2f.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/italic.png)
 
 ### 上下标
 
@@ -391,7 +391,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/295bcdd9e44eba0f82e0eba78b5f5f96.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/up-down.png)
 
 ### `<table>`
 
@@ -444,7 +444,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/454fc30ac82b6af9864a684a7327227a.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/table.png)
 
 ### `<form>`
 
@@ -479,7 +479,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/c7ce166feebb5fe29b2c284ca00d3768.png)
+![](../../../.vuepress/public/img/web/20220501-basic-lable/form.png)
 
 其中 `action` 属性用来处理表单提交的 URL，`method` 属性表示使用何种 HTTP 方式来提交表单，常用的值有 `post` 和 `get`。
 

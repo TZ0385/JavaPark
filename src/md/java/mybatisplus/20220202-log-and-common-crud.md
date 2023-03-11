@@ -113,11 +113,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/eafc4ae5b2e4bd3bc2695e14daca8cb6.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/test-res.png)
 
 - **数据插入后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/2bec29287ff01a73aaf20f8c23afe19a.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/inserted-data.png)
 
 ### select 操作
 
@@ -172,7 +172,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/86a6bc3c0f430dab4efdcb583ddde74a.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/test-select.png)
 
 2.  **根据主键批量查询**
 
@@ -225,7 +225,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/0c43ff686889a7ad13040a12bd011f6a.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/select-data-1.png)
 
 3.  **根据多条件查询**
 
@@ -277,7 +277,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/efa9b05a272b232f6ea259c8d3054e42.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/select-con-test.png)
 
 ### update 操作
 
@@ -330,11 +330,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/21bdde18446f1bc7ec886ec01e0aa8bc.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/update.png)
 
 - **数据更新后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/0bf78710d200c2f7535ade0f232646ea.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/update-db.png)
 
 ### delete 操作
 
@@ -383,11 +383,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/13fa53d7ce388606a0dba6caa7884791.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del.png)
 
 - **删除数据后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/754b2aa42b70340c6d1ef359bf4957a1.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-db.png)
 
 2.  **根据条件删除**
 
@@ -434,11 +434,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/8ae3056bfe18e6a4f745a6c9ff509a30.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-con-test.png)
 
 - **删除数据后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/0e4ce5565c45b3af2113ba6fa265ae85.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-con-data.png)
 
 3.  **根据主键批量删除**
 
@@ -486,17 +486,17 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/7781d31edd822234ef741751cc84403d.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-test1.png)
 
 - **删除数据后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/8ca0e6de77b33e31d83ac08480f40b5e.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-data1.png)
 
 ## Service CRUD 接口
 
 `Service` 层继承自 `IService` 接口，其中的方法和 `Mapper` 层中所提供的方法功能是一致的，除了方法名有所不同外，其他基本类似，但 `Service` 层中提供了更为丰富的方法，两者的继承结构如下图所示。
 
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/12764416856e4a9194c4b7046683ecd4~tplv-k3u1fbpfcp-zoom-1.image" style="zoom:150%;" />
+<img src="../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/crud-service.png" style="zoom: 50%;" />
 
 ```java
 package com.cunyu.employee.service;
@@ -592,11 +592,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/5996487ba47a09711b90c00741733206.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/save-test.png)
 
 - **插入数据后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/d074edd870e74a751570e165a2b442e3.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/save-test-data.png)
 
 2.  **批量插入**
 
@@ -659,11 +659,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/cc5f359bcbb2d4287e51e693c64320b5.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/mul-insert-test.png)
 
 - **统一插入后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/99b83c2bb2e50f9b687d2ccafe694a6c.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/mul-insert-data.png)
 
 2.2 **分批次插入**
 
@@ -722,11 +722,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/176bd864bf1fdeaa40b52a971a0c6bf0.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/batch-insert-test.png)
 
 - **分批次插入后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/3cf55bdf99d6ca96218127840beb604a.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/batch-insert-data.png)
 
 ### SaveOrUpdate
 
@@ -777,11 +777,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/1bd07adc6afb9fa346f56563b97f3d20.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/single-update-test.png)
 
 - **修改插入后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/28761dbe6cb714bec1758a759fe5ec8b.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/single-update-data.png)
 
 2.  **批量修改插入**
 
@@ -842,11 +842,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/882f141e5b1b562300fd340e99dd1e74.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/unit-update-test.png)
 
 - **统一插入数据后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/ea95b0aef97d6fc8911c4de46dbdc9d6.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/unit-insert-data.png)
 
 2.2 **分批次插入**
 
@@ -905,11 +905,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/bb54a447984342587c7f179565fa04bd.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/insert-test1.png)
 
 - **分批次插入数据后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/d165237c3ffaff0011de68da405520dc.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/mul-insert1.png)
 
 ### Remove
 
@@ -952,9 +952,9 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/4f28d3ad476649f51c2d21ca67575b4c.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/remove-test.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/43147f95524c777df4ca9b6c9534f2bf.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/remove-data.png)
 
 2.  **根据条件删除**
 
@@ -999,11 +999,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/3b281656c97119c48bcc67ae039dd43f.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/condi-del-test.png)
 
 - **按条件删除后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/e00c5eec6db5fb177385f916593a5ddf.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/condi-del-data.png)
 
 3.  **根据 ID 批量删除**
 
@@ -1049,11 +1049,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/36a48ba2fee8f6a5800b14a36020a96a.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-id-test.png)
 
 - **批量删除后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/c3a783950d27aa75ae82a123cad3955b.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-id-data.png)
 
 ### Update
 
@@ -1102,11 +1102,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/21c7a6ffa9423f11939a36d00b249933.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/update-id-test.png)
 
 - **更新后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/e2c6861eb9678452797bb6373e430b71.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/update-id-data.png)
 
 2.  **根据 ID 批量更新**
 
@@ -1167,11 +1167,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/1ceaa41986d6c4df67c64613b13f292f.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/multi-id-test.png)
 
 - **批量更新后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/4c610fff64f2d26ecdde6de141613e7b.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/mul-id-data.png)
 
 2.2 **分批次更新**
 
@@ -1230,11 +1230,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/f1adac18df09758c69dae5b98eecb8bc.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/batch-add-test.png)
 
 - **分批次更新后的数据库**
 
-![](https://img-blog.csdnimg.cn/img_convert/68924264cc41e5c2d46d432dc2e33149.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/batch-add-data.png)
 
 ### Get
 
@@ -1278,7 +1278,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/3590f21fa1cc05fb37090df84129487e.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/get-id-test.png)
 
 ### List
 
@@ -1327,7 +1327,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/0d603e74557b79206aaf184530f41007.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/list-test.png)
 
 2.  **根据 ID 批量查询**
 
@@ -1378,7 +1378,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/13e0ccaf7974bde5b83c98bd9c00a5e9.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/id-select-test.png)
 
 3.  **根据条件查询**
 
@@ -1426,7 +1426,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/83c2fbbe1dd98236217aecee73168797.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/select-condi-test.png)
 
 4.  **查询所有列表**
 
@@ -1467,7 +1467,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/ca254977c9086653ab4b422b8809834c.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/all-list-test.png)
 
 5.  **查询所有记录**
 
@@ -1510,7 +1510,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/22fba4882741eaeee5c940d77b0131dc.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/all-record-test.png)
 
 ### Count
 
@@ -1555,7 +1555,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](https://img-blog.csdnimg.cn/img_convert/b79542a84e068a734cb25be93500e83c.png)
+![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/count-test.png)
 
 ## 总结
 

@@ -41,7 +41,7 @@ category:
 
 > http://nginx.org/en/download.html
 
-![](https://img-blog.csdnimg.cn/82fab0e89c6a42b896b77f98dee94b2c.png)
+<img src="../../../.vuepress/public/img/nginx/20220901-intro-install/nginx-download.png" style="zoom:50%;" />
 
 ## 编译安装与依赖检查
 
@@ -51,7 +51,7 @@ category:
 tar -zxf 压缩包名
 ```
 
-![](https://img-blog.csdnimg.cn/2cd8cb2c4221471e89bd6ad9c58269d5.png)
+![](../../../.vuepress/public/img/nginx/20220901-intro-install/tar.png)
 进入解压缩后的 `Nginx` 所在文件夹，然后执行 `configure` 脚本，这时候就会检查安装 `Nginx` 所需的依赖，这里可能会因为你的服务器中没有事先安装所需依赖而导致报错。
 
 ```shell
@@ -59,7 +59,7 @@ cd nginx-1.22.0
 sh configure
 ```
 
-![](https://img-blog.csdnimg.cn/16c89775141f40f9a69cdb9980bd221b.png)
+![](../../../.vuepress/public/img/nginx/20220901-intro-install/nginx-config.png)
 
 这里例举几个安装时可能会遇到的错误：
 
@@ -99,7 +99,8 @@ error: the HTTP gzip module requires zlib library.
 yum install -y zlib zlib-devel
 ```
 
-![](https://img-blog.csdnimg.cn/e0c9acc5f35e447591b2b6d2df12755b.png)
+![](../../../.vuepress/public/img/nginx/20220901-intro-install/zlib.png)
+
 如果出现以上的提示信息，则说明可以进行下一步，此时直接执行编译安装命令。
 
 ```shell
@@ -108,8 +109,9 @@ make
 make install
 ```
 
-![](https://img-blog.csdnimg.cn/73fa2a756cd54177ac55cfd17b34d9f1.png)
-![](https://img-blog.csdnimg.cn/991d0ce06dc6480d97abf8b858b93030.png)
+![](../../../.vuepress/public/img/nginx/20220901-intro-install/make.png)
+
+![](../../../.vuepress/public/img/nginx/20220901-intro-install/make-install.png)
 
 ## Nginx 启停
 
@@ -123,10 +125,11 @@ make install
 ./nginx
 ```
 
-![](https://img-blog.csdnimg.cn/70fc81bab6ce4aeb9618e27ba081469d.png)
+![](../../../.vuepress/public/img/nginx/20220901-intro-install/start.png)
+
 然后在浏览器中访问服务器的 `IP` 地址，如果出现以下界面，则说明我们的 `Nginx` 安装并启动成功了！
 
-![](https://img-blog.csdnimg.cn/7a61140a0a464a81a27e348e1b284ac6.png)
+![](../../../.vuepress/public/img/nginx/20220901-intro-install/nginx-pre.png)
 
 2. **快速停止**
 
@@ -135,7 +138,8 @@ make install
 ```
 
 停止后，再到浏览器中去访问服务器地址，就会出现以下情况。
-![](https://img-blog.csdnimg.cn/7205270749fb4e5ab06423dc6920891c.png)
+
+![](../../../.vuepress/public/img/nginx/20220901-intro-install/stop.png)
 
 3. **关闭前完成已接受的连接请求**
 
@@ -232,7 +236,7 @@ systemctl stop nginx
 systemctl status nginx
 ```
 
-![](https://img-blog.csdnimg.cn/06e3119f7e4b4e7096b3ce9e85387613.png)
+![](../../../.vuepress/public/img/nginx/20220901-intro-install/systemctl-nginx.png)
 
 ## 总结
 

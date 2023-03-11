@@ -82,7 +82,7 @@ category:
 </configuration>
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/405d9115d907022f81f044810e072b36.png)
+![](../../../.vuepress/public/img/mybatis/20220203-mybatis-generator/pom-config.png)
 
 2. **是否每次新生成后覆盖已生成的文件**
 
@@ -421,7 +421,7 @@ jdbc.driver-class-name=com.mysql.cj.jdbc.Driver
 
 最后，当完成所有配置后，就可以利用 Maven 工具来进行代码生成了。具体操作方法如下，点击项目 Maven 配置中的 MyBatis Generator 生成即可。
 
-![](https://img-blog.csdnimg.cn/img_convert/aff468af852ea9e60cd47547d6f1afb3.png)
+![](../../../.vuepress/public/img/mybatis/20220203-mybatis-generator/mybatis-generator.png)
 
 ## 总结
 

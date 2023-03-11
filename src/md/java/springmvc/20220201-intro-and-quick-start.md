@@ -32,7 +32,7 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 ## Spring MVC 结构
 
-![](https://img-blog.csdnimg.cn/img_convert/8c13f2cd8f702f155cfefef9ededc575.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/web-browser.png)
 
 - **Model**：包含应用程序的数据，数据可以是单一对象，也可以是对象的集合；
 - **Controller**：包含应用程序的业务逻辑，通常使用 `@Controller` 注解将类标记为 Controller.
@@ -42,7 +42,7 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 ## Spring MVC 工作流程
 
-![](https://img-blog.csdnimg.cn/img_convert/89507d77757a69ce1dcfc3dc4ae3faf2.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/dispatcherservlet.png)
 
 1.  如上图所示，首先，传入的请求（`request`）被工作在 **前端控制器**（`front Controller`）的 `DispatcherServlet` 接收并拦截；
 2.  然后 `DispatcherServlet` 从 XML 配置文件中获取 **处理器映射器**（`Handler Mapping`）的条目，处理器根据请求找到对应 `Handler`， 同时将请求转发给控制器（`Controller`）；
@@ -75,19 +75,19 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 1.  首先创建一个普通的 Maven 项目；
 
-![](https://img-blog.csdnimg.cn/img_convert/869cb8932168b514a512369d1f4beb2b.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/maven-pro.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/75d289bfbaa08033ab67f553d077baec.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/pro-info.png)
 
 好了，完成上面两步之后，我们的普通 Maven 项目就创建 OK 了。
 
 2.  既然是 Web 项目，那肯定得加入 Web 框架的支持，选中项目后右键，选择 `Add Framework Support`，然后选中 `Web Application` 添加即可；
 
-![](https://img-blog.csdnimg.cn/img_convert/cc32f3529de67c7aa1d19c2467785706.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/web-app.png)
 
 3. 创建 Maven 项目，并添加 Web 框架之后之后，我们的项目结构如下图：
 
-![](https://img-blog.csdnimg.cn/img_convert/84d2be9e23dccd253487801c1239ce54.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/maven-web.png)
 
 4.  接下来，在 `pom.xml` 中添加相关依赖，一般需要 Junit、Servlet、Spring MVC 等框架的依赖；
 
@@ -171,7 +171,7 @@ Spring MVC 通过使用 `DispatcherServlet`，使得我们能够方便地在 Spr
 
 同时在 `/src/main/resources` 目录下新建一个 Spring MVC 配置文件 `springmvc-servlet.xml` （文件名可以自定义，可以根据自己喜好自定义）；
 
-![](https://img-blog.csdnimg.cn/img_convert/8e117ce0f03fac5737229375b1740f05.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/springmvc-servlet.png)
 
 6. 配置 Spring MVC 的配置文件，即上一步中所创建的 `springmvc-servlet.xml`；
 
@@ -254,19 +254,19 @@ public class HelloController {
 
 9.  以上步骤都配置好之后，接下来就去配置 Tomcat；
 
-![](https://img-blog.csdnimg.cn/img_convert/eba5959c841bef1e7257b1b491044a34.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/tomcat.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/0ec8af170851f83e97def7583ec50751.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/tomcat-server.png)
 
 填写相关配置，同时点击 `Fix`
 
-![](https://img-blog.csdnimg.cn/img_convert/ab48d9148ce8de43f9c9f7ff42f78a82.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/fix.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/ea84bc4fcf0220f7638bb6548f67891d.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/war-exploded.png)
 
 10. 点击启动 Tomcat，然后在浏览器中访问 `localhost:8080/hello`
 
-![](https://img-blog.csdnimg.cn/img_convert/91ae34f4d2c1a6ac262601c35aafd1a1.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/preview.png)
 
 ## 注意事项
 
@@ -274,11 +274,11 @@ public class HelloController {
 
 1.  依次进入 `Project Structure -> Artifacts`
 
-![](https://img-blog.csdnimg.cn/img_convert/4f7a43285a665216f97586f28de84928.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/artifacts.png)
 
 2.  在 `WEB-INF` 目录新建 `lib` 目录，然后将所有 `Library Files` 添加到 `lib` 目录，然后重启 Tomcat 即可；
 
-![](https://img-blog.csdnimg.cn/img_convert/2739039678b7cad7f0be4d236907678e.png)
+![](../../../.vuepress/public/img/springmvc/20220201-intro-and-quick-start/webinfo.png)
 
 ## 总结
 

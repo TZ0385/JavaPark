@@ -70,11 +70,11 @@ MyBatis 是一个持久层框架，是一个半自动化的**ORM 框架**，不�
 
 1.  首先[下载](https://github.com/mybatis/mybatis-3/releases)最新版本 MyBatis；
 
-![](https://img-blog.csdnimg.cn/img_convert/c15fdbc5b8068b590a7ba80d5db825af.png)
+![](../../../.vuepress/public/img/mybatis/20220201-introduction/download.png)
 
 2.  解压下载好的安装包，将 `mybatis-xxx.jar` 放到你项目的类路径下（classpath）；
 
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA3LzEwL1VLZjhiUi5wbmc?x-oss-process=image/format,png)
+![](../../../.vuepress/public/img/mybatis/20220201-introduction/unzip.png)
 
 3.  如果是 Maven 项目，在 `pom.xml` 中添加如下依赖即可；
 

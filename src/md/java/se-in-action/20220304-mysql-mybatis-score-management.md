@@ -30,7 +30,7 @@ date: 2022-03-04
 5.  **删除学生成绩**
 6.  **退出管理系统**
 
-![](https://img-blog.csdnimg.cn/img_convert/f6a711f9e5a4c1b69b9b489b03e3200a.png)
+![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/mysql-stu-score-mng.png)
 
 ## 系统演示
 
@@ -38,13 +38,13 @@ date: 2022-03-04
 
 将我们的系统运行起来之后，应该有对应的系统菜单，然后可以根据我们的输入进行不同的操作。
 
-![](https://img-blog.csdnimg.cn/img_convert/bfe4154dd6118b550917ddb901f47dd8.png)
+![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/main-menu.png)
 
 2.  **录入学生成绩**
 
 进入录入学习成绩菜单后，会提示我们依次录入学号、年级、姓名、高数、英语、体育、Java、C++、政治、算法等科目的成绩，录入成功后进行下一次功能选择。
 
-![录入成绩流程](https://img-blog.csdnimg.cn/img_convert/df5ca4c3b5b8bdfc89b48dfe2eae0025.gif)
+![录入成绩流程](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/insert.gif)
 
 ![录入成绩结果](https://img-blog.csdnimg.cn/img_convert/ac9e88ea870cb767ad3c2a6bf1524a92.png)
 
@@ -52,31 +52,31 @@ date: 2022-03-04
 
 该功能主要通过我们所输入的学生学号，然后查询对应学号学生的成绩，如果查到则进行打印，如果没查到就进行提示。但无论是查询到成绩与否，都会进入下一次的功能选择。
 
-![查找对应学号的学生成绩](https://img-blog.csdnimg.cn/img_convert/a05630543fdce0d842a9aa5cb3700bf3.gif)
+![查找对应学号的学生成绩](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/qry.gif)
 
 4.  **查询所有学生成绩**
 
 该功能可以查询当前数据库中的所有成绩，无论是否查询到成绩与否，都将进入下一次的功能选择。
 
-![查询所有成绩流程](https://img-blog.csdnimg.cn/img_convert/7db05f589ccb5b95b1503db0424004b5.gif)
+![查询所有成绩流程](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/qry-all.gif)
 
-![](https://img-blog.csdnimg.cn/img_convert/65f58e6e27e551770c851159792af790.png)
+![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/db-data.png)
 
 5.  **更新学生成绩**
 
 该功能通过输入对应学号，然后如果找到对应学号的学生，则重新依次输入各科成绩，然后对数据库中的成绩进行更新。如果没有找到对应学号的学生，则进行提示。
 
-![更新学生成绩流程](https://img-blog.csdnimg.cn/img_convert/61fa66e619999c83c1cf4a2b607085c1.gif)
+![更新学生成绩流程](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/update.gif)
 
-![](https://img-blog.csdnimg.cn/img_convert/8147c951a74694471145a4aacbf376d4.png)
+![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/update-db.png)
 
 6.  **删除学生成绩**
 
 该功能通过对应学号，然后删除对应学号的学生成绩，如果没有对应学号的学生，则进行提示。
 
-![删除学生成绩流程](https://img-blog.csdnimg.cn/img_convert/006240c16cf959ab0a65f85e0220cabe.gif)
+![删除学生成绩流程](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/del.gif)
 
-![](https://img-blog.csdnimg.cn/img_convert/5cc1b56f3bf51c61d8eb105f251a3f1c.png)
+![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/db-del.png)
 
 ## 功能设计与实现
 
@@ -84,7 +84,7 @@ date: 2022-03-04
 
 ### 环境搭建
 
-本项目主要采用 Maven 来构造，而 IDE 则用的是最新版的 IntelliJ IDEA。所以首要工作就是搭建一个 Maven 工程，因为之前我已经写过相关的文章了，所以这里就不再啰嗦了，如果你还对创建 Maven 工程不太熟悉，可以参考：👉 [如何使用 IDEA 创建 Maven 项目](https://cunyu1943.github.io/posts/373ef5ea/ "如何使用 IDEA 创建 Maven 项目")。
+本项目主要采用 Maven 来构造，而 IDE 则用的是最新版的 IntelliJ IDEA。所以首要工作就是搭建一个 Maven 工程，因为之前我已经写过相关的文章了，所以这里就不再啰嗦了，如果你还对创建 Maven 工程不太熟悉，可以参考：👉 [如何使用 IDEA 创建 Maven 项目](https://cunyu1943.github.io/JavaPark/md/java/maven/20220104-maven-project-with-idea)。
 
 ### POM 文件
 
@@ -134,7 +134,7 @@ date: 2022-03-04
 
 这里你可能对 Lombok 比较陌生，它主要是为了简化我们的代码而使用，所以也推荐大家了解下。对于 Lombok 的简单使用，我之前特意写了一篇相关文章，如果有感兴趣的小伙伴，可以去了解一下。传送门 👇：
 
-> [Lombok 安装及使用指南](https://cunyu1943.github.io/posts/f7032e71/ "Lombok 安装及使用指南")
+> [Lombok 安装及使用指南](https://cunyu1943.github.io/JavaPark/md/java/se/20220719-lombok-install-and-usage)
 
 ### 数据库准备
 

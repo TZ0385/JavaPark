@@ -35,64 +35,65 @@ category:
 7.  显示所有成绩
 8.  退出管理系统
 
-![](https://img-blog.csdnimg.cn/img_convert/6e6f850a07b165e07cdd3301de62ec03.png)
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/stu-score-manage.png)
 
 进入系统之后，我们应该有系统菜单，然后根据提示选择我们所要进行的操作。
 
-![](https://img-blog.csdnimg.cn/img_convert/8df8f15688e8e60a2f37408e5e1b991e.png)
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/menu.png)
 
 - **录入学生成绩**
 
 该功能是每次录入学生的成绩信息，或者在当前数据的基础上添加录入新的学生成绩信息；
 
-![](https://img-blog.csdnimg.cn/img_convert/ee773f66ab26c72d1e055c2a34726b80.png)
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/insert.png)
 
 - **统计学生成绩**
 
 主要是对学生的成绩进行统计，然后输出平均分，并打印出对应信息；
 
-![image-20210405133413661](https://img-blog.csdnimg.cn/img_convert/ba9ba8e22d47559ff28a711ffeb7fdf6.png)
+![image-20210405133413661](../../../.vuepress/public/img/se-in-action/20220301-score-management/avg.png)
 
 - **查找学生成绩**
 
 根据输入的学号来查找对应学生的相关成绩信息；
 
-![](https://img-blog.csdnimg.cn/img_convert/4dc976ae64d0adcfc74643dd228c2972.png)
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/stu-score.png)
 
 - **修改学生成绩**
 
 根据输入的学号来对对应学生的成绩进行修改；
 
-![](https://img-blog.csdnimg.cn/img_convert/93a7e09af9d90a599bdb79b5de7c7c63.png)
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/modify.png)
 
 - **删除学生成绩**
 
 根据输入的学生学号，删除对应学生的成绩信息；
 
-![](https://img-blog.csdnimg.cn/img_convert/4ba351b052ca1ea1abf42eda0f51811e.png)
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/del.png)
 
 - **按平均分排序**
 
 按照平均分降序排序；
 
-![image-20210405135553488](https://img-blog.csdnimg.cn/img_convert/f9b068d8d724f20ca54af69b5048245f.png)
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/avg-sort.png)
 
 - **显示所有成绩**
 
 便利所有学生成绩，然后打印出来；
 
-![](https://img-blog.csdnimg.cn/img_convert/776112ffa9b118db618a91e11030ce7f.png)
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/show-scores.png)
 
 - **退出管理系统**
 
 退出菜单；
 
-![](https://img-blog.csdnimg.cn/img_convert/b079f26a81bdb5bb01132dff8c11cd72.png)
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/quit.png)
 
 - **注意**
 
 鉴于大家的留言说经常会报错找不到对应类，所以在这里也给出这个程序的包结构如下图所示。
-![](https://img-blog.csdnimg.cn/20210619143254399.png)
+
+![](../../../.vuepress/public/img/se-in-action/20220301-score-management/attention.png)
 
 ## 功能设计与实现
 

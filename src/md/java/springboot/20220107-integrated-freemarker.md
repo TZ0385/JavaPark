@@ -25,7 +25,7 @@ date: 2022-01-07
 
 以上就是出自 FreeMarker 的官方定义，我们通过使用 FreeMarker，可以将我们所需的模板何数据渲染成 HTML，从而实现我们想要的效果。通过将模板与数据分开，让分工更加明确，模板方面则专注于如何将数据进行展现，而在数据方面，我们就可以专注于展示何种数据，下图就是我们以上所描述的 FreeMarker 的功能。
 
-![](https://img-blog.csdnimg.cn/img_convert/392d82974ae0da42c0837b569234c9ab.png)
+![](../../../.vuepress/public/img/springboot/20220107-integrated-freemarker/freemarker.png)
 
 那接下来，我们就来看看，如何将 FreeMarker 像 Thymeleaf 一样整合到我们的 Spring Boot 中，让我们的开发更加简单。
 
@@ -47,7 +47,7 @@ date: 2022-01-07
 
 在使用 IDEA 创建 Spring Boot 新项目时，添加依赖时将模板引擎中的 `Apache FreeMarker` 勾选上。
 
-![](https://img-blog.csdnimg.cn/img_convert/3057aebb4069a8f7d7194e1a3550d345.png)
+![](../../../.vuepress/public/img/springboot/20220107-integrated-freemarker/dependency.png)
 
 2.**第二种**
 
@@ -195,7 +195,7 @@ public class UserController {
 
 如果显示如下图中的信息，那么就说明我们此次的整合工作顺利完成！
 
-![](https://img-blog.csdnimg.cn/img_convert/e73532bbbc13df6c7c032cb5e2830308.png)
+![](../../../.vuepress/public/img/springboot/20220107-integrated-freemarker/preview.png)
 
 ## 总结
 

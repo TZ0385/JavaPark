@@ -31,7 +31,7 @@ order: 5
 
 1.  打开 https://start.spring.io/ 来生成 `Spring Boot` 项目；
 
-![](https://img-blog.csdnimg.cn/img_convert/69bc8fcdeb7d003d8435f63ed54d4eb9.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/spring-initializr.png" style="zoom:50%;" />
 
 2.  然后选择和填写相关配置；
 
@@ -41,11 +41,11 @@ order: 5
 - **Project Metadata**：项目元数据，即 `Maven` 项目基本元素，根据自己的实际情况填写；
 - **Dependencies**：要加入的 `Spring Boot` 组件；
 
-![](https://img-blog.csdnimg.cn/img_convert/89d398fd75033e437c7f34c1ed90d131.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/pro-info.png" style="zoom:50%;" />
 
 3.  然后点击生成或 `Ctrl + Enter` 即可；
 
-![](https://img-blog.csdnimg.cn/img_convert/51b0fea0db18f15723bd3bce4549ffd1.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/confirm.png" style="zoom:50%;" />
 
 4.  将压缩包下载后，解压缩后用自己喜欢的 `IDE` 开发即可；
 
@@ -53,36 +53,36 @@ order: 5
 
 1.  新建项目时选择 `Spring Initializr` ；
 
-![](https://img-blog.csdnimg.cn/img_convert/688657458528f2467fc9b7a46b9648fd.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/idea-create.png" style="zoom:50%;" />
 
 2.  点击下一步，填写相关配置；
 
 - `Group`：组织 `ID`，一般分为多个段，一般第一段为**域**，而第二段则是 **公司名称**；
 - `Artifact`：唯一标识符，一般是项目名；
 
-![](https://img-blog.csdnimg.cn/img_convert/670b5de78b6ec92cc49f00f33c1bf444.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/pro-info-arti.png" style="zoom:50%;" />
 
 3.  选择包，添加相关依赖；
 
-![](https://img-blog.csdnimg.cn/img_convert/4c20b2ba08f111ee3131656c2343da88.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/dependency.png" style="zoom:50%;" />
 
 4.  配置项目名，点击完成即可；
 
-![](https://img-blog.csdnimg.cn/img_convert/dfb91002b373b2951611187bceaf37c0.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/pro-name.png" style="zoom:50%;" />
 
 ### Maven 创建
 
 1.  新建 Maven 项目；
 
-![](https://img-blog.csdnimg.cn/img_convert/f0340f49c99f92cc4b894423b4c1032d.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/maven-create.png" style="zoom:50%;" />
 
 2.  填写项目名和相关配置；
 
-![](https://img-blog.csdnimg.cn/img_convert/09a392fe5a02cd0a7a8d995aa6e7df28.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/pro-info-maven.png" style="zoom:50%;" />
 
 3.  点击完成即可；
 
-![](https://img-blog.csdnimg.cn/img_convert/b9d782e5bc6126a20724c3226a108eb6.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/finish-maven.png" style="zoom:50%;" />
 
 4.  配置 `pom.xml` 添加依赖；
 
@@ -155,7 +155,7 @@ public class App {
 
 6.  运行上一步中的 `main` 方法即可；
 
-![](https://img-blog.csdnimg.cn/img_convert/91b5310c2142ea527bd906c1e52a0d19.png)
+<img src="../../../.vuepress/public/img/springboot/20220102-the-methods-to-create-springboot-project/main.method.png" style="zoom: 33%;" />
 
 ## 常见项目结构
 

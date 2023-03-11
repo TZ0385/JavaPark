@@ -39,7 +39,7 @@ category:
 
 1.  **退出记账本**
 
-![](https://img-blog.csdnimg.cn/img_convert/29f8a1a7605083b7b60c9497a3b938af.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/totally-book.png)
 
 ## 功能预览及代码实现
 
@@ -49,7 +49,7 @@ category:
 
 - 预览
 
-![](https://img-blog.csdnimg.cn/img_convert/a57c476ad4a8a9bce41a827d11b15ce7.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/menu.png)
 
 - 代码实现
 
@@ -102,7 +102,7 @@ public class MainApp {
 
 - 预览
 
-![](https://img-blog.csdnimg.cn/img_convert/03485337d0f4f516f8b0dcba7b574ced.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/add.png)
 
 - 代码实现
 
@@ -122,7 +122,7 @@ public void add(List<Bill> billList, int id, String category, String account, St
 
 - 预览
 
-![](https://img-blog.csdnimg.cn/img_convert/5f77a59d93b0d54dab9a4129588afc52.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/del.png)
 
 - 代码实现
 
@@ -145,7 +145,7 @@ public void del(List<Bill> billList, int id) {
 
 - 预览
 
-![](https://img-blog.csdnimg.cn/img_convert/a0536e540a393d2b5525bd4b34c9dfe5.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/update.png)
 
 - 代码实现
 
@@ -199,7 +199,7 @@ public void modify(List<Bill> billList) {
 
 - 预览
 
-![](https://img-blog.csdnimg.cn/img_convert/0020e6d96811c6f926238e495150aad1.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/show.png)
 
 - 代码实现
 
@@ -218,7 +218,7 @@ public void queryAll(List<Bill> billList) {
 
 - 预览
 
-![](https://img-blog.csdnimg.cn/img_convert/7aa75a1e5bd3f68f1a4488f42282818a.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/show-by-time.png)
 
 - 代码实现
 
@@ -254,7 +254,7 @@ public void queryByTime(List<Bill> billList, String startTime, String endTime) {
 
 - 预览
 
-![](https://img-blog.csdnimg.cn/img_convert/34453701d40280697117d461317afe0b.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/show-by-type.png)
 
 - 代码实现
 
@@ -282,7 +282,7 @@ public void queryByType(List<Bill> billList, String type) {
 
 - 预览
 
-![](https://img-blog.csdnimg.cn/img_convert/75bc456588eb41341aba166d9a1e7bf6.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/uit.png)
 
 - 代码实现
 
@@ -303,7 +303,7 @@ case "0":
 
 - 主程序 `MainApp`
 
-![](https://img-blog.csdnimg.cn/img_convert/e5bdbd1b671ae5659cebc44821fc6267.png)
+![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/structure.png)
 
 ## 总结
 

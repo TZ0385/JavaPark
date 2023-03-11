@@ -39,11 +39,11 @@ date: 2022-06-02
 
 既然要测试，那肯定得上代码了。这里为了方便管理依赖，所以创建一个 Maven 项目来作为示例。如果你还不知道如何创建一个 Maven 项目，那么推荐先去阅读下以下这篇文章。
 
-> [Maven 入门手册：使用 IDEA 创建 Maven 项目](20220104-maven-project-with-idea.md)
+> [Maven 入门手册：使用 IDEA 创建 Maven 项目](../maven/20220104-maven-project-with-idea.md)
 
 创建好项目之后，项目结构如下图所示。
 
-![](https://img-blog.csdnimg.cn/89c981e76b8041778bef3397d20f3263.png)
+![](../../../.vuepress/public/img/web/20220602-mockito-junit5/new-pro.png)
 
 紧接着，我们向项目的 `pom.xml` 中添加 `Mockito` 和 `JUnit` 的依赖。
 
@@ -117,7 +117,7 @@ public class Demo {
 
 接着在 `Demo` 类中单击鼠标右键，选择 `Generate`，会弹出以下选择项，我们选择 `Test` 来自动生成该类的测试代码。
 
-![](https://img-blog.csdnimg.cn/740c39144eb5470189db4c934657101f.png)
+![](../../../.vuepress/public/img/web/20220602-mockito-junit5/test-generate.png)
 
 选择 `Test` 之后，IDEA 并不会立马生成对应的测试类，而是会弹出以下配置窗口让我们配置后再进行生成。这里主要注意的点在于：
 
@@ -126,11 +126,11 @@ public class Demo {
 3.  `Destination package`：生成的测试类所在的包，一般是对应于上面的类所在的包。
 4.  `Generate test methods for`：这里主要是选择需要生成测试的方法，在下面的 `Member` 中进行勾选即可。
 
-![](https://img-blog.csdnimg.cn/4b5a44b91820434fb8399a68ae1284d7.png)
+![](../../../.vuepress/public/img/web/20220602-mockito-junit5/junit5.png)
 
 配置完成后，IDEA 会在 `test/java` 文件夹下自动创建包并生成对应测试类，最终自动生成的测试类如下。
 
-![](https://img-blog.csdnimg.cn/88df70ce36c449498cc96457f5cf92da.png)
+![](../../../.vuepress/public/img/web/20220602-mockito-junit5/test-demo.png)
 
 最后，我们按照 `Mock` 测试的三个步骤来书写代码，得到最终的测试方法如下。
 
@@ -155,7 +155,7 @@ class DemoTest {
 
 最后，执行测试类中的方法，如果测试通过，则 IDEA 中出现如下结果。
 
-![](https://img-blog.csdnimg.cn/4343249c31e24d49bfe3c1709cc5b76f.png)
+![](../../../.vuepress/public/img/web/20220602-mockito-junit5/run-test.png)
 
 假设我们修改下以上代码中断言中的期望值，则测试不通过，此时 IDEA 会返回断言中的提示信息。
 
@@ -170,7 +170,7 @@ class DemoTest {
 }
 ```
 
-![](https://img-blog.csdnimg.cn/7538165d2acb4641818ba073c2b77608.png)
+![](../../../.vuepress/public/img/web/20220602-mockito-junit5/run-fail.png)
 
 ## 总结
 
