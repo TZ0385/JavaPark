@@ -27,7 +27,7 @@ date: 2022-04-20
 
 ## 编辑器
 
-主要针对的是使用 Markdown 语法的编辑器，如果你对 Markdown 语法还不太熟悉，可以先看看我的另一篇文章：[十分钟入门 Markdown 写作](20220421-markdown-in-10min.md)。
+主要针对的是使用 Markdown 语法的编辑器，如果你对 Markdown 语法还不太熟悉，可以先看看我的另一篇文章：[十分钟入门 Markdown 写作](https://cunyu1943.github.io/JavaPark/md/tools/efficiency/2022-04-21-markdown-in-10min)。
 
 ### Typora
 
