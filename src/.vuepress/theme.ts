@@ -142,7 +142,7 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       imgMark: true,
-      imgLazyload: true,
+      imgLazyload: false,
       imgSize: true,
       vPre: true,
       vuePlayground: true,
