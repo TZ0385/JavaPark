@@ -25,9 +25,9 @@ category:
 
 将 IntelliJ IDEA 和项目均配置为 `UTF-8` 编码；
 
-![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/idea-encode-setting.png)
+![](./assets/20220208-tomcat-console-error-code/idea-encode-setting.png)
 
-![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/utf8.png)
+![](./assets/20220208-tomcat-console-error-code/utf8.png)
 
 ### IntelliJ IDEA 启动项
 
@@ -39,9 +39,9 @@ category:
 
 - 或者直接在 IntelliJ IDEA 中直接进行修改；
 
-![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/vm-option.png)
+![](./assets/20220208-tomcat-console-error-code/vm-option.png)
 
-![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/dfile-encode.png)
+![](./assets/20220208-tomcat-console-error-code/dfile-encode.png)
 
 ### Tomcat 配置
 
@@ -51,7 +51,7 @@ category:
 -Dfile.encoding=UTF8 -Dsun.jnu.encoding=UTF8
 ```
 
-![](../../../.vuepress/public/img/idea/20220208-tomcat-console-error-code/java-opt.png)
+![](./assets/20220208-tomcat-console-error-code/java-opt.png)
 
 ## 总结
 
