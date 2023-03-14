@@ -53,28 +53,28 @@ order: 5
 
 1.  新建项目时选择 `Spring Initializr` ；
 
-<img src="./assets/20220102-the-methods-to-create-springboot-project/idea-create.png" style="zoom:50%;" />
+![](./assets/20220102-the-methods-to-create-springboot-project/idea-create.png){style=zoom:50%}
 
 2.  点击下一步，填写相关配置；
 
 - `Group`：组织 `ID`，一般分为多个段，一般第一段为**域**，而第二段则是 **公司名称**；
 - `Artifact`：唯一标识符，一般是项目名；
 
-<img src="./assets/20220102-the-methods-to-create-springboot-project/pro-info-arti.png" style="zoom:50%;" />
+![](./assets/20220102-the-methods-to-create-springboot-project/pro-info-arti.png){style=zoom:50%}
 
 3.  选择包，添加相关依赖；
 
-<img src="./assets/20220102-the-methods-to-create-springboot-project/dependency.png" style="zoom:50%;" />
+![](./assets/20220102-the-methods-to-create-springboot-project/dependency.png){style=zoom:50%}
 
 4.  配置项目名，点击完成即可；
 
-<img src="./assets/20220102-the-methods-to-create-springboot-project/pro-name.png" style="zoom:50%;" />
+![](./assets/20220102-the-methods-to-create-springboot-project/pro-name.png){style=zoom:50%}
 
 ### Maven 创建
 
 1.  新建 Maven 项目；
 
-<img src="./assets/20220102-the-methods-to-create-springboot-project/maven-create.png" style="zoom:50%;" />
+![](./assets/20220102-the-methods-to-create-springboot-project/maven-create.png){style=zoom:50%}
 
 2.  填写项目名和相关配置；
 
