@@ -5,6 +5,7 @@ specifiers:
   vue: ^3.2.47
   vuepress: 2.0.0-beta.61
   vuepress-plugin-redirect: 2.0.0-beta.193
+  vuepress-plugin-remove-pwa: 2.0.0-beta.193
   vuepress-plugin-search-pro: 2.0.0-beta.193
   vuepress-theme-hope: 2.0.0-beta.193
 
@@ -13,6 +14,7 @@ devDependencies:
   vue: 3.2.47
   vuepress: 2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
   vuepress-plugin-redirect: 2.0.0-beta.193_44bug2q4gvgfsg4b36ccgweufe
+  vuepress-plugin-remove-pwa: 2.0.0-beta.193_vuepress@2.0.0-beta.61
   vuepress-plugin-search-pro: 2.0.0-beta.193_44bug2q4gvgfsg4b36ccgweufe
   vuepress-theme-hope: 2.0.0-beta.193_44bug2q4gvgfsg4b36ccgweufe
 
@@ -1831,7 +1833,7 @@ packages:
   /@types/sax/1.2.4:
     resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.15.0
     dev: true
 
   /@types/trusted-types/2.0.3:
@@ -5603,6 +5605,30 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - '@vuepress/client'
+      - supports-color
+    dev: true
+
+  /vuepress-plugin-remove-pwa/2.0.0-beta.193_vuepress@2.0.0-beta.61:
+    resolution: {integrity: sha512-zf4norRLo/A6QvvvLMQeOKsJZoAUlhd9VOBmJihamCpqif5K8D8jlo80hp5sNZQdMhQD2rupKp4FhND8dkrPvw==}
+    engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
+    peerDependencies:
+      vuepress: 2.0.0-beta.61
+      vuepress-vite: 2.0.0-beta.61
+      vuepress-webpack: 2.0.0-beta.61
+    peerDependenciesMeta:
+      vuepress:
+        optional: true
+      vuepress-vite:
+        optional: true
+      vuepress-webpack:
+        optional: true
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.61
+      '@vuepress/shared': 2.0.0-beta.61
+      '@vuepress/utils': 2.0.0-beta.61
+      vue: 3.2.47
+      vuepress: 2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
+    transitivePeerDependencies:
       - supports-color
     dev: true
 
