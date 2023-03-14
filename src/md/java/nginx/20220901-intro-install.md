@@ -41,7 +41,7 @@ category:
 
 > http://nginx.org/en/download.html
 
-<img src="./assets/20220901-intro-install/nginx-download.png" style="zoom:50%;" />
+![](./assets/20220901-intro-install/nginx-download.png){style=zoom:50%}
 
 ## 编译安装与依赖检查
 

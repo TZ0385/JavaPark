@@ -496,7 +496,7 @@ class EmployeeApplicationTests {
 
 `Service` 层继承自 `IService` 接口，其中的方法和 `Mapper` 层中所提供的方法功能是一致的，除了方法名有所不同外，其他基本类似，但 `Service` 层中提供了更为丰富的方法，两者的继承结构如下图所示。
 
-<img src="./assets/20220202-log-and-common-crud/crud-service.png" style="zoom: 50%;" />
+![](./assets/20220202-log-and-common-crud/crud-service.png){style=zoom:50%}
 
 ```java
 package com.cunyu.employee.service;

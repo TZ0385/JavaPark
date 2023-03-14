@@ -121,7 +121,7 @@ type: "link"
   link_list:
     - name: JavaPark
       link: https://cunyu1943.github.io/JavaPark
-      avatar: https://cunyu1943.gitee.io/JavaPark/logo.png
+      avatar: https://cunyu1943.github.io/JavaPark/JavaPark.svg
       descr: Java 自学指南
 ```
 
