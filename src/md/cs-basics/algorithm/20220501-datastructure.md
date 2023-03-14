@@ -25,7 +25,7 @@ category: 数据结构与算法
 
 用 Java 中的类来类比，数据就像 Java 中的一个类，数据元素就是类中的各个对象，而数据项则是各个对象中的属性。
 
-![](././assets/20220501-datastructure/datastructure.png)
+![](./assets/20220501-datastructure/datastructure.png)
 
 ## 逻辑结构与物理结构
 
@@ -38,25 +38,25 @@ category: 数据结构与算法
 - 树形结构
 - 图形结构
 
-![](././assets/20220501-datastructure/logic.png)
+![](./assets/20220501-datastructure/logic.png)
 
 1.  **集合结构**
 
 集合结构中的数据元素除了共同属于一个集合之外，元素之间没有其他任何关系，各元素之间是平等的，类似于数学中的集合，如下图所示。
 
-![](././assets/20220501-datastructure/set.png)
+![](./assets/20220501-datastructure/set.png)
 
 2.  **线性结构**
 
 线性结构中用于描述数据元素之间一对一的关系，最常见就是数组。
 
-![](././assets/20220501-datastructure/line.png)
+![](./assets/20220501-datastructure/line.png)
 
 3.  **树形结构**
 
 树形结构用于描述数据元素之间的层次关系，最常见的莫过于二叉树。
 
-![](././assets/20220501-datastructure/tree.png)
+![](./assets/20220501-datastructure/tree.png)
 
 4.  **图形结构**
 
@@ -65,7 +65,7 @@ category: 数据结构与算法
 - 每个数据元素看做一个节点，用圆圈表示。
 - 数据元素间的逻辑关系用节点之间的连线表示，若连线是带箭头的，则说明该关系是有方向的。
 
-![](././assets/20220501-datastructure/graph.png)
+![](./assets/20220501-datastructure/graph.png)
 
 ### 物理结构
 
@@ -76,7 +76,7 @@ category: 数据结构与算法
 - 索引存储
 - 散列存储
 
-![](././assets/20220501-datastructure/physics.png)
+![](./assets/20220501-datastructure/physics.png)
 
 1.  **顺序存储**
 
@@ -84,7 +84,7 @@ category: 数据结构与算法
 
 顺序存储的数据元素只能顺序存放，每个存储结点中只含有一个元素，存储位置反映数据元素间的逻辑关系。这种方式存储密度大，但是插入、删除等操作的效率较差。
 
-![](././assets/20220501-datastructure/sequence.png)
+![](./assets/20220501-datastructure/sequence.png)
 
 2.  **链式存储**
 
@@ -92,7 +92,7 @@ category: 数据结构与算法
 
 链式存储不要求存储空间连续，方便动态操作（插入、删除等），但是存储空间开销大。
 
-![](././assets/20220501-datastructure/chain.png)
+![](./assets/20220501-datastructure/chain.png)
 
 3.  **索引存储**
 
