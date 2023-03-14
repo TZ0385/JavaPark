@@ -24,7 +24,7 @@ date: 2022-11-13
 
 > - [下载地址](https://nodejs.org/zh-cn/)
 
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/node-website.png)
+![](./assets/20221113-nodejs-install/node-website.png)
 
 其中 `LTS` 表示长期维护版本，也更加推荐安装这个版本。
 
@@ -38,36 +38,36 @@ date: 2022-11-13
 
 这里注意和 `Windows` 区分一下，因为 `macOS` 是基于 `Unix` 开发而来的，所以它的目录结构和 `Linux` 类似，是在总的根目录 `/` 下存在子目录。
 
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/node-install.png)
+![](./assets/20221113-nodejs-install/node-install.png)
 
 2. 点击**继续**，会提示软件的相关许可协议。
 
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/agree.png)
+![](./assets/20221113-nodejs-install/agree.png)
 
 - 如果点击**打印**，而你的电脑也连接了打印机，那么这时候就能够将协议打印出来。
 
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/print.png)
+![](./assets/20221113-nodejs-install/print.png)
 
 - 如果点击**存储**，此时会将协议保存为 `pdf`，由自己选择存放的路径。
 
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/save-pdf.png)
+![](./assets/20221113-nodejs-install/save-pdf.png)
 
 3. 再次点击继续，会弹窗提示必须同意相关协议条款才能走下一步。
 
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/continue.png)
+![](./assets/20221113-nodejs-install/continue.png)
 
 4. 选择软件安装的目的盘，一般来讲，`macOS` 中没有什么盘之分的，但如果你外接了硬盘，而你需要安装的软件也刚好要放在外接盘中，那么此时就可以选择另一个硬盘。
 
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/path-change.png)
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/path-select.png)
+![](./assets/20221113-nodejs-install/path-change.png)
+![](./assets/20221113-nodejs-install/path-select.png)
 
 5. 下一步，此时会提示让输入电脑的密码来开始安装。
 
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/installing.png)
+![](./assets/20221113-nodejs-install/installing.png)
 
 6. 安装成功，关闭安装窗口即可。
 
-![](../../../.vuepress/public/img/macOS/20221113-nodejs-install/finish.png)
+![](./assets/20221113-nodejs-install/finish.png)
 
 ## 总结
 

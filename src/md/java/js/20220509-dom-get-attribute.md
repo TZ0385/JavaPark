@@ -16,7 +16,7 @@ Web API 又可以分为两类：
 - DOM（文档对象模型）
 - BOM（浏览器对象模型）
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/js-structure.png)
+![](./assets/20220509-dom-get-attribute/js-structure.png)
 
 DOM（`Document Object Model`），即文档对象模型，主要用来呈现以及与 HTML 或 XML 文档交互的 API。说白了就是用来操作网页内容，实现各种特效，让用户用起来更顺手。
 
@@ -46,7 +46,7 @@ DOM（`Document Object Model`），即文档对象模型，主要用来呈现以
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/intext-change.png)
+![](./assets/20220509-dom-get-attribute/intext-change.png)
 可以看到原本 `button` 标签的属性 `innerText` 从原先的点击变成了 村雨遥，说明通过修改 JavaScript 对象属性从而改变 HTML 中标签属性的目的达到了。
 
 ## DOM 对象获取
@@ -90,7 +90,7 @@ document.querySelector('CSS 选择器');
 
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/dom-attr-get.png)
+![](./assets/20220509-dom-get-attribute/dom-attr-get.png)
 
 2. **匹配的多个元素**
 
@@ -122,7 +122,7 @@ document.querySelectorAll('CSS 选择器');
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/mul-attr.png)
+![](./assets/20220509-dom-get-attribute/mul-attr.png)
 
 除开上述两种获取 DOM 对象之外，还提供了一些用于获取 DOM 元素的方法。最常见的几种总结如下：
 
@@ -176,7 +176,7 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/dom-attr-ways.png)
+![](./assets/20220509-dom-get-attribute/dom-attr-ways.png)
 
 ## DOM 元素内容
 
@@ -209,7 +209,7 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/doc-write.png)
+![](./assets/20220509-dom-get-attribute/doc-write.png)
 
 ### innerText 属性
 
@@ -237,9 +237,9 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/in-text-1.png)
+![](./assets/20220509-dom-get-attribute/in-text-1.png)
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/in-text-2.png)
+![](./assets/20220509-dom-get-attribute/in-text-2.png)
 
 ### innerHTML 属性
 
@@ -267,9 +267,9 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/in-html-1.png)
+![](./assets/20220509-dom-get-attribute/in-html-1.png)
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/in-html-2.png)
+![](./assets/20220509-dom-get-attribute/in-html-2.png)
 
 ### 修改元素样式属性
 
@@ -314,7 +314,7 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/style-chg.png)
+![](./assets/20220509-dom-get-attribute/style-chg.png)
 
 2.  通过类名 `className` 操作 CSS
 
@@ -357,7 +357,7 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/style-classname.png)
+![](./assets/20220509-dom-get-attribute/style-classname.png)
 
 使用类名来操作 CSS 时，需要注意一下，如果原先的元素中已经有了 CSS 类，那么此时新增的 CSS 类将覆盖之前 CSS 类。
 
@@ -412,9 +412,9 @@ document.getElementsByClassName('类名')
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/classlist.png)
+![](./assets/20220509-dom-get-attribute/classlist.png)
 
-![](./../../../.vuepress/public/img/js/20220509-dom-get-attribute/style-class-list.png)
+![](./assets/20220509-dom-get-attribute/style-class-list.png)
 
 ## 总结
 

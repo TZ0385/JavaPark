@@ -34,15 +34,15 @@ date: 2022-04-24
 
 1.  登录你的 Gitee 之后，创建一个新的仓库；
 
-![](../../../.vuepress/public/img/efficiency/20220424-gitee-typora/gitee-new.png)
+![](./assets/20220424-gitee-typora/gitee-new.png)
 
 2.  填写仓库先关资料，一般只需要选一个合适的仓库名，然后确保仓库为 `public` 其他的保持默认就好；
 
-![](../../../.vuepress/public/img/efficiency/20220424-gitee-typora/image-info.png)
+![](./assets/20220424-gitee-typora/image-info.png)
 
 3.  一般创建成功之后，会出现如下界面，至此，我们的图床算是创建好了，接下来就是如何上传图片了；
 
-![](../../../.vuepress/public/img/efficiency/20220424-gitee-typora/image-finish.png)
+![](./assets/20220424-gitee-typora/image-finish.png)
 
 ## 上传图片
 
@@ -50,7 +50,7 @@ date: 2022-04-24
 
 PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/) 下载对应版本进行安装即可，我们主要讲讲如何用它来上传图片。安装后，打开软件其主页面如下：
 
-![](../../../.vuepress/public/img/efficiency/20220424-gitee-typora/image-picgo-20230311094002391.png)
+![](./assets/20220424-gitee-typora/image-picgo-20230311094002391.png)
 
 接下来就是配置 PicGo 的过程了。
 
@@ -58,7 +58,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 以此打开 `设置 -> 私人令牌`，最后点击右上角 `生成新令牌`；
 
-![](../../../.vuepress/public/img/efficiency/20220424-gitee-typora/image-tokengene.png)
+![](./assets/20220424-gitee-typora/image-tokengene.png)
 
 2.  填写令牌描述信息及勾选相关信息，然后点击 `提交` 即可，提交后会输入密码验证生成；
 
@@ -68,7 +68,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 5.  然后到图床设置中打开 Gitee 图床；
 
-![](../../../.vuepress/public/img/efficiency/20220424-gitee-typora/image-giteeconfig.png)
+![](./assets/20220424-gitee-typora/image-giteeconfig.png)
 
 6.  填写相关信息，最后点击 `确定`即可，要将其作为默认图床的话，点击设为默认图床，其中的相关信息如下：
     - **repo**：就是刚才创建的 **用户名/仓库名**;
@@ -80,7 +80,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 7.   上传图片，通过上传区上传即可（Ctrl V 或者将图片拖拽都可以），也可以通过快捷键的方式上传（默认上传键为 `Ctrl + Shift + P`）；
 
-![](../../../.vuepress/public/img/efficiency/20220424-gitee-typora/gitee-picgo.png)
+![](./assets/20220424-gitee-typora/gitee-picgo.png)
 
 ## 搭配 Typora 使用
 
@@ -88,7 +88,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 依次打开 `文件->偏好设置->图像`，然后选择插入图片时的动作为上传图片，并勾选对本地位置的图片应用，最后在 PicGo 路径中找到你安装 PicGo 的地址即可；
 
-![](../../../.vuepress/public/img/efficiency/20220424-gitee-typora/typora-setting.png)
+![](./assets/20220424-gitee-typora/typora-setting.png)
 
 ## 总结
 

@@ -37,7 +37,7 @@ date: 2022-11-13
 
 首先呢，我们先把自己录制的视频转成音频，供下边的步骤使用。视频转音频的方法很多，比如使用 PR 等专业软件进行提取，此处介绍一个在线提取的网站 [蜜蜂剪辑](https://beecut.cn/extract-audio-online)，如下图所示。只要把我们要转换的视频拖进来，然后就可以进行提取了，此外还有客户端进行下载，对于比较小的视频完全够用了。如果你的视频资源较大或者出于一些其他原因，那还是推荐你使用 PR 等专业软件进行提取。
 
-![蜜蜂剪辑](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/bee-cut.png)
+![蜜蜂剪辑](./assets/20221113-generate-video-subtitles/bee-cut.png)
 
 ### 音频转字幕
 
@@ -45,27 +45,27 @@ date: 2022-11-13
 
 首先注册并登录 [网易见外](https://jianwai.youdao.com/) 工作台，登陆后见面如下图所示。接着进行音频转字幕工作，步骤如下：
 
-![网易见外工作台](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/netset.png)
+![网易见外工作台](./assets/20221113-generate-video-subtitles/netset.png)
 
 1. 点击右上方新建项目，选择 **语音转写**
 
-![语音转写](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/radio.png)
+![语音转写](./assets/20221113-generate-video-subtitles/radio.png)
 
 2. 填写项目名，上传音频文件，需要输出的字幕语言（中、英），以及出稿类型（文本还是字幕）
 
-![填写信息](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/pro-info.png)
+![填写信息](./assets/20221113-generate-video-subtitles/pro-info.png)
 
 3. 进行提交，等待转写
 
-![提交](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/submit.png)
+![提交](./assets/20221113-generate-video-subtitles/submit.png)
 
 4. 提交后等待一段时间，一般是几分钟，然后就可以对字幕进行编辑，对其中识别的错误进行改写
 
-![等待处理](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/wait.png)
+![等待处理](./assets/20221113-generate-video-subtitles/wait.png)
 
 5. 对识别结果进行校对，然后就可以直接导出字幕文件了
 
-![校对并导出](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/export.png)
+![校对并导出](./assets/20221113-generate-video-subtitles/export.png)
 
 6. 字幕制作到此成功，接下来就是将字幕添加到视频中了。
 
@@ -75,18 +75,18 @@ date: 2022-11-13
 
 1. 先去 [官网下载](http://arctime.cn/download.html) 对应系统的软件，里边已经有详细的说明，在此就不再赘述安装过程
 
-![下载软件](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/arctime-download.png)
+![下载软件](./assets/20221113-generate-video-subtitles/arctime-download.png)
 
 2. 安装后打开软件，导入视频和字幕素材，并将其拖动到下边的轨道中，开头对齐即可
 
-![](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/import.png)
+![](./assets/20221113-generate-video-subtitles/import.png)
 
-![](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/effect.png)
+![](./assets/20221113-generate-video-subtitles/effect.png)
 
 3. 然后可以在这里进行再次校对，点击字幕栏就可以进行编辑
 4. 再次校对结束后，就可以直接对文件进行导出了，还可以导出到其专业软件中进行再次编辑
 
-![](../../../.vuepress/public/img/efficiency/20221113-generate-video-subtitles/export-as-file.png)
+![](./assets/20221113-generate-video-subtitles/export-as-file.png)
 
 ## 总结
 

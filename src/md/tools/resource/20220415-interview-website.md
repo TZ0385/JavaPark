@@ -21,7 +21,7 @@ date: 2022-04-15
 
 ## PTA
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/pta.png)
+![](./assets/20220415-interview-website/pta.png)
 
 - [PTA](https://pintia.cn/)
 
@@ -30,7 +30,7 @@ date: 2022-04-15
 
 ## LeetCode 美国站
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/leetcode-us.png)
+![](./assets/20220415-interview-website/leetcode-us.png)
 
 - [LeetCode 美国站](https://leetcode.com/)
 
@@ -38,7 +38,7 @@ date: 2022-04-15
 
 ## LeetCode 中国站
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/leetcode-ch.png)
+![](./assets/20220415-interview-website/leetcode-ch.png)
 
 - [LeetCode 中国站](https://leetcode.cn/)
 
@@ -46,7 +46,7 @@ date: 2022-04-15
 
 ## 牛客网
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/nowcoder.png)
+![](./assets/20220415-interview-website/nowcoder.png)
 
 - [牛客网](https://www.nowcoder.com/)
 
@@ -56,7 +56,7 @@ date: 2022-04-15
 
 ## 炼码
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/lintcode.png)
+![](./assets/20220415-interview-website/lintcode.png)
 
 - [炼码](https://www.lintcode.com/)
 
@@ -65,7 +65,7 @@ date: 2022-04-15
 
 ## 赛码
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/acm.png)
+![](./assets/20220415-interview-website/acm.png)
 
 - [赛码](https://www.acmcoder.com/)
 
@@ -73,7 +73,7 @@ date: 2022-04-15
 
 ## 百面网
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/100mian.png)
+![](./assets/20220415-interview-website/100mian.png)
 
 - [百面网](http://www.100mian.com/)
 
@@ -81,7 +81,7 @@ IT 公司面试神器，这里不仅提供了 300 本计算机编程经典书籍
 
 ## hihoCoder
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/hihocoder.png)
+![](./assets/20220415-interview-website/hihocoder.png)
 
 - [hihoCoder](http://hihocoder.com/)
 
@@ -89,7 +89,7 @@ IT 公司面试神器，这里不仅提供了 300 本计算机编程经典书籍
 
 ## 7 月在线
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/june-online.png)
+![](./assets/20220415-interview-website/june-online.png)
 
 - [7 月在线](https://www.julyedu.com/question/index)
 
@@ -98,7 +98,7 @@ IT 公司面试神器，这里不仅提供了 300 本计算机编程经典书籍
 
 ## N 诺
 
-![](../../../.vuepress/public/img/resource/20220415-interview-website/dreamjudge.png)
+![](./assets/20220415-interview-website/dreamjudge.png)
 
 - [N 诺](https://noobdream.com/)
 

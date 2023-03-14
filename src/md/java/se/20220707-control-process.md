@@ -66,7 +66,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/input.png)
+![](./assets/20220707-control-process/input.png)
 
 要实现从控制台输入并读取到我们的程序中时，需要借助 `Scanner` 类，它属于标准输入流，其步骤总结如下：
 
@@ -151,17 +151,17 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/output.png)
+![](./assets/20220707-control-process/output.png)
 
 ## 顺序结构
 
-![顺序结构](../../../.vuepress/public/img/se/20220707-control-process/sequence.png)
+![顺序结构](./assets/20220707-control-process/sequence.png)
 
 顺序结构如上图所示，它可以说是最简单的，只需要按照解决问题的顺序写出对应的语句即可，其执行顺序是自上而下，依次执行的。就类似于我们求解一道数学题，你得根据题意一步一步来，直至解出最后的答案。
 
 ## 分支结构
 
-![分支结构](../../../.vuepress/public/img/se/20220707-control-process/condition.png)
+![分支结构](./assets/20220707-control-process/condition.png)
 上图是分支结构，顺序结构虽然能够处理计算、输出等问题，当遇到需要判断选择时，顺序结构已经不能很好的解决了，此时就需要使用分支结构。
 Java 中，分支结构相关的语句主要涉及到 `if` 和 `switch` 相关，下面就分别来看一下。
 
@@ -179,7 +179,7 @@ if(条件表达式){
 
 其执行逻辑如下图所示，如果条件表达式的值为 `true`，则执行 `if` 语句块中的执行语句，否则就执行 `if` 语句块后边的代码；
 
-![](../../../.vuepress/public/img/se/20220707-control-process/if.png)
+![](./assets/20220707-control-process/if.png)
 
 2.  **多次判断**
 
@@ -197,7 +197,7 @@ if(条件表达式 1){
 
 其执行逻辑如下图所示，如果条件表达式 1 为 `true`，则执行执行语句 1，否则接着判断条件表达式 2，若为 `true`，则执行执行语句 2，以此类推，直到完成最后一个条件表达式的判断。
 
-![](../../../.vuepress/public/img/se/20220707-control-process/mul-if.png)
+![](./assets/20220707-control-process/mul-if.png)
 
 ```java
 import java.util.Scanner;
@@ -234,7 +234,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/if-res.png)
+![](./assets/20220707-control-process/if-res.png)
 
 ### switch
 
@@ -344,7 +344,7 @@ public class Main {
 
 ## 循环结构
 
-![循环结构](../../../.vuepress/public/img/se/20220707-control-process/loop.png)
+![循环结构](./assets/20220707-control-process/loop.png)
 上图为循环结构示意，让程序中遇到需要反复执行某一个功能时，我们发现顺序结构以及分支结构实现起来都太过于繁琐，于是又提出了循环结构的相关概念。
 通过循环结构，我们就可以通过判断循环语句，然后判断是否进入循环体。Java 中，循环结构主要涉及的语句有 `while`、`for`、`continue`、`break` 等。
 
@@ -399,7 +399,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/sum.png)
+![](./assets/20220707-control-process/sum.png)
 
 从上面的实例，利用 `while` 循环，我们就能轻易达成循环的效果。其语法格式如下：
 
@@ -443,7 +443,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/while.png)
+![](./assets/20220707-control-process/while.png)
 
 ```java
 /**
@@ -467,7 +467,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/dowhile.png)
+![](./assets/20220707-control-process/dowhile.png)
 
 观察以上两个实例，在 `while` 程序中，我们定义 `num = 10`，然后假设 `num <= 9` 时就进入循环体，而 $10 > 9$，所以不进入循环体，直接打印 `sum` 的值为 `0`。而在 `do…while` 程序中，我们同样定义 `num = 10`，然后假设 `num < 10` 时继续循环，很明显不满足该情况，理应跳出循环，打印出 `sum` 的值为 `10`，说明此时还是进行了一次循环。
 
@@ -500,7 +500,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/for.png)
+![](./assets/20220707-control-process/for.png)
 
 `for` 循环的语法形式如下：
 
@@ -548,7 +548,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/for-each.png)
+![](./assets/20220707-control-process/for-each.png)
 
 其中，声明语句一般是声明一个同数组数据类型相同的局部变量，而表达式则是要访问的数组名或者返回值是数组的方法。
 
@@ -588,7 +588,7 @@ public class Main {
 
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/break.png)
+![](./assets/20220707-control-process/break.png)
 
 观察结果可知，当 `i == 5` 时，我们执行了 `break` 语句，此时就直接跳出了 `for` 循环，而不再进行下一次的循环。
 
@@ -619,7 +619,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220707-control-process/continue.png)
+![](./assets/20220707-control-process/continue.png)
 
 观察上述结果可知，当 `i == 5` 时，我们执行了 `continue` 语句，此时便跳出了当次循环，不再进行后边的打印语句，然后继续下一次的循环，所以最终打印的结果没有 5.
 

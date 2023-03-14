@@ -30,7 +30,7 @@ date: 2022-01-04
 
 比如我 IDEA 中的 Maven 相关设置就可以参照下图。
 
-![](../../../.vuepress/public/img/maven/idea-maven-setting.png)
+![](./assets/idea-maven-setting.png)
 
 ## 使用 IDEA 创建 Maven 项目
 
@@ -38,11 +38,11 @@ date: 2022-01-04
 
 1.  首先一次进入 `File -> New -> Project`，然后选择 Maven，表示新建一个 Maven 项目；
 
-![](../../../.vuepress/public/img/maven/maven-with-idea.png)
+![](./assets/maven-with-idea.png)
 
 2.  填写相关信息，也就是我们之前所介绍的 Maven 的坐标。这里我们只要提供 GroupId、ArtifactId 以及 Version 这三项就足够了。关于其他的配置，我们可以到后续的 `pom.xml` 中去进行配置；
 
-![](../../../.vuepress/public/img/maven/maven-pro-attr.png)
+![](./assets/maven-pro-attr.png)
 
 3.  新建项目完成，完成后的项目目录结构如下，基本上也就是之前介绍过的项目结构；
 
@@ -58,7 +58,7 @@ ProjectName/
     |----pom.xml
 ```
 
-![](../../../.vuepress/public/img/maven/pro-structure.png)
+![](./assets/pro-structure.png)
 
 4.  默认生成的 `pom.xml` 如下。
 

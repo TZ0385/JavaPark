@@ -15,7 +15,7 @@ date: 2023-02-19
 hexo init butterfly-blog
 ```
 
-![](../../../.vuepress/public/img/blog/20230219-butterfly/butterfly-init.png)
+![](./assets/20230219-butterfly/butterfly-init.png)
 
 ## 2. 主题设置
 
@@ -27,7 +27,7 @@ hexo init butterfly-blog
 npm i hexo-theme-butterfly
 ```
 
-![](../../../.vuepress/public/img/blog/20230219-butterfly/theme-install.png)
+![](./assets/20230219-butterfly/theme-install.png)
 
 如果想要后续想要升级主题，那么只需要在博客根目录中执行以下命令即可。
 
@@ -192,14 +192,14 @@ nav:
 
 修改主题配置文件 `_config.butterfly.yml`，设置文章中代码的主题即可。
 
-| 主题         | 预览                                                         |
-| ------------ | ------------------------------------------------------------ |
-| `darker`     | ![](../../../.vuepress/public/img/blog/20230219-butterfly/darker.png) |
-| `pale night` | ![](../../../.vuepress/public/img/blog/20230219-butterfly/pale.png) |
-| `ocean`      | ![](../../../.vuepress/public/img/blog/20230219-butterfly/ocean.png) |
-| `light`      | ![](../../../.vuepress/public/img/blog/20230219-butterfly/light.png) |
-| `mac`        | ![](../../../.vuepress/public/img/blog/20230219-butterfly/mac.png) |
-| `mac light`  | ![](../../../.vuepress/public/img/blog/20230219-butterfly/mac-light.png) |
+| 主题         | 预览                                           |
+| ------------ | ---------------------------------------------- |
+| `darker`     | ![](./assets/20230219-butterfly/darker.png)    |
+| `pale night` | ![](./assets/20230219-butterfly/pale.png)      |
+| `ocean`      | ![](./assets/20230219-butterfly/ocean.png)     |
+| `light`      | ![](./assets/20230219-butterfly/light.png)     |
+| `mac`        | ![](./assets/20230219-butterfly/mac.png)       |
+| `mac light`  | ![](./assets/20230219-butterfly/mac-light.png) |
 
 ```yml
 highlight_theme: mac

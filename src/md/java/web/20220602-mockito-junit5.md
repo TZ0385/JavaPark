@@ -43,7 +43,7 @@ date: 2022-06-02
 
 创建好项目之后，项目结构如下图所示。
 
-![](../../../.vuepress/public/img/web/20220602-mockito-junit5/new-pro.png)
+![](./assets/20220602-mockito-junit5/new-pro.png)
 
 紧接着，我们向项目的 `pom.xml` 中添加 `Mockito` 和 `JUnit` 的依赖。
 
@@ -117,7 +117,7 @@ public class Demo {
 
 接着在 `Demo` 类中单击鼠标右键，选择 `Generate`，会弹出以下选择项，我们选择 `Test` 来自动生成该类的测试代码。
 
-![](../../../.vuepress/public/img/web/20220602-mockito-junit5/test-generate.png)
+![](./assets/20220602-mockito-junit5/test-generate.png)
 
 选择 `Test` 之后，IDEA 并不会立马生成对应的测试类，而是会弹出以下配置窗口让我们配置后再进行生成。这里主要注意的点在于：
 
@@ -126,11 +126,11 @@ public class Demo {
 3.  `Destination package`：生成的测试类所在的包，一般是对应于上面的类所在的包。
 4.  `Generate test methods for`：这里主要是选择需要生成测试的方法，在下面的 `Member` 中进行勾选即可。
 
-![](../../../.vuepress/public/img/web/20220602-mockito-junit5/junit5.png)
+![](./assets/20220602-mockito-junit5/junit5.png)
 
 配置完成后，IDEA 会在 `test/java` 文件夹下自动创建包并生成对应测试类，最终自动生成的测试类如下。
 
-![](../../../.vuepress/public/img/web/20220602-mockito-junit5/test-demo.png)
+![](./assets/20220602-mockito-junit5/test-demo.png)
 
 最后，我们按照 `Mock` 测试的三个步骤来书写代码，得到最终的测试方法如下。
 
@@ -155,7 +155,7 @@ class DemoTest {
 
 最后，执行测试类中的方法，如果测试通过，则 IDEA 中出现如下结果。
 
-![](../../../.vuepress/public/img/web/20220602-mockito-junit5/run-test.png)
+![](./assets/20220602-mockito-junit5/run-test.png)
 
 假设我们修改下以上代码中断言中的期望值，则测试不通过，此时 IDEA 会返回断言中的提示信息。
 
@@ -170,7 +170,7 @@ class DemoTest {
 }
 ```
 
-![](../../../.vuepress/public/img/web/20220602-mockito-junit5/run-fail.png)
+![](./assets/20220602-mockito-junit5/run-fail.png)
 
 ## 总结
 

@@ -20,7 +20,7 @@ category:
 
 ## docsmall
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/docsmall.jpeg)
+![](./assets/20220416-useful-website/docsmall.jpeg)
 
 - [docsmall](https://docsmall.com/)
 
@@ -28,7 +28,7 @@ docsmall，这是一个神奇的网站。通过它，你不仅可以实现图片
 
 ## 白描网页版
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/white-cat.png)
+![](./assets/20220416-useful-website/white-cat.png)
 
 - [白描](https://web.baimiaoapp.com/)
 
@@ -36,7 +36,7 @@ docsmall，这是一个神奇的网站。通过它，你不仅可以实现图片
 
 ## DeepL 翻译器
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/deepl.png)
+![](./assets/20220416-useful-website/deepl.png)
 
 - [DeepL](https://www.deepl.com/translator)
 
@@ -44,7 +44,7 @@ docsmall，这是一个神奇的网站。通过它，你不仅可以实现图片
 
 ## BigJpg
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/bigjpg.png)
+![](./assets/20220416-useful-website/bigjpg.png)
 
 - [BigJpg](https://bigjpg.com/)
 
@@ -52,7 +52,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## unDraw
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/undraw.png)
+![](./assets/20220416-useful-website/undraw.png)
 
 - [链接](https://undraw.co/illustrations)
 
@@ -60,7 +60,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## IconFont
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/iconfont.png)
+![](./assets/20220416-useful-website/iconfont.png)
 
 - [IconFont](http://www.iconfont.cn/)
 
@@ -68,7 +68,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## IconPark
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/iconpark.png)
+![](./assets/20220416-useful-website/iconpark.png)
 
 - [IconPark](https://iconpark.oceanengine.com/home)
 
@@ -76,7 +76,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## Font Awesome
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/fontawesome.png)
+![](./assets/20220416-useful-website/fontawesome.png)
 
 - [Font Awesome](https://fontawesome.com/)
 
@@ -84,7 +84,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## 第 1 PPT
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/ppt1.png)
+![](./assets/20220416-useful-website/ppt1.png)
 
 - [第 1 PPT](https://www.1ppt.com/)
 
@@ -92,7 +92,7 @@ AI 人工智能图片放大！使用最新的人工智能深度学习技术，�
 
 ## 优品 PPT
 
-![](../../../.vuepress/public/img/resource/20220416-useful-website/you-ppt.png)
+![](./assets/20220416-useful-website/you-ppt.png)
 
 - [优品 PPT](https://www.ypppt.com/moban/)
 

@@ -37,7 +37,7 @@ category:
 5.  **结账**
 6.  **退出系统**
 
-![点菜系统](../../../.vuepress/public/img/se-in-action/20220302-order-system/order-system.png)
+![点菜系统](./assets/20220302-order-system/order-system.png)
 
 ## 功能预览
 
@@ -45,49 +45,49 @@ category:
 
 进入我们的点菜系统之后，一般都是有系统菜单的，用于提示我们进行下一步的操作。
 
-![系统菜单](../../../.vuepress/public/img/se-in-action/20220302-order-system/menu.png)
+![系统菜单](./assets/20220302-order-system/menu.png)
 
 ### 点菜
 
 根据系统菜单进入点菜功能后，输入菜品序号进行点菜以及返回上一级菜单。
 
-![点菜](../../../.vuepress/public/img/se-in-action/20220302-order-system/book.png)
+![点菜](./assets/20220302-order-system/book.png)
 
 ### 查看已点菜品
 
 假设我们点完菜之后，要确认下有没有点重复的菜，此时就可以查看已点菜品。
 
-![](../../../.vuepress/public/img/se-in-action/20220302-order-system/choosed.png)
+![](./assets/20220302-order-system/choosed.png)
 
 当然，上图是我们已经点过菜才会出现菜品，如果我们还没有点过菜，那么系统则会提示还未点菜。
 
-![](../../../.vuepress/public/img/se-in-action/20220302-order-system/no-dish.png)
+![](./assets/20220302-order-system/no-dish.png)
 
 ### 删除菜品
 
 假设我们不小心点了重复的菜，那该怎么办呢？不用担心，我们直接选择删除菜品功能，然后删除对应重复菜品即可。
 
-![](../../../.vuepress/public/img/se-in-action/20220302-order-system/del.png)
+![](./assets/20220302-order-system/del.png)
 
 同样的，加入我们还未点菜就进入删除菜品功能，系统也会给出提示。
 
-![](../../../.vuepress/public/img/se-in-action/20220302-order-system/del-info.png)
+![](./assets/20220302-order-system/del-info.png)
 
 ### 结账
 
 当我们用完餐之后，接下来就是结账了。此时只要进入我们的结账选项，系统就会打印出本次所消费的所有金额。
 
-![](../../../.vuepress/public/img/se-in-action/20220302-order-system/settle.png)
+![](./assets/20220302-order-system/settle.png)
 
 同样的，加入我们还未点菜就进入结账功能，系统也会给出提示。
 
-![](../../../.vuepress/public/img/se-in-action/20220302-order-system/settle-info.png)
+![](./assets/20220302-order-system/settle-info.png)
 
 ### 退出系统
 
 当我们输入选择为 0 时，表示我们退出系统。
 
-![](../../../.vuepress/public/img/se-in-action/20220302-order-system/quit.png)
+![](./assets/20220302-order-system/quit.png)
 
 ## 功能实现
 
@@ -431,7 +431,7 @@ public void checkout(List<Dish> orderedList) {
 
 各部分的代码都已经贴出来的，不过为了大家更方便，我这这里给出总程序结构。
 
-![](../../../.vuepress/public/img/se-in-action/20220302-order-system/structure.png)
+![](./assets/20220302-order-system/structure.png)
 
 所有代码均位于 `com.cunyu` 包下，然后分别是实体类 `Dish`、接口类 `DishInterface` 以及主程序 `DishApp`。
 

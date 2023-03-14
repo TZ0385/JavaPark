@@ -89,7 +89,7 @@ public class MainApplication {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220720-fastjson2-quickstart/json.png)
+![](./assets/20220720-fastjson2-quickstart/json.png)
 
 ### JSON 解析为 Java 对象
 
@@ -106,7 +106,7 @@ public class MainApplication {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220720-fastjson2-quickstart/json2java.png)
+![](./assets/20220720-fastjson2-quickstart/json2java.png)
 
 ### JSON 解析为 JSONObject
 
@@ -123,7 +123,7 @@ public class MainApplication {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220720-fastjson2-quickstart/json2obj.png)
+![](./assets/20220720-fastjson2-quickstart/json2obj.png)
 
 ### JSON 解析为 JSONArray
 
@@ -140,7 +140,7 @@ public class MainApplication {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220720-fastjson2-quickstart/json-array.png)
+![](./assets/20220720-fastjson2-quickstart/json-array.png)
 
 ## 总结
 

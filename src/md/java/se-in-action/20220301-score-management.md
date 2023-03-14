@@ -35,65 +35,65 @@ category:
 7.  显示所有成绩
 8.  退出管理系统
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/stu-score-manage.png)
+![](./assets/20220301-score-management/stu-score-manage.png)
 
 进入系统之后，我们应该有系统菜单，然后根据提示选择我们所要进行的操作。
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/menu.png)
+![](./assets/20220301-score-management/menu.png)
 
 - **录入学生成绩**
 
 该功能是每次录入学生的成绩信息，或者在当前数据的基础上添加录入新的学生成绩信息；
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/insert.png)
+![](./assets/20220301-score-management/insert.png)
 
 - **统计学生成绩**
 
 主要是对学生的成绩进行统计，然后输出平均分，并打印出对应信息；
 
-![image-20210405133413661](../../../.vuepress/public/img/se-in-action/20220301-score-management/avg.png)
+![image-20210405133413661](./assets/20220301-score-management/avg.png)
 
 - **查找学生成绩**
 
 根据输入的学号来查找对应学生的相关成绩信息；
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/stu-score.png)
+![](./assets/20220301-score-management/stu-score.png)
 
 - **修改学生成绩**
 
 根据输入的学号来对对应学生的成绩进行修改；
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/modify.png)
+![](./assets/20220301-score-management/modify.png)
 
 - **删除学生成绩**
 
 根据输入的学生学号，删除对应学生的成绩信息；
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/del.png)
+![](./assets/20220301-score-management/del.png)
 
 - **按平均分排序**
 
 按照平均分降序排序；
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/avg-sort.png)
+![](./assets/20220301-score-management/avg-sort.png)
 
 - **显示所有成绩**
 
 便利所有学生成绩，然后打印出来；
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/show-scores.png)
+![](./assets/20220301-score-management/show-scores.png)
 
 - **退出管理系统**
 
 退出菜单；
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/quit.png)
+![](./assets/20220301-score-management/quit.png)
 
 - **注意**
 
 鉴于大家的留言说经常会报错找不到对应类，所以在这里也给出这个程序的包结构如下图所示。
 
-![](../../../.vuepress/public/img/se-in-action/20220301-score-management/attention.png)
+![](./assets/20220301-score-management/attention.png)
 
 ## 功能设计与实现
 

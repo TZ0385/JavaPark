@@ -19,7 +19,7 @@ HTML（Hypertext Markup Language），中文名超文本标记语言，是一种
 
 元素又是由一对标签加上内容所共同构成，以下是一个简单的文本标签示例。
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/html-basic.png)
+![](./assets/20220501-basic-lable/html-basic.png)
 
 该元素中，主要组成部分如下：
 
@@ -67,7 +67,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/body.png)
+![](./assets/20220501-basic-lable/body.png)
 
 ### `<title>`
 
@@ -84,7 +84,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/title.png)
+![](./assets/20220501-basic-lable/title.png)
 
 ### `<p>`
 
@@ -105,7 +105,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/p.png)
+![](./assets/20220501-basic-lable/p.png)
 
 ### 标题
 
@@ -132,7 +132,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/title-class.png)
+![](./assets/20220501-basic-lable/title-class.png)
 
 ### `</br>`
 
@@ -148,7 +148,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/br.png)
+![](./assets/20220501-basic-lable/br.png)
 
 ### `<img>`
 
@@ -171,7 +171,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/img.png)
+![](./assets/20220501-basic-lable/img.png)
 
 ```html
 <!DOCTYPE html>
@@ -187,7 +187,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/alt-img.png)
+![](./assets/20220501-basic-lable/alt-img.png)
 
 ### `<a>`
 
@@ -206,7 +206,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/link.png)
+![](./assets/20220501-basic-lable/link.png)
 
 ### 列表
 
@@ -230,7 +230,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/ol-list.png)
+![](./assets/20220501-basic-lable/ol-list.png)
 
 有序列表中，可以在 `ol` 标签中添加 `start` 属性，用于表示从第几位开始，`type` 属性用于标识所要显示的类型。
 
@@ -260,7 +260,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/roma-list.png)
+![](./assets/20220501-basic-lable/roma-list.png)
 
 除开有序列表之外，还有无序列表，无序列表以 `ul` 标识。
 
@@ -282,7 +282,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/ul-list.png)
+![](./assets/20220501-basic-lable/ul-list.png)
 
 无序列表虽然没有顺序之分，但是同样提供了 `type` 属性。
 
@@ -315,7 +315,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/ul-list-1.png)
+![](./assets/20220501-basic-lable/ul-list-1.png)
 
 ### `<b>`
 
@@ -334,7 +334,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/bold.png)
+![](./assets/20220501-basic-lable/bold.png)
 
 ### `<u>`
 
@@ -353,7 +353,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/underline.png)
+![](./assets/20220501-basic-lable/underline.png)
 
 ### `<i>`
 
@@ -372,7 +372,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/italic.png)
+![](./assets/20220501-basic-lable/italic.png)
 
 ### 上下标
 
@@ -391,7 +391,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/up-down.png)
+![](./assets/20220501-basic-lable/up-down.png)
 
 ### `<table>`
 
@@ -444,7 +444,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/table.png)
+![](./assets/20220501-basic-lable/table.png)
 
 ### `<form>`
 
@@ -479,7 +479,7 @@ HTML 文档中的根标签，包含了整个页面的所有内容，其他所有
 </html>
 ```
 
-![](../../../.vuepress/public/img/web/20220501-basic-lable/form.png)
+![](./assets/20220501-basic-lable/form.png)
 
 其中 `action` 属性用来处理表单提交的 URL，`method` 属性表示使用何种 HTTP 方式来提交表单，常用的值有 `post` 和 `get`。
 

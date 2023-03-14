@@ -147,7 +147,7 @@ Java 中线程池的顶级接口是 `Executor`，但严格来讲它并不是一�
 | `TIME_WAITING` | 超时等待状态，不同于 `WAITING` ，经过指定时间后可以自行返回                      |
 | `TERMINATED`   | 终止状态，表示线程执行完毕                                                       |
 
-![Java 线程状态变迁《Java 并发编程艺术》](../../.vuepress/public/img/interview/20220805-concurrence/concurrence.png)
+![Java 线程状态变迁《Java 并发编程艺术》](./assets/20220805-concurrence/concurrence.png)
 
 上图源自《Java 并发编程艺术》，可以看出一个线程的状态变迁过程：
 
@@ -247,7 +247,7 @@ public class ThreadSafe extends Thread {
 
 总结来说：当前线程在执行完 CPU 时间片之后切换到另一个线程前，会先保存自己的状态，从而方便下次切换回这个线程时，能够快速加载该线程的状态。**线程从保存到再加载的过程就是一次上下文切换**。
 
-![](../../.vuepress/public/img/interview/20220805-concurrence/context-switch.png)
+![](./assets/20220805-concurrence/context-switch.png)
 
 如上图，上下文切换的步骤可以总结为如下三步：
 
@@ -316,7 +316,7 @@ Java 中的悲观锁就是 **Synchronized**，AQS 框架下的锁会先去尝试
 
 - **Synchronized 实现**
 
-![](../../.vuepress/public/img/interview/20220805-concurrence/synchronized.png)
+![](./assets/20220805-concurrence/synchronized.png)
 
 1.  JVM 每次从等待队列尾部取出一个数据用于锁竞争候选者（`OnDeck`） ，但在并发情况下，`Contention List` 会被大量的并发线程进行 CAS 访问，此时，为了降低对队列尾部元素的竞争，JVM 将一部分线程移动到 `Entry List` 中作为候选竞争线程；
 2.  `Owner` 线程在 `unclock` 时，将 `Contention List` 中的部分线程迁移到 `Entry List`，并指定其中的某一线程为 `OnDeck` 线程（一般是最先进去的线程）；

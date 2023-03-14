@@ -162,7 +162,7 @@ yay wps|grep zh
 
 安装好之后，切换即可。
 
-![](../../../.vuepress/public/img/linux/20220409-manjora-guide/wps-language.png)
+![](./assets/20220409-manjora-guide/wps-language.png)
 
 ### 2.7 flameshot
 
@@ -244,7 +244,7 @@ plugins=(
 )
 ```
 
-![img](../../../.vuepress/public/img/linux/20220409-manjora-guide/zsh-theme.png)
+![img](./assets/20220409-manjora-guide/zsh-theme.png)
 
 ### 2.10 utools
 

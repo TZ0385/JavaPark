@@ -109,17 +109,17 @@ public class DemoController {
 
 然后将项目启动起来，接着到浏览器中去打开 `http://localhost:8080/doc.html`，就会出现以下的主界面。这里有我们之前在配置类中所设置的一些接口信息，此外，还对接口进行了统计。因为我们代码中只写了一个 `POST` 的请求，所以这里统计出只有一个 `POST` 请求。
 
-![](../../../.vuepress/public/img/springboot/20220106-integrated-knife4j/api-docs.png)
+![](./assets/20220106-integrated-knife4j/api-docs.png)
 
 打开具体接口，这里就有我们接口的请求和响应的一些情况说明。
 
-![](../../../.vuepress/public/img/springboot/20220106-integrated-knife4j/interface-info.png)
+![](./assets/20220106-integrated-knife4j/interface-info.png)
 
 点击左侧 `调试` 按钮，我们就可以在 `Knife4j` 中测试我们的接口。
 
-![](../../../.vuepress/public/img/springboot/20220106-integrated-knife4j/debug.png)
+![](./assets/20220106-integrated-knife4j/debug.png)
 
-![](../../../.vuepress/public/img/springboot/20220106-integrated-knife4j/post.png)
+![](./assets/20220106-integrated-knife4j/post.png)
 
 ## 踩过的坑
 
@@ -156,7 +156,7 @@ public class SpringbootKnife4jDemoApplication {
 
 当我们成功启动项目后，在浏览器中打开 `http://localhost:8080/doc.html`，却没想到迎接我们的不是成功界面，而是下面的 `Whitelabel Error Page`。
 
-![](../../../.vuepress/public/img/springboot/20220106-integrated-knife4j/error.png)
+![](./assets/20220106-integrated-knife4j/error.png)
 
 然后到 `IDEA` 中一看日志，程序照常运行，也没报错，但是给我们抛出了一个 `WARN`，警告信息如下：
 

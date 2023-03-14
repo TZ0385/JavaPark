@@ -70,21 +70,21 @@ category:
 
 **https://next.itellyou.cn**
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/msdn.png)
+![](./assets/20220412-windows-install/msdn.png)
 
 这是一个老牌的 Windows 系统下载的网站，上图是进行改版后的界面，如果你想要访问之前的老版本网站，请移步：https://msdn.itellyou.cn/. 新版本的 MSDN 中，不仅仅提供 Windows 系统的下载，还包括 Linux、MacOS 和 Chromium OS 等系统的下载，比之前所提供下载的系统更丰富了。比如我们选中 Windows 10 的 2004 版后，只要复制 BT 或 ED2K 到相关下载软件（一般是迅雷）中，添加新任务进行下载即可。
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/windows.png)
+![](./assets/20220412-windows-install/windows.png)
 
 2.  **TechBench**
 
 **https://tb.rg-adguard.net/public.php**
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/techbench.png)
+![](./assets/20220412-windows-install/techbench.png)
 
 如上图，如果你不想通过种子的方式进行下载，那这个方式一定适合你。它无需通过其他下载工具进行下载，只需要选中系统类型、版本、版、语言以及文件后，右侧就会出现一个下载按钮，然后点击下载按钮就会进行下载，十分方便，如下图中我以 Windows 10 2004 版简体中文的 64 位系统，选中后点击下载进行下载即可。
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/download.png)
+![](./assets/20220412-windows-install/download.png)
 
 ### 刻录软件
 
@@ -118,49 +118,49 @@ UltraISO 软碟通是一款功能强大、方便实用、老牌优秀的光盘�
 
 进入 BIOS 之后，一般是在 BOOT 选项下，将 U 盘的启动顺序调整到最前边（就是图中的 USB HDD 调到第 1 位），然后按 F10 保存退出即可。一般这个时候重启后就会进入 U 盘启动盘中，接下来就是具体的系统安装设置了。
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/bios.png)
+![](./assets/20220412-windows-install/bios.png)
 
 ### 系统安装设置过程
 
 1.  设置好 BIOS 启动顺序之后，保存重启等一会儿会自动进入如下主安装界面，根据自己的喜好选择语言，时间格式和键盘输入方式后，点击 **下一步**；
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/language-select.png)
+![](./assets/20220412-windows-install/language-select.png)
 
 2.  接着点击现在安装；
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/install-new.png)
+![](./assets/20220412-windows-install/install-new.png)
 
 3.  接着会让你输入产品秘钥，如果有的话，直接输入后下一步即可，没有的话，直接点击我没有产品秘钥即可；
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/key.png)
+![](./assets/20220412-windows-install/key.png)
 
 4.  接着选择自己要安装的版本，然后点击下一步即可（一般 **推荐选择专业版**）；
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/version-select.png)
+![](./assets/20220412-windows-install/version-select.png)
 
 5.  接着勾选许可条款，继续下一步；
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/agree.png)
+![](./assets/20220412-windows-install/agree.png)
 
 6.  选择自定义：仅安装 Windows；
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/install.png)
+![](./assets/20220412-windows-install/install.png)
 
 7.  接着选择你要安装系统的硬盘，接着下一步，**注意一定要选中你要安装系统的盘，否则可能把其他盘的数据也给搞掉，而且你也可以自己分区！！！**；
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/disk.png)
+![](./assets/20220412-windows-install/disk.png)
 
 8.  好了，到此系统正式安装开始了，等他装完，**拔掉 U 盘重启即可**；
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/reboot.png)
+![](./assets/20220412-windows-install/reboot.png)
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/reboot1.png)
+![](./assets/20220412-windows-install/reboot1.png)
 
 9.  重启之后就是 Windows 的一些初始化设置，一般是时区、用户、密码、输入方式等设置，这个没啥好讲了，根据自己的喜好进行选择即可；
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/location.png)
+![](./assets/20220412-windows-install/location.png)
 
-![](../../../.vuepress/public/img/windows/20220412-windows-install/pwd.png)
+![](./assets/20220412-windows-install/pwd.png)
 
 ## 总结
 

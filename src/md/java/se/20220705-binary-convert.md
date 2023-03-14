@@ -36,13 +36,13 @@ $$(1011)_2=1*2^3+0*2^2+1*2^1+1*2^0 = (11)_{10}$$
 
 $$(15)_{10}=(1111)_2$$
 
-![整数部分](../../../.vuepress/public/img/se/20220705-binary-convert/int.png)
+![整数部分](./assets/20220705-binary-convert/int.png)
 
 小数部分则不同于整数部分，小数部分要使用**乘 2 取整法**，即用十进制的小数部分乘以 2，然后取结果的整数部分，然后再用剩下的小数重复刚才的步骤，直到最后剩余的小数为 0 时停止。最后将每次得到的整数部分按照先后顺序正序排列，从而得到对应的二进制表示。
 
 $$(0.25)_{10}=(0.01)_2$$
 
-![](../../../.vuepress/public/img/se/20220705-binary-convert/decimal.png)
+![](./assets/20220705-binary-convert/decimal.png)
 
 ## 八进制
 
@@ -52,7 +52,7 @@ $$(0.25)_{10}=(0.01)_2$$
 
 例如，二进制的 $111101011110$ 可以转换为八进制中的 $7536$。
 
-![](../../../.vuepress/public/img/se/20220705-binary-convert/8.png)
+![](./assets/20220705-binary-convert/8.png)
 
 ## 十六进制
 
@@ -62,7 +62,7 @@ $$(0.25)_{10}=(0.01)_2$$
 
 例如，二进制的 $1111100111010111$ 可以转换为十六进制中的 $F9D7$。
 
-![](../../../.vuepress/public/img/se/20220705-binary-convert/16.png)
+![](./assets/20220705-binary-convert/16.png)
 
 ## 常用进制转换
 
@@ -87,7 +87,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220705-binary-convert/parse-200.png)
+![](./assets/20220705-binary-convert/parse-200.png)
 
 相反的，如果我们要将一个 `N` 进制的字符串 `str` 转换为十进制数，那么可以使用以下方法。
 
@@ -105,7 +105,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220705-binary-convert/n210.png)
+![](./assets/20220705-binary-convert/n210.png)
 
 ## 总结
 

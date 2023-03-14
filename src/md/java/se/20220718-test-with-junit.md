@@ -63,7 +63,7 @@ JUnit 是一个编写可重复测试的简单框架，是单元测试框架 xUni
 
 以 IDEA 为例，依次打开 `File -> Project Structure -> Project Settings -> Modules -> Dependencies -> 点击 + -> Library... -> Java`，最后找到下载的 JUnit 文件即可；
 
-<img src="../../../.vuepress/public/img/se/20220718-test-with-junit/dependency.png" style="zoom:50%;" />
+<img src="./assets/20220718-test-with-junit/dependency.png" style="zoom:50%;" />
 
 - **Maven 安装**
 
@@ -184,17 +184,17 @@ public class CalcTest {
 
 如果测试成功，则在 IDE 中会出现如下提示。
 
-![](../../../.vuepress/public/img/se/20220718-test-with-junit/@test.png)
+![](./assets/20220718-test-with-junit/@test.png)
 
 一般来讲，测试成功一般是绿色，而测试失败则是红色。
 
 - 测试成功的界面
 
-![](../../../.vuepress/public/img/se/20220718-test-with-junit/success.png)
+![](./assets/20220718-test-with-junit/success.png)
 
 - 测试失败的界面
 
-![](../../../.vuepress/public/img/se/20220718-test-with-junit/fail.png)
+![](./assets/20220718-test-with-junit/fail.png)
 
 总结起来，我们针对一个方法的具体测试的步骤如下：
 
@@ -285,7 +285,7 @@ public class CalcTest {
 
 ```
 
-![](../../../.vuepress/public/img/se/20220718-test-with-junit/assert.png)
+![](./assets/20220718-test-with-junit/assert.png)
 
 ## 总结
 

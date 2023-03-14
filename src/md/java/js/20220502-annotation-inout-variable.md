@@ -61,7 +61,7 @@ alert("网球王子");
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220502-annotation-inout-variable/prompt.png)
+![](./assets/20220502-annotation-inout-variable/prompt.png)
 
 2.  **alert(msg)**
 
@@ -84,13 +84,13 @@ alert("网球王子");
 </html>
 ```
 
-![](./../../../.vuepress/public/img/js/20220502-annotation-inout-variable/alert.gif)
+![](./assets/20220502-annotation-inout-variable/alert.gif)
 
 3.  **console(msg)**
 
 这个方法主要是用于在浏览器的控制台打开，而一般用户也用不到这个，更多的是开发人员用于调试开发时使用。
 
-![](./../../../.vuepress/public/img/js/20220502-annotation-inout-variable/console.png)
+![](./assets/20220502-annotation-inout-variable/console.png)
 
 ## 变量
 

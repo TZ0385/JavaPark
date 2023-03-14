@@ -42,21 +42,21 @@ A[开发环境搭建及入门程序] --> F[3. 知识点解析]
 
 1.  首先进入 [Oracle 官网](https://www.oracle.com/java/technologies/javase-downloads.html)，然后找到自己想要的 JDK 版本，这边以 JDK 11 为例；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/jdk11.png)
+![](./assets/20220702-jdk-install-and-hello-world/jdk11.png)
 
 2.  点击 JDK Download 后，它会跳转到具体下载页面，然后根据自己的系统来进行选择，此处以 Windows 10 64 位为例；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/download.png)
+![](./assets/20220702-jdk-install-and-hello-world/download.png)
 
 3.  点击最后的连接后，它会让你同意协议，勾选同意，然后登陆你的 Oracle 账户即可开始下载，若是没有 Oracle 账户，点击下面的创建一个即可；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/agree.png)
+![](./assets/20220702-jdk-install-and-hello-world/agree.png)
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/login.png)
+![](./assets/20220702-jdk-install-and-hello-world/login.png)
 
 4.  下载完成后，进行安装即可，安装流程和我们平常安装软件的一样，就再赘述，需要注意的是要记住如下的安装路径，因为一般我们都不会安装到默认路径，所以一定要记住你所安装到的路径，这关系到后续的配置步骤；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/install-path.png)
+![](./assets/20220702-jdk-install-and-hello-world/install-path.png)
 
 #### 配置 JDK
 
@@ -66,19 +66,19 @@ A[开发环境搭建及入门程序] --> F[3. 知识点解析]
 
 1.  **Windows + R** 快捷键组合唤醒 Windows 运行窗口，然后输入 `sysdm.cpl`，紧接着回车即可，一般会打开如下界面，然后点击最上方的 **高级**；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/jdk-config.png)
+![](./assets/20220702-jdk-install-and-hello-world/jdk-config.png)
 
 2.  点击高级后，就会打开如下界面，然后打开环境变量；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/envi-vari.png)
+![](./assets/20220702-jdk-install-and-hello-world/envi-vari.png)
 
 3.  新建环境变量 **JAVA_HOME**，然后变量值填入刚才安装 JDK 的路径（刚才提醒过要记住！）；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/java-home.png)
+![](./assets/20220702-jdk-install-and-hello-world/java-home.png)
 
 4.  编辑 **Path** 环境变量，然后新建一个变量值，填入如下内容：`%JAVA_HOME%\bin`；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/path-bin.png)
+![](./assets/20220702-jdk-install-and-hello-world/path-bin.png)
 
 5.  各种确定，然后突出系统属性即可，到这一步，理论上我们的 JDK 就安装并配置成功了，接下来我们就去确认一下到底安装好了没；
 
@@ -99,11 +99,11 @@ java
 
 打开命令控制台（**Windows + R，然后输入 cmd 回车**），然后输入如上三个命令，如果安装成功，一般是会出现如下内容的；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/java-version.png)
+![](./assets/20220702-jdk-install-and-hello-world/java-version.png)
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/javac.png)
+![](./assets/20220702-jdk-install-and-hello-world/javac.png)
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/java.png)
+![](./assets/20220702-jdk-install-and-hello-world/java.png)
 
 ### macOS
 
@@ -111,21 +111,21 @@ java
 
 1.  首先去 [官网下载](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 对应安装包；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/macos-jdk.png)
+![](./assets/20220702-jdk-install-and-hello-world/macos-jdk.png)
 
 2.  接受相关协议并登录下载；
 
 3.  双击下载好的 `.dmg` 安装包，然后开始安装；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/install-macos.png)
+![](./assets/20220702-jdk-install-and-hello-world/install-macos.png)
 
 4.  安装过程中会让你输入密码，也就是你本机的密码。
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/pwd.png)
+![](./assets/20220702-jdk-install-and-hello-world/pwd.png)
 
 5.  安装成功；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/success.png)
+![](./assets/20220702-jdk-install-and-hello-world/success.png)
 
 #### 验证
 
@@ -137,15 +137,15 @@ java
 java -version
 ```
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/macos-jdk-v.png)
+![](./assets/20220702-jdk-install-and-hello-world/macos-jdk-v.png)
 
 2.  编译命令；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/macos-javac.png)
+![](./assets/20220702-jdk-install-and-hello-world/macos-javac.png)
 
 3.  运行命令；
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/macos-java.png)
+![](./assets/20220702-jdk-install-and-hello-world/macos-java.png)
 
 ### 安装目录详解
 
@@ -170,7 +170,7 @@ java -version
 2.  **编译代码**
 3.  **运行代码**
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/sequence.png)
+![](./assets/20220702-jdk-install-and-hello-world/sequence.png)
 
 我们不需要任何的基础，只需要按照上面的步骤配置好 JDK 之后，然后以上三个步骤逐一来进行就可以了。下面就来进行具体实践：
 
@@ -190,9 +190,9 @@ public class Main{
 javac Main.java
 ```
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/helloworld.png)
+![](./assets/20220702-jdk-install-and-hello-world/helloworld.png)
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/java-class.png)
+![](./assets/20220702-jdk-install-and-hello-world/java-class.png)
 
 3.  运行，使用如下命令进行运行，然后就可以看到打印出的最终结果了！
 
@@ -200,7 +200,7 @@ javac Main.java
 java Main
 ```
 
-![](../../../.vuepress/public/img/se/20220702-jdk-install-and-hello-world/console-compiler.png)
+![](./assets/20220702-jdk-install-and-hello-world/console-compiler.png)
 
 ## 知识点说明
 

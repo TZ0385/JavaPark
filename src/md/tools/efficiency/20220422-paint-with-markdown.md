@@ -28,7 +28,7 @@ Note right of 村雨遥: 思考！
 
 ## 流程图（Flowcharts）
 
-![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/flow-chat.png)
+![](./assets/20220422-paint-with-markdown/flow-chat.png)
 
 ## Mermaid 图
 
@@ -72,7 +72,7 @@ sequenceDiagram
     end
 ```
 
-![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/sequence.png)
+![](./assets/20220422-paint-with-markdown/sequence.png)
 
 ### 流程图（Flowcharts)
 
@@ -95,7 +95,7 @@ A[开始] -->B[出示证件]
     E --> F[结束]
 ```
 
-![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/flow-charts.png)
+![](./assets/20220422-paint-with-markdown/flow-charts.png)
 
 ### 甘特图（Gantt Charts）
 
@@ -111,7 +111,7 @@ gantt
     项目实施      : 24d
 ```
 
-![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/gantt.png)
+![](./assets/20220422-paint-with-markdown/gantt.png)
 
 ### 类图（Class Diagrams）
 
@@ -143,7 +143,7 @@ classDiagram
 	}
 ```
 
-![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/class.png)
+![](./assets/20220422-paint-with-markdown/class.png)
 
 ### 状态图（State Diagrams）
 
@@ -158,10 +158,10 @@ stateDiagram
 	加速 --> [*]
 ```
 
-![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/state.png)
+![](./assets/20220422-paint-with-markdown/state.png)
 
 ### 饼图（Pie Charts）
 
-![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/pie.svg)
+![](./assets/20220422-paint-with-markdown/pie.svg)
 
-![](../../../.vuepress/public/img/efficiency/20220422-paint-with-markdown/pie-preview.png)
+![](./assets/20220422-paint-with-markdown/pie-preview.png)

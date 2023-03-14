@@ -58,7 +58,7 @@ date: 2022-11-26
 
 如 `D:` 就代码进入 `D` 盘。
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/disk-switch.png)
+![](./assets/20221126-cmd-command/disk-switch.png)
 
 2.  **进入指定目录**
 
@@ -66,7 +66,7 @@ date: 2022-11-26
 cd 目录
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/cd.png)
+![](./assets/20221126-cmd-command/cd.png)
 
 3.  **返回磁盘根目录**
 
@@ -74,7 +74,7 @@ cd 目录
 cd \
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/cd-root.png)
+![](./assets/20221126-cmd-command/cd-root.png)
 
 4.  **返回上级目录**
 
@@ -82,7 +82,7 @@ cd \
 cd ..
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/cd up.png)
+![](./assets/20221126-cmd-command/cd up.png)
 
 5.  **新建目录**
 
@@ -90,7 +90,7 @@ cd ..
 md 目录名
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/md.png)
+![](./assets/20221126-cmd-command/md.png)
 
 6.  **查看当前目录中内容**
 
@@ -98,7 +98,7 @@ md 目录名
 dir
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/dir.png)
+![](./assets/20221126-cmd-command/dir.png)
 
 7.  **查看指定目录结构**
 
@@ -106,7 +106,7 @@ dir
 tree 目录
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/tree.png)
+![](./assets/20221126-cmd-command/tree.png)
 
 8.  **删除目录**
 
@@ -114,7 +114,7 @@ tree 目录
 rd 目录名
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/rd.png)
+![](./assets/20221126-cmd-command/rd.png)
 
 9.  **复制文件**
 
@@ -122,7 +122,7 @@ rd 目录名
 copy 源文件 目标文件
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/copy.png)
+![](./assets/20221126-cmd-command/copy.png)
 
 10. **删除文件**
 
@@ -130,7 +130,7 @@ copy 源文件 目标文件
 del 文件名
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/del.png)
+![](./assets/20221126-cmd-command/del.png)
 
 ### 开关机操作
 
@@ -164,7 +164,7 @@ shutdown /h /f
 shutdown /s /t 时间（秒）
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/shutdown.png)
+![](./assets/20221126-cmd-command/shutdown.png)
 
 6.  **取消关机**
 
@@ -172,7 +172,7 @@ shutdown /s /t 时间（秒）
 shutdown /a
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/cancel-shutdown.png)
+![](./assets/20221126-cmd-command/cancel-shutdown.png)
 
 ### 网络操作
 
@@ -182,7 +182,7 @@ shutdown /a
 ping ip/域名
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/ping.png)
+![](./assets/20221126-cmd-command/ping.png)
 
 2.  **查看本机 ip 地址**
 
@@ -190,7 +190,7 @@ ping ip/域名
 ipconfig
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/ipconfig.png)
+![](./assets/20221126-cmd-command/ipconfig.png)
 
 3.  **清除本地 DNS 缓存**
 
@@ -198,7 +198,7 @@ ipconfig
 ipconfig /flushdns
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/flushdns.png)
+![](./assets/20221126-cmd-command/flushdns.png)
 
 4.  **路由追踪**
 
@@ -206,7 +206,7 @@ ipconfig /flushdns
 tracert ip/域名
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/tracert.png)
+![](./assets/20221126-cmd-command/tracert.png)
 
 ### 进程/服务操作
 
@@ -216,7 +216,7 @@ tracert ip/域名
 tasklist
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/tasklist.png)
+![](./assets/20221126-cmd-command/tasklist.png)
 
 2.  **运行指定程序或命令**
 
@@ -230,7 +230,7 @@ start 程序名
 taskkill /im 进程名
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/taskkill.png)
+![](./assets/20221126-cmd-command/taskkill.png)
 
 4.  **按 PID 结束进程**
 
@@ -238,7 +238,7 @@ taskkill /im 进程名
 taskkill /pid PID
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/taskkill-pid.png)
+![](./assets/20221126-cmd-command/taskkill-pid.png)
 
 5.  **查看当前运行的服务**
 
@@ -246,7 +246,7 @@ taskkill /pid PID
 net start
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/net-start.png)
+![](./assets/20221126-cmd-command/net-start.png)
 
 6.  **启动指定服务**
 
@@ -254,7 +254,7 @@ net start
 net start 服务名
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/net-start-service.png)
+![](./assets/20221126-cmd-command/net-start-service.png)
 
 7.  **停止指定服务**
 
@@ -262,7 +262,7 @@ net start 服务名
 net stop 服务名
 ```
 
-![](../../../.vuepress/public/img/windows/20221126-cmd-command/net-stop.png)
+![](./assets/20221126-cmd-command/net-stop.png)
 
 ### 其他操作
 
@@ -272,9 +272,9 @@ net stop 服务名
 cls
 ```
 
-<img src="../../../.vuepress/public/img/windows/20221126-cmd-command/cls-before.png" alt="清除前" style="zoom:50%;" />
+<img src="./assets/20221126-cmd-command/cls-before.png" alt="清除前" style="zoom:50%;" />
 
-<img src="../../../.vuepress/public/img/windows/20221126-cmd-command/cls-after.png" alt="清除后" style="zoom:50%;" />
+<img src="./assets/20221126-cmd-command/cls-after.png" alt="清除后" style="zoom:50%;" />
 
 2.  **退出**
 

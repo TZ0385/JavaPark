@@ -108,7 +108,7 @@ public class Main {
 
 <!-- ![](https://img-blog.csdnimg.cn/9f8fed4aeeda4dea9d1de0ff7677ca4a.png) -->
 
-![Java 关键字](../../../.vuepress/public/img/se/20220704-variable-and-datatype/java-key-words.png)
+![Java 关键字](./assets/20220704-variable-and-datatype/java-key-words.png)
 
 ## 数据类型
 
@@ -225,13 +225,13 @@ Java 编译器中，对于字符串和其他数据类型之间，可以使用 `+
 
 此时会创建两个字符串对象，“xxx” 属于字符串字面量，因此在编译期会在 String Pool 中创建一个字符串对象，用于指向该字符串的字面量 “xxx”；然后 `new` 会在堆中创建一个字符串对象。
 
-![](../../../.vuepress/public/img/se/20220704-variable-and-datatype/string-pool.png)
+![](./assets/20220704-variable-and-datatype/string-pool.png)
 
 2.  **String Pool 中存在 “xxx”**
 
 此时只需要创建一个字符串对象，由于 String Pool 中已经存在指向 “xxx” 的对象，所以直接在堆中创建一个字符串对象。
 
-![](../../../.vuepress/public/img/se/20220704-variable-and-datatype/stringpool-exist.png)
+![](./assets/20220704-variable-and-datatype/stringpool-exist.png)
 
 ### 数据类型转换
 

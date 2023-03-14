@@ -69,15 +69,15 @@ mvn archetype:generate
 
 2.  然后会有很长的输出，有多种可用的 Archetype 供你选择，选择你所需要的，然后输入对应编号即可；
 
-![](../../../.vuepress/public/img/maven/maven-archetype.png)
+![](./assets/maven-archetype.png)
 
 3.  接着会让你输入 `groupId`、`artifactId`、`version`、`package` 等信息；
 
-![](../../../.vuepress/public/img/maven/maven-groupid.png)
+![](./assets/maven-groupid.png)
 
 4.  再接着让你确认相关信息；
 
-![](../../../.vuepress/public/img/maven/maven-confirm.png)
+![](./assets/maven-confirm.png)
 
 5.  最后确认无误后，回车生成即可。
 
@@ -85,7 +85,7 @@ mvn archetype:generate
 
 项目生成后的目录中主要包含如下文件：
 
-![](../../../.vuepress/public/img/maven/project-structure.png)
+![](./assets/project-structure.png)
 
 其中 `src` 目录包含了项目的主代码和资源，同时还包括了测试相关的代码以及资源。而 `pom.xml` 则定义了项目的所有配置。
 
@@ -109,9 +109,9 @@ HelloWorld/
 
 最后则是 `pom.xml`，这个每个 Maven 所管理项目的核心文件，这是必须的，后续的依赖管理等工作都基于此文件来操作。
 
-![](../../../.vuepress/public/img/maven/file-structure.png)
+![](./assets/file-structure.png)
 
-![](../../../.vuepress/public/img/maven/pom.png)
+![](./assets/pom.png)
 
 ## 总结
 

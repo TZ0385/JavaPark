@@ -40,33 +40,33 @@ date: 2022-04-25
 
 打开 PowerPoint，新建一个空白文档，然后在 `插入 -> 图片 -> 插入图片来自本设备`；
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/ppt.png)
+![](./assets/20220425-e-signature/ppt.png)
 
 2.  图片旋转裁剪
 
 具体步骤是，选中导入的图片，然后在 `图片格式` 下边进行旋转和裁剪，讲你的签名摆正，并裁减到只剩下你的签名；
 
-![旋转正置](../../../.vuepress/public/img/efficiency/20220425-e-signature/rotate.png)
+![旋转正置](./assets/20220425-e-signature/rotate.png)
 
-![裁剪](../../../.vuepress/public/img/efficiency/20220425-e-signature/box-selection.png)
+![裁剪](./assets/20220425-e-signature/box-selection.png)
 
 3.  对比度设置
 
 选中图片右键，然后选择 **设置图片格式**，然后在 **图片校正** 下将对比度设置为最大 100%。
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/contrast.png)
+![](./assets/20220425-e-signature/contrast.png)
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/contrast-ratio.png)
+![](./assets/20220425-e-signature/contrast-ratio.png)
 
 4.  保存签名
 
 此时我们就得到我们的签名，可以看到我们的效果还是蛮好的。
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/save.png)
+![](./assets/20220425-e-signature/save.png)
 
 同样的，选中图片右键，然后选择 **另存为图片** 即可。
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/save-as-png.png)
+![](./assets/20220425-e-signature/save-as-png.png)
 
 5.  效果优化
 
@@ -74,14 +74,14 @@ date: 2022-04-25
 
 选中图片，然后在 **图片格式** 下选中 **颜色** 中的 **设置透明色**，然后再次点击我们的签名，此时我们的签名就是透明的了。接着就是保存了，保存步骤同 4.
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/effect-opt.png)
+![](./assets/20220425-e-signature/effect-opt.png)
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/adjust.png)
+![](./assets/20220425-e-signature/adjust.png)
 
 ### 效果对比
 
-![纯色背景版](../../../.vuepress/public/img/efficiency/20220425-e-signature/white.png)
-![透明背景版](../../../.vuepress/public/img/efficiency/20220425-e-signature/trans.png)
+![纯色背景版](./assets/20220425-e-signature/white.png)
+![透明背景版](./assets/20220425-e-signature/trans.png)
 
 ## PS 制作电子签名
 
@@ -95,35 +95,35 @@ date: 2022-04-25
 
 1.  导入图片
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/import-png.png)
+![](./assets/20220425-e-signature/import-png.png)
 
 2.  提取签字区域
 
 依次打开工具栏的 **选择 -> 色彩范围**；
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/select.png)
+![](./assets/20220425-e-signature/select.png)
 
 接着选择左侧工具栏中的 **吸管**，然后点选签字的黑色区域，得到下图的效果；
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/straw.png)
+![](./assets/20220425-e-signature/straw.png)
 
 然后利用快捷键 **Ctrl + J** 创建一个新的图层，然后点击 `Background` 前边的小眼睛，把它给隐藏掉，就得到我们的图层 1 的视图；
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/background.png)
+![](./assets/20220425-e-signature/background.png)
 
 3.  保存签名
 
 完成上面的步骤之后，点击 **文件 -> 导出为 **，选择你想要导出的格式即可；
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/save1.png)
+![](./assets/20220425-e-signature/save1.png)
 
 以导出 `png` 为例，我们还可以设置导出的宽度和高度，以及导出的质量，然后点击保存即可；
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/save-as-png1.png)
+![](./assets/20220425-e-signature/save-as-png1.png)
 
 ### 效果预览
 
-![](../../../.vuepress/public/img/efficiency/20220425-e-signature/preview.png)
+![](./assets/20220425-e-signature/preview.png)
 
 ## 总结
 

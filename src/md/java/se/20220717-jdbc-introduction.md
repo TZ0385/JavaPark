@@ -39,17 +39,17 @@ JDBC（Java Database Connectivity），即 Java 数据库连接。是 Java 语�
 
 1.  首先依次打开 `File -> Project Structure -> Modules -> Dependencies`；
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/pro-structure.png)
+![](./assets/20220717-jdbc-introduction/pro-structure.png)
 
 2.  然后点击 `+` 号，选择 `1 JARs or Directories`，找到你下载好的 jar 包导入；
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/module.png)
+![](./assets/20220717-jdbc-introduction/module.png)
 
 3.  导入成功，点击 `OK` 即可；
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/dependency.png)
+![](./assets/20220717-jdbc-introduction/dependency.png)
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/import.png)
+![](./assets/20220717-jdbc-introduction/import.png)
 
 ### 初始化并建立连接
 
@@ -78,9 +78,9 @@ INSERT INTO students (id, name, gender, grade, score) VALUES (201,'小黄', 1, 2
 INSERT INTO students (id, name, gender, grade, score) VALUES (301,'小绿', 1, 3, 99);
 ```
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/create-tb.png)
+![](./assets/20220717-jdbc-introduction/create-tb.png)
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/tb-data.png)
+![](./assets/20220717-jdbc-introduction/tb-data.png)
 
 创建好数据库及表之后，我们就可以进行初始化和连接工作了，这里的步骤主要分为如下几步：
 
@@ -139,7 +139,7 @@ public class InitJDBC {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/connection.png)
+![](./assets/20220717-jdbc-introduction/connection.png)
 
 对于上述关闭 `Connection` 和 `Statement` 的方式，可能略显繁琐，为了进一步简化，可以使用 `try-with-source` 的方式自动关闭，简化后的代码如下；
 
@@ -252,7 +252,7 @@ public class QueryTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/qry.png)
+![](./assets/20220717-jdbc-introduction/qry.png)
 
 ### 增加数据
 
@@ -309,7 +309,7 @@ public class InsertTest {
 
 新增数据后，接着查询数据，得到如下结果，可以看到我们新插入的数据成功加入到了数据库中！
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/add-qry.png)
+![](./assets/20220717-jdbc-introduction/add-qry.png)
 
 ### 删除数据
 
@@ -355,7 +355,7 @@ public class DeleteTest {
 
 删除数据后，接着查询数据，得到如下结果，可以看到 `id = 101` 的数据列已经被删除了，说明我们删除数据成功了！
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/del-qry.png)
+![](./assets/20220717-jdbc-introduction/del-qry.png)
 
 ### 修改数据
 
@@ -402,7 +402,7 @@ public class UpdateTest {
 
 修改数据后，接着查询数据，得到如下结果，可以看到 `id = 201` 对应的数据列中，`name` 从小黄变成了村雨遥，说明数据更新成功。
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/update-qry.png)
+![](./assets/20220717-jdbc-introduction/update-qry.png)
 
 ### 注意
 
@@ -674,9 +674,9 @@ SQL 标准定义了 4 个隔离级别，隔离级别从低到高分别是：
 | 隔离级别           | 脏读 | 不可重复读 | 幻读 |
 | ------------------ | ---- | ---------- | ---- |
 | `READ-UNCOMMITTED` | ✔    | ✔          | ✔    |
-| `READ-COMMITTED`   | ❌   | ✔          | ✔    |
-| `REPEATABLE-READ`  | ❌   | ❌         | ✔    |
-| `SERIALIZABLE`     | ❌   | ❌         | ❌   |
+| `READ-COMMITTED`   | ❌    | ✔          | ✔    |
+| `REPEATABLE-READ`  | ❌    | ❌          | ✔    |
+| `SERIALIZABLE`     | ❌    | ❌          | ❌    |
 
 ### 实例
 
@@ -785,7 +785,7 @@ public class AffairTest {
 
 首先需要导包，先去下载 C3P0 对象的 jar 包，下载地址：https://sourceforge.net/projects/c3p0/，然后将其中的如下两个包导入；
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/c3p0.png)
+![](./assets/20220717-jdbc-introduction/c3p0.png)
 
 2.  定义配置文件
 
@@ -849,7 +849,7 @@ public class C3POTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/link.png)
+![](./assets/20220717-jdbc-introduction/link.png)
 
 #### Druid
 
@@ -910,7 +910,7 @@ public class DruidTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220717-jdbc-introduction/druid.png)
+![](./assets/20220717-jdbc-introduction/druid.png)
 
 ## 总结
 

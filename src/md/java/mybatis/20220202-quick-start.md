@@ -271,7 +271,7 @@ public class InsertTest {
 }
 ```
 
-![插入成功](../../../.vuepress/public/img/mybatis/20220202-quick-start/insert.png)
+![插入成功](./assets/20220202-quick-start/insert.png)
 
 ## 查询操作 `select`
 
@@ -344,7 +344,7 @@ public class QueryTest {
 }
 ```
 
-![查询成功](../../../.vuepress/public/img/mybatis/20220202-quick-start/select.png)
+![查询成功](./assets/20220202-quick-start/select.png)
 
 ## 修改操作 `update`
 
@@ -416,9 +416,9 @@ public class UpdateTest {
 }
 ```
 
-![](../../../.vuepress/public/img/mybatis/20220202-quick-start/update.png)
+![](./assets/20220202-quick-start/update.png)
 
-![](../../../.vuepress/public/img/mybatis/20220202-quick-start/update-preview.png)
+![](./assets/20220202-quick-start/update-preview.png)
 
 ## 删除操作 `delete`
 
@@ -486,9 +486,9 @@ public class DeleteTest {
 }
 ```
 
-![](../../../.vuepress/public/img/mybatis/20220202-quick-start/del.png)
+![](./assets/20220202-quick-start/del.png)
 
-![](../../../.vuepress/public/img/mybatis/20220202-quick-start/del-pre.png)
+![](./assets/20220202-quick-start/del-pre.png)
 
 ## 最后
 

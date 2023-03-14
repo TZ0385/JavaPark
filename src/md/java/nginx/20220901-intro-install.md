@@ -41,7 +41,7 @@ category:
 
 > http://nginx.org/en/download.html
 
-<img src="../../../.vuepress/public/img/nginx/20220901-intro-install/nginx-download.png" style="zoom:50%;" />
+<img src="./assets/20220901-intro-install/nginx-download.png" style="zoom:50%;" />
 
 ## 编译安装与依赖检查
 
@@ -51,7 +51,7 @@ category:
 tar -zxf 压缩包名
 ```
 
-![](../../../.vuepress/public/img/nginx/20220901-intro-install/tar.png)
+![](./assets/20220901-intro-install/tar.png)
 进入解压缩后的 `Nginx` 所在文件夹，然后执行 `configure` 脚本，这时候就会检查安装 `Nginx` 所需的依赖，这里可能会因为你的服务器中没有事先安装所需依赖而导致报错。
 
 ```shell
@@ -59,7 +59,7 @@ cd nginx-1.22.0
 sh configure
 ```
 
-![](../../../.vuepress/public/img/nginx/20220901-intro-install/nginx-config.png)
+![](./assets/20220901-intro-install/nginx-config.png)
 
 这里例举几个安装时可能会遇到的错误：
 
@@ -99,7 +99,7 @@ error: the HTTP gzip module requires zlib library.
 yum install -y zlib zlib-devel
 ```
 
-![](../../../.vuepress/public/img/nginx/20220901-intro-install/zlib.png)
+![](./assets/20220901-intro-install/zlib.png)
 
 如果出现以上的提示信息，则说明可以进行下一步，此时直接执行编译安装命令。
 
@@ -109,9 +109,9 @@ make
 make install
 ```
 
-![](../../../.vuepress/public/img/nginx/20220901-intro-install/make.png)
+![](./assets/20220901-intro-install/make.png)
 
-![](../../../.vuepress/public/img/nginx/20220901-intro-install/make-install.png)
+![](./assets/20220901-intro-install/make-install.png)
 
 ## Nginx 启停
 
@@ -125,11 +125,11 @@ make install
 ./nginx
 ```
 
-![](../../../.vuepress/public/img/nginx/20220901-intro-install/start.png)
+![](./assets/20220901-intro-install/start.png)
 
 然后在浏览器中访问服务器的 `IP` 地址，如果出现以下界面，则说明我们的 `Nginx` 安装并启动成功了！
 
-![](../../../.vuepress/public/img/nginx/20220901-intro-install/nginx-pre.png)
+![](./assets/20220901-intro-install/nginx-pre.png)
 
 2. **快速停止**
 
@@ -139,7 +139,7 @@ make install
 
 停止后，再到浏览器中去访问服务器地址，就会出现以下情况。
 
-![](../../../.vuepress/public/img/nginx/20220901-intro-install/stop.png)
+![](./assets/20220901-intro-install/stop.png)
 
 3. **关闭前完成已接受的连接请求**
 
@@ -236,7 +236,7 @@ systemctl stop nginx
 systemctl status nginx
 ```
 
-![](../../../.vuepress/public/img/nginx/20220901-intro-install/systemctl-nginx.png)
+![](./assets/20220901-intro-install/systemctl-nginx.png)
 
 ## 总结
 

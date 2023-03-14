@@ -41,7 +41,7 @@ date: 2022-01-08
 
 在新建项目时添加，在 `Templeate Engines` 中勾选 Thymeleaf；
 
-<img src="../../../.vuepress/public/img/springboot/20220108-integrated-thymeleaf/thymeleaf-depen.png" alt="在这里插入图片描述" style="zoom:50%;" />
+<img src="./assets/20220108-integrated-thymeleaf/thymeleaf-depen.png" alt="在这里插入图片描述" style="zoom:50%;" />
 
 2.  **第二种**
 
@@ -150,7 +150,7 @@ public class UserController {
 
 第上面的代码中，我们设置了跳转的视图为 `index`，所以我们需要在 `src/main/resources/templates` 中创建 `index.html`。
 
-![](../../../.vuepress/public/img/springboot/20220108-integrated-thymeleaf/index.png)
+![](./assets/20220108-integrated-thymeleaf/index.png)
 
 ```html
 <!DOCTYPE html>
@@ -180,7 +180,7 @@ public class UserController {
 
 启动项目，然后在浏览器中访问 `http://localhost:8080/index`，如果出现下图中的信息，说明整合成功。
 
-![https://s1.ax1x.com/2020/07/29/ae2Uf0.png](../../../.vuepress/public/img/springboot/20220108-integrated-thymeleaf/pre.png)
+![https://s1.ax1x.com/2020/07/29/ae2Uf0.png](./assets/20220108-integrated-thymeleaf/pre.png)
 
 ## 注意事项
 

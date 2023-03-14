@@ -60,7 +60,7 @@ Spring Security 是 Spring 家族中一个强大可定制的身份验证和访�
 
 原来这就是 Spring Security 为我们的项目所提供的保护机制。在添加 Spring Security 之后，此时再去访问项目，它就会自动重定向到 Security 所提供的登录页面，也就是下面的界面。
 
-![](../../../.vuepress/public/img/springboot/20220109-integrated-security/login.png)
+![](./assets/20220109-integrated-security/login.png)
 
 同样的 Spring Security 也为我们所提供了一个默认的用户名，也就是 `user`，至于密码，这就谁都说不准了。因为它会随着我们项目的每次启动而自动生成，所以每次的登录密码都是不一样的。至于要如何获取，那就得去我们的 IDEA 查看控制台查看日志了。
 
@@ -70,7 +70,7 @@ Spring Security 是 Spring 家族中一个强大可定制的身份验证和访�
 Using generated security password: 67511bb5-a3e4-4113-9e47-4d733956c860
 ```
 
-![](../../../.vuepress/public/img/springboot/20220109-integrated-security/pwd.png)
+![](./assets/20220109-integrated-security/pwd.png)
 
 ### 修改默认登录用户密码
 
@@ -112,7 +112,7 @@ public class HelloController {
 
 然后 Spring Security 就会重定向到 `http://localhost:8080/login` 页面，此时我们用上面配置的用户名和密码进行登录，登录成功后就会跳转到我们的 `/hello` 页面了，页面中会打印 `Hello World!`
 
-![](../../../.vuepress/public/img/springboot/20220109-integrated-security/preview.png)
+![](./assets/20220109-integrated-security/preview.png)
 
 ## 总结
 

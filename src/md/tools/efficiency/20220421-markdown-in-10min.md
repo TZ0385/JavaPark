@@ -51,7 +51,7 @@ Markdown 格式是一种可用普通文本编辑器编写的标记语言，使�
 ###### 六级标题
 ```
 
-![标题](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/title.png)
+![标题](./assets/20220421-markdown-in-10min/title.png)
 
 ### 列表
 
@@ -65,7 +65,7 @@ Markdown 格式是一种可用普通文本编辑器编写的标记语言，使�
 3. 托尼.帕克
 ```
 
-![有序列表](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/ol-list.png)
+![有序列表](./assets/20220421-markdown-in-10min/ol-list.png)
 
 - 无序列表：`英文横杠 + 空格 + 内容`，具体格式如下：
 
@@ -75,7 +75,7 @@ Markdown 格式是一种可用普通文本编辑器编写的标记语言，使�
 - Banana
 ```
 
-![无序](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/ul-list.png)
+![无序](./assets/20220421-markdown-in-10min/ul-list.png)
 
 ### 加粗
 
@@ -85,7 +85,7 @@ Markdown 格式是一种可用普通文本编辑器编写的标记语言，使�
 **公众号：村雨遥**
 ```
 
-![加粗](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/bold.png)
+![加粗](./assets/20220421-markdown-in-10min/bold.png)
 
 ### 斜体
 
@@ -95,7 +95,7 @@ Markdown 格式是一种可用普通文本编辑器编写的标记语言，使�
 _公众号：村雨遥_
 ```
 
-![斜体](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/italic.png)
+![斜体](./assets/20220421-markdown-in-10min/italic.png)
 
 ### 删除线
 
@@ -105,7 +105,7 @@ _公众号：村雨遥_
 ~~ 公众号：村雨遥 ~~
 ```
 
-![删除线](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/del-line.png)
+![删除线](./assets/20220421-markdown-in-10min/del-line.png)
 
 ### 下划线
 
@@ -115,7 +115,7 @@ _公众号：村雨遥_
 <u>公众号：村雨遥</u>
 ```
 
-![下划线](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/under-line.png)
+![下划线](./assets/20220421-markdown-in-10min/under-line.png)
 
 ### 分割线
 
@@ -135,7 +135,7 @@ _公众号：村雨遥_
 ---
 ```
 
-![分割线](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/seprate.png)
+![分割线](./assets/20220421-markdown-in-10min/seprate.png)
 
 ### 引用
 
@@ -145,7 +145,7 @@ _公众号：村雨遥_
 > 吾生也有涯，而知也无涯。
 ```
 
-![引用](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/quota.png)
+![引用](./assets/20220421-markdown-in-10min/quota.png)
 
 ### 上下标
 
@@ -164,7 +164,7 @@ _公众号：村雨遥_
    H~2~O
 ```
 
-![上下标](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/up-down.png)
+![上下标](./assets/20220421-markdown-in-10min/up-down.png)
 
 ### 高亮
 
@@ -174,7 +174,7 @@ _公众号：村雨遥_
 ==公众号：村雨遥==
 ```
 
-![高亮](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/hightlight.png)
+![高亮](./assets/20220421-markdown-in-10min/hightlight.png)
 
 ### 任务列表
 
@@ -194,7 +194,7 @@ _公众号：村雨遥_
    - [x] CSDN：https://blog.csdn.net/github_39655029
 ```
 
-![任务列表](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/task.png)
+![任务列表](./assets/20220421-markdown-in-10min/task.png)
 
 ### 目录生成
 
@@ -204,7 +204,7 @@ _公众号：村雨遥_
 @[toc]
 ```
 
-![目录](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/toc.png)
+![目录](./assets/20220421-markdown-in-10min/toc.png)
 
 ### 表格
 
@@ -212,11 +212,11 @@ Markdown 中的表格也很方便，我们可以用 `:` 来调整表格对齐的
 
 ```markdown
 1. 左对齐
-   | 平台 | 链接 |
+   | 平台     | 链接                                   |
    | :------- | :------------------------------------- |
-   | 公众号 | 村雨遥 |
-   | 个人博客 | https://cunyu1943.github.io |
-   | 知乎 | https://www.zhihu.com/people/cunyu1943 |
+   | 公众号   | 村雨遥                                 |
+   | 个人博客 | https://cunyu1943.github.io            |
+   | 知乎     | https://www.zhihu.com/people/cunyu1943 |
 
 2. 居中对齐
 
@@ -227,14 +227,14 @@ Markdown 中的表格也很方便，我们可以用 `:` 来调整表格对齐的
 |   知乎   | https://www.zhihu.com/people/cunyu1943 |
 
 3. 右对齐
-   | 平台 | 链接 |
+   |     平台 |                                   链接 |
    | -------: | -------------------------------------: |
-   | 公众号 | 村雨遥 |
-   | 个人博客 | https://cunyu1943.github.io |
-   | 知乎 | https://www.zhihu.com/people/cunyu1943 |
+   |   公众号 |                                 村雨遥 |
+   | 个人博客 |            https://cunyu1943.github.io |
+   |     知乎 | https://www.zhihu.com/people/cunyu1943 |
 ```
 
-![表格](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/table.png)
+![表格](./assets/20220421-markdown-in-10min/table.png)
 
 ### 公式
 
@@ -253,15 +253,15 @@ Markdown 支持 LaTeX 语法，可以实现行间公式和独立公式块，公�
    $$x^2+y^2=0$$
 ```
 
-![](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/latex.png)
+![](./assets/20220421-markdown-in-10min/latex.png)
 
 ### 代码块
 
 同公式一样，代码块同样可以分为行间代码块和独立代码块，其区别在于用一个或多个 \` 将其括起来，具体格式如下：
 
-![代码块](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/code.png)
+![代码块](./assets/20220421-markdown-in-10min/code.png)
 
-![代码块预览](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/code-preview.png)
+![代码块预览](./assets/20220421-markdown-in-10min/code-preview.png)
 
 ### 链接与图片
 
@@ -280,7 +280,7 @@ Markdown 支持 LaTeX 语法，可以实现行间公式和独立公式块，公�
 ![村雨遥的杂货铺](https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-blogzhuye.png)
 ```
 
-![](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/link.png)
+![](./assets/20220421-markdown-in-10min/link.png)
 
 ## 编辑器推荐
 
@@ -288,15 +288,15 @@ Markdown 支持 LaTeX 语法，可以实现行间公式和独立公式块，公�
 
 1. [Typora](https://www.typora.io/)：跨平台多功能 Markdown 编辑器，支持导出 PDF、HTML 等格式。
 
-![](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/typora.png)
+![](./assets/20220421-markdown-in-10min/typora.png)
 
 2.  [MarkText](https://marktext.app/)：跨平台开源 Markdown 编辑器，支持斗图哦！
 
-![](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/marktext.png)
+![](./assets/20220421-markdown-in-10min/marktext.png)
 
 3.  [Visual Studio Code](https://code.visualstudio.com/)：巨硬出品，必属精品，哈哈，需要配合插件使用！
 
-![](../../../.vuepress/public/img/efficiency/20220421-markdown-in-10min/vscode.png)
+![](./assets/20220421-markdown-in-10min/vscode.png)
 
 ## 注意事项
 

@@ -20,7 +20,7 @@ category:
 
 本文基于 Windows 10 专业版（20H2）进行配置及截图，理论上讲适用于 Windows 10 所有版本，略有出入的地方还请多多包涵，可以尝试搜索网上的解决方案。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/win10-version.png)
+![](./assets/20220413-how-to-use-windows10/win10-version.png)
 
 本文主要从以下几个方面进行讲解；
 
@@ -35,43 +35,43 @@ category:
 
 - 在**查看**选项中，将**文件扩展名**勾选，并打开**选项**设置；
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/look-seyying.png)
+![](./assets/20220413-how-to-use-windows10/look-seyying.png)
 
 - 在常规选项下，将“**打开文件资源管理器时打开**”后的下拉框设置为此电脑，然后在“**隐私**”将关于快速访问相关选项去掉勾选，最后点击“**确认**”；
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/folder-setting.png)
+![](./assets/20220413-how-to-use-windows10/folder-setting.png)
 
 ### 修改默认存储位置
 
 打开设置，选中**系统**设置下的**存储**子栏目，然后**更改新内容保存的位置**，将**默认的 C 盘**改为**你想要存储的盘**，我的设置中**以 D 盘为例**，具体看个人喜好，设置步骤如下；
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/storage-setting.png)
+![](./assets/20220413-how-to-use-windows10/storage-setting.png)
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/display.png)
+![](./assets/20220413-how-to-use-windows10/display.png)
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/new-context-storage.png)
+![](./assets/20220413-how-to-use-windows10/new-context-storage.png)
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/c-d.png)
+![](./assets/20220413-how-to-use-windows10/c-d.png)
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/save-to-d.png)
+![](./assets/20220413-how-to-use-windows10/save-to-d.png)
 
 ### 修改常用文件夹的默认路径
 
 对于大多人而言，桌面内容一般都是保存在 C 盘下面。这符合大部分人的使用习惯，但是对于我就不同了，我可是个小机灵鬼，被系统搞崩重装系统搞怕了，所以我一般会把桌面等内容保存在其他非系统盘位置。那想要修改如下**桌面**、**文档**、**下载**等的默认路径（默认为 C 盘），应该如何操作呢，以下以**桌面**为例，其他文件夹的操作都一样！
 
-<img src="../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/default-path.png" style="zoom:67%;" />
+<img src="./assets/20220413-how-to-use-windows10/default-path.png" style="zoom:67%;" />
 
 1.  选中桌面，鼠标右键，选择属性；
 
-![img](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/folder-attr.png)
+![img](./assets/20220413-how-to-use-windows10/folder-attr.png)
 
 1.  选中**位置**，然后修改下边方框中**你的自定义路径**；
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/path-setting.png)
+![](./assets/20220413-how-to-use-windows10/path-setting.png)
 
 1.  修改成你的自定义路径后，点击**确定**即可；
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/new-path.png)
+![](./assets/20220413-how-to-use-windows10/new-path.png)
 
 ## 软件安装篇
 
@@ -81,91 +81,91 @@ category:
 
 - [**手心输入法**](http://www.xinshuru.com/index.html?p=win)：360 旗下产品，无广告，告别骚扰。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/shouxin-input.png)
+![](./assets/20220413-how-to-use-windows10/shouxin-input.png)
 
 - [**QQ 输入法**](http://qq.pinyin.cn/)：鹅厂出品，斗图十分方便呀！
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/qq-input.png)
+![](./assets/20220413-how-to-use-windows10/qq-input.png)
 
 ### 压缩软件
 
 - [**Bandizip**](http://www.bandisoft.com/)：一家韩国公司出品的解压缩软件，速度与颜值并存，之前的版本都没有广告，现在的新版本中加入了广告，不过也不影响使用。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/bandizip.png)
+![](./assets/20220413-how-to-use-windows10/bandizip.png)
 
 - [**7-zip**](https://www.7-zip.org/)：功能强大，不过颜值略低，颜值党就不推荐了，😄；
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/7-zip.png)
+![](./assets/20220413-how-to-use-windows10/7-zip.png)
 
 - [**360 压缩**](https://yasuo.360.cn/)：360 又来了，不过完全放心，这不像 xxx 安全中心那么额，咋说呢，就很良心！
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/360.png)
+![](./assets/20220413-how-to-use-windows10/360.png)
 
 ### 通讯浏览
 
 - [**微信**](https://weixin.qq.com/) ：这就不用说了，大家都或多或少要用到。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/weixin.png)
+![](./assets/20220413-how-to-use-windows10/weixin.png)
 
 - [**Tim**](https://tim.qq.com/) ：QQ 办公版，告别花里胡哨的东西，专注于办公。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/tim.png)
+![](./assets/20220413-how-to-use-windows10/tim.png)
 
 - [**Chrome**](https://www.google.cn/intl/zh-CN/chrome/)：谷歌旗下浏览器，也是目前世界上份额最大的。你可能说用不了 Google，但通过一番设置调教之后，它仍会是最强大的浏览器。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/chrome.png)
+![](./assets/20220413-how-to-use-windows10/chrome.png)
 
 - [新版 Edge](https://www.microsoft.com/en-us/edge)：最终巨硬还是屈服了，换用 Chromium 内核的 Edge 能否与 Chrome 一战呢？我觉得有戏！
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/edge.png)
+![](./assets/20220413-how-to-use-windows10/edge.png)
 
 ### 文字编辑
 
 - [**Typora**](https://www.typora.io/)：跨平台 Markdown 编辑器，个人觉得比许多收费的都好用。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/typora.png)
+![](./assets/20220413-how-to-use-windows10/typora.png)
 
 - [**Mark Text**](https://marktext.app/)：开源跨平台 Markdown 编辑器，最大的特色就是支持斗图！！！
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/marktext.png)
+![](./assets/20220413-how-to-use-windows10/marktext.png)
 
 - [**PicGo**](https://molunerfinn.com/PicGo/)：搭配前两者使用的图片上传工具，通过搭建自己的图床，实现对图片的管理。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/picgo.png)
+![](./assets/20220413-how-to-use-windows10/picgo.png)
 
 ### 代码编辑器
 
 - [**VS Code**](https://code.visualstudio.com/)：巨硬出品，实现弯道超车，成为目前大多程序员的第一选择。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/vscode.png)
+![](./assets/20220413-how-to-use-windows10/vscode.png)
 
 - [**Atom**](https://atom.io/)：Github 出品，不过现在 Github 已经被巨硬收购，所以也能叫巨硬出品了，哈哈。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/atom.png)
+![](./assets/20220413-how-to-use-windows10/atom.png)
 
 - [**Sublime Text**](https://www.sublimetext.com/)：颜值较高的一款编辑器。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/sublime.png)
+![](./assets/20220413-how-to-use-windows10/sublime.png)
 
 ### 软件卸载
 
 - [**IObit**](https://www.iobit.com/en/index.php?s)：个人比较推荐的一款软件卸载工具，自动去除依赖，还能实时监控软件。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/iobit.png)
+![](./assets/20220413-how-to-use-windows10/iobit.png)
 
 ### 下载工具
 
 - [**Motrix**](https://motrix.app/zh-CN/)：开源下载工具，颜值与实用共存，去你的某雷。
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/motrix.png)
+![](./assets/20220413-how-to-use-windows10/motrix.png)
 
 - [**IDM**](https://www.internetdownloadmanager.com/)：多线程下载工具，搭配 Chrome，简直不要太爽！
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/idm.png)
+![](./assets/20220413-how-to-use-windows10/idm.png)
 
 - [**Xdown**](https://xdown.org/)：相当于 IDM 的一个免费版本吧，搭配插件，可以下载百度云分享资源哦！
 
-![](../../../.vuepress/public/img/windows/20220413-how-to-use-windows10/xdown.png)
+![](./assets/20220413-how-to-use-windows10/xdown.png)
 
 ## 日常使用小技巧
 

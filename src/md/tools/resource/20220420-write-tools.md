@@ -50,7 +50,7 @@ date: 2022-04-20
 - OPML
 - 图像
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/typora.png)
+![](./assets/20220420-write-tools/typora.png)
 
 ### MarkText
 
@@ -67,7 +67,7 @@ date: 2022-04-20
 - 各种编辑模式：**源代码模式**、**打字机模式**、**专注模式**。
 - 直接从剪贴板中粘贴图片。
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/marktext.png)
+![](./assets/20220420-write-tools/marktext.png)
 
 ### VS Code
 
@@ -80,7 +80,7 @@ date: 2022-04-20
 - Markdown All in One
 - Markdown Preview GitHub Styling
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/vscode.png)
+![](./assets/20220420-write-tools/vscode.png)
 
 ## 思维导图
 
@@ -98,7 +98,7 @@ date: 2022-04-20
 - 组织结构图
 - ……
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/process-on.png)
+![](./assets/20220420-write-tools/process-on.png)
 
 ### 幕布
 
@@ -106,7 +106,7 @@ date: 2022-04-20
 
 大纲式笔记工具，根据我们的大纲生成思维导图。免费账号支持 300 条多文档结点数量，支持 4 种结构、4 种风格思维导图样式，还能导出 Word、PDF、图片、HTML 等格式，完全足够我们日常个人使用。
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/mubu.png)
+![](./assets/20220420-write-tools/mubu.png)
 
 ### GitMind
 
@@ -114,13 +114,13 @@ date: 2022-04-20
 
 免费在线思维导图软件，简化逻辑梳理，集思广益，释放创造力在线脑图、思维导图、流程图、工业设计、工程管理，一图涵千面。
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/gitmind.png)
+![](./assets/20220420-write-tools/gitmind.png)
 
 我们不仅能自己编辑，还能邀请小伙伴进行团队协作。此外，支持多种模板，不仅支持在线编辑，还支持多种导出形式。
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/gitmind-use.png)
+![](./assets/20220420-write-tools/gitmind-use.png)
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/export-gitmind.png)
+![](./assets/20220420-write-tools/export-gitmind.png)
 
 ### markmap
 
@@ -128,7 +128,7 @@ date: 2022-04-20
 
 上面的工具都是直接图像化工具，和我们的 Markdown 工具无关。而今天这个工具，将两者结合起来，利用 Markdown 来画思维导图。markmap 将 Markdown 语法的文本通过思维导图的方式进行可视化，我们即可以使用在线版，也可以使用它在 VS Code 中的插件版，十分方便，而且支持导出 SVG 和 HTML，可以说是十分方便了！
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/markmap.png)
+![](./assets/20220420-write-tools/markmap.png)
 
 ## 图床
 
@@ -138,7 +138,7 @@ date: 2022-04-20
 
 是的，你没有看错，就是万能的 GitHub，我们不仅仅可以从这里找到开源的项目、软件、教程等，你还能把它当成你自己的免费图床。关于具体的搭建过程，可以参考以下我之前的一篇文章：[如何利用 GitHub 搭建自己的免费图床？](https://cunyu1943.github.io/JavaPark/efficiency/github-img-bed)
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/github.png)
+![](./assets/20220420-write-tools/github.png)
 
 ### Gitee
 
@@ -146,7 +146,7 @@ date: 2022-04-20
 
 既然 GitHub 可以用来搭建图床，那我们的国内的 Gitee 也必须可以呀，而且相对 GitHub 来讲访问的速度更快，岂不是美哉。具体的搭建过程可以参考我之前的一篇文章：[Gitee + Typora，搭建自己的免费图床！](https://cunyu1943.github.io/JavaPark/efficiency/gitee-typora)
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/gitee.png)
+![](./assets/20220420-write-tools/gitee.png)
 
 ### SM.MS
 
@@ -154,7 +154,7 @@ date: 2022-04-20
 
 提供免费图床，而且每个账户有 5 GB 的免费空间，方便我们自己管理，作为我们日常使用完全足够了。
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/smms.png)
+![](./assets/20220420-write-tools/smms.png)
 
 ### 路过图床
 
@@ -162,7 +162,7 @@ date: 2022-04-20
 
 路过图床，这是一款高速稳定的上传和外链服务的图床，支持全球 CDN 加速、支持外链、原图保持，而且最大单张支持 10 MB。至于它的稳定性，相信你也不用担心，它已经从 2011 运行至今 10 年的历程，截至到发文前托管了 16151781 张图片，还在犹豫什么，用起来就完事儿了！
 
-![](../../../.vuepress/public/img/resource/20220420-write-tools/luguo.png)
+![](./assets/20220420-write-tools/luguo.png)
 
 ## 多平台分发
 
@@ -207,11 +207,11 @@ date: 2022-04-20
 - 七牛云
 - 阿里云
 
-![渠道管理](../../../.vuepress/public/img/resource/20220420-write-tools/openwrite.png)
+![渠道管理](./assets/20220420-write-tools/openwrite.png)
 
-![文章管理](../../../.vuepress/public/img/resource/20220420-write-tools/arti-manage.png)
+![文章管理](./assets/20220420-write-tools/arti-manage.png)
 
-![图床配置](../../../.vuepress/public/img/resource/20220420-write-tools/img-bed-setting.png)
+![图床配置](./assets/20220420-write-tools/img-bed-setting.png)
 
 ### ArtiPub
 
@@ -234,15 +234,15 @@ ArtiPub (Article Publisher 的简称，意为 "文章发布者") 是一款开源
 - 开发者头条
 - 微信公众号
 
-![登陆注册](../../../.vuepress/public/img/resource/20220420-write-tools/login.png)
+![登陆注册](./assets/20220420-write-tools/login.png)
 
-![平台管理](../../../.vuepress/public/img/resource/20220420-write-tools/manage-platform.png)
+![平台管理](./assets/20220420-write-tools/manage-platform.png)
 
-![文章管理](../../../.vuepress/public/img/resource/20220420-write-tools/arti-mng.png)
+![文章管理](./assets/20220420-write-tools/arti-mng.png)
 
-![文章编辑](../../../.vuepress/public/img/resource/20220420-write-tools/arti-edit.png)
+![文章编辑](./assets/20220420-write-tools/arti-edit.png)
 
-![文章发布](../../../.vuepress/public/img/resource/20220420-write-tools/arti-pub.png)
+![文章发布](./assets/20220420-write-tools/arti-pub.png)
 
 ### BlogHelper
 
@@ -270,9 +270,9 @@ ArtiPub (Article Publisher 的简称，意为 "文章发布者") 是一款开源
     - GitHub
     - ImgUR
 
-![图床管理](../../../.vuepress/public/img/resource/20220420-write-tools/ben-manage.png)
+![图床管理](./assets/20220420-write-tools/ben-manage.png)
 
-![平台管理](../../../.vuepress/public/img/resource/20220420-write-tools/platform-manage.png)
+![平台管理](./assets/20220420-write-tools/platform-manage.png)
 
 ## 总结
 

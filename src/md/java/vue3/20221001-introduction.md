@@ -60,7 +60,7 @@ Vue 的安装主要有两种方式，一种是通过在文件中直接用 `<scri
 npm install vue@next
 ```
 
-![](../../../.vuepress/public/img/vue3/20221001-introduction/vue3-install.png)
+![](./assets/20221001-introduction/vue3-install.png)
 
 ## Vue 入门实例
 
@@ -141,7 +141,7 @@ Vue.createApp(app).mount('#app')
 
 将文件用浏览器打开，在页面中应该就会显示如下信息了。
 
-![](../../../.vuepress/public/img/vue3/20221001-introduction/hello-world.png)
+![](./assets/20221001-introduction/hello-world.png)
 
 以上就是一个最简单的 `Vue` 入门小案例，如何在网页中打印 `Hello World！` 。虽然看起来十分简单，和我们用 `HTML` 中的字符串模板来实现相同的效果也十分类似，但实际上 `Vue` 在背后做了许多我们看不见的工作。
 

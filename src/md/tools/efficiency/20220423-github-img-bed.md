@@ -42,15 +42,15 @@ date: 2022-04-23
 
 1.  登录你的 Github 之后，创建一个新的仓库。
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/repo-create.png)
+![](./assets/20220423-github-img-bed/repo-create.png)
 
 2.  填写仓库先关资料，一般只需要选一个合适的仓库名，然后确保仓库为 `public` 其他的保持默认就好；
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/repo-info.png)
+![](./assets/20220423-github-img-bed/repo-info.png)
 
 3.  一般创建成功之后，会出现如下界面，至此，我们的图床算是创建好了，接下来就是如何上传图片了。
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/repo-finish.png)
+![](./assets/20220423-github-img-bed/repo-finish.png)
 
 ## 上传图片
 
@@ -58,7 +58,7 @@ date: 2022-04-23
 
 PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/) 下载对应版本进行安装即可，我们主要讲讲如何用它来上传图片。安装后，打开软件其主页面如下：
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/picgo.png)
+![](./assets/20220423-github-img-bed/picgo.png)
 
 接下来就是配置 PicGo 的过程了。
 
@@ -66,29 +66,29 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 以此打开 `Settings -> Developer settings -> Personal access tokens`，最后点击 `generate new token`；
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/github-setting.png)
+![](./assets/20220423-github-img-bed/github-setting.png)
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/token-generate.png)
+![](./assets/20220423-github-img-bed/token-generate.png)
 
 2.  填写及勾选相关信息，然后点击 `Genetate token` 即可；
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/token-info.png)
+![](./assets/20220423-github-img-bed/token-info.png)
 
 3.  `token` 生成，注意它只会显示一次，所以你最好把它复制下来到你的备忘录存好，方便下次使用，否则下次有需要重新新建；
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/access-token.png)
+![](./assets/20220423-github-img-bed/access-token.png)
 
 4.  配置 PicGo，依次打开 图床设置 -> Github 图床；
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/picgo-github.png)
+![](./assets/20220423-github-img-bed/picgo-github.png)
 
 5.  填写相关信息，最后点击 `确定`即可，要将其作为默认图床的话，点击设为默认图床；
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/img-bed-setting.png)
+![](./assets/20220423-github-img-bed/img-bed-setting.png)
 
 6.  上传图片，通过上传区上传即可（Ctrl V 或者将图片拖拽都可以），也可以通过快捷键的方式上传（默认上传键为 `Ctrl + Shift + P`）；
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/upload.png)
+![](./assets/20220423-github-img-bed/upload.png)
 
 ## 加速访问
 
@@ -100,7 +100,7 @@ PicGo 的安装就不说了，去他的 [官网](https://molunerfinn.com/PicGo/)
 
 比如我的就是 `https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs`
 
-![](../../../.vuepress/public/img/efficiency/20220423-github-img-bed/speed.png)
+![](./assets/20220423-github-img-bed/speed.png)
 
 ## 图床推荐
 

@@ -113,11 +113,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/test-res.png)
+![](./assets/20220202-log-and-common-crud/test-res.png)
 
 - **数据插入后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/inserted-data.png)
+![](./assets/20220202-log-and-common-crud/inserted-data.png)
 
 ### select 操作
 
@@ -172,7 +172,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/test-select.png)
+![](./assets/20220202-log-and-common-crud/test-select.png)
 
 2.  **根据主键批量查询**
 
@@ -225,7 +225,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/select-data-1.png)
+![](./assets/20220202-log-and-common-crud/select-data-1.png)
 
 3.  **根据多条件查询**
 
@@ -277,7 +277,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/select-con-test.png)
+![](./assets/20220202-log-and-common-crud/select-con-test.png)
 
 ### update 操作
 
@@ -330,11 +330,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/update.png)
+![](./assets/20220202-log-and-common-crud/update.png)
 
 - **数据更新后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/update-db.png)
+![](./assets/20220202-log-and-common-crud/update-db.png)
 
 ### delete 操作
 
@@ -383,11 +383,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del.png)
+![](./assets/20220202-log-and-common-crud/del.png)
 
 - **删除数据后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-db.png)
+![](./assets/20220202-log-and-common-crud/del-db.png)
 
 2.  **根据条件删除**
 
@@ -434,11 +434,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-con-test.png)
+![](./assets/20220202-log-and-common-crud/del-con-test.png)
 
 - **删除数据后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-con-data.png)
+![](./assets/20220202-log-and-common-crud/del-con-data.png)
 
 3.  **根据主键批量删除**
 
@@ -486,17 +486,17 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-test1.png)
+![](./assets/20220202-log-and-common-crud/del-test1.png)
 
 - **删除数据后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-data1.png)
+![](./assets/20220202-log-and-common-crud/del-data1.png)
 
 ## Service CRUD 接口
 
 `Service` 层继承自 `IService` 接口，其中的方法和 `Mapper` 层中所提供的方法功能是一致的，除了方法名有所不同外，其他基本类似，但 `Service` 层中提供了更为丰富的方法，两者的继承结构如下图所示。
 
-<img src="../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/crud-service.png" style="zoom: 50%;" />
+<img src="./assets/20220202-log-and-common-crud/crud-service.png" style="zoom: 50%;" />
 
 ```java
 package com.cunyu.employee.service;
@@ -592,11 +592,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/save-test.png)
+![](./assets/20220202-log-and-common-crud/save-test.png)
 
 - **插入数据后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/save-test-data.png)
+![](./assets/20220202-log-and-common-crud/save-test-data.png)
 
 2.  **批量插入**
 
@@ -659,11 +659,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/mul-insert-test.png)
+![](./assets/20220202-log-and-common-crud/mul-insert-test.png)
 
 - **统一插入后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/mul-insert-data.png)
+![](./assets/20220202-log-and-common-crud/mul-insert-data.png)
 
 2.2 **分批次插入**
 
@@ -722,11 +722,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/batch-insert-test.png)
+![](./assets/20220202-log-and-common-crud/batch-insert-test.png)
 
 - **分批次插入后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/batch-insert-data.png)
+![](./assets/20220202-log-and-common-crud/batch-insert-data.png)
 
 ### SaveOrUpdate
 
@@ -777,11 +777,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/single-update-test.png)
+![](./assets/20220202-log-and-common-crud/single-update-test.png)
 
 - **修改插入后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/single-update-data.png)
+![](./assets/20220202-log-and-common-crud/single-update-data.png)
 
 2.  **批量修改插入**
 
@@ -842,11 +842,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/unit-update-test.png)
+![](./assets/20220202-log-and-common-crud/unit-update-test.png)
 
 - **统一插入数据后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/unit-insert-data.png)
+![](./assets/20220202-log-and-common-crud/unit-insert-data.png)
 
 2.2 **分批次插入**
 
@@ -905,11 +905,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/insert-test1.png)
+![](./assets/20220202-log-and-common-crud/insert-test1.png)
 
 - **分批次插入数据后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/mul-insert1.png)
+![](./assets/20220202-log-and-common-crud/mul-insert1.png)
 
 ### Remove
 
@@ -952,9 +952,9 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/remove-test.png)
+![](./assets/20220202-log-and-common-crud/remove-test.png)
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/remove-data.png)
+![](./assets/20220202-log-and-common-crud/remove-data.png)
 
 2.  **根据条件删除**
 
@@ -999,11 +999,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/condi-del-test.png)
+![](./assets/20220202-log-and-common-crud/condi-del-test.png)
 
 - **按条件删除后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/condi-del-data.png)
+![](./assets/20220202-log-and-common-crud/condi-del-data.png)
 
 3.  **根据 ID 批量删除**
 
@@ -1049,11 +1049,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-id-test.png)
+![](./assets/20220202-log-and-common-crud/del-id-test.png)
 
 - **批量删除后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/del-id-data.png)
+![](./assets/20220202-log-and-common-crud/del-id-data.png)
 
 ### Update
 
@@ -1102,11 +1102,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/update-id-test.png)
+![](./assets/20220202-log-and-common-crud/update-id-test.png)
 
 - **更新后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/update-id-data.png)
+![](./assets/20220202-log-and-common-crud/update-id-data.png)
 
 2.  **根据 ID 批量更新**
 
@@ -1167,11 +1167,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/multi-id-test.png)
+![](./assets/20220202-log-and-common-crud/multi-id-test.png)
 
 - **批量更新后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/mul-id-data.png)
+![](./assets/20220202-log-and-common-crud/mul-id-data.png)
 
 2.2 **分批次更新**
 
@@ -1230,11 +1230,11 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/batch-add-test.png)
+![](./assets/20220202-log-and-common-crud/batch-add-test.png)
 
 - **分批次更新后的数据库**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/batch-add-data.png)
+![](./assets/20220202-log-and-common-crud/batch-add-data.png)
 
 ### Get
 
@@ -1278,7 +1278,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/get-id-test.png)
+![](./assets/20220202-log-and-common-crud/get-id-test.png)
 
 ### List
 
@@ -1327,7 +1327,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/list-test.png)
+![](./assets/20220202-log-and-common-crud/list-test.png)
 
 2.  **根据 ID 批量查询**
 
@@ -1378,7 +1378,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/id-select-test.png)
+![](./assets/20220202-log-and-common-crud/id-select-test.png)
 
 3.  **根据条件查询**
 
@@ -1426,7 +1426,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/select-condi-test.png)
+![](./assets/20220202-log-and-common-crud/select-condi-test.png)
 
 4.  **查询所有列表**
 
@@ -1467,7 +1467,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/all-list-test.png)
+![](./assets/20220202-log-and-common-crud/all-list-test.png)
 
 5.  **查询所有记录**
 
@@ -1510,7 +1510,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/all-record-test.png)
+![](./assets/20220202-log-and-common-crud/all-record-test.png)
 
 ### Count
 
@@ -1555,7 +1555,7 @@ class EmployeeApplicationTests {
 
 - **测试结果**
 
-![](../../../.vuepress/public/img/mybatis-plus/20220202-log-and-common-crud/count-test.png)
+![](./assets/20220202-log-and-common-crud/count-test.png)
 
 ## 总结
 

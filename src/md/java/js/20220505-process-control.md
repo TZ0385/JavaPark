@@ -29,9 +29,9 @@ console.log(num);
 
 这三种结构分别代表了三种代码执行的顺序，用流程图示意如下。
 
-| 顺序结构                                                     | 分支结构                                                     | 循环结构                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![](./../../../.vuepress/public/img/js/20220505-process-control/flow.png) | ![](./../../../.vuepress/public/img/js/20220505-process-control/branch.png) | ![](./../../../.vuepress/public/img/js/20220505-process-control/loop.png) |
+| 顺序结构                                        | 分支结构                                          | 循环结构                                        |
+| ----------------------------------------------- | ------------------------------------------------- | ----------------------------------------------- |
+| ![](./assets/20220505-process-control/flow.png) | ![](./assets/20220505-process-control/branch.png) | ![](./assets/20220505-process-control/loop.png) |
 
 ## 顺序结构流程控制
 
@@ -63,7 +63,7 @@ if(10 > 20){
 console.log('10 小于 20');
 ```
 
-![](./../../../.vuepress/public/img/js/20220505-process-control/if.png)
+![](./assets/20220505-process-control/if.png)
 
 除开单分支语句 `if` 之外，JavaScript 也提供了双分支语句 `if…else…`，其语法结构如下：
 
@@ -86,9 +86,9 @@ if(age >= 18){
 }
 ```
 
-![](./../../../.vuepress/public/img/js/20220505-process-control/if-demo1.gif)
+![](./assets/20220505-process-control/if-demo1.gif)
 
-![](./../../../.vuepress/public/img/js/20220505-process-control/if-demo2.gif)
+![](./assets/20220505-process-control/if-demo2.gif)
 
 当然，除开单分支和双分支之外，还有多分支语句 `if…else…if…`，其语法结构如下：
 
@@ -182,7 +182,7 @@ for(i = 1; i <= 100; i++){
 console.log(sum);
 ```
 
-![](./../../../.vuepress/public/img/js/20220505-process-control/for.png)
+![](./assets/20220505-process-control/for.png)
 
 `for` 循环语句的执行顺序可以总结为如下：
 
@@ -242,7 +242,7 @@ for(var i = 0; i <= 5; i++){
 }
 ```
 
-![](./../../../.vuepress/public/img/js/20220505-process-control/continue.png)
+![](./assets/20220505-process-control/continue.png)
 
 以上实例中，设置了当 `i` 为 2 时，跳出当次循环，所以程序打印出了 `0-5` 中除 2 之外的其他元素。
 
@@ -257,7 +257,7 @@ for(var i = 0; i <= 5; i++){
 }
 ```
 
-![](./../../../.vuepress/public/img/js/20220505-process-control/break.png)
+![](./assets/20220505-process-control/break.png)
 
 以上实例设置了当 `i` 为 2 时跳出整个循环，所以程序只打印出了 0、1，2 及以后的数不再打印。
 

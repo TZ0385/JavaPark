@@ -56,7 +56,7 @@ brew install fish
 
 如果顺利的话，此时是可以安装成功的，但如果你也和我一样在安装时报以下错误信息，那么你可以根据下面的解决方法尝试解决。
 
-![](../../../.vuepress/public/img/macOS/20220410-fish-shell/fish-install.png)
+![](./assets/20220410-fish-shell/fish-install.png)
 
 ```shell
 Error: No such file or directory @ rb_sysopen - /Users/cunyu/Library/Caches/Homebrew/downloads/7c65a980f7151e14dc5cf1e45ff29b9456a318d6868b1e78a7cd9369a3de144b--pcre2-10.39.arm64_monterey.bottle.tar.gz
@@ -68,11 +68,11 @@ Error: No such file or directory @ rb_sysopen - /Users/cunyu/Library/Caches/Home
 brew install pcre2
 ```
 
-![](../../../.vuepress/public/img/macOS/20220410-fish-shell/pcre2.png)
+![](./assets/20220410-fish-shell/pcre2.png)
 
 接着再使用上面安装 `Fish` 的命令进行安装即可。
 
-![](../../../.vuepress/public/img/macOS/20220410-fish-shell/fish-finish.png)
+![](./assets/20220410-fish-shell/fish-finish.png)
 
 ## 切换默认 shell
 
@@ -96,7 +96,7 @@ sudo vim /etc/shells
 /opt/homebrew/bin/fish
 ```
 
-![](../../../.vuepress/public/img/macOS/20220410-fish-shell/change-shell.png)
+![](./assets/20220410-fish-shell/change-shell.png)
 
 我的电脑安装后 `Fish` 是位于上面的位置，但是如果你不确定你安装后不知道在哪儿，那么可以使用以下命令进行查询 `Fish` 所在位置。
 
@@ -104,7 +104,7 @@ sudo vim /etc/shells
 whereis fish
 ```
 
-![](../../../.vuepress/public/img/macOS/20220410-fish-shell/whereis-fish.png)
+![](./assets/20220410-fish-shell/whereis-fish.png)
 
 最后则是切换默认 shell，让我们之后打开终端后都是使用 `Fish`，运行如下命令即可。
 
@@ -114,7 +114,7 @@ chsh -s /opt/homebrew/bin/fish
 
 至此，我们的 `Fish` 就安装成功了，退出终端后重新打开终端即可使用安装好的 `Fish`。
 
-![](../../../.vuepress/public/img/macOS/20220410-fish-shell/chsh.png)
+![](./assets/20220410-fish-shell/chsh.png)
 
 ## 安装 Oh My Fish
 
@@ -145,7 +145,7 @@ fish 脚本文件名
 omf theme
 ```
 
-![](../../../.vuepress/public/img/macOS/20220410-fish-shell/ofm-theme.png)
+![](./assets/20220410-fish-shell/ofm-theme.png)
 
 可以看到还是有很多主题的，确定好之后，接下来就可以安装我们心仪的一款主题了，安装命令如下。
 
@@ -153,11 +153,11 @@ omf theme
 omf install 主题名
 ```
 
-![](../../../.vuepress/public/img/macOS/20220410-fish-shell/fish-theme.png)
+![](./assets/20220410-fish-shell/fish-theme.png)
 
 最后则是效果预览了，这里我自己是安装了 `randomrussel`，最终的效果预览如下。
 
-![](../../../.vuepress/public/img/macOS/20220410-fish-shell/preview.png)
+![](./assets/20220410-fish-shell/preview.png)
 
 此外，`Oh My Fish` 辅助命令工具 `omf` 还提供了一些常用命令用于管理插件和主题。
 

@@ -33,7 +33,7 @@ category:
 
 `CPU` 主要由运算器、控制器、寄存器组以及内部总线等部件组成。
 
-![CPU 组成结构](../../../.vuepress/public/img/software/20221113-computer-system/cpu-component.png)
+![CPU 组成结构](./assets/20221113-computer-system/cpu-component.png)
 
 ## 运算器
 
@@ -139,7 +139,7 @@ $$[+0]_\text{补} = [-0]_\text{补} = 00000000$$
 
 浮点表示法中，阶码是带符号的纯整数，而位数是带符号的纯小数。浮点数的表示格式如下：
 
-![](../../../.vuepress/public/img/software/20221113-computer-system/float.png)
+![](./assets/20221113-computer-system/float.png)
 
 $$N = 2^E×F$$
 
@@ -158,7 +158,7 @@ $$-1*2^{(2^{R-1}-1)}\sim(1-2^{1-M}*2^{2^{R-1}-1})$$
 
 ## 寻址方式
 
-![存储系统层次结构](../../../.vuepress/public/img/software/20221113-computer-system/find-address.png)
+![存储系统层次结构](./assets/20221113-computer-system/find-address.png)
 
 常用的寻址方式：
 
@@ -196,7 +196,7 @@ $$2^k>= n + k + 1$$
 
 循环冗余码常用于数据通信领域和磁介质存储系统，利用生成多项式为 `k` 个数据位产生 `r` 个校验位来进行编码，其编码长度为 `k + r`，`CRC` 的代码格式为：
 
-![](../../../.vuepress/public/img/software/20221113-computer-system/crc.png)
+![](./assets/20221113-computer-system/crc.png)
 
 循环冗余校验码由两部分组成，左边是**信息码（数据）**，右边是**校验码**，如果信息码占 `k` 位，则校验码占 `n - k` 位。其中 `n` 是 `CRC` 码的字长，所以又叫 `(n, k)` 码。校验码由信息码产生，校验码位数越多，代码校验能力越强。在求 `CRC` 编码时，才用的是模 `2` 运算。模 `2` 加减运算的规则是按位运算，不发生借位和进位。要注意，当码距为 `2` 时，`CRC` 只能检错而不能纠错。
 

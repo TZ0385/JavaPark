@@ -55,7 +55,7 @@ Mybatis-Plus 其实可以看作是对 Mybatis 的再一次封装，升级之后�
 
 ### Mybatis-Plus 结构
 
-![](../../../.vuepress/public/img/mybatis-plus/20220201-intro-and-quick-start/mp-structure.jpeg)
+![](./assets/20220201-intro-and-quick-start/mp-structure.jpeg)
 
 ## 快速入门示例
 
@@ -91,7 +91,7 @@ INSERT INTO employee (id, name, sex, email) VALUES
 (3, '王五', '男', 'wangwu@cunyu1943.com');
 ```
 
-![](../../../.vuepress/public/img/mybatis-plus/20220201-intro-and-quick-start/data-view.png)
+![](./assets/20220201-intro-and-quick-start/data-view.png)
 
 ### SpringBoot 项目
 
@@ -135,7 +135,7 @@ spring:
 
 项目创建完成后，我们最终的项目目录结构如下图所示：
 
-![](../../../.vuepress/public/img/mybatis-plus/20220201-intro-and-quick-start/pro-stru.png)
+![](./assets/20220201-intro-and-quick-start/pro-stru.png)
 
 ### 编码
 
@@ -419,7 +419,7 @@ class EmployeeApplicationTests {
 }
 ```
 
-![](../../../.vuepress/public/img/mybatis-plus/20220201-intro-and-quick-start/test.png)
+![](./assets/20220201-intro-and-quick-start/test.png)
 
 可以看到执行我们测试代码后测试成功了，说明接口是没问题的。
 

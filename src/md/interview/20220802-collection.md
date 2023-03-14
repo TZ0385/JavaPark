@@ -25,7 +25,7 @@ Java 集合类主要都是从 `Collection` 和 `Map` 两个接口派生而成，
 - **Set**：代表无序、不可重复的集合；
 - **Queue**：队列集合实现；
 
-![集合框架](../../.vuepress/public/img/interview/20220802-collection/collection-structure.png)
+![集合框架](./assets/20220802-collection/collection-structure.png)
 
 ### 集合选用技巧
 
@@ -73,7 +73,7 @@ Java 集合类主要都是从 `Collection` 和 `Map` 两个接口派生而成，
 
 ### Collection 声明
 
-![Collection](../../.vuepress/public/img/interview/20220802-collection/collection.png)
+![Collection](./assets/20220802-collection/collection.png)
 
 ```java
 																									// // jdk 1.8 中 Collection 的源码
@@ -109,7 +109,7 @@ public interface Collection<E> extends Iterable<E> {
 
 `Collection` 是 `Set、List、Queue` 的父接口，主要提供了如下方法供子类实现，从而实现数据操作。
 
-![Collection 常用方法](../../.vuepress/public/img/interview/20220802-collection/collection-methods.png)
+![Collection 常用方法](./assets/20220802-collection/collection-methods.png)
 
 其中 `iterator()` 方法的返回值 `Iterator` 接口类叫做 **迭代器**，主要用于遍历集合元素，定义了如下两个方法：
 
@@ -312,7 +312,7 @@ public class Main(){
 
 ## Map
 
-![Map](../../.vuepress/public/img/interview/20220802-collection/map.png)
+![Map](./assets/20220802-collection/map.png)
 
 ```java
 // jdk 1.8 中 Map 源码，其中内部接口 Entry<K, V> 对应 Map 的键值对

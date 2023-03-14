@@ -39,7 +39,7 @@ category:
 
 1.  **退出记账本**
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/totally-book.png)
+![](./assets/20220303-tally-book/totally-book.png)
 
 ## 功能预览及代码实现
 
@@ -49,7 +49,7 @@ category:
 
 - 预览
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/menu.png)
+![](./assets/20220303-tally-book/menu.png)
 
 - 代码实现
 
@@ -102,7 +102,7 @@ public class MainApp {
 
 - 预览
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/add.png)
+![](./assets/20220303-tally-book/add.png)
 
 - 代码实现
 
@@ -122,7 +122,7 @@ public void add(List<Bill> billList, int id, String category, String account, St
 
 - 预览
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/del.png)
+![](./assets/20220303-tally-book/del.png)
 
 - 代码实现
 
@@ -145,7 +145,7 @@ public void del(List<Bill> billList, int id) {
 
 - 预览
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/update.png)
+![](./assets/20220303-tally-book/update.png)
 
 - 代码实现
 
@@ -199,7 +199,7 @@ public void modify(List<Bill> billList) {
 
 - 预览
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/show.png)
+![](./assets/20220303-tally-book/show.png)
 
 - 代码实现
 
@@ -218,7 +218,7 @@ public void queryAll(List<Bill> billList) {
 
 - 预览
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/show-by-time.png)
+![](./assets/20220303-tally-book/show-by-time.png)
 
 - 代码实现
 
@@ -254,7 +254,7 @@ public void queryByTime(List<Bill> billList, String startTime, String endTime) {
 
 - 预览
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/show-by-type.png)
+![](./assets/20220303-tally-book/show-by-type.png)
 
 - 代码实现
 
@@ -282,7 +282,7 @@ public void queryByType(List<Bill> billList, String type) {
 
 - 预览
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/uit.png)
+![](./assets/20220303-tally-book/uit.png)
 
 - 代码实现
 
@@ -303,7 +303,7 @@ case "0":
 
 - 主程序 `MainApp`
 
-![](../../../.vuepress/public/img/se-in-action/20220303-tally-book/structure.png)
+![](./assets/20220303-tally-book/structure.png)
 
 ## 总结
 

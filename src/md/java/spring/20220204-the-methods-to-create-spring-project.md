@@ -29,15 +29,15 @@ category:
 
 1.  新建 Maven 项目；
 
-![](../../../.vuepress/public/img/spring/20220204-the-methods-to-create-spring-project/maven-pro.png)
+![](./assets/20220204-the-methods-to-create-spring-project/maven-pro.png)
 
 2.  填写项目名及 Maven 坐标相关配置；
 
-![](../../../.vuepress/public/img/spring/20220204-the-methods-to-create-spring-project/maven-info.png)
+![](./assets/20220204-the-methods-to-create-spring-project/maven-info.png)
 
 3.  点击 `Finish` 后完成项目构建，构建后的项目目录结构如下；
 
-![](../../../.vuepress/public/img/spring/20220204-the-methods-to-create-spring-project/structure.png)
+![](./assets/20220204-the-methods-to-create-spring-project/structure.png)
 
 4.  接下来我们就是在 `pom.xml` 中添加 Spring 的相关依赖，这里主要导入 Spring 的四个核心依赖包 `Beans`、`Context`、`Core`、`Expression`。
 
@@ -155,17 +155,17 @@ public class HeroTest {
 }
 ```
 
-![](../../../.vuepress/public/img/spring/20220204-the-methods-to-create-spring-project/res1.png)
+![](./assets/20220204-the-methods-to-create-spring-project/res1.png)
 
 ### Spring Initializer 创建
 
 1.  新建项目时选择 `Spring Initializer` ，并填下 Maven 坐标相关信息；
 
-![](../../../.vuepress/public/img/spring/20220204-the-methods-to-create-spring-project/pro-info.png)
+![](./assets/20220204-the-methods-to-create-spring-project/pro-info.png)
 
 2.  这里其实严格上说是一个 SpringBoot 项目，而不是 Spring 项目，但用于 Spring 项目也可以，直接 `Finish`；
 
-![](../../../.vuepress/public/img/spring/20220204-the-methods-to-create-spring-project/dependency.png)
+![](./assets/20220204-the-methods-to-create-spring-project/dependency.png)
 
 3.  同样的，我们创建实体类 `Hero`
 
@@ -228,7 +228,7 @@ class SpringDemo2ApplicationTests {
 }
 ```
 
-![](../../../.vuepress/public/img/spring/20220204-the-methods-to-create-spring-project/test-res.png)
+![](./assets/20220204-the-methods-to-create-spring-project/test-res.png)
 
 6.  **注意**
 
@@ -287,12 +287,12 @@ class SpringDemo2ApplicationTests {
 
 1.  打开 https://start.spring.io/ 来生成项目；
 
-![](../../../.vuepress/public/img/spring/20220204-the-methods-to-create-spring-project/spring-initializr.png)
+![](./assets/20220204-the-methods-to-create-spring-project/spring-initializr.png)
 
 2.  然后点击左下角生成按钮或使用快捷键 `Ctrl + Enter` 生成；
 3.  将压缩包下载后，解压缩后用自己喜欢的 IDE 开发即可；
 
-![](../../../.vuepress/public/img/spring/20220204-the-methods-to-create-spring-project/unzip.png)
+![](./assets/20220204-the-methods-to-create-spring-project/unzip.png)
 
 假如我们导入到 IDEA，那么接下来的步骤就是同上一种方式相同，接着就是创建实体类、配置 Spring 相关配置，最后测试类测试即可。
 

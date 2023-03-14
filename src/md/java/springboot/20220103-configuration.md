@@ -112,9 +112,9 @@ public class CunyuPropertiesController {
 
 4.  打开网页测试，打开 http://localhost:8080/cunyu/profile，同时观察控制台，显示如下内容则说明属性注入成功；
 
-![](../../../.vuepress/public/img/springboot/20220103-configuration/config.png)
+![](./assets/20220103-configuration/config.png)
 
-![](../../../.vuepress/public/img/springboot/20220103-configuration/console.png)
+![](./assets/20220103-configuration/console.png)
 
 ### 多环境配置
 
@@ -236,9 +236,9 @@ public class MyPropertiesController {
 
 4.  打开网页测试，打开 `http://localhost:8080/my/profile`，同时观察控制台，显示如下内容则说明属性注入成功；
 
-![](../../../.vuepress/public/img/springboot/20220103-configuration/profile-preview.png)
+![](./assets/20220103-configuration/profile-preview.png)
 
-![](../../../.vuepress/public/img/springboot/20220103-configuration/console-pro.png)
+![](./assets/20220103-configuration/console-pro.png)
 
 ## 注意
 

@@ -32,13 +32,13 @@ category: PostgreSQL 教程
 
 那么我们首先要做的就是去 PostgreSQL 官网：https://www.postgresql.org/ 去下载最新版本 PostgreSQL 安装包。
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/off-website.png)
+![](./assets/20220308-pg-install-on-windows/off-website.png)
 
 然后选择对应平台进入下载安装包，这里提供 `.exe` 的安装包，也支持下载 `.zip` 的压缩包形式解压缩安装，这里根据自己的喜好进行下载即可，下边我主要以 `.exe` 形式的安装包安装为例。
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/download.png)
+![](./assets/20220308-pg-install-on-windows/download.png)
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/exe-zip.png)
+![](./assets/20220308-pg-install-on-windows/exe-zip.png)
 
 ### 安装过程
 
@@ -46,43 +46,43 @@ category: PostgreSQL 教程
 
 1.  双击我们下载好的安装包之后，进入安装界面，首先是一个欢迎界面，直接 `Next` 下一步即可；
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/welcome.png)
+![](./assets/20220308-pg-install-on-windows/welcome.png)
 
 2.  然后是选择安装路径，这里默认是在 `C:\Program Files\PostgreSQL\13` 下，不过我们一般推荐安装到自己平常安装软件的地方，不要直接安装在 C 盘；
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/path.png)
+![](./assets/20220308-pg-install-on-windows/path.png)
 
 3.  选择所要安装的组件，这里默认是全部安装，如果你们有特殊的要求，那就默认直接点击 `Next` 下一步即可；
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/component.png)
+![](./assets/20220308-pg-install-on-windows/component.png)
 
 4.  选择数据数据存放的地方，这里默认实在安装路径下的 `data` 子目录下，如果你之前在第 2 步中自定义了安装路径，那么这里直接选择 `Next` 下一步即可；
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/data-storage.png)
+![](./assets/20220308-pg-install-on-windows/data-storage.png)
 
 5.  设置密码，也就是待会儿我们安装结束后登陆时所需的密码，这里自己设置即可（**一定要记住！**）；
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/pwd-set.png)
+![](./assets/20220308-pg-install-on-windows/pwd-set.png)
 
 6.  端口设置，PostgreSQL 默认端口是 5432，如果你不想使用默认端口，可以自定义想要使用的端口，这里如果改动了也要记住，确保不要和其他服务冲突；
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/port-set.png)
+![](./assets/20220308-pg-install-on-windows/port-set.png)
 
 7.  其实就是时区选择，这里直接默认点击 `Next` 下一步即可；
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/locale.png)
+![](./assets/20220308-pg-install-on-windows/locale.png)
 
 8.  然后是确认信息，确保我们已经准备好了要开始 PostgreSQL 的安装，直接点击 `Next` 下一步即可；
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/confirm.png)
+![](./assets/20220308-pg-install-on-windows/confirm.png)
 
 9.  接下来就是相对漫长的安装过程了，这里等待即可；
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/installing.png)
+![](./assets/20220308-pg-install-on-windows/installing.png)
 
 10. 好了，显示此界面就说明我们的安装过程结束了，点击 `Finish` 完成安装即可。
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/finish.png)
+![](./assets/20220308-pg-install-on-windows/finish.png)
 
 ### 验证
 
@@ -90,7 +90,7 @@ category: PostgreSQL 教程
 
 去我们的程序列表中找到 `SQL Shell(psql)`，也就是下图中的程序打开（这里我因为安装了快捷搜索软件，所以你查找的界面会和我不一样，但是软件是一个）。
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/psql-shell.png)
+![](./assets/20220308-pg-install-on-windows/psql-shell.png)
 
 然后就是登陆过程了，首先是 `Server`，也就是说数据库 url，默认是在本地（所以是 `localhost`），没有该动的就直接回车下一步好了。
 
@@ -104,7 +104,7 @@ category: PostgreSQL 教程
 
 如果我们登陆成功，那么就会出现下面图中的提示了。
 
-![](./../../../.vuepress/public/img/pgsql/20220308-pg-install-on-windows/login.png)
+![](./assets/20220308-pg-install-on-windows/login.png)
 
 ## 总结
 

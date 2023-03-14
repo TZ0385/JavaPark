@@ -75,7 +75,7 @@ public class OverrideTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220721-annotations/override.png)
+![](./assets/20220721-annotations/override.png)
 
 ### `@Deprecated`
 
@@ -116,7 +116,7 @@ public class DeprecateTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220721-annotations/deprecated.png)
+![](./assets/20220721-annotations/deprecated.png)
 
 ### `@SuppressWarnings`
 
@@ -168,7 +168,7 @@ public class SuppressWarningsTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220721-annotations/suppressWarnings.png)
+![](./assets/20220721-annotations/suppressWarnings.png)
 
 ## 自定义注解
 

@@ -32,7 +32,7 @@ Swagger 是一种接口描述语言，主要用于生成、描述、调用以及
 
 Swagger 主要提供了如下几种开源工具：
 
-![](../../../.vuepress/public/img/springboot/20220104-integrated-swagger2/swagger-tool.png)
+![](./assets/20220104-integrated-swagger2/swagger-tool.png)
 
 1.  **Swagger Editor**
 
@@ -50,7 +50,7 @@ Swagger 所提供的的编辑器，主要用于编辑 Swagger 描述文件，支
 
 平时和我们打交道最多的，可能就是 Swagger UI 这个工具了，它主要用于显示接口文档。根据我们代码中按照 Swagger 规范所设置的描述，自动生成接口说明文档。一个简单的示例如下：
 
-![](../../../.vuepress/public/img/springboot/20220104-integrated-swagger2/ui.png)
+![](./assets/20220104-integrated-swagger2/ui.png)
 
 ## Spring Boot 集成 Swagger
 
@@ -62,7 +62,7 @@ Swagger 所提供的的编辑器，主要用于编辑 Swagger 描述文件，支
 
 创建好之后的项目接口如下：
 
-![](../../../.vuepress/public/img/springboot/20220104-integrated-swagger2/swagger-demo.png)
+![](./assets/20220104-integrated-swagger2/swagger-demo.png)
 
 ### 引入依赖
 
@@ -211,7 +211,7 @@ public class SwaggerDemoController {
 
 访问如上地址后，如果出现下面的界面，说明我们 Spring Boot 集成 Swagger2 就到此成功了。
 
-![](../../../.vuepress/public/img/springboot/20220104-integrated-swagger2/preview.png)
+![](./assets/20220104-integrated-swagger2/preview.png)
 
 点开具体的接口，就会有这个接口的一些详细信息，如下图所示，一般包括：
 
@@ -220,15 +220,15 @@ public class SwaggerDemoController {
 3.  **接口请求参数**
 4.  **接口响应**
 
-![](../../../.vuepress/public/img/springboot/20220104-integrated-swagger2/test.png)
+![](./assets/20220104-integrated-swagger2/test.png)
 
 如果我们要进行简单的测试，则点击上图中右上方的 `Try it out`，然后我们就可以编辑请求参数的值，编辑完成之后点击下方的 `Execute` 即可查看接口返回值。
 
-![](../../../.vuepress/public/img/springboot/20220104-integrated-swagger2/execute.png)
+![](./assets/20220104-integrated-swagger2/execute.png)
 
 以我给的接口为例，我传入了一个参数 `name`，然后执行 `demo` 接口，最后会给我返回 `hello,name` 的结果，其中 `name` 是我传入的参数值，这里我传入了村雨遥，所以结果应该会得到 `hello,村雨遥`，可以看到 Swagger 测试中也给我返回了对应的结果，说明我们的接口测试成功！
 
-![](../../../.vuepress/public/img/springboot/20220104-integrated-swagger2/post.png)
+![](./assets/20220104-integrated-swagger2/post.png)
 
 ### 注意
 

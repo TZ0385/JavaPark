@@ -36,17 +36,17 @@ category:
 
 使用 **短除法**，比如我们要将 $100$ 转换为二进制数，则有如下过程，最终的结果为 $1100100B$。
 
-![](../../../.vuepress/public/img/software/20221113-data-representation/10-to-2.png)
+![](./assets/20221113-data-representation/10-to-2.png)
 
 2.  **二进制转八/十六进制**
 
 假设我们有一个二进制数 $100010010011$，如果我们要将其转换为八进制数，一个八进制数需要 8 个基数来表示，所以需要 3 位二进制来表示。那么转换过程如下，即对应的八进制数为 $4223O$。
 
-![](../../../.vuepress/public/img/software/20221113-data-representation/2-to-8.png)
+![](./assets/20221113-data-representation/2-to-8.png)
 
 而如果我们将要将其转换为十六进制数，一个十六进制数需要 16 个基数来表示，所以需要 4 位二进制来表示。则对应的转换过程如下，即对应的十六进制数为 $893H$。
 
-![](../../../.vuepress/public/img/software/20221113-data-representation/2-to-16.png)
+![](./assets/20221113-data-representation/2-to-16.png)
 
 ## 码制
 
@@ -110,7 +110,7 @@ $$1111+1111=1110,(-1)+(-1)=-2$$
 
 经过上面的各种码制介绍之后，我们将一个数的不同码制之间的转换规律总结如下图：
 
-![码制转换](../../../.vuepress/public/img/software/20221113-data-representation/code-convert.png)
+![码制转换](./assets/20221113-data-representation/code-convert.png)
 
 6.  **移码**
 
@@ -152,7 +152,7 @@ $-(1-2^{-(n-1)})$ ~ $+(1-2^{-(n-1)})$
 
 所谓浮点数，指的是小数点位置不固定的数，相比整数能够表示更大的范围，其表示格式如下：
 
-![](../../../.vuepress/public/img/software/20221113-data-representation/float.png)
+![](./assets/20221113-data-representation/float.png)
 
 对于一个浮点数 $N$，我们常用如下形式表示：
 

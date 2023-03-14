@@ -28,11 +28,11 @@ order: 90
 
 - 老版本 IDEA 安装 Lombok
 
-<img src="../../../.vuepress/public/img/se/20220719-lombok-install-and-usage/lombok-plugin.png" style="zoom:50%;" />
+<img src="./assets/20220719-lombok-install-and-usage/lombok-plugin.png" style="zoom:50%;" />
 
 - 新版本中集成了 Lombok
 
-<img src="../../../.vuepress/public/img/se/20220719-lombok-install-and-usage/intege-lombok.png" style="zoom:50%;" />
+<img src="./assets/20220719-lombok-install-and-usage/intege-lombok.png" style="zoom:50%;" />
 
 以上就是 Lombok 的安装过程了，是不是十分简单？那接下来我们就来看看，如何在我们的项目中使用 Lombok！
 
@@ -53,7 +53,7 @@ order: 90
 
 在需要的实体类中引入相关注解即可，只不过注解不同它们所对应的功能也不同，而且同一个注解可能在不同位置的功能也不一样。如下图；
 
-![](../../../.vuepress/public/img/se/20220719-lombok-install-and-usage/@data.png)
+![](./assets/20220719-lombok-install-and-usage/@data.png)
 
 ### 常用注解
 

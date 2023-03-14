@@ -66,7 +66,7 @@ public class FileObject {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/path.png)
+![](./assets/20220715-in-out-stream/path.png)
 
 对于我们传入文件的路径，既可以使用绝对路径，也可以使用相对路径。
 
@@ -95,7 +95,7 @@ public class FilePath {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/relative-path.png)
+![](./assets/20220715-in-out-stream/relative-path.png)
 
 ### 文件和目录操作
 
@@ -154,7 +154,7 @@ public class CreateAndDelete {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/create-del.png)
+![](./assets/20220715-in-out-stream/create-del.png)
 
 **注意**：
 
@@ -210,7 +210,7 @@ public class Main {
 
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/path-attr.png)
+![](./assets/20220715-in-out-stream/path-attr.png)
 
 #### 判断和获取
 
@@ -262,7 +262,7 @@ public class Main {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/file-attr.png)
+![](./assets/20220715-in-out-stream/file-attr.png)
 
 ### 练习
 
@@ -291,7 +291,7 @@ public class Test {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/exercise.png)
+![](./assets/20220715-in-out-stream/exercise.png)
 
 ## 流
 
@@ -308,11 +308,11 @@ public class Test {
 
 下图描述了字节流和字符流的类层次图，注意：**无论是字节流还是字符流，其子类名都是以其父类名作为子类名的后缀的**。
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/io-stream.png)
+![](./assets/20220715-in-out-stream/io-stream.png)
 
 ### InputStream
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/inputstream.png)
+![](./assets/20220715-in-out-stream/inputstream.png)
 
 注意，`InputStream` 并非是并不是一个接口，而是所有字节输入流所有类的父类。下面我们主要以 `FileInputStream` 来举例，所谓 `FileInputStream`，就是从文件流中读取数据，然后将数据从文件中读取到内存，常用方法如下：
 
@@ -324,7 +324,7 @@ public class Test {
 
 下面是一个从文件中读取数据到内存中的实例，文件内容如下：
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/output-file.png)
+![](./assets/20220715-in-out-stream/output-file.png)
 
 ```java
 import java.io.File;
@@ -368,11 +368,11 @@ public class TestInputStream {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/file-demo1.png)
+![](./assets/20220715-in-out-stream/file-demo1.png)
 
 ### OutputStream
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/outputstream.png)
+![](./assets/20220715-in-out-stream/outputstream.png)
 
 `OutputStream` 并非是并不是一个接口，而是所有输出字节流的所有类的父类。下面我们主要以 `FileOutputStream` 来举例，所谓 `FileOutputStream`，就是从内存中读取数据，然后将数据从内存存放到文件中，常用方法如下：
 
@@ -411,9 +411,9 @@ public class TestOutputStream {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/write-success.png)
+![](./assets/20220715-in-out-stream/write-success.png)
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/file-text.png)
+![](./assets/20220715-in-out-stream/file-text.png)
 
 需要注意的点：
 
@@ -473,11 +473,11 @@ public class EncodeAndDecode {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/encode-decode.png)
+![](./assets/20220715-in-out-stream/encode-decode.png)
 
 ### Writer
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/writer.png)
+![](./assets/20220715-in-out-stream/writer.png)
 
 当我们要写入基于字符的数据到数据源中时，需要使用写入器 `Writer`. 以其中的 `FileWriter` 具体展开，其常用方法如下：
 
@@ -519,11 +519,11 @@ public class TestWriter {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/write-demo.png)
+![](./assets/20220715-in-out-stream/write-demo.png)
 
 ### Reader
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/reader.png)
+![](./assets/20220715-in-out-stream/reader.png)
 
 当我们要从数据源读取基于字符的数据时，需要使用读取器 `Reader`. 我们以 `FileReader` 实践，其常用的方法有：
 
@@ -563,7 +563,7 @@ public class TestReader {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220715-in-out-stream/reader-demo.png)
+![](./assets/20220715-in-out-stream/reader-demo.png)
 
 ## 总结
 

@@ -30,7 +30,7 @@ date: 2022-03-04
 5.  **删除学生成绩**
 6.  **退出管理系统**
 
-![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/mysql-stu-score-mng.png)
+![](./assets/20220304-mysql-mybatis-score-management/mysql-stu-score-mng.png)
 
 ## 系统演示
 
@@ -38,13 +38,13 @@ date: 2022-03-04
 
 将我们的系统运行起来之后，应该有对应的系统菜单，然后可以根据我们的输入进行不同的操作。
 
-![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/main-menu.png)
+![](./assets/20220304-mysql-mybatis-score-management/main-menu.png)
 
 2.  **录入学生成绩**
 
 进入录入学习成绩菜单后，会提示我们依次录入学号、年级、姓名、高数、英语、体育、Java、C++、政治、算法等科目的成绩，录入成功后进行下一次功能选择。
 
-![录入成绩流程](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/insert.gif)
+![录入成绩流程](./assets/20220304-mysql-mybatis-score-management/insert.gif)
 
 ![录入成绩结果](https://img-blog.csdnimg.cn/img_convert/ac9e88ea870cb767ad3c2a6bf1524a92.png)
 
@@ -52,31 +52,31 @@ date: 2022-03-04
 
 该功能主要通过我们所输入的学生学号，然后查询对应学号学生的成绩，如果查到则进行打印，如果没查到就进行提示。但无论是查询到成绩与否，都会进入下一次的功能选择。
 
-![查找对应学号的学生成绩](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/qry.gif)
+![查找对应学号的学生成绩](./assets/20220304-mysql-mybatis-score-management/qry.gif)
 
 4.  **查询所有学生成绩**
 
 该功能可以查询当前数据库中的所有成绩，无论是否查询到成绩与否，都将进入下一次的功能选择。
 
-![查询所有成绩流程](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/qry-all.gif)
+![查询所有成绩流程](./assets/20220304-mysql-mybatis-score-management/qry-all.gif)
 
-![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/db-data.png)
+![](./assets/20220304-mysql-mybatis-score-management/db-data.png)
 
 5.  **更新学生成绩**
 
 该功能通过输入对应学号，然后如果找到对应学号的学生，则重新依次输入各科成绩，然后对数据库中的成绩进行更新。如果没有找到对应学号的学生，则进行提示。
 
-![更新学生成绩流程](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/update.gif)
+![更新学生成绩流程](./assets/20220304-mysql-mybatis-score-management/update.gif)
 
-![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/update-db.png)
+![](./assets/20220304-mysql-mybatis-score-management/update-db.png)
 
 6.  **删除学生成绩**
 
 该功能通过对应学号，然后删除对应学号的学生成绩，如果没有对应学号的学生，则进行提示。
 
-![删除学生成绩流程](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/del.gif)
+![删除学生成绩流程](./assets/20220304-mysql-mybatis-score-management/del.gif)
 
-![](../../../.vuepress/public/img/se-in-action/20220304-mysql-mybatis-score-management/db-del.png)
+![](./assets/20220304-mysql-mybatis-score-management/db-del.png)
 
 ## 功能设计与实现
 

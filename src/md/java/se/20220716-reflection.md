@@ -183,7 +183,7 @@ public class Demo1 {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220716-reflection/class-obj.png)
+![](./assets/20220716-reflection/class-obj.png)
 
 上述代码中，会发现最后输出的比较结果返回的是两个 `true`，说明通过上述三种方式获取的 `Class` 对象都是同一个，**同一个字节码文件（`*.class`）在一次运行过程中只会被加载一次**。
 
@@ -226,7 +226,7 @@ public class Demo2 {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220716-reflection/class-attr.png)
+![](./assets/20220716-reflection/class-attr.png)
 
 回顾下我们的 `Person` 类，可以发现 `id`、`grade` 成员变量都是被 `public` 所修饰的，说明该方法是用于获取类中所有被 `public` 所修饰的成员变量（**包括父类**）。
 
@@ -260,9 +260,9 @@ public class Demo2 {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220716-reflection/attr-fail1.png)
+![](./assets/20220716-reflection/attr-fail1.png)
 
-![](../../../.vuepress/public/img/se/20220716-reflection/attr-fail2.png)
+![](./assets/20220716-reflection/attr-fail2.png)
 
 从上面的结果分析可知，该方法只能用于获取类中指定名称的 `public` 所修饰的成员变量，对于 `protected`、`private` 所修饰的成员变量，该方法是无法获取的（**包括父类**）。而获取或设置成员变量值时，可以通过 `get/set` 方法来操作，具体操作方法如下。
 
@@ -305,7 +305,7 @@ public class Demo2 {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220716-reflection/field.png)
+![](./assets/20220716-reflection/field.png)
 
 观察上面的结果可知，该方法可用于获取所有的成员变量，不用考虑修饰符的限制（**不包括父类**）。
 
@@ -338,7 +338,7 @@ public class Demo2 {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220716-reflection/getDeclaredField.png)
+![](./assets/20220716-reflection/getDeclaredField.png)
 
 观察上面的结果可知，该方法可用于获取指定的成员变量，不用考虑成员变量修饰符的限制（**不包括父类**）。但是在利用 `set`、`get` 方法来获取和设置 `private`、`protected` 修饰的成员变量时，需要利用 `setAccessible()` 来忽略访问全新啊修饰符的安全检查，否则程序将会报错。
 
@@ -403,7 +403,7 @@ public class Demo3 {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220716-reflection/constructor.png)
+![](./assets/20220716-reflection/constructor.png)
 
 - `Constructor<?>[] getConstructors()`
 
@@ -471,7 +471,7 @@ public class Demo4 {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220716-reflection/getMethods.png)
+![](./assets/20220716-reflection/getMethods.png)
 
 - `Method[] getMethods()`
 
@@ -515,7 +515,7 @@ public class Demo5 {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220716-reflection/getName.png)
+![](./assets/20220716-reflection/getName.png)
 
 - `String getName()`
 
@@ -666,9 +666,9 @@ public class ReflectTest {
 
 此时，我们只需要改动配置文件 `prop.properties` 中的配置即可输出不同结果；
 
-![](../../../.vuepress/public/img/se/20220716-reflection/prop.png)
+![](./assets/20220716-reflection/prop.png)
 
-![](../../../.vuepress/public/img/se/20220716-reflection/reflecttest.png)
+![](./assets/20220716-reflection/reflecttest.png)
 
 ## 总结
 

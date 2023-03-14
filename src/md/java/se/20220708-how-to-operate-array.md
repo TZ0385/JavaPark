@@ -180,7 +180,7 @@ public class TraverseTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220708-how-to-operate-array/for.png)
+![](./assets/20220708-how-to-operate-array/for.png)
 
 ### 增强 for 循环
 
@@ -206,7 +206,7 @@ public class EnforceTraverseTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220708-how-to-operate-array/for-each.png)
+![](./assets/20220708-how-to-operate-array/for-each.png)
 
 **两者的区别**：标准 `for` 循环是通过计数器来进行遍历，我们能够很清晰的得知每个元素所对应的索引位置，而增强 `for each` 循环则是直接访问数组中的元素值，而不关心每个元素对应的索引位置。
 
@@ -234,7 +234,7 @@ public class StandardLibraryTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220708-how-to-operate-array/arrays.png)
+![](./assets/20220708-how-to-operate-array/arrays.png)
 
 以上的遍历主要是针对一维数组，而针对二维数组，当我们要访问其中的一个元素时，可以使用 `array[row][col]` 来进行访问，而对于二维及更多维的数组，可以使用 `Arrays.deepToString()`。
 
@@ -280,7 +280,7 @@ public class BubbleSort {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220708-how-to-operate-array/ort.png)
+![](./assets/20220708-how-to-operate-array/ort.png)
 
 ### 标准库排序
 
@@ -309,7 +309,7 @@ public class StandardLibrarySortTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220708-how-to-operate-array/arrsys-sort.png)
+![](./assets/20220708-how-to-operate-array/arrsys-sort.png)
 
 ## 常用方法
 
@@ -357,7 +357,7 @@ public class CommonMethodsTest {
 }
 ```
 
-![](../../../.vuepress/public/img/se/20220708-how-to-operate-array/out-array.png)
+![](./assets/20220708-how-to-operate-array/out-array.png)
 
 ## 总结
 

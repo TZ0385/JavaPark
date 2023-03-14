@@ -46,15 +46,15 @@ Refus 十一款 Windows 下十分小巧强大的刻录软件，打开即用，�
 
 1.  到上面给的链接下载好 Refus 后，不用安装，双击打开即可，打开后的界面如下：
 
-<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/refus.png" style="zoom:67%;" />
+<img src="./assets/20220412-how-to-make-usb-boot-drive/refus.png" style="zoom:67%;" />
 
 2.   然后选择镜像文件，然后选择分区类型，最后点击 **开始** 即可；
 
-<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/iso-select.png" style="zoom:50%;" />
+<img src="./assets/20220412-how-to-make-usb-boot-drive/iso-select.png" style="zoom:50%;" />
 
 3.   点击开始之后，会提示格式化 U 盘，确定后等待完成即可，之后我们就能得到一个刻录好的 U 盘启动盘了；
 
-<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/upan-remove.png" style="zoom:50%;" />
+<img src="./assets/20220412-how-to-make-usb-boot-drive/upan-remove.png" style="zoom:50%;" />
 
 ### UltraISO：https://cn.ultraiso.net/
 
@@ -62,19 +62,19 @@ UltraISO（软碟通）是一款老牌的刻录工具，虽然可以免费提供
 
 1.  插入 U 盘，打开 UltraISO，然后在 **文件 -> 打开** 准备好的系统镜像文件；
 
-<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/ultraiso.png" style="zoom:50%;" />
+<img src="./assets/20220412-how-to-make-usb-boot-drive/ultraiso.png" style="zoom:50%;" />
 
 2.   然后点击 **启动 -> 写入硬盘映像…**，此时会自动识别出 U 盘；
 
-<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/disk-write.png" style="zoom:50%;" />
+<img src="./assets/20220412-how-to-make-usb-boot-drive/disk-write.png" style="zoom:50%;" />
 
 3.   不用修改其他配置，直接点击 **写入**，此时会提示操作会格式化 U 盘，点击 **是** 即可；
 
-![](../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/continue.png)
+![](./assets/20220412-how-to-make-usb-boot-drive/continue.png)
 
 4.   点击是之后，此时开始刻录过程，等待刻录完成，退出软件即可，此时我们就得到了一个刻录好的 U 盘启动盘了，拿它去安装系统就可以了！
 
-<img src="../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/burn.png" alt="刻录" style="zoom:50%;" />
+<img src="./assets/20220412-how-to-make-usb-boot-drive/burn.png" alt="刻录" style="zoom:50%;" />
 
 ## 单次多系统
 
@@ -97,7 +97,7 @@ https://www.ventoy.net/cn/download.html
 
 3.  然后 Ventoy 会自动识别 U 盘，然后点击安装即可；
 
-![](../../../.vuepress/public/img/windows/20220412-how-to-make-usb-boot-drive/ventoy.png)
+![](./assets/20220412-how-to-make-usb-boot-drive/ventoy.png)
 
 1.  开始安装前会提示抹除 U 盘数据，所以需要先将 U 盘中的资料备份好，然后等待安装过程结束即可；
 2.  接下来，将我们要安装的系统镜像拷贝到我们的 U 盘即可，然后就可以用来安装系统了；
