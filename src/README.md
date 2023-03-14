@@ -64,7 +64,11 @@ features:
 
 建群的目的是希望给大家提供一个良好的技术学习交流平台，由于微信群人满 `100` 之后无法加入，请扫描下方二维码先添加作者 “村雨遥” 微信(`cunyu1024`)，备注：**加群**。
 
-<center><img src="./.vuepress/public/personal/wechat.png" width="150" /></center>
+
+::: center
+![](/personal/wechat.png =150x)
+:::
+
 
 ## 🧩 公众号
 
@@ -72,15 +76,21 @@ features:
 
 防止失联，建议关注并加星。
 
-<center><img src="./.vuepress/public/personal/wechatpublic.png" alt="「公众号」" width="150"/></center>
+::: center
+![](/personal/wechatpublic.png =150x)
+:::
+
 
 ## ✨ Star 趋势图
 
+> 🎈 [JavaPark](https://github.com/cunyu1943/JavaPark)
+
 如果您觉得本项目对您有所帮助，那就去 Github **Star** 收藏一下吧！
 
-> [JavaPark](https://github.com/cunyu1943/JavaPark)
+::: center
+![](https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date){style=zoom:70%}
+:::
 
-<img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date" style="zoom:70%;" />
 
 ## 🧑‍🤝‍🧑 参与贡献
 
