@@ -182,67 +182,66 @@ export default hopeTheme({
       ],
     },
 
-    pwa: false,
-    // {
-    //   favicon: "/JavaPark.svg",
-    //   cacheHTML: false,
-    //   cachePic: false,
-    //   appendBase: false,
-    //   apple: {
-    //     icon: "/JavaPark.svg",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/JavaPark.svg",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/JavaPark.svg",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/svg+xml",
-    //       },
-    //       {
-    //         src: "/JavaPark.svg",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/svg+xml",
-    //       },
-    //       {
-    //         src: "/JavaPark.svg",
-    //         sizes: "512x512",
-    //         type: "image/svg+xml",
-    //       },
-    //       {
-    //         src: "/JavaPark.svg",
-    //         sizes: "192x192",
-    //         type: "image/svg+xml",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //           {
-    //             src: "/assets/icon/guide-monochrome.png",
-    //             sizes: "192x192",
-    //             purpose: "monochrome",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
+    pwa: {
+      favicon: "/JavaPark.svg",
+      cacheHTML: false,
+      cachePic: false,
+      appendBase: false,
+      apple: {
+        icon: "/JavaPark.svg",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/JavaPark.svg",
+        color: "#ffffff",
+      },
+      manifest: {
+        icons: [
+          {
+            src: "/JavaPark.svg",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/svg+xml",
+          },
+          {
+            src: "/JavaPark.svg",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/svg+xml",
+          },
+          {
+            src: "/JavaPark.svg",
+            sizes: "512x512",
+            type: "image/svg+xml",
+          },
+          {
+            src: "/JavaPark.svg",
+            sizes: "192x192",
+            type: "image/svg+xml",
+          },
+        ],
+        shortcuts: [
+          {
+            name: "Demo",
+            short_name: "Demo",
+            url: "/demo/",
+            icons: [
+              {
+                src: "/assets/icon/guide-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+              {
+                src: "/assets/icon/guide-monochrome.png",
+                sizes: "192x192",
+                purpose: "monochrome",
+                type: "image/png",
+              },
+            ],
+          },
+        ],
+      },
+    },
   },
 });
