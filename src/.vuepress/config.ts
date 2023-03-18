@@ -1,7 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import theme from "./theme.js";
-import { removePWAPlugin } from "vuepress-plugin-remove-pwa";
 
 export default defineUserConfig({
   base: "/JavaPark/",
@@ -19,9 +18,6 @@ export default defineUserConfig({
   shouldPrefetch: false,
 
   plugins: [
-    removePWAPlugin({
-      // 你的选项
-    }),
     searchProPlugin({
       // 索引全部内容
       indexContent: true,
