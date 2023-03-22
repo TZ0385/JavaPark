@@ -20,7 +20,7 @@ export const zhNavbar = navbar([
       },
 
       {
-        text: "Java  Web",
+        text: "Java Web",
         icon: "web",
         link: "web/",
       },
@@ -90,31 +90,31 @@ export const zhNavbar = navbar([
   {
     text: "计算机基础",
     icon: "coputer",
-    prefix: "/md/cs-basics/",
+    prefix: "/md",
     children: [
       {
         text: "数据结构与算法",
         icon: "algo",
-        link: "algorithm/",
-      },
-    ],
-  },
-
-  {
-    text: "数据库",
-    icon: "database",
-    prefix: "/md/database/",
-    children: [
-      {
-        text: "MySQL",
-        icon: "mysql",
-        link: "mysql/",
+        link: "/cs-basics/algorithm",
       },
 
       {
-        text: "PostgreSQL",
-        icon: "postgresql",
-        link: "postgresql/",
+        text: "数据库",
+        icon: "database",
+        prefix: "/database",
+        children: [
+          {
+            text: "MySQL",
+            icon: "mysql",
+            link: "/mysql",
+          },
+
+          {
+            text: "PostgreSQL",
+            icon: "postgresql",
+            link: "/postgresql",
+          },
+        ],
       },
     ],
   },
@@ -122,22 +122,23 @@ export const zhNavbar = navbar([
   {
     text: "效率工具",
     icon: "rocket",
-    prefix: "/md/",
+    prefix: "/md",
     children: [
       {
         text: "开发工具",
         icon: "terminal",
+        prefix: "/dev-tools",
         children: [
           {
             text: "IntelliJ IDEA",
             icon: "intellijidea",
-            link: "dev-tools/idea",
+            link: "/idea",
           },
 
           {
             text: "Git 笔记",
             icon: "git",
-            link: "dev-tools/git",
+            link: "/git",
           },
         ],
       },
@@ -145,41 +146,42 @@ export const zhNavbar = navbar([
       {
         text: "效率工具",
         icon: "rocket",
+        prefix: "/tools",
         children: [
           {
             text: "博客搭建",
             icon: "blog",
-            link: "tools/blog",
+            link: "/blog",
           },
 
           {
             text: "效率提升",
             icon: "rocket",
-            link: "tools/efficiency",
+            link: "/efficiency",
           },
 
           {
             text: "资源推荐",
             icon: "resource",
-            link: "tools/resource",
+            link: "/resource",
           },
 
           {
             text: "Windows",
             icon: "windows",
-            link: "tools/windows",
+            link: "/windows",
           },
 
           {
             text: "macOS",
             icon: "macos",
-            link: "tools/macos",
+            link: "/macos",
           },
 
           {
             text: "Linux",
             icon: "linux",
-            link: "tools/linux",
+            link: "/linux",
           },
         ],
       },
@@ -189,12 +191,12 @@ export const zhNavbar = navbar([
   {
     text: "考试提升",
     icon: "exam",
-    prefix: "/md/exam/",
+    prefix: "/md/exam",
     children: [
       {
         text: "软件设计师",
         icon: "robot",
-        link: "software-developer/",
+        link: "/software-developer",
       },
     ],
   },
@@ -216,9 +218,9 @@ export const zhNavbar = navbar([
   //   link: "https://www.yuque.com/cunyu1943/nav/",
   // },
 
-  // {
-  //   text: "更新日志",
-  //   icon: "timeline",
-  //   link: "/timeline",
-  // },
+  {
+    text: "更新日志",
+    icon: "timeline",
+    link: "/timeline",
+  },
 ]);
