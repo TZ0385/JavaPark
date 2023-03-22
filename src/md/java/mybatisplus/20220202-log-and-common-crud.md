@@ -5,7 +5,7 @@ isOriginal: true
 order: 5
 icon: log
 category:
-    - MyBatis Plus 指南
+    - MyBatis Plus 教程
 ---
 
 作者：村雨遥

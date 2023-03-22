@@ -1,9 +1,9 @@
 ---
-title: Spring 6 学习笔记
+title: Spring6 教程
 isOriginal: true
 icon: spring
 category:
-  - Spring6 学习笔记
+  - Spring6 教程
 date: 2023-01-31
 index: false
 ---

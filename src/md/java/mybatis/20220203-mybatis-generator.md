@@ -6,7 +6,7 @@ date: 2022-02-03
 order: 10
 icon: auto
 category:
-  - MyBatis 指北
+  - MyBatis 教程
 ---
 
 作者：村雨遥

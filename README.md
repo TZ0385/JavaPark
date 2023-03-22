@@ -128,12 +128,12 @@
 1. [Spring MVC 指南：简介及入门实例](100%20Learning%20学习/120%20开源项目/JavaPark/src/md/java/springmvc/20220201-intro-and-quick-start.md)
 ### MyBatis
 
-1. [MyBatis 指北：简介](20220201-introduction.md)
-2. [MyBatis 指北：快速入门](20220202-quick-start.md)
-3. [MyBatis 指北：MyBatis Generator 代码自动生成器](20220203-mybatis-generator.md)
+1. [MyBatis 教程：简介](20220201-introduction.md)
+2. [MyBatis 教程：快速入门](20220202-quick-start.md)
+3. [MyBatis 教程：MyBatis Generator 代码自动生成器](20220203-mybatis-generator.md)
 ### MyBatis Plus
-1. [MyBatis Plus 指南：简介及入门实例](100%20Learning%20学习/120%20开源项目/JavaPark/src/md/java/mybatisplus/20220201-intro-and-quick-start.md)
-2. [MyBatis Plus 指南：日志配置及常用 CRUD](20220202-log-and-common-crud.md)
+1. [MyBatis Plus 教程：简介及入门实例](100%20Learning%20学习/120%20开源项目/JavaPark/src/md/java/mybatisplus/20220201-intro-and-quick-start.md)
+2. [MyBatis Plus 教程：日志配置及常用 CRUD](20220202-log-and-common-crud.md)
 ### Spring Boot 基础教程
 
 1.  [Spring Boot 基础教程：入门简介](20220101-introduction.md)
