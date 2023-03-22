@@ -5,7 +5,7 @@ isOriginal: true
 order: 75
 icon: mirror
 category:
-    - Java 菜鸟入门
+    - Java 基础教程
 ---
 
 作者：村雨遥

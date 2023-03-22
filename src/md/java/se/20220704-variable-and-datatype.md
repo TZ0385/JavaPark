@@ -2,7 +2,7 @@
 title: 变量与数据类型
 isOriginal: true
 category:
-  - Java 菜鸟入门
+  - Java 基础教程
 date: 2022-07-04
 icon: variable
 order: 15

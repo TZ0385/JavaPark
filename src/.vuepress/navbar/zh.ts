@@ -5,78 +5,78 @@ export const zhNavbar = navbar([
   {
     text: "Java",
     icon: "java",
-    prefix: "/md/java/",
+    prefix: "/md/java",
     children: [
       {
-        text: "SE 菜鸟入门",
+        text: "基础教程",
         icon: "java",
-        link: "se/",
+        link: "/se",
       },
 
       {
-        text: "SE 实训营",
+        text: "基础实战",
         icon: "java",
-        link: "se-in-action/",
+        link: "/se-in-action",
       },
 
       {
-        text: "Java Web",
+        text: "Web 教程",
         icon: "web",
-        link: "web/",
+        link: "/web",
       },
 
       {
-        text: "Maven 入门",
+        text: "Maven 教程",
         icon: "apache",
-        link: "maven/",
+        link: "/maven",
       },
 
       {
         text: "Spring 教程",
         icon: "spring",
-        link: "spring/",
+        link: "/spring",
       },
 
       {
         text: "Spring MVC",
         icon: "spring",
-        link: "springmvc/",
+        link: "/springmvc",
       },
 
       {
-        text: "MyBatis 指北",
+        text: "MyBatis 教程",
         icon: "mybatis",
-        link: "mybatis/",
+        link: "/mybatis",
       },
 
       {
         text: "MyBatis Plus",
         icon: "mybatis",
-        link: "mybatisplus/",
+        link: "/mybatisplus",
       },
 
       {
         text: "Spring Boot",
         icon: "spring",
-        link: "springboot/",
+        link: "/springboot",
       },
 
       {
-        text: "JavaScript 笔记",
+        text: "JavaScript",
         icon: "javascript",
-        link: "js/",
+        link: "/js",
       },
 
       {
-        text: "Vue3 笔记",
+        text: "Vue3 教程",
         icon: "vue",
-        link: "vue3/",
+        link: "/vue3",
       },
 
       {
-        text: "Nginx 笔记",
+        text: "Nginx 教程",
         icon: "nginx",
-        link: "nginx/",
+        link: "/nginx",
       },
     ],
   },
@@ -120,7 +120,7 @@ export const zhNavbar = navbar([
   },
 
   {
-    text: "效率工具",
+    text: "效率提升",
     icon: "rocket",
     prefix: "/md",
     children: [

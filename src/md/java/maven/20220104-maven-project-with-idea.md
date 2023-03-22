@@ -4,7 +4,7 @@ isOriginal: true
 order: 15
 icon: intellijidea
 category:
-  - Maven 入门手册
+  - Maven 教程
 date: 2022-01-04
 ---
 

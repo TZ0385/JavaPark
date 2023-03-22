@@ -3,7 +3,7 @@ title: 简介，安装及配置
 isOriginal: true
 icon: intro
 order: 1
-category: Maven 入门手册
+category: Maven 教程
 date: 2022-01-01
 ---
 

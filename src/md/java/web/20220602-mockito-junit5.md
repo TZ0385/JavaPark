@@ -39,7 +39,7 @@ date: 2022-06-02
 
 既然要测试，那肯定得上代码了。这里为了方便管理依赖，所以创建一个 Maven 项目来作为示例。如果你还不知道如何创建一个 Maven 项目，那么推荐先去阅读下以下这篇文章。
 
-> [Maven 入门手册：使用 IDEA 创建 Maven 项目](../maven/20220104-maven-project-with-idea.md)
+> [Maven 教程：使用 IDEA 创建 Maven 项目](../maven/20220104-maven-project-with-idea.md)
 
 创建好项目之后，项目结构如下图所示。
 

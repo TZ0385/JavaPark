@@ -3,7 +3,7 @@ title: static 和 final 小课堂
 isOriginal: true
 icon: oop
 category:
-  - Java 菜鸟入门
+  - Java 基础教程
 date: 2022-12-03
 order: 51
 ---

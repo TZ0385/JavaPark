@@ -4,7 +4,7 @@ isOriginal: true
 order: 5
 icon: order
 category:
-  - Maven 入门手册
+  - Maven 教程
 date: 2022-01-02
 ---
 

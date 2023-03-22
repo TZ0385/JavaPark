@@ -4,7 +4,7 @@ isOriginal: true
 order: 65
 icon: list
 category:
-  - Java 菜鸟入门
+  - Java 基础教程
 date: 2022-07-14
 ---
 

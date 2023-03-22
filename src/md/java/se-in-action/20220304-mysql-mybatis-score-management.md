@@ -5,7 +5,7 @@ isOriginal: true
 order: 4
 icon: mybatis
 category:
-  - SE 实训营
+  - Java 基础实战
 date: 2022-03-04
 ---
 

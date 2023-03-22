@@ -2,7 +2,7 @@
 title: 常用进制转换
 isOriginal: true
 category:
-  - Java 菜鸟入门
+  - Java 基础教程
 date: 2022-07-05
 icon: convert
 order: 20

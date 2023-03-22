@@ -2,7 +2,7 @@
 title: 数组操作的奇技淫巧
 isOriginal: true
 category:
-  - Java 菜鸟入门
+  - Java 基础教程
 date: 2022-07-08
 order: 35
 icon: array

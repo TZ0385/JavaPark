@@ -5,7 +5,7 @@ isOriginal: true
 icon: test
 order: 85
 category:
-    - Java 菜鸟入门
+    - Java 基础教程
 ---
 
 作者：村雨遥

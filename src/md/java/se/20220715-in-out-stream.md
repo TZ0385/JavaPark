@@ -5,7 +5,7 @@ date: 2022-07-15
 order: 70
 icon: keyboard
 category:
-    - Java 菜鸟入门
+    - Java 基础教程
 ---
 
 作者：村雨遥

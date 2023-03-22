@@ -3,7 +3,7 @@ title: 开发环境搭建及入门程序
 isOriginal: true
 icon: install
 category:
-  - Java 菜鸟入门
+  - Java 基础教程
 date: 2022-07-02
 order: 5
 ---

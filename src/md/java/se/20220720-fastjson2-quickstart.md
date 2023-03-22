@@ -4,7 +4,7 @@ isOriginal: true
 order: 95
 icon: json
 category:
-  - Java 菜鸟入门
+  - Java 基础教程
 date: 2022-07-20
 ---
 
@@ -49,7 +49,7 @@ date: 2022-07-20
 
 当然，首要的工作就是创建一个 `Maven` 项目，如果你还有点摸不着头脑，那可以移步先去看看前备知识：
 
-> [Maven 入门手册：使用 IDEA 创建 Maven 项目](https://cunyu1943.github.io/JavaPark/md/java/maven/20220104-maven-project-with-idea)
+> [Maven 教程：使用 IDEA 创建 Maven 项目](https://cunyu1943.github.io/JavaPark/md/java/maven/20220104-maven-project-with-idea)
 
 当我们创建完成一个 `Maven` 项目之后，首要的工作就是在项目的 `pom.xml` 中添加 `Fastjson V2` 的依赖。
 

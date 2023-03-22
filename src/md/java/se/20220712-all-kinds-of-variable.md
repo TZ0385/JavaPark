@@ -6,7 +6,7 @@ date: 2022-07-12
 order: 55
 icon: variable
 category:
-    - Java 菜鸟入门
+    - Java 基础教程
 ---
 
 作者：村雨遥

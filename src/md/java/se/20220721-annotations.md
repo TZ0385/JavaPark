@@ -3,7 +3,7 @@ title: 深入浅出 Java 注解
 isOriginal: true
 icon: flag
 category:
-  - Java 菜鸟入门
+  - Java 基础教程
 date: 2022-07-21
 order: 76
 ---

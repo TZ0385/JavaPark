@@ -4,7 +4,7 @@ date: 2022-07-19
 icon: lombok
 isOriginal: true
 category:
-    - Java 菜鸟入门
+    - Java 基础教程
 order: 90
 ---
 

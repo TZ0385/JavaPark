@@ -19,7 +19,7 @@ actions:
 
 features:
 
-  - title: Java 菜鸟入门
+  - title: Java 基础教程
     icon: java
     details: Java 初学者入门必备
     link: /md/java/se/
