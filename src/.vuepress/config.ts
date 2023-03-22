@@ -6,6 +6,21 @@ export default defineUserConfig({
   base: "/JavaPark/",
   lang: "zh-CN",
 
+  head: [
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    [
+      "link",
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
+    ],
+    [
+      "link",
+      {
+        href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Ma+Shan+Zheng&family=Zhi+Mang+Xing&display=swap",
+        rel: "stylesheet",
+      },
+    ],
+  ],
+
   locales: {
     "/": {
       title: "JavaPark",
