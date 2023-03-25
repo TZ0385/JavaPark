@@ -289,6 +289,17 @@
 链接：https://cunyu1943.github.io/JavaPark
 来源：公众号「村雨遥」
 ````
+## 赞助
+
+开源不易，如果你觉得本仓库对你有帮助，或许可以请我喝杯咖啡 ☕️
+
+<center>
+
+|支付宝|微信|
+|:-:|:-:|
+|<img src="./src/.vuepress/public/personal/alipay.png" width="150">|<img src="./src/.vuepress/public/personal/wechatpay.png" width="150">|
+</center>
+
 ## Star 趋势图
 
 <center><img src="https://api.star-history.com/svg?repos=cunyu1943/JavaPark&type=Date" width="400"/></center>
