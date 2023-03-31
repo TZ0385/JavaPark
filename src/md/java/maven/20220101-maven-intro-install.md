@@ -89,7 +89,7 @@ mvn -v
 
 - **bin**
 
-包含 mvn 运行的脚步，用于配置 Java 命令，准备好 classpath 和相关的 Java 系统属性，然后执行 Java 命令。
+包含 mvn 运行的脚本，用于配置 Java 命令，准备好 classpath 和相关的 Java 系统属性，然后执行 Java 命令。
 
 - **boot**
 
