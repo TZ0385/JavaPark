@@ -95,7 +95,7 @@ features:
 
 开源不易，如果你觉得本仓库对你有帮助，或许可以请我喝杯咖啡 ☕️
 
-:::center
+::: center
 |支付宝|微信|
 |:-:|:-:|
 |![](/personal/alipay.png =150x)|![](/personal/wechatpay.png =150x)|
