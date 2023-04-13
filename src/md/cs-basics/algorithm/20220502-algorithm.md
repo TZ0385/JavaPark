@@ -121,7 +121,7 @@ void sayHello(String name){
 
 ##### $O(log n)$
 
-如下列二分查找代码中，通过 `while` 循环，能够成倍的缩减搜索范围，假设需要 `x` 次才能跳出循环，则有 `num * 2 * 2 * ... = n` ，其中 `num` 是常数，有 `n` 个 2 相乘，则有 $num * 2 ^x = n$，从而推出 $x = log_2(n/num)$ ，因此时间复杂度用大 O 表示法表示为 $O(log n)。$
+如下列二分查找代码中，通过 `while` 循环，能够成倍的缩减搜索范围，假设需要 `x` 次才能跳出循环，则有 `num * 2 * 2 * ... = n` ，其中 `num` 是常数，有 `n` 个 2 相乘，则有 $num * 2 ^x = n$，从而推出 $x = log_2(n/num)$ ，因此时间复杂度用大 O 表示法表示为 $O(log n)$。
 
 ```java
 int binarySearch(int[] arr, int target){
