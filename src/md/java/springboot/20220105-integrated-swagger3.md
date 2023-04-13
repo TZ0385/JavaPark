@@ -110,7 +110,7 @@ import java.util.ArrayList;
  * @className : SwaggerConfig
  * @createTime : 2022/1/6 14:19
  * @email : 747731461@qq.com
- * @微信 : cunyu1024
+ * @微信 : cunyu1943
  * @公众号 : 村雨遥
  * @网站 : https://cunyu1943.github.io
  * @description :
@@ -191,7 +191,7 @@ import lombok.NoArgsConstructor;
  * @className : User
  * @createTime : 2022/1/6 11:17
  * @email : 747731461@qq.com
- * @微信 : cunyu1024
+ * @微信 : cunyu1943
  * @公众号 : 村雨遥
  * @网站 : https://cunyu1943.github.io
  * @description :
@@ -236,7 +236,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @className : UserController
  * @createTime : 2022/1/6 11:02
  * @email : 747731461@qq.com
- * @微信 : cunyu1024
+ * @微信 : cunyu1943
  * @公众号 : 村雨遥
  * @网站 : https://cunyu1943.github.io
  * @description :

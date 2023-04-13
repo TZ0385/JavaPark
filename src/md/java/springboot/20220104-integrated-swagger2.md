@@ -110,7 +110,7 @@ import java.util.ArrayList;
  * @className : Swagger2Configuration
  * @createTime : 2022/1/5 22:21
  * @email : 747731461@qq.com
- * @微信 : cunyu1024
+ * @微信 : cunyu1943
  * @公众号 : 村雨遥
  * @网站 : https://cunyu1943.github.io
  * @description :
@@ -180,7 +180,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @className : SwaggerDemoController
  * @createTime : 2022/1/5 22:21
  * @email : 747731461@qq.com
- * @微信 : cunyu1024
+ * @微信 : cunyu1943
  * @公众号 : 村雨遥
  * @网站 : https://cunyu1943.github.io
  * @description :

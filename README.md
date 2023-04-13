@@ -267,7 +267,7 @@
 
 ### 加群交流
 
-建群的目的是希望给大家提供一个良好的技术学习交流平台，由于微信群人满 `100` 之后无法加入，请扫描下方二维码先添加作者 “村雨遥” 微信(`cunyu1024`)，备注：**加群**。
+建群的目的是希望给大家提供一个良好的技术学习交流平台，由于微信群人满 `100` 之后无法加入，请扫描下方二维码先添加作者 “村雨遥” 微信(`cunyu1943`)，备注：**加群**。
 
 <center><img src="./src/.vuepress/public/personal/wechat.png" width="150"></center>
 
@@ -295,9 +295,9 @@
 
 <center>
 
-|支付宝|微信|
-|:-:|:-:|
-|<img src="./src/.vuepress/public/personal/alipay.png" width="150">|<img src="./src/.vuepress/public/personal/wechatpay.png" width="150">|
+|                               支付宝                               |                                 微信                                  |
+| :----------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| <img src="./src/.vuepress/public/personal/alipay.png" width="150"> | <img src="./src/.vuepress/public/personal/wechatpay.png" width="150"> |
 </center>
 
 ## Star 趋势图

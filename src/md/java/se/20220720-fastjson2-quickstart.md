@@ -29,7 +29,7 @@ date: 2022-07-20
     "baseInfo": {
         "name": "cunyu1943",
         "wepublic": "村雨遥",
-        "wechat": "cunyu1024",
+        "wechat": "cunyu1943",
         "platform": ["juejin", "CSDN", "Github", "zhihu"]
     }
 }
